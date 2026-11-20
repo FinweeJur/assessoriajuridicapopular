@@ -11,7 +11,7 @@ ORIGEM = r"X:\DevCoder\controle-popular\apps\web\lib\memoria\calendario.ts"
 DESTINO = os.path.join(RAIZ, "dados")
 
 t = io.open(ORIGEM, encoding="utf-8").read()
-blocos = re.split(r"\n\s*\{\s*\n\s*diaMes:", t)[1:]
+blocos = ["diaMes:" + b for b in re.split(r"diaMes:\s*", t)[1:]]
 print("blocos:", len(blocos))
 
 
