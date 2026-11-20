@@ -201,4 +201,16 @@
       el.addEventListener('blur', solta);
     });
   })();
+
+  // ── Rádio e Perguntar: só aparecem depois que a página rola ──────────────
+  (function botoesNoComeco() {
+    var corpo = document.body;
+    function avalia() {
+      var rolavel = document.documentElement.scrollHeight > window.innerHeight + 120;
+      corpo.dataset.comeco = (rolavel && window.scrollY < 140) ? 'true' : 'false';
+    }
+    window.addEventListener('scroll', avalia, { passive: true });
+    window.addEventListener('resize', avalia);
+    avalia();
+  })();
 })();

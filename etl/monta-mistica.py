@@ -52,8 +52,8 @@ PAGINA = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=3" />
-  <link rel="stylesheet" href="reveal.css?v=3" />
+  <link rel="stylesheet" href="acervo.css?v=27" />
+  <link rel="stylesheet" href="reveal.css?v=27" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
@@ -119,7 +119,7 @@ PAGINA = """<!DOCTYPE html>
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
-<script src="casca.js?v=2" defer></script>
+<script src="casca.js?v=3" defer></script>
 </body>
 </html>
 """.replace("@@TOPO@@", ms.topo("texto")).replace("@@DOC_BOGO@@", DOC_BOGO).replace("@@CITACAO@@", citacao_html).replace("@@CORPO@@", corpo_html).replace("@@DOC_MISTICA@@", DOC_MISTICA).replace("@@RODAPE@@", ms.rodape())

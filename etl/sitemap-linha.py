@@ -80,8 +80,8 @@ PAGINA = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=17" />
-  <link rel="stylesheet" href="reveal.css?v=17" />
+  <link rel="stylesheet" href="acervo.css?v=27" />
+  <link rel="stylesheet" href="reveal.css?v=27" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
@@ -100,7 +100,7 @@ PAGINA = """<!DOCTYPE html>
 %s
 <script src="linha-tempo.js?v=2" defer></script>
 <script src="leitura.js?v=2" defer></script>
-<script src="casca.js?v=2" defer></script>
+<script src="casca.js?v=3" defer></script>
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>

@@ -1126,3 +1126,15 @@ a.cartao:hover, a.cartao:focus-visible,
   font-size: .72rem; line-height: 1.55; color: var(--cp-text-soft);
   text-align: center;
 }
+
+/* Botões flutuantes: saem do caminho no topo da página */
+.radio-flut, .assistente {
+  transition: opacity .25s ease, transform .25s ease, visibility .25s ease;
+}
+body[data-comeco="true"] .radio-flut,
+body[data-comeco="true"] .assistente {
+  opacity: 0; visibility: hidden; transform: translateY(10px); pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .radio-flut, .assistente { transition: none; }
+}

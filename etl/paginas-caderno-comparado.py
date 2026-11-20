@@ -26,8 +26,8 @@ def escreve(arquivo, titulo, descricao, olho, lead, corpo, autor, data_iso, font
   <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=7" />
-  <link rel="stylesheet" href="reveal.css?v=7" />
+  <link rel="stylesheet" href="acervo.css?v=27" />
+  <link rel="stylesheet" href="reveal.css?v=27" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
@@ -67,7 +67,7 @@ def escreve(arquivo, titulo, descricao, olho, lead, corpo, autor, data_iso, font
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
-<script src="casca.js?v=2" defer></script>
+<script src="casca.js?v=3" defer></script>
 </body>
 </html>
 """
