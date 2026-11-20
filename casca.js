@@ -417,4 +417,24 @@
     if (window.ResizeObserver) { new ResizeObserver(reposiciona).observe(nav); }
     reposiciona();
   })();
+
+  // ── Seções caem ao entrar na tela (falling sections) ───────────────────
+  (function secoesCaindo() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
+    if (!('IntersectionObserver' in window)) { return; }
+    var alvos = document.querySelectorAll('.pagina .secao, .miolo > .secao, .referencias');
+    if (!alvos.length) { return; }
+    var observador = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (entrada) {
+        if (entrada.isIntersecting) {
+          entrada.target.dataset.caiu = 'true';
+          observador.unobserve(entrada.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
+    Array.prototype.forEach.call(alvos, function (el) {
+      el.classList.add('cai');
+      observador.observe(el);
+    });
+  })();
 })();
