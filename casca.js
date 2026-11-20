@@ -161,7 +161,8 @@
     botao.setAttribute('aria-controls', 'menu-principal');
     botao.innerHTML = '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
     links.id = 'menu-principal';
-    interno.appendChild(botao);
+    var marca = interno.querySelector('.topo__marca');
+    if (marca) { marca.insertAdjacentElement('afterend', botao); } else { interno.appendChild(botao); }
 
     botao.addEventListener('click', function () {
       var aberto = topo.dataset.aberto === 'true';
