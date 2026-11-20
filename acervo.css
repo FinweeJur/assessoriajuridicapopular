@@ -828,3 +828,8 @@ a.cartao:hover, a.cartao:focus-visible,
 @media (max-width: 760px) {
   .rodape__interno { grid-template-columns: 1fr !important; gap: var(--e4) !important; }
 }
+
+/* Medida de leitura: nada de linha com 120ch */
+.citacao blockquote p, .aviso-lote, .linhas li, .corpo p { max-width: 65ch; }
+.tabela table { min-width: 0; }
+.tabela table:has(th:nth-child(3)) { min-width: 30rem; }
