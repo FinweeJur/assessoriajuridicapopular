@@ -563,3 +563,37 @@ h2 {
 .autor-link a { font-weight: 700; }
 
 .relacionados { margin-top: var(--e6); }
+
+/* ── Correções da rodada 4 ──────────────────────────────────────────────── */
+/* Logos em linha: o rodapé estiliza todo <ul>, inclusive o das parcerias. */
+.rodape .parcerias__lista,
+.parcerias .parcerias__lista {
+  display: flex !important; flex-wrap: wrap; align-items: center;
+  justify-content: center; gap: 20px 40px; margin: 0 auto; padding: 0;
+}
+.parcerias__lista li { display: flex; align-items: center; }
+.parcerias__lista img { max-height: 40px; width: auto; }
+
+/* Capa: seções fora do .miolo também respiram. */
+.porta, .busca, .chips, .fita-secao, .numeros {
+  max-width: var(--largura); margin-left: auto; margin-right: auto;
+  padding-left: clamp(16px, 4vw, 40px); padding-right: clamp(16px, 4vw, 40px);
+}
+.porta { padding-top: var(--e6); }
+.porta h1 { max-width: 26ch; }
+
+/* Menu aberto por estado (hover com atraso e clique) */
+.menu[data-aberto="true"] .menu__lista { display: grid; gap: 2px; }
+
+/* Leitura de texto corrido: corpo menor, medida curta e entrelinha estável. */
+.corpo { font-size: 1rem; }
+.corpo p,
+.corpo li,
+.corpo blockquote p {
+  font-size: clamp(.96rem, .25vw + .9rem, 1.02rem) !important;
+  line-height: 1.58 !important;
+  max-width: 62ch;
+  text-wrap: pretty;
+}
+.corpo h2 { font-size: 1.22rem; }
+.corpo h3 { font-size: 1.06rem; }
