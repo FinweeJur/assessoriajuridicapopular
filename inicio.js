@@ -139,22 +139,24 @@
         var idx = par[1];
         var ico = no.querySelector('.fluxo__ico');
         var r = ico.getBoundingClientRect();
-        var fim = {
+        var centro = {
           x: r.left + r.width / 2 - pr.left,
           y: r.top + r.height / 2 - pr.top
         };
-        var vertical = Math.abs(fim.x - core.x) < 90;
+        var inicio = idx === 0 ? centro : core;
+        var fim = idx === 0 ? core : centro;
+        var vertical = Math.abs(fim.x - inicio.x) < 90;
         var d;
         if (vertical) {
-          var meioY = (core.y + fim.y) / 2;
-          d = 'M' + core.x + ' ' + core.y +
-              ' C' + (core.x + 80) + ' ' + (core.y + 30) +
+          var meioY = (inicio.y + fim.y) / 2;
+          d = 'M' + inicio.x + ' ' + inicio.y +
+              ' C' + (inicio.x + 80) + ' ' + (inicio.y + 30) +
               ' ' + (fim.x + 80) + ' ' + meioY +
               ' ' + fim.x + ' ' + fim.y;
         } else {
-          var cx = (core.x + fim.x) / 2;
-          var cy = Math.min(core.y, fim.y) - 70;
-          d = 'M' + core.x + ' ' + core.y +
+          var cx = (inicio.x + fim.x) / 2;
+          var cy = Math.min(inicio.y, fim.y) - 70;
+          d = 'M' + inicio.x + ' ' + inicio.y +
               ' Q' + cx + ' ' + cy +
               ' ' + fim.x + ' ' + fim.y;
         }
@@ -163,7 +165,7 @@
         var gid = 'fluxo-grad-' + idx;
         var grad = cria('linearGradient', {
           id: gid, gradientUnits: 'userSpaceOnUse',
-          x1: core.x, y1: core.y, x2: fim.x, y2: fim.y
+          x1: inicio.x, y1: inicio.y, x2: fim.x, y2: fim.y
         });
         grad.appendChild(cria('stop', { offset: '0%', 'stop-color': cores[0], 'stop-opacity': '1' }));
         grad.appendChild(cria('stop', { offset: '55%', 'stop-color': cores[1], 'stop-opacity': '.8' }));
@@ -196,7 +198,7 @@
             });
             met.appendChild(cria('animate', {
               attributeName: 'stroke-dashoffset',
-              values: (total + seg) + ';0',
+              values: '0;-' + (total + seg),
               dur: (2.2 + k * 0.35) + 's',
               begin: (k * 0.65) + 's',
               repeatCount: 'indefinite'

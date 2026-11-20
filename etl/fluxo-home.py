@@ -21,7 +21,7 @@ FLUXO = """  <section class="fluxo" aria-labelledby="fluxo-titulo">
         <a class="fluxo__no fluxo__no--blog" href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">
           <span class="fluxo__ico fluxo__ico--wp">%s</span>
           <b>Blog original AJP</b>
-          <small>Blogger</small>
+          <small>Blogger - 2009</small>
         </a>
         <div class="fluxo__no fluxo__no--code">
           <span class="fluxo__ico fluxo__ico--code">%s</span>
@@ -33,7 +33,7 @@ FLUXO = """  <section class="fluxo" aria-labelledby="fluxo-titulo">
           <b>GitHub</b>
           <small>acervo publicado</small>
         </a>
-        <span class="fluxo__novo">Novo Site
+        <span class="fluxo__novo">Novo Site - 2026
           <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg>
         </span>
       </div>
