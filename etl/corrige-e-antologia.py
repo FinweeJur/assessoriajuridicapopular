@@ -116,11 +116,11 @@ MODELO = """<!DOCTYPE html>
              data-fonte-url="" data-fonte="Caderno de Poesias">
       <h2>Compartilhar e citar</h2>
       <div class="compartilhar__botoes">
-        <button type="button" data-acao="whatsapp">WhatsApp</button>
-        <button type="button" data-acao="telegram">Telegram</button>
-        <button type="button" data-acao="instagram">Instagram</button>
-        <button type="button" data-acao="copiar-texto">Copiar texto</button>
-        <button type="button" data-acao="copiar-citacao">Copiar citação ABNT</button>
+        <button type="button" data-acao="whatsapp"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l2.2-5.3A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.5 10.5c.5 2 2 3.5 4 4l1.5-1.5 2 1"/></svg> WhatsApp</button>
+        <button type="button" data-acao="telegram"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="m22 3-9.5 18-2-7.5L3 11l19-8Z"/><path d="m10.5 13.5 3-3"/></svg> Telegram</button>
+        <button type="button" data-acao="instagram"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></svg> Instagram</button>
+        <button type="button" data-acao="copiar-texto"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg> Copiar texto</button>
+        <button type="button" data-acao="copiar-citacao"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h7"/><path d="m17 15 3 2-3 2"/></svg> Copiar citação ABNT</button>
       </div>
       <p class="compartilhar__status" data-status role="status" aria-live="polite" data-visivel="false"></p>
     </section>
