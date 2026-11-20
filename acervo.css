@@ -1504,3 +1504,11 @@ a.cartao, .item__link, .destaque, .bento__item {
   .bento .bento__item--grande,
   .bento .bento__item--largo { grid-column: auto !important; grid-row: auto !important; }
 }
+
+/* Bento em duas colunas na meia janela */
+@media (min-width: 561px) and (max-width: 1100px) {
+  .bento { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .bento .bento__item { grid-column: auto !important; grid-row: auto !important; }
+  .bento .bento__item--grande { grid-column: span 2 !important; }
+  .bento .bento__item--largo { grid-column: span 2 !important; }
+}
