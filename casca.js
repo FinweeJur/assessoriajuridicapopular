@@ -483,7 +483,12 @@
     nav.appendChild(pilha);
     nav.appendChild(tubo);
 
-    var ativo = nav.querySelector('a[aria-current="page"]') || nav.querySelector('a');
+    var ativo = nav.querySelector(':scope > a[aria-current="page"]');
+    if (!ativo) {
+      var dentro = nav.querySelector('.menu__lista a[aria-current="page"]');
+      if (dentro) { ativo = nav.querySelector('.menu__botao'); }
+    }
+    if (!ativo) { ativo = nav.querySelector(':scope > a'); }
 
     function move(el) {
       if (!el) { return; }
@@ -500,6 +505,7 @@
     }
 
     Array.prototype.forEach.call(nav.querySelectorAll('a, .menu__botao'), function (el) {
+      if (el.closest('.menu__lista')) { return; }
       el.addEventListener('pointerenter', function () { move(el); });
       el.addEventListener('focus', function () { move(el); });
     });
