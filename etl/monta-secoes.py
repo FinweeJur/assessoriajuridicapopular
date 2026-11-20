@@ -70,11 +70,11 @@ def topo(ativo):
         </button>
         <ul class="menu__lista" id="menu-secoes">
 %s
+          <li><a href="assessoria-juridica-popular-no-mundo.html">Direito comparado</a></li>
         </ul>
       </div>
       <a href="linha-do-tempo.html">Linha do tempo</a>
       <a href="autores.html">Autores</a>
-      <a href="assessoria-juridica-popular-no-mundo.html">Comparado</a>
       <a href="blog.html"%s>Blog</a>
     </nav>
     <div class="topo__tema">

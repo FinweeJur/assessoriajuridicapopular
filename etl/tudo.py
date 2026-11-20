@@ -26,6 +26,7 @@ def main():
         roda("monta-paginas.py")
     roda("classifica.py")          # tipo de texto
     roda("palavras.py")            # palavras-chave
+    roda("tema-principal.py")      # um tema por texto, sem duplicar seção
     roda("monta-autores.py")       # páginas de autor
     roda("monta-secoes.py")        # 6 seções + blog
     roda("alinha-capa.py")         # topo e rodapé da capa
