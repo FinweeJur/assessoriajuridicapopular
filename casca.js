@@ -270,6 +270,26 @@
 
   // ── Electro border: no máximo dois por página ───────────────────────────
   (function electro() {
+    if (!document.getElementById('electro-filtro')) {
+      var caixaFiltro = document.createElement('div');
+      caixaFiltro.setAttribute('aria-hidden', 'true');
+      caixaFiltro.style.cssText = 'position:absolute;width:0;height:0;overflow:hidden';
+      caixaFiltro.innerHTML =
+        '<svg xmlns="http://www.w3.org/2000/svg">' +
+        '<defs>' +
+        '<filter id="electro-filtro" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">' +
+        '<feTurbulence type="fractalNoise" baseFrequency="0.015 0.08" numOctaves="2" seed="1" result="ruido">' +
+        '<animate attributeName="seed" values="1;4;8;12;7;3;1" dur="1.1s" repeatCount="indefinite" />' +
+        '</feTurbulence>' +
+        '<feDisplacementMap in="SourceGraphic" in2="ruido" scale="5" xChannelSelector="R" yChannelSelector="G" />' +
+        '</filter>' +
+        '<filter id="electro-filtro-parado" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">' +
+        '<feTurbulence type="fractalNoise" baseFrequency="0.015 0.08" numOctaves="2" seed="5" result="ruido" />' +
+        '<feDisplacementMap in="SourceGraphic" in2="ruido" scale="4" xChannelSelector="R" yChannelSelector="G" />' +
+        '</filter>' +
+        '</defs></svg>';
+      document.body.appendChild(caixaFiltro);
+    }
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
     var alvos = document.querySelectorAll('.bento__item--grande, .mistica-cartao');
     if (!alvos.length) {
@@ -345,5 +365,47 @@
       principal.dispatchEvent(new Event('input', { bubbles: true }));
       principal.scrollIntoView({ block: 'center' });
     });
+  })();
+
+  // ── Navegação dinâmica: pílula e tubelight seguem o item ativo ─────────
+  (function navDinamica() {
+    var nav = document.querySelector('.topo__links');
+    if (!nav) { return; }
+    var pilha = document.createElement('span');
+    pilha.className = 'topo__pilha';
+    pilha.setAttribute('aria-hidden', 'true');
+    var tubo = document.createElement('span');
+    tubo.className = 'topo__tubo';
+    tubo.setAttribute('aria-hidden', 'true');
+    nav.appendChild(pilha);
+    nav.appendChild(tubo);
+
+    var ativo = nav.querySelector('a[aria-current="page"]') || nav.querySelector('a');
+
+    function move(el) {
+      if (!el) { return; }
+      var nr = nav.getBoundingClientRect();
+      var r = el.getBoundingClientRect();
+      if (r.width < 2) { return; }
+      var esq = r.left - nr.left;
+      pilha.style.left = esq + 'px';
+      pilha.style.width = r.width + 'px';
+      pilha.style.opacity = '1';
+      tubo.style.left = (esq + 8) + 'px';
+      tubo.style.width = Math.max(8, r.width - 16) + 'px';
+      tubo.style.opacity = '1';
+    }
+
+    Array.prototype.forEach.call(nav.querySelectorAll('a, .menu__botao'), function (el) {
+      el.addEventListener('pointerenter', function () { move(el); });
+      el.addEventListener('focus', function () { move(el); });
+    });
+    nav.addEventListener('pointerleave', function () { move(ativo); });
+    window.addEventListener('resize', function () { move(ativo); });
+    window.addEventListener('load', function () { move(ativo); });
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () { move(ativo); });
+    }
+    move(ativo);
   })();
 })();
