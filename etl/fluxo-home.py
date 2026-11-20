@@ -21,7 +21,7 @@ FLUXO = """  <section class="fluxo" aria-labelledby="fluxo-titulo">
         <a class="fluxo__no" href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">
           <span class="fluxo__ico fluxo__ico--wp">%s</span>
           <b>Blog original AJP</b>
-          <small>WordPress</small>
+          <small>Blogger</small>
         </a>
         <div class="fluxo__no">
           <span class="fluxo__ico fluxo__ico--code">%s</span>
