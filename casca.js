@@ -125,4 +125,26 @@
       });
     });
   }
+
+  // ── Rádio: abre e fecha o painel, mesmo se o script antigo falhar ───────
+  (function radioFlutuanteCasca() {
+    var caixa = document.querySelector('.radio-flut');
+    if (!caixa) { return; }
+    var botao = caixa.querySelector('.radio-flut__botao');
+    var fechar = caixa.querySelector('[data-radio-fechar]');
+    if (!botao) { return; }
+    // Evita dois toggles no mesmo clique.
+    botao.removeAttribute('data-radio-toggle');
+    botao.addEventListener('click', function () {
+      var aberto = caixa.dataset.aberto === 'true';
+      caixa.dataset.aberto = String(!aberto);
+      botao.setAttribute('aria-expanded', String(!aberto));
+    });
+    if (fechar) {
+      fechar.addEventListener('click', function () {
+        caixa.dataset.aberto = 'false';
+        botao.setAttribute('aria-expanded', 'false');
+      });
+    }
+  })();
 })();

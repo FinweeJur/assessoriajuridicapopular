@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Memória e cultura · AJP — Assessoria Jurídica Popular</title>
+  <meta name="description" content="Encontros, cartas políticas, poesia e o que a rede guarda desde 2009." />
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="fontes/fontshare.css" />
+  <link rel="stylesheet" href="temas/temas.css" />
+  <link rel="stylesheet" href="temas/renap.css" />
+  <link rel="stylesheet" href="acervo.css?v=8" />
+  <link rel="stylesheet" href="reveal.css?v=8" />
+  <link rel="stylesheet" href="componentes/radio.css" />
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo">
+  <div class="topo__interno">
+    <a class="topo__marca" href="index.html">
+      <span class="ponto" aria-hidden="true"></span>
+      AJP <span>· Assessoria Jurídica Popular</span>
+    </a>
+    <nav class="topo__links" aria-label="Seções">
+      <a href="index.html">Acervo</a>
+      <div class="menu">
+        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes">
+          Seções <span aria-hidden="true">▾</span>
+        </button>
+        <ul class="menu__lista" id="menu-secoes">
+          <li><a href="assessoria-juridica-popular.html">O que é assessoria jurídica popular</a></li>
+          <li><a href="direitos-humanos.html">Direitos humanos</a></li>
+          <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
+          <li><a href="memoria-e-cultura.html" aria-current="page">Memória e cultura</a></li>
+          <li><a href="teoria-critica.html">Teoria crítica do direito</a></li>
+          <li><a href="educacao-popular.html">Educação popular</a></li>
+        </ul>
+      </div>
+      <a href="autores.html">Autores</a>
+      <a href="assessoria-juridica-popular-no-mundo.html">Comparado</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+    <div class="topo__tema">
+      <label for="tema">Tema</label>
+      <select id="tema" name="tema">
+        <option value="light">⚪ Claro</option>
+        <option value="dark">⚫ Escuro</option>
+        <option value="brasil">🟢 Brasil</option>
+        <option value="high-contrast">◐ Alto contraste</option>
+        <option value="pequi">🟠 Pequi</option>
+        <option value="cerrado">🟡 Cerrado</option>
+        <option value="mata-atlantica">🟩 Mata Atlântica</option>
+        <option value="caatinga">🟤 Caatinga</option>
+        <option value="pantanal">🔵 Pantanal</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero hero--texto">
+    <div class="hero__foto" style="background-image:url('img/foto-03.jpg')" aria-hidden="true"></div>
+    <div class="hero__veu" aria-hidden="true"></div>
+    <div class="hero__interno">
+      <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Seção do acervo</p>
+      <h1>Memória e cultura</h1>
+      <p class="lead">Encontros, cartas políticas, poesia e o que a rede guarda desde 2009.</p>
+      <p class="busca__contagem">59 textos nesta seção</p>
+    </div>
+  </section>
+
+  <div class="miolo">
+    <section class="secao" aria-labelledby="titulo-lista">
+      <div class="secao__cabeca">
+        <h2 id="titulo-lista">Textos</h2>
+        <p class="secao__nota">Em ordem, do mais recente ao mais antigo</p>
+      </div>
+      <div class="fita">
+        <label class="sr-only" for="f-busca">Filtrar nesta seção</label>
+        <input id="f-busca" type="search" placeholder="Filtrar por palavra-chave" data-busca autocomplete="off" />
+        <div class="fita__tipos" role="group" aria-label="Tipo de texto">
+          <button type="button" class="chip-f" data-tipo-f="todos" aria-pressed="true">Todos</button>
+          <button type="button" class="chip-f" data-tipo-f="formativo" aria-pressed="false">Textos</button>
+          <button type="button" class="chip-f" data-tipo-f="evento" aria-pressed="false">Eventos</button>
+          <button type="button" class="chip-f" data-tipo-f="poesia" aria-pressed="false">Poesia</button>
+          <button type="button" class="chip-f" data-tipo-f="resenha" aria-pressed="false">Livros</button>
+          <button type="button" class="chip-f" data-tipo-f="documento" aria-pressed="false">Documentos</button>
+          <button type="button" class="chip-f" data-tipo-f="notícia" aria-pressed="false">Notícias</button>
+        </div>
+        <label class="sr-only" for="f-ano">Ano</label>
+        <select id="f-ano" data-ano-filtro>
+          <option value="">Todos os anos</option>
+        </select>
+        <label class="sr-only" for="f-palavra">Palavra-chave</label>
+        <select id="f-palavra" data-palavra-filtro>
+          <option value="">Todas as palavras-chave</option>
+        </select>
+        <label class="sr-only" for="f-ordem">Ordenar</label>
+        <select id="f-ordem" data-ordem>
+          <option value="recente">Mais recente</option>
+          <option value="antigo">Mais antigo</option>
+          <option value="titulo">Título</option>
+        </select>
+        <span class="fita__conta" data-conta role="status" aria-live="polite"></span>
+      </div>
+      <ul class="lista-acervo" data-revelar-grupo data-paginada>
+      <li class="item" data-temas="memoria" data-data="2016-05-23" data-titulo=""Não tenho condições"." data-tipo="formativo" data-ano="2016" data-palavras="">
+        <a class="item__link" href="nao-tenho-condicoes.html">
+          <span class="etiqueta">Memória · 2016</span>
+          <h3>"Não tenho condições".</h3>
+          <p>Paulo Cesar Azevedo Defensor Público Com uma letra trêmula, como daqueles que ainda aprendem com cautela a delícia e o desafio de escrever, foi esta a primeira frase que li, do primeiro processo que r</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 23 de maio de 2016</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2016-04-13" data-titulo="Direito e conjuntura - Cenários possíveis com o fim da "Nova República"" data-tipo="formativo" data-ano="2016" data-palavras="">
+        <a class="item__link" href="direito-e-conjuntura-cenarios-possiveis-com-o-fim-da-nova.html">
+          <span class="etiqueta">Memória · 2016</span>
+          <h3>Direito e conjuntura - Cenários possíveis com o fim da "Nova República"</h3>
+          <p>No post anterior, a nova coluna "Direito e conjuntura" procurou traçar um panorama geral (bastante resumido, e por isso mesmo incompleto) da conjuntura política internacional e também nacional, buscan</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Diego A. Diehl · 13 de abril de 2016</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2016-04-08" data-titulo="Direito e conjuntura - A conjuntura política internacional e nacional no contexto do golpe brasileiro" data-tipo="formativo" data-ano="2016" data-palavras="">
+        <a class="item__link" href="direito-e-conjuntura-a-conjuntura-politica-internacional-e.html">
+          <span class="etiqueta">Memória · 2016</span>
+          <h3>Direito e conjuntura - A conjuntura política internacional e nacional no contexto do golpe brasileiro</h3>
+          <p>Na 3ª parte do artigo de Diego Diehl intitulado "O Brasil à beira de um golpe de Estado de novo tipo", são analisados alguns elementos centrais da conjuntura geopolítica internacional, e também da con</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Diego A. Diehl · 8 de abril de 2016</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2016-03-29" data-titulo="Direito e conjuntura – nova coluna no blogue AJP" data-tipo="formativo" data-ano="2016" data-palavras="">
+        <a class="item__link" href="direito-e-conjuntura-nova-coluna-no-blogue-ajp.html">
+          <span class="etiqueta">Memória · 2016</span>
+          <h3>Direito e conjuntura – nova coluna no blogue AJP</h3>
+          <p>A assessoria jurídica popular é uma práxis acima de tudo política. Ela assume um lado da luta de classes – o lado d@s oprimid@s – e busca contribuir com as ferramentas que dispõe e tem procurado desen</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Diego A. Diehl · 29 de março de 2016</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2015-08-28" data-titulo="Advocacia delirante. Parte II - Preciso me encontrar." data-tipo="formativo" data-ano="2015" data-palavras="">
+        <a class="item__link" href="advocacia-delirante-parte-ii-preciso-me-encontrar.html">
+          <span class="etiqueta">Memória · 2015</span>
+          <h3>Advocacia delirante. Parte II - Preciso me encontrar.</h3>
+          <p>Uma gravata que o enforcava. No caminho para o escritório, via um povo que se espremia, um povo que o ônibus enlatava. Rir pra não chorar. Queria assistir ao sol nascer.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Unknown · 28 de agosto de 2015</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2015-06-29" data-titulo="O tataraneto do ex-jurista de Bonn" data-tipo="formativo" data-ano="2015" data-palavras="">
+        <a class="item__link" href="o-tataraneto-do-ex-jurista-de-bonn.html">
+          <span class="etiqueta">Memória · 2015</span>
+          <h3>O tataraneto do ex-jurista de Bonn</h3>
+          <p>Luiz Otávio Ribas Do blogue Relatos de um jovem professor Não poderia imaginar que um dia conheceria alguém da família de Marx.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 29 de junho de 2015</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2015-03-25" data-titulo="Expulsão de agricultores para Barragem do Guapiaçu repete prática recorrente da ditadura militar" data-tipo="formativo" data-ano="2015" data-palavras="">
+        <a class="item__link" href="expulsao-de-agricultores-para-barragem-do-guapiacu-repete.html">
+          <span class="etiqueta">Memória · 2015</span>
+          <h3>Expulsão de agricultores para Barragem do Guapiaçu repete prática recorrente da ditadura militar</h3>
+          <p>Fabricio Teló * Doutorando em Ciências Sociais pela CPDA/UFRRJ Não seria a primeira vez que os agricultores da Bacia do Rio Guapiaçu, em Cachoeiras de Macacu, seriam expulsos de suas terras, caso venh</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 25 de março de 2015</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2013-01-03" data-titulo="Poema do Rodrigão sobre encontro da Renap em Salvador" data-tipo="formativo" data-ano="2013" data-palavras="">
+        <a class="item__link" href="poema-do-rodrigao-sobre-encontro-da-renap-em-salvador.html">
+          <span class="etiqueta">Memória · 2013</span>
+          <h3>Poema do Rodrigão sobre encontro da Renap em Salvador</h3>
+          <p>Juraci, ô Juraci... Rodrigo de Medeiros, 31/12/12 Ah, naqueles dias em Itapuã, Rodeados por tão, tão bons amigos,</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 3 de janeiro de 2013</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2012-11-14" data-titulo="Sistema penal, concentração fundiária e ônibus que pegam fogo em Floripa-SC" data-tipo="formativo" data-ano="2012" data-palavras="">
+        <a class="item__link" href="sistema-penal-concentracao-fundiaria-e-onibus-que-pegam.html">
+          <span class="etiqueta">Memória · 2012</span>
+          <h3>Sistema penal, concentração fundiária e ônibus que pegam fogo em Floripa-SC</h3>
+          <p>Se eu contar que assisti um ônibus pegando fogo da sacada da minha casa, nos Ingleses em Floripa-SC, vocês acreditam?</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Athanis Grego · 14 de novembro de 2012</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2012-11-04" data-titulo="Tentativa de criminalização dos escrachos" data-tipo="formativo" data-ano="2012" data-palavras="">
+        <a class="item__link" href="tentativa-de-criminalizacao-dos-escrachos.html">
+          <span class="etiqueta">Memória · 2012</span>
+          <h3>Tentativa de criminalização dos escrachos</h3>
+          <p>Encaminhado para assessoriajuridicapopular@gmail.com Contra a criminalização dos(as) estudantes sergipanos que lutam pela verdade da Ditadura Militar</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 4 de novembro de 2012</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2012-09-28" data-titulo="Homenagens ao advogado Eugenio Lyra" data-tipo="formativo" data-ano="2012" data-palavras="">
+        <a class="item__link" href="homenagens-ao-advogado-eugenio-lyra.html">
+          <span class="etiqueta">Memória · 2012</span>
+          <h3>Homenagens ao advogado Eugenio Lyra</h3>
+          <p>Eugênio Lyra foi poeta e advogado do Sindicato dos Trabalhadores Rurais de Santa Maria da Vitória e Coribe, na Bahia. Foi assassinado em 22 de setembro de 1977 por denunciar crimes de grileiros da reg</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 28 de setembro de 2012</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2012-09-22" data-titulo="Poemas em homenagem a Eugenio Lyra" data-tipo="formativo" data-ano="2012" data-palavras="">
+        <a class="item__link" href="poemas-em-homenagem-a-eugenio-lyra.html">
+          <span class="etiqueta">Memória · 2012</span>
+          <h3>Poemas em homenagem a Eugenio Lyra</h3>
+          <p>Jelson Oliveira Do livro "Raízes: memorial dos mártires da terra" Eugênio Lyra (Advogado dos trabalhadores/as rurais de Santa Maria da Vitória e Ecoribe, Bahia. Assassinado no dia 22 de setembro de 19</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 22 de setembro de 2012</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2012-08-20" data-titulo="Documentário não quero falar de chacina" data-tipo="formativo" data-ano="2012" data-palavras="">
+        <a class="item__link" href="documentario-nao-quero-falar-de-chacina.html">
+          <span class="etiqueta">Memória · 2012</span>
+          <h3>Documentário não quero falar de chacina</h3>
+          <p>Documentário lançado em 2005 por Antonio Ernesto retrata a história do bairro de Vigário Geral ao longo das décadas com depoimentos emocionantes de morador@s.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 20 de agosto de 2012</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2012-08-06" data-titulo="Poema memórias do movimento sem terra" data-tipo="formativo" data-ano="2012" data-palavras="">
+        <a class="item__link" href="poema-memorias-do-movimento-sem-terra.html">
+          <span class="etiqueta">Memória · 2012</span>
+          <h3>Poema memórias do movimento sem terra</h3>
+          <p>Luiz Otávio Ribas O que eu digo ainda não fiz, e não vivi Só vivi como a minha palavra Mas quero dizê-la para ajudar a ter um fim</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 6 de agosto de 2012</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2012-04-01" data-titulo="No dia da mentira, anistiaram a verdade... #desarquivandoBR" data-tipo="formativo" data-ano="2012" data-palavras="">
+        <a class="item__link" href="no-dia-da-mentira-anistiaram-a-verdade-desarquivandobr.html">
+          <span class="etiqueta">Memória · 2012</span>
+          <h3>No dia da mentira, anistiaram a verdade... #desarquivandoBR</h3>
+          <p>31 de março/1º de abril ontem foi hoje? ou hoje é que é ontem? ("Dúvida revolucionária", de José Paulo Paes, no livro "Calendário perplexo")</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 1 de abril de 2012</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2012-03-28" data-titulo="Juventude se levanta contra a tortura, no Brasil" data-tipo="formativo" data-ano="2012" data-palavras="">
+        <a class="item__link" href="juventude-se-levanta-contra-a-tortura-no-brasil.html">
+          <span class="etiqueta">Memória · 2012</span>
+          <h3>Juventude se levanta contra a tortura, no Brasil</h3>
+          <p>Memória e cultura são modernos conceitos que se aproximam muito. E, no Brasil, isto poder ser visto a partir das últimas mobilizações.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 28 de março de 2012</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-10-08" data-titulo=""Ditadura, Democracia e Resistência para Quem", série de debates em São Paulo" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="ditadura-democracia-e-resistencia-para-quem-serie-de.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>"Ditadura, Democracia e Resistência para Quem", série de debates em São Paulo</h3>
+          <p>Começou a série de debates, em São Paulo, sobre a memória de nosso passado recente. O período de 1964 a 1985 carece de profundos esclarecimentos.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 8 de outubro de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-09-06" data-titulo="Carta aberta aos estudantes e acadêmicos do Brasil" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="carta-aberta-aos-estudantes-e-academicos-do-brasil.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Carta aberta aos estudantes e acadêmicos do Brasil</h3>
+          <p>Parceiras e parceiros de luta, Hoje me permiti vestir um cocar, embora seja branco. Hoje me permiti sentir a dor do trabalhador brasileiro, embora meu pai e minha mãe, também trabalhadores, tenham son</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Athanis Grego · 6 de setembro de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-08-09" data-titulo="Pierre Seghers: o mais célebre editor de poesia do século XX" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="pierre-seghers-o-mais-celebre-editor-de-poesia-do-seculo-xx.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Pierre Seghers: o mais célebre editor de poesia do século XX</h3>
+          <p>É com extrema honra e felicidade que divulgamos, em primeira mão, texto de um correspondente mais que especial para este blogue.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 9 de agosto de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-08-07" data-titulo="Justiça, uma canção de amor e liberdade" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="justica-uma-cancao-de-amor-e-liberdade.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Justiça, uma canção de amor e liberdade</h3>
+          <p>"Quantas coisas quisera hoje dizer, brasileiros, quantas histórias, lutas, desenganos, vitórias,</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 7 de agosto de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-08-03" data-titulo="50 anos da "Campanha da legalidade": para uma reflexão sobre a história do direito no Brasil" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="50-anos-da-campanha-da-legalidade-para-uma-reflexao-sobre-a.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>50 anos da "Campanha da legalidade": para uma reflexão sobre a história do direito no Brasil</h3>
+          <p>Há 50 anos, ocorreu a "Campanha da legalidade", capitaneada por Leonel Brizola, desde seu estado natal, o Rio Grande do Sul.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 3 de agosto de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-07-28" data-titulo="Desapropriação para instalação do Museu Histórico das Lutas Camponesas no Nordeste" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="desapropriacao-para-instalacao-do-museu-historico-das-lutas.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Desapropriação para instalação do Museu Histórico das Lutas Camponesas no Nordeste</h3>
+          <p>Por Tania Pacheco, Dignitatis Assistência Técnica Popular Na Paraíba Governador cria Museu Histórico das Lutas Camponesas no Nordeste.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 28 de julho de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-06-26" data-titulo="Os direitos do orvalho: ou Da nossa obsessão pelo diálogo" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="os-direitos-do-orvalho-ou-da-nossa-obsessao-pelo-dialogo.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Os direitos do orvalho: ou Da nossa obsessão pelo diálogo</h3>
+          <p>AMOR, de grão a grão, de planeta a planeta, a rede do vento com seus países sombrios, a guerra com seus sapatos de sangue,</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 26 de junho de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-06-06" data-titulo="Repatriação do acervo do "Brasil: nunca mais"" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="repatriacao-do-acervo-do-brasil-nunca-mais.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Repatriação do acervo do "Brasil: nunca mais"</h3>
+          <p>Como muitos estudantes, eu fui dos que me politizei lendo e escutando sobre a ditadura militar de 1964 a 1985. Além de músicas, as histórias desse período são uma síntese epocal que permite perceber o</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 6 de junho de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-06-04" data-titulo="Registro histórico e AJP: um vídeo de CORAJE" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="registro-historico-e-ajp-um-video-de-coraje.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Registro histórico e AJP: um vídeo de CORAJE</h3>
+          <p>por Lucas Vieira Barros de Andrade Na postagem, que é destacada nesse blogue, "O que é assessoria jurídica popular?", há um ponto em que se ressalta a necessidade de registros das atividades de um núc</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 4 de junho de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-04-17" data-titulo="A guerrilha do Caparaó: um matemático, um jurista e muitos militares" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="a-guerrilha-do-caparao-um-matematico-um-jurista-e-muitos.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>A guerrilha do Caparaó: um matemático, um jurista e muitos militares</h3>
+          <p>Junto ao golpe militar de 1964, a guerrilha do Caparaó completa anos no dia 1º de abril. Esta foi a data de seu desbaratamento.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 17 de abril de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-04-13" data-titulo="Procura-se! E o povo brasileiro pergunta: "quem torturou? quem matou?"" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="procura-se-e-o-povo-brasileiro-pergunta-quem-torturou-quem.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Procura-se! E o povo brasileiro pergunta: "quem torturou? quem matou?"</h3>
+          <p>Estudantes carbonários mobilizam-se, num país que já teve/tem três presidentes da república diretamente atingidos pela ditadura militar por que passou. Mobilizam-se em torno de quê?</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 13 de abril de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-04-12" data-titulo="Sobre o Bairro 23 de Janeiro." data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="sobre-o-bairro-23-de-janeiro.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Sobre o Bairro 23 de Janeiro.</h3>
+          <p>No Bairro 23 de Janeiro, uma das comunidades (se não, e provavelmente, "a") mais combativas e mobilizadas de Caracas, conhecemos o espaço utilizado pelos moradores para reuniões e atividades culturais</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Thiago Arruda · 12 de abril de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-04-07" data-titulo="São sangue, são lágrimas" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="sao-sangue-sao-lagrimas.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>São sangue, são lágrimas</h3>
+          <p>Há uma sublime parte de nós que cala enquanto tudo fala. Sublime parte, que resulta em ser angelical, doce e, ao mesmo tempo, insensata porque não encontra sentido na realidade e daí que não procura i</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">m. matos · 7 de abril de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-04-03" data-titulo="Contra o legado do "ministério do silêncio": a longa marcha de um golpe de 47 anos" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="contra-o-legado-do-ministerio-do-silencio-a-longa-marcha-de.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Contra o legado do "ministério do silêncio": a longa marcha de um golpe de 47 anos</h3>
+          <p>"Ministério" e "silêncio" são palavras, a princípio, logicamente antitéticas. Uma representa a imposição; a outra, a permissão. Ao lado dos ministros estão os ad-ministradores. Ante o silêncio, só o m</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 3 de abril de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-03-31" data-titulo="Versos d'Arak" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="versos-d-arak.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Versos d'Arak</h3>
+          <p>Há um tempo, estava no Ver-o-Rio, espaço onde se come uma ótima tapioca e se assiste belíssimo pôr-do-sol na cidade de Belém/PA, quando reparei num varal um senhor com chapéu de palha pendurava alguns</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Assis Oliveira · 31 de março de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-03-24" data-titulo="Injustiça de transição na UnB" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="injustica-de-transicao-na-unb.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Injustiça de transição na UnB</h3>
+          <p>Impossível não reverberar o pequeno mas contundente artigo de João Telésforo Medeiros Filho, mestrando do PPGD-UnB, sobre um exemplo clássico de injustiça de transição que está prestes a se realizar n</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Diego A. Diehl · 24 de março de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-03-23" data-titulo="A cara da mentira: declaração da Rede Popular Catarinense de Comunicação" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="a-cara-da-mentira-declaracao-da-rede-popular-catarinense-de.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>A cara da mentira: declaração da Rede Popular Catarinense de Comunicação</h3>
+          <p>Ressoamos, aqui, a declaração da Rede Popular Catarinense de Comunicação. Para agradecer o Nobel da Paz a ele conferido, Obama discursou uma declaração de guerra ao mundo e revelou por trás de sua más</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 23 de março de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-03-17" data-titulo="Seminário "Memórias em Movimento: Juventude, Cultura e Política"" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="seminario-memorias-em-movimento-juventude-cultura-e-politica.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Seminário "Memórias em Movimento: Juventude, Cultura e Política"</h3>
+          <p>O Instituto de Estudos Políticos Mário Alves com sede em Pelotas/RS, através do Ponto de Cultura "Memórias em Movimento" , organizará o Seminário "Memórias em Movimento: Juventude, Cultura e Política"</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Sabrine Gasperin · 17 de março de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-03-09" data-titulo="Reflexões a partir da leitura de "Balaios e bem-te-vis: a guerrilha sertaneja"" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="reflexoes-a-partir-da-leitura-de-balaios-e-bem-te-vis-a.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Reflexões a partir da leitura de "Balaios e bem-te-vis: a guerrilha sertaneja"</h3>
+          <p>O livro "Balaios e bem-te-vis: a guerrilha sertaneja", de Claudete Maria Miranda Dias, traz à lume uma das importantes, desconhecidas e deturpadas manifestações de movimentos populares nas paragens do</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">A dona da loja de desejos · 9 de março de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-02-20" data-titulo="A revolução do Jasmim e a praça Libertação: o estado de rebelião revolucionária na Tunísia e no Egito" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="a-revolucao-do-jasmim-e-a-praca-libertacao-o-estado-de.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>A revolução do Jasmim e a praça Libertação: o estado de rebelião revolucionária na Tunísia e no Egito</h3>
+          <p>Plantando democracia na Praça Tahrir, de Carlos Latuf Em seu famoso "Discurso sobre o colonialismo", da década de 1950, o martinicano Aimé Césaire sentenciou: "a Europa é indefensável".</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 20 de fevereiro de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-02-06" data-titulo="Uma história de Domingos: um naco de história do direito no Brasil" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="uma-historia-de-domingos-um-naco-de-historia-do-direito-no.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Uma história de Domingos: um naco de história do direito no Brasil</h3>
+          <p>Guerra dos Palmares, de Manuel Victor É Zambi no açoite, ei, ei, é Zambi É Zambi tui, tui, tui, tui, é Zambi</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 6 de fevereiro de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2011-01-14" data-titulo="Manifesto do Conselho Popular contra ditadura aos pobres" data-tipo="formativo" data-ano="2011" data-palavras="">
+        <a class="item__link" href="manifesto-do-conselho-popular-contra-ditadura-aos-pobres.html">
+          <span class="etiqueta">Memória · 2011</span>
+          <h3>Manifesto do Conselho Popular contra ditadura aos pobres</h3>
+          <p>Divulgamos o "Manifesto contra a ditadura aos pobres na cidade do Rio de Janeiro", assinada pelo Conselho Popular, Pastoral de Favelas, MUCA, Pela Moradia, FIST e associações de moradores das comunida</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 14 de janeiro de 2011</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-11-23" data-titulo="CHÃO DE FÁBRICA E DOUTORES (Da série Memórias)" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="chao-de-fabrica-e-doutores-da-serie-memorias.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>CHÃO DE FÁBRICA E DOUTORES (Da série Memórias)</h3>
+          <p>Quando ingressei nos bancos da Faculdade de Direito, meados dos anos de 1990, uma das coisas que mais me deixava intrigado era ser tratado por "doutor".</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Vladimir Luz · 23 de novembro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-11-03" data-titulo="Direito e ditadura militar no Brasil" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="direito-e-ditadura-militar-no-brasil.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Direito e ditadura militar no Brasil</h3>
+          <p>Após o fim do evento "Direito e Ditadura", organizado pelo PET do Direito da UFSC, semana passada, em Florianópolis, resta a reflexão sobre muitos dos pontos levantados nos debates e falas.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 3 de novembro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-10-27" data-titulo="PET Direito UFSC aborda o Direito e a Ditadura" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="pet-direito-ufsc-aborda-o-direito-e-a-ditadura.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>PET Direito UFSC aborda o Direito e a Ditadura</h3>
+          <p>Direto de Florianópolis. Está ocorrendo de 25 a 29 de outubro na Universidade Federal de Santa Catarina, em Florianópolis, o Seminário Direito e Ditadura, organizado pelo PET-Direito.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 27 de outubro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-10-11" data-titulo="O dia 9, o dia 10, o dia 11 e o dia 12..." data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="o-dia-9-o-dia-10-o-dia-11-e-o-dia-12.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>O dia 9, o dia 10, o dia 11 e o dia 12...</h3>
+          <p>Qualquer data do calendário, seja o calendário que for, pode nos remeter às mais impressionantes histórias. Falecimentos e nascimentos, por exemplo, não deixam de abundar.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 11 de outubro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-09-23" data-titulo="DÚVIDA INSANÁVEL: COMO DEVE SER PARA UM MINISTRO DO STF CONVIVER COM O PODER DE MUDAR A HISTÓRIA E A CULPA DE NÃO TÊ-LO FEITO?" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="duvida-insanavel-como-deve-ser-para-um-ministro-do-stf.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>DÚVIDA INSANÁVEL: COMO DEVE SER PARA UM MINISTRO DO STF CONVIVER COM O PODER DE MUDAR A HISTÓRIA E A CULPA DE NÃO TÊ-LO FEITO?</h3>
+          <p>José Humberto de Góes Junior Esse ano e num futuro bem próximo, o Supremo Tribunal Federal (STF) enfrentará temas muito importantes para o Brasil.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">o que eu não vi hoje? (Humberto Góes) · 23 de setembro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-08-11" data-titulo="Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="cidadania-e-educacao-historica-perspectivas-de-alunos-e.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR</h3>
+          <p>Está disponível na área de Biblioteca a dissertação de mestrado "Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR" de Ivan Furmann, publicada em 2006.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">ivan Furmann · 11 de agosto de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-07-30" data-titulo="Novo livro de Direito Urbanístico" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="novo-livro-de-direito-urbanistico.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Novo livro de Direito Urbanístico</h3>
+          <p>Divulgamos o livro coordenado por Betânia Alfonsin e Edésio Fernandes intitulado "Coletânea de legislação urbanística: normas internacionais, constitucionais e legislação ordinária".</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 30 de julho de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-07-21" data-titulo="Poema em homenagem a Eugênio Lyra" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="poema-em-homenagem-a-eugenio-lyra.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Poema em homenagem a Eugênio Lyra</h3>
+          <p>Divulgamos o poema de Vladimir Luz em homenagem ao advogado popular Eugênio Lyra, que foi assassinado aos 30 anos, no dia 22 de setembro de 1977, na cidade de Santa Maria da Vitória (BA).</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 21 de julho de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-05-24" data-titulo="A Lição de Juruti Velho" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="a-licao-de-juruti-velho.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>A Lição de Juruti Velho</h3>
+          <p>Olá companheiros! Mais uma vez trago no blogue o relato sobre a "outra história"da Amazônia, construída a cada dia pelas populações tradicionais, forjada na disputa pelo território que a mídia por con</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">roberta cunha · 24 de maio de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-04-27" data-titulo="A anistia e a AJURIS" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="a-anistia-e-a-ajuris.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>A anistia e a AJURIS</h3>
+          <p>Leiam o artigo "Os juízes do Rio Grande e a anistia", do Juiz Luis Christiano Enger Aires, integrante da diretoria da AJURIS, na Zero Hora.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 27 de abril de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-04-11" data-titulo="Adeus Sete Quedas, adeus Ivo Rodrigues" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="adeus-sete-quedas-adeus-ivo-rodrigues.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Adeus Sete Quedas, adeus Ivo Rodrigues</h3>
+          <p>Trinta anos após a morte covarde das Sete Quedas, o Salto de Guaíra, no Paraná, em prol da usina de Itaipu, ainda hoje a maior hidrelétrica do mundo em funcionamento, morre também um dos maiores ícone</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 11 de abril de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-04-08" data-titulo="Cultura negra: história e música" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="cultura-negra-historia-e-musica.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Cultura negra: história e música</h3>
+          <p>A assessoria jurídica popular tem compromisso com os movimentos e a cultura popular. A cultura negra insurge-se contra séculos de opressão, para resgatar seu papel na história do Brasil e do mundo tod</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 8 de abril de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-03-06" data-titulo=""Monólogo" do Poeta do Povo e da Mocidade" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="monologo-do-poeta-do-povo-e-da-mocidade.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>"Monólogo" do Poeta do Povo e da Mocidade</h3>
+          <p>Há coisa de um lustro, entrei em contato com um poema sensacional das letras nacionais. O poema se chamava "Monólogo" e era de José Guilherme de Araújo Jorge, um até então para mim desconhecido poeta </p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 6 de março de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-02-18" data-titulo="Vídeo com palestra do Enrique Dussel" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="video-com-palestra-do-enrique-dussel.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Vídeo com palestra do Enrique Dussel</h3>
+          <p>Para continuarmos refletindo sobre o direito e os povos latino-americanos, assessoria com povos indígenas, o caso boliviano, trazemos um vídeo com palestra de Enrique Dussel.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 18 de fevereiro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-01-19" data-titulo="PNDH 3: Por que mudar? - Da Revista Carta Maior" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="pndh-3-por-que-mudar-da-revista-carta-maior.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>PNDH 3: Por que mudar? - Da Revista Carta Maior</h3>
+          <p>Matéria da Editoria: Política 19/01/2010 PNDH 3: Por que mudar? O que está posto como desafio não é mudar o PNDH.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">o que eu não vi hoje? (Humberto Góes) · 19 de janeiro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-01-12" data-titulo="Comunicação na América Latina" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="comunicacao-na-america-latina.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Comunicação na América Latina</h3>
+          <p>Aproveitando o ensejo da discussão da mídia, proposta pelo Thiago Arruda, gostaria de apresentar dois jornalistas que contribuíram muito para a comunicação em nosso continente.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 12 de janeiro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2010-01-09" data-titulo="Revisão da lei de anistia" data-tipo="formativo" data-ano="2010" data-palavras="">
+        <a class="item__link" href="revisao-da-lei-de-anistia.html">
+          <span class="etiqueta">Memória · 2010</span>
+          <h3>Revisão da lei de anistia</h3>
+          <p>Na "Coluna de Jacques Alfonsin e Antonio Cechin" desta semana divulgamos o artigo publicado ontem no Instituto Humanitas da Unisinos intitulado "Revisão da lei de anistia: a pregação contrária trata a</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 9 de janeiro de 2010</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2009-12-31" data-titulo="Entre dois céus: a tensão congênita ao "jurídico"" data-tipo="formativo" data-ano="2009" data-palavras="">
+        <a class="item__link" href="entre-dois-ceus-a-tensao-congenita-ao-juridico.html">
+          <span class="etiqueta">Memória · 2009</span>
+          <h3>Entre dois céus: a tensão congênita ao "jurídico"</h3>
+          <p>Neruda dizia: "nunca recordaremos haber muerto". Benedéti, por sua vez: "yo ya no estoy para dos cielos/ apenas uno y ceniciento".</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 31 de dezembro de 2009</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2009-12-14" data-titulo="Da forma, exegese e desnumeração" data-tipo="formativo" data-ano="2009" data-palavras="">
+        <a class="item__link" href="da-forma-exegese-e-desnumeracao.html">
+          <span class="etiqueta">Memória · 2009</span>
+          <h3>Da forma, exegese e desnumeração</h3>
+          <p>Inspirado pelo general Ribas, vasculhei minha gaveta e encontrei um desbocado poema empoeirado que vem a calhar em nossas conversas, preliminares da novidade que temos de gestar.</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 14 de dezembro de 2009</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2009-12-08" data-titulo="A última de Luiz Carlos Prates (ou: Ai que saudades de Luiz Carlos Prestes)" data-tipo="formativo" data-ano="2009" data-palavras="">
+        <a class="item__link" href="a-ultima-de-luiz-carlos-prates-ou-ai-que-saudades-de-luiz.html">
+          <span class="etiqueta">Memória · 2009</span>
+          <h3>A última de Luiz Carlos Prates (ou: Ai que saudades de Luiz Carlos Prestes)</h3>
+          <p>Ouso dar um pitaco nessa história, não sem antes recordar os versos da canção: "Num tempo página infeliz da nossa história</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Ricardo Prestes Pazello · 8 de dezembro de 2009</span>
+        </a>
+      </li>
+      <li class="item" data-temas="memoria" data-data="2009-08-17" data-titulo="Entrevista com Flávio Tavares" data-tipo="formativo" data-ano="2009" data-palavras="">
+        <a class="item__link" href="entrevista-com-flavio-tavares.html">
+          <span class="etiqueta">Memória · 2009</span>
+          <h3>Entrevista com Flávio Tavares</h3>
+          <p>Nesta entrevista, feita pelo programa "Sintonia" da TV Câmara (1), Flávio Tavares relata fatos impressionantes de que foi observador ou protagonista, num dos períodos mais funestos de nossa história r</p>
+          <span class="item__tags"></span>
+          <span class="item__ficha">Luiz Otávio Ribas · 17 de agosto de 2009</span>
+        </a>
+      </li>
+      </ul>
+      <div class="mais"><button type="button" data-mais>Ver mais 24</button></div>
+    </section>
+    <section class="secao" aria-labelledby="titulo-outras">
+      <div class="secao__cabeca"><h2 id="titulo-outras">Continuar por</h2></div>
+      <ul class="lateral-lista">
+        <li><a href="assessoria-juridica-popular.html">O que é assessoria jurídica popular</a></li>
+        <li><a href="direitos-humanos.html">Direitos humanos</a></li>
+        <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
+        <li><a href="teoria-critica.html">Teoria crítica do direito</a></li>
+        <li><a href="educacao-popular.html">Educação popular</a></li>
+      </ul>
+    </section>
+
+    <section class="secao veja" aria-labelledby="veja">
+      <div class="secao__cabeca">
+        <h2 id="veja">Veja também</h2>
+        <p class="secao__nota">Do outro lado, com fonte e metodologia</p>
+      </div>
+      <ul class="linhas">
+        <li><span class="emoji" aria-hidden="true">🏛️</span><b>Jurisprudência:</b>
+          <a href="https://www.controlepopular.com.br/jurisprudencia/" target="_blank" rel="noopener">decisões e acórdãos no Controle Popular</a>.</li>
+        <li><span class="emoji" aria-hidden="true">📚</span><b>Biblioteca:</b>
+          <a href="https://www.controlepopular.com.br/biblioteca/" target="_blank" rel="noopener">peças e publicações no Controle Popular</a>.</li>
+        <li><span class="emoji" aria-hidden="true">✊</span><b>Direitos em movimento:</b>
+          <a href="https://www.controlepopular.com.br/direitos-em-movimento/" target="_blank" rel="noopener">o recorte por tema no Controle Popular</a>.</li>
+      </ul>
+    </section>
+    <section class="secao" aria-labelledby="convidados">
+      <div class="secao__cabeca"><h2 id="convidados">Textos convidados</h2>
+      <p class="secao__nota">Fora do blog, com autoria e fonte</p></div>
+      <ul class="lista-acervo">
+        <li class="item"><a class="item__link" href="mistica.html">
+          <span class="etiqueta">Mística · 2023</span>
+          <h3>Mística: acúmulos, aprendizados, saberes</h3>
+          <p>Texto dos movimentos populares, com citação de Ademar Bogo.</p>
+          <span class="item__ficha">Militantes dos movimentos populares · 2023</span></a></li>
+        <li class="item"><a class="item__link" href="coracao-sem-medo.html">
+          <span class="etiqueta">Literatura · 2025</span>
+          <h3>Coração sem medo: trechos escolhidos</h3>
+          <p>Dezesseis passagens de Itamar Vieira Junior sobre terra, semente e justiça.</p>
+          <span class="item__ficha">Itamar Vieira Junior · 2025</span></a></li>
+        <li class="item"><a class="item__link" href="citacoes.html">
+          <span class="etiqueta">Citações</span>
+          <h3>Gama, Carolina e Brecht</h3>
+          <p>Oito frases sobre fome, terra e dignidade.</p>
+          <span class="item__ficha">Luís Gama, Carolina Maria de Jesus e Bertolt Brecht</span></a></li>
+        <li class="item"><a class="item__link" href="caderno-de-poesias.html">
+          <span class="etiqueta">Poesia · 2010</span>
+          <h3>Caderno de Poesias: índice</h3>
+          <p>O mapa da coletânea de 272 páginas: autores e títulos.</p>
+          <span class="item__ficha">Cleber Mori (org.) · 2010</span></a></li>
+        <li class="item"><a class="item__link" href="recomendacoes.html">
+          <span class="etiqueta">Estante</span>
+          <h3>Recomendações: livros, filmes e músicas</h3>
+          <p>Uma estante de entrada: revoluções, terra, raça e cultura popular.</p>
+          <span class="item__ficha">Acervo AJP</span></a></li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="rodape">
+  <div class="rodape__topo">
+    <p class="rodape__marca"><span class="ponto" aria-hidden="true"></span> AJP · Assessoria Jurídica Popular</p>
+    <p class="rodape__lema">Textos em citação direta, com autor, data e fonte.</p>
+  </div>
+  <div class="rodape__interno">
+    <div>
+      <h2>Acervo</h2>
+      <ul>
+        <li><a href="index.html">Todos os textos</a></li>
+        <li><a href="blog.html">Blog, em ordem</a></li>
+        <li><a href="direito-critico-comparado.html">Direito crítico comparado</a></li>
+        <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Seções</h2>
+      <ul>
+        <li><a href="direitos-humanos.html">Direitos humanos</a></li>
+        <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
+        <li><a href="memoria-e-cultura.html">Memória e cultura</a></li>
+        <li><a href="teoria-critica.html">Teoria crítica</a></li>
+        <li><a href="educacao-popular.html">Educação popular</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Fonte</h2>
+      <p>Textos publicados originalmente no blog
+      <a href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">Assessoria Jurídica Popular</a>,
+      em citação direta, com autor, data e link.</p>
+    </div>
+    <div>
+      <h2>Parceria</h2>
+      <p>Imagens sem crédito declarado: pedidos de retirada para
+      <a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a>.</p>
+      <p>Publicação e curadoria com o
+      <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS</a>
+      — GT de Assessoria Jurídica Popular.</p>
+    </div>
+  </div>
+  <div class="parcerias" aria-label="Realização e parceria">
+    <p class="parcerias__titulo">Realização e parceria</p>
+    <ul class="parcerias__lista">
+      <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
+      <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
+      <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var raiz = document.documentElement;
+    var seletor = document.getElementById('tema');
+    var guardado = localStorage.getItem('renap-tema');
+    if (guardado) { raiz.dataset.theme = guardado; seletor.value = guardado; }
+    seletor.addEventListener('change', function () {
+      raiz.dataset.theme = seletor.value;
+      localStorage.setItem('renap-tema', seletor.value);
+    });
+  })();
+</script>
+<div class="radio-flut" data-radio data-aberto="false">
+  <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
+    <span aria-hidden="true">📻</span> Rádio
+  </button>
+  <div class="radio-flut__painel" id="radio-painel">
+    <button class="radio-flut__fechar" type="button" data-radio-fechar aria-label="Fechar o rádio">×</button>
+        <div class="rp__controles">
+          <div class="rp__linha">
+            <button class="rp__tocar" type="button" data-radio-tocar data-tocando="false" aria-label="Tocar rádio">▶</button>
+            <button class="rp__parar" type="button" data-radio-parar aria-label="Parar o rádio" title="Parar o rádio">■</button>
+            <div>
+              <div class="rp__nome" data-radio-nome>Rádio Brasil de Fato<span class="rp__meta" data-radio-meta>toque em ▶ ou escolha outra estação</span></div>
+            </div>
+          </div>
+          <label class="rp__volume">
+            <span>Volume</span>
+            <input type="range" min="0" max="100" value="70" data-radio-volume aria-label="Volume do rádio" />
+          </label>
+          <p class="rp__status" data-radio-status aria-live="polite"></p>
+        </div>
+        <div class="rp__lista-area">
+          <div class="rp__busca">
+            <input type="search" placeholder="Buscar estação, cidade ou UF" data-radio-busca aria-label="Buscar estação" />
+            <span class="rp__contagem" data-radio-contagem></span>
+          </div>
+          <div class="rp__lista" data-radio-lista></div>
+        </div>
+        <audio data-radio-audio preload="none"></audio>
+  </div>
+</div>
+<script src="componentes/radio.js" defer></script>
+<script src="site.js" defer></script>
+<script src="reveal.js" defer></script>
+<button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
+<script src="casca.js" defer></script>
+</body>
+</html>

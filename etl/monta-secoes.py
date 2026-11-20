@@ -72,6 +72,7 @@ def topo(ativo):
 %s
         </ul>
       </div>
+      <a href="linha-do-tempo.html">Linha do tempo</a>
       <a href="autores.html">Autores</a>
       <a href="assessoria-juridica-popular-no-mundo.html">Comparado</a>
       <a href="blog.html"%s>Blog</a>
@@ -109,6 +110,8 @@ def rodape():
         <li><a href="blog.html">Blog, em ordem</a></li>
         <li><a href="direito-critico-comparado.html">Direito crítico comparado</a></li>
         <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
+        <li><a href="glossario.html">Glossário</a></li>
+        <li><a href="linha-do-tempo.html">Linha do tempo</a></li>
       </ul>
     </div>
     <div>

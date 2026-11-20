@@ -799,3 +799,18 @@ a.cartao:hover, a.cartao:focus-visible,
 .reproducao img { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--borda); }
 .reproducao figcaption { margin-top: 8px; font-size: .84rem; color: var(--cp-text-soft); }
 .reproducao__aviso { display: block; margin-top: 4px; font-size: .76rem; }
+
+/* Lista do acervo: no máximo três colunas, com respiro entre cartões e bordas. */
+.lista-acervo {
+  gap: clamp(16px, 1.6vw, 26px) !important;
+}
+@media (min-width: 1100px) {
+  .lista-acervo { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+}
+@media (min-width: 760px) and (max-width: 1099px) {
+  .lista-acervo { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+}
+@media (max-width: 759px) {
+  .lista-acervo { grid-template-columns: minmax(0, 1fr) !important; }
+}
+.lista-acervo .item__link { min-width: 0; }

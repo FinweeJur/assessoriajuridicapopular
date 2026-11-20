@@ -78,7 +78,7 @@ def main():
     </div>
   </section>
   <div class="miolo">
-    <ul class="lista-acervo" data-revelar-grupo data-paginada>
+    <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
 %s
     </ul>
   </div>
@@ -128,7 +128,7 @@ def main():
     </div>
   </section>
   <div class="miolo">
-    <ul class="lista-acervo" data-revelar-grupo data-paginada>
+    <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
 %s
     </ul>
   </div>

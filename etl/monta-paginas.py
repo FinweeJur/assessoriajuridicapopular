@@ -107,6 +107,14 @@ SECOES = {
 }
 
 
+GENÉRICOS = {"anônimo", "anonimo", "unknown", "anonymous", "adminblogueajpopular",
+             "redação", "redacao", ""}
+
+
+def autor_limpo(nome):
+    return "Redação da Página" if (nome or "").strip().lower() in GENÉRICOS else (nome or "").strip()
+
+
 def slug_autor(nome):
     sem = unicodedata.normalize("NFD", nome or "")
     sem = "".join(c for c in sem if unicodedata.category(c) != "Mn")
@@ -125,7 +133,7 @@ def liga_paginas(post, indice):
     """Migalha, link do autor e 'Leia também'."""
     temas = post.get("temas") or ["assessoria-juridica-popular"]
     secao = SECOES.get(temas[0], SECOES["assessoria-juridica-popular"])
-    autor = (post.get("autor") or {}).get("nome") or "Redação do blog"
+    autor = autor_limpo((post.get("autor") or {}).get("nome")) or "Redação da Página"
     titulo = esc(post.get("titulo"))
 
     migalha = ('<nav class="migalha" aria-label="Você está em">'
@@ -193,7 +201,7 @@ def monta(post, modelo, indice=None):
         "TITULO": esc(post.get("titulo")),
         "DATA": data_legivel(data),
         "DATA_ISO": data[:10],
-        "AUTOR": esc(autor.get("nome") or "Redação do blog"),
+        "AUTOR": esc(autor_limpo(autor.get("nome")) or "Redação da Página"),
         "AUTOR_URL": esc(autor.get("url") or "https://assessoriajuridicapopular.blogspot.com/"),
         "FONTE_URL": esc(fonte.get("url")),
         "CAPTURA": data_legivel(fonte.get("capturado_em", "")) or "20 de novembro de 2026",
