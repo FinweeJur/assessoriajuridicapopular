@@ -1116,3 +1116,13 @@ a.cartao:hover, a.cartao:focus-visible,
     transform: translate3d(var(--mx, 0px), calc(var(--my, 0px) - 1px), 0) !important;
   }
 }
+
+/* Rodapé: coordenação e aviso de revisão */
+.rodape__coord { margin: -2px 0 8px !important; color: var(--cp-text) !important; }
+.rodape__ia {
+  max-width: var(--largura); margin: 0 auto;
+  padding: 14px clamp(16px, 4vw, 40px) 0;
+  border-top: 1px solid var(--borda);
+  font-size: .72rem; line-height: 1.55; color: var(--cp-text-soft);
+  text-align: center;
+}

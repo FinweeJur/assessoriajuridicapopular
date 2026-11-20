@@ -139,10 +139,13 @@ def rodape():
         <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
       </ul>
       <p><b>GT de Assessoria Jurídica Popular do IPDMS</b></p>
+      <p class="rodape__coord"><b>Coord. Luiz Otávio Ribas</b></p>
       <p>Desenvolvimento e retirada de imagens ou conteúdo:
       <a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a></p>
     </div>
   </div>
+  <p class="rodape__ia">Rascunho feito com IA - Inteligência Artificial (Programa OpenCode,
+  Modelo Deepseek V4.1 Flash), podendo contar com erros e ainda em revisão. Verifique as informações.</p>
 </footer>"""
 
 
