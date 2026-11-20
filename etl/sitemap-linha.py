@@ -77,11 +77,11 @@ PAGINA = """<!DOCTYPE html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Linha do tempo · AJP — Assessoria Jurídica Popular</title>
-  <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
+  <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=27" />
-  <link rel="stylesheet" href="reveal.css?v=27" />
+  <link rel="stylesheet" href="acervo.css?v=29" />
+  <link rel="stylesheet" href="reveal.css?v=29" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>

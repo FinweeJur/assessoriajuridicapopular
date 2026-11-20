@@ -1154,3 +1154,100 @@ body[data-comeco="true"] .assistente {
   .rodape { padding-bottom: 180px; }
   .rodape .rodape__ia { font-size: .7rem !important; }
 }
+
+/* ── Início: grade interativa + bento grid ───────────────────────────── */
+.inicio {
+  position: relative; isolation: isolate; overflow: hidden;
+  padding: clamp(28px, 5vw, 64px) 0 clamp(30px, 5vw, 56px);
+  border-bottom: 1px solid var(--borda);
+}
+.grade-interativa {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  z-index: 0; pointer-events: none; opacity: .9;
+}
+.inicio__conteudo { position: relative; z-index: 1; }
+.inicio .porta { max-width: var(--largura); margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px); }
+.inicio .porta h1 {
+  font-size: clamp(2.4rem, 6.6vw, 5.4rem); line-height: .98;
+  max-width: 20ch; margin: 8px 0 16px; letter-spacing: -.035em;
+}
+.inicio .porta .resumo { max-width: 62ch; }
+.inicio__acoes { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+
+.bento {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(10px, 1.2vw, 16px); margin-top: clamp(24px, 4vw, 42px);
+}
+.bento__item {
+  position: relative; display: flex; flex-direction: column; gap: 6px;
+  min-height: 142px; padding: 18px;
+  border: 1px solid var(--borda); border-radius: 16px;
+  background: color-mix(in srgb, var(--cp-surface) 58%, transparent);
+  color: var(--cp-text); text-decoration: none !important; overflow: hidden;
+  transition: transform .22s var(--curva), border-color .22s var(--curva),
+              box-shadow .22s var(--curva), background-color .22s var(--curva);
+}
+.bento__item::before {
+  content: "; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(240px circle at var(--bx, 50%) var(--by, 50%),
+              color-mix(in srgb, var(--cp-primary) 24%, transparent), transparent 68%);
+  opacity: 0; transition: opacity .25s;
+}
+.bento__item:hover::before, .bento__item:focus-visible::before { opacity: 1; }
+.bento__item:hover, .bento__item:focus-visible {
+  transform: translateY(-4px); border-color: var(--cp-primary);
+  box-shadow: 0 18px 40px rgba(0,0,0,.3),
+              0 0 28px color-mix(in srgb, var(--cp-primary) 18%, transparent);
+}
+.bento__item--grande { grid-column: span 2; grid-row: span 2; padding: clamp(20px, 2.4vw, 30px); }
+.bento__item--largo { grid-column: span 2; }
+.bento__ico {
+  width: 34px; height: 34px; display: grid; place-items: center;
+  border-radius: 10px; margin-bottom: 2px;
+  background: color-mix(in srgb, var(--cp-primary) 14%, transparent);
+  color: var(--cp-primary);
+}
+.bento__ico .ico { width: 18px; height: 18px; }
+.bento__etiqueta {
+  font-size: .68rem; letter-spacing: .13em; text-transform: uppercase;
+  font-weight: 700; color: var(--cp-primary);
+}
+.bento__titulo { font-family: var(--font-display); font-size: 1.02rem; line-height: 1.25; margin: 0; }
+.bento__conta { margin-top: auto; font-size: .78rem; color: var(--cp-text-soft); }
+.bento__numero {
+  font-family: var(--font-display); font-size: clamp(3rem, 7vw, 5.2rem);
+  line-height: .9; letter-spacing: -.04em;
+}
+.bento__item p { margin: 0; max-width: 38ch; font-size: .86rem; line-height: 1.5; color: var(--cp-text-soft); }
+.bento__seta { margin-top: auto; font-weight: 700; color: var(--cp-primary); font-size: .86rem; }
+
+@media (max-width: 1000px) {
+  .bento { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bento__item--grande { grid-column: span 2; grid-row: auto; }
+  .bento__item--largo { grid-column: span 2; }
+}
+@media (max-width: 560px) {
+  .bento { grid-template-columns: 1fr; }
+  .bento__item--grande, .bento__item--largo { grid-column: auto; }
+  .inicio .porta h1 { font-size: clamp(2.1rem, 11vw, 3.2rem); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bento__item {
+    animation: bento-sobe .55s cubic-bezier(.2,.7,.3,1) backwards;
+    animation-delay: calc(var(--i, 0) * 45ms);
+  }
+  @keyframes bento-sobe {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+#lista-acervo { scroll-margin-top: 90px; }
+
+/* Poesia do blog: lista recolhível dentro dos poemas */
+.poesia-blog {
+  margin-top: 14px; padding: 12px 16px;
+  border: 1px solid var(--borda); border-radius: 12px;
+  background: color-mix(in srgb, var(--cp-surface) 30%, transparent);
+}
+.poesia-blog summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 700; }
+.poesia-blog .grade-3 { margin-top: 14px; }

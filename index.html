@@ -7,11 +7,11 @@
   <title>AJP — Assessoria Jurídica Popular</title>
   <meta name="description" content="Acervo de textos sobre assessoria jurídica popular, em citação direta, com fonte, autor e data. Parceria RENAP, IPDMS e MAB." />
   <link rel="icon" href="data:," />
-  <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
+  <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=28" />
-  <link rel="stylesheet" href="reveal.css?v=28" />
+  <link rel="stylesheet" href="acervo.css?v=30" />
+  <link rel="stylesheet" href="reveal.css?v=30" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -76,18 +76,106 @@
     </div>
   </section>
 
-  <section class="porta" aria-labelledby="titulo-acervo">
-    <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Acervo</p>
-    <h1 id="titulo-acervo">Assessoria jurídica popular, em citação direta</h1>
-    <p class="resumo">
-      Textos publicados no blog <b>Assessoria Jurídica Popular</b> desde 2009,
-      com autor, data, link para o original e crédito de cada parceria.
-    </p>
-    <p class="resumo resumo--nota">
-      <b>Em uma frase:</b> é o trabalho de advogados, estudantes e educadores
-      com movimentos sociais para realizar direitos — e a porta de entrada é
-      esta coleção.
-    </p>
+  <section class="inicio">
+    <canvas class="grade-interativa" data-grade aria-hidden="true"></canvas>
+    <div class="inicio__conteudo">
+      <div class="porta">
+        <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Acervo</p>
+        <h1 id="titulo-acervo">Assessoria Jurídica Popular</h1>
+        <p class="resumo">
+          Textos publicados no blog <b>Assessoria Jurídica Popular</b> desde 2009,
+          com autor, data, link para o original e crédito de cada parceria.
+        </p>
+        <p class="resumo resumo--nota">
+          <b>Em uma frase:</b> é o trabalho de advogados, estudantes e educadores
+          com movimentos sociais para realizar direitos — e a porta de entrada é
+          esta coleção.
+        </p>
+        <p class="inicio__acoes">
+          <a class="botao" href="#lista-acervo">Explorar o acervo</a>
+          <a class="botao secundario" href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a>
+        </p>
+      </div>
+
+      <div class="miolo">
+        <div class="bento" data-bento>
+        <a class="bento__item bento__item--grande" href="#lista-acervo" style="--i:0">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></span>
+          <span class="bento__etiqueta">Acervo completo</span>
+          <b class="bento__numero">713</b>
+          <span class="bento__titulo">textos em citação direta</span>
+          <p>Busca por palavra-chave, tipo, ano e ordem. Cada texto com autor, data e link para o original.</p>
+          <span class="bento__seta">Explorar o acervo ↓</span>
+        </a>
+        <a class="bento__item " href="assessoria-juridica-popular.html" style="--i:1">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></span>
+          <span class="bento__etiqueta">Seção</span>
+          <h3 class="bento__titulo">Assessoria jurídica popular</h3>
+          <span class="bento__conta">97 textos</span>
+        </a>
+        <a class="bento__item " href="direitos-humanos.html" style="--i:2">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg></span>
+          <span class="bento__etiqueta">Seção</span>
+          <h3 class="bento__titulo">Direitos humanos</h3>
+          <span class="bento__conta">76 textos</span>
+        </a>
+        <a class="bento__item " href="movimentos-sociais.html" style="--i:3">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+          <span class="bento__etiqueta">Seção</span>
+          <h3 class="bento__titulo">Movimentos sociais</h3>
+          <span class="bento__conta">170 textos</span>
+        </a>
+        <a class="bento__item " href="teoria-critica.html" style="--i:4">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2Z"/></svg></span>
+          <span class="bento__etiqueta">Seção</span>
+          <h3 class="bento__titulo">Teoria crítica</h3>
+          <span class="bento__conta">182 textos</span>
+        </a>
+        <a class="bento__item bento__item--largo" href="blog.html" style="--i:5">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg></span>
+          <span class="bento__etiqueta">Em ordem</span>
+          <h3 class="bento__titulo">Blog</h3>
+          <span class="bento__conta">713 textos em 12 anos</span>
+        </a>
+        <a class="bento__item " href="memoria-e-cultura.html" style="--i:6">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+          <span class="bento__etiqueta">Seção</span>
+          <h3 class="bento__titulo">Memória e cultura</h3>
+          <span class="bento__conta">30 textos</span>
+        </a>
+        <a class="bento__item " href="educacao-popular.html" style="--i:7">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></span>
+          <span class="bento__etiqueta">Seção</span>
+          <h3 class="bento__titulo">Educação popular</h3>
+          <span class="bento__conta">158 textos</span>
+        </a>
+        <a class="bento__item " href="glossario.html" style="--i:8">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="m8 13 4-7 4 7"/><path d="M9.1 11h5.7"/></svg></span>
+          <span class="bento__etiqueta">Consulta</span>
+          <h3 class="bento__titulo">Glossário</h3>
+          <span class="bento__conta">18 verbetes</span>
+        </a>
+        <a class="bento__item " href="linha-do-tempo.html" style="--i:9">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+          <span class="bento__etiqueta">Série histórica</span>
+          <h3 class="bento__titulo">Linha do tempo</h3>
+          <span class="bento__conta">2009–2024</span>
+        </a>
+        <a class="bento__item " href="assessoria-juridica-popular-no-mundo.html" style="--i:10">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 3v18"/><path d="M17 3v18"/></svg></span>
+          <span class="bento__etiqueta">Pesquisa</span>
+          <h3 class="bento__titulo">Direito comparado</h3>
+          <span class="bento__conta">4 perspectivas</span>
+        </a>
+        <a class="bento__item " href="poemas.html" style="--i:11">
+          <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z"/><path d="M16 8 2 22"/><path d="M17.5 15H9"/></svg></span>
+          <span class="bento__etiqueta">Antologia</span>
+          <h3 class="bento__titulo">Poemas</h3>
+          <span class="bento__conta">135 poemas</span>
+        </a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="fita-secao" aria-label="Filtrar o acervo">
@@ -118,88 +206,6 @@
         <option value="titulo">Título</option>
       </select>
       <span class="fita__conta" data-conta role="status" aria-live="polite">713 textos</span>
-    </div>
-  </section>
-
-  <nav class="chips" aria-label="Seções do acervo">
-    <a class="chip" href="assessoria-juridica-popular.html">Assessoria jurídica popular</a>
-    <a class="chip" href="direitos-humanos.html">Direitos humanos</a>
-    <a class="chip" href="movimentos-sociais.html">Movimentos sociais</a>
-    <a class="chip" href="memoria-e-cultura.html">Memória e cultura</a>
-    <a class="chip" href="teoria-critica.html">Teoria crítica</a>
-    <a class="chip" href="educacao-popular.html">Educação popular</a>
-    <a class="chip" href="direito-critico-comparado.html">Comparado</a>
-  </nav>
-
-  <section class="destaques" aria-labelledby="destaques">
-    <div class="miolo secao">
-      <div class="secao__cabeca">
-        <h2 id="destaques">Comece por aqui</h2>
-        <p class="secao__nota">Quatro portas para o acervo</p>
-      </div>
-      <div class="grade-3">
-        <a class="cartao destaque" href="o-que-e-assessoria-juridica-popular.html">
-          <span class="etiqueta">O texto que abre tudo</span>
-          <h3>O que é assessoria jurídica popular?</h3>
-          <p>Definição de 2009, de Luiz Otávio Ribas: o que é, de onde vem e quem faz.</p>
-        </a>
-        <a class="cartao destaque" href="autores.html">
-          <span class="etiqueta">Quem escreve</span>
-          <h3>31 autores</h3>
-          <p>Ribas, Pazello, Assis Oliveira e outros nomes da assessoria jurídica popular.</p>
-        </a>
-        <a class="cartao destaque" href="blog.html">
-          <span class="etiqueta">Em ordem</span>
-          <h3>Blog: 713 textos</h3>
-          <p>Do mais recente ao mais antigo, ano por ano, com autor e data.</p>
-        </a>
-        <a class="cartao destaque" href="direitos-humanos.html">
-          <span class="etiqueta">Seção</span>
-          <h3>Direitos humanos</h3>
-          <p>Casos, denúncias e vitórias de quem usa o direito como ferramenta de luta.</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="resumo-pagina" aria-labelledby="resumo-pagina">
-    <div class="miolo secao">
-      <div class="secao__cabeca">
-        <h2 id="resumo-pagina">O que tem nesta página</h2>
-      </div>
-      <ul class="linhas">
-        <li><span class="emoji" aria-hidden="true">🔎</span><b>Busca e filtros:</b> por palavra-chave, tipo de texto (textos, eventos, poesia, livros, documentos, notícias), ano e ordem.</li>
-        <li><span class="emoji" aria-hidden="true">🗂️</span><b>Acervo completo:</b> 713 textos, cada um com autor, data, link do original e data de captura.</li>
-        <li><span class="emoji" aria-hidden="true">🧭</span><b>Seis seções:</b> assessoria jurídica popular, direitos humanos, movimentos sociais, memória e cultura, teoria crítica e educação popular.</li>
-        <li><span class="emoji" aria-hidden="true">👤</span><b>Autores:</b> 31 páginas, com todos os textos de cada pessoa.</li>
-        <li><span class="emoji" aria-hidden="true">🤝</span><b>Parcerias:</b> IPDMS, RENAP e MAB, no rodapé.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="referencias" aria-labelledby="referencias">
-    <div class="miolo secao">
-      <div class="secao__cabeca">
-        <h2 id="referencias">Referências e parceiros</h2>
-        <p class="secao__nota">De onde vêm os dados e com quem caminhamos</p>
-      </div>
-      <div class="grade-3">
-        <a class="cartao destaque" href="https://www.controlepopular.com.br/" target="_blank" rel="noopener">
-          <span class="etiqueta">Fonte parceira</span>
-          <h3>Controle Popular</h3>
-          <p>Dados públicos, jurisprudência e biblioteca, com fonte e metodologia abertas.</p>
-        </a>
-        <a class="cartao destaque" href="https://ipdms.org.br/" target="_blank" rel="noopener">
-          <span class="etiqueta">Curadoria</span>
-          <h3>IPDMS — GT de Assessoria Jurídica Popular</h3>
-          <p>Pesquisa, direitos e movimentos sociais: a parceria que organiza este acervo.</p>
-        </a>
-        <a class="cartao destaque" href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">
-          <span class="etiqueta">Fonte original</span>
-          <h3>Blog Assessoria Jurídica Popular</h3>
-          <p>Onde os textos foram publicados, de 2009 a 2024. Cada página leva de volta.</p>
-        </a>
-      </div>
     </div>
   </section>
 
@@ -7342,14 +7348,30 @@
     <p class="aviso-lote">Acervo completo: 713 textos.</p>
   </section>
 
-  <section class="porta porta--sobre" aria-labelledby="titulo-sobre">
-    <h2 id="titulo-sobre">Como este acervo funciona</h2>
-    <ul class="linhas">
-      <li><span class="emoji" aria-hidden="true">✍️</span><b>Citação direta:</b> o texto entra como o autor escreveu, com a grafia dele.</li>
-      <li><span class="emoji" aria-hidden="true">🔗</span><b>Fonte sempre:</b> cada página tem autor, data, link do original e data de captura.</li>
-      <li><span class="emoji" aria-hidden="true">🧭</span><b>Para quem chega:</b> “em uma frase”, glossário e o caminho de leitura.</li>
-    </ul>
-    <p class="acao"><a class="botao secundario" href="./">← Voltar à apresentação</a></p>
+  <section class="referencias" aria-labelledby="referencias">
+    <div class="miolo secao">
+      <div class="secao__cabeca">
+        <h2 id="referencias">Referências e parceiros</h2>
+        <p class="secao__nota">De onde vêm os dados e com quem caminhamos</p>
+      </div>
+      <div class="grade-3">
+        <a class="cartao destaque" href="https://www.controlepopular.com.br/" target="_blank" rel="noopener">
+          <span class="etiqueta">Fonte parceira</span>
+          <h3>Controle Popular</h3>
+          <p>Dados públicos, jurisprudência e biblioteca, com fonte e metodologia abertas.</p>
+        </a>
+        <a class="cartao destaque" href="https://ipdms.org.br/" target="_blank" rel="noopener">
+          <span class="etiqueta">Curadoria</span>
+          <h3>IPDMS — GT de Assessoria Jurídica Popular</h3>
+          <p>Pesquisa, direitos e movimentos sociais: a parceria que organiza este acervo.</p>
+        </a>
+        <a class="cartao destaque" href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">
+          <span class="etiqueta">Fonte original</span>
+          <h3>Blog Assessoria Jurídica Popular</h3>
+          <p>Onde os textos foram publicados, de 2009 a 2024. Cada página leva de volta.</p>
+        </a>
+      </div>
+    </div>
   </section>
 
 </main>
@@ -7395,9 +7417,8 @@
         <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
         <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
       </ul>
-      <p><b>GT de Assessoria Jurídica Popular do IPDMS</b></p>
-      <p class="rodape__coord"><b>Coord. Luiz Otávio Ribas</b></p>
-      <p>Desenvolvimento e retirada de imagens ou conteúdo:
+      <p>GT de Assessoria Jurídica Popular do IPDMS · Coord. Luiz Otávio Ribas</p>
+      <p>Desenvolvimento e retirada de imagens ou conteúdo: Artur Colito —
       <a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a></p>
     </div>
   </div>
@@ -7457,5 +7478,6 @@
 <script src="mistica-dia.js?v=2" defer></script>
 <script src="casca.js?v=3" defer></script>
 <script src="leitura.js?v=2" defer></script>
+<script src="inicio.js?v=1" defer></script>
 </body>
 </html>

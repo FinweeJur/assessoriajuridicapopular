@@ -179,7 +179,7 @@ for nome in os.listdir(RAIZ):
         caminho = os.path.join(RAIZ, nome)
         with io.open(caminho, encoding="utf-8") as f:
             t = f.read()
-        novo = t.replace("acervo.css?v=27", "acervo.css?v=27").replace("reveal.css?v=27", "reveal.css?v=27")
+        novo = t.replace("acervo.css?v=29", "acervo.css?v=29").replace("reveal.css?v=29", "reveal.css?v=29")
         if novo != t:
             with io.open(caminho, "w", encoding="utf-8", newline="\n") as f:
                 f.write(novo)

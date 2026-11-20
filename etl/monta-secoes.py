@@ -138,9 +138,8 @@ def rodape():
         <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
         <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
       </ul>
-      <p><b>GT de Assessoria Jurídica Popular do IPDMS</b></p>
-      <p class="rodape__coord"><b>Coord. Luiz Otávio Ribas</b></p>
-      <p>Desenvolvimento e retirada de imagens ou conteúdo:
+      <p>GT de Assessoria Jurídica Popular do IPDMS · Coord. Luiz Otávio Ribas</p>
+      <p>Desenvolvimento e retirada de imagens ou conteúdo: Artur Colito —
       <a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a></p>
     </div>
   </div>
@@ -181,11 +180,11 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <title>%s · AJP — Assessoria Jurídica Popular</title>
   <meta name="description" content="%s" />
   <link rel="icon" href="data:," />
-  <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
+  <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=27" />
-  <link rel="stylesheet" href="reveal.css?v=27" />
+  <link rel="stylesheet" href="acervo.css?v=29" />
+  <link rel="stylesheet" href="reveal.css?v=29" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
