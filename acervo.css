@@ -2033,6 +2033,7 @@ a.cartao, .item__link, .destaque, .bento__item {
 }
 @media (max-width: 700px) {
   .casca-rolagem {
-    top: auto; bottom: 150px; right: 10px; transform: none;
+    top: auto; bottom: 145px; right: 6px; transform: none;
   }
+  .casca-rolagem button { width: 38px; height: 38px; }
 }
