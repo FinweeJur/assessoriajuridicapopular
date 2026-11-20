@@ -1823,3 +1823,28 @@ a.cartao, .item__link, .destaque, .bento__item {
 @media (prefers-reduced-motion: reduce) {
   .fluxo__no--code::after { animation: none; }
 }
+
+/* Posts: texto maior usando a largura do card, imagens maiores */
+.corpo { font-size: 1.06rem; }
+.corpo > * { max-width: 76ch; }
+.corpo p,
+.corpo li,
+.corpo blockquote p {
+  font-size: clamp(1.06rem, .35vw + 1rem, 1.18rem) !important;
+  line-height: 1.7 !important;
+  max-width: 74ch;
+}
+.corpo h2 { font-size: 1.35rem; }
+.corpo h3 { font-size: 1.15rem; }
+.corpo > figure,
+.corpo > .reproducao,
+.corpo > .imagem-link { max-width: 100%; }
+.corpo figure img,
+.corpo .reproducao img {
+  width: 100%; height: auto; max-height: 80vh; object-fit: contain;
+}
+@media (max-width: 560px) {
+  .corpo { padding: 22px 18px; }
+  .corpo p, .corpo li, .corpo blockquote p { font-size: 1.04rem !important; line-height: 1.65 !important; }
+  .corpo figure img, .corpo .reproducao img { max-height: none; }
+}
