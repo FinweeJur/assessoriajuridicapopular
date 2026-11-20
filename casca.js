@@ -390,18 +390,28 @@
       el.appendChild(aura);
     });
 
-    // Meteor Impact Border nos cards de acervo, posts e destaques.
-    var links = Array.prototype.slice.call(document.querySelectorAll('.item__link'));
-    var meteoros;
-    if (links.length) {
-      links.sort(function (a, b) { return pontuaAtemporal(b) - pontuaAtemporal(a); });
-      meteoros = links.slice(0, 2);
-    } else {
-      meteoros = Array.prototype.slice.call(
-        document.querySelectorAll('.cp-cartao, .tl__cartao, figure.cartao')
-      ).slice(0, 2);
+    // Meteor Impact Border nos cards visíveis de acervo, posts e destaques.
+    function marcaMeteoros() {
+      var links = Array.prototype.slice.call(document.querySelectorAll('.item__link'));
+      var candidatos;
+      if (links.length) {
+        var visiveis = links.filter(function (a) {
+          var li = a.closest('.item');
+          return li && !li.hidden;
+        });
+        candidatos = (visiveis.length ? visiveis : links.slice(0, 24));
+        candidatos.sort(function (a, b) { return pontuaAtemporal(b) - pontuaAtemporal(a); });
+      } else {
+        candidatos = Array.prototype.slice.call(
+          document.querySelectorAll('.cp-cartao, .tl__cartao, figure.cartao')
+        );
+      }
+      candidatos.slice(0, 2).forEach(function (el) {
+        if (!el.classList.contains('meteoro-borda')) { el.classList.add('meteoro-borda'); }
+      });
     }
-    meteoros.forEach(function (el) { el.classList.add('meteoro-borda'); });
+    if (document.readyState === 'complete') { marcaMeteoros(); }
+    else { window.addEventListener('load', marcaMeteoros); }
   })();
 
   // ── Busca expansível: limpar com um clique ──────────────────────────────
