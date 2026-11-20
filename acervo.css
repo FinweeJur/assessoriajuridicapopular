@@ -1464,3 +1464,12 @@ a.cartao, .item__link, .destaque, .bento__item {
   .topo__leitura button { min-height: 40px; min-width: 40px; padding: 0 8px; }
   .topo__links { top: 100%; }
 }
+
+/* Respiro e medida de leitura nas páginas de conteúdo */
+.pagina .secao { margin-top: clamp(38px, 5vw, 64px); }
+.pagina .secao:first-of-type { margin-top: clamp(24px, 3vw, 36px); }
+.pagina .secao__cabeca { margin-bottom: clamp(16px, 2vw, 24px); }
+.pagina .secao > p,
+.pagina .secao > ul > li,
+.pagina .aviso-lote { max-width: 65ch; }
+.pagina .secao > p + p { margin-top: 1em; }
