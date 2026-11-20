@@ -1892,11 +1892,11 @@ a.cartao, .item__link, .destaque, .bento__item {
   animation: beam-sobe 2.8s ease-in-out infinite, beam-flutua 5.5s ease-in-out infinite;
 }
 .mistica-cartao .beam-core {
-  position: absolute; top: calc(-1 * var(--beam)); left: calc(62% + 2px);
+  position: absolute; top: calc(-1 * var(--beam)); left: calc(62% + 5px);
   width: 4px; height: var(--beam);
   background: linear-gradient(to top, #eafff5, rgba(26,255,156,.58) 45%, transparent 90%);
   filter: blur(.8px); z-index: 0; pointer-events: none;
-  animation: beam-core 1.8s ease-in-out infinite;
+  animation: beam-core 1.8s ease-in-out infinite, beam-flutua 5.5s ease-in-out infinite;
 }
 .mistica-cartao .beam-core::before {
   content: ""; position: absolute; left: 50%; bottom: -12px; width: 280px; height: 52px;
@@ -1914,7 +1914,7 @@ a.cartao, .item__link, .destaque, .bento__item {
 @keyframes beam-varre { from { background-position: 110% 0; } to { background-position: -110% 0; } }
 @keyframes beam-linha { 0%, 100% { opacity: .62; } 50% { opacity: 1; } }
 @keyframes beam-sobe { 0%, 100% { transform: scaleY(.72); opacity: .55; } 50% { transform: scaleY(1.06); opacity: .98; } }
-@keyframes beam-flutua { 0%, 100% { translate: 0 0; } 50% { translate: 12px 0; } }
+@keyframes beam-flutua { 0%, 100% { translate: 0 0; } 50% { translate: 8px 0; } }
 @keyframes beam-core { 0%, 100% { transform: scaleY(.82); opacity: .62; } 50% { transform: scaleY(1.04); opacity: 1; } }
 @media (prefers-reduced-motion: reduce) {
   .mistica-cartao::before, .mistica-cartao::after, .mistica-cartao .beam-core { animation: none; }
