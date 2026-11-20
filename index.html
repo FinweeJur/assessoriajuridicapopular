@@ -75,23 +75,45 @@
     </p>
   </section>
 
-  <section class="busca" aria-labelledby="titulo-busca">
-    <h2 id="titulo-busca" class="sr-only">Buscar no acervo</h2>
-    <label class="busca__campo">
-      <span class="sr-only">Buscar por título, autor ou tema</span>
-      <input id="busca" data-busca type="search" placeholder="Buscar por título, autor ou tema" autocomplete="off" />
-    </label>
-    <p class="busca__contagem" id="busca-contagem" role="status" aria-live="polite">713 textos</p>
+  <section class="fita-secao" aria-label="Filtrar o acervo">
+    <div class="fita">
+      <label class="sr-only" for="busca">Buscar no acervo</label>
+      <input id="busca" data-busca type="search" placeholder="Buscar por título, autor, tema ou palavra-chave" autocomplete="off" />
+      <div class="fita__tipos" role="group" aria-label="Tipo de texto">
+        <button type="button" class="chip-f" data-tipo-f="todos" aria-pressed="true">Todos</button>
+        <button type="button" class="chip-f" data-tipo-f="formativo" aria-pressed="false">Textos</button>
+        <button type="button" class="chip-f" data-tipo-f="evento" aria-pressed="false">Eventos</button>
+        <button type="button" class="chip-f" data-tipo-f="poesia" aria-pressed="false">Poesia</button>
+        <button type="button" class="chip-f" data-tipo-f="resenha" aria-pressed="false">Livros</button>
+        <button type="button" class="chip-f" data-tipo-f="documento" aria-pressed="false">Documentos</button>
+        <button type="button" class="chip-f" data-tipo-f="notícia" aria-pressed="false">Notícias</button>
+      </div>
+      <label class="sr-only" for="f-ano">Ano</label>
+      <select id="f-ano" data-ano-filtro>
+        <option value="">Todos os anos</option>
+      </select>
+      <label class="sr-only" for="f-palavra">Palavra-chave</label>
+      <select id="f-palavra" data-palavra-filtro>
+        <option value="">Todas as palavras-chave</option>
+      </select>
+      <label class="sr-only" for="f-ordem">Ordenar</label>
+      <select id="f-ordem" data-ordem>
+        <option value="recente">Mais recente</option>
+        <option value="antigo">Mais antigo</option>
+        <option value="titulo">Título</option>
+      </select>
+      <span class="fita__conta" data-conta role="status" aria-live="polite">713 textos</span>
+    </div>
   </section>
 
-  <nav class="chips" aria-label="Categorias do acervo">
-    <a class="chip" href="#" aria-current="true">Tudo</a>
-    <a class="chip" href="#">Assessoria jurídica popular</a>
-    <a class="chip" href="#">Educação popular</a>
-    <a class="chip" href="#">Movimentos sociais</a>
-    <a class="chip" href="#">Direitos humanos</a>
-    <a class="chip" href="#">Memória</a>
-    <a class="chip" href="#">Teoria crítica</a>
+  <nav class="chips" aria-label="Seções do acervo">
+    <a class="chip" href="assessoria-juridica-popular.html">Assessoria jurídica popular</a>
+    <a class="chip" href="direitos-humanos.html">Direitos humanos</a>
+    <a class="chip" href="movimentos-sociais.html">Movimentos sociais</a>
+    <a class="chip" href="memoria-e-cultura.html">Memória e cultura</a>
+    <a class="chip" href="teoria-critica.html">Teoria crítica</a>
+    <a class="chip" href="educacao-popular.html">Educação popular</a>
+    <a class="chip" href="direito-critico-comparado.html">Comparado</a>
   </nav>
 
 
