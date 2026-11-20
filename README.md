@@ -3,8 +3,11 @@
 Site do acervo de textos sobre **assessoria jurídica popular**, publicado com
 citação direta, crédito, link canônico e botão para o original e para o autor.
 
-**Publicação:** `assessoriajuridicapopular.pages.dev` (Cloudflare Pages, site
-estático, sem build).
+**No ar:** <https://finweejur.github.io/assessoriajuridicapopular/>
+
+**Publicação:** GitHub Pages, branch `master`, raiz do repositório, com
+`.nojekyll`. O nome `assessoriajuridicapopular.pages.dev` fica como plano B
+(Cloudflare Pages).
 
 ## O que tem aqui
 
