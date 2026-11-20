@@ -466,7 +466,7 @@
 :root { --cor-tema: #12467b; }
 [data-theme="light"] { --cor-tema: #12467b; }
 [data-theme="dark"] { --cor-tema: #4a90d9; }
-[data-theme="pequi"] { --cor-tema: #ff8c00; } /* laranja neon para os efeitos */
+[data-theme="pequi"] { --cor-tema: #ff9f1c; } /* laranja neon para os efeitos */
 [data-theme="cerrado"] { --cor-tema: #c97b5a; }
 [data-theme="mata-atlantica"] { --cor-tema: #3a6b35; }
 [data-theme="caatinga"] { --cor-tema: #d97724; }
