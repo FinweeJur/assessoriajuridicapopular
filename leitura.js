@@ -60,6 +60,18 @@
       raiz.dataset.theme = seletor.value;
       try { localStorage.setItem('renap-tema', seletor.value); } catch (e) {}
     });
+    // Mantém a barra sincronizada mesmo quando outro script muda o tema.
+    if (window.MutationObserver) {
+      new MutationObserver(function () {
+        if (seletor.value !== raiz.dataset.theme) {
+          seletor.value = raiz.dataset.theme;
+        }
+      }).observe(raiz, { attributes: true, attributeFilter: ['data-theme'] });
+    }
+    window.addEventListener('storage', function (ev) {
+      if (ev.key !== 'renap-tema' || !ev.newValue) { return; }
+      raiz.dataset.theme = ev.newValue;
+    });
   }
 
   // Leitura: A-, A+ e ouvir.
