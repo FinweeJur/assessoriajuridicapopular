@@ -73,17 +73,21 @@ TERMOS = [
     ("MST", "Movimento dos Trabalhadores Rurais Sem Terra.", "https://mst.org.br/"),
     ("CPT", "Comissão Pastoral da Terra: acervo de conflitos no campo.", "https://www.cptnacional.org.br/"),
     ("CIMI", "Conselho Indigenista Missionário.", "https://cimi.org.br/"),
-    ("Defensoria Pública", "Órgão estatal de assistência jurídica gratuita, previsto na Constituição de 1988.", "https://www.controlepopular.com.br/jurisprudencia/"),
+    ("Defensoria Pública", "Órgão estatal de assistência jurídica gratuita, previsto na Constituição de 1988.", "assessoria-juridica-popular-no-mundo.html"),
     ("Mística", "Energia que sustenta a luta: arte, memória e celebração dentro da organização popular.", "mistica.html"),
     ("Criminalização", "Uso do direito penal contra movimentos e defensores de direitos.", "direitos-humanos.html"),
-    ("Torto Arado", "Romance de Itamar Vieira Junior sobre terra, trabalho e ancestralidade.", "coracao-sem-medo.html"),
+    ("Torto Arado", "Romance de Itamar Vieira Junior sobre terra, trabalho e ancestralidade.", ""),
 ]
 
-linhas = "\n".join(
-    '        <li><b>%s</b> — %s <a href="%s"%s>ver</a></li>'
-    % (ms.esc(termo), ms.esc(definicao), url,
-       ' target="_blank" rel="noopener"' if url.startswith("http") else "")
-    for termo, definicao, url in TERMOS)
+def linha_termo(termo, definicao, url):
+    if not url:
+        return '        <li><b>%s</b> — %s</li>' % (ms.esc(termo), ms.esc(definicao))
+    externo = ' target="_blank" rel="noopener"' if url.startswith("http") else ""
+    return '        <li><b>%s</b> — %s <a href="%s"%s>ver</a></li>' % (
+        ms.esc(termo), ms.esc(definicao), url, externo)
+
+
+linhas = "\n".join(linha_termo(termo, definicao, url) for termo, definicao, url in TERMOS)
 
 corpo = """    <section class="secao">
       <div class="secao__cabeca"><h2>Termos do acervo</h2>

@@ -192,7 +192,7 @@ corpo = """    <section class="secao" aria-labelledby="livros">
         <li><span class="emoji" aria-hidden="true">📕</span><b>A montanha é mais que uma imensa estepe verde</b>, de Omar Cabezas (Expressão Popular) — história da Revolução Nicaraguense.</li>
         <li><span class="emoji" aria-hidden="true">📗</span><b>Mayombe</b>, de Pepetela — história da Revolução Angolana.</li>
         <li><span class="emoji" aria-hidden="true">📘</span><b>Torto Arado</b>, de Itamar Vieira Junior — a luta pela terra do povo negro no Brasil.</li>
-        <li><span class="emoji" aria-hidden="true">📰</span><b>Boletim Tricontinental</b> — análises do Sul global.</li>
+        
       </ul>
     </section>
     <section class="secao" aria-labelledby="filmes">
@@ -215,6 +215,7 @@ corpo = """    <section class="secao" aria-labelledby="livros">
       <ul class="linhas">
         <li><span class="emoji" aria-hidden="true">✊</span><b>#LevanteNoConune</b> — resistir e indignar.</li>
         <li><span class="emoji" aria-hidden="true">🎤</span><b>RAP RESISTÊNCIA</b> — coletânea de rap político.</li>
+        <li><span class="emoji" aria-hidden="true">📰</span><b>Boletim Tricontinental</b> — análises do Sul global.</li>
         <li><span class="emoji" aria-hidden="true">📚</span><b>Textos marxistas sobre cultura</b> — seleção de leitura.</li>
       </ul>
     </section>"""
