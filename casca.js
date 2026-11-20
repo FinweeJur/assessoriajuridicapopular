@@ -99,6 +99,7 @@
       '<form class="assistente__form"><label class="sr-only" for="assistente-campo">Sua pergunta</label>' +
       '<input id="assistente-campo" type="search" placeholder="Ex.: o que é assessoria jurídica popular?" autocomplete="off" />' +
       '<button type="submit">Buscar</button></form>' +
+      '<div class="assistente__curadas" data-assistente-curadas></div>' +
       '<p class="assistente__status" role="status" aria-live="polite"></p>' +
       '<ul class="assistente__lista"></ul></div>';
     document.body.appendChild(painel);
@@ -107,6 +108,43 @@
     var lista = painel.querySelector('.assistente__lista');
     var status = painel.querySelector('.assistente__status');
     var indice = null;
+    var curadas = [];
+    var curadasBox = painel.querySelector('[data-assistente-curadas]');
+
+    function escapa(t) {
+      return (t || '').replace(/[&<>"]/g, function (c) {
+        return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c];
+      });
+    }
+
+    function mostraCurada(q) {
+      if (!q) { return; }
+      status.textContent = 'Resposta curada.';
+      var links = (q.links || []).map(function (l) {
+        var externo = /^https?:/.test(l.url) ? ' target="_blank" rel="noopener"' : '';
+        return '<a href="' + l.url + '"' + externo + '>' + escapa(l.texto) + '</a>';
+      }).join('');
+      lista.innerHTML = '<li class="assistente__resposta"><b>' + escapa(q.pergunta) + '</b>' +
+        '<p>' + escapa(q.resposta) + '</p>' + (links ? '<div>' + links + '</div>' : '') + '</li>';
+    }
+
+    fetch('dados/perguntas.json').then(function (r) { return r.json(); }).then(function (qs) {
+      curadas = qs || [];
+      if (!curadasBox || !curadas.length) { return; }
+      curadasBox.innerHTML = '<span class="assistente__curadas-rotulo">Perguntas rápidas</span>' +
+        curadas.map(function (q, i) {
+          return '<button type="button" data-curada="' + i + '">' + escapa(q.pergunta) + '</button>';
+        }).join('');
+    }).catch(function () {});
+
+    if (curadasBox) {
+      curadasBox.addEventListener('click', function (ev) {
+        var b = ev.target.closest('button[data-curada]');
+        if (!b) { return; }
+        mostraCurada(curadas[parseInt(b.getAttribute('data-curada'), 10)]);
+      });
+    }
+
 
     var semAcento = function (t) {
       return (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();

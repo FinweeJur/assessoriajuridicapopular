@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=50" />
-  <link rel="stylesheet" href="reveal.css?v=50" />
+  <link rel="stylesheet" href="acervo.css?v=51" />
+  <link rel="stylesheet" href="reveal.css?v=51" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -246,6 +246,32 @@
     </div>
   </section>
 
+  <section class="conversa" aria-labelledby="conversa-titulo">
+    <div class="miolo">
+      <div class="secao__cabeca">
+        <h2 id="conversa-titulo">Pergunte ao acervo</h2>
+        <p class="secao__nota">Respostas rápidas, com fonte e link</p>
+      </div>
+      <div class="conversa__caixa" data-conversa>
+        <div class="conversa__topo">
+          <span class="conversa__avatar" aria-hidden="true">AJP</span>
+          <div><b>Assistente do acervo</b><small>perguntas frequentes</small></div>
+          <span class="conversa__status">aberto</span>
+        </div>
+        <div class="conversa__corpo" data-conversa-corpo>
+          <p class="conversa__fala conversa__fala--bot">Olá! Escolha uma pergunta abaixo ou
+          escreva a sua. As respostas curadas têm link para o texto original.</p>
+        </div>
+        <div class="conversa__perguntas" data-conversa-perguntas></div>
+        <form class="conversa__form" data-conversa-form>
+          <label class="sr-only" for="conversa-campo">Sua pergunta</label>
+          <input id="conversa-campo" type="search" placeholder="Ou digite sua pergunta" autocomplete="off" />
+          <button type="submit">Perguntar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="rodape">
@@ -347,9 +373,10 @@
 <script src="reveal.js" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
 <script src="mistica-dia.js?v=2" defer></script>
-<script src="casca.js?v=15" defer></script>
+<script src="casca.js?v=16" defer></script>
 <script src="leitura.js?v=2" defer></script>
 <script src="inicio.js?v=9" defer></script>
 <script src="fundo-grade.js?v=5" defer></script>
+<script src="conversa.js?v=1" defer></script>
 </body>
 </html>
