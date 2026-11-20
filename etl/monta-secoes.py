@@ -174,8 +174,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css" />
-  <link rel="stylesheet" href="reveal.css" />
+  <link rel="stylesheet" href="acervo.css?v=3" />
+  <link rel="stylesheet" href="reveal.css?v=3" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
