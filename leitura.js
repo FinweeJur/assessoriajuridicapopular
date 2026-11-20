@@ -44,12 +44,14 @@
     });
   }
 
-  // Tema: pequi por padrão, lembrado entre páginas.
+  // Tema: o escolhido manda em todas as páginas; sem escolha, pequi.
   var raiz = document.documentElement;
   var guardado = null;
   try { guardado = localStorage.getItem('renap-tema'); } catch (e) {}
-  if (!raiz.dataset.theme || raiz.dataset.theme === 'light') {
-    raiz.dataset.theme = guardado || 'pequi';
+  if (guardado) {
+    raiz.dataset.theme = guardado;
+  } else if (!raiz.dataset.theme) {
+    raiz.dataset.theme = 'pequi';
   }
   var seletor = document.getElementById('tema');
   if (seletor) {

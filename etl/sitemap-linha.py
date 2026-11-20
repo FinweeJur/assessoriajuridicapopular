@@ -73,6 +73,7 @@ CORPO = """    <section class="secao">
 PAGINA = """<!DOCTYPE html>
 <html lang="pt-BR" data-theme="pequi">
 <head>
+  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Linha do tempo · AJP — Assessoria Jurídica Popular</title>

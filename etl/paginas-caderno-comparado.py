@@ -18,6 +18,7 @@ def escreve(arquivo, titulo, descricao, olho, lead, corpo, autor, data_iso, font
     modelo = """<!DOCTYPE html>
 <html lang="pt-BR" data-theme="light">
 <head>
+  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>@@TITULO@@ · AJP — Assessoria Jurídica Popular</title>

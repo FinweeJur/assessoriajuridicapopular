@@ -93,7 +93,8 @@ print("comparado fundido:", "direito-critico" in t)
 ANTIGA = os.path.join(RAIZ, "direito-critico-comparado.html")
 with io.open(ANTIGA, "w", encoding="utf-8", newline="\n") as f:
     f.write("""<!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8" />
+<html lang="pt-BR"><head>
+  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script><meta charset="utf-8" />
 <meta http-equiv="refresh" content="0; url=assessoria-juridica-popular-no-mundo.html#direito-critico" />
 <title>Direito crítico comparado · AJP</title>
 <link rel="canonical" href="assessoria-juridica-popular-no-mundo.html" />

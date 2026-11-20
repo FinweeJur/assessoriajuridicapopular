@@ -44,6 +44,7 @@ citacao_html = "\n        ".join("<p>%s</p>" % ms.esc(p) for p in trechos)
 PAGINA = """<!DOCTYPE html>
 <html lang="pt-BR" data-theme="light">
 <head>
+  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mística: acúmulos, aprendizados, saberes — AJP</title>

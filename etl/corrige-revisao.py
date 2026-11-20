@@ -21,6 +21,7 @@ def template(titulo, olho, lead, corpo, arquivo, autor="Acervo AJP", data="2026-
     return ("""<!DOCTYPE html>
 <html lang="pt-BR" data-theme="light">
 <head>
+  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>%s · AJP — Assessoria Jurídica Popular</title>
