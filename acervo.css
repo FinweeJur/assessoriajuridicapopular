@@ -905,3 +905,50 @@ a.cartao:hover, a.cartao:focus-visible,
   font-size: clamp(1.25rem, 2.2vw, 1.7rem);
   letter-spacing: -.01em; margin: 0 0 4px;
 }
+
+/* Linha do tempo: trilho que se preenche conforme a rolagem */
+.tl { position: relative; padding-left: 28px; }
+.tl__trilho {
+  position: absolute; left: 8px; top: 0; bottom: 0; width: 2px;
+  background: color-mix(in srgb, var(--cp-border) 70%, transparent);
+  border-radius: 2px; overflow: hidden;
+}
+.tl__trilho i {
+  display: block; width: 100%; height: 0;
+  background: linear-gradient(to bottom, var(--cp-primary), color-mix(in srgb, var(--cp-primary) 40%, transparent));
+  box-shadow: 0 0 14px color-mix(in srgb, var(--cp-primary) 55%, transparent);
+  transition: height .12s linear;
+}
+.tl__lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.tl__item { position: relative; }
+.tl__cartao {
+  display: grid; grid-template-columns: 1fr auto; align-items: center;
+  gap: 6px 14px; padding: 14px 16px; text-decoration: none !important;
+  border: 1px solid var(--borda); border-radius: 12px; color: var(--cp-text);
+  transition: border-color .18s var(--curva), transform .18s var(--curva),
+              box-shadow .18s var(--curva), background-color .18s var(--curva);
+}
+.tl__cartao:hover, .tl__cartao:focus-visible {
+  border-color: var(--cp-primary); transform: translateX(4px);
+  box-shadow: 0 10px 28px rgba(0,0,0,.28);
+  background: color-mix(in srgb, var(--cp-primary) 8%, transparent);
+}
+.tl__ponto {
+  position: absolute; left: -24px; top: 22px; width: 10px; height: 10px;
+  border-radius: 50%; background: var(--cp-bg);
+  border: 2px solid color-mix(in srgb, var(--cp-border) 80%, transparent);
+  transition: border-color .2s var(--curva), box-shadow .2s var(--curva), transform .2s var(--curva);
+}
+.tl__item[data-aceso="true"] .tl__ponto {
+  border-color: var(--cp-primary); transform: scale(1.15);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--cp-primary) 22%, transparent),
+              0 0 18px color-mix(in srgb, var(--cp-primary) 55%, transparent);
+}
+.tl__ano { font-family: var(--font-display); font-size: 1.15rem; }
+.tl__barra { grid-column: 1 / -1; height: 6px; border-radius: 6px; background: color-mix(in srgb, var(--cp-border) 45%, transparent); overflow: hidden; }
+.tl__barra i { display: block; height: 100%; background: var(--cp-primary); border-radius: 6px; }
+.tl__conta { font-size: .78rem; color: var(--cp-text-soft); }
+@media (prefers-reduced-motion: reduce) {
+  .tl__trilho i { transition: none; }
+  .tl__cartao:hover { transform: none; }
+}
