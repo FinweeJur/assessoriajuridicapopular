@@ -96,12 +96,20 @@
       return el;
     }
 
+    function corCss(nome, fallback) {
+      var v = getComputedStyle(document.documentElement).getPropertyValue(nome).trim();
+      return v || fallback;
+    }
+
     function desenha() {
       var pr = palco.getBoundingClientRect();
       svg.setAttribute('viewBox', '0 0 ' + pr.width + ' ' + pr.height);
       while (svg.firstChild) { svg.removeChild(svg.firstChild); }
       var nos = [].slice.call(palco.querySelectorAll('.fluxo__no'));
       if (nos.length < 3) { return; }
+
+      var corTema = corCss('--cor-tema', '#ff7a3d');
+      var corAcento = corCss('--cp-accent', '#38bdf8');
 
       var icoMeio = nos[1].querySelector('.fluxo__ico');
       var rm = icoMeio.getBoundingClientRect();
@@ -127,8 +135,8 @@
       defs.appendChild(filtro);
 
       var radial = cria('radialGradient', { id: 'fluxo-core' });
-      radial.appendChild(cria('stop', { offset: '0%', 'stop-color': '#38bdf8', 'stop-opacity': '.3' }));
-      radial.appendChild(cria('stop', { offset: '100%', 'stop-color': '#38bdf8', 'stop-opacity': '0' }));
+      radial.appendChild(cria('stop', { offset: '0%', 'stop-color': corTema, 'stop-opacity': '.3' }));
+      radial.appendChild(cria('stop', { offset: '100%', 'stop-color': corTema, 'stop-opacity': '0' }));
       defs.appendChild(radial);
       svg.appendChild(cria('circle', {
         cx: core.x, cy: core.y, r: 80, fill: 'url(#fluxo-core)', opacity: '.9'
@@ -161,7 +169,7 @@
               ' ' + fim.x + ' ' + fim.y;
         }
 
-        var cores = idx ? ['#38bdf8', '#c084fc'] : ['#ff7a3d', '#38bdf8'];
+        var cores = idx ? [corAcento, corTema] : [corTema, corAcento];
         var gid = 'fluxo-grad-' + idx;
         var grad = cria('linearGradient', {
           id: gid, gradientUnits: 'userSpaceOnUse',
@@ -248,6 +256,31 @@
   var reduz = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var fios = [];
   var w = 0, h = 0, baseY = 0, x = 0, beam = 0, dpr = 1, raf = 0;
+  var cor = { r: 26, g: 255, b: 156 };
+  var clara = { r: 230, g: 255, b: 245 };
+
+  function mistura(a, b, p) {
+    return {
+      r: Math.round(a.r + (b.r - a.r) * p),
+      g: Math.round(a.g + (b.g - a.g) * p),
+      b: Math.round(a.b + (b.b - a.b) * p)
+    };
+  }
+
+  function rgba(c, a) {
+    return 'rgba(' + c.r + ',' + c.g + ',' + c.b + ',' + a + ')';
+  }
+
+  function atualizaCor() {
+    var sonda = document.createElement('span');
+    sonda.style.cssText = 'position:absolute;width:0;height:0;visibility:hidden;color:var(--cor-tema)';
+    document.body.appendChild(sonda);
+    var val = getComputedStyle(sonda).color;
+    sonda.remove();
+    var m = val.match(/rgba?\((\d+)[,\s]+(\d+)[,\s]+(\d+)/i);
+    if (m) { cor = { r: +m[1], g: +m[2], b: +m[3] }; }
+    clara = mistura(cor, { r: 255, g: 255, b: 255 }, .62);
+  }
 
   for (var i = 0; i < 26; i++) {
     fios.push({
@@ -272,13 +305,14 @@
     beam = parseFloat(getComputedStyle(cartao).getPropertyValue('--beam')) || (h - 20);
     baseY = h - 20;
     x = w * .62;
+    atualizaCor();
     for (var i = 0; i < fios.length; i++) {
       var f = fios[i];
       var g = ctx.createLinearGradient(0, baseY, 0, 0);
-      g.addColorStop(0, 'rgba(230,255,245,' + (.8 * f.alfa).toFixed(3) + ')');
-      g.addColorStop(.16, 'rgba(90,255,195,' + (.55 * f.alfa).toFixed(3) + ')');
-      g.addColorStop(.62, 'rgba(26,255,156,' + (.18 * f.alfa).toFixed(3) + ')');
-      g.addColorStop(1, 'rgba(26,255,156,0)');
+      g.addColorStop(0, rgba(clara, (.8 * f.alfa).toFixed(3)));
+      g.addColorStop(.16, rgba(clara, (.55 * f.alfa).toFixed(3)));
+      g.addColorStop(.62, rgba(cor, (.18 * f.alfa).toFixed(3)));
+      g.addColorStop(1, rgba(cor, 0));
       f.grad = g;
     }
     return true;
@@ -293,7 +327,7 @@
     ctx.beginPath();
     ctx.arc(0, 0, rx, 0, Math.PI * 2);
     ctx.fillStyle = g;
-    ctx.shadowColor = '#1aff9c';
+    ctx.shadowColor = rgba(cor, 1);
     ctx.shadowBlur = brilho;
     ctx.fill();
     ctx.restore();
@@ -301,9 +335,9 @@
 
   function anvil(rx, alt, alfa, brilho) {
     var g = ctx.createRadialGradient(x, baseY, 0, x, baseY, rx);
-    g.addColorStop(0, 'rgba(235,255,248,' + alfa + ')');
-    g.addColorStop(.32, 'rgba(26,255,156,' + (alfa * .55).toFixed(2) + ')');
-    g.addColorStop(1, 'rgba(26,255,156,0)');
+    g.addColorStop(0, rgba(clara, alfa));
+    g.addColorStop(.32, rgba(cor, (alfa * .55).toFixed(2)));
+    g.addColorStop(1, rgba(cor, 0));
     ctx.beginPath();
     ctx.moveTo(x - rx, baseY + 1);
     ctx.bezierCurveTo(x - rx * .55, baseY, x - rx * .16, baseY - alt * .55, x - 8, baseY - alt);
@@ -311,7 +345,7 @@
     ctx.bezierCurveTo(x + rx * .16, baseY - alt * .55, x + rx * .55, baseY, x + rx, baseY + 1);
     ctx.closePath();
     ctx.fillStyle = g;
-    ctx.shadowColor = '#1aff9c';
+    ctx.shadowColor = rgba(cor, 1);
     ctx.shadowBlur = brilho;
     ctx.fill();
     ctx.shadowBlur = 0;
@@ -326,7 +360,7 @@
     var largura = Math.min(w * .34, 400);
 
     // Base: elipse rasa + bigorna com pontas e pico central.
-    elipse(largura, 5, [[0, 'rgba(180,255,225,.28)'], [.42, 'rgba(26,255,156,.12)'], [1, 'rgba(26,255,156,0)']], 14);
+    elipse(largura, 5, [[0, rgba(clara, .28)], [.42, rgba(cor, .12)], [1, rgba(cor, 0)]], 14);
     anvil(largura * .82, 8, .24, 14);
     anvil(largura * .54, 16, .38, 18);
     anvil(largura * .28, 28, .58, 20);
@@ -334,9 +368,9 @@
 
     // Coluna cônica atrás dos filamentos.
     var gc = ctx.createLinearGradient(0, baseY, 0, 0);
-    gc.addColorStop(0, 'rgba(26,255,156,.5)');
-    gc.addColorStop(.45, 'rgba(26,255,156,.22)');
-    gc.addColorStop(1, 'rgba(26,255,156,0)');
+    gc.addColorStop(0, rgba(cor, .5));
+    gc.addColorStop(.45, rgba(cor, .22));
+    gc.addColorStop(1, rgba(cor, 0));
     ctx.beginPath();
     ctx.moveTo(x - 20, baseY);
     ctx.lineTo(x - 6, 0);
@@ -344,15 +378,15 @@
     ctx.lineTo(x + 20, baseY);
     ctx.closePath();
     ctx.fillStyle = gc;
-    ctx.shadowColor = '#1aff9c';
+    ctx.shadowColor = rgba(cor, 1);
     ctx.shadowBlur = 14;
     ctx.fill();
     ctx.shadowBlur = 0;
 
     var gi = ctx.createLinearGradient(0, baseY, 0, 0);
-    gi.addColorStop(0, 'rgba(150,255,220,.42)');
-    gi.addColorStop(.55, 'rgba(26,255,156,.14)');
-    gi.addColorStop(1, 'rgba(26,255,156,0)');
+    gi.addColorStop(0, rgba(clara, .42));
+    gi.addColorStop(.55, rgba(cor, .14));
+    gi.addColorStop(1, rgba(cor, 0));
     ctx.beginPath();
     ctx.moveTo(x - 10, baseY);
     ctx.lineTo(x - 3.5, 0);
@@ -360,7 +394,7 @@
     ctx.lineTo(x + 10, baseY);
     ctx.closePath();
     ctx.fillStyle = gi;
-    ctx.shadowColor = '#1aff9c';
+    ctx.shadowColor = rgba(cor, 1);
     ctx.shadowBlur = 10;
     ctx.fill();
     ctx.shadowBlur = 0;
@@ -386,13 +420,13 @@
 
     // Núcleo branco-esverdeado.
     var gc = ctx.createLinearGradient(0, baseY, 0, 0);
-    gc.addColorStop(0, 'rgba(245,255,250,.98)');
-    gc.addColorStop(.2, 'rgba(130,255,215,.9)');
-    gc.addColorStop(.66, 'rgba(26,255,156,.42)');
-    gc.addColorStop(1, 'rgba(26,255,156,0)');
+    gc.addColorStop(0, rgba(clara, .98));
+    gc.addColorStop(.2, rgba(clara, .9));
+    gc.addColorStop(.66, rgba(cor, .42));
+    gc.addColorStop(1, rgba(cor, 0));
     ctx.strokeStyle = gc;
     ctx.lineWidth = 4.4;
-    ctx.shadowColor = '#1aff9c';
+    ctx.shadowColor = rgba(cor, 1);
     ctx.shadowBlur = 12;
     ctx.beginPath();
     ctx.moveTo(x, baseY);
@@ -402,11 +436,11 @@
 
     // Linha intensa no ponto de impacto.
     var gh = ctx.createLinearGradient(0, 0, w, 0);
-    gh.addColorStop(0, 'rgba(26,255,156,0)');
-    gh.addColorStop(.35, 'rgba(26,255,156,.18)');
-    gh.addColorStop(.5, 'rgba(220,255,240,.65)');
-    gh.addColorStop(.65, 'rgba(26,255,156,.18)');
-    gh.addColorStop(1, 'rgba(26,255,156,0)');
+    gh.addColorStop(0, rgba(cor, 0));
+    gh.addColorStop(.35, rgba(cor, .18));
+    gh.addColorStop(.5, rgba(clara, .65));
+    gh.addColorStop(.65, rgba(cor, .18));
+    gh.addColorStop(1, rgba(cor, 0));
     ctx.fillStyle = gh;
     ctx.fillRect(0, baseY - 1, w, 2);
 
@@ -417,7 +451,7 @@
       var sx = x + Math.sin(tt * 1.3 + s * 2.1) * 10 * (1 - p * .6);
       ctx.beginPath();
       ctx.arc(sx, sy, 1.1 + 1.4 * (1 - p), 0, Math.PI * 2);
-      ctx.fillStyle = 'rgba(200,255,230,' + (.6 * (1 - p)).toFixed(3) + ')';
+      ctx.fillStyle = rgba(clara, (.6 * (1 - p)).toFixed(3));
       ctx.fill();
     }
 
@@ -440,6 +474,11 @@
     new ResizeObserver(function () {
       if (medir() && reduz) { desenha(0); }
     }).observe(canvas);
+  }
+  if (window.MutationObserver) {
+    new MutationObserver(function () {
+      if (medir() && reduz) { desenha(0); }
+    }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme', 'data-cvd'] });
   }
   window.addEventListener('resize', function () {
     if (medir() && reduz) { desenha(0); }

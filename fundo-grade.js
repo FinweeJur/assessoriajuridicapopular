@@ -30,7 +30,7 @@
     return cor || fallback;
   }
 
-  var primaria = resolve('--cp-primary', '#ffd700');
+  var primaria = resolve('--cor-tema', resolve('--cp-primary', '#ffd700'));
   var texto = resolve('--cp-text', '#ffffff');
 
   function criaEstrelas() {
@@ -128,7 +128,7 @@
 
   window.addEventListener('resize', mede);
   new MutationObserver(function () {
-    primaria = resolve('--cp-primary', '#ffd700');
+    primaria = resolve('--cor-tema', resolve('--cp-primary', '#ffd700'));
     texto = resolve('--cp-text', '#ffffff');
     agenda();
   }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });

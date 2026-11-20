@@ -1365,18 +1365,18 @@ a.cartao, .item__link, .destaque, .bento__item {
 .electro { position: relative; overflow: visible !important; }
 .electro::after {
   content: ""; position: absolute; inset: 0; border-radius: inherit;
-  border: 2px solid #ff9900;
+  border: 2px solid var(--cor-tema);
   filter: url(#electro-filtro);
   pointer-events: none; z-index: 2;
 }
 .electro__aura {
   position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
-  border: 2px solid rgba(255, 153, 0, .55);
+  border: 2px solid color-mix(in srgb, var(--cor-tema) 55%, transparent);
   filter: blur(2px); opacity: .9; z-index: 1;
 }
 .electro__aura::after {
   content: ""; position: absolute; inset: -1px; border-radius: inherit;
-  border: 2px solid rgba(255, 153, 0, .35);
+  border: 2px solid color-mix(in srgb, var(--cor-tema) 35%, transparent);
   filter: blur(7px); opacity: .9;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -1789,9 +1789,9 @@ a.cartao, .item__link, .destaque, .bento__item {
 }
 
 /* Fluxo: núcleo e feixes coloridos */
-.fluxo__no--blog { --no-cor: #ff7a3d; }
-.fluxo__no--code { --no-cor: #38bdf8; }
-.fluxo__no--git { --no-cor: #c084fc; }
+.fluxo__no--blog { --no-cor: var(--cor-tema); }
+.fluxo__no--code { --no-cor: var(--cp-accent); }
+.fluxo__no--git { --no-cor: color-mix(in srgb, var(--cor-tema) 55%, var(--cp-accent)); }
 .fluxo__no .fluxo__ico {
   color: var(--no-cor);
   border-color: color-mix(in srgb, var(--no-cor) 48%, transparent);
@@ -1881,39 +1881,49 @@ a.cartao, .item__link, .destaque, .bento__item {
 .mistica-cartao::before {
   content: ""; position: absolute; top: -1.5px; left: 0; right: 0; height: 3px;
   background:
-    linear-gradient(90deg, transparent, rgba(26,255,156,.10) 6%, #1aff9c 30%,
-                    #eafff5 50%, #1aff9c 70%, rgba(26,255,156,.10) 94%, transparent);
+    linear-gradient(90deg, transparent,
+      color-mix(in srgb, var(--cor-tema) 10%, transparent) 6%,
+      var(--cor-tema) 30%,
+      color-mix(in srgb, var(--cor-tema) 55%, #fff) 50%,
+      var(--cor-tema) 70%,
+      color-mix(in srgb, var(--cor-tema) 10%, transparent) 94%, transparent);
   background-size: 220% 100%;
-  box-shadow: 0 0 10px #1aff9c, 0 0 30px rgba(26,255,156,.55), 0 0 70px rgba(26,255,156,.22);
+  box-shadow: 0 0 10px var(--cor-tema),
+              0 0 30px color-mix(in srgb, var(--cor-tema) 55%, transparent),
+              0 0 70px color-mix(in srgb, var(--cor-tema) 22%, transparent);
   filter: blur(.25px); z-index: 3; pointer-events: none;
   animation: beam-varre 6s linear infinite, beam-linha 4s ease-in-out infinite;
 }
 .mistica-cartao::after {
   content: ""; position: absolute; top: calc(-1 * var(--beam)); left: 62%;
   width: 14px; height: var(--beam);
-  background: linear-gradient(to top, rgba(26,255,156,.92), rgba(26,255,156,.28) 58%,
-              rgba(26,255,156,.06) 88%, transparent);
+  background: linear-gradient(to top,
+              color-mix(in srgb, var(--cor-tema) 92%, transparent),
+              color-mix(in srgb, var(--cor-tema) 28%, transparent) 58%,
+              color-mix(in srgb, var(--cor-tema) 6%, transparent) 88%, transparent);
   filter: blur(4px); transform-origin: bottom; z-index: 0; pointer-events: none;
   animation: beam-sobe 2.8s ease-in-out infinite, beam-flutua 5.5s ease-in-out infinite;
 }
 .mistica-cartao .beam-core {
   position: absolute; top: calc(-1 * var(--beam)); left: calc(62% + 5px);
   width: 4px; height: var(--beam);
-  background: linear-gradient(to top, #eafff5, rgba(26,255,156,.58) 45%, transparent 90%);
+  background: linear-gradient(to top, color-mix(in srgb, var(--cor-tema) 18%, #fff), color-mix(in srgb, var(--cor-tema) 58%, transparent) 45%, transparent 90%);
   filter: blur(.8px); z-index: 0; pointer-events: none;
   animation: beam-core 1.8s ease-in-out infinite, beam-flutua 5.5s ease-in-out infinite;
 }
 .mistica-cartao .beam-core::before {
   content: ""; position: absolute; left: 50%; bottom: -12px; width: 280px; height: 52px;
   transform: translateX(-50%);
-  background: radial-gradient(ellipse at 50% 100%, rgba(26,255,156,.62),
-              rgba(26,255,156,.12) 48%, transparent 76%);
+  background: radial-gradient(ellipse at 50% 100%,
+              color-mix(in srgb, var(--cor-tema) 62%, transparent),
+              color-mix(in srgb, var(--cor-tema) 12%, transparent) 48%, transparent 76%);
   filter: blur(8px); opacity: .9; z-index: -1;
 }
 .mistica-cartao .beam-core::after {
   content: ""; position: absolute; left: 50%; bottom: -8px; width: 84px; height: 28px;
   transform: translateX(-50%);
-  background: radial-gradient(ellipse at 50% 50%, rgba(26,255,156,.78), transparent 70%);
+  background: radial-gradient(ellipse at 50% 50%,
+              color-mix(in srgb, var(--cor-tema) 78%, transparent), transparent 70%);
   filter: blur(4px); opacity: .95; pointer-events: none;
 }
 @keyframes beam-varre { from { background-position: 110% 0; } to { background-position: -110% 0; } }
@@ -1932,8 +1942,11 @@ a.cartao, .item__link, .destaque, .bento__item {
 .meteoro-borda::after {
   content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 2px;
   background: conic-gradient(from var(--meteor-ang), transparent 0 58%,
-              rgba(255,178,122,.10) 68%, #ffb27a 76%, #ffffff 81%,
-              #ffd9a0 84%, var(--cp-primary) 88%, transparent 94%);
+              color-mix(in srgb, var(--cor-tema) 10%, transparent) 68%,
+              var(--cor-tema) 76%,
+              color-mix(in srgb, var(--cor-tema) 55%, #fff) 81%,
+              color-mix(in srgb, var(--cor-tema) 30%, #fff) 84%,
+              var(--cor-tema) 88%, transparent 94%);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
@@ -1945,7 +1958,7 @@ a.cartao, .item__link, .destaque, .bento__item {
   padding: 4px; filter: blur(7px); opacity: .85; z-index: 1;
 }
 .meteoro-borda::after {
-  filter: drop-shadow(0 0 7px color-mix(in srgb, var(--cp-primary) 75%, transparent));
+  filter: drop-shadow(0 0 7px color-mix(in srgb, var(--cor-tema) 75%, transparent));
 }
 @keyframes meteor-gira { to { --meteor-ang: 360deg; } }
 

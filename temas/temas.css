@@ -460,3 +460,15 @@
 [data-theme]:not([data-theme="light"]) {
   color-scheme: dark;
 }
+
+/* Cor visível do tema para efeitos: beam, electro, meteor e fluxo.
+   Separada de --cp-primary, que a camada RENAP sobrescreve em vermelho. */
+:root { --cor-tema: #12467b; }
+[data-theme="light"] { --cor-tema: #12467b; }
+[data-theme="dark"] { --cor-tema: #4a90d9; }
+[data-theme="pequi"] { --cor-tema: #f2701d; }
+[data-theme="cerrado"] { --cor-tema: #c97b5a; }
+[data-theme="mata-atlantica"] { --cor-tema: #3a6b35; }
+[data-theme="caatinga"] { --cor-tema: #d97724; }
+[data-theme="pantanal"] { --cor-tema: #0284c7; }
+[data-theme="high-contrast"] { --cor-tema: #000000; }

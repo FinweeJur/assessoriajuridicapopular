@@ -64,3 +64,5 @@
 }
 /* Alto contraste não tem enfeite: a foto sai de cena. */
 [data-theme=high-contrast] { --fundo-op: 0; }
+
+[data-theme="brasil"] { --cor-tema: #ffd700; }
