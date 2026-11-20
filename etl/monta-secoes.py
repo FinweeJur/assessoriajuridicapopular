@@ -131,7 +131,7 @@ def rodape():
 
 
 def cartao(registro):
-    return """      <li class="item" data-temas="%s">
+    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s">
         <a class="item__link" href="%s.html">
           <span class="etiqueta">%s · %s</span>
           <h3>%s</h3>
@@ -140,6 +140,7 @@ def cartao(registro):
         </a>
       </li>""" % (
         esc(" ".join((registro.get("temas") or [""])[0].split("-"))),
+        esc(registro.get("data")), esc(registro.get("titulo")),
         esc(registro["slug"]), esc(registro.get("tema")), esc(registro.get("ano")),
         esc(registro.get("titulo")), esc((registro.get("resumo") or "")[:200]),
         esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
@@ -184,9 +185,21 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
         <h2 id="titulo-lista">Textos</h2>
         <p class="secao__nota">Em ordem, do mais recente ao mais antigo</p>
       </div>
-      <ul class="lista-acervo" data-revelar-grupo>
+      <div class="fita">
+        <label class="sr-only" for="f-busca">Filtrar nesta seção</label>
+        <input id="f-busca" type="search" placeholder="Filtrar nesta seção" data-busca autocomplete="off" />
+        <label class="sr-only" for="f-ordem">Ordenar</label>
+        <select id="f-ordem" data-ordem>
+          <option value="recente">Mais recente</option>
+          <option value="antigo">Mais antigo</option>
+          <option value="titulo">Título</option>
+        </select>
+        <span class="fita__conta" data-conta role="status" aria-live="polite"></span>
+      </div>
+      <ul class="lista-acervo" data-revelar-grupo data-paginada>
 %s
       </ul>
+      <div class="mais"><button type="button" data-mais>Ver mais 24</button></div>
     </section>
 %s
   </div>
@@ -206,7 +219,9 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
     });
   })();
 </script>
+<script src="site.js" defer></script>
 <script src="reveal.js" defer></script>
+<button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
 </body>
 </html>
 """ % (esc(titulo), esc(lead), topo(ativo), foto, esc(titulo), esc(lead), n,

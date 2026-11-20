@@ -337,3 +337,89 @@ h2 {
   body { background: #fff; color: #111; }
   .citacao, .cartao, .ficha { border-color: #ddd; }
 }
+
+/* ── Correções de layout (rodada 1) ─────────────────────────────────────── */
+/* Respiro lateral garantido mesmo se um tema zerar variável. */
+.topo__interno,
+.hero__interno,
+.miolo,
+.pagina,
+.rodape__interno {
+  padding-left: clamp(16px, 4vw, 40px) !important;
+  padding-right: clamp(16px, 4vw, 40px) !important;
+}
+
+/* A lista é de cartões: nada de marcador, nada de link solto. */
+.lista-acervo { list-style: none; margin: 0; padding: 0; }
+.lista-acervo li { margin: 0; }
+.item__link {
+  display: flex; flex-direction: column; gap: 8px;
+  min-height: 11rem;
+  background: color-mix(in srgb, var(--cp-surface) 55%, transparent);
+  border: 1px solid color-mix(in srgb, var(--cp-text) 18%, transparent);
+  border-radius: 14px; padding: 18px 18px 16px;
+  text-decoration: none; color: inherit;
+}
+.item__link h3 {
+  font-family: var(--font-display); font-size: 1.05rem; line-height: 1.28;
+  margin: 0; text-decoration: none; color: var(--cp-text);
+}
+.item__link p {
+  margin: 0; font-size: .88rem; line-height: 1.45; color: var(--cp-text-soft);
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.item__ficha { margin-top: auto; font-size: .76rem; color: var(--cp-text-soft); }
+.etiqueta {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--cp-primary);
+}
+
+/* Barra de filtro fixa, com contagem e ordenação. */
+.fita {
+  position: sticky; top: 64px; z-index: 20;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  margin: 0 0 var(--e4); padding: 10px 12px;
+  background: color-mix(in srgb, var(--cp-bg) 94%, transparent);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--borda); border-radius: 12px;
+}
+.fita input[type="search"] {
+  flex: 1 1 14rem; min-height: 44px; padding: 10px 14px; font: inherit;
+  color: var(--cp-text); background: var(--cp-surface);
+  border: 1px solid var(--borda); border-radius: 10px;
+}
+.fita select {
+  min-height: 44px; padding: 8px 12px; font: inherit; font-size: .85rem;
+  background: var(--cp-surface); color: var(--cp-text);
+  border: 1px solid var(--borda); border-radius: 10px;
+}
+.fita__conta { font-size: .82rem; color: var(--cp-text-soft); }
+
+/* Paginação: 24 por vez, botão grande. */
+.mais { display: flex; justify-content: center; margin: var(--e5) 0 0; }
+.mais button {
+  font: inherit; font-weight: 700; min-height: 48px; padding: 12px 26px;
+  border-radius: 999px; border: 1px solid var(--borda);
+  background: transparent; color: var(--cp-text); cursor: pointer;
+}
+.mais button:hover { border-color: var(--cp-primary); color: var(--cp-primary); }
+
+/* Volta ao topo, discreto no canto. */
+.ao-topo {
+  position: fixed; right: 16px; bottom: 16px; z-index: 40;
+  width: 48px; height: 48px; border-radius: 50%;
+  display: none; place-items: center;
+  background: var(--cp-primary); color: var(--cp-primary-ink);
+  border: 0; cursor: pointer; font-size: 1.1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .35);
+}
+.ao-topo[data-visivel="true"] { display: grid; }
+
+@media (max-width: 700px) {
+  .fita { top: 56px; }
+  .item__link { min-height: 0; }
+  .ao-topo { right: 12px; bottom: 12px; }
+}
+
+@media print { .fita, .mais, .ao-topo { display: none !important; } }
