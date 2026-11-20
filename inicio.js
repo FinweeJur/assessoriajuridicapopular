@@ -79,7 +79,7 @@
     requestAnimationFrame(quadro);
   })();
 
-  // ── Meteoros ligando blog, OpenCode e GitHub ───────────────────────────
+  // ── Meteoros: feixes coloridos do núcleo aos três nós ─────────────────
   (function meteoros() {
     var palco = document.querySelector('[data-meteoros]');
     if (!palco) { return; }
@@ -103,63 +103,124 @@
       var nos = [].slice.call(palco.querySelectorAll('.fluxo__no'));
       if (nos.length < 3) { return; }
 
-      for (var i = 0; i < 2; i++) {
-        var a = nos[i].getBoundingClientRect();
-        var b = nos[i + 1].getBoundingClientRect();
-        var vertical = b.top > a.bottom - 12;
-        var ax, ay, bx, by, d;
+      var icoMeio = nos[1].querySelector('.fluxo__ico');
+      var rm = icoMeio.getBoundingClientRect();
+      var core = {
+        x: rm.left + rm.width / 2 - pr.left,
+        y: rm.top + rm.height / 2 - pr.top
+      };
+
+      var defs = cria('defs');
+      svg.appendChild(defs);
+
+      var filtro = cria('filter', {
+        id: 'fluxo-brilho', x: '-30%', y: '-30%', width: '160%', height: '160%'
+      });
+      filtro.appendChild(cria('feGaussianBlur', { stdDeviation: '3.5', result: 'blur' }));
+      var transf = cria('feComponentTransfer', { in: 'blur', result: 'glow' });
+      transf.appendChild(cria('feFuncA', { type: 'linear', slope: '1.8' }));
+      filtro.appendChild(transf);
+      var merge = cria('feMerge');
+      merge.appendChild(cria('feMergeNode', { in: 'glow' }));
+      merge.appendChild(cria('feMergeNode', { in: 'SourceGraphic' }));
+      filtro.appendChild(merge);
+      defs.appendChild(filtro);
+
+      var radial = cria('radialGradient', { id: 'fluxo-core' });
+      radial.appendChild(cria('stop', { offset: '0%', 'stop-color': '#38bdf8', 'stop-opacity': '.3' }));
+      radial.appendChild(cria('stop', { offset: '100%', 'stop-color': '#38bdf8', 'stop-opacity': '0' }));
+      defs.appendChild(radial);
+      svg.appendChild(cria('circle', {
+        cx: core.x, cy: core.y, r: 80, fill: 'url(#fluxo-core)', opacity: '.9'
+      }));
+
+      [[nos[0], 0], [nos[2], 1]].forEach(function (par) {
+        var no = par[0];
+        var idx = par[1];
+        var ico = no.querySelector('.fluxo__ico');
+        var r = ico.getBoundingClientRect();
+        var fim = {
+          x: r.left + r.width / 2 - pr.left,
+          y: r.top + r.height / 2 - pr.top
+        };
+        var vertical = Math.abs(fim.x - core.x) < 90;
+        var d;
         if (vertical) {
-          ax = a.left + a.width / 2 - pr.left;
-          ay = a.bottom - pr.top;
-          bx = b.left + b.width / 2 - pr.left;
-          by = b.top - pr.top;
-          d = 'M' + ax + ' ' + ay + ' C' + (ax + 70) + ' ' + ay + ' ' + (bx + 70) + ' ' + by + ' ' + bx + ' ' + by;
+          var meioY = (core.y + fim.y) / 2;
+          d = 'M' + core.x + ' ' + core.y +
+              ' C' + (core.x + 80) + ' ' + (core.y + 30) +
+              ' ' + (fim.x + 80) + ' ' + meioY +
+              ' ' + fim.x + ' ' + fim.y;
         } else {
-          ax = a.right - pr.left;
-          ay = a.top + a.height / 2 - pr.top;
-          bx = b.left - pr.left;
-          by = b.top + b.height / 2 - pr.top;
-          var mx = (ax + bx) / 2;
-          var curva = i % 2 ? 54 : -54;
-          d = 'M' + ax + ' ' + ay + ' C' + mx + ' ' + (ay + curva) + ' ' + mx + ' ' + (by + curva) + ' ' + bx + ' ' + by;
+          var cx = (core.x + fim.x) / 2;
+          var cy = Math.min(core.y, fim.y) - 70;
+          d = 'M' + core.x + ' ' + core.y +
+              ' Q' + cx + ' ' + cy +
+              ' ' + fim.x + ' ' + fim.y;
         }
 
-        var id = 'fluxo-caminho-' + i;
-        var caminho = cria('path', { d: d, 'class': 'fluxo__linha', id: id });
-        svg.appendChild(caminho);
+        var cores = idx ? ['#c084fc', '#e879f9'] : ['#38bdf8', '#818cf8'];
+        var gid = 'fluxo-grad-' + idx;
+        var grad = cria('linearGradient', {
+          id: gid, gradientUnits: 'userSpaceOnUse',
+          x1: core.x, y1: core.y, x2: fim.x, y2: fim.y
+        });
+        grad.appendChild(cria('stop', { offset: '0%', 'stop-color': cores[0], 'stop-opacity': '1' }));
+        grad.appendChild(cria('stop', { offset: '55%', 'stop-color': cores[1], 'stop-opacity': '.8' }));
+        grad.appendChild(cria('stop', { offset: '100%', 'stop-color': cores[1], 'stop-opacity': '.15' }));
+        defs.appendChild(grad);
+
+        var base = cria('path', {
+          d: d, 'class': 'fluxo__base', stroke: 'url(#' + gid + ')',
+          'stroke-width': '7', opacity: '.28',
+          filter: 'url(#fluxo-brilho)'
+        });
+        var linha = cria('path', {
+          d: d, 'class': 'fluxo__brilho', stroke: 'url(#' + gid + ')',
+          'stroke-width': '2', opacity: '.95'
+        });
+        svg.appendChild(base);
+        svg.appendChild(linha);
+
+        var total = base.getTotalLength();
 
         if (!reduz) {
-          for (var m = 0; m < 2; m++) {
-            var meteoro = cria('circle', { r: m ? 2.2 : 3, 'class': 'meteoro' });
-            var mover = cria('animateMotion', {
-              dur: (2.6 + m * 0.5) + 's',
-              begin: (m * 1.1) + 's',
-              repeatCount: 'indefinite',
-              rotate: 'auto'
+          for (var k = 0; k < 3; k++) {
+            var seg = 64 + k * 20;
+            var met = cria('path', {
+              d: d, 'class': 'fluxo__brilho', stroke: 'url(#' + gid + ')',
+              'stroke-width': '3.2',
+              'stroke-dasharray': seg + ' ' + (total + 1),
+              'stroke-dashoffset': (total + seg),
+              filter: 'url(#fluxo-brilho)', opacity: '.95'
             });
-            var mpath = cria('mpath');
-            mpath.setAttribute('href', '#' + id);
-            mpath.setAttributeNS(XLINK, 'xlink:href', '#' + id);
-            mover.appendChild(mpath);
-            meteoro.appendChild(mover);
-            svg.appendChild(meteoro);
+            met.appendChild(cria('animate', {
+              attributeName: 'stroke-dashoffset',
+              values: (total + seg) + ';0',
+              dur: (2.2 + k * 0.35) + 's',
+              begin: (k * 0.65) + 's',
+              repeatCount: 'indefinite'
+            }));
+            svg.appendChild(met);
           }
-          for (var f = 0; f < 3; f++) {
-            var faisca = cria('circle', { cx: bx, cy: by, r: 1.5, 'class': 'impacto' });
-            var raio = cria('animate', {
-              attributeName: 'r', values: '1.5;8', dur: '1.4s',
-              begin: (f * 0.32) + 's', repeatCount: 'indefinite'
+
+          for (var f = 0; f < 4; f++) {
+            var faisca = cria('circle', {
+              cx: fim.x, cy: fim.y, r: 1.5, 'class': 'impacto',
+              stroke: cores[1], fill: 'none'
             });
-            var opac = cria('animate', {
-              attributeName: 'opacity', values: '1;0', dur: '1.4s',
-              begin: (f * 0.32) + 's', repeatCount: 'indefinite'
-            });
-            faisca.appendChild(raio);
-            faisca.appendChild(opac);
+            faisca.appendChild(cria('animate', {
+              attributeName: 'r', values: '1.5;9', dur: '1.3s',
+              begin: (f * 0.28) + 's', repeatCount: 'indefinite'
+            }));
+            faisca.appendChild(cria('animate', {
+              attributeName: 'opacity', values: '1;0', dur: '1.3s',
+              begin: (f * 0.28) + 's', repeatCount: 'indefinite'
+            }));
             svg.appendChild(faisca);
           }
         }
-      }
+      });
     }
 
     function agenda() {

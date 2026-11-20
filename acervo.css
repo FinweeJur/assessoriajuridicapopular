@@ -1787,3 +1787,39 @@ a.cartao, .item__link, .destaque, .bento__item {
   .conversa__perguntas { padding: 0 14px 14px; }
   .conversa__form { padding: 12px 14px; }
 }
+
+/* Fluxo: núcleo e feixes coloridos */
+.fluxo__no--blog { --no-cor: #ff7a3d; }
+.fluxo__no--code { --no-cor: #38bdf8; }
+.fluxo__no--git { --no-cor: #c084fc; }
+.fluxo__no .fluxo__ico {
+  color: var(--no-cor);
+  border-color: color-mix(in srgb, var(--no-cor) 48%, transparent);
+  box-shadow: 0 0 22px color-mix(in srgb, var(--no-cor) 24%, transparent),
+              0 12px 28px rgba(0, 0, 0, .22);
+}
+.fluxo__no--code .fluxo__ico {
+  width: 84px; height: 84px; border-width: 2px;
+  background: color-mix(in srgb, var(--no-cor) 10%, var(--cp-bg));
+  box-shadow: 0 0 28px color-mix(in srgb, var(--no-cor) 45%, transparent),
+              0 0 70px color-mix(in srgb, var(--no-cor) 18%, transparent);
+}
+.fluxo__no--code::before,
+.fluxo__no--code::after {
+  content: ""; position: absolute; left: 50%; top: 42px;
+  width: 118px; height: 118px; border-radius: 50%;
+  transform: translate(-50%, -50%); pointer-events: none;
+  border: 1px solid color-mix(in srgb, var(--no-cor) 32%, transparent);
+  box-shadow: 0 0 22px color-mix(in srgb, var(--no-cor) 16%, transparent);
+}
+.fluxo__no--code::after {
+  width: 154px; height: 154px;
+  border-style: dashed; opacity: .65;
+  animation: fluxo-anel 18s linear infinite;
+}
+@keyframes fluxo-anel { to { transform: translate(-50%, -50%) rotate(360deg); } }
+.fluxo__base { fill: none; stroke-linecap: round; }
+.fluxo__brilho { fill: none; stroke-linecap: round; }
+@media (prefers-reduced-motion: reduce) {
+  .fluxo__no--code::after { animation: none; }
+}

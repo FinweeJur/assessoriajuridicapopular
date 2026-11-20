@@ -18,17 +18,17 @@ FLUXO = """  <section class="fluxo" aria-labelledby="fluxo-titulo">
       </div>
       <div class="fluxo__palco" data-meteoros>
         <svg class="fluxo__svg" aria-hidden="true"></svg>
-        <a class="fluxo__no" href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">
+        <a class="fluxo__no fluxo__no--blog" href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">
           <span class="fluxo__ico fluxo__ico--wp">%s</span>
           <b>Blog original AJP</b>
           <small>Blogger</small>
         </a>
-        <div class="fluxo__no">
+        <div class="fluxo__no fluxo__no--code">
           <span class="fluxo__ico fluxo__ico--code">%s</span>
           <b>OpenCode</b>
           <small>programa</small>
         </div>
-        <a class="fluxo__no" href="https://github.com/FinweeJur/assessoriajuridicapopular" target="_blank" rel="noopener">
+        <a class="fluxo__no fluxo__no--git" href="https://github.com/FinweeJur/assessoriajuridicapopular" target="_blank" rel="noopener">
           <span class="fluxo__ico fluxo__ico--git">%s</span>
           <b>GitHub</b>
           <small>acervo publicado</small>
