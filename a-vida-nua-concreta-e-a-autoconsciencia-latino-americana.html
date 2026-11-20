@@ -1,0 +1,939 @@
+<!doctype html>
+<!--
+  ═══ GABARITO — PÁGINA DE TEXTO DO ACERVO ═══════════════════════════════
+  O que é: modelo da página que recebe UM texto do blog Assessoria Jurídica
+  Popular. Não é página publicada: os marcadores {{…}} são preenchidos pelo
+  ETL. Desenho fechado em 20/11/2026, plano seções 6 e 11.
+
+  Por que esta ordem: olho (tema + ano) → título → ficha de origem → crédito
+  de parceria → bloco de citação → dois botões → corpo → dois botões →
+  rodapé. O leitor sabe de quem é o texto antes de ler a primeira linha.
+
+  CONTRATO DE MARCADORES
+  Obrigatórios (nome fixo, não renomear):
+    A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência      título exato do original, sem reescrever
+    29 de maio de 2011        data legível: 16 de agosto de 2009
+    Ricardo Prestes Pazello       nome do autor, como assina o original
+    <p>Há momentos em que o melhor é calar-se. Não se calar por não ter nada a dizer, mas porque faltam palavras para se dizer o indizível do dia-a-dia. Às vezes, falta inspiração; por outras, faltam forças. O indivíduo, em sua solidão costumeira, consegue tão-somente superar-se. Superar seu entorno é tarefa impossível. E o que fazer quando queremos transformar o mundo, recriá-lo, fazer caber todos? A solidão, o indivíduo, não são as respostas certas.</p>
+      <p>Os últimos acontecimentos têm evidenciado, de alguma maneira, isto. E daí me vir à cabeça a concretude da relação resfolegante vida-morte para nós. As mais recentes postagens de Phelipe Bezerra Braga demonstram-no (Mostra o que ninguém vê, de 27 de maio pela manhã, e Mostra o que ninguém vê, de 27 de maio à noite). Também eu e outros temos tocado nesta questão, às vezes inconscientemente. Basta lembrar as postagens sobre o falecimento de Sebastião Bezerra da Silva (Calourada do SAJU-USP e extensão) ou os quatro advogados populares mortos (Lembrando quatro advogados populares assassinados: símbolos de resistência jurídica).</p>
+      <p>Eu disse "relação resfolegante vida-morte para nós". Mas quem somos este nós? É certo que a relação vida-morte é universal, mas talvez não o sejam a perplexidade e agonia que gera bem como a fundamentalidade que adquire. Talvez, dessa forma, ganhe inteira a crítica ao filósofo d'além-mar: a "vida nua" não é mera abstração ou joguete simbólico de interpretação de um distante fenômeno essencial da vida; para nós, esta vida despida é totalmente concreta, seja porque não mera alegoria ou metáfora, seja porque não imaterial. Mas a questão persiste: o nós!</p>
+      <p>Vou lançar, agora, uma tese, pouco novidadesca, mas razoavelmente pujante, que concretiza a vida nua, já que negada, e que comunitariza o indivíduo, já que estéril em sua solidão. O exílio prático das "alegorias da derrota" latino-americanas (nem tão alegóricas assim) foi um possível apogeu da autoconsciência continental. E esta se expressou, reiteradamente, por vias poéticas.</p>
+      <p>E está dado que à mente vem a intertextualidade da poesia do tempo de antes e posterior, pois de Castro Alves a José Paulo Paes, de Tiago de Melo a Hamílton Faria, de Cenair Maicá a Chico Buarque, de Araújo Jorge a Ferreira Gular (mesmo que politcamente falecido) ou, ainda, de Manoel Bonfim a Darci Ribeiro, para lembrar apenas de brasileiros, tudo é discurso - e com que eloqüência! - a favor de uma "Canção de amor à América", como a do poeta da resistência Manoel de Andrade, curitibano e de exílio cediço, que escreveu o clássico "Poemas para la libertad" em 1970 e só em 2009 obteve uma sua publicação no Brasil, antecedida, dois anos antes, pela de outro livro, "Cantares".</p>
+      <p>Mas, como assinalei, tem vezes que é melhor calar, não ter nada a dizer, mas porque faltam palavras para se dizer o indizível. E como já calei pouco, deixo que o poeta diga por mim:</p>
+      <figure class="cartao imagem-link"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6v2PFy-ugzNq1hdbZlN7KedepnwppgWtr0GPwMs0jQZ1NshqJjxRLu2PU_i4A1wMYJ390NfGphZ3iMXZsYvmZ2dKh4KPOC7fBrA6tgLxCwToC7BU1J7RfZzcYOyFh0Ymbl4akXSikp7E3/s1600/Manoel+de+Andrade.bmp" target="_blank" rel="noopener">Ver a imagem no original<span class="sr-only"> (abre em outra aba)</span></a><figcaption>Imagem do original, sem licença declarada.</figcaption></figure>
+      <p>Canção de amor à América (Manoel de Andrade)</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho com o trigo do meu canto,</p>
+      <p>minha ternura aberta</p>
+      <p>e o meu espanto;</p>
+      <p>e desde o fundo de mim e assombrado</p>
+      <p>e pelos meus lábios de vinho e gaivotas,</p>
+      <p>te trago o meu cantar de caminhante.</p>
+      <p>Para ti, amada minha,</p>
+      <p>para teu corpo de cansaço</p>
+      <p>e por tua fome</p>
+      <p>eu trago este meu verso frutecido.</p>
+      <p>Eu venho com o rocio do amanhecer</p>
+      <p>sou o cantor da aurora</p>
+      <p>o que desperta</p>
+      <p>o que anuncia a vida e a esperança.</p>
+      <p>Eu sou o mensageiro destes anos</p>
+      <p>o cantor deste tempo e destas terras</p>
+      <p>eu sou daqui,</p>
+      <p>desde a Patagônia até o Rio Grande</p>
+      <p>e desde aqui alço meu canto para o mundo.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu sou como uma ave que passa</p>
+      <p>apenas um cantor errante,</p>
+      <p>mas se na minha voz há uma guitarra delirante,</p>
+      <p>é para golpear-te América,</p>
+      <p>para levantar teu braço adormecido.</p>
+      <p>Agora venho cantar-te</p>
+      <p>e meu canto é como o dia e como a água</p>
+      <p>para que me entenda sobretudo o homem humilde.</p>
+      <p>Agora venho cantar-te</p>
+      <p>mas em teu nome América,</p>
+      <p>eu só posso cantar com a voz que denuncia.</p>
+      <p>Eu não venho cantar o esplendor de Machu Picchu</p>
+      <p>a Grande Cordilheira e a neve eterna;</p>
+      <p>não venho cantar a esta América de vulcões e arquipélagos</p>
+      <p>a esta América altiplânica da lhama esbelta e de vicunha;</p>
+      <p>eu venho em nome de uma América parda, branca e negra,</p>
+      <p>e desde Arauco a Yucatán,</p>
+      <p>venho em nome desta América indígena agonizante,</p>
+      <p>eu venho sobretudo em nome de uma América proletária</p>
+      <p>em nome do cobre e do estanho ensangüentado.</p>
+      <p>Eu hoje não vim cantar um continente de paisagens,</p>
+      <p>não vim falar dos lagos escondidos na montanha</p>
+      <p>nem dos rios que correm ao fundo dos vales florescidos;</p>
+      <p>não, eu não vim cantar a este trigo que se nega a quem semeia;</p>
+      <p>eu venho por uma história mais sincera,</p>
+      <p>venho falar do homem que vi e ouvi pelos caminhos.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho falar do camponês</p>
+      <p>de sua pele seca e sua cor de bronze,</p>
+      <p>de sua túnica desbotada e o seu colchão de terra,</p>
+      <p>de sua resignação e seu misterioso silêncio,</p>
+      <p>de seu grito incontido que em alguma parte se levanta,</p>
+      <p>de sua fome saciada com o sangue dos massacres.</p>
+      <p>Eu venho falar do mineiro e sua morte prematura,</p>
+      <p>de uma vida quase inteira vivida na penumbra tumular dos socavões,</p>
+      <p>da silicose escavando dia a dia os pulmões dos operários jovens;</p>
+      <p>eu venho falar das palhiris bolivianas,</p>
+      <p>dessas desamparadas viúvas do mineiro massacrado ou soterrado,</p>
+      <p>que buscam no lixo do estanho,</p>
+      <p>o pão diário dos seus filhos.</p>
+      <p>Eu não vim para falar do encanto colonial destas cidades,</p>
+      <p>dos altares espanhóis recobertos com o ouro incaico,</p>
+      <p>das grandes praças onde se erguem as estátuas magníficas dos libertadores;</p>
+      <p>venho falar de favelas, barriadas e tugurios,</p>
+      <p>de povoações calhampas e vilas-misérias,</p>
+      <p>eu venho falar da tuberculose e do frio,</p>
+      <p>venho em nome dos meninos sem pão e chocolates.</p>
+      <p>Eu venho falar por toda voz eu se levanta,</p>
+      <p>por uma geração reprimida com fuzis,</p>
+      <p>venho falar das universidades fechadas</p>
+      <p>e com a marca das tiranias encravadas nas paredes.</p>
+      <p>Eu venho denunciar falsas revoluções</p>
+      <p>e o oportuno pacifismo,</p>
+      <p>venho falar de um tempo de desterros e torturas,</p>
+      <p>eu venho alertar sobre um terror que cresce uniformado</p>
+      <p>e sobre estes anos em que cada promessa de paz é uma mentira.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Rumo ao norte</p>
+      <p>ao sul</p>
+      <p>a leste ou a oeste,</p>
+      <p>eu avanço atravessando estas nações.</p>
+      <p>Oh, caminhar, caminhar</p>
+      <p>e saber sentir-se um caminhante!</p>
+      <p>pois é tão triste morrer a cada dia</p>
+      <p>morrer com os punhos abertos e o coração vazio.</p>
+      <p>Morrer distante do homem e sua esperança</p>
+      <p>morrer indiferente ao mundo que morre</p>
+      <p>morrer sempre</p>
+      <p>quando a vida é um gesto de amor desesperado.</p>
+      <p>Oh, caminhar, caminhar!</p>
+      <p>mas caminhar como caminha o rio e a semente,</p>
+      <p>conhecendo a mais completa plenitude em seu destino.</p>
+      <p>Oh, caminhar!</p>
+      <p>e saber-se um dia fruto.</p>
+      <p>Caminhar</p>
+      <p>e sentir-se um dia mar.</p>
+      <p>Ai, América,</p>
+      <p>que não exista a dúvida em meu caminho,</p>
+      <p>que somente me guie este imenso amor que trago,</p>
+      <p>que apenas esta paixão de justo me enamore.</p>
+      <p>Fui prisioneiro,</p>
+      <p>mas outra vez sou pássaro,</p>
+      <p>outra vez um caminhante,</p>
+      <p>e volto a abrir a alma com meu canto.</p>
+      <p>Hoje me detenho aqui...</p>
+      <p>Levanto minha voz,</p>
+      <p>minha bandeira de sonhos,</p>
+      <p>minha fé.</p>
+      <p>Recolho meu testemunho e me vou.</p>
+      <p>Eu sou o jogral maldito</p>
+      <p>e bem-amado.</p>
+      <p>Meu canto é um grito de combate</p>
+      <p>e eu não canto por cantar.</p>
+      <p>Eu parto deixando sempre uma inquietude,</p>
+      <p>deixando numa senha a certeza de uma aurora.</p>
+      <p>Eu sou o cantor clandestino e fugitivo,</p>
+      <p>aquele que ama a solidão imensa dos caminhos.</p>
+      <p>Passo despercebido de cidade em cidade.</p>
+      <p>Em algum lugar público eu vou dizer meus versos</p>
+      <p>e ali conheço amigos e inimigos.</p>
+      <p>Mas sempre pude encontrar ao grande companheiro,</p>
+      <p>ao homem novo,</p>
+      <p>aquele que traz a marca verdadeira,</p>
+      <p>aquele que se aproxima em silêncio</p>
+      <p>e como um gesto inconfundível me saúda.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho amada América,</p>
+      <p>para iluminar com meu canto este caminho,</p>
+      <p>te trago meu sonho imenso, latino e americano,</p>
+      <p>e meu coração descalço e peregrino.</p>
+      <p>Mas quando sinto meu sangue escorrendo-se nos anos</p>
+      <p>e que a vida se me acabe antes de ver-te amanhecida;</p>
+      <p>quando penso que é muito pouco amada minha</p>
+      <p>o que eu posso dar-te um poema;</p>
+      <p>ai, quando penso nestas flores de sangue que murcharam,</p>
+      <p>nestes iluminados corpos que tombaram,</p>
+      <p>e que talvez não pude fazer por ti quando quisera,</p>
+      <p>ai, se com o tempo eu descobrir</p>
+      <p>que este lírico fuzil que trago não dispara,</p>
+      <p>ai, América,</p>
+      <p>quem dirá que a intenção que tive foi sincera.</p>
+      <p>Quito, agosto-70</p>
+      <p>(Extraído da versão publicada na revista Encontros com a civilização brasileira. Rio de Janeiro: Civilização Brasileira, n. 19, janeiro de 1980, p. 7-10, inclusive para pontuação e ortografia).</p>
+      <p>Ver mais:</p>
+      <p><a href="https://livrespensantes.blogspot.com/2010/11/manoel-de-andrade-poeta-da-resistencia.html" target="_blank" rel="noopener">Manoel de Andrade, poeta da resistência</a></p>
+      <p><a href="https://www.vermelho.org.br/noticia.php?id_secao=11&amp;id_noticia=114089" target="_blank" rel="noopener">A poesia de Manoel de Andrade e seus laços com a América Latina</a></p>
+      <p><a href="https://cdeassis.wordpress.com/2010/08/31/manoel-de-andrade-e-sua-participacao-nas-jornadas-andinas-de-literatura-latino-americana/" target="_blank" rel="noopener">Manoel de Andrade e sua participação nas Jornadas Andinas de Literatura Latino-Americana</a></p>
+      <p>- Postagens sobre Manoel de Andrade no blogue Banco da Poesia;</p>
+      <p>- El cantor pelegrino de América, por Enrique Rosas Paravicino.</p>
+      <p>Pós-escrito: esta reflexão foi construída como fechamento de um ciclo, pois passaremos a reestruturar a periodicidade de textos das colunas Prestes e Luiz Otávio. A Coluna Prestes esta semana completou sete meses, nos quais, ininterruptamente, todo domingo apareceu uma postagem minha para falar de crítica jurídica, marxismo, América Latina, antropologia ou movimentos populares. Depois de trinta domingos (este foi o trigésimo-primeiro), Luiz Otávio Ribas e eu dividiremos o primeiro dia da semana e traremos nossas reflexões a cada quinze dias cada um.</p>       blocos do corpo na ordem do original, já tipados em HTML
+    https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html   URL canônica do post no blog
+    https://www.blogger.com/profile/11698907163325129894   perfil público do autor
+
+  Apoio (o gerador pode preencher; se não usar, troque à mão):
+    2011-05-29      a mesma data em 2009-08-16 (atributo datetime e meta)
+    20 de novembro de 2026       data da coleta legível: 17/11/2026
+    2026-11-20   a mesma data em 2026-11-17
+    2011           ano do post: 2009
+    Assessoria jurídica popular          tema principal: Assessoria jurídica popular
+    Há momentos em que o melhor é calar-se. Não se calar por não ter nada a dizer, mas porque faltam palavras para se dizer o indizível do dia-a-dia. Às vezes, falta inspiração; por outras, faltam forças.        uma frase para a meta description
+    Antes de começar a escrever esta postagem, pensei em vários títulos para ela. Percebi que pensar nos títulos era influência da necessidade do impacto, tal e qual o gerado em mim por um poeta desconhecido e que escreveu uma continental canção do exílio. "Longo caminhar", "Rocio do amanhecer", "Golpear-te América", "Uma vida quase inteira vivida na penumbra tumular dos socavões", "Cada promessa de paz é uma mentira", "Morrer sempre", "A vida é um gesto de amor desesperado", "Meu canto é um grito de combate", "Flores de sangue que murcharam", "Lírico fuzil" e "Iluminados corpos que tombaram"; tantos possíveis títulos, verdadeiras manchetes do impossível (ou inaceitável possível) de nosso tempo. Nosso, porque de todos nós, latino-americanos, latinos e americanos, para lembrar o poema.      trecho do bloco central para o blockquote
+
+  Regras que o gerador não pode quebrar:
+  1. <p>Há momentos em que o melhor é calar-se. Não se calar por não ter nada a dizer, mas porque faltam palavras para se dizer o indizível do dia-a-dia. Às vezes, falta inspiração; por outras, faltam forças. O indivíduo, em sua solidão costumeira, consegue tão-somente superar-se. Superar seu entorno é tarefa impossível. E o que fazer quando queremos transformar o mundo, recriá-lo, fazer caber todos? A solidão, o indivíduo, não são as respostas certas.</p>
+      <p>Os últimos acontecimentos têm evidenciado, de alguma maneira, isto. E daí me vir à cabeça a concretude da relação resfolegante vida-morte para nós. As mais recentes postagens de Phelipe Bezerra Braga demonstram-no (Mostra o que ninguém vê, de 27 de maio pela manhã, e Mostra o que ninguém vê, de 27 de maio à noite). Também eu e outros temos tocado nesta questão, às vezes inconscientemente. Basta lembrar as postagens sobre o falecimento de Sebastião Bezerra da Silva (Calourada do SAJU-USP e extensão) ou os quatro advogados populares mortos (Lembrando quatro advogados populares assassinados: símbolos de resistência jurídica).</p>
+      <p>Eu disse "relação resfolegante vida-morte para nós". Mas quem somos este nós? É certo que a relação vida-morte é universal, mas talvez não o sejam a perplexidade e agonia que gera bem como a fundamentalidade que adquire. Talvez, dessa forma, ganhe inteira a crítica ao filósofo d'além-mar: a "vida nua" não é mera abstração ou joguete simbólico de interpretação de um distante fenômeno essencial da vida; para nós, esta vida despida é totalmente concreta, seja porque não mera alegoria ou metáfora, seja porque não imaterial. Mas a questão persiste: o nós!</p>
+      <p>Vou lançar, agora, uma tese, pouco novidadesca, mas razoavelmente pujante, que concretiza a vida nua, já que negada, e que comunitariza o indivíduo, já que estéril em sua solidão. O exílio prático das "alegorias da derrota" latino-americanas (nem tão alegóricas assim) foi um possível apogeu da autoconsciência continental. E esta se expressou, reiteradamente, por vias poéticas.</p>
+      <p>E está dado que à mente vem a intertextualidade da poesia do tempo de antes e posterior, pois de Castro Alves a José Paulo Paes, de Tiago de Melo a Hamílton Faria, de Cenair Maicá a Chico Buarque, de Araújo Jorge a Ferreira Gular (mesmo que politcamente falecido) ou, ainda, de Manoel Bonfim a Darci Ribeiro, para lembrar apenas de brasileiros, tudo é discurso - e com que eloqüência! - a favor de uma "Canção de amor à América", como a do poeta da resistência Manoel de Andrade, curitibano e de exílio cediço, que escreveu o clássico "Poemas para la libertad" em 1970 e só em 2009 obteve uma sua publicação no Brasil, antecedida, dois anos antes, pela de outro livro, "Cantares".</p>
+      <p>Mas, como assinalei, tem vezes que é melhor calar, não ter nada a dizer, mas porque faltam palavras para se dizer o indizível. E como já calei pouco, deixo que o poeta diga por mim:</p>
+      <figure class="cartao imagem-link"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6v2PFy-ugzNq1hdbZlN7KedepnwppgWtr0GPwMs0jQZ1NshqJjxRLu2PU_i4A1wMYJ390NfGphZ3iMXZsYvmZ2dKh4KPOC7fBrA6tgLxCwToC7BU1J7RfZzcYOyFh0Ymbl4akXSikp7E3/s1600/Manoel+de+Andrade.bmp" target="_blank" rel="noopener">Ver a imagem no original<span class="sr-only"> (abre em outra aba)</span></a><figcaption>Imagem do original, sem licença declarada.</figcaption></figure>
+      <p>Canção de amor à América (Manoel de Andrade)</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho com o trigo do meu canto,</p>
+      <p>minha ternura aberta</p>
+      <p>e o meu espanto;</p>
+      <p>e desde o fundo de mim e assombrado</p>
+      <p>e pelos meus lábios de vinho e gaivotas,</p>
+      <p>te trago o meu cantar de caminhante.</p>
+      <p>Para ti, amada minha,</p>
+      <p>para teu corpo de cansaço</p>
+      <p>e por tua fome</p>
+      <p>eu trago este meu verso frutecido.</p>
+      <p>Eu venho com o rocio do amanhecer</p>
+      <p>sou o cantor da aurora</p>
+      <p>o que desperta</p>
+      <p>o que anuncia a vida e a esperança.</p>
+      <p>Eu sou o mensageiro destes anos</p>
+      <p>o cantor deste tempo e destas terras</p>
+      <p>eu sou daqui,</p>
+      <p>desde a Patagônia até o Rio Grande</p>
+      <p>e desde aqui alço meu canto para o mundo.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu sou como uma ave que passa</p>
+      <p>apenas um cantor errante,</p>
+      <p>mas se na minha voz há uma guitarra delirante,</p>
+      <p>é para golpear-te América,</p>
+      <p>para levantar teu braço adormecido.</p>
+      <p>Agora venho cantar-te</p>
+      <p>e meu canto é como o dia e como a água</p>
+      <p>para que me entenda sobretudo o homem humilde.</p>
+      <p>Agora venho cantar-te</p>
+      <p>mas em teu nome América,</p>
+      <p>eu só posso cantar com a voz que denuncia.</p>
+      <p>Eu não venho cantar o esplendor de Machu Picchu</p>
+      <p>a Grande Cordilheira e a neve eterna;</p>
+      <p>não venho cantar a esta América de vulcões e arquipélagos</p>
+      <p>a esta América altiplânica da lhama esbelta e de vicunha;</p>
+      <p>eu venho em nome de uma América parda, branca e negra,</p>
+      <p>e desde Arauco a Yucatán,</p>
+      <p>venho em nome desta América indígena agonizante,</p>
+      <p>eu venho sobretudo em nome de uma América proletária</p>
+      <p>em nome do cobre e do estanho ensangüentado.</p>
+      <p>Eu hoje não vim cantar um continente de paisagens,</p>
+      <p>não vim falar dos lagos escondidos na montanha</p>
+      <p>nem dos rios que correm ao fundo dos vales florescidos;</p>
+      <p>não, eu não vim cantar a este trigo que se nega a quem semeia;</p>
+      <p>eu venho por uma história mais sincera,</p>
+      <p>venho falar do homem que vi e ouvi pelos caminhos.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho falar do camponês</p>
+      <p>de sua pele seca e sua cor de bronze,</p>
+      <p>de sua túnica desbotada e o seu colchão de terra,</p>
+      <p>de sua resignação e seu misterioso silêncio,</p>
+      <p>de seu grito incontido que em alguma parte se levanta,</p>
+      <p>de sua fome saciada com o sangue dos massacres.</p>
+      <p>Eu venho falar do mineiro e sua morte prematura,</p>
+      <p>de uma vida quase inteira vivida na penumbra tumular dos socavões,</p>
+      <p>da silicose escavando dia a dia os pulmões dos operários jovens;</p>
+      <p>eu venho falar das palhiris bolivianas,</p>
+      <p>dessas desamparadas viúvas do mineiro massacrado ou soterrado,</p>
+      <p>que buscam no lixo do estanho,</p>
+      <p>o pão diário dos seus filhos.</p>
+      <p>Eu não vim para falar do encanto colonial destas cidades,</p>
+      <p>dos altares espanhóis recobertos com o ouro incaico,</p>
+      <p>das grandes praças onde se erguem as estátuas magníficas dos libertadores;</p>
+      <p>venho falar de favelas, barriadas e tugurios,</p>
+      <p>de povoações calhampas e vilas-misérias,</p>
+      <p>eu venho falar da tuberculose e do frio,</p>
+      <p>venho em nome dos meninos sem pão e chocolates.</p>
+      <p>Eu venho falar por toda voz eu se levanta,</p>
+      <p>por uma geração reprimida com fuzis,</p>
+      <p>venho falar das universidades fechadas</p>
+      <p>e com a marca das tiranias encravadas nas paredes.</p>
+      <p>Eu venho denunciar falsas revoluções</p>
+      <p>e o oportuno pacifismo,</p>
+      <p>venho falar de um tempo de desterros e torturas,</p>
+      <p>eu venho alertar sobre um terror que cresce uniformado</p>
+      <p>e sobre estes anos em que cada promessa de paz é uma mentira.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Rumo ao norte</p>
+      <p>ao sul</p>
+      <p>a leste ou a oeste,</p>
+      <p>eu avanço atravessando estas nações.</p>
+      <p>Oh, caminhar, caminhar</p>
+      <p>e saber sentir-se um caminhante!</p>
+      <p>pois é tão triste morrer a cada dia</p>
+      <p>morrer com os punhos abertos e o coração vazio.</p>
+      <p>Morrer distante do homem e sua esperança</p>
+      <p>morrer indiferente ao mundo que morre</p>
+      <p>morrer sempre</p>
+      <p>quando a vida é um gesto de amor desesperado.</p>
+      <p>Oh, caminhar, caminhar!</p>
+      <p>mas caminhar como caminha o rio e a semente,</p>
+      <p>conhecendo a mais completa plenitude em seu destino.</p>
+      <p>Oh, caminhar!</p>
+      <p>e saber-se um dia fruto.</p>
+      <p>Caminhar</p>
+      <p>e sentir-se um dia mar.</p>
+      <p>Ai, América,</p>
+      <p>que não exista a dúvida em meu caminho,</p>
+      <p>que somente me guie este imenso amor que trago,</p>
+      <p>que apenas esta paixão de justo me enamore.</p>
+      <p>Fui prisioneiro,</p>
+      <p>mas outra vez sou pássaro,</p>
+      <p>outra vez um caminhante,</p>
+      <p>e volto a abrir a alma com meu canto.</p>
+      <p>Hoje me detenho aqui...</p>
+      <p>Levanto minha voz,</p>
+      <p>minha bandeira de sonhos,</p>
+      <p>minha fé.</p>
+      <p>Recolho meu testemunho e me vou.</p>
+      <p>Eu sou o jogral maldito</p>
+      <p>e bem-amado.</p>
+      <p>Meu canto é um grito de combate</p>
+      <p>e eu não canto por cantar.</p>
+      <p>Eu parto deixando sempre uma inquietude,</p>
+      <p>deixando numa senha a certeza de uma aurora.</p>
+      <p>Eu sou o cantor clandestino e fugitivo,</p>
+      <p>aquele que ama a solidão imensa dos caminhos.</p>
+      <p>Passo despercebido de cidade em cidade.</p>
+      <p>Em algum lugar público eu vou dizer meus versos</p>
+      <p>e ali conheço amigos e inimigos.</p>
+      <p>Mas sempre pude encontrar ao grande companheiro,</p>
+      <p>ao homem novo,</p>
+      <p>aquele que traz a marca verdadeira,</p>
+      <p>aquele que se aproxima em silêncio</p>
+      <p>e como um gesto inconfundível me saúda.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho amada América,</p>
+      <p>para iluminar com meu canto este caminho,</p>
+      <p>te trago meu sonho imenso, latino e americano,</p>
+      <p>e meu coração descalço e peregrino.</p>
+      <p>Mas quando sinto meu sangue escorrendo-se nos anos</p>
+      <p>e que a vida se me acabe antes de ver-te amanhecida;</p>
+      <p>quando penso que é muito pouco amada minha</p>
+      <p>o que eu posso dar-te um poema;</p>
+      <p>ai, quando penso nestas flores de sangue que murcharam,</p>
+      <p>nestes iluminados corpos que tombaram,</p>
+      <p>e que talvez não pude fazer por ti quando quisera,</p>
+      <p>ai, se com o tempo eu descobrir</p>
+      <p>que este lírico fuzil que trago não dispara,</p>
+      <p>ai, América,</p>
+      <p>quem dirá que a intenção que tive foi sincera.</p>
+      <p>Quito, agosto-70</p>
+      <p>(Extraído da versão publicada na revista Encontros com a civilização brasileira. Rio de Janeiro: Civilização Brasileira, n. 19, janeiro de 1980, p. 7-10, inclusive para pontuação e ortografia).</p>
+      <p>Ver mais:</p>
+      <p><a href="https://livrespensantes.blogspot.com/2010/11/manoel-de-andrade-poeta-da-resistencia.html" target="_blank" rel="noopener">Manoel de Andrade, poeta da resistência</a></p>
+      <p><a href="https://www.vermelho.org.br/noticia.php?id_secao=11&amp;id_noticia=114089" target="_blank" rel="noopener">A poesia de Manoel de Andrade e seus laços com a América Latina</a></p>
+      <p><a href="https://cdeassis.wordpress.com/2010/08/31/manoel-de-andrade-e-sua-participacao-nas-jornadas-andinas-de-literatura-latino-americana/" target="_blank" rel="noopener">Manoel de Andrade e sua participação nas Jornadas Andinas de Literatura Latino-Americana</a></p>
+      <p>- Postagens sobre Manoel de Andrade no blogue Banco da Poesia;</p>
+      <p>- El cantor pelegrino de América, por Enrique Rosas Paravicino.</p>
+      <p>Pós-escrito: esta reflexão foi construída como fechamento de um ciclo, pois passaremos a reestruturar a periodicidade de textos das colunas Prestes e Luiz Otávio. A Coluna Prestes esta semana completou sete meses, nos quais, ininterruptamente, todo domingo apareceu uma postagem minha para falar de crítica jurídica, marxismo, América Latina, antropologia ou movimentos populares. Depois de trinta domingos (este foi o trigésimo-primeiro), Luiz Otávio Ribas e eu dividiremos o primeiro dia da semana e traremos nossas reflexões a cada quinze dias cada um.</p> entra como blocos tipados (<p>, <figure>, <h2>), nunca HTML
+     cru do Blogger. Gadgets "Mapeamento", "Colunistas", "Postado por" e
+     "Tecnologia do Blogger" ficam de fora.
+  2. O bloco de citação é obrigatório e vem antes do corpo.
+  3. Os dois botões aparecem no topo e no rodapé.
+  4. Imagem sem licença declarada entra como link, nunca como arquivo.
+  5. "Capturado em" só existe com data real da coleta.
+  6. Regime de citação: canonical aponta para o original. Só troque para a
+     página nova quando houver autorização escrita.
+  ══════════════════════════════════════════════════════════════════════ -->
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência — Acervo RENAP</title>
+<meta name="description" content="Há momentos em que o melhor é calar-se. Não se calar por não ter nada a dizer, mas porque faltam palavras para se dizer o indizível do dia-a-dia. Às vezes, falta inspiração; por outras, faltam forças." />
+
+<!-- Regime de citação: canonical no original enquanto a licença for
+     `citacao`. Com autorização escrita, passa a apontar para esta página. -->
+<link rel="canonical" href="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência" />
+<meta property="og:description" content="Há momentos em que o melhor é calar-se. Não se calar por não ter nada a dizer, mas porque faltam palavras para se dizer o indizível do dia-a-dia. Às vezes, falta inspiração; por outras, faltam forças." />
+<meta property="og:url" content="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html" />
+<meta property="article:published_time" content="2011-05-29" />
+<meta property="article:author" content="Ricardo Prestes Pazello" />
+
+<link rel="icon" href="data:," />
+
+<!-- Caminhos relativos a partir de acervo/. A ordem importa: base (temas.css),
+     marca (renap.css) e por último as regras desta página (acervo.css). -->
+<link rel="stylesheet" href="fontes/fontshare.css" />
+<link rel="stylesheet" href="temas/temas.css" />
+<link rel="stylesheet" href="temas/renap.css" />
+<link rel="stylesheet" href="acervo.css" />
+  <link rel="stylesheet" href="reveal.css" />
+
+<!-- Citação por máquina: Article + isBasedOn + autor + data. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência",
+  "datePublished": "2011-05-29",
+  "inLanguage": "pt-BR",
+  "author": {
+    "@type": "Person",
+    "name": "Ricardo Prestes Pazello",
+    "url": "https://www.blogger.com/profile/11698907163325129894"
+  },
+  "isBasedOn": "https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html",
+  "publisher": {
+    "@type": "Organization",
+    "name": "RENAP — Rede Nacional de Advogadas e Advogados Populares",
+    "url": "https://renap.org.br/"
+  }
+}
+</script>
+</head>
+<!-- Foto de fundo é opcional. Para ligar, use:
+       <body class="com-foto" style="--fundo:url('../assets/fundo/foto-27.jpg')">
+     O brilho (.38) e a opacidade (.42) já vêm do acervo.css, e o véu do
+     tema (40/28/18; claro 92/84/74) garante a leitura. No alto contraste a
+     foto sai de cena. Só use foto com licença e crédito declarados. -->
+<body>
+
+<a class="pular" href="#conteudo">Pular para o texto</a>
+
+<!-- Barra do topo: marca e seletor de tema. Nove temas no <select>, sem
+     rádio. O script do fim da página só grava data-theme no <html>. -->
+<header class="topo">
+  <div class="topo__interno">
+    <a class="topo__marca" href="./">
+      <span class="ponto" aria-hidden="true"></span>
+      RENAP <span>· Acervo</span>
+    </a>
+    <div class="topo__tema">
+      <label for="tema">Tema</label>
+      <select id="tema" name="tema">
+        <option value="light" selected>Claro</option>
+        <option value="dark">Escuro</option>
+        <option value="brasil">Brasil</option>
+        <option value="high-contrast">Alto contraste</option>
+        <option value="pequi">Pequi</option>
+        <option value="cerrado">Cerrado</option>
+        <option value="mata-atlantica">Mata Atlântica</option>
+        <option value="caatinga">Caatinga</option>
+        <option value="pantanal">Pantanal</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo" data-revelar-grupo>
+  <article data-revelar-grupo class="pagina" aria-labelledby="titulo">
+
+    <!-- 1. OLHO: tema + ano, em texto (nunca só cor).
+         2. TÍTULO: o do original, sem reescrever.
+         3. FICHA DE ORIGEM: autor, data, blog, regime e captura.
+         4. CRÉDITO DE PARCERIA: visível, com link para o IPDMS. -->
+    <header>
+      <p class="olho">
+        <span class="olho__ponto" aria-hidden="true"></span>
+        Assessoria jurídica popular <span aria-hidden="true">·</span> 2011
+      </p>
+
+      <h1 id="titulo">A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência</h1>
+
+      <dl class="ficha">
+        <div class="ficha__linha">
+          <dt>Autor</dt>
+          <dd>Ricardo Prestes Pazello</dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Publicado</dt>
+          <dd><time datetime="2011-05-29">29 de maio de 2011</time></dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Blog</dt>
+          <dd>
+            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>
+          </dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Regime</dt>
+          <dd>Citação direta, com crédito e link para o original</dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Capturado em</dt>
+          <dd><time datetime="2026-11-20">20 de novembro de 2026</time></dd>
+        </div>
+      </dl>
+
+      <p class="parceria">
+        Em parceria com o
+        <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS<span class="sr-only"> (abre em outra aba)</span></a>
+        — GT de Assessoria Jurídica Popular
+      </p>
+    </header>
+
+    <!-- 5. BLOCO DE CITAÇÃO (obrigatório, antes do corpo).
+         - blockquote com cite na URL canônica;
+         - autor em negrito, antes do veículo;
+         - data legível + datetime ISO;
+         - "Capturado em" com a data real da coleta.
+
+         Antes de começar a escrever esta postagem, pensei em vários títulos para ela. Percebi que pensar nos títulos era influência da necessidade do impacto, tal e qual o gerado em mim por um poeta desconhecido e que escreveu uma continental canção do exílio. "Longo caminhar", "Rocio do amanhecer", "Golpear-te América", "Uma vida quase inteira vivida na penumbra tumular dos socavões", "Cada promessa de paz é uma mentira", "Morrer sempre", "A vida é um gesto de amor desesperado", "Meu canto é um grito de combate", "Flores de sangue que murcharam", "Lírico fuzil" e "Iluminados corpos que tombaram"; tantos possíveis títulos, verdadeiras manchetes do impossível (ou inaceitável possível) de nosso tempo. Nosso, porque de todos nós, latino-americanos, latinos e americanos, para lembrar o poema. é o bloco central do original. No regime de citação,
+         use até 30% do texto; com autorização, pode ser o bloco inteiro.
+         O mesmo trecho não se repete no corpo. -->
+    <figure class="cartao citacao">
+      <blockquote cite="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html">
+        <p>Antes de começar a escrever esta postagem, pensei em vários títulos para ela. Percebi que pensar nos títulos era influência da necessidade do impacto, tal e qual o gerado em mim por um poeta desconhecido e que escreveu uma continental canção do exílio. "Longo caminhar", "Rocio do amanhecer", "Golpear-te América", "Uma vida quase inteira vivida na penumbra tumular dos socavões", "Cada promessa de paz é uma mentira", "Morrer sempre", "A vida é um gesto de amor desesperado", "Meu canto é um grito de combate", "Flores de sangue que murcharam", "Lírico fuzil" e "Iluminados corpos que tombaram"; tantos possíveis títulos, verdadeiras manchetes do impossível (ou inaceitável possível) de nosso tempo. Nosso, porque de todos nós, latino-americanos, latinos e americanos, para lembrar o poema.</p>
+      </blockquote>
+      <figcaption>
+        <b>Ricardo Prestes Pazello</b>, em “A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência”,
+        <time datetime="2011-05-29">29 de maio de 2011</time>,
+        <a href="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>.
+        Capturado em <time datetime="2026-11-20">20 de novembro de 2026</time>.
+      </figcaption>
+    </figure>
+
+    <!-- 6. DOIS BOTÕES, no topo. Alvo de 44 px; o aviso "abre em outra aba"
+         é texto, não ícone. O segundo botão usa o perfil do autor. -->
+    <p class="acoes-fonte">
+      <a class="botao" href="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html" target="_blank" rel="noopener">
+        Ler no blog original
+        <span class="botao__nota">abre em outra aba</span>
+      </a>
+      <a class="botao secundario" href="https://www.blogger.com/profile/11698907163325129894" target="_blank" rel="noopener">
+        Sobre Ricardo Prestes Pazello
+        <span class="botao__nota">abre em outra aba</span>
+      </a>
+    </p>
+
+    <!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
+         O ETL entrega HTML já tipado. Exemplo do que <p>Há momentos em que o melhor é calar-se. Não se calar por não ter nada a dizer, mas porque faltam palavras para se dizer o indizível do dia-a-dia. Às vezes, falta inspiração; por outras, faltam forças. O indivíduo, em sua solidão costumeira, consegue tão-somente superar-se. Superar seu entorno é tarefa impossível. E o que fazer quando queremos transformar o mundo, recriá-lo, fazer caber todos? A solidão, o indivíduo, não são as respostas certas.</p>
+      <p>Os últimos acontecimentos têm evidenciado, de alguma maneira, isto. E daí me vir à cabeça a concretude da relação resfolegante vida-morte para nós. As mais recentes postagens de Phelipe Bezerra Braga demonstram-no (Mostra o que ninguém vê, de 27 de maio pela manhã, e Mostra o que ninguém vê, de 27 de maio à noite). Também eu e outros temos tocado nesta questão, às vezes inconscientemente. Basta lembrar as postagens sobre o falecimento de Sebastião Bezerra da Silva (Calourada do SAJU-USP e extensão) ou os quatro advogados populares mortos (Lembrando quatro advogados populares assassinados: símbolos de resistência jurídica).</p>
+      <p>Eu disse "relação resfolegante vida-morte para nós". Mas quem somos este nós? É certo que a relação vida-morte é universal, mas talvez não o sejam a perplexidade e agonia que gera bem como a fundamentalidade que adquire. Talvez, dessa forma, ganhe inteira a crítica ao filósofo d'além-mar: a "vida nua" não é mera abstração ou joguete simbólico de interpretação de um distante fenômeno essencial da vida; para nós, esta vida despida é totalmente concreta, seja porque não mera alegoria ou metáfora, seja porque não imaterial. Mas a questão persiste: o nós!</p>
+      <p>Vou lançar, agora, uma tese, pouco novidadesca, mas razoavelmente pujante, que concretiza a vida nua, já que negada, e que comunitariza o indivíduo, já que estéril em sua solidão. O exílio prático das "alegorias da derrota" latino-americanas (nem tão alegóricas assim) foi um possível apogeu da autoconsciência continental. E esta se expressou, reiteradamente, por vias poéticas.</p>
+      <p>E está dado que à mente vem a intertextualidade da poesia do tempo de antes e posterior, pois de Castro Alves a José Paulo Paes, de Tiago de Melo a Hamílton Faria, de Cenair Maicá a Chico Buarque, de Araújo Jorge a Ferreira Gular (mesmo que politcamente falecido) ou, ainda, de Manoel Bonfim a Darci Ribeiro, para lembrar apenas de brasileiros, tudo é discurso - e com que eloqüência! - a favor de uma "Canção de amor à América", como a do poeta da resistência Manoel de Andrade, curitibano e de exílio cediço, que escreveu o clássico "Poemas para la libertad" em 1970 e só em 2009 obteve uma sua publicação no Brasil, antecedida, dois anos antes, pela de outro livro, "Cantares".</p>
+      <p>Mas, como assinalei, tem vezes que é melhor calar, não ter nada a dizer, mas porque faltam palavras para se dizer o indizível. E como já calei pouco, deixo que o poeta diga por mim:</p>
+      <figure class="cartao imagem-link"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6v2PFy-ugzNq1hdbZlN7KedepnwppgWtr0GPwMs0jQZ1NshqJjxRLu2PU_i4A1wMYJ390NfGphZ3iMXZsYvmZ2dKh4KPOC7fBrA6tgLxCwToC7BU1J7RfZzcYOyFh0Ymbl4akXSikp7E3/s1600/Manoel+de+Andrade.bmp" target="_blank" rel="noopener">Ver a imagem no original<span class="sr-only"> (abre em outra aba)</span></a><figcaption>Imagem do original, sem licença declarada.</figcaption></figure>
+      <p>Canção de amor à América (Manoel de Andrade)</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho com o trigo do meu canto,</p>
+      <p>minha ternura aberta</p>
+      <p>e o meu espanto;</p>
+      <p>e desde o fundo de mim e assombrado</p>
+      <p>e pelos meus lábios de vinho e gaivotas,</p>
+      <p>te trago o meu cantar de caminhante.</p>
+      <p>Para ti, amada minha,</p>
+      <p>para teu corpo de cansaço</p>
+      <p>e por tua fome</p>
+      <p>eu trago este meu verso frutecido.</p>
+      <p>Eu venho com o rocio do amanhecer</p>
+      <p>sou o cantor da aurora</p>
+      <p>o que desperta</p>
+      <p>o que anuncia a vida e a esperança.</p>
+      <p>Eu sou o mensageiro destes anos</p>
+      <p>o cantor deste tempo e destas terras</p>
+      <p>eu sou daqui,</p>
+      <p>desde a Patagônia até o Rio Grande</p>
+      <p>e desde aqui alço meu canto para o mundo.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu sou como uma ave que passa</p>
+      <p>apenas um cantor errante,</p>
+      <p>mas se na minha voz há uma guitarra delirante,</p>
+      <p>é para golpear-te América,</p>
+      <p>para levantar teu braço adormecido.</p>
+      <p>Agora venho cantar-te</p>
+      <p>e meu canto é como o dia e como a água</p>
+      <p>para que me entenda sobretudo o homem humilde.</p>
+      <p>Agora venho cantar-te</p>
+      <p>mas em teu nome América,</p>
+      <p>eu só posso cantar com a voz que denuncia.</p>
+      <p>Eu não venho cantar o esplendor de Machu Picchu</p>
+      <p>a Grande Cordilheira e a neve eterna;</p>
+      <p>não venho cantar a esta América de vulcões e arquipélagos</p>
+      <p>a esta América altiplânica da lhama esbelta e de vicunha;</p>
+      <p>eu venho em nome de uma América parda, branca e negra,</p>
+      <p>e desde Arauco a Yucatán,</p>
+      <p>venho em nome desta América indígena agonizante,</p>
+      <p>eu venho sobretudo em nome de uma América proletária</p>
+      <p>em nome do cobre e do estanho ensangüentado.</p>
+      <p>Eu hoje não vim cantar um continente de paisagens,</p>
+      <p>não vim falar dos lagos escondidos na montanha</p>
+      <p>nem dos rios que correm ao fundo dos vales florescidos;</p>
+      <p>não, eu não vim cantar a este trigo que se nega a quem semeia;</p>
+      <p>eu venho por uma história mais sincera,</p>
+      <p>venho falar do homem que vi e ouvi pelos caminhos.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho falar do camponês</p>
+      <p>de sua pele seca e sua cor de bronze,</p>
+      <p>de sua túnica desbotada e o seu colchão de terra,</p>
+      <p>de sua resignação e seu misterioso silêncio,</p>
+      <p>de seu grito incontido que em alguma parte se levanta,</p>
+      <p>de sua fome saciada com o sangue dos massacres.</p>
+      <p>Eu venho falar do mineiro e sua morte prematura,</p>
+      <p>de uma vida quase inteira vivida na penumbra tumular dos socavões,</p>
+      <p>da silicose escavando dia a dia os pulmões dos operários jovens;</p>
+      <p>eu venho falar das palhiris bolivianas,</p>
+      <p>dessas desamparadas viúvas do mineiro massacrado ou soterrado,</p>
+      <p>que buscam no lixo do estanho,</p>
+      <p>o pão diário dos seus filhos.</p>
+      <p>Eu não vim para falar do encanto colonial destas cidades,</p>
+      <p>dos altares espanhóis recobertos com o ouro incaico,</p>
+      <p>das grandes praças onde se erguem as estátuas magníficas dos libertadores;</p>
+      <p>venho falar de favelas, barriadas e tugurios,</p>
+      <p>de povoações calhampas e vilas-misérias,</p>
+      <p>eu venho falar da tuberculose e do frio,</p>
+      <p>venho em nome dos meninos sem pão e chocolates.</p>
+      <p>Eu venho falar por toda voz eu se levanta,</p>
+      <p>por uma geração reprimida com fuzis,</p>
+      <p>venho falar das universidades fechadas</p>
+      <p>e com a marca das tiranias encravadas nas paredes.</p>
+      <p>Eu venho denunciar falsas revoluções</p>
+      <p>e o oportuno pacifismo,</p>
+      <p>venho falar de um tempo de desterros e torturas,</p>
+      <p>eu venho alertar sobre um terror que cresce uniformado</p>
+      <p>e sobre estes anos em que cada promessa de paz é uma mentira.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Rumo ao norte</p>
+      <p>ao sul</p>
+      <p>a leste ou a oeste,</p>
+      <p>eu avanço atravessando estas nações.</p>
+      <p>Oh, caminhar, caminhar</p>
+      <p>e saber sentir-se um caminhante!</p>
+      <p>pois é tão triste morrer a cada dia</p>
+      <p>morrer com os punhos abertos e o coração vazio.</p>
+      <p>Morrer distante do homem e sua esperança</p>
+      <p>morrer indiferente ao mundo que morre</p>
+      <p>morrer sempre</p>
+      <p>quando a vida é um gesto de amor desesperado.</p>
+      <p>Oh, caminhar, caminhar!</p>
+      <p>mas caminhar como caminha o rio e a semente,</p>
+      <p>conhecendo a mais completa plenitude em seu destino.</p>
+      <p>Oh, caminhar!</p>
+      <p>e saber-se um dia fruto.</p>
+      <p>Caminhar</p>
+      <p>e sentir-se um dia mar.</p>
+      <p>Ai, América,</p>
+      <p>que não exista a dúvida em meu caminho,</p>
+      <p>que somente me guie este imenso amor que trago,</p>
+      <p>que apenas esta paixão de justo me enamore.</p>
+      <p>Fui prisioneiro,</p>
+      <p>mas outra vez sou pássaro,</p>
+      <p>outra vez um caminhante,</p>
+      <p>e volto a abrir a alma com meu canto.</p>
+      <p>Hoje me detenho aqui...</p>
+      <p>Levanto minha voz,</p>
+      <p>minha bandeira de sonhos,</p>
+      <p>minha fé.</p>
+      <p>Recolho meu testemunho e me vou.</p>
+      <p>Eu sou o jogral maldito</p>
+      <p>e bem-amado.</p>
+      <p>Meu canto é um grito de combate</p>
+      <p>e eu não canto por cantar.</p>
+      <p>Eu parto deixando sempre uma inquietude,</p>
+      <p>deixando numa senha a certeza de uma aurora.</p>
+      <p>Eu sou o cantor clandestino e fugitivo,</p>
+      <p>aquele que ama a solidão imensa dos caminhos.</p>
+      <p>Passo despercebido de cidade em cidade.</p>
+      <p>Em algum lugar público eu vou dizer meus versos</p>
+      <p>e ali conheço amigos e inimigos.</p>
+      <p>Mas sempre pude encontrar ao grande companheiro,</p>
+      <p>ao homem novo,</p>
+      <p>aquele que traz a marca verdadeira,</p>
+      <p>aquele que se aproxima em silêncio</p>
+      <p>e como um gesto inconfundível me saúda.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho amada América,</p>
+      <p>para iluminar com meu canto este caminho,</p>
+      <p>te trago meu sonho imenso, latino e americano,</p>
+      <p>e meu coração descalço e peregrino.</p>
+      <p>Mas quando sinto meu sangue escorrendo-se nos anos</p>
+      <p>e que a vida se me acabe antes de ver-te amanhecida;</p>
+      <p>quando penso que é muito pouco amada minha</p>
+      <p>o que eu posso dar-te um poema;</p>
+      <p>ai, quando penso nestas flores de sangue que murcharam,</p>
+      <p>nestes iluminados corpos que tombaram,</p>
+      <p>e que talvez não pude fazer por ti quando quisera,</p>
+      <p>ai, se com o tempo eu descobrir</p>
+      <p>que este lírico fuzil que trago não dispara,</p>
+      <p>ai, América,</p>
+      <p>quem dirá que a intenção que tive foi sincera.</p>
+      <p>Quito, agosto-70</p>
+      <p>(Extraído da versão publicada na revista Encontros com a civilização brasileira. Rio de Janeiro: Civilização Brasileira, n. 19, janeiro de 1980, p. 7-10, inclusive para pontuação e ortografia).</p>
+      <p>Ver mais:</p>
+      <p><a href="https://livrespensantes.blogspot.com/2010/11/manoel-de-andrade-poeta-da-resistencia.html" target="_blank" rel="noopener">Manoel de Andrade, poeta da resistência</a></p>
+      <p><a href="https://www.vermelho.org.br/noticia.php?id_secao=11&amp;id_noticia=114089" target="_blank" rel="noopener">A poesia de Manoel de Andrade e seus laços com a América Latina</a></p>
+      <p><a href="https://cdeassis.wordpress.com/2010/08/31/manoel-de-andrade-e-sua-participacao-nas-jornadas-andinas-de-literatura-latino-americana/" target="_blank" rel="noopener">Manoel de Andrade e sua participação nas Jornadas Andinas de Literatura Latino-Americana</a></p>
+      <p>- Postagens sobre Manoel de Andrade no blogue Banco da Poesia;</p>
+      <p>- El cantor pelegrino de América, por Enrique Rosas Paravicino.</p>
+      <p>Pós-escrito: esta reflexão foi construída como fechamento de um ciclo, pois passaremos a reestruturar a periodicidade de textos das colunas Prestes e Luiz Otávio. A Coluna Prestes esta semana completou sete meses, nos quais, ininterruptamente, todo domingo apareceu uma postagem minha para falar de crítica jurídica, marxismo, América Latina, antropologia ou movimentos populares. Depois de trinta domingos (este foi o trigésimo-primeiro), Luiz Otávio Ribas e eu dividiremos o primeiro dia da semana e traremos nossas reflexões a cada quinze dias cada um.</p> pode conter:
+
+           <p>Parágrafo do original.</p>
+           <figure class="cartaz">
+             <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html" target="_blank" rel="noopener">Ver o cartaz no blog original<span class="sr-only"> (abre em outra aba)</span></a>
+             <figcaption>Legenda do original, com crédito ou aviso de licença.</figcaption>
+           </figure>
+           <h2>Pergunta final do original</h2>
+
+         Imagem sem licença: só link. Nunca copie o arquivo. -->
+    <div data-revelar-grupo class="cartao corpo">
+      <p>Há momentos em que o melhor é calar-se. Não se calar por não ter nada a dizer, mas porque faltam palavras para se dizer o indizível do dia-a-dia. Às vezes, falta inspiração; por outras, faltam forças. O indivíduo, em sua solidão costumeira, consegue tão-somente superar-se. Superar seu entorno é tarefa impossível. E o que fazer quando queremos transformar o mundo, recriá-lo, fazer caber todos? A solidão, o indivíduo, não são as respostas certas.</p>
+      <p>Os últimos acontecimentos têm evidenciado, de alguma maneira, isto. E daí me vir à cabeça a concretude da relação resfolegante vida-morte para nós. As mais recentes postagens de Phelipe Bezerra Braga demonstram-no (Mostra o que ninguém vê, de 27 de maio pela manhã, e Mostra o que ninguém vê, de 27 de maio à noite). Também eu e outros temos tocado nesta questão, às vezes inconscientemente. Basta lembrar as postagens sobre o falecimento de Sebastião Bezerra da Silva (Calourada do SAJU-USP e extensão) ou os quatro advogados populares mortos (Lembrando quatro advogados populares assassinados: símbolos de resistência jurídica).</p>
+      <p>Eu disse "relação resfolegante vida-morte para nós". Mas quem somos este nós? É certo que a relação vida-morte é universal, mas talvez não o sejam a perplexidade e agonia que gera bem como a fundamentalidade que adquire. Talvez, dessa forma, ganhe inteira a crítica ao filósofo d'além-mar: a "vida nua" não é mera abstração ou joguete simbólico de interpretação de um distante fenômeno essencial da vida; para nós, esta vida despida é totalmente concreta, seja porque não mera alegoria ou metáfora, seja porque não imaterial. Mas a questão persiste: o nós!</p>
+      <p>Vou lançar, agora, uma tese, pouco novidadesca, mas razoavelmente pujante, que concretiza a vida nua, já que negada, e que comunitariza o indivíduo, já que estéril em sua solidão. O exílio prático das "alegorias da derrota" latino-americanas (nem tão alegóricas assim) foi um possível apogeu da autoconsciência continental. E esta se expressou, reiteradamente, por vias poéticas.</p>
+      <p>E está dado que à mente vem a intertextualidade da poesia do tempo de antes e posterior, pois de Castro Alves a José Paulo Paes, de Tiago de Melo a Hamílton Faria, de Cenair Maicá a Chico Buarque, de Araújo Jorge a Ferreira Gular (mesmo que politcamente falecido) ou, ainda, de Manoel Bonfim a Darci Ribeiro, para lembrar apenas de brasileiros, tudo é discurso - e com que eloqüência! - a favor de uma "Canção de amor à América", como a do poeta da resistência Manoel de Andrade, curitibano e de exílio cediço, que escreveu o clássico "Poemas para la libertad" em 1970 e só em 2009 obteve uma sua publicação no Brasil, antecedida, dois anos antes, pela de outro livro, "Cantares".</p>
+      <p>Mas, como assinalei, tem vezes que é melhor calar, não ter nada a dizer, mas porque faltam palavras para se dizer o indizível. E como já calei pouco, deixo que o poeta diga por mim:</p>
+      <figure class="cartao imagem-link"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6v2PFy-ugzNq1hdbZlN7KedepnwppgWtr0GPwMs0jQZ1NshqJjxRLu2PU_i4A1wMYJ390NfGphZ3iMXZsYvmZ2dKh4KPOC7fBrA6tgLxCwToC7BU1J7RfZzcYOyFh0Ymbl4akXSikp7E3/s1600/Manoel+de+Andrade.bmp" target="_blank" rel="noopener">Ver a imagem no original<span class="sr-only"> (abre em outra aba)</span></a><figcaption>Imagem do original, sem licença declarada.</figcaption></figure>
+      <p>Canção de amor à América (Manoel de Andrade)</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho com o trigo do meu canto,</p>
+      <p>minha ternura aberta</p>
+      <p>e o meu espanto;</p>
+      <p>e desde o fundo de mim e assombrado</p>
+      <p>e pelos meus lábios de vinho e gaivotas,</p>
+      <p>te trago o meu cantar de caminhante.</p>
+      <p>Para ti, amada minha,</p>
+      <p>para teu corpo de cansaço</p>
+      <p>e por tua fome</p>
+      <p>eu trago este meu verso frutecido.</p>
+      <p>Eu venho com o rocio do amanhecer</p>
+      <p>sou o cantor da aurora</p>
+      <p>o que desperta</p>
+      <p>o que anuncia a vida e a esperança.</p>
+      <p>Eu sou o mensageiro destes anos</p>
+      <p>o cantor deste tempo e destas terras</p>
+      <p>eu sou daqui,</p>
+      <p>desde a Patagônia até o Rio Grande</p>
+      <p>e desde aqui alço meu canto para o mundo.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu sou como uma ave que passa</p>
+      <p>apenas um cantor errante,</p>
+      <p>mas se na minha voz há uma guitarra delirante,</p>
+      <p>é para golpear-te América,</p>
+      <p>para levantar teu braço adormecido.</p>
+      <p>Agora venho cantar-te</p>
+      <p>e meu canto é como o dia e como a água</p>
+      <p>para que me entenda sobretudo o homem humilde.</p>
+      <p>Agora venho cantar-te</p>
+      <p>mas em teu nome América,</p>
+      <p>eu só posso cantar com a voz que denuncia.</p>
+      <p>Eu não venho cantar o esplendor de Machu Picchu</p>
+      <p>a Grande Cordilheira e a neve eterna;</p>
+      <p>não venho cantar a esta América de vulcões e arquipélagos</p>
+      <p>a esta América altiplânica da lhama esbelta e de vicunha;</p>
+      <p>eu venho em nome de uma América parda, branca e negra,</p>
+      <p>e desde Arauco a Yucatán,</p>
+      <p>venho em nome desta América indígena agonizante,</p>
+      <p>eu venho sobretudo em nome de uma América proletária</p>
+      <p>em nome do cobre e do estanho ensangüentado.</p>
+      <p>Eu hoje não vim cantar um continente de paisagens,</p>
+      <p>não vim falar dos lagos escondidos na montanha</p>
+      <p>nem dos rios que correm ao fundo dos vales florescidos;</p>
+      <p>não, eu não vim cantar a este trigo que se nega a quem semeia;</p>
+      <p>eu venho por uma história mais sincera,</p>
+      <p>venho falar do homem que vi e ouvi pelos caminhos.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho falar do camponês</p>
+      <p>de sua pele seca e sua cor de bronze,</p>
+      <p>de sua túnica desbotada e o seu colchão de terra,</p>
+      <p>de sua resignação e seu misterioso silêncio,</p>
+      <p>de seu grito incontido que em alguma parte se levanta,</p>
+      <p>de sua fome saciada com o sangue dos massacres.</p>
+      <p>Eu venho falar do mineiro e sua morte prematura,</p>
+      <p>de uma vida quase inteira vivida na penumbra tumular dos socavões,</p>
+      <p>da silicose escavando dia a dia os pulmões dos operários jovens;</p>
+      <p>eu venho falar das palhiris bolivianas,</p>
+      <p>dessas desamparadas viúvas do mineiro massacrado ou soterrado,</p>
+      <p>que buscam no lixo do estanho,</p>
+      <p>o pão diário dos seus filhos.</p>
+      <p>Eu não vim para falar do encanto colonial destas cidades,</p>
+      <p>dos altares espanhóis recobertos com o ouro incaico,</p>
+      <p>das grandes praças onde se erguem as estátuas magníficas dos libertadores;</p>
+      <p>venho falar de favelas, barriadas e tugurios,</p>
+      <p>de povoações calhampas e vilas-misérias,</p>
+      <p>eu venho falar da tuberculose e do frio,</p>
+      <p>venho em nome dos meninos sem pão e chocolates.</p>
+      <p>Eu venho falar por toda voz eu se levanta,</p>
+      <p>por uma geração reprimida com fuzis,</p>
+      <p>venho falar das universidades fechadas</p>
+      <p>e com a marca das tiranias encravadas nas paredes.</p>
+      <p>Eu venho denunciar falsas revoluções</p>
+      <p>e o oportuno pacifismo,</p>
+      <p>venho falar de um tempo de desterros e torturas,</p>
+      <p>eu venho alertar sobre um terror que cresce uniformado</p>
+      <p>e sobre estes anos em que cada promessa de paz é uma mentira.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Rumo ao norte</p>
+      <p>ao sul</p>
+      <p>a leste ou a oeste,</p>
+      <p>eu avanço atravessando estas nações.</p>
+      <p>Oh, caminhar, caminhar</p>
+      <p>e saber sentir-se um caminhante!</p>
+      <p>pois é tão triste morrer a cada dia</p>
+      <p>morrer com os punhos abertos e o coração vazio.</p>
+      <p>Morrer distante do homem e sua esperança</p>
+      <p>morrer indiferente ao mundo que morre</p>
+      <p>morrer sempre</p>
+      <p>quando a vida é um gesto de amor desesperado.</p>
+      <p>Oh, caminhar, caminhar!</p>
+      <p>mas caminhar como caminha o rio e a semente,</p>
+      <p>conhecendo a mais completa plenitude em seu destino.</p>
+      <p>Oh, caminhar!</p>
+      <p>e saber-se um dia fruto.</p>
+      <p>Caminhar</p>
+      <p>e sentir-se um dia mar.</p>
+      <p>Ai, América,</p>
+      <p>que não exista a dúvida em meu caminho,</p>
+      <p>que somente me guie este imenso amor que trago,</p>
+      <p>que apenas esta paixão de justo me enamore.</p>
+      <p>Fui prisioneiro,</p>
+      <p>mas outra vez sou pássaro,</p>
+      <p>outra vez um caminhante,</p>
+      <p>e volto a abrir a alma com meu canto.</p>
+      <p>Hoje me detenho aqui...</p>
+      <p>Levanto minha voz,</p>
+      <p>minha bandeira de sonhos,</p>
+      <p>minha fé.</p>
+      <p>Recolho meu testemunho e me vou.</p>
+      <p>Eu sou o jogral maldito</p>
+      <p>e bem-amado.</p>
+      <p>Meu canto é um grito de combate</p>
+      <p>e eu não canto por cantar.</p>
+      <p>Eu parto deixando sempre uma inquietude,</p>
+      <p>deixando numa senha a certeza de uma aurora.</p>
+      <p>Eu sou o cantor clandestino e fugitivo,</p>
+      <p>aquele que ama a solidão imensa dos caminhos.</p>
+      <p>Passo despercebido de cidade em cidade.</p>
+      <p>Em algum lugar público eu vou dizer meus versos</p>
+      <p>e ali conheço amigos e inimigos.</p>
+      <p>Mas sempre pude encontrar ao grande companheiro,</p>
+      <p>ao homem novo,</p>
+      <p>aquele que traz a marca verdadeira,</p>
+      <p>aquele que se aproxima em silêncio</p>
+      <p>e como um gesto inconfundível me saúda.</p>
+      <p>Ai América,</p>
+      <p>que longo caminhar!</p>
+      <p>Eu venho amada América,</p>
+      <p>para iluminar com meu canto este caminho,</p>
+      <p>te trago meu sonho imenso, latino e americano,</p>
+      <p>e meu coração descalço e peregrino.</p>
+      <p>Mas quando sinto meu sangue escorrendo-se nos anos</p>
+      <p>e que a vida se me acabe antes de ver-te amanhecida;</p>
+      <p>quando penso que é muito pouco amada minha</p>
+      <p>o que eu posso dar-te um poema;</p>
+      <p>ai, quando penso nestas flores de sangue que murcharam,</p>
+      <p>nestes iluminados corpos que tombaram,</p>
+      <p>e que talvez não pude fazer por ti quando quisera,</p>
+      <p>ai, se com o tempo eu descobrir</p>
+      <p>que este lírico fuzil que trago não dispara,</p>
+      <p>ai, América,</p>
+      <p>quem dirá que a intenção que tive foi sincera.</p>
+      <p>Quito, agosto-70</p>
+      <p>(Extraído da versão publicada na revista Encontros com a civilização brasileira. Rio de Janeiro: Civilização Brasileira, n. 19, janeiro de 1980, p. 7-10, inclusive para pontuação e ortografia).</p>
+      <p>Ver mais:</p>
+      <p><a href="https://livrespensantes.blogspot.com/2010/11/manoel-de-andrade-poeta-da-resistencia.html" target="_blank" rel="noopener">Manoel de Andrade, poeta da resistência</a></p>
+      <p><a href="https://www.vermelho.org.br/noticia.php?id_secao=11&amp;id_noticia=114089" target="_blank" rel="noopener">A poesia de Manoel de Andrade e seus laços com a América Latina</a></p>
+      <p><a href="https://cdeassis.wordpress.com/2010/08/31/manoel-de-andrade-e-sua-participacao-nas-jornadas-andinas-de-literatura-latino-americana/" target="_blank" rel="noopener">Manoel de Andrade e sua participação nas Jornadas Andinas de Literatura Latino-Americana</a></p>
+      <p>- Postagens sobre Manoel de Andrade no blogue Banco da Poesia;</p>
+      <p>- El cantor pelegrino de América, por Enrique Rosas Paravicino.</p>
+      <p>Pós-escrito: esta reflexão foi construída como fechamento de um ciclo, pois passaremos a reestruturar a periodicidade de textos das colunas Prestes e Luiz Otávio. A Coluna Prestes esta semana completou sete meses, nos quais, ininterruptamente, todo domingo apareceu uma postagem minha para falar de crítica jurídica, marxismo, América Latina, antropologia ou movimentos populares. Depois de trinta domingos (este foi o trigésimo-primeiro), Luiz Otávio Ribas e eu dividiremos o primeiro dia da semana e traremos nossas reflexões a cada quinze dias cada um.</p>
+    </div>
+
+  </article>
+</main>
+
+<!-- 8. RODAPÉ: os mesmos dois botões, o crédito de parceria, "Como citar"
+     e a nota de que o texto é de terceiro. -->
+<footer class="rodape">
+  <div class="rodape__interno">
+    <p class="acoes-fonte">
+      <a class="botao" href="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html" target="_blank" rel="noopener">
+        Ler no blog original
+        <span class="botao__nota">abre em outra aba</span>
+      </a>
+      <a class="botao secundario" href="https://www.blogger.com/profile/11698907163325129894" target="_blank" rel="noopener">
+        Sobre Ricardo Prestes Pazello
+        <span class="botao__nota">abre em outra aba</span>
+      </a>
+    </p>
+
+    <p class="parceria">
+      Em parceria com o
+      <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS<span class="sr-only"> (abre em outra aba)</span></a>
+      — GT de Assessoria Jurídica Popular
+    </p>
+
+    <div class="rodape__como-citar">
+      <h2>Como citar</h2>
+      <p>Ricardo Prestes Pazello. A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência <em>Assessoria Jurídica Popular</em>, 29 de maio de 2011. Disponível em:
+        <a href="https://assessoriajuridicapopular.blogspot.com/2011/05/vida-nua-concreta-e-autoconsciencia.html" target="_blank" rel="noopener">assessoriajuridicapopular.blogspot.com<span class="sr-only"> (abre em outra aba)</span></a>.
+        Capturado em <time datetime="2026-11-20">20 de novembro de 2026</time>.
+      </p>
+    </div>
+
+    <p class="rodape__nota">Página do acervo da RENAP. O texto é de terceiro e entra em citação direta, com crédito e link para o original. <a href="./">Voltar à apresentação da proposta</a>.</p>
+  </div>
+
+  <div class="parcerias" aria-label="Realização e parceria">
+    <p class="parcerias__titulo">Realização e parceria</p>
+    <ul class="parcerias__lista">
+      <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP — Rede Nacional de Advogados e Advogadas Populares" loading="lazy" /></a></li>
+      <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS — Instituto de Pesquisa, Direitos e Movimentos Sociais" loading="lazy" /></a></li>
+      <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB — Movimento dos Atingidos por Barragens" loading="lazy" /></a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+/* Seletor de tema da página de texto: só grava data-theme no <html>.
+   Sem rádio e sem a casca do portal — aqui a página é só leitura. */
+(function () {
+  var sel = document.getElementById('tema');
+  if (!sel) return;
+  try {
+    var salvo = localStorage.getItem('acervo-tema');
+    if (salvo) {
+      document.documentElement.dataset.theme = salvo;
+      sel.value = salvo;
+    }
+  } catch (e) { /* navegador sem armazenamento: segue no tema claro */ }
+  sel.addEventListener('change', function () {
+    document.documentElement.dataset.theme = sel.value;
+    try { localStorage.setItem('acervo-tema', sel.value); } catch (e) {}
+  });
+})();
+</script>
+  <script src="reveal.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,975 @@
+<!doctype html>
+<!--
+  ═══ GABARITO — PÁGINA DE TEXTO DO ACERVO ═══════════════════════════════
+  O que é: modelo da página que recebe UM texto do blog Assessoria Jurídica
+  Popular. Não é página publicada: os marcadores {{…}} são preenchidos pelo
+  ETL. Desenho fechado em 20/11/2026, plano seções 6 e 11.
+
+  Por que esta ordem: olho (tema + ano) → título → ficha de origem → crédito
+  de parceria → bloco de citação → dois botões → corpo → dois botões →
+  rodapé. O leitor sabe de quem é o texto antes de ler a primeira linha.
+
+  CONTRATO DE MARCADORES
+  Obrigatórios (nome fixo, não renomear):
+    Biblioteca digital      título exato do original, sem reescrever
+    1 de julho de 2012        data legível: 16 de agosto de 2009
+    Luiz Otávio Ribas       nome do autor, como assina o original
+    <p>LIVROS</p>
+      <p>Vladimir Luz</p>
+      <p>"Assessoria Juridica Popular No Brasil"</p>
+      <p>Rio de Janeiro: Lumen Juris, 2008.</p>
+      <p>Paulo Abrão e Marcelo Torelly</p>
+      <p>"Assessoria jurídica popular: leituras fundamentais e novos debates"</p>
+      <p>Porto Alegre: Edipucrs, 2009.</p>
+      <p>Darci Frigo, Fernando Prioste e Antônio Sérgio Escrivão Filho</p>
+      <p><a href="https://terradedireitos.org.br/wp-content/uploads/2010/09/Miolo_PB_final.pdf" target="_blank" rel="noopener">Justiça e direitos humanos: experiências de assessoria jurídica popular</a></p>
+      <p>Curitiba: Terra de Direitos, 2010.</p>
+      <p>Carlos Derpic Salazar</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/01/salazar-el-derecho-del-poder-contra-el.html" target="_blank" rel="noopener">El derecho del poder contra el poder: alternativas para afrontar los vícios de la (in)justicia en Bolivia</a></p>
+      <p>Aguascalientes: Centro de Estudios Jurídicos y Sociales Mispat; San Luis Potosí: Universidad Autónoma de San Luis Potosí; San Cristóbal de Las Casas: Educación para las Ciencias en Chiapas, 2013.</p>
+      <p>Amélia Rocha, Ana Carneiro, Luciana Zaffalon, Priscylla Joca, Rodrigo de Medeiros e Talita Furtado</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/01/anadep-e-renap-lancam-livro-defensoria.html" target="_blank" rel="noopener">Defensoria Pública, Assessoria Jurídica Popular e Movimentos Sociais e Populares: novos caminhos traçados na concretização do direito de acesso à justiça</a></p>
+      <p>Fortaleza: Dedo de Moças, 2013.</p>
+      <p>RENAP - Rede Nacional de Advogadas e Advogados Populares</p>
+      <p>Várias autorias</p>
+      <p>Cadernos RENAP no 6 - março de 2005 - Advocacia Popular Caderno especial</p>
+      <p>NOVA ESCOLA JURIDICA BRASILEIRA - NAIR UnB</p>
+      <p>Alexandre Bernardino da Costa</p>
+      <p>O Direito achado na rua - Introdução crítica ao direito à saúde, v.4, CEAD</p>
+      <p>José Geraldo de Sousa Júnior</p>
+      <p>Direito como liberdade: o Direito Achado na Rua: experiências populares emancipatórias de criação do Direito. Tese (Doutorado em Direito) - UnB, Brasília, 2008.</p>
+      <p>Roberto Lyra Filho</p>
+      <p>O que é Direito. São Paulo: Brasiliense, 1982.</p>
+      <p>PESQUISAS</p>
+      <p>Amanda Alves de Souza</p>
+      <p>Assessora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/amanda-alves-de-souza-e-praxis.html" target="_blank" rel="noopener">Desafios para construção de uma nova práxis extensionista no Direito</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal do Rio de Janeiro</p>
+      <p>Ana Cláudia Diogo Tavares</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/02/ana-claudia-tavares-e-advocacia-popular.html" target="_blank" rel="noopener">Os nós da rede: concepções e atuação do(a) advogado (a) popular sobre os conflitos sócio-jurídicos no Estado do Rio de Janeiro</a></p>
+      <p>Dissertação de Mestrado em Sociologia e Direito na Universidade Federal Fluminense</p>
+      <p>Ana Lia Almeida</p>
+      <p>Um estalo nas faculdades de direito: perspectivas ideológicas da Assessoria Jurídica Universitária Popular</p>
+      <p>Tese de doutorado em Direitos Humanos na Universidade Federal da Paraíba</p>
+      <p>André Luiz Conrado Mendes</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/12/andre-mendes-e-advocacia-popular-utopia.html" target="_blank" rel="noopener">Advocacia popular: utopia e ação política</a></p>
+      <p>Dissertação de Mestrado em Direito na Pontifícia Universidade Católica do Rio de Janeiro.</p>
+      <p>Andressa Chiamulera</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-andressa-chiamulera-ufpr-2003.html" target="_blank" rel="noopener">O acesso à justiça na perspectiva da Ética da Libertação: a atuação das assessorias jurídicas universitárias</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal do Paraná, 2003</p>
+      <p>Carla Miranda</p>
+      <p>Assessora estudantil</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/01/carla-miranda-e-praxis-da-assessoria.html" target="_blank" rel="noopener">Na práxis da Assessoria Jurídica Universitária Popular: extensão e produção de conhecimento</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal da Paraíba</p>
+      <p>Christianny Diógenes Maia</p>
+      <p>Professora e assessora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2010/05/dissertacao-christianny-diogenes-maia.html" target="_blank" rel="noopener">Assessoria jurídica popular: teoria e prática emancipatória</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal do Ceará</p>
+      <p>Diana Melo Pereira</p>
+      <p>Advogada e professora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2015/09/diana-melo-pereira-as-lutas-do-mmc-pelo.html" target="_blank" rel="noopener">Sem porta-voz na rua, sem dono em casa: as lutas do movimento de mulheres camponesas (MMC Brasil) pelo direito a uma vida sem violência</a></p>
+      <p>Dissertação de Mestrado na Universidade de Brasília</p>
+      <p>Diego Augusto Diehl</p>
+      <p>Assessor universitário</p>
+      <p><a href="https://issuu.com/diegodiehl/docs/diego_augusto_diehl_-_disserta____o" target="_blank" rel="noopener">Espaços territoriais especialmente protegidos como instrumentos jurídicos de defesa dos povos da Amazônia: uma análise dos riscos socioambientais da expansão da soja geneticamente modificada</a></p>
+      <p>Dissertação de mestrado em Direitos Humanos na UFPA</p>
+      <p><a href="https://tarifazero.org/wp-content/uploads/2011/05/O-programa-Tarifa-Zero-no-transporte-coletivo-de-Curitiba.pdf" target="_blank" rel="noopener">O programa Tarifa Zero no transporte coletivo de Curitiba</a></p>
+      <p>Monografia de conclusão da graduação em Direito na UFPR</p>
+      <p>Efendy Emiliano Maldonado Bravo</p>
+      <p><a href="https://repositorio.ufsc.br/handle/123456789/214678" target="_blank" rel="noopener">Os (des)caminhos do constitucionalismo latino-americano: o caso equatoriano desde a plurinacionalidade e a libertação</a></p>
+      <p>Tese de conclusão do doutorado em Direito na UFSC</p>
+      <p>"Relatos do Inimigo no Campo: A Criminalização dos Movimentos Sociais no Rio Grande do Sul (2006-2010)"</p>
+      <p>Monografia de conclusão da graduação em Direito na UNISINOS</p>
+      <p>Flávia Carlet</p>
+      <p>Pesquisadora</p>
+      <p>Advocacia popular: práticas jurídicas e sociais no acesso ao direito e à justiça aos movimentos sociais de luta pela terra. Dissertação (Mestrado em Direito) - UnB, Brasília, 2010.</p>
+      <p>Ivan Furmann</p>
+      <p>Professor universitário e extensionista</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-ivan-furmann-ufpr-2003.html" target="_blank" rel="noopener">Da Utopia estudantil a Ação Política</a></p>
+      <p>Monografia de Conclusão de Curso - Direito UFPR 2003</p>
+      <p><a href="https://www.lapeduh.ufpr.br/arquivos/2010-02-28-10-19-21-2006furmann.pdf" target="_blank" rel="noopener">Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR</a></p>
+      <p>Dissertação de mestrado em Educação na UFPR</p>
+      <p>José Humberto Betinho de Góes Junior</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/08/dissertacao-humberto-betinho-goes-ufpb.html" target="_blank" rel="noopener">Da pedagogia do oprimido ao direito do oprimido</a></p>
+      <p>Dissertação de mestrado em Ciências Jurídicas na UFPB 2008</p>
+      <p>Lucas Nascimento Seara</p>
+      <p>"A promoção dos direitos humanos no campo da AIDS: estudo de caso da Assessoria jurídica no Grupo de Apoio à Prevenção à AIDS da Bahia (GAPA/BA)"</p>
+      <p>Dissertação de mestrado na Escola de Administração da UFBA 2011</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/luiz-otavio-ribas-e-assessoria.html" target="_blank" rel="noopener">Assessoria jurídica popular universitária e direitos humanos: o diálogo emancipatório entre estudantes e movimentos sociais (1988-2008)</a></p>
+      <p>Monografia de Especialização na Universidade Federal do Rio Grande do Sul</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/luiz-otavio-ribas-e-advocacia-popular.html" target="_blank" rel="noopener">Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e Rio de Janeiro (1960-2000)</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Santa Catarina</p>
+      <p><a href="https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf" target="_blank" rel="noopener">Direito insurgente na assessoria jurídica de movimentos populares no Brasil (1960-2010)</a></p>
+      <p>Tese de doutorado na Universidade do Estado do Rio de Janeiro</p>
+      <p>Marcelo Andrade de Azambuja</p>
+      <p>Advogado</p>
+      <p>Semeando justiça: a relação entre a advocacia popular e os movimentos sociais populares na busca do acesso à justiça. Monografia (Graduação em Direito) - UFRGS, Porto Alegre, 2014</p>
+      <p>Murilo Carvalho Sampaio Oliveira</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-murilo-sampaio-oliveira-ufba.html" target="_blank" rel="noopener">Serviço de Apoio Jurídico - SAJU: a práxis de um Direito crítico</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal da Bahia, 2003</p>
+      <p>Pedro Sérgio Vieira Martins</p>
+      <p>Advogado</p>
+      <p>Ricardo Prestes Pazello</p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/03/ricardo-prestes-pazello-e-o-poder-dual.html" target="_blank" rel="noopener">A produção da vida e o poder dual do pluralismo jurídico insurgente: ensaio para uma teoria de libertação dos movimentos populares no choro-canção latino-americano</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Santa Catarina</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/11/direito-insurgente-e-movimentos.html" target="_blank" rel="noopener">Direito insurgente e movimentos populares: o giro descolonial do poder e a crítica marxista ao direito</a></p>
+      <p>Tese de doutorado na Universidade Federal do Paraná</p>
+      <p>Shirley Silveira Andrade</p>
+      <p>Professora universitária e pesquisadora</p>
+      <p><a href="https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos" target="_blank" rel="noopener">Movimento popular como sujeito criador de direitos</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Pernambuco</p>
+      <p>Sueli Aparecida Bellato</p>
+      <p>Advogada</p>
+      <p>Justiça de transição: perdão ou desculpa em nome do Estado brasileiro?. Dissertação (Mestrado em Direitos Humanos) - UnB, Brasília, 2014.</p>
+      <p>Thiago de Azevedo Pinheiro Hoshino</p>
+      <p>Advogado</p>
+      <p>Òrìsá Láarè: por uma iconografia jurídica afro-brasileira. Monografia (Graduação em Direito) - UFPR, Curitiba, 2010.</p>
+      <p>VERBETES</p>
+      <p>Diego Augusto Diehl</p>
+      <p>Assessor universitário</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/diehl%28n1v2%29.pdf" target="_blank" rel="noopener">Universidade popular</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v1/parciais/ribas2.pdf" target="_blank" rel="noopener">Assessoria jurídica popular universitária</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/ribas%28n1v2%29.pdf" target="_blank" rel="noopener">Jacques Távora Alfonsin</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>ENTREVISTAS</p>
+      <p>Jesus Antonio de la Torre Rangel</p>
+      <p>"A analogia do direito pelo "inequivocamente outro": a concepção de "lo nuestro" pluralismo juridico índio mexicano"</p>
+      <p>Entrevistado por Luiz Otávio Ribas e Ricardo Prestes Pazello, publicado na Revista captura Críptica</p>
+      <p>Leandro Scalabrin</p>
+      <p><a href="https://www.scribd.com/doc/25432895/Entrevista-Leandro-Scalabrin-na-Caros-Amigos" target="_blank" rel="noopener">O RS vive um Estado de Exceção</a></p>
+      <p>Publicado na Revista Caros Amigos</p>
+      <p>ARTIGOS</p>
+      <p>Assis da Costa Oliveira</p>
+      <p>Assessor universitário e pesquisador</p>
+      <p><a href="https://www.scribd.com/doc/24501804/Rede-Nacional-das-Assessorias-Juridicas-Universitarias" target="_blank" rel="noopener">Rede Nacional das Assessorias Jurídicas Universitárias: história, teoria e desafios</a></p>
+      <p>Escrito com Sumaya Saady Mohry Pereira</p>
+      <p>Publicado na Revista Eletrônica da Faculdade de Direito da Universidade Federal de Goiás.</p>
+      <p>Eduardo Pazinato da Cunha e Iagê Zendron Miola</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/cunha+miola%28n1v2%29.pdf" target="_blank" rel="noopener">Interdisciplinariedade e assessoria jurídica popular universitária: limites e possibilidades para a construção de uma agenda de extensão popular em direito</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>Fabiana Cristina Severi e José Marcelino de Rezende Pinto</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/06/fabiana-cristina-severi-e-luta-pela.html" target="_blank" rel="noopener">Experiências na luta pela terra e por direitos entre assentados rurais</a></p>
+      <p>Fagner Garcia Vicente</p>
+      <p><a href="https://www.scribd.com/doc/27058617/Ninguem-havera-de-gritar-pelos-povos-da-Amazonia" target="_blank" rel="noopener">Ninguém haverá de gritar pelos povos da Amazônia</a></p>
+      <p>Jesus Antonio de la Torre Rangel</p>
+      <p>Filósofo do direito mexicano</p>
+      <p><a href="https://www.scribd.com/doc/24501701/TORRE-RANGEL-El-derecho-como-arma-de-liberacion-en-America-Latina" target="_blank" rel="noopener">El derecho como arma de liberación en América Latina: sociología jurídica y uso alternativo del derecho</a></p>
+      <p>Publicado pela Rede de Bibliotecas Virtuais de Ciências Sociais da América Latina e Caribe, da CLACSO.</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://www.sociologiajuridica.net.br/numero-9/202-assessoria-juridica-popular-universitaria-e-a-formacao-de-uma-cultura-politica-participativa-no-brasil" target="_blank" rel="noopener">Assessoria jurídica popular universitária e a formação de uma cultura política participativa no Brasil</a></p>
+      <p>Publicado na Revista Sociologia Jurídica</p>
+      <p>Miguel Lanzellotti Baldéz</p>
+      <p>Assessor jurídico popular e professor</p>
+      <p><a href="https://drive.google.com/file/d/1M9vpeIAHYCJmONzispGmMPpzzWnrd3pj/view?usp=sharing" target="_blank" rel="noopener">Sobre o papel do direito na sociedade capitalista: direito insurgente</a></p>
+      <p>Rosa Maria Zaia Borges Abrão</p>
+      <p>Professora e assessora universitária</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n2v1/parciais/20.pdf" target="_blank" rel="noopener">Limites e perspectivas da Extensão Universitária: um olhar a partir da Assessoria Jurídica Popular</a></p>
+      <p>Escrito em conjunto com Christine Rondon Teixeira, Giovani Tavares Bruscato, Joana Cavedon Ripoll e Luciana Araújo de Paula</p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>Thomaz Miguel Pressburger (1930-2008)</p>
+      <p>Assessor jurídico popular e professor</p>
+      <p><a href="https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing" target="_blank" rel="noopener">Direito, a alternativa</a></p>
+      <p><a href="https://www.scribd.com/doc/24501587/Derechos-humanos-administracion-de-justicia-y-otros-organismos-del-Estado" target="_blank" rel="noopener">Derechos humanos, administración de justicia y otros organismos del Estado</a></p>
+      <p>Publicado na Revista El Otro Derecho, do ILSA, Colômbia</p>
+      <p>Vladimir de Carvalho Luz</p>
+      <p><a href="https://www.scribd.com/doc/24501843/Servicios-Legales-Universitarios-en-Brasil" target="_blank" rel="noopener">Servicios legales universitarios en Brasil: breve cotejo de dos paradigmas</a></p>
+      <p>Publicado na Revista El Otro Derecho, do Instituto de Servicios Legales Alternativos, da Colômbia.</p>
+      <p>APRESENTAÇÕES</p>
+      <p>Diego Augusto Diehl e Ricardo Prestes Pazello</p>
+      <p><a href="https://www.slideshare.net/diegoadiehl/classe-trabalhadora-e-ajup" target="_blank" rel="noopener">Classe trabalhadora e AJUP</a></p>
+      <p>Apresentação realizada no Seminário SAJUP 10 Anos (14.10.11)</p>
+      <p>Anexo: Dados da classe trabalhadora no Brasil em 2002 (Márcio Pochmann)</p>       blocos do corpo na ordem do original, já tipados em HTML
+    https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html   URL canônica do post no blog
+    https://www.blogger.com/profile/16853403191296683788   perfil público do autor
+
+  Apoio (o gerador pode preencher; se não usar, troque à mão):
+    2012-07-01      a mesma data em 2009-08-16 (atributo datetime e meta)
+    20 de novembro de 2026       data da coleta legível: 17/11/2026
+    2026-11-20   a mesma data em 2026-11-17
+    2012           ano do post: 2009
+    Assessoria jurídica popular          tema principal: Assessoria jurídica popular
+    LIVROS Vladimir Luz "Assessoria Juridica Popular No Brasil" Rio de Janeiro: Lumen Juris, 2008.        uma frase para a meta description
+    Tradição, memória e direitos em uma comunidade dequebradeiras de coco babaçu: o caso do povoado Centrinho do Acrísio em Lago do Junco, Maranhão. Dissertação (Mestrado em Agriculturas Familiares e Desenvolvimento Sustentável) - UFPA, Belém, 2014.      trecho do bloco central para o blockquote
+
+  Regras que o gerador não pode quebrar:
+  1. <p>LIVROS</p>
+      <p>Vladimir Luz</p>
+      <p>"Assessoria Juridica Popular No Brasil"</p>
+      <p>Rio de Janeiro: Lumen Juris, 2008.</p>
+      <p>Paulo Abrão e Marcelo Torelly</p>
+      <p>"Assessoria jurídica popular: leituras fundamentais e novos debates"</p>
+      <p>Porto Alegre: Edipucrs, 2009.</p>
+      <p>Darci Frigo, Fernando Prioste e Antônio Sérgio Escrivão Filho</p>
+      <p><a href="https://terradedireitos.org.br/wp-content/uploads/2010/09/Miolo_PB_final.pdf" target="_blank" rel="noopener">Justiça e direitos humanos: experiências de assessoria jurídica popular</a></p>
+      <p>Curitiba: Terra de Direitos, 2010.</p>
+      <p>Carlos Derpic Salazar</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/01/salazar-el-derecho-del-poder-contra-el.html" target="_blank" rel="noopener">El derecho del poder contra el poder: alternativas para afrontar los vícios de la (in)justicia en Bolivia</a></p>
+      <p>Aguascalientes: Centro de Estudios Jurídicos y Sociales Mispat; San Luis Potosí: Universidad Autónoma de San Luis Potosí; San Cristóbal de Las Casas: Educación para las Ciencias en Chiapas, 2013.</p>
+      <p>Amélia Rocha, Ana Carneiro, Luciana Zaffalon, Priscylla Joca, Rodrigo de Medeiros e Talita Furtado</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/01/anadep-e-renap-lancam-livro-defensoria.html" target="_blank" rel="noopener">Defensoria Pública, Assessoria Jurídica Popular e Movimentos Sociais e Populares: novos caminhos traçados na concretização do direito de acesso à justiça</a></p>
+      <p>Fortaleza: Dedo de Moças, 2013.</p>
+      <p>RENAP - Rede Nacional de Advogadas e Advogados Populares</p>
+      <p>Várias autorias</p>
+      <p>Cadernos RENAP no 6 - março de 2005 - Advocacia Popular Caderno especial</p>
+      <p>NOVA ESCOLA JURIDICA BRASILEIRA - NAIR UnB</p>
+      <p>Alexandre Bernardino da Costa</p>
+      <p>O Direito achado na rua - Introdução crítica ao direito à saúde, v.4, CEAD</p>
+      <p>José Geraldo de Sousa Júnior</p>
+      <p>Direito como liberdade: o Direito Achado na Rua: experiências populares emancipatórias de criação do Direito. Tese (Doutorado em Direito) - UnB, Brasília, 2008.</p>
+      <p>Roberto Lyra Filho</p>
+      <p>O que é Direito. São Paulo: Brasiliense, 1982.</p>
+      <p>PESQUISAS</p>
+      <p>Amanda Alves de Souza</p>
+      <p>Assessora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/amanda-alves-de-souza-e-praxis.html" target="_blank" rel="noopener">Desafios para construção de uma nova práxis extensionista no Direito</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal do Rio de Janeiro</p>
+      <p>Ana Cláudia Diogo Tavares</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/02/ana-claudia-tavares-e-advocacia-popular.html" target="_blank" rel="noopener">Os nós da rede: concepções e atuação do(a) advogado (a) popular sobre os conflitos sócio-jurídicos no Estado do Rio de Janeiro</a></p>
+      <p>Dissertação de Mestrado em Sociologia e Direito na Universidade Federal Fluminense</p>
+      <p>Ana Lia Almeida</p>
+      <p>Um estalo nas faculdades de direito: perspectivas ideológicas da Assessoria Jurídica Universitária Popular</p>
+      <p>Tese de doutorado em Direitos Humanos na Universidade Federal da Paraíba</p>
+      <p>André Luiz Conrado Mendes</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/12/andre-mendes-e-advocacia-popular-utopia.html" target="_blank" rel="noopener">Advocacia popular: utopia e ação política</a></p>
+      <p>Dissertação de Mestrado em Direito na Pontifícia Universidade Católica do Rio de Janeiro.</p>
+      <p>Andressa Chiamulera</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-andressa-chiamulera-ufpr-2003.html" target="_blank" rel="noopener">O acesso à justiça na perspectiva da Ética da Libertação: a atuação das assessorias jurídicas universitárias</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal do Paraná, 2003</p>
+      <p>Carla Miranda</p>
+      <p>Assessora estudantil</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/01/carla-miranda-e-praxis-da-assessoria.html" target="_blank" rel="noopener">Na práxis da Assessoria Jurídica Universitária Popular: extensão e produção de conhecimento</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal da Paraíba</p>
+      <p>Christianny Diógenes Maia</p>
+      <p>Professora e assessora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2010/05/dissertacao-christianny-diogenes-maia.html" target="_blank" rel="noopener">Assessoria jurídica popular: teoria e prática emancipatória</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal do Ceará</p>
+      <p>Diana Melo Pereira</p>
+      <p>Advogada e professora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2015/09/diana-melo-pereira-as-lutas-do-mmc-pelo.html" target="_blank" rel="noopener">Sem porta-voz na rua, sem dono em casa: as lutas do movimento de mulheres camponesas (MMC Brasil) pelo direito a uma vida sem violência</a></p>
+      <p>Dissertação de Mestrado na Universidade de Brasília</p>
+      <p>Diego Augusto Diehl</p>
+      <p>Assessor universitário</p>
+      <p><a href="https://issuu.com/diegodiehl/docs/diego_augusto_diehl_-_disserta____o" target="_blank" rel="noopener">Espaços territoriais especialmente protegidos como instrumentos jurídicos de defesa dos povos da Amazônia: uma análise dos riscos socioambientais da expansão da soja geneticamente modificada</a></p>
+      <p>Dissertação de mestrado em Direitos Humanos na UFPA</p>
+      <p><a href="https://tarifazero.org/wp-content/uploads/2011/05/O-programa-Tarifa-Zero-no-transporte-coletivo-de-Curitiba.pdf" target="_blank" rel="noopener">O programa Tarifa Zero no transporte coletivo de Curitiba</a></p>
+      <p>Monografia de conclusão da graduação em Direito na UFPR</p>
+      <p>Efendy Emiliano Maldonado Bravo</p>
+      <p><a href="https://repositorio.ufsc.br/handle/123456789/214678" target="_blank" rel="noopener">Os (des)caminhos do constitucionalismo latino-americano: o caso equatoriano desde a plurinacionalidade e a libertação</a></p>
+      <p>Tese de conclusão do doutorado em Direito na UFSC</p>
+      <p>"Relatos do Inimigo no Campo: A Criminalização dos Movimentos Sociais no Rio Grande do Sul (2006-2010)"</p>
+      <p>Monografia de conclusão da graduação em Direito na UNISINOS</p>
+      <p>Flávia Carlet</p>
+      <p>Pesquisadora</p>
+      <p>Advocacia popular: práticas jurídicas e sociais no acesso ao direito e à justiça aos movimentos sociais de luta pela terra. Dissertação (Mestrado em Direito) - UnB, Brasília, 2010.</p>
+      <p>Ivan Furmann</p>
+      <p>Professor universitário e extensionista</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-ivan-furmann-ufpr-2003.html" target="_blank" rel="noopener">Da Utopia estudantil a Ação Política</a></p>
+      <p>Monografia de Conclusão de Curso - Direito UFPR 2003</p>
+      <p><a href="https://www.lapeduh.ufpr.br/arquivos/2010-02-28-10-19-21-2006furmann.pdf" target="_blank" rel="noopener">Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR</a></p>
+      <p>Dissertação de mestrado em Educação na UFPR</p>
+      <p>José Humberto Betinho de Góes Junior</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/08/dissertacao-humberto-betinho-goes-ufpb.html" target="_blank" rel="noopener">Da pedagogia do oprimido ao direito do oprimido</a></p>
+      <p>Dissertação de mestrado em Ciências Jurídicas na UFPB 2008</p>
+      <p>Lucas Nascimento Seara</p>
+      <p>"A promoção dos direitos humanos no campo da AIDS: estudo de caso da Assessoria jurídica no Grupo de Apoio à Prevenção à AIDS da Bahia (GAPA/BA)"</p>
+      <p>Dissertação de mestrado na Escola de Administração da UFBA 2011</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/luiz-otavio-ribas-e-assessoria.html" target="_blank" rel="noopener">Assessoria jurídica popular universitária e direitos humanos: o diálogo emancipatório entre estudantes e movimentos sociais (1988-2008)</a></p>
+      <p>Monografia de Especialização na Universidade Federal do Rio Grande do Sul</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/luiz-otavio-ribas-e-advocacia-popular.html" target="_blank" rel="noopener">Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e Rio de Janeiro (1960-2000)</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Santa Catarina</p>
+      <p><a href="https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf" target="_blank" rel="noopener">Direito insurgente na assessoria jurídica de movimentos populares no Brasil (1960-2010)</a></p>
+      <p>Tese de doutorado na Universidade do Estado do Rio de Janeiro</p>
+      <p>Marcelo Andrade de Azambuja</p>
+      <p>Advogado</p>
+      <p>Semeando justiça: a relação entre a advocacia popular e os movimentos sociais populares na busca do acesso à justiça. Monografia (Graduação em Direito) - UFRGS, Porto Alegre, 2014</p>
+      <p>Murilo Carvalho Sampaio Oliveira</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-murilo-sampaio-oliveira-ufba.html" target="_blank" rel="noopener">Serviço de Apoio Jurídico - SAJU: a práxis de um Direito crítico</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal da Bahia, 2003</p>
+      <p>Pedro Sérgio Vieira Martins</p>
+      <p>Advogado</p>
+      <p>Ricardo Prestes Pazello</p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/03/ricardo-prestes-pazello-e-o-poder-dual.html" target="_blank" rel="noopener">A produção da vida e o poder dual do pluralismo jurídico insurgente: ensaio para uma teoria de libertação dos movimentos populares no choro-canção latino-americano</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Santa Catarina</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/11/direito-insurgente-e-movimentos.html" target="_blank" rel="noopener">Direito insurgente e movimentos populares: o giro descolonial do poder e a crítica marxista ao direito</a></p>
+      <p>Tese de doutorado na Universidade Federal do Paraná</p>
+      <p>Shirley Silveira Andrade</p>
+      <p>Professora universitária e pesquisadora</p>
+      <p><a href="https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos" target="_blank" rel="noopener">Movimento popular como sujeito criador de direitos</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Pernambuco</p>
+      <p>Sueli Aparecida Bellato</p>
+      <p>Advogada</p>
+      <p>Justiça de transição: perdão ou desculpa em nome do Estado brasileiro?. Dissertação (Mestrado em Direitos Humanos) - UnB, Brasília, 2014.</p>
+      <p>Thiago de Azevedo Pinheiro Hoshino</p>
+      <p>Advogado</p>
+      <p>Òrìsá Láarè: por uma iconografia jurídica afro-brasileira. Monografia (Graduação em Direito) - UFPR, Curitiba, 2010.</p>
+      <p>VERBETES</p>
+      <p>Diego Augusto Diehl</p>
+      <p>Assessor universitário</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/diehl%28n1v2%29.pdf" target="_blank" rel="noopener">Universidade popular</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v1/parciais/ribas2.pdf" target="_blank" rel="noopener">Assessoria jurídica popular universitária</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/ribas%28n1v2%29.pdf" target="_blank" rel="noopener">Jacques Távora Alfonsin</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>ENTREVISTAS</p>
+      <p>Jesus Antonio de la Torre Rangel</p>
+      <p>"A analogia do direito pelo "inequivocamente outro": a concepção de "lo nuestro" pluralismo juridico índio mexicano"</p>
+      <p>Entrevistado por Luiz Otávio Ribas e Ricardo Prestes Pazello, publicado na Revista captura Críptica</p>
+      <p>Leandro Scalabrin</p>
+      <p><a href="https://www.scribd.com/doc/25432895/Entrevista-Leandro-Scalabrin-na-Caros-Amigos" target="_blank" rel="noopener">O RS vive um Estado de Exceção</a></p>
+      <p>Publicado na Revista Caros Amigos</p>
+      <p>ARTIGOS</p>
+      <p>Assis da Costa Oliveira</p>
+      <p>Assessor universitário e pesquisador</p>
+      <p><a href="https://www.scribd.com/doc/24501804/Rede-Nacional-das-Assessorias-Juridicas-Universitarias" target="_blank" rel="noopener">Rede Nacional das Assessorias Jurídicas Universitárias: história, teoria e desafios</a></p>
+      <p>Escrito com Sumaya Saady Mohry Pereira</p>
+      <p>Publicado na Revista Eletrônica da Faculdade de Direito da Universidade Federal de Goiás.</p>
+      <p>Eduardo Pazinato da Cunha e Iagê Zendron Miola</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/cunha+miola%28n1v2%29.pdf" target="_blank" rel="noopener">Interdisciplinariedade e assessoria jurídica popular universitária: limites e possibilidades para a construção de uma agenda de extensão popular em direito</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>Fabiana Cristina Severi e José Marcelino de Rezende Pinto</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/06/fabiana-cristina-severi-e-luta-pela.html" target="_blank" rel="noopener">Experiências na luta pela terra e por direitos entre assentados rurais</a></p>
+      <p>Fagner Garcia Vicente</p>
+      <p><a href="https://www.scribd.com/doc/27058617/Ninguem-havera-de-gritar-pelos-povos-da-Amazonia" target="_blank" rel="noopener">Ninguém haverá de gritar pelos povos da Amazônia</a></p>
+      <p>Jesus Antonio de la Torre Rangel</p>
+      <p>Filósofo do direito mexicano</p>
+      <p><a href="https://www.scribd.com/doc/24501701/TORRE-RANGEL-El-derecho-como-arma-de-liberacion-en-America-Latina" target="_blank" rel="noopener">El derecho como arma de liberación en América Latina: sociología jurídica y uso alternativo del derecho</a></p>
+      <p>Publicado pela Rede de Bibliotecas Virtuais de Ciências Sociais da América Latina e Caribe, da CLACSO.</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://www.sociologiajuridica.net.br/numero-9/202-assessoria-juridica-popular-universitaria-e-a-formacao-de-uma-cultura-politica-participativa-no-brasil" target="_blank" rel="noopener">Assessoria jurídica popular universitária e a formação de uma cultura política participativa no Brasil</a></p>
+      <p>Publicado na Revista Sociologia Jurídica</p>
+      <p>Miguel Lanzellotti Baldéz</p>
+      <p>Assessor jurídico popular e professor</p>
+      <p><a href="https://drive.google.com/file/d/1M9vpeIAHYCJmONzispGmMPpzzWnrd3pj/view?usp=sharing" target="_blank" rel="noopener">Sobre o papel do direito na sociedade capitalista: direito insurgente</a></p>
+      <p>Rosa Maria Zaia Borges Abrão</p>
+      <p>Professora e assessora universitária</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n2v1/parciais/20.pdf" target="_blank" rel="noopener">Limites e perspectivas da Extensão Universitária: um olhar a partir da Assessoria Jurídica Popular</a></p>
+      <p>Escrito em conjunto com Christine Rondon Teixeira, Giovani Tavares Bruscato, Joana Cavedon Ripoll e Luciana Araújo de Paula</p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>Thomaz Miguel Pressburger (1930-2008)</p>
+      <p>Assessor jurídico popular e professor</p>
+      <p><a href="https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing" target="_blank" rel="noopener">Direito, a alternativa</a></p>
+      <p><a href="https://www.scribd.com/doc/24501587/Derechos-humanos-administracion-de-justicia-y-otros-organismos-del-Estado" target="_blank" rel="noopener">Derechos humanos, administración de justicia y otros organismos del Estado</a></p>
+      <p>Publicado na Revista El Otro Derecho, do ILSA, Colômbia</p>
+      <p>Vladimir de Carvalho Luz</p>
+      <p><a href="https://www.scribd.com/doc/24501843/Servicios-Legales-Universitarios-en-Brasil" target="_blank" rel="noopener">Servicios legales universitarios en Brasil: breve cotejo de dos paradigmas</a></p>
+      <p>Publicado na Revista El Otro Derecho, do Instituto de Servicios Legales Alternativos, da Colômbia.</p>
+      <p>APRESENTAÇÕES</p>
+      <p>Diego Augusto Diehl e Ricardo Prestes Pazello</p>
+      <p><a href="https://www.slideshare.net/diegoadiehl/classe-trabalhadora-e-ajup" target="_blank" rel="noopener">Classe trabalhadora e AJUP</a></p>
+      <p>Apresentação realizada no Seminário SAJUP 10 Anos (14.10.11)</p>
+      <p>Anexo: Dados da classe trabalhadora no Brasil em 2002 (Márcio Pochmann)</p> entra como blocos tipados (<p>, <figure>, <h2>), nunca HTML
+     cru do Blogger. Gadgets "Mapeamento", "Colunistas", "Postado por" e
+     "Tecnologia do Blogger" ficam de fora.
+  2. O bloco de citação é obrigatório e vem antes do corpo.
+  3. Os dois botões aparecem no topo e no rodapé.
+  4. Imagem sem licença declarada entra como link, nunca como arquivo.
+  5. "Capturado em" só existe com data real da coleta.
+  6. Regime de citação: canonical aponta para o original. Só troque para a
+     página nova quando houver autorização escrita.
+  ══════════════════════════════════════════════════════════════════════ -->
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Biblioteca digital — Acervo RENAP</title>
+<meta name="description" content="LIVROS Vladimir Luz "Assessoria Juridica Popular No Brasil" Rio de Janeiro: Lumen Juris, 2008." />
+
+<!-- Regime de citação: canonical no original enquanto a licença for
+     `citacao`. Com autorização escrita, passa a apontar para esta página. -->
+<link rel="canonical" href="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Biblioteca digital" />
+<meta property="og:description" content="LIVROS Vladimir Luz "Assessoria Juridica Popular No Brasil" Rio de Janeiro: Lumen Juris, 2008." />
+<meta property="og:url" content="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html" />
+<meta property="article:published_time" content="2012-07-01" />
+<meta property="article:author" content="Luiz Otávio Ribas" />
+
+<link rel="icon" href="data:," />
+
+<!-- Caminhos relativos a partir de acervo/. A ordem importa: base (temas.css),
+     marca (renap.css) e por último as regras desta página (acervo.css). -->
+<link rel="stylesheet" href="fontes/fontshare.css" />
+<link rel="stylesheet" href="temas/temas.css" />
+<link rel="stylesheet" href="temas/renap.css" />
+<link rel="stylesheet" href="acervo.css" />
+  <link rel="stylesheet" href="reveal.css" />
+
+<!-- Citação por máquina: Article + isBasedOn + autor + data. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Biblioteca digital",
+  "datePublished": "2012-07-01",
+  "inLanguage": "pt-BR",
+  "author": {
+    "@type": "Person",
+    "name": "Luiz Otávio Ribas",
+    "url": "https://www.blogger.com/profile/16853403191296683788"
+  },
+  "isBasedOn": "https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html",
+  "publisher": {
+    "@type": "Organization",
+    "name": "RENAP — Rede Nacional de Advogadas e Advogados Populares",
+    "url": "https://renap.org.br/"
+  }
+}
+</script>
+</head>
+<!-- Foto de fundo é opcional. Para ligar, use:
+       <body class="com-foto" style="--fundo:url('../assets/fundo/foto-27.jpg')">
+     O brilho (.38) e a opacidade (.42) já vêm do acervo.css, e o véu do
+     tema (40/28/18; claro 92/84/74) garante a leitura. No alto contraste a
+     foto sai de cena. Só use foto com licença e crédito declarados. -->
+<body>
+
+<a class="pular" href="#conteudo">Pular para o texto</a>
+
+<!-- Barra do topo: marca e seletor de tema. Nove temas no <select>, sem
+     rádio. O script do fim da página só grava data-theme no <html>. -->
+<header class="topo">
+  <div class="topo__interno">
+    <a class="topo__marca" href="./">
+      <span class="ponto" aria-hidden="true"></span>
+      RENAP <span>· Acervo</span>
+    </a>
+    <div class="topo__tema">
+      <label for="tema">Tema</label>
+      <select id="tema" name="tema">
+        <option value="light" selected>Claro</option>
+        <option value="dark">Escuro</option>
+        <option value="brasil">Brasil</option>
+        <option value="high-contrast">Alto contraste</option>
+        <option value="pequi">Pequi</option>
+        <option value="cerrado">Cerrado</option>
+        <option value="mata-atlantica">Mata Atlântica</option>
+        <option value="caatinga">Caatinga</option>
+        <option value="pantanal">Pantanal</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo" data-revelar-grupo>
+  <article data-revelar-grupo class="pagina" aria-labelledby="titulo">
+
+    <!-- 1. OLHO: tema + ano, em texto (nunca só cor).
+         2. TÍTULO: o do original, sem reescrever.
+         3. FICHA DE ORIGEM: autor, data, blog, regime e captura.
+         4. CRÉDITO DE PARCERIA: visível, com link para o IPDMS. -->
+    <header>
+      <p class="olho">
+        <span class="olho__ponto" aria-hidden="true"></span>
+        Assessoria jurídica popular <span aria-hidden="true">·</span> 2012
+      </p>
+
+      <h1 id="titulo">Biblioteca digital</h1>
+
+      <dl class="ficha">
+        <div class="ficha__linha">
+          <dt>Autor</dt>
+          <dd>Luiz Otávio Ribas</dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Publicado</dt>
+          <dd><time datetime="2012-07-01">1 de julho de 2012</time></dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Blog</dt>
+          <dd>
+            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>
+          </dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Regime</dt>
+          <dd>Citação direta, com crédito e link para o original</dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Capturado em</dt>
+          <dd><time datetime="2026-11-20">20 de novembro de 2026</time></dd>
+        </div>
+      </dl>
+
+      <p class="parceria">
+        Em parceria com o
+        <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS<span class="sr-only"> (abre em outra aba)</span></a>
+        — GT de Assessoria Jurídica Popular
+      </p>
+    </header>
+
+    <!-- 5. BLOCO DE CITAÇÃO (obrigatório, antes do corpo).
+         - blockquote com cite na URL canônica;
+         - autor em negrito, antes do veículo;
+         - data legível + datetime ISO;
+         - "Capturado em" com a data real da coleta.
+
+         Tradição, memória e direitos em uma comunidade dequebradeiras de coco babaçu: o caso do povoado Centrinho do Acrísio em Lago do Junco, Maranhão. Dissertação (Mestrado em Agriculturas Familiares e Desenvolvimento Sustentável) - UFPA, Belém, 2014. é o bloco central do original. No regime de citação,
+         use até 30% do texto; com autorização, pode ser o bloco inteiro.
+         O mesmo trecho não se repete no corpo. -->
+    <figure class="cartao citacao">
+      <blockquote cite="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html">
+        <p>Tradição, memória e direitos em uma comunidade dequebradeiras de coco babaçu: o caso do povoado Centrinho do Acrísio em Lago do Junco, Maranhão. Dissertação (Mestrado em Agriculturas Familiares e Desenvolvimento Sustentável) - UFPA, Belém, 2014.</p>
+      </blockquote>
+      <figcaption>
+        <b>Luiz Otávio Ribas</b>, em “Biblioteca digital”,
+        <time datetime="2012-07-01">1 de julho de 2012</time>,
+        <a href="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>.
+        Capturado em <time datetime="2026-11-20">20 de novembro de 2026</time>.
+      </figcaption>
+    </figure>
+
+    <!-- 6. DOIS BOTÕES, no topo. Alvo de 44 px; o aviso "abre em outra aba"
+         é texto, não ícone. O segundo botão usa o perfil do autor. -->
+    <p class="acoes-fonte">
+      <a class="botao" href="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html" target="_blank" rel="noopener">
+        Ler no blog original
+        <span class="botao__nota">abre em outra aba</span>
+      </a>
+      <a class="botao secundario" href="https://www.blogger.com/profile/16853403191296683788" target="_blank" rel="noopener">
+        Sobre Luiz Otávio Ribas
+        <span class="botao__nota">abre em outra aba</span>
+      </a>
+    </p>
+
+    <!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
+         O ETL entrega HTML já tipado. Exemplo do que <p>LIVROS</p>
+      <p>Vladimir Luz</p>
+      <p>"Assessoria Juridica Popular No Brasil"</p>
+      <p>Rio de Janeiro: Lumen Juris, 2008.</p>
+      <p>Paulo Abrão e Marcelo Torelly</p>
+      <p>"Assessoria jurídica popular: leituras fundamentais e novos debates"</p>
+      <p>Porto Alegre: Edipucrs, 2009.</p>
+      <p>Darci Frigo, Fernando Prioste e Antônio Sérgio Escrivão Filho</p>
+      <p><a href="https://terradedireitos.org.br/wp-content/uploads/2010/09/Miolo_PB_final.pdf" target="_blank" rel="noopener">Justiça e direitos humanos: experiências de assessoria jurídica popular</a></p>
+      <p>Curitiba: Terra de Direitos, 2010.</p>
+      <p>Carlos Derpic Salazar</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/01/salazar-el-derecho-del-poder-contra-el.html" target="_blank" rel="noopener">El derecho del poder contra el poder: alternativas para afrontar los vícios de la (in)justicia en Bolivia</a></p>
+      <p>Aguascalientes: Centro de Estudios Jurídicos y Sociales Mispat; San Luis Potosí: Universidad Autónoma de San Luis Potosí; San Cristóbal de Las Casas: Educación para las Ciencias en Chiapas, 2013.</p>
+      <p>Amélia Rocha, Ana Carneiro, Luciana Zaffalon, Priscylla Joca, Rodrigo de Medeiros e Talita Furtado</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/01/anadep-e-renap-lancam-livro-defensoria.html" target="_blank" rel="noopener">Defensoria Pública, Assessoria Jurídica Popular e Movimentos Sociais e Populares: novos caminhos traçados na concretização do direito de acesso à justiça</a></p>
+      <p>Fortaleza: Dedo de Moças, 2013.</p>
+      <p>RENAP - Rede Nacional de Advogadas e Advogados Populares</p>
+      <p>Várias autorias</p>
+      <p>Cadernos RENAP no 6 - março de 2005 - Advocacia Popular Caderno especial</p>
+      <p>NOVA ESCOLA JURIDICA BRASILEIRA - NAIR UnB</p>
+      <p>Alexandre Bernardino da Costa</p>
+      <p>O Direito achado na rua - Introdução crítica ao direito à saúde, v.4, CEAD</p>
+      <p>José Geraldo de Sousa Júnior</p>
+      <p>Direito como liberdade: o Direito Achado na Rua: experiências populares emancipatórias de criação do Direito. Tese (Doutorado em Direito) - UnB, Brasília, 2008.</p>
+      <p>Roberto Lyra Filho</p>
+      <p>O que é Direito. São Paulo: Brasiliense, 1982.</p>
+      <p>PESQUISAS</p>
+      <p>Amanda Alves de Souza</p>
+      <p>Assessora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/amanda-alves-de-souza-e-praxis.html" target="_blank" rel="noopener">Desafios para construção de uma nova práxis extensionista no Direito</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal do Rio de Janeiro</p>
+      <p>Ana Cláudia Diogo Tavares</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/02/ana-claudia-tavares-e-advocacia-popular.html" target="_blank" rel="noopener">Os nós da rede: concepções e atuação do(a) advogado (a) popular sobre os conflitos sócio-jurídicos no Estado do Rio de Janeiro</a></p>
+      <p>Dissertação de Mestrado em Sociologia e Direito na Universidade Federal Fluminense</p>
+      <p>Ana Lia Almeida</p>
+      <p>Um estalo nas faculdades de direito: perspectivas ideológicas da Assessoria Jurídica Universitária Popular</p>
+      <p>Tese de doutorado em Direitos Humanos na Universidade Federal da Paraíba</p>
+      <p>André Luiz Conrado Mendes</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/12/andre-mendes-e-advocacia-popular-utopia.html" target="_blank" rel="noopener">Advocacia popular: utopia e ação política</a></p>
+      <p>Dissertação de Mestrado em Direito na Pontifícia Universidade Católica do Rio de Janeiro.</p>
+      <p>Andressa Chiamulera</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-andressa-chiamulera-ufpr-2003.html" target="_blank" rel="noopener">O acesso à justiça na perspectiva da Ética da Libertação: a atuação das assessorias jurídicas universitárias</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal do Paraná, 2003</p>
+      <p>Carla Miranda</p>
+      <p>Assessora estudantil</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/01/carla-miranda-e-praxis-da-assessoria.html" target="_blank" rel="noopener">Na práxis da Assessoria Jurídica Universitária Popular: extensão e produção de conhecimento</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal da Paraíba</p>
+      <p>Christianny Diógenes Maia</p>
+      <p>Professora e assessora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2010/05/dissertacao-christianny-diogenes-maia.html" target="_blank" rel="noopener">Assessoria jurídica popular: teoria e prática emancipatória</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal do Ceará</p>
+      <p>Diana Melo Pereira</p>
+      <p>Advogada e professora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2015/09/diana-melo-pereira-as-lutas-do-mmc-pelo.html" target="_blank" rel="noopener">Sem porta-voz na rua, sem dono em casa: as lutas do movimento de mulheres camponesas (MMC Brasil) pelo direito a uma vida sem violência</a></p>
+      <p>Dissertação de Mestrado na Universidade de Brasília</p>
+      <p>Diego Augusto Diehl</p>
+      <p>Assessor universitário</p>
+      <p><a href="https://issuu.com/diegodiehl/docs/diego_augusto_diehl_-_disserta____o" target="_blank" rel="noopener">Espaços territoriais especialmente protegidos como instrumentos jurídicos de defesa dos povos da Amazônia: uma análise dos riscos socioambientais da expansão da soja geneticamente modificada</a></p>
+      <p>Dissertação de mestrado em Direitos Humanos na UFPA</p>
+      <p><a href="https://tarifazero.org/wp-content/uploads/2011/05/O-programa-Tarifa-Zero-no-transporte-coletivo-de-Curitiba.pdf" target="_blank" rel="noopener">O programa Tarifa Zero no transporte coletivo de Curitiba</a></p>
+      <p>Monografia de conclusão da graduação em Direito na UFPR</p>
+      <p>Efendy Emiliano Maldonado Bravo</p>
+      <p><a href="https://repositorio.ufsc.br/handle/123456789/214678" target="_blank" rel="noopener">Os (des)caminhos do constitucionalismo latino-americano: o caso equatoriano desde a plurinacionalidade e a libertação</a></p>
+      <p>Tese de conclusão do doutorado em Direito na UFSC</p>
+      <p>"Relatos do Inimigo no Campo: A Criminalização dos Movimentos Sociais no Rio Grande do Sul (2006-2010)"</p>
+      <p>Monografia de conclusão da graduação em Direito na UNISINOS</p>
+      <p>Flávia Carlet</p>
+      <p>Pesquisadora</p>
+      <p>Advocacia popular: práticas jurídicas e sociais no acesso ao direito e à justiça aos movimentos sociais de luta pela terra. Dissertação (Mestrado em Direito) - UnB, Brasília, 2010.</p>
+      <p>Ivan Furmann</p>
+      <p>Professor universitário e extensionista</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-ivan-furmann-ufpr-2003.html" target="_blank" rel="noopener">Da Utopia estudantil a Ação Política</a></p>
+      <p>Monografia de Conclusão de Curso - Direito UFPR 2003</p>
+      <p><a href="https://www.lapeduh.ufpr.br/arquivos/2010-02-28-10-19-21-2006furmann.pdf" target="_blank" rel="noopener">Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR</a></p>
+      <p>Dissertação de mestrado em Educação na UFPR</p>
+      <p>José Humberto Betinho de Góes Junior</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/08/dissertacao-humberto-betinho-goes-ufpb.html" target="_blank" rel="noopener">Da pedagogia do oprimido ao direito do oprimido</a></p>
+      <p>Dissertação de mestrado em Ciências Jurídicas na UFPB 2008</p>
+      <p>Lucas Nascimento Seara</p>
+      <p>"A promoção dos direitos humanos no campo da AIDS: estudo de caso da Assessoria jurídica no Grupo de Apoio à Prevenção à AIDS da Bahia (GAPA/BA)"</p>
+      <p>Dissertação de mestrado na Escola de Administração da UFBA 2011</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/luiz-otavio-ribas-e-assessoria.html" target="_blank" rel="noopener">Assessoria jurídica popular universitária e direitos humanos: o diálogo emancipatório entre estudantes e movimentos sociais (1988-2008)</a></p>
+      <p>Monografia de Especialização na Universidade Federal do Rio Grande do Sul</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/luiz-otavio-ribas-e-advocacia-popular.html" target="_blank" rel="noopener">Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e Rio de Janeiro (1960-2000)</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Santa Catarina</p>
+      <p><a href="https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf" target="_blank" rel="noopener">Direito insurgente na assessoria jurídica de movimentos populares no Brasil (1960-2010)</a></p>
+      <p>Tese de doutorado na Universidade do Estado do Rio de Janeiro</p>
+      <p>Marcelo Andrade de Azambuja</p>
+      <p>Advogado</p>
+      <p>Semeando justiça: a relação entre a advocacia popular e os movimentos sociais populares na busca do acesso à justiça. Monografia (Graduação em Direito) - UFRGS, Porto Alegre, 2014</p>
+      <p>Murilo Carvalho Sampaio Oliveira</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-murilo-sampaio-oliveira-ufba.html" target="_blank" rel="noopener">Serviço de Apoio Jurídico - SAJU: a práxis de um Direito crítico</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal da Bahia, 2003</p>
+      <p>Pedro Sérgio Vieira Martins</p>
+      <p>Advogado</p>
+      <p>Ricardo Prestes Pazello</p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/03/ricardo-prestes-pazello-e-o-poder-dual.html" target="_blank" rel="noopener">A produção da vida e o poder dual do pluralismo jurídico insurgente: ensaio para uma teoria de libertação dos movimentos populares no choro-canção latino-americano</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Santa Catarina</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/11/direito-insurgente-e-movimentos.html" target="_blank" rel="noopener">Direito insurgente e movimentos populares: o giro descolonial do poder e a crítica marxista ao direito</a></p>
+      <p>Tese de doutorado na Universidade Federal do Paraná</p>
+      <p>Shirley Silveira Andrade</p>
+      <p>Professora universitária e pesquisadora</p>
+      <p><a href="https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos" target="_blank" rel="noopener">Movimento popular como sujeito criador de direitos</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Pernambuco</p>
+      <p>Sueli Aparecida Bellato</p>
+      <p>Advogada</p>
+      <p>Justiça de transição: perdão ou desculpa em nome do Estado brasileiro?. Dissertação (Mestrado em Direitos Humanos) - UnB, Brasília, 2014.</p>
+      <p>Thiago de Azevedo Pinheiro Hoshino</p>
+      <p>Advogado</p>
+      <p>Òrìsá Láarè: por uma iconografia jurídica afro-brasileira. Monografia (Graduação em Direito) - UFPR, Curitiba, 2010.</p>
+      <p>VERBETES</p>
+      <p>Diego Augusto Diehl</p>
+      <p>Assessor universitário</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/diehl%28n1v2%29.pdf" target="_blank" rel="noopener">Universidade popular</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v1/parciais/ribas2.pdf" target="_blank" rel="noopener">Assessoria jurídica popular universitária</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/ribas%28n1v2%29.pdf" target="_blank" rel="noopener">Jacques Távora Alfonsin</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>ENTREVISTAS</p>
+      <p>Jesus Antonio de la Torre Rangel</p>
+      <p>"A analogia do direito pelo "inequivocamente outro": a concepção de "lo nuestro" pluralismo juridico índio mexicano"</p>
+      <p>Entrevistado por Luiz Otávio Ribas e Ricardo Prestes Pazello, publicado na Revista captura Críptica</p>
+      <p>Leandro Scalabrin</p>
+      <p><a href="https://www.scribd.com/doc/25432895/Entrevista-Leandro-Scalabrin-na-Caros-Amigos" target="_blank" rel="noopener">O RS vive um Estado de Exceção</a></p>
+      <p>Publicado na Revista Caros Amigos</p>
+      <p>ARTIGOS</p>
+      <p>Assis da Costa Oliveira</p>
+      <p>Assessor universitário e pesquisador</p>
+      <p><a href="https://www.scribd.com/doc/24501804/Rede-Nacional-das-Assessorias-Juridicas-Universitarias" target="_blank" rel="noopener">Rede Nacional das Assessorias Jurídicas Universitárias: história, teoria e desafios</a></p>
+      <p>Escrito com Sumaya Saady Mohry Pereira</p>
+      <p>Publicado na Revista Eletrônica da Faculdade de Direito da Universidade Federal de Goiás.</p>
+      <p>Eduardo Pazinato da Cunha e Iagê Zendron Miola</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/cunha+miola%28n1v2%29.pdf" target="_blank" rel="noopener">Interdisciplinariedade e assessoria jurídica popular universitária: limites e possibilidades para a construção de uma agenda de extensão popular em direito</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>Fabiana Cristina Severi e José Marcelino de Rezende Pinto</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/06/fabiana-cristina-severi-e-luta-pela.html" target="_blank" rel="noopener">Experiências na luta pela terra e por direitos entre assentados rurais</a></p>
+      <p>Fagner Garcia Vicente</p>
+      <p><a href="https://www.scribd.com/doc/27058617/Ninguem-havera-de-gritar-pelos-povos-da-Amazonia" target="_blank" rel="noopener">Ninguém haverá de gritar pelos povos da Amazônia</a></p>
+      <p>Jesus Antonio de la Torre Rangel</p>
+      <p>Filósofo do direito mexicano</p>
+      <p><a href="https://www.scribd.com/doc/24501701/TORRE-RANGEL-El-derecho-como-arma-de-liberacion-en-America-Latina" target="_blank" rel="noopener">El derecho como arma de liberación en América Latina: sociología jurídica y uso alternativo del derecho</a></p>
+      <p>Publicado pela Rede de Bibliotecas Virtuais de Ciências Sociais da América Latina e Caribe, da CLACSO.</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://www.sociologiajuridica.net.br/numero-9/202-assessoria-juridica-popular-universitaria-e-a-formacao-de-uma-cultura-politica-participativa-no-brasil" target="_blank" rel="noopener">Assessoria jurídica popular universitária e a formação de uma cultura política participativa no Brasil</a></p>
+      <p>Publicado na Revista Sociologia Jurídica</p>
+      <p>Miguel Lanzellotti Baldéz</p>
+      <p>Assessor jurídico popular e professor</p>
+      <p><a href="https://drive.google.com/file/d/1M9vpeIAHYCJmONzispGmMPpzzWnrd3pj/view?usp=sharing" target="_blank" rel="noopener">Sobre o papel do direito na sociedade capitalista: direito insurgente</a></p>
+      <p>Rosa Maria Zaia Borges Abrão</p>
+      <p>Professora e assessora universitária</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n2v1/parciais/20.pdf" target="_blank" rel="noopener">Limites e perspectivas da Extensão Universitária: um olhar a partir da Assessoria Jurídica Popular</a></p>
+      <p>Escrito em conjunto com Christine Rondon Teixeira, Giovani Tavares Bruscato, Joana Cavedon Ripoll e Luciana Araújo de Paula</p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>Thomaz Miguel Pressburger (1930-2008)</p>
+      <p>Assessor jurídico popular e professor</p>
+      <p><a href="https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing" target="_blank" rel="noopener">Direito, a alternativa</a></p>
+      <p><a href="https://www.scribd.com/doc/24501587/Derechos-humanos-administracion-de-justicia-y-otros-organismos-del-Estado" target="_blank" rel="noopener">Derechos humanos, administración de justicia y otros organismos del Estado</a></p>
+      <p>Publicado na Revista El Otro Derecho, do ILSA, Colômbia</p>
+      <p>Vladimir de Carvalho Luz</p>
+      <p><a href="https://www.scribd.com/doc/24501843/Servicios-Legales-Universitarios-en-Brasil" target="_blank" rel="noopener">Servicios legales universitarios en Brasil: breve cotejo de dos paradigmas</a></p>
+      <p>Publicado na Revista El Otro Derecho, do Instituto de Servicios Legales Alternativos, da Colômbia.</p>
+      <p>APRESENTAÇÕES</p>
+      <p>Diego Augusto Diehl e Ricardo Prestes Pazello</p>
+      <p><a href="https://www.slideshare.net/diegoadiehl/classe-trabalhadora-e-ajup" target="_blank" rel="noopener">Classe trabalhadora e AJUP</a></p>
+      <p>Apresentação realizada no Seminário SAJUP 10 Anos (14.10.11)</p>
+      <p>Anexo: Dados da classe trabalhadora no Brasil em 2002 (Márcio Pochmann)</p> pode conter:
+
+           <p>Parágrafo do original.</p>
+           <figure class="cartaz">
+             <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html" target="_blank" rel="noopener">Ver o cartaz no blog original<span class="sr-only"> (abre em outra aba)</span></a>
+             <figcaption>Legenda do original, com crédito ou aviso de licença.</figcaption>
+           </figure>
+           <h2>Pergunta final do original</h2>
+
+         Imagem sem licença: só link. Nunca copie o arquivo. -->
+    <div data-revelar-grupo class="cartao corpo">
+      <p>LIVROS</p>
+      <p>Vladimir Luz</p>
+      <p>"Assessoria Juridica Popular No Brasil"</p>
+      <p>Rio de Janeiro: Lumen Juris, 2008.</p>
+      <p>Paulo Abrão e Marcelo Torelly</p>
+      <p>"Assessoria jurídica popular: leituras fundamentais e novos debates"</p>
+      <p>Porto Alegre: Edipucrs, 2009.</p>
+      <p>Darci Frigo, Fernando Prioste e Antônio Sérgio Escrivão Filho</p>
+      <p><a href="https://terradedireitos.org.br/wp-content/uploads/2010/09/Miolo_PB_final.pdf" target="_blank" rel="noopener">Justiça e direitos humanos: experiências de assessoria jurídica popular</a></p>
+      <p>Curitiba: Terra de Direitos, 2010.</p>
+      <p>Carlos Derpic Salazar</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/01/salazar-el-derecho-del-poder-contra-el.html" target="_blank" rel="noopener">El derecho del poder contra el poder: alternativas para afrontar los vícios de la (in)justicia en Bolivia</a></p>
+      <p>Aguascalientes: Centro de Estudios Jurídicos y Sociales Mispat; San Luis Potosí: Universidad Autónoma de San Luis Potosí; San Cristóbal de Las Casas: Educación para las Ciencias en Chiapas, 2013.</p>
+      <p>Amélia Rocha, Ana Carneiro, Luciana Zaffalon, Priscylla Joca, Rodrigo de Medeiros e Talita Furtado</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/01/anadep-e-renap-lancam-livro-defensoria.html" target="_blank" rel="noopener">Defensoria Pública, Assessoria Jurídica Popular e Movimentos Sociais e Populares: novos caminhos traçados na concretização do direito de acesso à justiça</a></p>
+      <p>Fortaleza: Dedo de Moças, 2013.</p>
+      <p>RENAP - Rede Nacional de Advogadas e Advogados Populares</p>
+      <p>Várias autorias</p>
+      <p>Cadernos RENAP no 6 - março de 2005 - Advocacia Popular Caderno especial</p>
+      <p>NOVA ESCOLA JURIDICA BRASILEIRA - NAIR UnB</p>
+      <p>Alexandre Bernardino da Costa</p>
+      <p>O Direito achado na rua - Introdução crítica ao direito à saúde, v.4, CEAD</p>
+      <p>José Geraldo de Sousa Júnior</p>
+      <p>Direito como liberdade: o Direito Achado na Rua: experiências populares emancipatórias de criação do Direito. Tese (Doutorado em Direito) - UnB, Brasília, 2008.</p>
+      <p>Roberto Lyra Filho</p>
+      <p>O que é Direito. São Paulo: Brasiliense, 1982.</p>
+      <p>PESQUISAS</p>
+      <p>Amanda Alves de Souza</p>
+      <p>Assessora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/amanda-alves-de-souza-e-praxis.html" target="_blank" rel="noopener">Desafios para construção de uma nova práxis extensionista no Direito</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal do Rio de Janeiro</p>
+      <p>Ana Cláudia Diogo Tavares</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/02/ana-claudia-tavares-e-advocacia-popular.html" target="_blank" rel="noopener">Os nós da rede: concepções e atuação do(a) advogado (a) popular sobre os conflitos sócio-jurídicos no Estado do Rio de Janeiro</a></p>
+      <p>Dissertação de Mestrado em Sociologia e Direito na Universidade Federal Fluminense</p>
+      <p>Ana Lia Almeida</p>
+      <p>Um estalo nas faculdades de direito: perspectivas ideológicas da Assessoria Jurídica Universitária Popular</p>
+      <p>Tese de doutorado em Direitos Humanos na Universidade Federal da Paraíba</p>
+      <p>André Luiz Conrado Mendes</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/12/andre-mendes-e-advocacia-popular-utopia.html" target="_blank" rel="noopener">Advocacia popular: utopia e ação política</a></p>
+      <p>Dissertação de Mestrado em Direito na Pontifícia Universidade Católica do Rio de Janeiro.</p>
+      <p>Andressa Chiamulera</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-andressa-chiamulera-ufpr-2003.html" target="_blank" rel="noopener">O acesso à justiça na perspectiva da Ética da Libertação: a atuação das assessorias jurídicas universitárias</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal do Paraná, 2003</p>
+      <p>Carla Miranda</p>
+      <p>Assessora estudantil</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/01/carla-miranda-e-praxis-da-assessoria.html" target="_blank" rel="noopener">Na práxis da Assessoria Jurídica Universitária Popular: extensão e produção de conhecimento</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal da Paraíba</p>
+      <p>Christianny Diógenes Maia</p>
+      <p>Professora e assessora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2010/05/dissertacao-christianny-diogenes-maia.html" target="_blank" rel="noopener">Assessoria jurídica popular: teoria e prática emancipatória</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal do Ceará</p>
+      <p>Diana Melo Pereira</p>
+      <p>Advogada e professora universitária</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2015/09/diana-melo-pereira-as-lutas-do-mmc-pelo.html" target="_blank" rel="noopener">Sem porta-voz na rua, sem dono em casa: as lutas do movimento de mulheres camponesas (MMC Brasil) pelo direito a uma vida sem violência</a></p>
+      <p>Dissertação de Mestrado na Universidade de Brasília</p>
+      <p>Diego Augusto Diehl</p>
+      <p>Assessor universitário</p>
+      <p><a href="https://issuu.com/diegodiehl/docs/diego_augusto_diehl_-_disserta____o" target="_blank" rel="noopener">Espaços territoriais especialmente protegidos como instrumentos jurídicos de defesa dos povos da Amazônia: uma análise dos riscos socioambientais da expansão da soja geneticamente modificada</a></p>
+      <p>Dissertação de mestrado em Direitos Humanos na UFPA</p>
+      <p><a href="https://tarifazero.org/wp-content/uploads/2011/05/O-programa-Tarifa-Zero-no-transporte-coletivo-de-Curitiba.pdf" target="_blank" rel="noopener">O programa Tarifa Zero no transporte coletivo de Curitiba</a></p>
+      <p>Monografia de conclusão da graduação em Direito na UFPR</p>
+      <p>Efendy Emiliano Maldonado Bravo</p>
+      <p><a href="https://repositorio.ufsc.br/handle/123456789/214678" target="_blank" rel="noopener">Os (des)caminhos do constitucionalismo latino-americano: o caso equatoriano desde a plurinacionalidade e a libertação</a></p>
+      <p>Tese de conclusão do doutorado em Direito na UFSC</p>
+      <p>"Relatos do Inimigo no Campo: A Criminalização dos Movimentos Sociais no Rio Grande do Sul (2006-2010)"</p>
+      <p>Monografia de conclusão da graduação em Direito na UNISINOS</p>
+      <p>Flávia Carlet</p>
+      <p>Pesquisadora</p>
+      <p>Advocacia popular: práticas jurídicas e sociais no acesso ao direito e à justiça aos movimentos sociais de luta pela terra. Dissertação (Mestrado em Direito) - UnB, Brasília, 2010.</p>
+      <p>Ivan Furmann</p>
+      <p>Professor universitário e extensionista</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-ivan-furmann-ufpr-2003.html" target="_blank" rel="noopener">Da Utopia estudantil a Ação Política</a></p>
+      <p>Monografia de Conclusão de Curso - Direito UFPR 2003</p>
+      <p><a href="https://www.lapeduh.ufpr.br/arquivos/2010-02-28-10-19-21-2006furmann.pdf" target="_blank" rel="noopener">Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR</a></p>
+      <p>Dissertação de mestrado em Educação na UFPR</p>
+      <p>José Humberto Betinho de Góes Junior</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/08/dissertacao-humberto-betinho-goes-ufpb.html" target="_blank" rel="noopener">Da pedagogia do oprimido ao direito do oprimido</a></p>
+      <p>Dissertação de mestrado em Ciências Jurídicas na UFPB 2008</p>
+      <p>Lucas Nascimento Seara</p>
+      <p>"A promoção dos direitos humanos no campo da AIDS: estudo de caso da Assessoria jurídica no Grupo de Apoio à Prevenção à AIDS da Bahia (GAPA/BA)"</p>
+      <p>Dissertação de mestrado na Escola de Administração da UFBA 2011</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/luiz-otavio-ribas-e-assessoria.html" target="_blank" rel="noopener">Assessoria jurídica popular universitária e direitos humanos: o diálogo emancipatório entre estudantes e movimentos sociais (1988-2008)</a></p>
+      <p>Monografia de Especialização na Universidade Federal do Rio Grande do Sul</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/02/luiz-otavio-ribas-e-advocacia-popular.html" target="_blank" rel="noopener">Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e Rio de Janeiro (1960-2000)</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Santa Catarina</p>
+      <p><a href="https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf" target="_blank" rel="noopener">Direito insurgente na assessoria jurídica de movimentos populares no Brasil (1960-2010)</a></p>
+      <p>Tese de doutorado na Universidade do Estado do Rio de Janeiro</p>
+      <p>Marcelo Andrade de Azambuja</p>
+      <p>Advogado</p>
+      <p>Semeando justiça: a relação entre a advocacia popular e os movimentos sociais populares na busca do acesso à justiça. Monografia (Graduação em Direito) - UFRGS, Porto Alegre, 2014</p>
+      <p>Murilo Carvalho Sampaio Oliveira</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2013/05/monografia-murilo-sampaio-oliveira-ufba.html" target="_blank" rel="noopener">Serviço de Apoio Jurídico - SAJU: a práxis de um Direito crítico</a></p>
+      <p>Monografia de Graduação em Direito na Universidade Federal da Bahia, 2003</p>
+      <p>Pedro Sérgio Vieira Martins</p>
+      <p>Advogado</p>
+      <p>Ricardo Prestes Pazello</p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/03/ricardo-prestes-pazello-e-o-poder-dual.html" target="_blank" rel="noopener">A produção da vida e o poder dual do pluralismo jurídico insurgente: ensaio para uma teoria de libertação dos movimentos populares no choro-canção latino-americano</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Santa Catarina</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com.br/2014/11/direito-insurgente-e-movimentos.html" target="_blank" rel="noopener">Direito insurgente e movimentos populares: o giro descolonial do poder e a crítica marxista ao direito</a></p>
+      <p>Tese de doutorado na Universidade Federal do Paraná</p>
+      <p>Shirley Silveira Andrade</p>
+      <p>Professora universitária e pesquisadora</p>
+      <p><a href="https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos" target="_blank" rel="noopener">Movimento popular como sujeito criador de direitos</a></p>
+      <p>Dissertação de Mestrado na Universidade Federal de Pernambuco</p>
+      <p>Sueli Aparecida Bellato</p>
+      <p>Advogada</p>
+      <p>Justiça de transição: perdão ou desculpa em nome do Estado brasileiro?. Dissertação (Mestrado em Direitos Humanos) - UnB, Brasília, 2014.</p>
+      <p>Thiago de Azevedo Pinheiro Hoshino</p>
+      <p>Advogado</p>
+      <p>Òrìsá Láarè: por uma iconografia jurídica afro-brasileira. Monografia (Graduação em Direito) - UFPR, Curitiba, 2010.</p>
+      <p>VERBETES</p>
+      <p>Diego Augusto Diehl</p>
+      <p>Assessor universitário</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/diehl%28n1v2%29.pdf" target="_blank" rel="noopener">Universidade popular</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v1/parciais/ribas2.pdf" target="_blank" rel="noopener">Assessoria jurídica popular universitária</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/ribas%28n1v2%29.pdf" target="_blank" rel="noopener">Jacques Távora Alfonsin</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>ENTREVISTAS</p>
+      <p>Jesus Antonio de la Torre Rangel</p>
+      <p>"A analogia do direito pelo "inequivocamente outro": a concepção de "lo nuestro" pluralismo juridico índio mexicano"</p>
+      <p>Entrevistado por Luiz Otávio Ribas e Ricardo Prestes Pazello, publicado na Revista captura Críptica</p>
+      <p>Leandro Scalabrin</p>
+      <p><a href="https://www.scribd.com/doc/25432895/Entrevista-Leandro-Scalabrin-na-Caros-Amigos" target="_blank" rel="noopener">O RS vive um Estado de Exceção</a></p>
+      <p>Publicado na Revista Caros Amigos</p>
+      <p>ARTIGOS</p>
+      <p>Assis da Costa Oliveira</p>
+      <p>Assessor universitário e pesquisador</p>
+      <p><a href="https://www.scribd.com/doc/24501804/Rede-Nacional-das-Assessorias-Juridicas-Universitarias" target="_blank" rel="noopener">Rede Nacional das Assessorias Jurídicas Universitárias: história, teoria e desafios</a></p>
+      <p>Escrito com Sumaya Saady Mohry Pereira</p>
+      <p>Publicado na Revista Eletrônica da Faculdade de Direito da Universidade Federal de Goiás.</p>
+      <p>Eduardo Pazinato da Cunha e Iagê Zendron Miola</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/cunha+miola%28n1v2%29.pdf" target="_blank" rel="noopener">Interdisciplinariedade e assessoria jurídica popular universitária: limites e possibilidades para a construção de uma agenda de extensão popular em direito</a></p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>Fabiana Cristina Severi e José Marcelino de Rezende Pinto</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/06/fabiana-cristina-severi-e-luta-pela.html" target="_blank" rel="noopener">Experiências na luta pela terra e por direitos entre assentados rurais</a></p>
+      <p>Fagner Garcia Vicente</p>
+      <p><a href="https://www.scribd.com/doc/27058617/Ninguem-havera-de-gritar-pelos-povos-da-Amazonia" target="_blank" rel="noopener">Ninguém haverá de gritar pelos povos da Amazônia</a></p>
+      <p>Jesus Antonio de la Torre Rangel</p>
+      <p>Filósofo do direito mexicano</p>
+      <p><a href="https://www.scribd.com/doc/24501701/TORRE-RANGEL-El-derecho-como-arma-de-liberacion-en-America-Latina" target="_blank" rel="noopener">El derecho como arma de liberación en América Latina: sociología jurídica y uso alternativo del derecho</a></p>
+      <p>Publicado pela Rede de Bibliotecas Virtuais de Ciências Sociais da América Latina e Caribe, da CLACSO.</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2011/10/luiz-otavio-ribas.html" target="_blank" rel="noopener">Luiz Otávio Ribas</a></p>
+      <p>Professor e assessor universitário</p>
+      <p><a href="https://www.sociologiajuridica.net.br/numero-9/202-assessoria-juridica-popular-universitaria-e-a-formacao-de-uma-cultura-politica-participativa-no-brasil" target="_blank" rel="noopener">Assessoria jurídica popular universitária e a formação de uma cultura política participativa no Brasil</a></p>
+      <p>Publicado na Revista Sociologia Jurídica</p>
+      <p>Miguel Lanzellotti Baldéz</p>
+      <p>Assessor jurídico popular e professor</p>
+      <p><a href="https://drive.google.com/file/d/1M9vpeIAHYCJmONzispGmMPpzzWnrd3pj/view?usp=sharing" target="_blank" rel="noopener">Sobre o papel do direito na sociedade capitalista: direito insurgente</a></p>
+      <p>Rosa Maria Zaia Borges Abrão</p>
+      <p>Professora e assessora universitária</p>
+      <p><a href="https://www.ccj.ufsc.br/capturacriptica/documents/n2v1/parciais/20.pdf" target="_blank" rel="noopener">Limites e perspectivas da Extensão Universitária: um olhar a partir da Assessoria Jurídica Popular</a></p>
+      <p>Escrito em conjunto com Christine Rondon Teixeira, Giovani Tavares Bruscato, Joana Cavedon Ripoll e Luciana Araújo de Paula</p>
+      <p>Publicado na Revista Captura Críptica</p>
+      <p>Thomaz Miguel Pressburger (1930-2008)</p>
+      <p>Assessor jurídico popular e professor</p>
+      <p><a href="https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing" target="_blank" rel="noopener">Direito, a alternativa</a></p>
+      <p><a href="https://www.scribd.com/doc/24501587/Derechos-humanos-administracion-de-justicia-y-otros-organismos-del-Estado" target="_blank" rel="noopener">Derechos humanos, administración de justicia y otros organismos del Estado</a></p>
+      <p>Publicado na Revista El Otro Derecho, do ILSA, Colômbia</p>
+      <p>Vladimir de Carvalho Luz</p>
+      <p><a href="https://www.scribd.com/doc/24501843/Servicios-Legales-Universitarios-en-Brasil" target="_blank" rel="noopener">Servicios legales universitarios en Brasil: breve cotejo de dos paradigmas</a></p>
+      <p>Publicado na Revista El Otro Derecho, do Instituto de Servicios Legales Alternativos, da Colômbia.</p>
+      <p>APRESENTAÇÕES</p>
+      <p>Diego Augusto Diehl e Ricardo Prestes Pazello</p>
+      <p><a href="https://www.slideshare.net/diegoadiehl/classe-trabalhadora-e-ajup" target="_blank" rel="noopener">Classe trabalhadora e AJUP</a></p>
+      <p>Apresentação realizada no Seminário SAJUP 10 Anos (14.10.11)</p>
+      <p>Anexo: Dados da classe trabalhadora no Brasil em 2002 (Márcio Pochmann)</p>
+    </div>
+
+  </article>
+</main>
+
+<!-- 8. RODAPÉ: os mesmos dois botões, o crédito de parceria, "Como citar"
+     e a nota de que o texto é de terceiro. -->
+<footer class="rodape">
+  <div class="rodape__interno">
+    <p class="acoes-fonte">
+      <a class="botao" href="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html" target="_blank" rel="noopener">
+        Ler no blog original
+        <span class="botao__nota">abre em outra aba</span>
+      </a>
+      <a class="botao secundario" href="https://www.blogger.com/profile/16853403191296683788" target="_blank" rel="noopener">
+        Sobre Luiz Otávio Ribas
+        <span class="botao__nota">abre em outra aba</span>
+      </a>
+    </p>
+
+    <p class="parceria">
+      Em parceria com o
+      <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS<span class="sr-only"> (abre em outra aba)</span></a>
+      — GT de Assessoria Jurídica Popular
+    </p>
+
+    <div class="rodape__como-citar">
+      <h2>Como citar</h2>
+      <p>Luiz Otávio Ribas. Biblioteca digital <em>Assessoria Jurídica Popular</em>, 1 de julho de 2012. Disponível em:
+        <a href="https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html" target="_blank" rel="noopener">assessoriajuridicapopular.blogspot.com<span class="sr-only"> (abre em outra aba)</span></a>.
+        Capturado em <time datetime="2026-11-20">20 de novembro de 2026</time>.
+      </p>
+    </div>
+
+    <p class="rodape__nota">Página do acervo da RENAP. O texto é de terceiro e entra em citação direta, com crédito e link para o original. <a href="./">Voltar à apresentação da proposta</a>.</p>
+  </div>
+
+  <div class="parcerias" aria-label="Realização e parceria">
+    <p class="parcerias__titulo">Realização e parceria</p>
+    <ul class="parcerias__lista">
+      <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP — Rede Nacional de Advogados e Advogadas Populares" loading="lazy" /></a></li>
+      <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS — Instituto de Pesquisa, Direitos e Movimentos Sociais" loading="lazy" /></a></li>
+      <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB — Movimento dos Atingidos por Barragens" loading="lazy" /></a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+/* Seletor de tema da página de texto: só grava data-theme no <html>.
+   Sem rádio e sem a casca do portal — aqui a página é só leitura. */
+(function () {
+  var sel = document.getElementById('tema');
+  if (!sel) return;
+  try {
+    var salvo = localStorage.getItem('acervo-tema');
+    if (salvo) {
+      document.documentElement.dataset.theme = salvo;
+      sel.value = salvo;
+    }
+  } catch (e) { /* navegador sem armazenamento: segue no tema claro */ }
+  sel.addEventListener('change', function () {
+    document.documentElement.dataset.theme = sel.value;
+    try { localStorage.setItem('acervo-tema', sel.value); } catch (e) {}
+  });
+})();
+</script>
+  <script src="reveal.js" defer></script>
+</body>
+</html>
