@@ -19,8 +19,8 @@ MODELO = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=4" />
-  <link rel="stylesheet" href="reveal.css?v=4" />
+  <link rel="stylesheet" href="acervo.css?v=5" />
+  <link rel="stylesheet" href="reveal.css?v=5" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
