@@ -1251,3 +1251,9 @@ body[data-comeco="true"] .assistente {
 }
 .poesia-blog summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 700; }
 .poesia-blog .grade-3 { margin-top: 14px; }
+
+/* Grade interativa: quadrados menores e bordas suaves */
+.grade-interativa {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 7%, #000 93%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 7%, #000 93%, transparent 100%);
+}

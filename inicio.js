@@ -40,7 +40,7 @@
 
   function desenha() {
     ctx.clearRect(0, 0, W, H);
-    var tam = W < 620 ? 14 : 18;
+    var tam = W < 620 ? 10 : 14;
     var passo = tam + 4;
     for (var y = 4; y < H; y += passo) {
       for (var x = 4; x < W; x += passo) {
