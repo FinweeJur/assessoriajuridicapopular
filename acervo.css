@@ -1491,3 +1491,16 @@ a.cartao, .item__link, .destaque, .bento__item {
   .bento .bento__item { grid-column: auto; grid-row: auto; }
   .bento .bento__item--grande, .bento .bento__item--largo { grid-column: auto; }
 }
+
+/* Bento responsivo: vence os posicionamentos nth-child */
+@media (max-width: 1000px) {
+  .bento .bento__item { grid-column: auto !important; grid-row: auto !important; }
+  .bento .bento__item--grande { grid-column: span 2 !important; grid-row: auto !important; }
+  .bento .bento__item--largo { grid-column: span 2 !important; }
+}
+@media (max-width: 560px) {
+  .bento { grid-template-columns: 1fr !important; }
+  .bento .bento__item,
+  .bento .bento__item--grande,
+  .bento .bento__item--largo { grid-column: auto !important; grid-row: auto !important; }
+}
