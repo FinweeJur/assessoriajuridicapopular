@@ -299,6 +299,24 @@
     ctx.restore();
   }
 
+  function anvil(rx, alt, alfa, brilho) {
+    var g = ctx.createRadialGradient(x, baseY, 0, x, baseY, rx);
+    g.addColorStop(0, 'rgba(235,255,248,' + alfa + ')');
+    g.addColorStop(.32, 'rgba(26,255,156,' + (alfa * .55).toFixed(2) + ')');
+    g.addColorStop(1, 'rgba(26,255,156,0)');
+    ctx.beginPath();
+    ctx.moveTo(x - rx, baseY + 1);
+    ctx.bezierCurveTo(x - rx * .55, baseY, x - rx * .16, baseY - alt * .55, x - 8, baseY - alt);
+    ctx.quadraticCurveTo(x, baseY - alt * 1.18, x + 8, baseY - alt);
+    ctx.bezierCurveTo(x + rx * .16, baseY - alt * .55, x + rx * .55, baseY, x + rx, baseY + 1);
+    ctx.closePath();
+    ctx.fillStyle = g;
+    ctx.shadowColor = '#1aff9c';
+    ctx.shadowBlur = brilho;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+  }
+
   function desenha(t) {
     if (!w) { return; }
     ctx.clearRect(0, 0, w, h);
@@ -307,42 +325,28 @@
 
     var largura = Math.min(w * .44, 540);
 
-    // Três camadas elípticas: base larga, halo médio e núcleo do impacto.
-    elipse(largura, 7, [[0, 'rgba(180,255,225,.5)'], [.4, 'rgba(26,255,156,.22)'], [1, 'rgba(26,255,156,0)']], 20);
-    elipse(largura * .58, 18, [[0, 'rgba(220,255,240,.72)'], [.3, 'rgba(26,255,156,.4)'], [1, 'rgba(26,255,156,0)']], 24);
-    elipse(72, 30, [[0, 'rgba(245,255,250,.95)'], [.42, 'rgba(90,255,195,.62)'], [1, 'rgba(26,255,156,0)']], 22);
+    // Base: elipse rasa + bigorna com pontas e pico central.
+    elipse(largura, 6, [[0, 'rgba(180,255,225,.45)'], [.42, 'rgba(26,255,156,.2)'], [1, 'rgba(26,255,156,0)']], 18);
+    anvil(largura * .95, 10, .34, 18);
+    anvil(largura * .64, 20, .52, 22);
+    anvil(largura * .34, 34, .72, 24);
+    anvil(80, 48, .95, 26);
 
-    // Chama central que liga a base à coluna.
+    // Coluna cônica atrás dos filamentos.
+    var gc = ctx.createLinearGradient(0, baseY, 0, 0);
+    gc.addColorStop(0, 'rgba(26,255,156,.5)');
+    gc.addColorStop(.5, 'rgba(26,255,156,.17)');
+    gc.addColorStop(1, 'rgba(26,255,156,0)');
     ctx.beginPath();
-    ctx.moveTo(x - 54, baseY + 1);
-    ctx.bezierCurveTo(x - 30, baseY - 6, x - 12, baseY - 18, x - 6, baseY - 46);
-    ctx.quadraticCurveTo(x, baseY - 60, x + 6, baseY - 46);
-    ctx.bezierCurveTo(x + 12, baseY - 18, x + 30, baseY - 6, x + 54, baseY + 1);
+    ctx.moveTo(x - 18, baseY);
+    ctx.lineTo(x - 5, 0);
+    ctx.lineTo(x + 5, 0);
+    ctx.lineTo(x + 18, baseY);
     ctx.closePath();
-    var gf = ctx.createRadialGradient(x, baseY, 0, x, baseY, 64);
-    gf.addColorStop(0, 'rgba(235,255,248,.82)');
-    gf.addColorStop(.42, 'rgba(26,255,156,.5)');
-    gf.addColorStop(1, 'rgba(26,255,156,0)');
-    ctx.fillStyle = gf;
+    ctx.fillStyle = gc;
     ctx.shadowColor = '#1aff9c';
-    ctx.shadowBlur = 24;
+    ctx.shadowBlur = 16;
     ctx.fill();
-    ctx.shadowBlur = 0;
-
-    // Coluna suave atrás dos filamentos.
-    var gp = ctx.createLinearGradient(0, baseY, 0, 0);
-    gp.addColorStop(0, 'rgba(26,255,156,.42)');
-    gp.addColorStop(.55, 'rgba(26,255,156,.13)');
-    gp.addColorStop(1, 'rgba(26,255,156,0)');
-    ctx.strokeStyle = gp;
-    ctx.lineWidth = 24;
-    ctx.lineCap = 'round';
-    ctx.shadowColor = '#1aff9c';
-    ctx.shadowBlur = 14;
-    ctx.beginPath();
-    ctx.moveTo(x, baseY);
-    ctx.lineTo(x, 0);
-    ctx.stroke();
     ctx.shadowBlur = 0;
 
     // Filamentos que sobem com leve deriva.
