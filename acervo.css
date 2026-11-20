@@ -969,3 +969,36 @@ a.cartao:hover, a.cartao:focus-visible,
   .topo__links > a, .menu__botao { min-height: 44px; justify-content: space-between; }
   .menu__lista { position: static; display: grid; box-shadow: none; border: 0; padding-left: 12px; }
 }
+
+/* Logos visíveis em qualquer tema: marca escura vira branca no fundo escuro */
+[data-theme="dark"] .parcerias__lista img[alt="RENAP"],
+[data-theme="dark"] .parcerias__lista img[alt="IPDMS"],
+[data-theme="pequi"] .parcerias__lista img[alt="RENAP"],
+[data-theme="pequi"] .parcerias__lista img[alt="IPDMS"],
+[data-theme="cerrado"] .parcerias__lista img[alt="RENAP"],
+[data-theme="cerrado"] .parcerias__lista img[alt="IPDMS"],
+[data-theme="mata-atlantica"] .parcerias__lista img[alt="RENAP"],
+[data-theme="mata-atlantica"] .parcerias__lista img[alt="IPDMS"],
+[data-theme="caatinga"] .parcerias__lista img[alt="RENAP"],
+[data-theme="caatinga"] .parcerias__lista img[alt="IPDMS"],
+[data-theme="pantanal"] .parcerias__lista img[alt="RENAP"],
+[data-theme="pantanal"] .parcerias__lista img[alt="IPDMS"],
+[data-theme="brasil"] .parcerias__lista img[alt="RENAP"],
+[data-theme="brasil"] .parcerias__lista img[alt="IPDMS"] {
+  filter: brightness(0) invert(1); opacity: .92;
+}
+
+/* Lista da capa com respiro, como as seções */
+#lista-acervo {
+  max-width: var(--largura); margin-left: auto; margin-right: auto;
+  padding-left: clamp(16px, 4vw, 40px); padding-right: clamp(16px, 4vw, 40px);
+}
+
+/* Alvos de toque */
+.chip, .chip-f { min-height: 44px; display: inline-flex; align-items: center; }
+#tema { min-height: 44px; }
+.etiqueta { font-size: .75rem; }
+
+/* Menu: só o estado manda (sem focus-within prendendo aberto) */
+.menu:focus-within .menu__lista { display: none; }
+.menu[data-aberto="true"] .menu__lista { display: grid; gap: 2px; }

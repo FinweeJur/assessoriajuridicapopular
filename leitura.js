@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  // Menu: fecha 1,2 s depois e ignora o vão entre botão e painel.
+  // Menu: hover só com mouse, clique e teclado alternam, Esc fecha.
   var menu = document.querySelector('.menu');
   if (menu) {
     var botao = menu.querySelector('.menu__botao');
@@ -13,24 +13,34 @@
       menu.dataset.aberto = 'true';
       if (botao) { botao.setAttribute('aria-expanded', 'true'); }
     }
+    function fecha() {
+      clearTimeout(relogio);
+      menu.dataset.aberto = 'false';
+      if (botao) { botao.setAttribute('aria-expanded', 'false'); }
+    }
     function agenda() {
       clearTimeout(relogio);
       relogio = setTimeout(function () {
         if (menu.matches(':hover') || (lista && lista.matches(':hover'))) { agenda(); return; }
-        menu.dataset.aberto = 'false';
-        if (botao) { botao.setAttribute('aria-expanded', 'false'); }
+        fecha();
       }, 1200);
     }
-    menu.addEventListener('pointerenter', abre);
-    menu.addEventListener('pointerleave', agenda);
-    if (lista) {
-      lista.addEventListener('pointerenter', abre);
-      lista.addEventListener('pointerleave', agenda);
+    if (window.matchMedia('(hover: hover)').matches) {
+      menu.addEventListener('pointerenter', abre);
+      menu.addEventListener('pointerleave', agenda);
+      if (lista) {
+        lista.addEventListener('pointerenter', abre);
+        lista.addEventListener('pointerleave', agenda);
+      }
     }
-    menu.addEventListener('focusin', abre);
-    menu.addEventListener('focusout', agenda);
+    if (botao) {
+      botao.addEventListener('click', function (ev) {
+        ev.preventDefault();
+        if (menu.dataset.aberto === 'true') { fecha(); } else { abre(); }
+      });
+    }
     document.addEventListener('keydown', function (ev) {
-      if (ev.key === 'Escape') { clearTimeout(relogio); menu.dataset.aberto = 'false'; }
+      if (ev.key === 'Escape') { fecha(); if (botao) { botao.blur(); } }
     });
   }
 

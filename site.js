@@ -116,32 +116,6 @@
   aplica();
 
 
-  // Menu de seções: abre no hover e demora 350 ms para fechar.
-  var menu = document.querySelector('.menu');
-  if (menu) {
-    var botaoMenu = menu.querySelector('.menu__botao');
-    var fechar;
-    function abre() {
-      clearTimeout(fechar);
-      menu.dataset.aberto = 'true';
-      botaoMenu.setAttribute('aria-expanded', 'true');
-    }
-    function agendaFechar() {
-      clearTimeout(fechar);
-      fechar = setTimeout(function () {
-        menu.dataset.aberto = 'false';
-        botaoMenu.setAttribute('aria-expanded', 'false');
-      }, 350);
-    }
-    menu.addEventListener('pointerenter', abre);
-    menu.addEventListener('pointerleave', agendaFechar);
-    menu.addEventListener('focusin', abre);
-    menu.addEventListener('focusout', agendaFechar);
-    botaoMenu.addEventListener('click', function (ev) {
-      ev.preventDefault();
-      if (menu.dataset.aberto === 'true') { agendaFechar(); } else { abre(); }
-    });
-  }
 
   if (palavras) {
     var vistas = {};
