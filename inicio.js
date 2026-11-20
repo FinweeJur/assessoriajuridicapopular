@@ -237,3 +237,171 @@
     desenha();
   })();
 })();
+
+// ── Beam Flow em canvas: coluna de filamentos e base larga ────────────────
+(function fluxoBeam() {
+  var cartao = document.querySelector('.mistica-cartao');
+  if (!cartao) { return; }
+  var canvas = cartao.querySelector('.beam-canvas');
+  if (!canvas || !canvas.getContext) { return; }
+  var ctx = canvas.getContext('2d');
+  var reduz = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fios = [];
+  var w = 0, h = 0, baseY = 0, x = 0, beam = 0, dpr = 1, raf = 0;
+
+  for (var i = 0; i < 26; i++) {
+    fios.push({
+      x: (Math.random() * 2 - 1) * 8,
+      largura: .5 + Math.random() * 1.5,
+      amp: .8 + Math.random() * 3.2,
+      fase: Math.random() * Math.PI * 2,
+      vel: .35 + Math.random() * .8,
+      alfa: .22 + Math.random() * .55,
+      grad: null
+    });
+  }
+
+  function medir() {
+    var r = canvas.getBoundingClientRect();
+    if (!r.width || !r.height) { return false; }
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = r.width; h = r.height;
+    canvas.width = Math.round(w * dpr);
+    canvas.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    beam = parseFloat(getComputedStyle(cartao).getPropertyValue('--beam')) || (h - 20);
+    baseY = h - 20;
+    x = w * .62;
+    for (var i = 0; i < fios.length; i++) {
+      var f = fios[i];
+      var g = ctx.createLinearGradient(0, baseY, 0, 0);
+      g.addColorStop(0, 'rgba(230,255,245,' + (.8 * f.alfa).toFixed(3) + ')');
+      g.addColorStop(.16, 'rgba(90,255,195,' + (.55 * f.alfa).toFixed(3) + ')');
+      g.addColorStop(.62, 'rgba(26,255,156,' + (.18 * f.alfa).toFixed(3) + ')');
+      g.addColorStop(1, 'rgba(26,255,156,0)');
+      f.grad = g;
+    }
+    return true;
+  }
+
+  function desenha(t) {
+    if (!w) { return; }
+    ctx.clearRect(0, 0, w, h);
+    ctx.save();
+    ctx.globalCompositeOperation = 'lighter';
+
+    var largura = Math.min(w * .42, 520);
+
+    // Base elíptica larga, como o impacto do Beam Flow.
+    var g = ctx.createRadialGradient(x, baseY, 0, x, baseY, largura);
+    g.addColorStop(0, 'rgba(225,255,240,.95)');
+    g.addColorStop(.07, 'rgba(90,255,195,.72)');
+    g.addColorStop(.28, 'rgba(26,255,156,.28)');
+    g.addColorStop(1, 'rgba(26,255,156,0)');
+    ctx.save();
+    ctx.translate(x, baseY);
+    ctx.scale(1, .075);
+    ctx.beginPath();
+    ctx.arc(0, 0, largura, 0, Math.PI * 2);
+    ctx.fillStyle = g;
+    ctx.fill();
+    ctx.restore();
+
+    // Bico largo que sobe do centro para a coluna.
+    ctx.beginPath();
+    ctx.moveTo(x - largura * .78, baseY + 2);
+    ctx.bezierCurveTo(x - largura * .34, baseY - 5, x - 24, baseY - 12, x - 7, baseY - 28);
+    ctx.quadraticCurveTo(x, baseY - 38, x + 7, baseY - 28);
+    ctx.bezierCurveTo(x + 24, baseY - 12, x + largura * .34, baseY - 5, x + largura * .78, baseY + 2);
+    ctx.closePath();
+    var gf = ctx.createLinearGradient(0, baseY - 38, 0, baseY + 2);
+    gf.addColorStop(0, 'rgba(120,255,205,.35)');
+    gf.addColorStop(.35, 'rgba(26,255,156,.7)');
+    gf.addColorStop(1, 'rgba(26,255,156,.04)');
+    ctx.fillStyle = gf;
+    ctx.shadowColor = '#1aff9c';
+    ctx.shadowBlur = 16;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+
+    // Filamentos que sobem com leve deriva.
+    var tt = t * .001;
+    for (var i = 0; i < fios.length; i++) {
+      var f = fios[i];
+      var sway = Math.sin(tt * .9 * f.vel + f.fase) * f.amp;
+      var drift = Math.sin(tt * .33 * f.vel + f.fase * 1.7) * 2.2;
+      ctx.strokeStyle = f.grad;
+      ctx.lineWidth = f.largura;
+      ctx.lineCap = 'round';
+      ctx.beginPath();
+      ctx.moveTo(x + f.x + sway * .35, baseY);
+      ctx.bezierCurveTo(
+        x + f.x * .85 + sway, baseY - beam * .26,
+        x + f.x * .5 + drift, beam * .38,
+        x + f.x * .22 + drift * .55, 0
+      );
+      ctx.stroke();
+    }
+
+    // Núcleo branco-esverdeado.
+    var gc = ctx.createLinearGradient(0, baseY, 0, 0);
+    gc.addColorStop(0, 'rgba(245,255,250,.98)');
+    gc.addColorStop(.2, 'rgba(130,255,215,.9)');
+    gc.addColorStop(.66, 'rgba(26,255,156,.42)');
+    gc.addColorStop(1, 'rgba(26,255,156,0)');
+    ctx.strokeStyle = gc;
+    ctx.lineWidth = 3.4;
+    ctx.shadowColor = '#1aff9c';
+    ctx.shadowBlur = 12;
+    ctx.beginPath();
+    ctx.moveTo(x, baseY);
+    ctx.lineTo(x, 0);
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+
+    // Linha intensa no ponto de impacto.
+    var gh = ctx.createLinearGradient(0, 0, w, 0);
+    gh.addColorStop(0, 'rgba(26,255,156,0)');
+    gh.addColorStop(.35, 'rgba(26,255,156,.25)');
+    gh.addColorStop(.5, 'rgba(220,255,240,.85)');
+    gh.addColorStop(.65, 'rgba(26,255,156,.25)');
+    gh.addColorStop(1, 'rgba(26,255,156,0)');
+    ctx.fillStyle = gh;
+    ctx.fillRect(0, baseY - 1, w, 2.5);
+
+    // Faíscas subindo.
+    for (var s = 0; s < 7; s++) {
+      var p = (tt * 18 + s * 1.7) % 100 / 100;
+      var sy = baseY * (1 - p);
+      var sx = x + Math.sin(tt * 1.3 + s * 2.1) * 10 * (1 - p * .6);
+      ctx.beginPath();
+      ctx.arc(sx, sy, 1.1 + 1.4 * (1 - p), 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(200,255,230,' + (.6 * (1 - p)).toFixed(3) + ')';
+      ctx.fill();
+    }
+
+    ctx.restore();
+  }
+
+  function anima(t) {
+    if (!w) { medir(); }
+    if (w && !document.hidden) { desenha(t); }
+    raf = requestAnimationFrame(anima);
+  }
+
+  function comeca() {
+    if (!medir()) { setTimeout(comeca, 300); return; }
+    cartao.classList.add('com-beam');
+    if (reduz) { desenha(0); } else { raf = requestAnimationFrame(anima); }
+  }
+
+  if (window.ResizeObserver) {
+    new ResizeObserver(function () {
+      if (medir() && reduz) { desenha(0); }
+    }).observe(canvas);
+  }
+  window.addEventListener('resize', function () {
+    if (medir() && reduz) { desenha(0); }
+  });
+  comeca();
+})();
