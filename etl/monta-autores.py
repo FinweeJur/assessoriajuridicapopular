@@ -66,6 +66,7 @@ def main():
   <link rel="stylesheet" href="acervo.css?v=2" />
   <link rel="stylesheet" href="reveal.css?v=2" />
   <link rel="stylesheet" href="componentes/radio.css" />
+  <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -83,6 +84,8 @@ def main():
     </ul>
   </div>
 </main>
+<script src="casca.js" defer></script>
+<script src="leitura.js" defer></script>
 <script src="site.js" defer></script>
 <script src="reveal.js" defer></script>
 </body>
@@ -115,6 +118,7 @@ def main():
   <link rel="stylesheet" href="acervo.css?v=2" />
   <link rel="stylesheet" href="reveal.css?v=2" />
   <link rel="stylesheet" href="componentes/radio.css" />
+  <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -133,6 +137,8 @@ def main():
     </ul>
   </div>
 </main>
+<script src="casca.js" defer></script>
+<script src="leitura.js" defer></script>
 <script src="site.js" defer></script>
 <script src="reveal.js" defer></script>
 </body>

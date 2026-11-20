@@ -107,6 +107,7 @@ def rodape():
       <ul>
         <li><a href="index.html">Todos os textos</a></li>
         <li><a href="blog.html">Blog, em ordem</a></li>
+        <li><a href="poemas.html">Poemas publicados</a></li>
         <li><a href="glossario.html">Glossário</a></li>
         <li><a href="linha-do-tempo.html">Linha do tempo</a></li>
         <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
@@ -124,12 +125,11 @@ def rodape():
       </ul>
     </div>
     <div>
-      <h2>Assessoria Jurídica Popular</h2>
+      <h2>Fonte</h2>
       <p>Textos publicados originalmente no blog
       <a href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">Assessoria Jurídica Popular</a>,
-      em citação direta, com autor, data e link.</p>
-      <h2>Fonte</h2>
-      <p>Acervo montado a partir do blog original, com captura em 20/11/2026.</p>
+      em citação direta, com autor, data e link. Acervo montado a partir do blog original,
+      com captura em 20/11/2026.</p>
     </div>
     <div>
       <h2>Parcerias</h2>
@@ -183,6 +183,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="acervo.css?v=7" />
   <link rel="stylesheet" href="reveal.css?v=7" />
   <link rel="stylesheet" href="componentes/radio.css" />
+  <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -338,6 +339,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <script src="reveal.js" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
 <script src="casca.js" defer></script>
+<script src="leitura.js" defer></script>
 </body>
 </html>
 """ % (esc(titulo), esc(lead), topo(ativo), foto, esc(titulo), esc(lead), n,

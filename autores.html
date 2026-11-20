@@ -7,12 +7,55 @@
   <link rel="stylesheet" href="fontes/fontshare.css" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=20" />
-  <link rel="stylesheet" href="reveal.css?v=20" />
+  <link rel="stylesheet" href="acervo.css?v=21" />
+  <link rel="stylesheet" href="reveal.css?v=21" />
   <link rel="stylesheet" href="componentes/radio.css" />
+  <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo">
+  <div class="topo__interno">
+    <a class="topo__marca" href="index.html">
+      <span class="ponto" aria-hidden="true"></span>
+      AJP <span>· Assessoria Jurídica Popular</span>
+    </a>
+    <nav class="topo__links" aria-label="Seções">
+      <a href="index.html">Acervo</a>
+      <div class="menu">
+        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes">
+          Seções <span aria-hidden="true">▾</span>
+        </button>
+        <ul class="menu__lista" id="menu-secoes">
+          <li><a href="assessoria-juridica-popular.html">O que é assessoria jurídica popular</a></li>
+          <li><a href="direitos-humanos.html">Direitos humanos</a></li>
+          <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
+          <li><a href="memoria-e-cultura.html">Memória e cultura</a></li>
+          <li><a href="teoria-critica.html">Teoria crítica do direito</a></li>
+          <li><a href="educacao-popular.html">Educação popular</a></li>
+          <li><a href="assessoria-juridica-popular-no-mundo.html">Direito comparado</a></li>
+        </ul>
+      </div>
+      <a href="linha-do-tempo.html">Linha do tempo</a>
+      <a href="autores.html">Autores</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+    <div class="topo__tema">
+      <label for="tema">Tema</label>
+      <select id="tema" name="tema">
+        <option value="light">⚪ Claro</option>
+        <option value="dark">⚫ Escuro</option>
+        <option value="brasil">🟢 Brasil</option>
+        <option value="high-contrast">◐ Alto contraste</option>
+        <option value="pequi">🟠 Pequi</option>
+        <option value="cerrado">🟡 Cerrado</option>
+        <option value="mata-atlantica">🟩 Mata Atlântica</option>
+        <option value="caatinga">🟤 Caatinga</option>
+        <option value="pantanal">🔵 Pantanal</option>
+      </select>
+    </div>
+  </div>
+</header>
 <main id="conteudo">
   <section class="hero hero--texto">
     <div class="hero__interno">
@@ -55,7 +98,87 @@
     </ul>
   </div>
 </main>
+<footer class="rodape">
+  <div class="rodape__topo">
+    <p class="rodape__marca"><span class="ponto" aria-hidden="true"></span> AJP · Assessoria Jurídica Popular</p>
+  </div>
+  <div class="rodape__interno rodape__interno--linha">
+    <div>
+      <h2>Acervo</h2>
+      <ul>
+        <li><a href="index.html">Todos os textos</a></li>
+        <li><a href="blog.html">Blog, em ordem</a></li>
+        <li><a href="poemas.html">Poemas publicados</a></li>
+        <li><a href="glossario.html">Glossário</a></li>
+        <li><a href="linha-do-tempo.html">Linha do tempo</a></li>
+        <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Seções</h2>
+      <ul>
+        <li><a href="assessoria-juridica-popular.html">Assessoria jurídica popular</a></li>
+        <li><a href="direitos-humanos.html">Direitos humanos</a></li>
+        <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
+        <li><a href="memoria-e-cultura.html">Memória e cultura</a></li>
+        <li><a href="teoria-critica.html">Teoria crítica</a></li>
+        <li><a href="educacao-popular.html">Educação popular</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Fonte</h2>
+      <p>Textos publicados originalmente no blog
+      <a href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">Assessoria Jurídica Popular</a>,
+      em citação direta, com autor, data e link. Acervo montado a partir do blog original,
+      com captura em 20/11/2026.</p>
+    </div>
+    <div>
+      <h2>Parcerias</h2>
+      <ul class="parcerias__lista">
+        <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
+        <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
+        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
+      </ul>
+      <p><b>GT de Assessoria Jurídica Popular do IPDMS</b></p>
+      <p>Desenvolvimento e retirada de imagens ou conteúdo:
+      <a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a></p>
+    </div>
+  </div>
+</footer>
+<div class="radio-flut" data-radio data-aberto="false">
+  <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
+    <span aria-hidden="true">📻</span> Rádio
+  </button>
+  <div class="radio-flut__painel" id="radio-painel">
+    <button class="radio-flut__fechar" type="button" data-radio-fechar aria-label="Fechar o rádio">×</button>
+        <div class="rp__controles">
+          <div class="rp__linha">
+            <button class="rp__tocar" type="button" data-radio-tocar data-tocando="false" aria-label="Tocar rádio">▶</button>
+            <button class="rp__parar" type="button" data-radio-parar aria-label="Parar o rádio" title="Parar o rádio">■</button>
+            <div>
+              <div class="rp__nome" data-radio-nome>Rádio Brasil de Fato<span class="rp__meta" data-radio-meta>toque em ▶ ou escolha outra estação</span></div>
+            </div>
+          </div>
+          <label class="rp__volume">
+            <span>Volume</span>
+            <input type="range" min="0" max="100" value="70" data-radio-volume aria-label="Volume do rádio" />
+          </label>
+          <p class="rp__status" data-radio-status aria-live="polite"></p>
+        </div>
+        <div class="rp__lista-area">
+          <div class="rp__busca">
+            <input type="search" placeholder="Buscar estação, cidade ou UF" data-radio-busca aria-label="Buscar estação" />
+            <span class="rp__contagem" data-radio-contagem></span>
+          </div>
+          <div class="rp__lista" data-radio-lista></div>
+        </div>
+        <audio data-radio-audio preload="none"></audio>
+  </div>
+</div>
+<script src="casca.js" defer></script>
+<script src="leitura.js" defer></script>
 <script src="site.js" defer></script>
 <script src="reveal.js" defer></script>
+<script src="componentes/radio.js" defer></script>
 </body>
 </html>
