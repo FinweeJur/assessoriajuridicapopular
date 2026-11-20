@@ -92,6 +92,8 @@ for nome in sorted(os.listdir(RAIZ)):
                       '<script src="casca.js?v=3" defer></script>\n<script src="leitura.js?v=2" defer></script>', 1)
     if "componentes/radio.js" not in t:
         t = t.replace("</body>", '<script src="componentes/radio.js" defer></script>\n</body>', 1)
+    if "fundo-grade.js" not in t:
+        t = t.replace("</body>", '<script src="fundo-grade.js?v=1" defer></script>\n</body>', 1)
 
     # 5. Rádio
     if "radio-flut" not in t:

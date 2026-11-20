@@ -70,6 +70,7 @@ def template(titulo, olho, lead, corpo, arquivo, autor="Acervo AJP", data="2026-
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
+<script src="fundo-grade.js?v=1" defer></script>
 </body>
 </html>
 """ % (ms.esc(titulo), TOPO, ms.esc(titulo), ms.esc(olho), ms.esc(titulo), ms.esc(lead), corpo,

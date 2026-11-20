@@ -343,6 +343,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
 <script src="casca.js?v=3" defer></script>
 <script src="leitura.js?v=2" defer></script>
+<script src="fundo-grade.js?v=1" defer></script>
 </body>
 </html>
 """ % (esc(titulo), esc(lead), topo(ativo), foto, esc(titulo), esc(lead), n,

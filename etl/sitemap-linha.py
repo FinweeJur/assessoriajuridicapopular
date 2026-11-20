@@ -104,6 +104,7 @@ PAGINA = """<!DOCTYPE html>
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
+<script src="fundo-grade.js?v=1" defer></script>
 </body>
 </html>
 """ % (ms.topo("texto"), CORPO, ms.rodape())

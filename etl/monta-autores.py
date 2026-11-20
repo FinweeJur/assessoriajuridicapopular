@@ -89,6 +89,7 @@ def main():
 <script src="leitura.js?v=2" defer></script>
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
+<script src="fundo-grade.js?v=1" defer></script>
 </body>
 </html>
 """ % (len(autores), len(registros), "\n".join(linhas))
@@ -143,6 +144,7 @@ def main():
 <script src="leitura.js?v=2" defer></script>
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
+<script src="fundo-grade.js?v=1" defer></script>
 </body>
 </html>
 """ % (esc(nome), esc(nome), len(itens), "texto" if len(itens) == 1 else "textos",

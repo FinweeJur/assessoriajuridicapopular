@@ -68,6 +68,7 @@ MODELO = """<!DOCTYPE html>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
 <script src="casca.js?v=3" defer></script>
+<script src="fundo-grade.js?v=1" defer></script>
 </body>
 </html>
 """

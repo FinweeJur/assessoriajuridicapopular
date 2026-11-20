@@ -21,7 +21,9 @@ if "acervo.css" in t and "reveal.css" not in t:
     t = t.replace('<link rel="stylesheet" href="acervo.css" />',
                   '<link rel="stylesheet" href="acervo.css" />\n  <link rel="stylesheet" href="reveal.css" />', 1)
 if "reveal.js" not in t:
-    t = t.replace("</body>", '<script src="reveal.js" defer></script>\n</body>', 1)
+    t = t.replace("<script src="fundo-grade.js?v=1" defer></script>
+</body>", '<script src="reveal.js" defer></script>\n<script src="fundo-grade.js?v=1" defer></script>
+</body>', 1)
 
 with io.open(MODELO, "w", encoding="utf-8", newline="\n") as f:
     f.write(t)
