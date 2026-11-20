@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="temas/renap.css" />
   <link rel="stylesheet" href="acervo.css" />
   <link rel="stylesheet" href="reveal.css" />
+  <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -74,7 +75,20 @@
       </div>
       <div class="fita">
         <label class="sr-only" for="f-busca">Filtrar nesta seção</label>
-        <input id="f-busca" type="search" placeholder="Filtrar nesta seção" data-busca autocomplete="off" />
+        <input id="f-busca" type="search" placeholder="Filtrar por palavra-chave" data-busca autocomplete="off" />
+        <div class="fita__tipos" role="group" aria-label="Tipo de texto">
+          <button type="button" class="chip-f" data-tipo-f="todos" aria-pressed="true">Todos</button>
+          <button type="button" class="chip-f" data-tipo-f="formativo" aria-pressed="false">Textos</button>
+          <button type="button" class="chip-f" data-tipo-f="evento" aria-pressed="false">Eventos</button>
+          <button type="button" class="chip-f" data-tipo-f="poesia" aria-pressed="false">Poesia</button>
+          <button type="button" class="chip-f" data-tipo-f="resenha" aria-pressed="false">Livros</button>
+          <button type="button" class="chip-f" data-tipo-f="documento" aria-pressed="false">Documentos</button>
+          <button type="button" class="chip-f" data-tipo-f="notícia" aria-pressed="false">Notícias</button>
+        </div>
+        <label class="sr-only" for="f-ano">Ano</label>
+        <select id="f-ano" data-ano-filtro>
+          <option value="">Todos os anos</option>
+        </select>
         <label class="sr-only" for="f-ordem">Ordenar</label>
         <select id="f-ordem" data-ordem>
           <option value="recente">Mais recente</option>
@@ -84,7 +98,7 @@
         <span class="fita__conta" data-conta role="status" aria-live="polite"></span>
       </div>
       <ul class="lista-acervo" data-revelar-grupo data-paginada>
-      <li class="item" data-temas="direitos humanos" data-data="2019-02-25" data-titulo="Guia de empoderamento para a segurança das mulheres na Internet">
+      <li class="item" data-temas="direitos humanos" data-data="2019-02-25" data-titulo="Guia de empoderamento para a segurança das mulheres na Internet" data-tipo="formativo" data-ano="2019">
         <a class="item__link" href="guia-de-empoderamento-para-a-seguranca-das-mulheres-na.html">
           <span class="etiqueta">Direitos humanos · 2019</span>
           <h3>Guia de empoderamento para a segurança das mulheres na Internet</h3>
@@ -92,7 +106,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 25 de fevereiro de 2019</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2018-11-20" data-titulo="Uma experiência de educação popular">
+      <li class="item" data-temas="educacao popular" data-data="2018-11-20" data-titulo="Uma experiência de educação popular" data-tipo="formativo" data-ano="2018">
         <a class="item__link" href="uma-experiencia-de-educacao-popular.html">
           <span class="etiqueta">Educação popular · 2018</span>
           <h3>Uma experiência de educação popular</h3>
@@ -100,7 +114,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 20 de novembro de 2018</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2017-03-06" data-titulo="Fortalecimento da RENAJU em uma conjuntura de retrocessos">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2017-03-06" data-titulo="Fortalecimento da RENAJU em uma conjuntura de retrocessos" data-tipo="formativo" data-ano="2017">
         <a class="item__link" href="fortalecimento-da-renaju-em-uma-conjuntura-de-retrocessos.html">
           <span class="etiqueta">Assessoria jurídica popular · 2017</span>
           <h3>Fortalecimento da RENAJU em uma conjuntura de retrocessos</h3>
@@ -108,7 +122,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 6 de março de 2017</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2016-11-28" data-titulo="E quando não há o Pai para matar?">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2016-11-28" data-titulo="E quando não há o Pai para matar?" data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="e-quando-nao-ha-o-pai-para-matar.html">
           <span class="etiqueta">Assessoria jurídica popular · 2016</span>
           <h3>E quando não há o Pai para matar?</h3>
@@ -116,7 +130,7 @@
           <span class="item__ficha">AdminblogueAJpopular · 28 de novembro de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2016-05-23" data-titulo=""Não tenho condições".">
+      <li class="item" data-temas="memoria" data-data="2016-05-23" data-titulo=""Não tenho condições"." data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="nao-tenho-condicoes.html">
           <span class="etiqueta">Memória · 2016</span>
           <h3>"Não tenho condições".</h3>
@@ -124,7 +138,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 23 de maio de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2016-05-17" data-titulo="Direito e conjuntura - O papel da AJP na luta contra o golpe">
+      <li class="item" data-temas="movimentos sociais" data-data="2016-05-17" data-titulo="Direito e conjuntura - O papel da AJP na luta contra o golpe" data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="direito-e-conjuntura-o-papel-da-ajp-na-luta-contra-o-golpe.html">
           <span class="etiqueta">Movimentos sociais · 2016</span>
           <h3>Direito e conjuntura - O papel da AJP na luta contra o golpe</h3>
@@ -132,7 +146,7 @@
           <span class="item__ficha">Diego A. Diehl · 17 de maio de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2016-05-12" data-titulo="Atualizações das bibliotecas">
+      <li class="item" data-temas="movimentos sociais" data-data="2016-05-12" data-titulo="Atualizações das bibliotecas" data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="atualizacoes-das-bibliotecas.html">
           <span class="etiqueta">Movimentos sociais · 2016</span>
           <h3>Atualizações das bibliotecas</h3>
@@ -140,7 +154,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 12 de maio de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2016-04-13" data-titulo="Direito e conjuntura - Cenários possíveis com o fim da "Nova República"">
+      <li class="item" data-temas="memoria" data-data="2016-04-13" data-titulo="Direito e conjuntura - Cenários possíveis com o fim da "Nova República"" data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="direito-e-conjuntura-cenarios-possiveis-com-o-fim-da-nova.html">
           <span class="etiqueta">Memória · 2016</span>
           <h3>Direito e conjuntura - Cenários possíveis com o fim da "Nova República"</h3>
@@ -148,7 +162,7 @@
           <span class="item__ficha">Diego A. Diehl · 13 de abril de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2016-04-08" data-titulo="Direito e conjuntura - A conjuntura política internacional e nacional no contexto do golpe brasileiro">
+      <li class="item" data-temas="memoria" data-data="2016-04-08" data-titulo="Direito e conjuntura - A conjuntura política internacional e nacional no contexto do golpe brasileiro" data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="direito-e-conjuntura-a-conjuntura-politica-internacional-e.html">
           <span class="etiqueta">Memória · 2016</span>
           <h3>Direito e conjuntura - A conjuntura política internacional e nacional no contexto do golpe brasileiro</h3>
@@ -156,7 +170,7 @@
           <span class="item__ficha">Diego A. Diehl · 8 de abril de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2016-04-01" data-titulo="Direito e conjuntura - O papel do Direito no "golpe de Estado de novo tipo"">
+      <li class="item" data-temas="educacao popular" data-data="2016-04-01" data-titulo="Direito e conjuntura - O papel do Direito no "golpe de Estado de novo tipo"" data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="direito-e-conjuntura-o-papel-do-direito-no-golpe-de-estado.html">
           <span class="etiqueta">Educação popular · 2016</span>
           <h3>Direito e conjuntura - O papel do Direito no "golpe de Estado de novo tipo"</h3>
@@ -164,7 +178,7 @@
           <span class="item__ficha">Diego A. Diehl · 1 de abril de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2016-03-29" data-titulo="Direito e conjuntura – nova coluna no blogue AJP">
+      <li class="item" data-temas="memoria" data-data="2016-03-29" data-titulo="Direito e conjuntura – nova coluna no blogue AJP" data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="direito-e-conjuntura-nova-coluna-no-blogue-ajp.html">
           <span class="etiqueta">Memória · 2016</span>
           <h3>Direito e conjuntura – nova coluna no blogue AJP</h3>
@@ -172,7 +186,7 @@
           <span class="item__ficha">Diego A. Diehl · 29 de março de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2016-03-20" data-titulo="Apresentação por Manuel Eugénio Gándara Carballido">
+      <li class="item" data-temas="teoria critica" data-data="2016-03-20" data-titulo="Apresentação por Manuel Eugénio Gándara Carballido" data-tipo="formativo" data-ano="2016">
         <a class="item__link" href="apresentacao-por-manuel-eugenio-gandara-carballido.html">
           <span class="etiqueta">Teoria crítica · 2016</span>
           <h3>Apresentação por Manuel Eugénio Gándara Carballido</h3>
@@ -180,7 +194,7 @@
           <span class="item__ficha">AdminblogueAJpopular · 20 de março de 2016</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2015-11-27" data-titulo="Abraços, Destruições e Belo Monte: o velório de uma ilha para o desenvolvimento de uma hidrelétrica">
+      <li class="item" data-temas="direitos humanos" data-data="2015-11-27" data-titulo="Abraços, Destruições e Belo Monte: o velório de uma ilha para o desenvolvimento de uma hidrelétrica" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="abracos-destruicoes-e-belo-monte-o-velorio-de-uma-ilha-para.html">
           <span class="etiqueta">Direitos humanos · 2015</span>
           <h3>Abraços, Destruições e Belo Monte: o velório de uma ilha para o desenvolvimento de uma hidrelétrica</h3>
@@ -188,7 +202,7 @@
           <span class="item__ficha">Assis Oliveira · 27 de novembro de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2015-10-15" data-titulo="20 Anos de Rede Nacional de Advogados e Advogadas Populares!">
+      <li class="item" data-temas="direitos humanos" data-data="2015-10-15" data-titulo="20 Anos de Rede Nacional de Advogados e Advogadas Populares!" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="20-anos-de-rede-nacional-de-advogados-e-advogadas-populares.html">
           <span class="etiqueta">Direitos humanos · 2015</span>
           <h3>20 Anos de Rede Nacional de Advogados e Advogadas Populares!</h3>
@@ -196,7 +210,7 @@
           <span class="item__ficha">Tchenna Maso · 15 de outubro de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2015-08-28" data-titulo="Advocacia delirante. Parte II - Preciso me encontrar.">
+      <li class="item" data-temas="memoria" data-data="2015-08-28" data-titulo="Advocacia delirante. Parte II - Preciso me encontrar." data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="advocacia-delirante-parte-ii-preciso-me-encontrar.html">
           <span class="etiqueta">Memória · 2015</span>
           <h3>Advocacia delirante. Parte II - Preciso me encontrar.</h3>
@@ -204,7 +218,7 @@
           <span class="item__ficha">Unknown · 28 de agosto de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2015-06-29" data-titulo="O tataraneto do ex-jurista de Bonn">
+      <li class="item" data-temas="memoria" data-data="2015-06-29" data-titulo="O tataraneto do ex-jurista de Bonn" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="o-tataraneto-do-ex-jurista-de-bonn.html">
           <span class="etiqueta">Memória · 2015</span>
           <h3>O tataraneto do ex-jurista de Bonn</h3>
@@ -212,7 +226,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 29 de junho de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2015-05-22" data-titulo="Advocacia delirante. Parte I.">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2015-05-22" data-titulo="Advocacia delirante. Parte I." data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="advocacia-delirante-parte-i.html">
           <span class="etiqueta">Assessoria jurídica popular · 2015</span>
           <h3>Advocacia delirante. Parte I.</h3>
@@ -220,7 +234,7 @@
           <span class="item__ficha">Unknown · 22 de maio de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2015-05-15" data-titulo="Arpilleiras: uma metodologia latina de educação popular">
+      <li class="item" data-temas="educacao popular" data-data="2015-05-15" data-titulo="Arpilleiras: uma metodologia latina de educação popular" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="arpilleiras-uma-metodologia-latina-de-educacao-popular.html">
           <span class="etiqueta">Educação popular · 2015</span>
           <h3>Arpilleiras: uma metodologia latina de educação popular</h3>
@@ -228,7 +242,7 @@
           <span class="item__ficha">Tchenna Maso · 15 de maio de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2015-04-30" data-titulo="Relato em praça de guerra">
+      <li class="item" data-temas="movimentos sociais" data-data="2015-04-30" data-titulo="Relato em praça de guerra" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="relato-em-praca-de-guerra.html">
           <span class="etiqueta">Movimentos sociais · 2015</span>
           <h3>Relato em praça de guerra</h3>
@@ -236,7 +250,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 30 de abril de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2015-04-29" data-titulo="Estréia da coluna "À frente do front" de Vitor Dieter">
+      <li class="item" data-temas="movimentos sociais" data-data="2015-04-29" data-titulo="Estréia da coluna "À frente do front" de Vitor Dieter" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="estreia-da-coluna-a-frente-do-front-de-vitor-dieter.html">
           <span class="etiqueta">Movimentos sociais · 2015</span>
           <h3>Estréia da coluna "À frente do front" de Vitor Dieter</h3>
@@ -244,7 +258,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 29 de abril de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2015-04-27" data-titulo="Será que os direitos humanos vão chegar até lá?">
+      <li class="item" data-temas="direitos humanos" data-data="2015-04-27" data-titulo="Será que os direitos humanos vão chegar até lá?" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="sera-que-os-direitos-humanos-vao-chegar-ate-la.html">
           <span class="etiqueta">Direitos humanos · 2015</span>
           <h3>Será que os direitos humanos vão chegar até lá?</h3>
@@ -252,7 +266,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 27 de abril de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2015-04-23" data-titulo="A luta e a resistência dos fundos de pasto baianos">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2015-04-23" data-titulo="A luta e a resistência dos fundos de pasto baianos" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="a-luta-e-a-resistencia-dos-fundos-de-pasto-baianos.html">
           <span class="etiqueta">Assessoria jurídica popular · 2015</span>
           <h3>A luta e a resistência dos fundos de pasto baianos</h3>
@@ -260,7 +274,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 23 de abril de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2015-04-15" data-titulo="Direito, delírio, experiências e coisas reais">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2015-04-15" data-titulo="Direito, delírio, experiências e coisas reais" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="direito-delirio-experiencias-e-coisas-reais.html">
           <span class="etiqueta">Assessoria jurídica popular · 2015</span>
           <h3>Direito, delírio, experiências e coisas reais</h3>
@@ -268,7 +282,7 @@
           <span class="item__ficha">Unknown · 15 de abril de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2015-04-09" data-titulo="Um corpo caído e a luta da advocacia popular">
+      <li class="item" data-temas="movimentos sociais" data-data="2015-04-09" data-titulo="Um corpo caído e a luta da advocacia popular" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="um-corpo-caido-e-a-luta-da-advocacia-popular.html">
           <span class="etiqueta">Movimentos sociais · 2015</span>
           <h3>Um corpo caído e a luta da advocacia popular</h3>
@@ -276,7 +290,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 9 de abril de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2015-03-25" data-titulo="Expulsão de agricultores para Barragem do Guapiaçu repete prática recorrente da ditadura militar">
+      <li class="item" data-temas="memoria" data-data="2015-03-25" data-titulo="Expulsão de agricultores para Barragem do Guapiaçu repete prática recorrente da ditadura militar" data-tipo="formativo" data-ano="2015">
         <a class="item__link" href="expulsao-de-agricultores-para-barragem-do-guapiacu-repete.html">
           <span class="etiqueta">Memória · 2015</span>
           <h3>Expulsão de agricultores para Barragem do Guapiaçu repete prática recorrente da ditadura militar</h3>
@@ -284,7 +298,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 25 de março de 2015</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2013-07-16" data-titulo="Mas o olé foi do povo">
+      <li class="item" data-temas="movimentos sociais" data-data="2013-07-16" data-titulo="Mas o olé foi do povo" data-tipo="formativo" data-ano="2013">
         <a class="item__link" href="mas-o-ole-foi-do-povo.html">
           <span class="etiqueta">Movimentos sociais · 2013</span>
           <h3>Mas o olé foi do povo</h3>
@@ -292,7 +306,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 16 de julho de 2013</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2013-03-13" data-titulo="O Neofacismo, facismo social">
+      <li class="item" data-temas="direitos humanos" data-data="2013-03-13" data-titulo="O Neofacismo, facismo social" data-tipo="formativo" data-ano="2013">
         <a class="item__link" href="o-neofacismo-facismo-social.html">
           <span class="etiqueta">Direitos humanos · 2013</span>
           <h3>O Neofacismo, facismo social</h3>
@@ -300,7 +314,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 13 de março de 2013</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2013-01-18" data-titulo="Caboclos, posseiros, sem-terra: 100 anos nos trilhos do Contestado">
+      <li class="item" data-temas="movimentos sociais" data-data="2013-01-18" data-titulo="Caboclos, posseiros, sem-terra: 100 anos nos trilhos do Contestado" data-tipo="formativo" data-ano="2013">
         <a class="item__link" href="caboclos-posseiros-sem-terra-100-anos-nos-trilhos-do.html">
           <span class="etiqueta">Movimentos sociais · 2013</span>
           <h3>Caboclos, posseiros, sem-terra: 100 anos nos trilhos do Contestado</h3>
@@ -308,7 +322,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 18 de janeiro de 2013</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2013-01-03" data-titulo="Poema do Rodrigão sobre encontro da Renap em Salvador">
+      <li class="item" data-temas="memoria" data-data="2013-01-03" data-titulo="Poema do Rodrigão sobre encontro da Renap em Salvador" data-tipo="formativo" data-ano="2013">
         <a class="item__link" href="poema-do-rodrigao-sobre-encontro-da-renap-em-salvador.html">
           <span class="etiqueta">Memória · 2013</span>
           <h3>Poema do Rodrigão sobre encontro da Renap em Salvador</h3>
@@ -316,7 +330,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 3 de janeiro de 2013</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2012-11-14" data-titulo="Sistema penal, concentração fundiária e ônibus que pegam fogo em Floripa-SC">
+      <li class="item" data-temas="memoria" data-data="2012-11-14" data-titulo="Sistema penal, concentração fundiária e ônibus que pegam fogo em Floripa-SC" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="sistema-penal-concentracao-fundiaria-e-onibus-que-pegam.html">
           <span class="etiqueta">Memória · 2012</span>
           <h3>Sistema penal, concentração fundiária e ônibus que pegam fogo em Floripa-SC</h3>
@@ -324,7 +338,7 @@
           <span class="item__ficha">Athanis Grego · 14 de novembro de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2012-11-08" data-titulo="Ode ao povo">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2012-11-08" data-titulo="Ode ao povo" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="ode-ao-povo.html">
           <span class="etiqueta">Assessoria jurídica popular · 2012</span>
           <h3>Ode ao povo</h3>
@@ -332,7 +346,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 8 de novembro de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2012-11-04" data-titulo="Tentativa de criminalização dos escrachos">
+      <li class="item" data-temas="memoria" data-data="2012-11-04" data-titulo="Tentativa de criminalização dos escrachos" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="tentativa-de-criminalizacao-dos-escrachos.html">
           <span class="etiqueta">Memória · 2012</span>
           <h3>Tentativa de criminalização dos escrachos</h3>
@@ -340,7 +354,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 4 de novembro de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2012-09-28" data-titulo="Homenagens ao advogado Eugenio Lyra">
+      <li class="item" data-temas="memoria" data-data="2012-09-28" data-titulo="Homenagens ao advogado Eugenio Lyra" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="homenagens-ao-advogado-eugenio-lyra.html">
           <span class="etiqueta">Memória · 2012</span>
           <h3>Homenagens ao advogado Eugenio Lyra</h3>
@@ -348,7 +362,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 28 de setembro de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2012-09-22" data-titulo="Poemas em homenagem a Eugenio Lyra">
+      <li class="item" data-temas="memoria" data-data="2012-09-22" data-titulo="Poemas em homenagem a Eugenio Lyra" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="poemas-em-homenagem-a-eugenio-lyra.html">
           <span class="etiqueta">Memória · 2012</span>
           <h3>Poemas em homenagem a Eugenio Lyra</h3>
@@ -356,7 +370,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 22 de setembro de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2012-08-27" data-titulo="Aulaço popular em Vigário Geral">
+      <li class="item" data-temas="movimentos sociais" data-data="2012-08-27" data-titulo="Aulaço popular em Vigário Geral" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="aulaco-popular-em-vigario-geral.html">
           <span class="etiqueta">Movimentos sociais · 2012</span>
           <h3>Aulaço popular em Vigário Geral</h3>
@@ -364,7 +378,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 27 de agosto de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2012-08-21" data-titulo="Desdobramentos da greve geral dos SPFs decidirão o futuro da universidade pública e do estado brasileiro">
+      <li class="item" data-temas="movimentos sociais" data-data="2012-08-21" data-titulo="Desdobramentos da greve geral dos SPFs decidirão o futuro da universidade pública e do estado brasileiro" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="desdobramentos-da-greve-geral-dos-spfs-decidirao-o-futuro.html">
           <span class="etiqueta">Movimentos sociais · 2012</span>
           <h3>Desdobramentos da greve geral dos SPFs decidirão o futuro da universidade pública e do estado brasileiro</h3>
@@ -372,7 +386,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 21 de agosto de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2012-08-20" data-titulo="Documentário não quero falar de chacina">
+      <li class="item" data-temas="memoria" data-data="2012-08-20" data-titulo="Documentário não quero falar de chacina" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="documentario-nao-quero-falar-de-chacina.html">
           <span class="etiqueta">Memória · 2012</span>
           <h3>Documentário não quero falar de chacina</h3>
@@ -380,7 +394,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 20 de agosto de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2012-08-06" data-titulo="Poema memórias do movimento sem terra">
+      <li class="item" data-temas="memoria" data-data="2012-08-06" data-titulo="Poema memórias do movimento sem terra" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="poema-memorias-do-movimento-sem-terra.html">
           <span class="etiqueta">Memória · 2012</span>
           <h3>Poema memórias do movimento sem terra</h3>
@@ -388,7 +402,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 6 de agosto de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2012-07-01" data-titulo="Biblioteca Roberto Lyra Filho">
+      <li class="item" data-temas="teoria critica" data-data="2012-07-01" data-titulo="Biblioteca Roberto Lyra Filho" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="biblioteca-roberto-lyra-filho.html">
           <span class="etiqueta">Teoria crítica · 2012</span>
           <h3>Biblioteca Roberto Lyra Filho</h3>
@@ -396,7 +410,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 1 de julho de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2012-07-01" data-titulo="Poesia crítica do direito">
+      <li class="item" data-temas="teoria critica" data-data="2012-07-01" data-titulo="Poesia crítica do direito" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="poesia-critica-do-direito.html">
           <span class="etiqueta">Teoria crítica · 2012</span>
           <h3>Poesia crítica do direito</h3>
@@ -404,7 +418,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 1 de julho de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2012-06-18" data-titulo="Esculacho popular no Rio de Janeiro">
+      <li class="item" data-temas="movimentos sociais" data-data="2012-06-18" data-titulo="Esculacho popular no Rio de Janeiro" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="esculacho-popular-no-rio-de-janeiro.html">
           <span class="etiqueta">Movimentos sociais · 2012</span>
           <h3>Esculacho popular no Rio de Janeiro</h3>
@@ -412,7 +426,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 18 de junho de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2012-04-24" data-titulo="Do espírito de depredação à depredação do espírito">
+      <li class="item" data-temas="movimentos sociais" data-data="2012-04-24" data-titulo="Do espírito de depredação à depredação do espírito" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="do-espirito-de-depredacao-a-depredacao-do-espirito.html">
           <span class="etiqueta">Movimentos sociais · 2012</span>
           <h3>Do espírito de depredação à depredação do espírito</h3>
@@ -420,7 +434,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 24 de abril de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2012-04-10" data-titulo="A retirada de crucifixos das salas dos tribunais parece ter atendido a vontade do crucificado">
+      <li class="item" data-temas="direitos humanos" data-data="2012-04-10" data-titulo="A retirada de crucifixos das salas dos tribunais parece ter atendido a vontade do crucificado" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="a-retirada-de-crucifixos-das-salas-dos-tribunais-parece-ter.html">
           <span class="etiqueta">Direitos humanos · 2012</span>
           <h3>A retirada de crucifixos das salas dos tribunais parece ter atendido a vontade do crucificado</h3>
@@ -428,7 +442,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 10 de abril de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2012-04-01" data-titulo="No dia da mentira, anistiaram a verdade... #desarquivandoBR">
+      <li class="item" data-temas="memoria" data-data="2012-04-01" data-titulo="No dia da mentira, anistiaram a verdade... #desarquivandoBR" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="no-dia-da-mentira-anistiaram-a-verdade-desarquivandobr.html">
           <span class="etiqueta">Memória · 2012</span>
           <h3>No dia da mentira, anistiaram a verdade... #desarquivandoBR</h3>
@@ -436,7 +450,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 1 de abril de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2012-03-28" data-titulo="Juventude se levanta contra a tortura, no Brasil">
+      <li class="item" data-temas="memoria" data-data="2012-03-28" data-titulo="Juventude se levanta contra a tortura, no Brasil" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="juventude-se-levanta-contra-a-tortura-no-brasil.html">
           <span class="etiqueta">Memória · 2012</span>
           <h3>Juventude se levanta contra a tortura, no Brasil</h3>
@@ -444,7 +458,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 28 de março de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2012-01-23" data-titulo="Arrogância de classe">
+      <li class="item" data-temas="direitos humanos" data-data="2012-01-23" data-titulo="Arrogância de classe" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="arrogancia-de-classe.html">
           <span class="etiqueta">Direitos humanos · 2012</span>
           <h3>Arrogância de classe</h3>
@@ -452,7 +466,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 23 de janeiro de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2012-01-21" data-titulo="O Brado Retumbante (ou O Berro Reacionário): qualquer semelhança é mera concidência (com o pensamento conservador brasileiro)">
+      <li class="item" data-temas="movimentos sociais" data-data="2012-01-21" data-titulo="O Brado Retumbante (ou O Berro Reacionário): qualquer semelhança é mera concidência (com o pensamento conservador brasileiro)" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="o-brado-retumbante-ou-o-berro-reacionario-qualquer.html">
           <span class="etiqueta">Movimentos sociais · 2012</span>
           <h3>O Brado Retumbante (ou O Berro Reacionário): qualquer semelhança é mera concidência (com o pensamento conservador brasileiro)</h3>
@@ -460,7 +474,7 @@
           <span class="item__ficha">Thiago Arruda · 21 de janeiro de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2012-01-19" data-titulo="Coluna do Jacques sobre a fome no Brasil">
+      <li class="item" data-temas="direitos humanos" data-data="2012-01-19" data-titulo="Coluna do Jacques sobre a fome no Brasil" data-tipo="formativo" data-ano="2012">
         <a class="item__link" href="coluna-do-jacques-sobre-a-fome-no-brasil.html">
           <span class="etiqueta">Direitos humanos · 2012</span>
           <h3>Coluna do Jacques sobre a fome no Brasil</h3>
@@ -468,7 +482,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 19 de janeiro de 2012</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-10-08" data-titulo=""Ditadura, Democracia e Resistência para Quem", série de debates em São Paulo">
+      <li class="item" data-temas="memoria" data-data="2011-10-08" data-titulo=""Ditadura, Democracia e Resistência para Quem", série de debates em São Paulo" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="ditadura-democracia-e-resistencia-para-quem-serie-de.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>"Ditadura, Democracia e Resistência para Quem", série de debates em São Paulo</h3>
@@ -476,7 +490,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 8 de outubro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-10-01" data-titulo="Nova seção Biblioteca AJUP-RJ">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-10-01" data-titulo="Nova seção Biblioteca AJUP-RJ" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="nova-secao-biblioteca-ajup-rj.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>Nova seção Biblioteca AJUP-RJ</h3>
@@ -484,7 +498,7 @@
           <span class="item__ficha">AdminblogueAJpopular · 1 de outubro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2011-09-22" data-titulo="Dandara">
+      <li class="item" data-temas="movimentos sociais" data-data="2011-09-22" data-titulo="Dandara" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="dandara.html">
           <span class="etiqueta">Movimentos sociais · 2011</span>
           <h3>Dandara</h3>
@@ -492,7 +506,7 @@
           <span class="item__ficha">AdminblogueAJpopular · 22 de setembro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-09-18" data-titulo="Crítica da ecologia política">
+      <li class="item" data-temas="teoria critica" data-data="2011-09-18" data-titulo="Crítica da ecologia política" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="critica-da-ecologia-politica.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Crítica da ecologia política</h3>
@@ -500,7 +514,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 18 de setembro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2011-09-12" data-titulo=""Luta pelos direitos do trabalho é hoje vital diante da crise cabal do capitalismo", entrevista com Ricardo Antunes">
+      <li class="item" data-temas="movimentos sociais" data-data="2011-09-12" data-titulo=""Luta pelos direitos do trabalho é hoje vital diante da crise cabal do capitalismo", entrevista com Ricardo Antunes" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="luta-pelos-direitos-do-trabalho-e-hoje-vital-diante-da.html">
           <span class="etiqueta">Movimentos sociais · 2011</span>
           <h3>"Luta pelos direitos do trabalho é hoje vital diante da crise cabal do capitalismo", entrevista com Ricardo Antunes</h3>
@@ -508,7 +522,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 12 de setembro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-09-09" data-titulo="Encontro da RENAP, em Fortaleza">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-09-09" data-titulo="Encontro da RENAP, em Fortaleza" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="encontro-da-renap-em-fortaleza.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>Encontro da RENAP, em Fortaleza</h3>
@@ -516,7 +530,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 9 de setembro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2011-09-09" data-titulo="Fé">
+      <li class="item" data-temas="movimentos sociais" data-data="2011-09-09" data-titulo="Fé" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="fe.html">
           <span class="etiqueta">Movimentos sociais · 2011</span>
           <h3>Fé</h3>
@@ -524,7 +538,7 @@
           <span class="item__ficha">Athanis Grego · 9 de setembro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-09-06" data-titulo="Carta aberta aos estudantes e acadêmicos do Brasil">
+      <li class="item" data-temas="memoria" data-data="2011-09-06" data-titulo="Carta aberta aos estudantes e acadêmicos do Brasil" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="carta-aberta-aos-estudantes-e-academicos-do-brasil.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Carta aberta aos estudantes e acadêmicos do Brasil</h3>
@@ -532,7 +546,7 @@
           <span class="item__ficha">Athanis Grego · 6 de setembro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-09-04" data-titulo="A revolução brasileira: cosmogonia de nossa ação cultural para a libertação">
+      <li class="item" data-temas="teoria critica" data-data="2011-09-04" data-titulo="A revolução brasileira: cosmogonia de nossa ação cultural para a libertação" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="a-revolucao-brasileira-cosmogonia-de-nossa-acao-cultural.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>A revolução brasileira: cosmogonia de nossa ação cultural para a libertação</h3>
@@ -540,7 +554,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 4 de setembro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-08-21" data-titulo="Seminário sobre constitucionalismo na América Latina">
+      <li class="item" data-temas="direitos humanos" data-data="2011-08-21" data-titulo="Seminário sobre constitucionalismo na América Latina" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="seminario-sobre-constitucionalismo-na-america-latina.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Seminário sobre constitucionalismo na América Latina</h3>
@@ -548,7 +562,7 @@
           <span class="item__ficha">AdminblogueAJpopular · 21 de agosto de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-08-09" data-titulo="Pierre Seghers: o mais célebre editor de poesia do século XX">
+      <li class="item" data-temas="memoria" data-data="2011-08-09" data-titulo="Pierre Seghers: o mais célebre editor de poesia do século XX" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="pierre-seghers-o-mais-celebre-editor-de-poesia-do-seculo-xx.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Pierre Seghers: o mais célebre editor de poesia do século XX</h3>
@@ -556,7 +570,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 9 de agosto de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-08-07" data-titulo="Justiça, uma canção de amor e liberdade">
+      <li class="item" data-temas="memoria" data-data="2011-08-07" data-titulo="Justiça, uma canção de amor e liberdade" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="justica-uma-cancao-de-amor-e-liberdade.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Justiça, uma canção de amor e liberdade</h3>
@@ -564,7 +578,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 7 de agosto de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-08-03" data-titulo="50 anos da "Campanha da legalidade": para uma reflexão sobre a história do direito no Brasil">
+      <li class="item" data-temas="memoria" data-data="2011-08-03" data-titulo="50 anos da "Campanha da legalidade": para uma reflexão sobre a história do direito no Brasil" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="50-anos-da-campanha-da-legalidade-para-uma-reflexao-sobre-a.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>50 anos da "Campanha da legalidade": para uma reflexão sobre a história do direito no Brasil</h3>
@@ -572,7 +586,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 3 de agosto de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2011-08-02" data-titulo="Editorial do Brasil de Fato denuncia "ataque do poder judiciário"">
+      <li class="item" data-temas="movimentos sociais" data-data="2011-08-02" data-titulo="Editorial do Brasil de Fato denuncia "ataque do poder judiciário"" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="editorial-do-brasil-de-fato-denuncia-ataque-do-poder.html">
           <span class="etiqueta">Movimentos sociais · 2011</span>
           <h3>Editorial do Brasil de Fato denuncia "ataque do poder judiciário"</h3>
@@ -580,7 +594,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 2 de agosto de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-07-31" data-titulo="Para um histórico da advocacia popular no Brasil">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-07-31" data-titulo="Para um histórico da advocacia popular no Brasil" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="para-um-historico-da-advocacia-popular-no-brasil.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>Para um histórico da advocacia popular no Brasil</h3>
@@ -588,7 +602,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 31 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-07-28" data-titulo="Desapropriação para instalação do Museu Histórico das Lutas Camponesas no Nordeste">
+      <li class="item" data-temas="memoria" data-data="2011-07-28" data-titulo="Desapropriação para instalação do Museu Histórico das Lutas Camponesas no Nordeste" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="desapropriacao-para-instalacao-do-museu-historico-das-lutas.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Desapropriação para instalação do Museu Histórico das Lutas Camponesas no Nordeste</h3>
@@ -596,7 +610,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 28 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-07-28" data-titulo="Júri Anghinoni – Decisão inédita garante justiça no caso de assassinato por milícia privada">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-07-28" data-titulo="Júri Anghinoni – Decisão inédita garante justiça no caso de assassinato por milícia privada" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="juri-anghinoni-decisao-inedita-garante-justica-no-caso-de.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>Júri Anghinoni – Decisão inédita garante justiça no caso de assassinato por milícia privada</h3>
@@ -604,7 +618,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 28 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-07-25" data-titulo="Rosas vermelhas à intensidade de Lyra Filho">
+      <li class="item" data-temas="teoria critica" data-data="2011-07-25" data-titulo="Rosas vermelhas à intensidade de Lyra Filho" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="rosas-vermelhas-a-intensidade-de-lyra-filho.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Rosas vermelhas à intensidade de Lyra Filho</h3>
@@ -612,7 +626,7 @@
           <span class="item__ficha">o que eu não vi hoje? (Humberto Góes) · 25 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-07-18" data-titulo="Mais uma defensora de direitos humanos presa: caso colombiano">
+      <li class="item" data-temas="direitos humanos" data-data="2011-07-18" data-titulo="Mais uma defensora de direitos humanos presa: caso colombiano" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="mais-uma-defensora-de-direitos-humanos-presa-caso-colombiano.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Mais uma defensora de direitos humanos presa: caso colombiano</h3>
@@ -620,7 +634,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 18 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2011-07-15" data-titulo="Encontro de Culturas da Chapada dos Viadeiros homenageia Darci Ribeiro">
+      <li class="item" data-temas="movimentos sociais" data-data="2011-07-15" data-titulo="Encontro de Culturas da Chapada dos Viadeiros homenageia Darci Ribeiro" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="encontro-de-culturas-da-chapada-dos-viadeiros-homenageia.html">
           <span class="etiqueta">Movimentos sociais · 2011</span>
           <h3>Encontro de Culturas da Chapada dos Viadeiros homenageia Darci Ribeiro</h3>
@@ -628,7 +642,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 15 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-07-15" data-titulo="Quando a insônia nos obriga a gritar.">
+      <li class="item" data-temas="direitos humanos" data-data="2011-07-15" data-titulo="Quando a insônia nos obriga a gritar." data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="quando-a-insonia-nos-obriga-a-gritar.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Quando a insônia nos obriga a gritar.</h3>
@@ -636,7 +650,7 @@
           <span class="item__ficha">Anônimo · 15 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-07-14" data-titulo="Texto sobre Sánchez Vázquez no Brasil de Fato">
+      <li class="item" data-temas="teoria critica" data-data="2011-07-14" data-titulo="Texto sobre Sánchez Vázquez no Brasil de Fato" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="texto-sobre-sanchez-vazquez-no-brasil-de-fato.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Texto sobre Sánchez Vázquez no Brasil de Fato</h3>
@@ -644,7 +658,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 14 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-07-10" data-titulo="Sánchez Vázquez: renovação marxista, utopia e estética">
+      <li class="item" data-temas="teoria critica" data-data="2011-07-10" data-titulo="Sánchez Vázquez: renovação marxista, utopia e estética" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="sanchez-vazquez-renovacao-marxista-utopia-e-estetica.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Sánchez Vázquez: renovação marxista, utopia e estética</h3>
@@ -652,7 +666,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 10 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-07-07" data-titulo="Por um corredor das idéias marginais, em São Leopoldo">
+      <li class="item" data-temas="direitos humanos" data-data="2011-07-07" data-titulo="Por um corredor das idéias marginais, em São Leopoldo" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="por-um-corredor-das-ideias-marginais-em-sao-leopoldo.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Por um corredor das idéias marginais, em São Leopoldo</h3>
@@ -660,7 +674,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 7 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-07-04" data-titulo="SAJU - uma história de extensão">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-07-04" data-titulo="SAJU - uma história de extensão" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="saju-uma-historia-de-extensao.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>SAJU - uma história de extensão</h3>
@@ -668,7 +682,7 @@
           <span class="item__ficha">Vladimir Luz · 4 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-07-03" data-titulo="AJP e o resgate de nossa latinidade">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-07-03" data-titulo="AJP e o resgate de nossa latinidade" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="ajp-e-o-resgate-de-nossa-latinidade.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>AJP e o resgate de nossa latinidade</h3>
@@ -676,7 +690,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 3 de julho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-06-26" data-titulo="Os direitos do orvalho: ou Da nossa obsessão pelo diálogo">
+      <li class="item" data-temas="memoria" data-data="2011-06-26" data-titulo="Os direitos do orvalho: ou Da nossa obsessão pelo diálogo" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="os-direitos-do-orvalho-ou-da-nossa-obsessao-pelo-dialogo.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Os direitos do orvalho: ou Da nossa obsessão pelo diálogo</h3>
@@ -684,7 +698,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 26 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-06-23" data-titulo="Dois patronos da crítica jurídica brasileira homenageados em Brasília">
+      <li class="item" data-temas="teoria critica" data-data="2011-06-23" data-titulo="Dois patronos da crítica jurídica brasileira homenageados em Brasília" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="dois-patronos-da-critica-juridica-brasileira-homenageados.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Dois patronos da crítica jurídica brasileira homenageados em Brasília</h3>
@@ -692,7 +706,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 23 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-06-17" data-titulo="Poesitando a Amazônia">
+      <li class="item" data-temas="direitos humanos" data-data="2011-06-17" data-titulo="Poesitando a Amazônia" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="poesitando-a-amazonia.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Poesitando a Amazônia</h3>
@@ -700,7 +714,7 @@
           <span class="item__ficha">Assis Oliveira · 17 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-06-12" data-titulo="Por um projeto de comunicação da AJP: contatos imediatos">
+      <li class="item" data-temas="teoria critica" data-data="2011-06-12" data-titulo="Por um projeto de comunicação da AJP: contatos imediatos" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Por um projeto de comunicação da AJP: contatos imediatos</h3>
@@ -708,7 +722,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 12 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2011-06-10" data-titulo="Mostra O Que Ninguém Vê">
+      <li class="item" data-temas="educacao popular" data-data="2011-06-10" data-titulo="Mostra O Que Ninguém Vê" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="mostra-o-que-ninguem-ve-3.html">
           <span class="etiqueta">Educação popular · 2011</span>
           <h3>Mostra O Que Ninguém Vê</h3>
@@ -716,7 +730,7 @@
           <span class="item__ficha">Phelipe Bezerra Braga · 10 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-06-09" data-titulo="Praticar, refletir e registrar">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-06-09" data-titulo="Praticar, refletir e registrar" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="praticar-refletir-e-registrar.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>Praticar, refletir e registrar</h3>
@@ -724,7 +738,7 @@
           <span class="item__ficha">Assis Oliveira · 9 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2011-06-08" data-titulo="CORAJE e música!">
+      <li class="item" data-temas="educacao popular" data-data="2011-06-08" data-titulo="CORAJE e música!" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="coraje-e-musica.html">
           <span class="etiqueta">Educação popular · 2011</span>
           <h3>CORAJE e música!</h3>
@@ -732,7 +746,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 8 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-06-07" data-titulo="Que vergonha!">
+      <li class="item" data-temas="direitos humanos" data-data="2011-06-07" data-titulo="Que vergonha!" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="que-vergonha.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Que vergonha!</h3>
@@ -740,7 +754,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 7 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-06-06" data-titulo="Repatriação do acervo do "Brasil: nunca mais"">
+      <li class="item" data-temas="memoria" data-data="2011-06-06" data-titulo="Repatriação do acervo do "Brasil: nunca mais"" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="repatriacao-do-acervo-do-brasil-nunca-mais.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Repatriação do acervo do "Brasil: nunca mais"</h3>
@@ -748,7 +762,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 6 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-06-04" data-titulo="Registro histórico e AJP: um vídeo de CORAJE">
+      <li class="item" data-temas="memoria" data-data="2011-06-04" data-titulo="Registro histórico e AJP: um vídeo de CORAJE" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="registro-historico-e-ajp-um-video-de-coraje.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Registro histórico e AJP: um vídeo de CORAJE</h3>
@@ -756,7 +770,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 4 de junho de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-05-30" data-titulo="Estudos em homenagem a Roberto Lyra Filho, em Franca">
+      <li class="item" data-temas="teoria critica" data-data="2011-05-30" data-titulo="Estudos em homenagem a Roberto Lyra Filho, em Franca" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="estudos-em-homenagem-a-roberto-lyra-filho-em-franca.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Estudos em homenagem a Roberto Lyra Filho, em Franca</h3>
@@ -764,7 +778,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 30 de maio de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-05-29" data-titulo="A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-05-29" data-titulo="A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="a-vida-nua-concreta-e-a-autoconsciencia-latino-americana.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>A vida nua concreta e a autoconsciência latino-americana: reflexão a partir de um poema de resistência</h3>
@@ -772,7 +786,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 29 de maio de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-05-27" data-titulo="Mostra o que ninguém vê">
+      <li class="item" data-temas="direitos humanos" data-data="2011-05-27" data-titulo="Mostra o que ninguém vê" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="mostra-o-que-ninguem-ve-6.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Mostra o que ninguém vê</h3>
@@ -780,7 +794,7 @@
           <span class="item__ficha">Phelipe Bezerra Braga · 27 de maio de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-05-16" data-titulo="I Seminário Nacional de Direitos Humanos da FENED – Direito eMovimento">
+      <li class="item" data-temas="direitos humanos" data-data="2011-05-16" data-titulo="I Seminário Nacional de Direitos Humanos da FENED – Direito eMovimento" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="i-seminario-nacional-de-direitos-humanos-da-fened-direito.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>I Seminário Nacional de Direitos Humanos da FENED – Direito eMovimento</h3>
@@ -788,7 +802,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 16 de maio de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-05-04" data-titulo="Negros e índios na invenção do Brasil">
+      <li class="item" data-temas="direitos humanos" data-data="2011-05-04" data-titulo="Negros e índios na invenção do Brasil" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="negros-e-indios-na-invencao-do-brasil.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Negros e índios na invenção do Brasil</h3>
@@ -796,7 +810,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 4 de maio de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-04-24" data-titulo="Lembrando quatro advogados populares assassinados: símbolos da resistência jurídica">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-04-24" data-titulo="Lembrando quatro advogados populares assassinados: símbolos da resistência jurídica" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="lembrando-quatro-advogados-populares-assassinados-simbolos.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>Lembrando quatro advogados populares assassinados: símbolos da resistência jurídica</h3>
@@ -804,7 +818,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 24 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-04-21" data-titulo="Cineclube AJP: "Narradores de Javé"">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-04-21" data-titulo="Cineclube AJP: "Narradores de Javé"" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="cineclube-ajp-narradores-de-jave.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>Cineclube AJP: "Narradores de Javé"</h3>
@@ -812,7 +826,7 @@
           <span class="item__ficha">Assis Oliveira · 21 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-04-17" data-titulo="A guerrilha do Caparaó: um matemático, um jurista e muitos militares">
+      <li class="item" data-temas="memoria" data-data="2011-04-17" data-titulo="A guerrilha do Caparaó: um matemático, um jurista e muitos militares" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="a-guerrilha-do-caparao-um-matematico-um-jurista-e-muitos.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>A guerrilha do Caparaó: um matemático, um jurista e muitos militares</h3>
@@ -820,7 +834,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 17 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2011-04-15" data-titulo="América Latina: experiências de um continente - VI Encontro Regional de Estudantes de Agronomia">
+      <li class="item" data-temas="educacao popular" data-data="2011-04-15" data-titulo="América Latina: experiências de um continente - VI Encontro Regional de Estudantes de Agronomia" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="america-latina-experiencias-de-um-continente-vi-encontro.html">
           <span class="etiqueta">Educação popular · 2011</span>
           <h3>América Latina: experiências de um continente - VI Encontro Regional de Estudantes de Agronomia</h3>
@@ -828,7 +842,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 15 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-04-13" data-titulo="Procura-se! E o povo brasileiro pergunta: "quem torturou? quem matou?"">
+      <li class="item" data-temas="memoria" data-data="2011-04-13" data-titulo="Procura-se! E o povo brasileiro pergunta: "quem torturou? quem matou?"" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="procura-se-e-o-povo-brasileiro-pergunta-quem-torturou-quem.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Procura-se! E o povo brasileiro pergunta: "quem torturou? quem matou?"</h3>
@@ -836,7 +850,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 13 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-04-12" data-titulo="Direito e antropologia: III Seminário indígena - história e atualidade">
+      <li class="item" data-temas="direitos humanos" data-data="2011-04-12" data-titulo="Direito e antropologia: III Seminário indígena - história e atualidade" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="direito-e-antropologia-iii-seminario-indigena-historia-e.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Direito e antropologia: III Seminário indígena - história e atualidade</h3>
@@ -844,7 +858,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 12 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-04-12" data-titulo="Sobre o Bairro 23 de Janeiro.">
+      <li class="item" data-temas="memoria" data-data="2011-04-12" data-titulo="Sobre o Bairro 23 de Janeiro." data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="sobre-o-bairro-23-de-janeiro.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Sobre o Bairro 23 de Janeiro.</h3>
@@ -852,7 +866,7 @@
           <span class="item__ficha">Thiago Arruda · 12 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-04-10" data-titulo="A assessoria jurídica popular no 1º Encontro Estadual dos Blogueiros Progressistas no Paraná">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-04-10" data-titulo="A assessoria jurídica popular no 1º Encontro Estadual dos Blogueiros Progressistas no Paraná" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="a-assessoria-juridica-popular-no-1o-encontro-estadual-dos.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>A assessoria jurídica popular no 1º Encontro Estadual dos Blogueiros Progressistas no Paraná</h3>
@@ -860,7 +874,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 10 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-04-07" data-titulo="São sangue, são lágrimas">
+      <li class="item" data-temas="memoria" data-data="2011-04-07" data-titulo="São sangue, são lágrimas" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="sao-sangue-sao-lagrimas.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>São sangue, são lágrimas</h3>
@@ -868,7 +882,7 @@
           <span class="item__ficha">m. matos · 7 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-04-03" data-titulo="Contra o legado do "ministério do silêncio": a longa marcha de um golpe de 47 anos">
+      <li class="item" data-temas="memoria" data-data="2011-04-03" data-titulo="Contra o legado do "ministério do silêncio": a longa marcha de um golpe de 47 anos" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="contra-o-legado-do-ministerio-do-silencio-a-longa-marcha-de.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Contra o legado do "ministério do silêncio": a longa marcha de um golpe de 47 anos</h3>
@@ -876,7 +890,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 3 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-04-02" data-titulo="MUCA denuncia campanha de desarticulação do NUT-Defensoria Pública/RJ">
+      <li class="item" data-temas="direitos humanos" data-data="2011-04-02" data-titulo="MUCA denuncia campanha de desarticulação do NUT-Defensoria Pública/RJ" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="muca-denuncia-campanha-de-desarticulacao-do-nut-defensoria.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>MUCA denuncia campanha de desarticulação do NUT-Defensoria Pública/RJ</h3>
@@ -884,7 +898,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 2 de abril de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-03-31" data-titulo="Versos d'Arak">
+      <li class="item" data-temas="memoria" data-data="2011-03-31" data-titulo="Versos d'Arak" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="versos-d-arak.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Versos d'Arak</h3>
@@ -892,7 +906,7 @@
           <span class="item__ficha">Assis Oliveira · 31 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-03-27" data-titulo="Justiça e política capturadas pelo direito: um rapto moderno">
+      <li class="item" data-temas="teoria critica" data-data="2011-03-27" data-titulo="Justiça e política capturadas pelo direito: um rapto moderno" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="justica-e-politica-capturadas-pelo-direito-um-rapto-moderno.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Justiça e política capturadas pelo direito: um rapto moderno</h3>
@@ -900,7 +914,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 27 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-03-24" data-titulo="Injustiça de transição na UnB">
+      <li class="item" data-temas="memoria" data-data="2011-03-24" data-titulo="Injustiça de transição na UnB" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="injustica-de-transicao-na-unb.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Injustiça de transição na UnB</h3>
@@ -908,7 +922,7 @@
           <span class="item__ficha">Diego A. Diehl · 24 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-03-24" data-titulo="VIVE LA COMMUNE! 140 anos da comuna de Paris">
+      <li class="item" data-temas="direitos humanos" data-data="2011-03-24" data-titulo="VIVE LA COMMUNE! 140 anos da comuna de Paris" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="vive-la-commune-140-anos-da-comuna-de-paris.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>VIVE LA COMMUNE! 140 anos da comuna de Paris</h3>
@@ -916,7 +930,7 @@
           <span class="item__ficha">Adriano · 24 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-03-23" data-titulo="A cara da mentira: declaração da Rede Popular Catarinense de Comunicação">
+      <li class="item" data-temas="memoria" data-data="2011-03-23" data-titulo="A cara da mentira: declaração da Rede Popular Catarinense de Comunicação" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="a-cara-da-mentira-declaracao-da-rede-popular-catarinense-de.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>A cara da mentira: declaração da Rede Popular Catarinense de Comunicação</h3>
@@ -924,7 +938,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 23 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2011-03-20" data-titulo="A divisão social do trabalho intelectual: perplexidades antropológicas">
+      <li class="item" data-temas="educacao popular" data-data="2011-03-20" data-titulo="A divisão social do trabalho intelectual: perplexidades antropológicas" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="a-divisao-social-do-trabalho-intelectual-perplexidades.html">
           <span class="etiqueta">Educação popular · 2011</span>
           <h3>A divisão social do trabalho intelectual: perplexidades antropológicas</h3>
@@ -932,7 +946,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 20 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-03-17" data-titulo="Seminário "Memórias em Movimento: Juventude, Cultura e Política"">
+      <li class="item" data-temas="memoria" data-data="2011-03-17" data-titulo="Seminário "Memórias em Movimento: Juventude, Cultura e Política"" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="seminario-memorias-em-movimento-juventude-cultura-e-politica.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Seminário "Memórias em Movimento: Juventude, Cultura e Política"</h3>
@@ -940,7 +954,7 @@
           <span class="item__ficha">Sabrine Gasperin · 17 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2011-03-16" data-titulo="Thomaz Miguel Pressburger, presente!">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2011-03-16" data-titulo="Thomaz Miguel Pressburger, presente!" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="thomaz-miguel-pressburger-presente.html">
           <span class="etiqueta">Assessoria jurídica popular · 2011</span>
           <h3>Thomaz Miguel Pressburger, presente!</h3>
@@ -948,7 +962,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 16 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-03-14" data-titulo=""E todo pranto forma a imagem do homem": rápidas notas sobre Japão, Haiti, MAD e MAB">
+      <li class="item" data-temas="direitos humanos" data-data="2011-03-14" data-titulo=""E todo pranto forma a imagem do homem": rápidas notas sobre Japão, Haiti, MAD e MAB" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="e-todo-pranto-forma-a-imagem-do-homem-rapidas-notas-sobre.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>"E todo pranto forma a imagem do homem": rápidas notas sobre Japão, Haiti, MAD e MAB</h3>
@@ -956,7 +970,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 14 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-03-09" data-titulo="Reflexões a partir da leitura de "Balaios e bem-te-vis: a guerrilha sertaneja"">
+      <li class="item" data-temas="memoria" data-data="2011-03-09" data-titulo="Reflexões a partir da leitura de "Balaios e bem-te-vis: a guerrilha sertaneja"" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="reflexoes-a-partir-da-leitura-de-balaios-e-bem-te-vis-a.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Reflexões a partir da leitura de "Balaios e bem-te-vis: a guerrilha sertaneja"</h3>
@@ -964,7 +978,7 @@
           <span class="item__ficha">A dona da loja de desejos · 9 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-03-09" data-titulo="Saindo definitivamente de cima de muro...">
+      <li class="item" data-temas="direitos humanos" data-data="2011-03-09" data-titulo="Saindo definitivamente de cima de muro..." data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="saindo-definitivamente-de-cima-de-muro.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Saindo definitivamente de cima de muro...</h3>
@@ -972,7 +986,7 @@
           <span class="item__ficha">o que eu não vi hoje? (Humberto Góes) · 9 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-03-06" data-titulo="As mulheres, sua resistência e a totalidade: ou quando as compositoras femininas compõem sua própria história">
+      <li class="item" data-temas="direitos humanos" data-data="2011-03-06" data-titulo="As mulheres, sua resistência e a totalidade: ou quando as compositoras femininas compõem sua própria história" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="as-mulheres-sua-resistencia-e-a-totalidade-ou-quando-as.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>As mulheres, sua resistência e a totalidade: ou quando as compositoras femininas compõem sua própria história</h3>
@@ -980,7 +994,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 6 de março de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-02-27" data-titulo="Rui Mauro Maríni, a teoria marxista da dependência e a função pedagógica do direito">
+      <li class="item" data-temas="teoria critica" data-data="2011-02-27" data-titulo="Rui Mauro Maríni, a teoria marxista da dependência e a função pedagógica do direito" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="rui-mauro-marini-a-teoria-marxista-da-dependencia-e-a.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>Rui Mauro Maríni, a teoria marxista da dependência e a função pedagógica do direito</h3>
@@ -988,7 +1002,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 27 de fevereiro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-02-20" data-titulo="A revolução do Jasmim e a praça Libertação: o estado de rebelião revolucionária na Tunísia e no Egito">
+      <li class="item" data-temas="memoria" data-data="2011-02-20" data-titulo="A revolução do Jasmim e a praça Libertação: o estado de rebelião revolucionária na Tunísia e no Egito" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="a-revolucao-do-jasmim-e-a-praca-libertacao-o-estado-de.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>A revolução do Jasmim e a praça Libertação: o estado de rebelião revolucionária na Tunísia e no Egito</h3>
@@ -996,7 +1010,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 20 de fevereiro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2011-02-18" data-titulo="As veias abertas da Amazônia: uma contribuição ao debate">
+      <li class="item" data-temas="movimentos sociais" data-data="2011-02-18" data-titulo="As veias abertas da Amazônia: uma contribuição ao debate" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="as-veias-abertas-da-amazonia-uma-contribuicao-ao-debate.html">
           <span class="etiqueta">Movimentos sociais · 2011</span>
           <h3>As veias abertas da Amazônia: uma contribuição ao debate</h3>
@@ -1004,7 +1018,7 @@
           <span class="item__ficha">Diego A. Diehl · 18 de fevereiro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2011-02-16" data-titulo="Ano recomeça com nova linguagem">
+      <li class="item" data-temas="direitos humanos" data-data="2011-02-16" data-titulo="Ano recomeça com nova linguagem" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="ano-recomeca-com-nova-linguagem.html">
           <span class="etiqueta">Direitos humanos · 2011</span>
           <h3>Ano recomeça com nova linguagem</h3>
@@ -1012,7 +1026,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 16 de fevereiro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2011-02-13" data-titulo="A questão agrária na América Latina: questionamentos iniciais">
+      <li class="item" data-temas="teoria critica" data-data="2011-02-13" data-titulo="A questão agrária na América Latina: questionamentos iniciais" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="a-questao-agraria-na-america-latina-questionamentos-iniciais.html">
           <span class="etiqueta">Teoria crítica · 2011</span>
           <h3>A questão agrária na América Latina: questionamentos iniciais</h3>
@@ -1020,7 +1034,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 13 de fevereiro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-02-06" data-titulo="Uma história de Domingos: um naco de história do direito no Brasil">
+      <li class="item" data-temas="memoria" data-data="2011-02-06" data-titulo="Uma história de Domingos: um naco de história do direito no Brasil" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="uma-historia-de-domingos-um-naco-de-historia-do-direito-no.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Uma história de Domingos: um naco de história do direito no Brasil</h3>
@@ -1028,7 +1042,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 6 de fevereiro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2011-01-30" data-titulo="Amílcar Cabral, as formas da resistência e o suicídio de classe">
+      <li class="item" data-temas="educacao popular" data-data="2011-01-30" data-titulo="Amílcar Cabral, as formas da resistência e o suicídio de classe" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="amilcar-cabral-as-formas-da-resistencia-e-o-suicidio-de.html">
           <span class="etiqueta">Educação popular · 2011</span>
           <h3>Amílcar Cabral, as formas da resistência e o suicídio de classe</h3>
@@ -1036,7 +1050,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 30 de janeiro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2011-01-14" data-titulo="Manifesto do Conselho Popular contra ditadura aos pobres">
+      <li class="item" data-temas="memoria" data-data="2011-01-14" data-titulo="Manifesto do Conselho Popular contra ditadura aos pobres" data-tipo="formativo" data-ano="2011">
         <a class="item__link" href="manifesto-do-conselho-popular-contra-ditadura-aos-pobres.html">
           <span class="etiqueta">Memória · 2011</span>
           <h3>Manifesto do Conselho Popular contra ditadura aos pobres</h3>
@@ -1044,7 +1058,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 14 de janeiro de 2011</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2010-12-28" data-titulo="Oração ignominiosa de uma habitante da escuridão">
+      <li class="item" data-temas="educacao popular" data-data="2010-12-28" data-titulo="Oração ignominiosa de uma habitante da escuridão" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="oracao-ignominiosa-de-uma-habitante-da-escuridao.html">
           <span class="etiqueta">Educação popular · 2010</span>
           <h3>Oração ignominiosa de uma habitante da escuridão</h3>
@@ -1052,7 +1066,7 @@
           <span class="item__ficha">A dona da loja de desejos · 28 de dezembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2010-12-21" data-titulo="Uma contribuição de Miguel Baldez">
+      <li class="item" data-temas="movimentos sociais" data-data="2010-12-21" data-titulo="Uma contribuição de Miguel Baldez" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="uma-contribuicao-de-miguel-baldez.html">
           <span class="etiqueta">Movimentos sociais · 2010</span>
           <h3>Uma contribuição de Miguel Baldez</h3>
@@ -1060,7 +1074,7 @@
           <span class="item__ficha">Betânia Alfonsin · 21 de dezembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2010-12-19" data-titulo="Considerações sobre o "popular": direito e cultura">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2010-12-19" data-titulo="Considerações sobre o "popular": direito e cultura" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="consideracoes-sobre-o-popular-direito-e-cultura.html">
           <span class="etiqueta">Assessoria jurídica popular · 2010</span>
           <h3>Considerações sobre o "popular": direito e cultura</h3>
@@ -1068,7 +1082,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 19 de dezembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2010-12-16" data-titulo="Com tristeza, Luis, adeus!">
+      <li class="item" data-temas="teoria critica" data-data="2010-12-16" data-titulo="Com tristeza, Luis, adeus!" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="com-tristeza-luis-adeus.html">
           <span class="etiqueta">Teoria crítica · 2010</span>
           <h3>Com tristeza, Luis, adeus!</h3>
@@ -1076,7 +1090,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 16 de dezembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2010-12-05" data-titulo="Universidade popular na América Latina (3)">
+      <li class="item" data-temas="educacao popular" data-data="2010-12-05" data-titulo="Universidade popular na América Latina (3)" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="universidade-popular-na-america-latina-3.html">
           <span class="etiqueta">Educação popular · 2010</span>
           <h3>Universidade popular na América Latina (3)</h3>
@@ -1084,7 +1098,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 5 de dezembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2010-11-30" data-titulo="Defenda a defensoria pública!: para banir um direito sonegado">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2010-11-30" data-titulo="Defenda a defensoria pública!: para banir um direito sonegado" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="defenda-a-defensoria-publica-para-banir-um-direito-sonegado.html">
           <span class="etiqueta">Assessoria jurídica popular · 2010</span>
           <h3>Defenda a defensoria pública!: para banir um direito sonegado</h3>
@@ -1092,7 +1106,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 30 de novembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-11-23" data-titulo="CHÃO DE FÁBRICA E DOUTORES (Da série Memórias)">
+      <li class="item" data-temas="memoria" data-data="2010-11-23" data-titulo="CHÃO DE FÁBRICA E DOUTORES (Da série Memórias)" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="chao-de-fabrica-e-doutores-da-serie-memorias.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>CHÃO DE FÁBRICA E DOUTORES (Da série Memórias)</h3>
@@ -1100,7 +1114,7 @@
           <span class="item__ficha">Vladimir Luz · 23 de novembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2010-11-10" data-titulo="Relatos de um jovem professor (1)">
+      <li class="item" data-temas="educacao popular" data-data="2010-11-10" data-titulo="Relatos de um jovem professor (1)" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="relatos-de-um-jovem-professor-1.html">
           <span class="etiqueta">Educação popular · 2010</span>
           <h3>Relatos de um jovem professor (1)</h3>
@@ -1108,7 +1122,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 10 de novembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2010-11-07" data-titulo=""A Internacional" e o direito: notas sobre a ludicidade revolucionária">
+      <li class="item" data-temas="teoria critica" data-data="2010-11-07" data-titulo=""A Internacional" e o direito: notas sobre a ludicidade revolucionária" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="a-internacional-e-o-direito-notas-sobre-a-ludicidade.html">
           <span class="etiqueta">Teoria crítica · 2010</span>
           <h3>"A Internacional" e o direito: notas sobre a ludicidade revolucionária</h3>
@@ -1116,7 +1130,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 7 de novembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2010-11-06" data-titulo="Cinema e Luta no Campo">
+      <li class="item" data-temas="movimentos sociais" data-data="2010-11-06" data-titulo="Cinema e Luta no Campo" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="cinema-e-luta-no-campo.html">
           <span class="etiqueta">Movimentos sociais · 2010</span>
           <h3>Cinema e Luta no Campo</h3>
@@ -1124,7 +1138,7 @@
           <span class="item__ficha">Phelipe Bezerra Braga · 6 de novembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-11-03" data-titulo="Direito e ditadura militar no Brasil">
+      <li class="item" data-temas="memoria" data-data="2010-11-03" data-titulo="Direito e ditadura militar no Brasil" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="direito-e-ditadura-militar-no-brasil.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Direito e ditadura militar no Brasil</h3>
@@ -1132,7 +1146,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 3 de novembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-10-27" data-titulo="PET Direito UFSC aborda o Direito e a Ditadura">
+      <li class="item" data-temas="memoria" data-data="2010-10-27" data-titulo="PET Direito UFSC aborda o Direito e a Ditadura" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="pet-direito-ufsc-aborda-o-direito-e-a-ditadura.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>PET Direito UFSC aborda o Direito e a Ditadura</h3>
@@ -1140,7 +1154,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 27 de outubro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2010-10-24" data-titulo="Os sujeitos históricos da transformação: organização político-jurídica e antropologia">
+      <li class="item" data-temas="educacao popular" data-data="2010-10-24" data-titulo="Os sujeitos históricos da transformação: organização político-jurídica e antropologia" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="os-sujeitos-historicos-da-transformacao-organizacao.html">
           <span class="etiqueta">Educação popular · 2010</span>
           <h3>Os sujeitos históricos da transformação: organização político-jurídica e antropologia</h3>
@@ -1148,7 +1162,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 24 de outubro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-10-11" data-titulo="O dia 9, o dia 10, o dia 11 e o dia 12...">
+      <li class="item" data-temas="memoria" data-data="2010-10-11" data-titulo="O dia 9, o dia 10, o dia 11 e o dia 12..." data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="o-dia-9-o-dia-10-o-dia-11-e-o-dia-12.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>O dia 9, o dia 10, o dia 11 e o dia 12...</h3>
@@ -1156,7 +1170,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 11 de outubro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="teoria critica" data-data="2010-10-07" data-titulo="Captura Críptica - novo volume e chamada para artigos">
+      <li class="item" data-temas="teoria critica" data-data="2010-10-07" data-titulo="Captura Críptica - novo volume e chamada para artigos" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="captura-criptica-novo-volume-e-chamada-para-artigos.html">
           <span class="etiqueta">Teoria crítica · 2010</span>
           <h3>Captura Críptica - novo volume e chamada para artigos</h3>
@@ -1164,7 +1178,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 7 de outubro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-09-23" data-titulo="DÚVIDA INSANÁVEL: COMO DEVE SER PARA UM MINISTRO DO STF CONVIVER COM O PODER DE MUDAR A HISTÓRIA E A CULPA DE NÃO TÊ-LO FEITO?">
+      <li class="item" data-temas="memoria" data-data="2010-09-23" data-titulo="DÚVIDA INSANÁVEL: COMO DEVE SER PARA UM MINISTRO DO STF CONVIVER COM O PODER DE MUDAR A HISTÓRIA E A CULPA DE NÃO TÊ-LO FEITO?" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="duvida-insanavel-como-deve-ser-para-um-ministro-do-stf.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>DÚVIDA INSANÁVEL: COMO DEVE SER PARA UM MINISTRO DO STF CONVIVER COM O PODER DE MUDAR A HISTÓRIA E A CULPA DE NÃO TÊ-LO FEITO?</h3>
@@ -1172,7 +1186,7 @@
           <span class="item__ficha">o que eu não vi hoje? (Humberto Góes) · 23 de setembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2010-09-12" data-titulo="O onze-de-setembro e a abertura das grandes alamedas">
+      <li class="item" data-temas="educacao popular" data-data="2010-09-12" data-titulo="O onze-de-setembro e a abertura das grandes alamedas" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="o-onze-de-setembro-e-a-abertura-das-grandes-alamedas.html">
           <span class="etiqueta">Educação popular · 2010</span>
           <h3>O onze-de-setembro e a abertura das grandes alamedas</h3>
@@ -1180,7 +1194,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 12 de setembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2010-09-07" data-titulo="O bandido que sabia latim também sabia de música">
+      <li class="item" data-temas="educacao popular" data-data="2010-09-07" data-titulo="O bandido que sabia latim também sabia de música" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="o-bandido-que-sabia-latim-tambem-sabia-de-musica.html">
           <span class="etiqueta">Educação popular · 2010</span>
           <h3>O bandido que sabia latim também sabia de música</h3>
@@ -1188,7 +1202,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 7 de setembro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-08-11" data-titulo="Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR">
+      <li class="item" data-temas="memoria" data-data="2010-08-11" data-titulo="Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="cidadania-e-educacao-historica-perspectivas-de-alunos-e.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Cidadania e Educação Histórica: Perspectivas de alunos e professores do Município de Araucária-PR</h3>
@@ -1196,7 +1210,7 @@
           <span class="item__ficha">ivan Furmann · 11 de agosto de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-07-30" data-titulo="Novo livro de Direito Urbanístico">
+      <li class="item" data-temas="memoria" data-data="2010-07-30" data-titulo="Novo livro de Direito Urbanístico" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="novo-livro-de-direito-urbanistico.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Novo livro de Direito Urbanístico</h3>
@@ -1204,7 +1218,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 30 de julho de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2010-07-25" data-titulo="Quem planta cultura colhe revolução">
+      <li class="item" data-temas="educacao popular" data-data="2010-07-25" data-titulo="Quem planta cultura colhe revolução" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="quem-planta-cultura-colhe-revolucao-2.html">
           <span class="etiqueta">Educação popular · 2010</span>
           <h3>Quem planta cultura colhe revolução</h3>
@@ -1212,7 +1226,7 @@
           <span class="item__ficha">Phelipe Bezerra Braga · 25 de julho de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-07-21" data-titulo="Poema em homenagem a Eugênio Lyra">
+      <li class="item" data-temas="memoria" data-data="2010-07-21" data-titulo="Poema em homenagem a Eugênio Lyra" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="poema-em-homenagem-a-eugenio-lyra.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Poema em homenagem a Eugênio Lyra</h3>
@@ -1220,7 +1234,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 21 de julho de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2010-07-12" data-titulo="Notícias do Front (ou da Fronteira)">
+      <li class="item" data-temas="direitos humanos" data-data="2010-07-12" data-titulo="Notícias do Front (ou da Fronteira)" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="noticias-do-front-ou-da-fronteira-4.html">
           <span class="etiqueta">Direitos humanos · 2010</span>
           <h3>Notícias do Front (ou da Fronteira)</h3>
@@ -1228,7 +1242,7 @@
           <span class="item__ficha">Assis Oliveira · 12 de julho de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-05-24" data-titulo="A Lição de Juruti Velho">
+      <li class="item" data-temas="memoria" data-data="2010-05-24" data-titulo="A Lição de Juruti Velho" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="a-licao-de-juruti-velho.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>A Lição de Juruti Velho</h3>
@@ -1236,7 +1250,7 @@
           <span class="item__ficha">roberta cunha · 24 de maio de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-04-27" data-titulo="A anistia e a AJURIS">
+      <li class="item" data-temas="memoria" data-data="2010-04-27" data-titulo="A anistia e a AJURIS" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="a-anistia-e-a-ajuris.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>A anistia e a AJURIS</h3>
@@ -1244,7 +1258,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 27 de abril de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2010-04-24" data-titulo="Saga das contradições latino-americanas: estado de exceção paraguaio">
+      <li class="item" data-temas="direitos humanos" data-data="2010-04-24" data-titulo="Saga das contradições latino-americanas: estado de exceção paraguaio" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="saga-das-contradicoes-latino-americanas-estado-de-excecao.html">
           <span class="etiqueta">Direitos humanos · 2010</span>
           <h3>Saga das contradições latino-americanas: estado de exceção paraguaio</h3>
@@ -1252,7 +1266,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 24 de abril de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2010-04-15" data-titulo="As ocupações e o vermelho das coisas">
+      <li class="item" data-temas="movimentos sociais" data-data="2010-04-15" data-titulo="As ocupações e o vermelho das coisas" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="as-ocupacoes-e-o-vermelho-das-coisas.html">
           <span class="etiqueta">Movimentos sociais · 2010</span>
           <h3>As ocupações e o vermelho das coisas</h3>
@@ -1260,7 +1274,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 15 de abril de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-04-11" data-titulo="Adeus Sete Quedas, adeus Ivo Rodrigues">
+      <li class="item" data-temas="memoria" data-data="2010-04-11" data-titulo="Adeus Sete Quedas, adeus Ivo Rodrigues" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="adeus-sete-quedas-adeus-ivo-rodrigues.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Adeus Sete Quedas, adeus Ivo Rodrigues</h3>
@@ -1268,7 +1282,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 11 de abril de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-04-08" data-titulo="Cultura negra: história e música">
+      <li class="item" data-temas="memoria" data-data="2010-04-08" data-titulo="Cultura negra: história e música" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="cultura-negra-historia-e-musica.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Cultura negra: história e música</h3>
@@ -1276,7 +1290,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 8 de abril de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2010-03-24" data-titulo="Uno más para Nunca Más">
+      <li class="item" data-temas="direitos humanos" data-data="2010-03-24" data-titulo="Uno más para Nunca Más" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="uno-mas-para-nunca-mas.html">
           <span class="etiqueta">Direitos humanos · 2010</span>
           <h3>Uno más para Nunca Más</h3>
@@ -1284,7 +1298,7 @@
           <span class="item__ficha">roberta cunha · 24 de março de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2010-03-22" data-titulo="Mais sobre o dia da mulher e o feminismo">
+      <li class="item" data-temas="direitos humanos" data-data="2010-03-22" data-titulo="Mais sobre o dia da mulher e o feminismo" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="mais-sobre-o-dia-da-mulher-e-o-feminismo.html">
           <span class="etiqueta">Direitos humanos · 2010</span>
           <h3>Mais sobre o dia da mulher e o feminismo</h3>
@@ -1292,7 +1306,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 22 de março de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-03-06" data-titulo=""Monólogo" do Poeta do Povo e da Mocidade">
+      <li class="item" data-temas="memoria" data-data="2010-03-06" data-titulo=""Monólogo" do Poeta do Povo e da Mocidade" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="monologo-do-poeta-do-povo-e-da-mocidade.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>"Monólogo" do Poeta do Povo e da Mocidade</h3>
@@ -1300,7 +1314,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 6 de março de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="direitos humanos" data-data="2010-02-27" data-titulo="80 anos do Miguel Baldez!!">
+      <li class="item" data-temas="direitos humanos" data-data="2010-02-27" data-titulo="80 anos do Miguel Baldez!!" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="80-anos-do-miguel-baldez.html">
           <span class="etiqueta">Direitos humanos · 2010</span>
           <h3>80 anos do Miguel Baldez!!</h3>
@@ -1308,7 +1322,7 @@
           <span class="item__ficha">Betânia Alfonsin · 27 de fevereiro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-02-18" data-titulo="Vídeo com palestra do Enrique Dussel">
+      <li class="item" data-temas="memoria" data-data="2010-02-18" data-titulo="Vídeo com palestra do Enrique Dussel" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="video-com-palestra-do-enrique-dussel.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Vídeo com palestra do Enrique Dussel</h3>
@@ -1316,7 +1330,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 18 de fevereiro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2010-01-20" data-titulo="Entrevista Leandro Scalabrin na Caros Amigos">
+      <li class="item" data-temas="movimentos sociais" data-data="2010-01-20" data-titulo="Entrevista Leandro Scalabrin na Caros Amigos" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="entrevista-leandro-scalabrin-na-caros-amigos.html">
           <span class="etiqueta">Movimentos sociais · 2010</span>
           <h3>Entrevista Leandro Scalabrin na Caros Amigos</h3>
@@ -1324,7 +1338,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 20 de janeiro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-01-19" data-titulo="PNDH 3: Por que mudar? - Da Revista Carta Maior">
+      <li class="item" data-temas="memoria" data-data="2010-01-19" data-titulo="PNDH 3: Por que mudar? - Da Revista Carta Maior" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="pndh-3-por-que-mudar-da-revista-carta-maior.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>PNDH 3: Por que mudar? - Da Revista Carta Maior</h3>
@@ -1332,7 +1346,7 @@
           <span class="item__ficha">o que eu não vi hoje? (Humberto Góes) · 19 de janeiro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2010-01-13" data-titulo="Como formar uma AJUP?">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2010-01-13" data-titulo="Como formar uma AJUP?" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="como-formar-uma-ajup.html">
           <span class="etiqueta">Assessoria jurídica popular · 2010</span>
           <h3>Como formar uma AJUP?</h3>
@@ -1340,7 +1354,7 @@
           <span class="item__ficha">Assis Oliveira · 13 de janeiro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-01-12" data-titulo="Comunicação na América Latina">
+      <li class="item" data-temas="memoria" data-data="2010-01-12" data-titulo="Comunicação na América Latina" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="comunicacao-na-america-latina.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Comunicação na América Latina</h3>
@@ -1348,7 +1362,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 12 de janeiro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2010-01-09" data-titulo="Revisão da lei de anistia">
+      <li class="item" data-temas="memoria" data-data="2010-01-09" data-titulo="Revisão da lei de anistia" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="revisao-da-lei-de-anistia.html">
           <span class="etiqueta">Memória · 2010</span>
           <h3>Revisão da lei de anistia</h3>
@@ -1356,7 +1370,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 9 de janeiro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2010-01-08" data-titulo="Assessoria Jurídica Popular">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2010-01-08" data-titulo="Assessoria Jurídica Popular" data-tipo="formativo" data-ano="2010">
         <a class="item__link" href="assessoria-juridica-popular-2.html">
           <span class="etiqueta">Assessoria jurídica popular · 2010</span>
           <h3>Assessoria Jurídica Popular</h3>
@@ -1364,7 +1378,7 @@
           <span class="item__ficha">Betânia Alfonsin · 8 de janeiro de 2010</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2009-12-31" data-titulo="Entre dois céus: a tensão congênita ao "jurídico"">
+      <li class="item" data-temas="memoria" data-data="2009-12-31" data-titulo="Entre dois céus: a tensão congênita ao "jurídico"" data-tipo="formativo" data-ano="2009">
         <a class="item__link" href="entre-dois-ceus-a-tensao-congenita-ao-juridico.html">
           <span class="etiqueta">Memória · 2009</span>
           <h3>Entre dois céus: a tensão congênita ao "jurídico"</h3>
@@ -1372,7 +1386,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 31 de dezembro de 2009</span>
         </a>
       </li>
-      <li class="item" data-temas="assessoria juridica popular" data-data="2009-12-21" data-titulo="10 anos do CAJUÍNA">
+      <li class="item" data-temas="assessoria juridica popular" data-data="2009-12-21" data-titulo="10 anos do CAJUÍNA" data-tipo="formativo" data-ano="2009">
         <a class="item__link" href="10-anos-do-cajuina.html">
           <span class="etiqueta">Assessoria jurídica popular · 2009</span>
           <h3>10 anos do CAJUÍNA</h3>
@@ -1380,7 +1394,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 21 de dezembro de 2009</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2009-12-14" data-titulo="Da forma, exegese e desnumeração">
+      <li class="item" data-temas="memoria" data-data="2009-12-14" data-titulo="Da forma, exegese e desnumeração" data-tipo="formativo" data-ano="2009">
         <a class="item__link" href="da-forma-exegese-e-desnumeracao.html">
           <span class="etiqueta">Memória · 2009</span>
           <h3>Da forma, exegese e desnumeração</h3>
@@ -1388,7 +1402,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 14 de dezembro de 2009</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2009-12-08" data-titulo="A última de Luiz Carlos Prates (ou: Ai que saudades de Luiz Carlos Prestes)">
+      <li class="item" data-temas="memoria" data-data="2009-12-08" data-titulo="A última de Luiz Carlos Prates (ou: Ai que saudades de Luiz Carlos Prestes)" data-tipo="formativo" data-ano="2009">
         <a class="item__link" href="a-ultima-de-luiz-carlos-prates-ou-ai-que-saudades-de-luiz.html">
           <span class="etiqueta">Memória · 2009</span>
           <h3>A última de Luiz Carlos Prates (ou: Ai que saudades de Luiz Carlos Prestes)</h3>
@@ -1396,7 +1410,7 @@
           <span class="item__ficha">Ricardo Prestes Pazello · 8 de dezembro de 2009</span>
         </a>
       </li>
-      <li class="item" data-temas="educacao popular" data-data="2009-10-29" data-titulo="Entrevista com José Pepe Mujica">
+      <li class="item" data-temas="educacao popular" data-data="2009-10-29" data-titulo="Entrevista com José Pepe Mujica" data-tipo="formativo" data-ano="2009">
         <a class="item__link" href="entrevista-com-jose-pepe-mujica.html">
           <span class="etiqueta">Educação popular · 2009</span>
           <h3>Entrevista com José Pepe Mujica</h3>
@@ -1404,7 +1418,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 29 de outubro de 2009</span>
         </a>
       </li>
-      <li class="item" data-temas="movimentos sociais" data-data="2009-09-25" data-titulo="Artigo Jacques Alfonsin e Antonio Cechin 3">
+      <li class="item" data-temas="movimentos sociais" data-data="2009-09-25" data-titulo="Artigo Jacques Alfonsin e Antonio Cechin 3" data-tipo="formativo" data-ano="2009">
         <a class="item__link" href="artigo-jacques-alfonsin-e-antonio-cechin-3.html">
           <span class="etiqueta">Movimentos sociais · 2009</span>
           <h3>Artigo Jacques Alfonsin e Antonio Cechin 3</h3>
@@ -1412,7 +1426,7 @@
           <span class="item__ficha">Luiz Otávio Ribas · 25 de setembro de 2009</span>
         </a>
       </li>
-      <li class="item" data-temas="memoria" data-data="2009-08-17" data-titulo="Entrevista com Flávio Tavares">
+      <li class="item" data-temas="memoria" data-data="2009-08-17" data-titulo="Entrevista com Flávio Tavares" data-tipo="formativo" data-ano="2009">
         <a class="item__link" href="entrevista-com-flavio-tavares.html">
           <span class="etiqueta">Memória · 2009</span>
           <h3>Entrevista com Flávio Tavares</h3>
@@ -1495,6 +1509,37 @@
     });
   })();
 </script>
+<div class="radio-flut" data-radio data-aberto="false">
+  <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
+    <span aria-hidden="true">📻</span> Rádio
+  </button>
+  <div class="radio-flut__painel" id="radio-painel">
+    <button class="radio-flut__fechar" type="button" data-radio-fechar aria-label="Fechar o rádio">×</button>
+        <div class="rp__controles">
+          <div class="rp__linha">
+            <button class="rp__tocar" type="button" data-radio-tocar data-tocando="false" aria-label="Tocar rádio">▶</button>
+            <button class="rp__parar" type="button" data-radio-parar aria-label="Parar o rádio" title="Parar o rádio">■</button>
+            <div>
+              <div class="rp__nome" data-radio-nome>Rádio Brasil de Fato<span class="rp__meta" data-radio-meta>toque em ▶ ou escolha outra estação</span></div>
+            </div>
+          </div>
+          <label class="rp__volume">
+            <span>Volume</span>
+            <input type="range" min="0" max="100" value="70" data-radio-volume aria-label="Volume do rádio" />
+          </label>
+          <p class="rp__status" data-radio-status aria-live="polite"></p>
+        </div>
+        <div class="rp__lista-area">
+          <div class="rp__busca">
+            <input type="search" placeholder="Buscar estação, cidade ou UF" data-radio-busca aria-label="Buscar estação" />
+            <span class="rp__contagem" data-radio-contagem></span>
+          </div>
+          <div class="rp__lista" data-radio-lista></div>
+        </div>
+        <audio data-radio-audio preload="none"></audio>
+  </div>
+</div>
+<script src="componentes/radio.js" defer></script>
 <script src="site.js" defer></script>
 <script src="reveal.js" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>

@@ -143,7 +143,7 @@ def rodape():
 
 
 def cartao(registro):
-    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s">
+    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s" data-tipo="%s" data-ano="%s">
         <a class="item__link" href="%s.html">
           <span class="etiqueta">%s · %s</span>
           <h3>%s</h3>
@@ -153,6 +153,7 @@ def cartao(registro):
       </li>""" % (
         esc(" ".join((registro.get("temas") or [""])[0].split("-"))),
         esc(registro.get("data")), esc(registro.get("titulo")),
+        esc(registro.get("tipo") or "formativo"), esc(registro.get("ano") or ""),
         esc(registro["slug"]), esc(registro.get("tema")), esc(registro.get("ano")),
         esc(registro.get("titulo")), esc((registro.get("resumo") or "")[:200]),
         esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
@@ -174,6 +175,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="temas/renap.css" />
   <link rel="stylesheet" href="acervo.css" />
   <link rel="stylesheet" href="reveal.css" />
+  <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -199,7 +201,20 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
       </div>
       <div class="fita">
         <label class="sr-only" for="f-busca">Filtrar nesta seção</label>
-        <input id="f-busca" type="search" placeholder="Filtrar nesta seção" data-busca autocomplete="off" />
+        <input id="f-busca" type="search" placeholder="Filtrar por palavra-chave" data-busca autocomplete="off" />
+        <div class="fita__tipos" role="group" aria-label="Tipo de texto">
+          <button type="button" class="chip-f" data-tipo-f="todos" aria-pressed="true">Todos</button>
+          <button type="button" class="chip-f" data-tipo-f="formativo" aria-pressed="false">Textos</button>
+          <button type="button" class="chip-f" data-tipo-f="evento" aria-pressed="false">Eventos</button>
+          <button type="button" class="chip-f" data-tipo-f="poesia" aria-pressed="false">Poesia</button>
+          <button type="button" class="chip-f" data-tipo-f="resenha" aria-pressed="false">Livros</button>
+          <button type="button" class="chip-f" data-tipo-f="documento" aria-pressed="false">Documentos</button>
+          <button type="button" class="chip-f" data-tipo-f="notícia" aria-pressed="false">Notícias</button>
+        </div>
+        <label class="sr-only" for="f-ano">Ano</label>
+        <select id="f-ano" data-ano-filtro>
+          <option value="">Todos os anos</option>
+        </select>
         <label class="sr-only" for="f-ordem">Ordenar</label>
         <select id="f-ordem" data-ordem>
           <option value="recente">Mais recente</option>
@@ -231,6 +246,37 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
     });
   })();
 </script>
+<div class="radio-flut" data-radio data-aberto="false">
+  <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
+    <span aria-hidden="true">📻</span> Rádio
+  </button>
+  <div class="radio-flut__painel" id="radio-painel">
+    <button class="radio-flut__fechar" type="button" data-radio-fechar aria-label="Fechar o rádio">×</button>
+        <div class="rp__controles">
+          <div class="rp__linha">
+            <button class="rp__tocar" type="button" data-radio-tocar data-tocando="false" aria-label="Tocar rádio">▶</button>
+            <button class="rp__parar" type="button" data-radio-parar aria-label="Parar o rádio" title="Parar o rádio">■</button>
+            <div>
+              <div class="rp__nome" data-radio-nome>Rádio Brasil de Fato<span class="rp__meta" data-radio-meta>toque em ▶ ou escolha outra estação</span></div>
+            </div>
+          </div>
+          <label class="rp__volume">
+            <span>Volume</span>
+            <input type="range" min="0" max="100" value="70" data-radio-volume aria-label="Volume do rádio" />
+          </label>
+          <p class="rp__status" data-radio-status aria-live="polite"></p>
+        </div>
+        <div class="rp__lista-area">
+          <div class="rp__busca">
+            <input type="search" placeholder="Buscar estação, cidade ou UF" data-radio-busca aria-label="Buscar estação" />
+            <span class="rp__contagem" data-radio-contagem></span>
+          </div>
+          <div class="rp__lista" data-radio-lista></div>
+        </div>
+        <audio data-radio-audio preload="none"></audio>
+  </div>
+</div>
+<script src="componentes/radio.js" defer></script>
 <script src="site.js" defer></script>
 <script src="reveal.js" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>

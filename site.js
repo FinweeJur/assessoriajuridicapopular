@@ -10,6 +10,9 @@
   var botaoMais = document.querySelector('[data-mais]');
   var conta = document.querySelector('[data-conta]');
   var busca = document.querySelector('[data-busca]');
+  var anos = document.querySelector('[data-ano-filtro]');
+  var chips = [].slice.call(document.querySelectorAll('[data-tipo-f]'));
+  var tipoAtual = 'todos';
   var ordem = document.querySelector('[data-ordem]');
 
   var itens = [].slice.call(listas[0].querySelectorAll('.item'));
@@ -39,15 +42,44 @@
     }
   }
 
-  if (busca) {
-    busca.addEventListener('input', function () {
-      var termo = semAcento(busca.value.trim());
-      itens.forEach(function (li) {
-        var alvo = semAcento(li.textContent + ' ' + (li.dataset.temas || ''));
-        li.dataset.fora = termo && alvo.indexOf(termo) === -1 ? '1' : '';
+  function filtra() {
+    var termo = semAcento((busca && busca.value || '').trim());
+    var ano = anos && anos.value || '';
+    itens.forEach(function (li) {
+      var alvo = semAcento(li.textContent + ' ' + (li.dataset.temas || ''));
+      var bateTermo = !termo || alvo.indexOf(termo) > -1;
+      var bateTipo = tipoAtual === 'todos' || (li.dataset.tipo || 'formativo') === tipoAtual;
+      var bateAno = !ano || li.dataset.ano === ano;
+      li.dataset.fora = (bateTermo && bateTipo && bateAno) ? '' : '1';
+    });
+    mostrados = PASSOS;
+    aplica();
+  }
+
+  if (busca) { busca.addEventListener('input', filtra); }
+  if (anos) { anos.addEventListener('change', filtra); }
+
+  chips.forEach(function (botao) {
+    botao.addEventListener('click', function () {
+      tipoAtual = botao.dataset.tipoF;
+      chips.forEach(function (outro) {
+        outro.setAttribute('aria-pressed', String(outro === botao));
       });
-      mostrados = PASSOS;
-      aplica();
+      filtra();
+    });
+  });
+
+  if (anos) {
+    var vistos = {};
+    itens.forEach(function (li) {
+      var ano = li.dataset.ano;
+      if (ano && !vistos[ano]) {
+        vistos[ano] = true;
+        var opcao = document.createElement('option');
+        opcao.value = ano;
+        opcao.textContent = ano;
+        anos.appendChild(opcao);
+      }
     });
   }
 

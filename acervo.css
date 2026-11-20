@@ -484,3 +484,67 @@ h2 {
 
 .parcerias { padding-top: var(--e5); }
 .parcerias__lista { justify-content: center; }
+
+/* ── Rodada 3: filtros, dicas, animação e logos ─────────────────────────── */
+.fita {
+  display: grid !important;
+  grid-template-columns: minmax(12rem, 1fr) auto auto auto;
+  align-items: center; gap: 10px;
+}
+.fita input[type="search"] { grid-column: 1 / -1; }
+.fita__tipos { display: flex; flex-wrap: wrap; gap: 6px; grid-column: 1 / -1; }
+.chip-f {
+  font: inherit; font-size: .82rem; font-weight: 600;
+  padding: 8px 12px; min-height: 38px; border-radius: 999px; cursor: pointer;
+  background: transparent; color: var(--cp-text-soft);
+  border: 1px solid var(--borda);
+  transition: transform .15s var(--curva), border-color .15s var(--curva);
+}
+.chip-f:hover { transform: translateY(-1px); border-color: var(--cp-primary); }
+.chip-f[aria-pressed="true"] {
+  color: var(--cp-primary-ink); background: var(--cp-primary); border-color: var(--cp-primary);
+}
+.fita select {
+  appearance: none; background-image:
+    linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%;
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+  padding-right: 34px; white-space: nowrap;
+}
+@media (max-width: 760px) {
+  .fita { grid-template-columns: 1fr 1fr; }
+  .fita select { width: 100%; }
+  .fita__conta { grid-column: 1 / -1; }
+}
+
+/* Dica no hover e no foco, sem plugin */
+[data-dica] { position: relative; }
+[data-dica]::after {
+  content: attr(data-dica);
+  position: absolute; left: 50%; bottom: calc(100% + 8px); transform: translate(-50%, 4px);
+  background: var(--cp-text); color: var(--cp-bg);
+  font-size: .74rem; font-weight: 600; line-height: 1.2;
+  padding: 6px 9px; border-radius: 6px; white-space: nowrap;
+  opacity: 0; pointer-events: none; z-index: 80;
+  transition: opacity .14s var(--curva), transform .14s var(--curva);
+}
+[data-dica]:hover::after, [data-dica]:focus-visible::after {
+  opacity: 1; transform: translate(-50%, 0);
+}
+
+/* Microanimações: entrada, elevação, pressão */
+.item__link { transition: transform .18s var(--curva), border-color .18s var(--curva), box-shadow .18s var(--curva); }
+.item__link:hover { box-shadow: 0 14px 32px rgba(0, 0, 0, .28); }
+.botao:active, .chip-f:active, .topo__links a:active { transform: translateY(1px) scale(.99); }
+@media (prefers-reduced-motion: reduce) {
+  .item__link, .botao, .chip-f, [data-dica]::after { transition: none !important; }
+}
+
+/* Logos do rodapé: legíveis sem sumir */
+.parcerias__lista img {
+  opacity: .62;
+  filter: grayscale(.6) contrast(1.05) brightness(1.1);
+}
+.parcerias__lista a:hover img,
+.parcerias__lista a:focus-visible img { opacity: 1; filter: none; }
