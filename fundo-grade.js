@@ -47,7 +47,7 @@
   }
 
   function mede() {
-    W = window.innerWidth;
+    W = document.documentElement.clientWidth || window.innerWidth;
     H = window.innerHeight;
     canvas.width = Math.round(W * dpr);
     canvas.height = Math.round(H * dpr);
