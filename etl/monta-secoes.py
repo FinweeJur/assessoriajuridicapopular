@@ -73,20 +73,21 @@ def topo(ativo):
         </ul>
       </div>
       <a href="autores.html">Autores</a>
+      <a href="direito-critico-comparado.html">Comparado</a>
       <a href="blog.html"%s>Blog</a>
     </nav>
     <div class="topo__tema">
       <label for="tema">Tema</label>
       <select id="tema" name="tema">
-        <option value="light">🌞 Claro</option>
-        <option value="dark">🌙 Escuro</option>
+        <option value="light">⚪ Claro</option>
+        <option value="dark">⚫ Escuro</option>
         <option value="brasil">🟢 Brasil</option>
         <option value="high-contrast">◐ Alto contraste</option>
         <option value="pequi">🟠 Pequi</option>
-        <option value="cerrado">🌾 Cerrado</option>
-        <option value="mata-atlantica">🌿 Mata Atlântica</option>
-        <option value="caatinga">🌵 Caatinga</option>
-        <option value="pantanal">🐊 Pantanal</option>
+        <option value="cerrado">🟡 Cerrado</option>
+        <option value="mata-atlantica">🟩 Mata Atlântica</option>
+        <option value="caatinga">🟤 Caatinga</option>
+        <option value="pantanal">🔵 Pantanal</option>
       </select>
     </div>
   </div>
@@ -106,6 +107,7 @@ def rodape():
       <ul>
         <li><a href="index.html">Todos os textos</a></li>
         <li><a href="blog.html">Blog, em ordem</a></li>
+        <li><a href="direito-critico-comparado.html">Direito crítico comparado</a></li>
         <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
       </ul>
     </div>
@@ -144,19 +146,22 @@ def rodape():
 
 
 def cartao(registro):
-    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s" data-tipo="%s" data-ano="%s">
+    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s" data-tipo="%s" data-ano="%s" data-palavras="%s">
         <a class="item__link" href="%s.html">
           <span class="etiqueta">%s · %s</span>
           <h3>%s</h3>
           <p>%s</p>
+          <span class="item__tags">%s</span>
           <span class="item__ficha">%s · %s</span>
         </a>
       </li>""" % (
         esc(" ".join((registro.get("temas") or [""])[0].split("-"))),
         esc(registro.get("data")), esc(registro.get("titulo")),
         esc(registro.get("tipo") or "formativo"), esc(registro.get("ano") or ""),
+        esc(" ".join(registro.get("palavras") or [])),
         esc(registro["slug"]), esc(registro.get("tema")), esc(registro.get("ano")),
         esc(registro.get("titulo")), esc((registro.get("resumo") or "")[:200]),
+        esc(" · ".join((registro.get("palavras") or [])[:3])),
         esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
 
 
@@ -215,6 +220,10 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
         <label class="sr-only" for="f-ano">Ano</label>
         <select id="f-ano" data-ano-filtro>
           <option value="">Todos os anos</option>
+        </select>
+        <label class="sr-only" for="f-palavra">Palavra-chave</label>
+        <select id="f-palavra" data-palavra-filtro>
+          <option value="">Todas as palavras-chave</option>
         </select>
         <label class="sr-only" for="f-ordem">Ordenar</label>
         <select id="f-ordem" data-ordem>

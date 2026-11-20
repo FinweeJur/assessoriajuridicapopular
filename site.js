@@ -11,6 +11,7 @@
   var conta = document.querySelector('[data-conta]');
   var busca = document.querySelector('[data-busca]');
   var anos = document.querySelector('[data-ano-filtro]');
+  var palavras = document.querySelector('[data-palavra-filtro]');
   var chips = [].slice.call(document.querySelectorAll('[data-tipo-f]'));
   var tipoAtual = 'todos';
   var ordem = document.querySelector('[data-ordem]');
@@ -45,12 +46,14 @@
   function filtra() {
     var termo = semAcento((busca && busca.value || '').trim());
     var ano = anos && anos.value || '';
+    var palavra = palavras && palavras.value || '';
     itens.forEach(function (li) {
       var alvo = semAcento(li.textContent + ' ' + (li.dataset.temas || ''));
       var bateTermo = !termo || alvo.indexOf(termo) > -1;
       var bateTipo = tipoAtual === 'todos' || (li.dataset.tipo || 'formativo') === tipoAtual;
       var bateAno = !ano || li.dataset.ano === ano;
-      li.dataset.fora = (bateTermo && bateTipo && bateAno) ? '' : '1';
+      var batePalavra = !palavra || (li.dataset.palavras || '').indexOf(palavra) > -1;
+      li.dataset.fora = (bateTermo && bateTipo && bateAno && batePalavra) ? '' : '1';
     });
     mostrados = PASSOS;
     aplica();
@@ -58,6 +61,7 @@
 
   if (busca) { busca.addEventListener('input', filtra); }
   if (anos) { anos.addEventListener('change', filtra); }
+  if (palavras) { palavras.addEventListener('change', filtra); }
 
   chips.forEach(function (botao) {
     botao.addEventListener('click', function () {
@@ -135,6 +139,21 @@
     botaoMenu.addEventListener('click', function (ev) {
       ev.preventDefault();
       if (menu.dataset.aberto === 'true') { agendaFechar(); } else { abre(); }
+    });
+  }
+
+  if (palavras) {
+    var vistas = {};
+    itens.forEach(function (li) {
+      (li.dataset.palavras || '').split(' ').forEach(function (p) {
+        if (p && !vistas[p]) {
+          vistas[p] = true;
+          var opcao = document.createElement('option');
+          opcao.value = p;
+          opcao.textContent = p;
+          palavras.appendChild(opcao);
+        }
+      });
     });
   }
 
