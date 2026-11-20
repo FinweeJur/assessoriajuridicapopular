@@ -16,7 +16,11 @@ def paragrafos(caminho):
     with io.open(caminho, encoding="utf-8") as f:
         texto = f.read().lstrip("\ufeff").replace("\r\n", "\n")
     blocos = [re.sub(r"[ \t]+", " ", p).strip() for p in re.split(r"\n\s*\n", texto)]
-    return [b for b in blocos if b]
+    blocos = [b for b in blocos if b]
+    if len(blocos) < 3:  # documento exportado com uma linha por parágrafo
+        blocos = [re.sub(r"[ \t]+", " ", p).strip() for p in texto.split("\n")]
+        blocos = [b for b in blocos if b]
+    return blocos
 
 
 mistica = paragrafos(os.path.join(FONTES, "mistica.txt"))
@@ -53,7 +57,7 @@ PAGINA = """<!DOCTYPE html>
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
-%s
+@@TOPO@@
 
 <main id="conteudo">
   <nav class="migalha" aria-label="Você está em">
@@ -70,30 +74,30 @@ PAGINA = """<!DOCTYPE html>
         <div class="ficha__linha"><dt>Autoria</dt><dd>Militantes dos movimentos populares brasileiros</dd></div>
         <div class="ficha__linha"><dt>Feito para</dt><dd>3º Acampamento Estadual do Levante Popular da Juventude, UFJF, Juiz de Fora/MG</dd></div>
         <div class="ficha__linha"><dt>Ano</dt><dd>2023</dd></div>
-        <div class="ficha__linha"><dt>Fonte</dt><dd><a href="%s" target="_blank" rel="noopener">documento original</a></dd></div>
+        <div class="ficha__linha"><dt>Fonte</dt><dd><a href="@@DOC_MISTICA@@" target="_blank" rel="noopener">documento original</a></dd></div>
       </dl>
     </header>
 
     <figure class="cartao citacao">
-      <blockquote cite="%s">
-        %s
+      <blockquote cite="@@DOC_BOGO@@">
+        @@CITACAO@@
       </blockquote>
       <figcaption>
         <b>Ademar Bogo</b>, em “A mística: parte da vida e da luta”,
-        <a href="%s" target="_blank" rel="noopener">texto completo no documento</a>.
+        <a href="@@DOC_BOGO@@" target="_blank" rel="noopener">texto completo no documento</a>.
         Capturado em <time datetime="2026-11-20">20 de novembro de 2026</time>.
       </figcaption>
     </figure>
 
     <div data-revelar-grupo class="cartao corpo">
-      %s
+      @@CORPO@@
     </div>
 
     <section class="compartilhar" data-compartilhar
              data-url="https://finweejur.github.io/assessoriajuridicapopular/mistica.html"
              data-titulo="Mística: acúmulos, aprendizados, saberes e apontamentos iniciais"
              data-autor="Militantes dos movimentos populares brasileiros"
-             data-data="2023-01-01" data-fonte-url="%s"
+             data-data="2023-01-01" data-fonte-url="@@DOC_MISTICA@@"
              data-fonte="Levante Popular da Juventude">
       <h2>Compartilhar e citar</h2>
       <div class="compartilhar__botoes">
@@ -108,7 +112,7 @@ PAGINA = """<!DOCTYPE html>
   </article>
 </main>
 
-%s
+@@RODAPE@@
 
 <script src="compartilhar.js" defer></script>
 <script src="site.js" defer></script>
@@ -116,7 +120,7 @@ PAGINA = """<!DOCTYPE html>
 <script src="componentes/radio.js" defer></script>
 </body>
 </html>
-""" % (ms.topo("texto"), DOC_BOGO, citacao_html, DOC_BOGO, corpo_html, DOC_MISTICA, ms.rodape())
+""".replace("@@TOPO@@", ms.topo("texto")).replace("@@DOC_BOGO@@", DOC_BOGO).replace("@@CITACAO@@", citacao_html).replace("@@CORPO@@", corpo_html).replace("@@DOC_MISTICA@@", DOC_MISTICA).replace("@@RODAPE@@", ms.rodape())
 
 with io.open(os.path.join(RAIZ, "mistica.html"), "w", encoding="utf-8", newline="\n") as f:
     f.write(PAGINA)
