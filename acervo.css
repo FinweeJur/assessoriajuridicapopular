@@ -1473,3 +1473,8 @@ a.cartao, .item__link, .destaque, .bento__item {
 .pagina .secao > ul > li,
 .pagina .aviso-lote { max-width: 65ch; }
 .pagina .secao > p + p { margin-top: 1em; }
+
+/* No celular, dicas flutuantes não podem alargar a barra */
+@media (max-width: 880px) {
+  [data-dica]::after { display: none !important; }
+}
