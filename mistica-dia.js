@@ -1,5 +1,5 @@
 /* Mística do dia — mesma lógica do Controle Popular.
-   Lê dados/calendario.json, pega as entradas de hoje (MM-DD) e mostra uma.
+   Lê dados/calendario.json, pega as entradas de hoje (MM-DD) e preenche o cartão.
    Sem data para hoje, mostra a data mais próxima para trás. */
 (function () {
   'use strict';
@@ -9,6 +9,12 @@
 
   var hoje = new Date();
   var mmdd = ('0' + (hoje.getMonth() + 1)).slice(-2) + '-' + ('0' + hoje.getDate()).slice(-2);
+
+  function escapa(t) {
+    return (t || '').replace(/[&<>"]/g, function (c) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c];
+    });
+  }
 
   fetch('dados/calendario.json')
     .then(function (r) { return r.json(); })
@@ -24,18 +30,22 @@
       if (!doDia.length) { caixa.hidden = true; return; }
 
       var e = doDia[hoje.getDate() % doDia.length];
-      caixa.innerHTML =
-        '<p class="mistica__data">' + mmdd.split('-').reverse().join('/') + ' · ' + (e.ano || '') + '</p>' +
-        '<h2 class="mistica__titulo">' + escapa(e.titulo) + '</h2>' +
-        '<p class="mistica__resumo">' + escapa(e.resumo) + '</p>' +
-        (e.autor ? '<p class="mistica__fonte">' + escapa(e.autor) + '</p>' : '');
-      caixa.hidden = false;
+      var cartao = caixa.querySelector('.mistica-cartao') || caixa;
+      var campo = function (sel) { return cartao.querySelector(sel); };
 
-      function escapa(t) {
-        return (t || '').replace(/[&<>"]/g, function (c) {
-          return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c];
-        });
-      }
+      var data = campo('.mistica__data');
+      if (data) { data.textContent = mmdd.split('-').reverse().join('/') + ' · ' + (e.ano || ''); }
+
+      var titulo = campo('.mistica__titulo');
+      if (titulo) { titulo.innerHTML = escapa(e.titulo); }
+
+      var resumo = campo('.mistica__resumo');
+      if (resumo) { resumo.innerHTML = escapa(e.resumo); }
+
+      var fonte = campo('.mistica__fonte');
+      if (fonte) { fonte.innerHTML = escapa(e.autor || ''); }
+
+      caixa.hidden = false;
     })
     .catch(function () { caixa.hidden = true; });
 })();
