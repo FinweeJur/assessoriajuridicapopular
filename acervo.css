@@ -1864,7 +1864,7 @@ a.cartao, .item__link, .destaque, .bento__item {
   object-fit: contain; background: #fff; padding: 14px;
 }
 @media (max-width: 560px) {
-  .carrossel-3d { height: 380px; }
-  .carrossel-3d__palco { height: 290px; }
+  .carrossel-3d { height: 400px; }
+  .carrossel-3d__palco { height: 310px; }
   .carrossel-3d__foto { height: 82px; }
 }
