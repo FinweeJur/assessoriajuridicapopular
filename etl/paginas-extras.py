@@ -19,8 +19,8 @@ MODELO = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=5" />
-  <link rel="stylesheet" href="reveal.css?v=5" />
+  <link rel="stylesheet" href="acervo.css?v=7" />
+  <link rel="stylesheet" href="reveal.css?v=7" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
@@ -66,6 +66,7 @@ MODELO = """<!DOCTYPE html>
 <script src="site.js" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
+<script src="casca.js" defer></script>
 </body>
 </html>
 """

@@ -118,6 +118,7 @@ PAGINA = """<!DOCTYPE html>
 <script src="site.js" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
+<script src="casca.js" defer></script>
 </body>
 </html>
 """.replace("@@TOPO@@", ms.topo("texto")).replace("@@DOC_BOGO@@", DOC_BOGO).replace("@@CITACAO@@", citacao_html).replace("@@CORPO@@", corpo_html).replace("@@DOC_MISTICA@@", DOC_MISTICA).replace("@@RODAPE@@", ms.rodape())
