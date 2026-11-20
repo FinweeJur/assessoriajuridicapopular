@@ -16,7 +16,7 @@ MODELO = """<!DOCTYPE html>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>@@TITULO@@ · AJP — Assessoria Jurídica Popular</title>
-  <link rel="stylesheet" href="fontes/fontshare.css" />
+  <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
   <link rel="stylesheet" href="acervo.css?v=7" />
@@ -37,8 +37,8 @@ MODELO = """<!DOCTYPE html>
   <div class="miolo">@@CORPO@@</div>
 </main>
 @@RODAPE@@
-<script src="casca.js" defer></script>
-<script src="site.js" defer></script>
+<script src="casca.js?v=2" defer></script>
+<script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
 </body>

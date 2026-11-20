@@ -61,7 +61,7 @@ def main():
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Autores · AJP — Assessoria Jurídica Popular</title>
-  <link rel="stylesheet" href="fontes/fontshare.css" />
+  <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
   <link rel="stylesheet" href="acervo.css?v=2" />
@@ -85,9 +85,9 @@ def main():
     </ul>
   </div>
 </main>
-<script src="casca.js" defer></script>
-<script src="leitura.js" defer></script>
-<script src="site.js" defer></script>
+<script src="casca.js?v=2" defer></script>
+<script src="leitura.js?v=2" defer></script>
+<script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 </body>
 </html>
@@ -114,7 +114,7 @@ def main():
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>%s · Autores · AJP</title>
-  <link rel="stylesheet" href="fontes/fontshare.css" />
+  <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
   <link rel="stylesheet" href="acervo.css?v=2" />
@@ -139,9 +139,9 @@ def main():
     </ul>
   </div>
 </main>
-<script src="casca.js" defer></script>
-<script src="leitura.js" defer></script>
-<script src="site.js" defer></script>
+<script src="casca.js?v=2" defer></script>
+<script src="leitura.js?v=2" defer></script>
+<script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 </body>
 </html>

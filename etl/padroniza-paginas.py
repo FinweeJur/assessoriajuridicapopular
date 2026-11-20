@@ -86,10 +86,10 @@ for nome in sorted(os.listdir(RAIZ)):
 
     # 4. Scripts
     if "casca.js" not in t:
-        t = t.replace("</body>", '<script src="casca.js" defer></script>\n</body>', 1)
+        t = t.replace("</body>", '<script src="casca.js?v=2" defer></script>\n</body>', 1)
     if "leitura.js" not in t:
-        t = t.replace('<script src="casca.js" defer></script>',
-                      '<script src="casca.js" defer></script>\n<script src="leitura.js" defer></script>', 1)
+        t = t.replace('<script src="casca.js?v=2" defer></script>',
+                      '<script src="casca.js?v=2" defer></script>\n<script src="leitura.js?v=2" defer></script>', 1)
     if "componentes/radio.js" not in t:
         t = t.replace("</body>", '<script src="componentes/radio.js" defer></script>\n</body>', 1)
 

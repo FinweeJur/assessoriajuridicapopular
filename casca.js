@@ -175,4 +175,30 @@
     });
   })();
 })();
+
+  // ── Ímã: botões e atalhos seguem de leve o ponteiro ─────────────────────
+  (function ima() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
+    if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) { return; }
+    var alvos = document.querySelectorAll('.botao, .chip-f, .radio-flut__botao, .assistente__botao, .menu__botao, .topo__abrir, .casca-rolagem button, .topo__marca');
+    Array.prototype.forEach.call(alvos, function (el) {
+      el.setAttribute('data-magnet', '');
+      el.addEventListener('pointermove', function (ev) {
+        var r = el.getBoundingClientRect();
+        var dx = (ev.clientX - (r.left + r.width / 2)) * 0.18;
+        var dy = (ev.clientY - (r.top + r.height / 2)) * 0.22;
+        var limite = 8;
+        dx = Math.max(-limite, Math.min(limite, dx));
+        dy = Math.max(-limite, Math.min(limite, dy));
+        el.style.setProperty('--mx', dx.toFixed(1) + 'px');
+        el.style.setProperty('--my', dy.toFixed(1) + 'px');
+      });
+      function solta() {
+        el.style.setProperty('--mx', '0px');
+        el.style.setProperty('--my', '0px');
+      }
+      el.addEventListener('pointerleave', solta);
+      el.addEventListener('blur', solta);
+    });
+  })();
 })();

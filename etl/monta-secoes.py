@@ -178,7 +178,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <title>%s · AJP — Assessoria Jurídica Popular</title>
   <meta name="description" content="%s" />
   <link rel="icon" href="data:," />
-  <link rel="stylesheet" href="fontes/fontshare.css" />
+  <link rel="stylesheet" href="fontes/fontshare.css?v=2" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
   <link rel="stylesheet" href="acervo.css?v=7" />
@@ -336,11 +336,11 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   </div>
 </div>
 <script src="componentes/radio.js" defer></script>
-<script src="site.js" defer></script>
+<script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
-<script src="casca.js" defer></script>
-<script src="leitura.js" defer></script>
+<script src="casca.js?v=2" defer></script>
+<script src="leitura.js?v=2" defer></script>
 </body>
 </html>
 """ % (esc(titulo), esc(lead), topo(ativo), foto, esc(titulo), esc(lead), n,
