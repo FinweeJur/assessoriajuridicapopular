@@ -222,7 +222,7 @@
   (function ima() {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
     if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) { return; }
-    var alvos = document.querySelectorAll('.botao, .chip-f, .radio-flut__botao, .assistente__botao, .menu__botao, .topo__abrir, .casca-rolagem button, .topo__marca');
+    var alvos = document.querySelectorAll('.botao, .chip-f, .radio-flut__botao, .assistente__botao, .menu__botao, .topo__abrir, .casca-dial__botao, .casca-dial__acoes button, .topo__marca');
     Array.prototype.forEach.call(alvos, function (el) {
       el.setAttribute('data-magnet', '');
       el.addEventListener('pointermove', function (ev) {
