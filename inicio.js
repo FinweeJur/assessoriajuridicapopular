@@ -23,7 +23,7 @@
     var ang = 0, vel = 0, arrastando = false, x0 = 0, base = 0, ultimoX = 0, mexeu = false;
     var reduz = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var fino = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-    var auto = !reduz && fino;
+    var auto = !reduz && !window.matchMedia('(pointer: coarse)').matches;
     var visivel = true;
 
     if (window.IntersectionObserver) {
