@@ -55,7 +55,7 @@ def main():
                esc(nome), anos[0] if anos else "", anos[-1] if anos else ""))
 
     indice_autores = """<!DOCTYPE html>
-<html lang="pt-BR" data-theme="light">
+<html lang="pt-BR" data-theme="pequi">
 <head>
   <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />
@@ -108,7 +108,7 @@ def main():
             for r in itens)
         anos = sorted({(i.get("data") or "")[:4] for i in itens if i.get("data")})
         pagina = """<!DOCTYPE html>
-<html lang="pt-BR" data-theme="light">
+<html lang="pt-BR" data-theme="pequi">
 <head>
   <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />

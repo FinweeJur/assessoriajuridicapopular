@@ -10,7 +10,7 @@ for nome in os.listdir(RAIZ):
     caminho = os.path.join(RAIZ, nome)
     with io.open(caminho, encoding="utf-8") as f:
         t = f.read()
-    novo = t.replace('data-theme="light"', 'data-theme="pequi"')
+    novo = t.replace('data-theme="pequi"', 'data-theme="pequi"')
     novo = novo.replace('<option value="light" selected>', '<option value="light">')
     if '<option value="pequi" selected>' not in novo:
         novo = novo.replace('<option value="pequi">', '<option value="pequi" selected>', 1)

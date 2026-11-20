@@ -170,7 +170,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
     lista = "\n".join(cartao(r) for r in itens)
     n = len(itens)
     return """<!DOCTYPE html>
-<html lang="pt-BR" data-theme="light">
+<html lang="pt-BR" data-theme="pequi">
 <head>
   <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />

@@ -16,7 +16,7 @@ MODELO = io.open(os.path.join(RAIZ, "etl", "paginas-extras.py"), encoding="utf-8
 
 def escreve(arquivo, titulo, descricao, olho, lead, corpo, autor, data_iso, fonte_url, fonte_nome):
     modelo = """<!DOCTYPE html>
-<html lang="pt-BR" data-theme="light">
+<html lang="pt-BR" data-theme="pequi">
 <head>
   <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />

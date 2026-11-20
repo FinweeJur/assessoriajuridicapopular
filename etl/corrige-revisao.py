@@ -19,7 +19,7 @@ BASE = "https://finweejur.github.io/assessoriajuridicapopular"
 
 def template(titulo, olho, lead, corpo, arquivo, autor="Acervo AJP", data="2026-11-20", fonte_url="", fonte="Acervo AJP"):
     return ("""<!DOCTYPE html>
-<html lang="pt-BR" data-theme="light">
+<html lang="pt-BR" data-theme="pequi">
 <head>
   <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />
