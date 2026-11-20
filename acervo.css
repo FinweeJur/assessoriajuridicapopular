@@ -1046,3 +1046,15 @@ a.cartao:hover, a.cartao:focus-visible,
 /* Rodapé: espaço para os botões flutuantes não cobrirem os links */
 .rodape { padding-bottom: 96px; }
 @media (max-width: 620px) { .rodape { padding-bottom: 136px; } }
+
+/* Sumário do Caderno, sem reproduzir os poemas */
+.sumario-caderno {
+  margin: 8px 0 0; padding: 12px 16px;
+  border: 1px solid var(--borda); border-radius: 12px;
+  background: color-mix(in srgb, var(--cp-surface) 30%, transparent);
+}
+.sumario-caderno summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+.sumario-caderno pre {
+  white-space: pre-wrap; font-family: var(--font-body, inherit);
+  font-size: .88rem; line-height: 1.55; max-height: 60vh; overflow: auto; margin: 12px 0 0;
+}
