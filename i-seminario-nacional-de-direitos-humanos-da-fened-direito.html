@@ -187,14 +187,24 @@
      rádio. O script do fim da página só grava data-theme no <html>. -->
 <header class="topo">
   <div class="topo__interno">
-    <a class="topo__marca" href="./">
+    <a class="topo__marca" href="index.html">
       <span class="ponto" aria-hidden="true"></span>
       RENAP <span>· Acervo</span>
     </a>
+    <nav class="topo__links" aria-label="Seções">
+        <a href="index.html">Acervo</a>
+        <a href="assessoria-juridica-popular.html">O que é assessoria jurídica popular</a>
+        <a href="direitos-humanos.html">Direitos humanos</a>
+        <a href="movimentos-sociais.html">Movimentos sociais</a>
+        <a href="memoria-e-cultura.html">Memória e cultura</a>
+        <a href="teoria-critica.html">Teoria crítica do direito</a>
+        <a href="educacao-popular.html">Educação popular</a>
+        <a href="blog.html">Blog</a>
+    </nav>
     <div class="topo__tema">
       <label for="tema">Tema</label>
       <select id="tema" name="tema">
-        <option value="light" selected>Claro</option>
+        <option value="light">Claro</option>
         <option value="dark">Escuro</option>
         <option value="brasil">Brasil</option>
         <option value="high-contrast">Alto contraste</option>
@@ -397,40 +407,43 @@
      e a nota de que o texto é de terceiro. -->
 <footer class="rodape">
   <div class="rodape__interno">
-    <p class="acoes-fonte">
-      <a class="botao" href="https://assessoriajuridicapopular.blogspot.com/2011/05/i-seminario-nacional-de-direitos.html" target="_blank" rel="noopener">
-        Ler no blog original
-        <span class="botao__nota">abre em outra aba</span>
-      </a>
-      <a class="botao secundario" href="https://www.blogger.com/profile/11698907163325129894" target="_blank" rel="noopener">
-        Sobre Ricardo Prestes Pazello
-        <span class="botao__nota">abre em outra aba</span>
-      </a>
-    </p>
-
-    <p class="parceria">
-      Em parceria com o
-      <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS<span class="sr-only"> (abre em outra aba)</span></a>
-      — GT de Assessoria Jurídica Popular
-    </p>
-
-    <div class="rodape__como-citar">
-      <h2>Como citar</h2>
-      <p>Ricardo Prestes Pazello. I Seminário Nacional de Direitos Humanos da FENED – Direito eMovimento <em>Assessoria Jurídica Popular</em>, 16 de maio de 2011. Disponível em:
-        <a href="https://assessoriajuridicapopular.blogspot.com/2011/05/i-seminario-nacional-de-direitos.html" target="_blank" rel="noopener">assessoriajuridicapopular.blogspot.com<span class="sr-only"> (abre em outra aba)</span></a>.
-        Capturado em <time datetime="2026-11-20">20 de novembro de 2026</time>.
-      </p>
+    <div>
+      <h2>Acervo</h2>
+      <ul>
+        <li><a href="index.html">Todos os textos</a></li>
+        <li><a href="blog.html">Blog, em ordem</a></li>
+        <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
+      </ul>
     </div>
-
-    <p class="rodape__nota">Página do acervo da RENAP. O texto é de terceiro e entra em citação direta, com crédito e link para o original. <a href="./">Voltar à apresentação da proposta</a>.</p>
+    <div>
+      <h2>Seções</h2>
+      <ul>
+        <li><a href="direitos-humanos.html">Direitos humanos</a></li>
+        <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
+        <li><a href="memoria-e-cultura.html">Memória e cultura</a></li>
+        <li><a href="teoria-critica.html">Teoria crítica</a></li>
+        <li><a href="educacao-popular.html">Educação popular</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Fonte</h2>
+      <p>Textos publicados originalmente no blog
+      <a href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">Assessoria Jurídica Popular</a>,
+      em citação direta, com autor, data e link.</p>
+    </div>
+    <div>
+      <h2>Parceria</h2>
+      <p>Publicação e curadoria com o
+      <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS</a>
+      — GT de Assessoria Jurídica Popular.</p>
+    </div>
   </div>
-
   <div class="parcerias" aria-label="Realização e parceria">
     <p class="parcerias__titulo">Realização e parceria</p>
     <ul class="parcerias__lista">
-      <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP — Rede Nacional de Advogados e Advogadas Populares" loading="lazy" /></a></li>
-      <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS — Instituto de Pesquisa, Direitos e Movimentos Sociais" loading="lazy" /></a></li>
-      <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB — Movimento dos Atingidos por Barragens" loading="lazy" /></a></li>
+      <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
+      <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
+      <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
     </ul>
   </div>
 </footer>
