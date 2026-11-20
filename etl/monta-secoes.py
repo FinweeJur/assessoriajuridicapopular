@@ -73,7 +73,7 @@ def topo(ativo):
         </ul>
       </div>
       <a href="autores.html">Autores</a>
-      <a href="direito-critico-comparado.html">Comparado</a>
+      <a href="assessoria-juridica-popular-no-mundo.html">Comparado</a>
       <a href="blog.html"%s>Blog</a>
     </nav>
     <div class="topo__tema">
@@ -255,14 +255,34 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
       </ul>
     </section>
     <section class="secao" aria-labelledby="convidados">
-      <div class="secao__cabeca"><h2 id="convidados">Texto convidado</h2>
+      <div class="secao__cabeca"><h2 id="convidados">Textos convidados</h2>
       <p class="secao__nota">Fora do blog, com autoria e fonte</p></div>
       <ul class="lista-acervo">
         <li class="item"><a class="item__link" href="mistica.html">
           <span class="etiqueta">Mística · 2023</span>
-          <h3>Mística: acúmulos, aprendizados, saberes e apontamentos iniciais</h3>
-          <p>Texto dos movimentos populares, com citação de Ademar Bogo sobre o que a mística é na vida e na luta.</p>
+          <h3>Mística: acúmulos, aprendizados, saberes</h3>
+          <p>Texto dos movimentos populares, com citação de Ademar Bogo.</p>
           <span class="item__ficha">Militantes dos movimentos populares · 2023</span></a></li>
+        <li class="item"><a class="item__link" href="coracao-sem-medo.html">
+          <span class="etiqueta">Literatura · 2025</span>
+          <h3>Coração sem medo: trechos escolhidos</h3>
+          <p>Dezesseis passagens de Itamar Vieira Junior sobre terra, semente e justiça.</p>
+          <span class="item__ficha">Itamar Vieira Junior · 2025</span></a></li>
+        <li class="item"><a class="item__link" href="citacoes.html">
+          <span class="etiqueta">Citações</span>
+          <h3>Gama, Carolina e Brecht</h3>
+          <p>Oito frases sobre fome, terra e dignidade.</p>
+          <span class="item__ficha">Luís Gama, Carolina Maria de Jesus e Bertolt Brecht</span></a></li>
+        <li class="item"><a class="item__link" href="caderno-de-poesias.html">
+          <span class="etiqueta">Poesia · 2010</span>
+          <h3>Caderno de Poesias: índice</h3>
+          <p>O mapa da coletânea de 272 páginas: autores e títulos.</p>
+          <span class="item__ficha">Cleber Mori (org.) · 2010</span></a></li>
+        <li class="item"><a class="item__link" href="recomendacoes.html">
+          <span class="etiqueta">Estante</span>
+          <h3>Recomendações: livros, filmes e músicas</h3>
+          <p>Uma estante de entrada: revoluções, terra, raça e cultura popular.</p>
+          <span class="item__ficha">Acervo AJP</span></a></li>
       </ul>
     </section>
   </div>
@@ -325,7 +345,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 def main():
     registros = json.loads(io.open(INDICE, encoding="utf-8").read())
     for slug, titulo, tema, lead, foto in SECOES:
-        itens = [r for r in registros if tema in (r.get("temas") or [])]
+        itens = [r for r in registros if (r.get("tema_principal") or (r.get("temas") or [""])[0]) == tema]
         itens.sort(key=lambda r: r.get("data") or "", reverse=True)
         outras = "\n".join(
             '        <li><a href="%s.html">%s</a></li>' % (s, esc(t)) for s, t, _, _, _ in SECOES if s != slug)
