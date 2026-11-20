@@ -100,23 +100,22 @@ def rodape():
     return """<footer class="rodape">
   <div class="rodape__topo">
     <p class="rodape__marca"><span class="ponto" aria-hidden="true"></span> AJP · Assessoria Jurídica Popular</p>
-    <p class="rodape__lema">Textos em citação direta, com autor, data e fonte.</p>
   </div>
-  <div class="rodape__interno">
+  <div class="rodape__interno rodape__interno--linha">
     <div>
       <h2>Acervo</h2>
       <ul>
         <li><a href="index.html">Todos os textos</a></li>
         <li><a href="blog.html">Blog, em ordem</a></li>
-        <li><a href="direito-critico-comparado.html">Direito crítico comparado</a></li>
-        <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
         <li><a href="glossario.html">Glossário</a></li>
         <li><a href="linha-do-tempo.html">Linha do tempo</a></li>
+        <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
       </ul>
     </div>
     <div>
       <h2>Seções</h2>
       <ul>
+        <li><a href="assessoria-juridica-popular.html">Assessoria jurídica popular</a></li>
         <li><a href="direitos-humanos.html">Direitos humanos</a></li>
         <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
         <li><a href="memoria-e-cultura.html">Memória e cultura</a></li>
@@ -125,47 +124,26 @@ def rodape():
       </ul>
     </div>
     <div>
-      <h2>Fonte</h2>
+      <h2>Assessoria Jurídica Popular</h2>
       <p>Textos publicados originalmente no blog
       <a href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">Assessoria Jurídica Popular</a>,
       em citação direta, com autor, data e link.</p>
+      <h2>Fonte</h2>
+      <p>Acervo montado a partir do blog original, com captura em 20/11/2026.</p>
+    </div>
+    <div>
+      <h2>Parcerias</h2>
+      <ul class="parcerias__lista">
+        <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
+        <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
+        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
+      </ul>
+      <p><b>GT de Assessoria Jurídica Popular do IPDMS</b></p>
+      <p>Desenvolvimento e retirada de imagens ou conteúdo:
+      <a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a></p>
     </div>
   </div>
-  <p class="rodape__linha">
-    <b>Parceria:</b> <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS</a> — GT de Assessoria Jurídica Popular ·
-    <a href="https://www.renap.org.br/" target="_blank" rel="noopener">RENAP</a> ·
-    <a href="https://mab.org.br/" target="_blank" rel="noopener">MAB</a> ·
-    <span>Retirada de imagem: <a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a></span>
-  </p>
-  <div class="parcerias" aria-label="Realização e parceria">
-    <p class="parcerias__titulo">Realização e parceria</p>
-    <ul class="parcerias__lista">
-      <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
-      <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
-      <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
-    </ul>
-  </div>
 </footer>"""
-
-
-def cartao(registro):
-    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s" data-tipo="%s" data-ano="%s" data-palavras="%s">
-        <a class="item__link" href="%s.html">
-          <span class="etiqueta">%s · %s</span>
-          <h3>%s</h3>
-          <p>%s</p>
-          <span class="item__tags">%s</span>
-          <span class="item__ficha">%s · %s</span>
-        </a>
-      </li>""" % (
-        esc(" ".join((registro.get("temas") or [""])[0].split("-"))),
-        esc(registro.get("data")), esc(registro.get("titulo")),
-        esc(registro.get("tipo") or "formativo"), esc(registro.get("ano") or ""),
-        esc(" ".join(registro.get("palavras") or [])),
-        esc(registro["slug"]), esc(registro.get("tema")), esc(registro.get("ano")),
-        esc(registro.get("titulo")), esc((registro.get("resumo") or "")[:200]),
-        esc(" · ".join((registro.get("palavras") or [])[:3])),
-        esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
 
 
 def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):

@@ -833,3 +833,39 @@ a.cartao:hover, a.cartao:focus-visible,
 .citacao blockquote p, .aviso-lote, .linhas li, .corpo p { max-width: 65ch; }
 .tabela table { min-width: 0; }
 .tabela table:has(th:nth-child(3)) { min-width: 30rem; }
+
+/* Rodapé em uma linha: quatro colunas, alinhadas no topo */
+.rodape__topo { padding: var(--e5) var(--e4) var(--e2) !important; }
+.rodape__interno--linha {
+  grid-template-columns: 1fr 1.1fr 1.3fr 1.5fr !important;
+  align-items: start; text-align: left; gap: clamp(16px, 2.4vw, 36px) !important;
+  padding-top: var(--e3) !important; padding-bottom: var(--e5) !important;
+}
+.rodape__interno--linha h2 { text-align: left; margin-top: 0; }
+.rodape__interno--linha ul { justify-items: start; gap: 4px; }
+.rodape__interno--linha p { max-width: 34ch; margin: 0 0 8px; }
+.rodape__interno--linha .parcerias__lista {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;
+  justify-content: flex-start; margin: 0 0 10px; padding: 0;
+}
+.rodape__interno--linha .parcerias__lista img { max-height: 38px; width: auto; opacity: .75; }
+.rodape__interno--linha .parcerias__lista a:hover img { opacity: 1; }
+@media (max-width: 1000px) {
+  .rodape__interno--linha { grid-template-columns: 1fr 1fr !important; }
+}
+@media (max-width: 620px) {
+  .rodape__interno--linha { grid-template-columns: 1fr !important; }
+}
+
+/* Chatbot embaixo do rádio, na mesma coluna da esquerda */
+.radio-flut { left: 14px !important; right: auto !important; bottom: 76px !important; }
+.assistente { left: 14px !important; right: auto !important; bottom: 16px !important; }
+.assistente__painel {
+  left: 0 !important; right: auto !important;
+  bottom: calc(100% + 10px) !important;
+}
+@media (max-width: 560px) {
+  .radio-flut { left: 10px !important; bottom: 70px !important; }
+  .assistente { left: 10px !important; bottom: 12px !important; }
+  .assistente__painel { width: min(22rem, calc(100vw - 20px)); }
+}
