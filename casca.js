@@ -378,23 +378,30 @@
       return nota;
     }
 
-    var alvos = document.querySelectorAll('.bento__item--grande, .mistica-cartao');
-    if (!alvos.length) {
-      var links = Array.prototype.slice.call(document.querySelectorAll('.item__link'));
-      if (links.length) {
-        links.sort(function (a, b) { return pontuaAtemporal(b) - pontuaAtemporal(a); });
-        alvos = links.slice(0, 2);
-      } else {
-        alvos = document.querySelectorAll('a.cartao, .destaque, .cp-cartao, .tl__cartao, article.cartao, figure.cartao');
-      }
-    }
-    Array.prototype.slice.call(alvos, 0, 2).forEach(function (el) {
+    // Electric só em card grande: bento da home ou hero da seção.
+    var grande = document.querySelector('.bento__item--grande');
+    var hero = document.querySelector('.hero');
+    var alvos = grande ? [grande] : (hero ? [hero] : []);
+    alvos.forEach(function (el) {
       el.classList.add('electro');
       var aura = document.createElement('span');
       aura.className = 'electro__aura';
       aura.setAttribute('aria-hidden', 'true');
       el.appendChild(aura);
     });
+
+    // Meteor Impact Border nos cards de acervo, posts e destaques.
+    var links = Array.prototype.slice.call(document.querySelectorAll('.item__link'));
+    var meteoros;
+    if (links.length) {
+      links.sort(function (a, b) { return pontuaAtemporal(b) - pontuaAtemporal(a); });
+      meteoros = links.slice(0, 2);
+    } else {
+      meteoros = Array.prototype.slice.call(
+        document.querySelectorAll('.cp-cartao, .tl__cartao, figure.cartao')
+      ).slice(0, 2);
+    }
+    meteoros.forEach(function (el) { el.classList.add('meteoro-borda'); });
   })();
 
   // ── Busca expansível: limpar com um clique ──────────────────────────────

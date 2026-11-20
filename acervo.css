@@ -1868,3 +1868,55 @@ a.cartao, .item__link, .destaque, .bento__item {
   .carrossel-3d__palco { height: 310px; }
   .carrossel-3d__foto { height: 82px; }
 }
+
+/* ── Mística: Beam Flow na borda superior ─────────────────────────────── */
+.mistica-cartao { position: relative; }
+.mistica-cartao::before {
+  content: ""; position: absolute; top: -1px; left: 8%; right: 8%; height: 2px;
+  background: linear-gradient(90deg, transparent, #1aff9c 18%, #e8fff4 50%, #1aff9c 82%, transparent);
+  box-shadow: 0 0 10px #1aff9c, 0 0 32px rgba(26, 255, 156, .5);
+  filter: blur(.3px); z-index: 3;
+  animation: beam-linha 4s ease-in-out infinite;
+}
+.mistica-cartao::after {
+  content: ""; position: absolute; top: -150px; left: 62%; width: 10px; height: 150px;
+  background: linear-gradient(to top, rgba(26, 255, 156, .95), rgba(26, 255, 156, .18), transparent);
+  filter: blur(3px); transform-origin: bottom; z-index: 2;
+  animation: beam-sobe 2.8s ease-in-out infinite;
+}
+.mistica-cartao .beam-core {
+  position: absolute; top: -118px; left: calc(62% + 3px); width: 3px; height: 118px;
+  background: linear-gradient(to top, #eafff5, rgba(26, 255, 156, .5), transparent);
+  filter: blur(.8px); z-index: 3; pointer-events: none;
+  animation: beam-core 1.8s ease-in-out infinite;
+}
+@keyframes beam-linha { 0%, 100% { opacity: .62; } 50% { opacity: 1; } }
+@keyframes beam-sobe { 0%, 100% { transform: scaleY(.72); opacity: .55; } 50% { transform: scaleY(1.08); opacity: 1; } }
+@keyframes beam-core { 0%, 100% { transform: scaleY(.8); opacity: .6; } 50% { transform: scaleY(1.05); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .mistica-cartao::before, .mistica-cartao::after, .mistica-cartao .beam-core { animation: none; }
+}
+
+/* ── Meteor Impact Border nos cards do acervo ─────────────────────────── */
+@property --meteor-ang { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+.meteoro-borda { position: relative; }
+.meteoro-borda::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1.5px;
+  background: conic-gradient(from var(--meteor-ang), transparent 0 60%,
+              #ffb27a 74%, #fff 80%, var(--cp-primary) 85%, transparent 93%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--cp-primary) 65%, transparent));
+  animation: meteor-gira 3.4s linear infinite;
+  pointer-events: none; z-index: 2;
+}
+@keyframes meteor-gira { to { --meteor-ang: 360deg; } }
+
+/* Navbar mais próxima da próxima seção */
+.mistica-dia { padding-top: 10px !important; }
+.hero--texto .hero__interno { padding-top: clamp(20px, 2.6vw, 34px) !important; }
+@media (prefers-reduced-motion: reduce) {
+  .meteoro-borda::after { animation: none; }
+}
