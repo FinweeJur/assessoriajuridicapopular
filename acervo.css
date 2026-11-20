@@ -1854,8 +1854,8 @@ a.cartao, .item__link, .destaque, .bento__item {
 .corpo h2 { font-size: 1.42rem; }
 
 /* Fotos nos cards das referências */
-.carrossel-3d { height: 420px; }
-.carrossel-3d__palco { height: 320px; }
+.carrossel-3d { height: 460px; }
+.carrossel-3d__palco { height: 360px; }
 .carrossel-3d__foto {
   width: 100%; height: 100px; flex: none; object-fit: cover;
   border-radius: 10px; border: 1px solid var(--borda); margin-bottom: 4px;
