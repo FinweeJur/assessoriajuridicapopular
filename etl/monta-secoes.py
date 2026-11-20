@@ -56,6 +56,11 @@ def topo(ativo):
         '          <li><a href="%s.html"%s>%s</a></li>' % (
             slug, ' aria-current="page"' if slug == ativo else "", esc(titulo))
         for slug, titulo, _, _, _ in SECOES)
+    acervo_cur = ' aria-current="page"' if ativo == "acervo" else ""
+    blog_cur = ' aria-current="page"' if ativo == "blog" else ""
+    autores_cur = ' aria-current="page"' if ativo == "autores" else ""
+    linha_cur = ' aria-current="page"' if ativo == "linha-do-tempo" else ""
+    comparado_cur = ' aria-current="page"' if ativo == "comparado" else ""
     return """<header class="topo">
   <div class="topo__interno">
     <a class="topo__marca" href="index.html">
@@ -65,16 +70,16 @@ def topo(ativo):
     <nav class="topo__links" aria-label="Seções">
       <a href="acervo.html"%s>Acervo</a>
       <div class="menu">
-        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes">
+        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes"%s>
           Seções <span aria-hidden="true">▾</span>
         </button>
         <ul class="menu__lista" id="menu-secoes">
 %s
-          <li><a href="assessoria-juridica-popular-no-mundo.html">Direito comparado</a></li>
+          <li><a href="assessoria-juridica-popular-no-mundo.html"%s>Direito comparado</a></li>
         </ul>
       </div>
-      <a href="linha-do-tempo.html">Linha do tempo</a>
-      <a href="autores.html">Autores</a>
+      <a href="linha-do-tempo.html"%s>Linha do tempo</a>
+      <a href="autores.html"%s>Autores</a>
       <a href="blog.html"%s>Blog</a>
     </nav>
     <div class="topo__tema">
@@ -92,8 +97,7 @@ def topo(ativo):
       </select>
     </div>
   </div>
-</header>""" % (' aria-current="page"' if ativo == "acervo" else "", secoes,
-                ' aria-current="page"' if ativo == "blog" else "")
+</header>""" % (acervo_cur, "", secoes, comparado_cur, linha_cur, autores_cur, blog_cur)
 
 
 def rodape():

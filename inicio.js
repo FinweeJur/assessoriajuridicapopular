@@ -161,7 +161,7 @@
               ' ' + fim.x + ' ' + fim.y;
         }
 
-        var cores = idx ? ['#c084fc', '#e879f9'] : ['#38bdf8', '#818cf8'];
+        var cores = idx ? ['#38bdf8', '#c084fc'] : ['#ff7a3d', '#38bdf8'];
         var gid = 'fluxo-grad-' + idx;
         var grad = cria('linearGradient', {
           id: gid, gradientUnits: 'userSpaceOnUse',

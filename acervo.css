@@ -1848,3 +1848,7 @@ a.cartao, .item__link, .destaque, .bento__item {
   .corpo p, .corpo li, .corpo blockquote p { font-size: 1.04rem !important; line-height: 1.65 !important; }
   .corpo figure img, .corpo .reproducao img { max-height: none; }
 }
+
+/* Hierarquia do corpo: h3 nunca menor que o texto */
+.corpo h3 { font-size: 1.22rem; }
+.corpo h2 { font-size: 1.42rem; }

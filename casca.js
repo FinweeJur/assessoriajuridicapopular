@@ -488,10 +488,14 @@
       var dentro = nav.querySelector('.menu__lista a[aria-current="page"]');
       if (dentro) { ativo = nav.querySelector('.menu__botao'); }
     }
-    if (!ativo) { ativo = nav.querySelector(':scope > a'); }
+    if (!ativo) { ativo = nav.querySelector('.menu__botao[aria-current="page"]'); }
 
     function move(el) {
-      if (!el) { return; }
+      if (!el) {
+        pilha.style.opacity = '0';
+        tubo.style.opacity = '0';
+        return;
+      }
       var nr = nav.getBoundingClientRect();
       var r = el.getBoundingClientRect();
       if (r.width < 2) { return; }

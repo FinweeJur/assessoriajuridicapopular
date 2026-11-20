@@ -43,6 +43,10 @@ def ativo_de(nome):
         return "blog"
     if base == "acervo":
         return "acervo"
+    if base in ("autores", "linha-do-tempo"):
+        return base
+    if base == "assessoria-juridica-popular-no-mundo":
+        return "comparado"
     if base == "index":
         return "texto"
     return "texto"
