@@ -31,11 +31,8 @@ FLUXO = """  <section class="fluxo" aria-labelledby="fluxo-titulo">
         <a class="fluxo__no fluxo__no--git" href="https://github.com/FinweeJur/assessoriajuridicapopular" target="_blank" rel="noopener">
           <span class="fluxo__ico fluxo__ico--git">%s</span>
           <b>GitHub</b>
-          <small>acervo publicado</small>
+          <small>acervo publicado no novo site em 2026</small>
         </a>
-        <span class="fluxo__novo">Novo Site - 2026
-          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg>
-        </span>
       </div>
     </div>
   </section>
