@@ -73,7 +73,7 @@
       if (achada) { responde(achada); return; }
       try { sessionStorage.setItem('ajp-busca', texto); } catch (e) {}
       fala('Vou procurar “' + texto + '” no acervo completo.', 'bot');
-      window.setTimeout(function () { window.location.href = 'acervo.html#lista-acervo'; }, 500);
+      window.setTimeout(function () { window.location.href = 'acervo.html?q=' + encodeURIComponent(texto) + '#lista-acervo'; }, 500);
     });
   }
 })();

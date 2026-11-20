@@ -71,7 +71,7 @@
     }
     if (!busca && !compartilhar) {
       dial.querySelector('[data-dial-acervo]').addEventListener('click', function () {
-        window.location.href = 'acervo.html#lista-acervo';
+        window.location.href = 'acervo.html?q=' + encodeURIComponent(termo) + '#lista-acervo';
       });
     }
 
@@ -414,20 +414,26 @@
         window.setTimeout(function () { principal.focus(); }, 380);
       } else {
         try { sessionStorage.setItem('ajp-busca', termo); } catch (e) {}
-        window.location.href = 'acervo.html#lista-acervo';
+        window.location.href = 'acervo.html?q=' + encodeURIComponent(termo) + '#lista-acervo';
       }
     });
 
     window.addEventListener('load', function () {
-      var termo = '';
-      try {
-        termo = sessionStorage.getItem('ajp-busca') || '';
-        if (termo) { sessionStorage.removeItem('ajp-busca'); }
-      } catch (e) {}
+      var params = new URLSearchParams(window.location.search);
+      var termo = params.get('q') || '';
+      if (!termo) {
+        try {
+          termo = sessionStorage.getItem('ajp-busca') || '';
+          if (termo) { sessionStorage.removeItem('ajp-busca'); }
+        } catch (e) {}
+      }
       if (!termo || !principal) { return; }
       principal.value = termo;
       principal.dispatchEvent(new Event('input', { bubbles: true }));
       principal.scrollIntoView({ block: 'center' });
+      if (params.get('q')) {
+        try { history.replaceState(null, '', window.location.pathname + window.location.hash); } catch (e) {}
+      }
     });
   })();
 
