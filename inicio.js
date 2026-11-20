@@ -242,6 +242,11 @@
     if (window.ResizeObserver) { new ResizeObserver(agenda).observe(palco); }
     if (document.fonts && document.fonts.ready) { document.fonts.ready.then(agenda); }
     window.addEventListener('load', agenda);
+    if (window.MutationObserver) {
+      new MutationObserver(agenda).observe(document.documentElement, {
+        attributes: true, attributeFilter: ['data-theme', 'data-cvd']
+      });
+    }
     desenha();
   })();
 })();
