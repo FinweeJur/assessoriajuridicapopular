@@ -898,3 +898,10 @@ a.cartao:hover, a.cartao:focus-visible,
   .topo__tema label { display: none; }
   .topo__tema select { max-width: 7.5rem; }
 }
+
+/* Rótulo da mística antes da data */
+.mistica__rotulo {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+  letter-spacing: -.01em; margin: 0 0 4px;
+}
