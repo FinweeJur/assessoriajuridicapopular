@@ -200,6 +200,7 @@ def monta(post, modelo, indice=None):
         "RESUMO": esc(post.get("resumo") or destaque[:180]),
         "DESTAQUE": esc(destaque),
         "TEXTO": "\n      ".join(corpo),
+        "SITE_URL": "https://finweejur.github.io/assessoriajuridicapopular/" + (post.get("slug") or slug_de(post.get("titulo"))) + ".html",
     }
 
     migalha, autor_link, relacionados = liga_paginas(post, indice or [])
