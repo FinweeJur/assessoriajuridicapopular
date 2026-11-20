@@ -1361,20 +1361,26 @@ a.cartao, .item__link, .destaque, .bento__item {
                     color-mix(in srgb, var(--cp-primary) 7%, transparent), transparent 72%);
 }
 
-/* ── Electro border: arco elétrico em toda a borda ───────────────────── */
-.electro { position: relative; }
+/* ── Electro border: cópia do filtro do Lightswind ───────────────────── */
+.electro { position: relative; overflow: visible !important; }
 .electro::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit;
+  border: 2px solid #ff9900;
+  filter: url(#electro-filtro);
+  pointer-events: none; z-index: 2;
+}
+.electro__aura {
+  position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+  border: 2px solid rgba(255, 153, 0, .55);
+  filter: blur(2px); opacity: .9; z-index: 1;
+}
+.electro__aura::after {
   content: ""; position: absolute; inset: -1px; border-radius: inherit;
-  border: 2px solid #ff9d2e;
-  box-shadow: 0 0 16px rgba(255, 157, 46, .55),
-              inset 0 0 12px rgba(255, 157, 46, .18);
-  filter: url(#electro-filtro) drop-shadow(0 0 6px rgba(255, 157, 46, .75));
-  pointer-events: none;
+  border: 2px solid rgba(255, 153, 0, .35);
+  filter: blur(7px); opacity: .9;
 }
 @media (prefers-reduced-motion: reduce) {
-  .electro::after {
-    filter: url(#electro-filtro-parado) drop-shadow(0 0 5px rgba(255, 157, 46, .55));
-  }
+  .electro::after { filter: url(#electro-filtro-parado); }
 }
 
 /* ── Busca expansível ─────────────────────────────────────────────────── */

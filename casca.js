@@ -277,26 +277,47 @@
       caixaFiltro.innerHTML =
         '<svg xmlns="http://www.w3.org/2000/svg">' +
         '<defs>' +
-        '<filter id="electro-filtro" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">' +
-        '<feTurbulence type="fractalNoise" baseFrequency="0.015 0.08" numOctaves="2" seed="1" result="ruido">' +
-        '<animate attributeName="seed" values="1;4;8;12;7;3;1" dur="1.1s" repeatCount="indefinite" />' +
-        '</feTurbulence>' +
-        '<feDisplacementMap in="SourceGraphic" in2="ruido" scale="5" xChannelSelector="R" yChannelSelector="G" />' +
+        '<filter id="electro-filtro" color-interpolation-filters="sRGB" x="-20%" y="-20%" width="140%" height="140%">' +
+        '<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise1" seed="1" />' +
+        '<feOffset in="noise1" dx="0" dy="0" result="offsetNoise1"><animate attributeName="dy" values="460; 0" dur="6s" repeatCount="indefinite" calcMode="linear" /></feOffset>' +
+        '<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise2" seed="1" />' +
+        '<feOffset in="noise2" dx="0" dy="0" result="offsetNoise2"><animate attributeName="dy" values="0; -460" dur="6s" repeatCount="indefinite" calcMode="linear" /></feOffset>' +
+        '<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise3" seed="2" />' +
+        '<feOffset in="noise3" dx="0" dy="0" result="offsetNoise3"><animate attributeName="dx" values="336; 0" dur="6s" repeatCount="indefinite" calcMode="linear" /></feOffset>' +
+        '<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise4" seed="2" />' +
+        '<feOffset in="noise4" dx="0" dy="0" result="offsetNoise4"><animate attributeName="dx" values="0; -336" dur="6s" repeatCount="indefinite" calcMode="linear" /></feOffset>' +
+        '<feComposite in="offsetNoise1" in2="offsetNoise2" result="part1" />' +
+        '<feComposite in="offsetNoise3" in2="offsetNoise4" result="part2" />' +
+        '<feBlend in="part1" in2="part2" mode="color-dodge" result="combinedNoise" />' +
+        '<feDisplacementMap in="SourceGraphic" in2="combinedNoise" scale="30" xChannelSelector="R" yChannelSelector="B" />' +
         '</filter>' +
-        '<filter id="electro-filtro-parado" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">' +
-        '<feTurbulence type="fractalNoise" baseFrequency="0.015 0.08" numOctaves="2" seed="5" result="ruido" />' +
-        '<feDisplacementMap in="SourceGraphic" in2="ruido" scale="4" xChannelSelector="R" yChannelSelector="G" />' +
+        '<filter id="electro-filtro-parado" color-interpolation-filters="sRGB" x="-20%" y="-20%" width="140%" height="140%">' +
+        '<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise1" seed="1" />' +
+        '<feOffset in="noise1" dx="0" dy="0" result="offsetNoise1" />' +
+        '<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise2" seed="1" />' +
+        '<feOffset in="noise2" dx="0" dy="0" result="offsetNoise2" />' +
+        '<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise3" seed="2" />' +
+        '<feOffset in="noise3" dx="0" dy="0" result="offsetNoise3" />' +
+        '<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="2" result="noise4" seed="2" />' +
+        '<feOffset in="noise4" dx="0" dy="0" result="offsetNoise4" />' +
+        '<feComposite in="offsetNoise1" in2="offsetNoise2" result="part1" />' +
+        '<feComposite in="offsetNoise3" in2="offsetNoise4" result="part2" />' +
+        '<feBlend in="part1" in2="part2" mode="color-dodge" result="combinedNoise" />' +
+        '<feDisplacementMap in="SourceGraphic" in2="combinedNoise" scale="30" xChannelSelector="R" yChannelSelector="B" />' +
         '</filter>' +
         '</defs></svg>';
       document.body.appendChild(caixaFiltro);
     }
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
     var alvos = document.querySelectorAll('.bento__item--grande, .mistica-cartao');
     if (!alvos.length) {
       alvos = document.querySelectorAll('.item__link, a.cartao, .destaque, .cp-cartao, .tl__cartao, article.cartao, figure.cartao');
     }
     Array.prototype.slice.call(alvos, 0, 2).forEach(function (el) {
       el.classList.add('electro');
+      var aura = document.createElement('span');
+      aura.className = 'electro__aura';
+      aura.setAttribute('aria-hidden', 'true');
+      el.appendChild(aura);
     });
   })();
 

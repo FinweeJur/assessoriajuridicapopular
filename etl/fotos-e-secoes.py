@@ -13,12 +13,10 @@ def figura(src, alt):
 linha_a = [
     ("fotos/blog/blog-01.jpg", "Foto de post do blog Assessoria Jurídica Popular"),
     ("fotos/seminario/seminario-01.jpg", "Seminário do IPDMS, 2026"),
-    ("fotos/blog/blog-02.jpg", "Foto de post do blog Assessoria Jurídica Popular"),
     ("fotos/seminario/seminario-02.jpg", "Seminário do IPDMS, 2026"),
-    ("fotos/blog/blog-03.jpg", "Foto de post do blog Assessoria Jurídica Popular"),
+    ("fotos/seminario/seminario-03.jpg", "Seminário do IPDMS, 2026"),
 ]
 linha_b = [
-    ("fotos/seminario/seminario-03.jpg", "Seminário do IPDMS, 2026"),
     ("fotos/seminario/seminario-04.jpg", "Seminário do IPDMS, 2026"),
     ("fotos/seminario/seminario-05.jpg", "Seminário do IPDMS, 2026"),
     ("fotos/seminario/seminario-06.jpg", "Seminário do IPDMS, 2026"),
