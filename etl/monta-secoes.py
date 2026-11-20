@@ -52,20 +52,27 @@ def data_curta(iso):
 
 
 def topo(ativo):
-    links = [("index.html", "Acervo", "acervo")]
-    links += [(slug + ".html", titulo, slug) for slug, titulo, _, _, _ in SECOES]
-    links.append(("blog.html", "Blog", "blog"))
-    itens = "\n".join(
-        '        <a href="%s"%s>%s</a>' % (href, ' aria-current="page"' if chave == ativo else "", esc(rotulo))
-        for href, rotulo, chave in links)
+    secoes = "\n".join(
+        '          <li><a href="%s.html"%s>%s</a></li>' % (
+            slug, ' aria-current="page"' if slug == ativo else "", esc(titulo))
+        for slug, titulo, _, _, _ in SECOES)
     return """<header class="topo">
   <div class="topo__interno">
     <a class="topo__marca" href="index.html">
       <span class="ponto" aria-hidden="true"></span>
-      RENAP <span>· Acervo</span>
+      AJP <span>· Assessoria Jurídica Popular</span>
     </a>
     <nav class="topo__links" aria-label="Seções">
+      <a href="index.html"%s>Acervo</a>
+      <div class="menu">
+        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes">
+          Seções <span aria-hidden="true">▾</span>
+        </button>
+        <ul class="menu__lista" id="menu-secoes">
 %s
+        </ul>
+      </div>
+      <a href="blog.html"%s>Blog</a>
     </nav>
     <div class="topo__tema">
       <label for="tema">Tema</label>
@@ -82,11 +89,16 @@ def topo(ativo):
       </select>
     </div>
   </div>
-</header>""" % itens
+</header>""" % (' aria-current="page"' if ativo == "acervo" else "", secoes,
+                ' aria-current="page"' if ativo == "blog" else "")
 
 
 def rodape():
     return """<footer class="rodape">
+  <div class="rodape__topo">
+    <p class="rodape__marca"><span class="ponto" aria-hidden="true"></span> AJP · Assessoria Jurídica Popular</p>
+    <p class="rodape__lema">Textos em citação direta, com autor, data e fonte.</p>
+  </div>
   <div class="rodape__interno">
     <div>
       <h2>Acervo</h2>
@@ -154,7 +166,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>%s · Acervo Assessoria Jurídica Popular</title>
+  <title>%s · AJP — Assessoria Jurídica Popular</title>
   <meta name="description" content="%s" />
   <link rel="icon" href="data:," />
   <link rel="stylesheet" href="fontes/fontshare.css" />

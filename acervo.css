@@ -423,3 +423,64 @@ h2 {
 }
 
 @media print { .fita, .mais, .ao-topo { display: none !important; } }
+
+/* ── Barra superior baixa (rodada 2) ────────────────────────────────────── */
+.topo__interno { gap: var(--e4); flex-wrap: nowrap; padding-block: 10px !important; }
+.topo__marca { white-space: nowrap; }
+.topo__marca span { font-weight: 500; font-size: .9rem; }
+.topo__links { flex-wrap: nowrap; white-space: nowrap; gap: 4px; }
+.topo__links > a, .menu__botao {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 10px 12px; border-radius: 8px; min-height: 40px;
+  font: inherit; font-size: .92rem; font-weight: 600;
+  color: var(--cp-text-soft); background: none; border: 0; cursor: pointer;
+  text-decoration: none;
+}
+.topo__links > a:hover, .menu__botao:hover,
+.topo__links > a[aria-current="page"] { color: var(--cp-text); background: var(--cp-surface); }
+.menu { position: relative; }
+.menu__lista {
+  position: absolute; top: calc(100% + 6px); left: 0; z-index: 60;
+  display: none; min-width: 16rem; margin: 0; padding: 8px; list-style: none;
+  background: var(--cp-surface); border: 1px solid var(--borda); border-radius: 12px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, .35);
+}
+.menu:hover .menu__lista, .menu:focus-within .menu__lista { display: grid; gap: 2px; }
+.menu__lista a {
+  display: block; padding: 10px 12px; border-radius: 8px;
+  color: var(--cp-text); text-decoration: none; font-size: .92rem; white-space: nowrap;
+}
+.menu__lista a:hover { background: color-mix(in srgb, var(--cp-primary) 16%, transparent); }
+@media (max-width: 760px) {
+  .topo__marca span { display: none; }
+  .topo__links > a, .menu__botao { padding: 8px 10px; font-size: .86rem; }
+}
+
+/* ── Rodapé centralizado (rodada 2) ─────────────────────────────────────── */
+.rodape { text-align: center; }
+.rodape__topo {
+  max-width: 48rem; margin: 0 auto;
+  padding: var(--e6) var(--e4) var(--e3);
+  display: grid; gap: 6px; justify-items: center;
+}
+.rodape__marca {
+  display: inline-flex; align-items: center; gap: 10px; margin: 0;
+  font-family: var(--font-display); font-size: 1.05rem; font-weight: 700;
+  letter-spacing: -.01em; color: var(--cp-text);
+}
+.rodape__marca .ponto {
+  width: 12px; height: 12px; border-radius: 50%; background: var(--cp-primary);
+}
+.rodape__lema { margin: 0; font-size: .86rem; color: var(--cp-text-soft); }
+
+.rodape__interno {
+  justify-items: center; text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)) !important;
+  padding-top: var(--e4) !important;
+}
+.rodape h2 { text-align: center; }
+.rodape ul { display: grid; gap: 2px; justify-items: center; }
+.rodape p { max-width: 30ch; margin-left: auto; margin-right: auto; }
+
+.parcerias { padding-top: var(--e5); }
+.parcerias__lista { justify-content: center; }
