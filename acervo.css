@@ -1872,26 +1872,44 @@ a.cartao, .item__link, .destaque, .bento__item {
 /* ── Mística: Beam Flow na borda superior ─────────────────────────────── */
 .mistica-cartao { position: relative; }
 .mistica-cartao::before {
-  content: ""; position: absolute; top: -1px; left: 8%; right: 8%; height: 2px;
-  background: linear-gradient(90deg, transparent, #1aff9c 18%, #e8fff4 50%, #1aff9c 82%, transparent);
-  box-shadow: 0 0 10px #1aff9c, 0 0 32px rgba(26, 255, 156, .5);
-  filter: blur(.3px); z-index: 3;
-  animation: beam-linha 4s ease-in-out infinite;
+  content: ""; position: absolute; top: -1.5px; left: 0; right: 0; height: 3px;
+  background:
+    linear-gradient(90deg, transparent, rgba(26,255,156,.10) 6%, #1aff9c 30%,
+                    #eafff5 50%, #1aff9c 70%, rgba(26,255,156,.10) 94%, transparent);
+  background-size: 220% 100%;
+  box-shadow: 0 0 10px #1aff9c, 0 0 30px rgba(26,255,156,.55), 0 0 70px rgba(26,255,156,.22);
+  filter: blur(.25px); z-index: 3; pointer-events: none;
+  animation: beam-varre 6s linear infinite, beam-linha 4s ease-in-out infinite;
 }
 .mistica-cartao::after {
-  content: ""; position: absolute; top: -150px; left: 62%; width: 10px; height: 150px;
-  background: linear-gradient(to top, rgba(26, 255, 156, .95), rgba(26, 255, 156, .18), transparent);
-  filter: blur(3px); transform-origin: bottom; z-index: 2;
-  animation: beam-sobe 2.8s ease-in-out infinite;
+  content: ""; position: absolute; top: -170px; left: 62%; width: 10px; height: 170px;
+  background: linear-gradient(to top, rgba(26,255,156,.95), rgba(26,255,156,.22) 55%, transparent);
+  filter: blur(3px); transform-origin: bottom; z-index: 2; pointer-events: none;
+  animation: beam-sobe 2.8s ease-in-out infinite, beam-flutua 5.5s ease-in-out infinite;
 }
 .mistica-cartao .beam-core {
-  position: absolute; top: -118px; left: calc(62% + 3px); width: 3px; height: 118px;
-  background: linear-gradient(to top, #eafff5, rgba(26, 255, 156, .5), transparent);
+  position: absolute; top: -128px; left: calc(62% + 2px); width: 4px; height: 128px;
+  background: linear-gradient(to top, #eafff5, rgba(26,255,156,.55) 40%, transparent);
   filter: blur(.8px); z-index: 3; pointer-events: none;
   animation: beam-core 1.8s ease-in-out infinite;
 }
+.mistica-cartao .beam-core::before {
+  content: ""; position: absolute; left: 50%; bottom: 0; width: 86px; height: 100%;
+  transform: translateX(-50%);
+  background: linear-gradient(to top, rgba(26,255,156,.42), rgba(26,255,156,.10) 55%, transparent);
+  filter: blur(14px); border-radius: 50%; z-index: -1;
+}
+.mistica-cartao .beam-core::after {
+  content: ""; position: absolute; left: 50%; bottom: -4px; width: 260px; height: 92px;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse at 50% 100%, rgba(26,255,156,.55), rgba(26,255,156,.12) 46%, transparent 72%);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  filter: blur(6px); opacity: .9; pointer-events: none;
+}
+@keyframes beam-varre { from { background-position: 110% 0; } to { background-position: -110% 0; } }
 @keyframes beam-linha { 0%, 100% { opacity: .62; } 50% { opacity: 1; } }
 @keyframes beam-sobe { 0%, 100% { transform: scaleY(.72); opacity: .55; } 50% { transform: scaleY(1.08); opacity: 1; } }
+@keyframes beam-flutua { 0%, 100% { translate: 0 0; } 50% { translate: 14px 0; } }
 @keyframes beam-core { 0%, 100% { transform: scaleY(.8); opacity: .6; } 50% { transform: scaleY(1.05); opacity: 1; } }
 @media (prefers-reduced-motion: reduce) {
   .mistica-cartao::before, .mistica-cartao::after, .mistica-cartao .beam-core { animation: none; }
@@ -1900,21 +1918,35 @@ a.cartao, .item__link, .destaque, .bento__item {
 /* ── Meteor Impact Border nos cards do acervo ─────────────────────────── */
 @property --meteor-ang { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
 .meteoro-borda { position: relative; }
+.meteoro-borda::before,
 .meteoro-borda::after {
-  content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1.5px;
-  background: conic-gradient(from var(--meteor-ang), transparent 0 60%,
-              #ffb27a 74%, #fff 80%, var(--cp-primary) 85%, transparent 93%);
+  content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 2px;
+  background: conic-gradient(from var(--meteor-ang), transparent 0 58%,
+              rgba(255,178,122,.10) 68%, #ffb27a 76%, #ffffff 81%,
+              #ffd9a0 84%, var(--cp-primary) 88%, transparent 94%);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   mask-composite: exclude;
-  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--cp-primary) 65%, transparent));
-  animation: meteor-gira 3.4s linear infinite;
   pointer-events: none; z-index: 2;
+  animation: meteor-gira 3.4s linear infinite;
+}
+.meteoro-borda::before {
+  padding: 4px; filter: blur(7px); opacity: .85; z-index: 1;
+}
+.meteoro-borda::after {
+  filter: drop-shadow(0 0 7px color-mix(in srgb, var(--cp-primary) 75%, transparent));
 }
 @keyframes meteor-gira { to { --meteor-ang: 360deg; } }
 
 /* Navbar mais próxima da próxima seção */
+.mistica-dia { padding-top: 4px !important; }
+.mistica-dia .miolo { padding-top: 0 !important; padding-bottom: 0 !important; }
+.hero--texto .hero__interno { padding-top: clamp(18px, 2.2vw, 30px) !important; }
+@media (prefers-reduced-motion: reduce) {
+  .meteoro-borda::before, .meteoro-borda::after { animation: none; }
+}
+
 .mistica-dia { padding-top: 10px !important; }
 .hero--texto .hero__interno { padding-top: clamp(20px, 2.6vw, 34px) !important; }
 @media (prefers-reduced-motion: reduce) {
