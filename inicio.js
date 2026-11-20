@@ -251,12 +251,12 @@
 
   for (var i = 0; i < 26; i++) {
     fios.push({
-      x: (Math.random() * 2 - 1) * 8,
-      largura: .4 + Math.random() * 1.1,
-      amp: .8 + Math.random() * 3.2,
+      x: (Math.random() * 2 - 1) * 6,
+      largura: .35 + Math.random() * .9,
+      amp: .6 + Math.random() * 2.4,
       fase: Math.random() * Math.PI * 2,
       vel: .35 + Math.random() * .8,
-      alfa: .2 + Math.random() * .45,
+      alfa: .16 + Math.random() * .38,
       grad: null
     });
   }
@@ -323,45 +323,45 @@
     ctx.save();
     ctx.globalCompositeOperation = 'lighter';
 
-    var largura = Math.min(w * .44, 540);
+    var largura = Math.min(w * .34, 400);
 
     // Base: elipse rasa + bigorna com pontas e pico central.
-    elipse(largura, 6, [[0, 'rgba(180,255,225,.45)'], [.42, 'rgba(26,255,156,.2)'], [1, 'rgba(26,255,156,0)']], 18);
-    anvil(largura * .95, 10, .34, 18);
-    anvil(largura * .64, 20, .52, 22);
-    anvil(largura * .34, 34, .72, 24);
-    anvil(80, 48, .95, 26);
+    elipse(largura, 5, [[0, 'rgba(180,255,225,.28)'], [.42, 'rgba(26,255,156,.12)'], [1, 'rgba(26,255,156,0)']], 14);
+    anvil(largura * .82, 8, .24, 14);
+    anvil(largura * .54, 16, .38, 18);
+    anvil(largura * .28, 28, .58, 20);
+    anvil(64, 40, .88, 22);
 
     // Coluna cônica atrás dos filamentos.
     var gc = ctx.createLinearGradient(0, baseY, 0, 0);
-    gc.addColorStop(0, 'rgba(26,255,156,.62)');
-    gc.addColorStop(.45, 'rgba(26,255,156,.3)');
+    gc.addColorStop(0, 'rgba(26,255,156,.5)');
+    gc.addColorStop(.45, 'rgba(26,255,156,.22)');
     gc.addColorStop(1, 'rgba(26,255,156,0)');
     ctx.beginPath();
-    ctx.moveTo(x - 24, baseY);
-    ctx.lineTo(x - 7, 0);
-    ctx.lineTo(x + 7, 0);
-    ctx.lineTo(x + 24, baseY);
+    ctx.moveTo(x - 20, baseY);
+    ctx.lineTo(x - 6, 0);
+    ctx.lineTo(x + 6, 0);
+    ctx.lineTo(x + 20, baseY);
     ctx.closePath();
     ctx.fillStyle = gc;
     ctx.shadowColor = '#1aff9c';
-    ctx.shadowBlur = 18;
+    ctx.shadowBlur = 14;
     ctx.fill();
     ctx.shadowBlur = 0;
 
     var gi = ctx.createLinearGradient(0, baseY, 0, 0);
-    gi.addColorStop(0, 'rgba(150,255,220,.55)');
-    gi.addColorStop(.55, 'rgba(26,255,156,.18)');
+    gi.addColorStop(0, 'rgba(150,255,220,.42)');
+    gi.addColorStop(.55, 'rgba(26,255,156,.14)');
     gi.addColorStop(1, 'rgba(26,255,156,0)');
     ctx.beginPath();
-    ctx.moveTo(x - 13, baseY);
-    ctx.lineTo(x - 4, 0);
-    ctx.lineTo(x + 4, 0);
-    ctx.lineTo(x + 13, baseY);
+    ctx.moveTo(x - 10, baseY);
+    ctx.lineTo(x - 3.5, 0);
+    ctx.lineTo(x + 3.5, 0);
+    ctx.lineTo(x + 10, baseY);
     ctx.closePath();
     ctx.fillStyle = gi;
     ctx.shadowColor = '#1aff9c';
-    ctx.shadowBlur = 12;
+    ctx.shadowBlur = 10;
     ctx.fill();
     ctx.shadowBlur = 0;
 
@@ -391,7 +391,7 @@
     gc.addColorStop(.66, 'rgba(26,255,156,.42)');
     gc.addColorStop(1, 'rgba(26,255,156,0)');
     ctx.strokeStyle = gc;
-    ctx.lineWidth = 5.2;
+    ctx.lineWidth = 4.4;
     ctx.shadowColor = '#1aff9c';
     ctx.shadowBlur = 12;
     ctx.beginPath();
@@ -403,12 +403,12 @@
     // Linha intensa no ponto de impacto.
     var gh = ctx.createLinearGradient(0, 0, w, 0);
     gh.addColorStop(0, 'rgba(26,255,156,0)');
-    gh.addColorStop(.35, 'rgba(26,255,156,.25)');
-    gh.addColorStop(.5, 'rgba(220,255,240,.85)');
-    gh.addColorStop(.65, 'rgba(26,255,156,.25)');
+    gh.addColorStop(.35, 'rgba(26,255,156,.18)');
+    gh.addColorStop(.5, 'rgba(220,255,240,.65)');
+    gh.addColorStop(.65, 'rgba(26,255,156,.18)');
     gh.addColorStop(1, 'rgba(26,255,156,0)');
     ctx.fillStyle = gh;
-    ctx.fillRect(0, baseY - 1, w, 2.5);
+    ctx.fillRect(0, baseY - 1, w, 2);
 
     // Faíscas subindo.
     for (var s = 0; s < 7; s++) {
