@@ -83,8 +83,8 @@ PAGINA = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=36" />
-  <link rel="stylesheet" href="reveal.css?v=36" />
+  <link rel="stylesheet" href="acervo.css?v=48" />
+  <link rel="stylesheet" href="reveal.css?v=48" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
@@ -103,7 +103,7 @@ PAGINA = """<!DOCTYPE html>
 %s
 <script src="linha-tempo.js?v=2" defer></script>
 <script src="leitura.js?v=2" defer></script>
-<script src="casca.js?v=6" defer></script>
+<script src="casca.js?v=15" defer></script>
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>

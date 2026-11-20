@@ -23,8 +23,8 @@ if "data-mistica" not in t:
 '''
     t = t.replace('  <section class="destaques"', bloco + '  <section class="destaques"', 1)
 if "mistica-dia.js" not in t:
-    t = t.replace('<script src="casca.js?v=6" defer></script>',
-                  '<script src="mistica-dia.js?v=2" defer></script>\n<script src="casca.js?v=6" defer></script>', 1)
+    t = t.replace('<script src="casca.js?v=15" defer></script>',
+                  '<script src="mistica-dia.js?v=2" defer></script>\n<script src="casca.js?v=15" defer></script>', 1)
 with io.open(capa, "w", encoding="utf-8", newline="\n") as f:
     f.write(t)
 print("capa mística:", "data-mistica" in t)

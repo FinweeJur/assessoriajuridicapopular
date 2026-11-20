@@ -46,8 +46,8 @@ for nome in os.listdir(RAIZ):
         continue
     caminho = os.path.join(RAIZ, nome)
     t = io.open(caminho, encoding="utf-8").read()
-    novo = re.sub(r"acervo\.css\?v=\d+", "acervo.css?v=42", t)
-    novo = re.sub(r"reveal\.css\?v=\d+", "reveal.css?v=42", novo)
+    novo = re.sub(r"acervo\.css\?v=\d+", "acervo.css?v=48", t)
+    novo = re.sub(r"reveal\.css\?v=\d+", "reveal.css?v=48", novo)
     if novo != t:
         io.open(caminho, "w", encoding="utf-8", newline="\n").write(novo)
         n += 1

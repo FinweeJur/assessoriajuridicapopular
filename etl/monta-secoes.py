@@ -63,7 +63,7 @@ def topo(ativo):
       AJP <span>· Assessoria Jurídica Popular</span>
     </a>
     <nav class="topo__links" aria-label="Seções">
-      <a href="index.html"%s>Acervo</a>
+      <a href="acervo.html"%s>Acervo</a>
       <div class="menu">
         <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes">
           Seções <span aria-hidden="true">▾</span>
@@ -105,7 +105,7 @@ def rodape():
     <div>
       <h2>Acervo</h2>
       <ul>
-        <li><a href="index.html">Todos os textos</a></li>
+        <li><a href="acervo.html">Todos os textos</a></li>
         <li><a href="blog.html">Blog, em ordem</a></li>
         <li><a href="poemas.html">Poemas publicados</a></li>
         <li><a href="glossario.html">Glossário</a></li>
@@ -187,8 +187,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=36" />
-  <link rel="stylesheet" href="reveal.css?v=36" />
+  <link rel="stylesheet" href="acervo.css?v=48" />
+  <link rel="stylesheet" href="reveal.css?v=48" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -345,7 +345,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
-<script src="casca.js?v=6" defer></script>
+<script src="casca.js?v=15" defer></script>
 <script src="leitura.js?v=2" defer></script>
 <script src="fundo-grade.js?v=3" defer></script>
 </body>

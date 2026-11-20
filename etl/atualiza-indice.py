@@ -7,7 +7,7 @@ import re
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDICE = os.path.join(RAIZ, "_indice.json")
-CAPA = os.path.join(RAIZ, "index.html")
+CAPA = os.path.join(RAIZ, "acervo.html")
 
 
 def esc(t):

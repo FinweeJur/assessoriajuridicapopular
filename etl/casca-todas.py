@@ -109,9 +109,9 @@ for nome in os.listdir(RAIZ):
     novo = t
     if "casca.js" not in novo:
         novo = novo.replace("<script src="fundo-grade.js?v=3" defer></script>
-</body>", '<script src="casca.js?v=6" defer></script>\n<script src="fundo-grade.js?v=3" defer></script>
+</body>", '<script src="casca.js?v=15" defer></script>\n<script src="fundo-grade.js?v=3" defer></script>
 </body>', 1)
-    novo = novo.replace("acervo.css?v=36", "acervo.css?v=36").replace("reveal.css?v=36", "reveal.css?v=36")
+    novo = novo.replace("acervo.css?v=48", "acervo.css?v=48").replace("reveal.css?v=48", "reveal.css?v=48")
     if novo != t:
         with io.open(caminho, "w", encoding="utf-8", newline="\n") as f:
             f.write(novo)
@@ -126,12 +126,12 @@ for rel in ["etl/monta-secoes.py", "etl/monta-paginas.py", "_modelo.html",
         continue
     with io.open(caminho, encoding="utf-8") as f:
         t = f.read()
-    novo = t.replace("acervo.css?v=36", "acervo.css?v=36").replace("reveal.css?v=36", "reveal.css?v=36")
-    novo = novo.replace("acervo.css?v=36", "acervo.css?v=36").replace("reveal.css?v=36", "reveal.css?v=36")
-    novo = novo.replace("acervo.css?v=36", "acervo.css?v=36").replace("reveal.css?v=36", "reveal.css?v=36")
+    novo = t.replace("acervo.css?v=48", "acervo.css?v=48").replace("reveal.css?v=48", "reveal.css?v=48")
+    novo = novo.replace("acervo.css?v=48", "acervo.css?v=48").replace("reveal.css?v=48", "reveal.css?v=48")
+    novo = novo.replace("acervo.css?v=48", "acervo.css?v=48").replace("reveal.css?v=48", "reveal.css?v=48")
     if "casca.js" not in novo and rel.endswith(".py"):
         novo = novo.replace("<script src="fundo-grade.js?v=3" defer></script>
-</body>", '<script src="casca.js?v=6" defer></script>\n<script src="fundo-grade.js?v=3" defer></script>
+</body>", '<script src="casca.js?v=15" defer></script>\n<script src="fundo-grade.js?v=3" defer></script>
 </body>', 1)
     if novo != t:
         with io.open(caminho, "w", encoding="utf-8", newline="\n") as f:

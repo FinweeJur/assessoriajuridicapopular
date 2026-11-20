@@ -17,7 +17,7 @@
       ? '<button type="button" data-dial-busca style="--i:2"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg> Buscar</button>'
       : (compartilhar
         ? '<button type="button" data-dial-compartilhar style="--i:2"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.7 6.8-4.1M8.6 13.3l6.8 4.1"/></svg> Compartilhar</button>'
-        : '');
+        : '<button type="button" data-dial-acervo style="--i:2"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg> Acervo</button>');
 
     dial.innerHTML =
       '<div class="casca-dial__acoes">' +
@@ -67,6 +67,11 @@
         var alvo = compartilhar.querySelector('button, a');
         if (alvo) { window.setTimeout(function () { alvo.focus(); }, 420); }
         fechaDial();
+      });
+    }
+    if (!busca && !compartilhar) {
+      dial.querySelector('[data-dial-acervo]').addEventListener('click', function () {
+        window.location.href = 'acervo.html#lista-acervo';
       });
     }
 
@@ -371,7 +376,7 @@
         window.setTimeout(function () { principal.focus(); }, 380);
       } else {
         try { sessionStorage.setItem('ajp-busca', termo); } catch (e) {}
-        window.location.href = 'index.html#lista-acervo';
+        window.location.href = 'acervo.html#lista-acervo';
       }
     });
 

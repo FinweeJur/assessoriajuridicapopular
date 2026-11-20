@@ -102,7 +102,7 @@ for nome in os.listdir(RAIZ):
     caminho = os.path.join(RAIZ, nome)
     with io.open(caminho, encoding="utf-8") as f:
         html = f.read()
-    novo = html.replace("acervo.css?v=36", "acervo.css?v=36").replace("reveal.css?v=36", "reveal.css?v=36")
+    novo = html.replace("acervo.css?v=48", "acervo.css?v=48").replace("reveal.css?v=48", "reveal.css?v=48")
     if novo != html:
         with io.open(caminho, "w", encoding="utf-8", newline="\n") as f:
             f.write(novo)
