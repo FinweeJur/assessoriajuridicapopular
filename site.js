@@ -132,6 +132,33 @@
     });
   }
 
+  // Parâmetros da barra global: q, tipo, ano e ordem.
+  (function aplicaParametros() {
+    var params = new URLSearchParams(window.location.search);
+    var termo = params.get('q');
+    if (termo && busca) { busca.value = termo; }
+
+    var tipo = params.get('tipo');
+    if (tipo) {
+      var escolhido = null;
+      chips.forEach(function (b) { if (b.dataset.tipoF === tipo) { escolhido = b; } });
+      if (escolhido) {
+        tipoAtual = escolhido.dataset.tipoF;
+        chips.forEach(function (b) { b.setAttribute('aria-pressed', String(b === escolhido)); });
+      }
+    }
+
+    var ano = params.get('ano');
+    if (ano && anos) { anos.value = ano; }
+
+    var qualOrdem = params.get('ordem');
+    if (qualOrdem && ordem) {
+      ordem.value = qualOrdem;
+      ordem.dispatchEvent(new Event('change'));
+    }
+    filtra();
+  })();
+
   // Volta ao topo
   var topo = document.querySelector('[data-topo]');
   if (topo) {

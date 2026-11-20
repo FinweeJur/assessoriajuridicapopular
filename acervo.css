@@ -1972,3 +1972,67 @@ a.cartao, .item__link, .destaque, .bento__item {
 @media (prefers-reduced-motion: reduce) {
   .meteoro-borda::before, .meteoro-borda::after { animation: none; }
 }
+
+
+/* ── Barra global de busca, filtro e ordem ─────────────────────────────── */
+.busca-global {
+  border-bottom: 1px solid var(--borda);
+  background: color-mix(in srgb, var(--cp-bg) 94%, transparent);
+  padding: 10px clamp(16px, 4vw, 40px);
+}
+.busca-global__form {
+  max-width: var(--largura); margin: 0 auto;
+  display: grid; align-items: center; gap: 8px;
+  grid-template-columns: minmax(180px, 2fr) minmax(100px, 1fr)
+                         minmax(92px, .8fr) minmax(110px, .9fr) auto;
+}
+.busca-global__campo { position: relative; display: flex; align-items: center; }
+.busca-global__campo .ico {
+  position: absolute; left: 12px; width: 18px; height: 18px;
+  color: var(--cp-text-soft); pointer-events: none;
+}
+.busca-global input,
+.busca-global select,
+.busca-global button {
+  width: 100%; min-height: 42px; padding: 8px 11px;
+  border: 1px solid var(--borda); border-radius: 10px;
+  background: var(--cp-surface); color: var(--cp-text);
+  font: inherit; font-size: .84rem;
+}
+.busca-global input { padding-left: 38px; }
+.busca-global input::placeholder { color: var(--cp-text-soft); }
+.busca-global select { cursor: pointer; }
+.busca-global button {
+  width: auto; padding: 8px 18px; cursor: pointer;
+  border-color: var(--cor-tema); background: transparent;
+  color: var(--cor-tema); font-weight: 700;
+}
+.busca-global button:hover {
+  background: color-mix(in srgb, var(--cor-tema) 12%, transparent);
+}
+.busca-global button:focus-visible {
+  outline: 3px solid var(--cp-focus, var(--cor-tema)); outline-offset: 2px;
+}
+@media (max-width: 860px) {
+  .busca-global__form { grid-template-columns: 1fr 1fr; }
+  .busca-global__campo { grid-column: 1 / -1; }
+  .busca-global button { grid-column: 1 / -1; }
+}
+
+/* Rolagem lateral: subir e descer sempre visíveis. */
+.casca-rolagem {
+  top: 50%; bottom: auto; transform: translateY(-50%);
+  z-index: 45;
+}
+.casca-rolagem button {
+  opacity: 1; visibility: visible; transform: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .28);
+}
+.casca-rolagem button:hover {
+  border-color: var(--cor-tema); color: var(--cor-tema);
+}
+@media (max-width: 700px) {
+  .casca-rolagem {
+    top: auto; bottom: 150px; right: 10px; transform: none;
+  }
+}

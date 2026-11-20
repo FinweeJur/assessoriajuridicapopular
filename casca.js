@@ -83,6 +83,85 @@
     avaliaDial();
   }
 
+  // ── Barra global de busca, filtro e ordem ────────────────────────────────
+  (function buscaGlobal() {
+    if (document.querySelector('.fita') || document.querySelector('.busca-global')) { return; }
+    var topo = document.querySelector('.topo');
+    if (!topo) { return; }
+
+    var anos = '';
+    for (var a = 2024; a >= 2003; a--) {
+      anos += '<option value="' + a + '">' + a + '</option>';
+    }
+
+    var secao = document.createElement('section');
+    secao.className = 'busca-global';
+    secao.setAttribute('aria-label', 'Buscar e filtrar o acervo');
+    secao.innerHTML =
+      '<form class="busca-global__form" role="search" method="get" action="acervo.html">' +
+        '<div class="busca-global__campo">' +
+          '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
+          '<input type="search" name="q" aria-label="Buscar no acervo" placeholder="Buscar no acervo" autocomplete="off" />' +
+        '</div>' +
+        '<select name="tipo" aria-label="Tipo de texto">' +
+          '<option value="todos">Todos os tipos</option>' +
+          '<option value="formativo">Textos</option>' +
+          '<option value="evento">Eventos</option>' +
+          '<option value="poesia">Poesia</option>' +
+          '<option value="resenha">Livros</option>' +
+          '<option value="documento">Documentos</option>' +
+          '<option value="notícia">Notícias</option>' +
+        '</select>' +
+        '<select name="ano" aria-label="Ano"><option value="">Todos os anos</option>' + anos + '</select>' +
+        '<select name="ordem" aria-label="Ordenar">' +
+          '<option value="recente">Mais recente</option>' +
+          '<option value="antigo">Mais antigo</option>' +
+          '<option value="titulo">Título</option>' +
+        '</select>' +
+        '<button type="submit">Filtrar</button>' +
+      '</form>';
+    topo.insertAdjacentElement('afterend', secao);
+
+    var form = secao.querySelector('form');
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var q = form.querySelector('input[name="q"]').value.trim();
+      var tipo = form.querySelector('select[name="tipo"]').value;
+      var ano = form.querySelector('select[name="ano"]').value;
+      var ordem = form.querySelector('select[name="ordem"]').value;
+      var params = new URLSearchParams();
+      if (q) { params.set('q', q); }
+      if (tipo && tipo !== 'todos') { params.set('tipo', tipo); }
+      if (ano) { params.set('ano', ano); }
+      if (ordem && ordem !== 'recente') { params.set('ordem', ordem); }
+      var url = 'acervo.html';
+      if (params.toString()) { url += '?' + params.toString(); }
+      window.location.href = url + '#lista-acervo';
+    });
+  })();
+
+  // ── Subir/descer sempre visíveis na lateral direita ─────────────────────
+  (function rolagemLateral() {
+    if (document.querySelector('[data-rolagem]')) { return; }
+    var caixa = document.createElement('div');
+    caixa.className = 'casca-rolagem';
+    caixa.setAttribute('data-rolagem', '');
+    caixa.innerHTML =
+      '<button type="button" data-rolagem-subir aria-label="Subir a página" title="Subir">' +
+        '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg>' +
+      '</button>' +
+      '<button type="button" data-rolagem-descer aria-label="Descer a página" title="Descer">' +
+        '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>' +
+      '</button>';
+    document.body.appendChild(caixa);
+    caixa.querySelector('[data-rolagem-subir]').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    caixa.querySelector('[data-rolagem-descer]').addEventListener('click', function () {
+      window.scrollBy({ top: Math.round(window.innerHeight * 0.85), behavior: 'smooth' });
+    });
+  })();
+
   // ── Assistente do acervo ─────────────────────────────────────────────────
   if (!document.querySelector('[data-assistente]')) {
     var painel = document.createElement('div');
@@ -437,6 +516,7 @@
   (function buscaNoTopo() {
     var interno = document.querySelector('.topo__interno');
     if (!interno || interno.querySelector('.topo__busca-movel')) { return; }
+    if (document.querySelector('.busca-global')) { return; }
     var form = document.createElement('form');
     form.className = 'topo__busca-movel';
     form.setAttribute('role', 'search');
