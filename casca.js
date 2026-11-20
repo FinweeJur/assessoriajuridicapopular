@@ -146,5 +146,32 @@
         botao.setAttribute('aria-expanded', 'false');
       });
     }
+  
+  // Menu hambúrguer em tela estreita
+  (function menuEstreito() {
+    var topo = document.querySelector('.topo');
+    var interno = document.querySelector('.topo__interno');
+    var links = document.querySelector('.topo__links');
+    if (!topo || !interno || !links || document.querySelector('.topo__abrir')) { return; }
+    var botao = document.createElement('button');
+    botao.type = 'button';
+    botao.className = 'topo__abrir';
+    botao.setAttribute('aria-label', 'Abrir o menu');
+    botao.setAttribute('aria-expanded', 'false');
+    botao.setAttribute('aria-controls', 'menu-principal');
+    botao.innerHTML = '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
+    links.id = 'menu-principal';
+    interno.appendChild(botao);
+
+    botao.addEventListener('click', function () {
+      var aberto = topo.dataset.aberto === 'true';
+      topo.dataset.aberto = String(!aberto);
+      botao.setAttribute('aria-expanded', String(!aberto));
+      botao.setAttribute('aria-label', aberto ? 'Abrir o menu' : 'Fechar o menu');
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape') { topo.dataset.aberto = 'false'; botao.setAttribute('aria-expanded', 'false'); }
+    });
   })();
+})();
 })();

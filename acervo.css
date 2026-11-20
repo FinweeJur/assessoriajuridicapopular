@@ -884,3 +884,17 @@ a.cartao:hover, a.cartao:focus-visible,
 .mistica__titulo { font-family: var(--font-display); font-size: clamp(1.05rem, 1.8vw, 1.35rem); line-height: 1.35; margin: 0 auto 8px; max-width: 60ch; }
 .mistica__resumo { margin: 0 auto 8px; max-width: 62ch; font-size: .95rem; color: var(--cp-text-soft); }
 .mistica__fonte { margin: 0; font-size: .78rem; color: var(--cp-text-soft); }
+
+/* Menu estreito: botão sempre visível abaixo de 880 px */
+.topo__abrir {
+  display: none; place-items: center; width: 40px; height: 40px;
+  border: 1px solid var(--borda); border-radius: 10px;
+  background: transparent; color: var(--cp-text); cursor: pointer;
+}
+@media (max-width: 880px) {
+  .topo__abrir { display: grid; margin-left: 6px; }
+  .topo__leitura { display: none; }
+  .topo__interno { gap: 8px; }
+  .topo__tema label { display: none; }
+  .topo__tema select { max-width: 7.5rem; }
+}
