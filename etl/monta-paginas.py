@@ -94,9 +94,78 @@ def bloco_para_html(b):
     return ""
 
 
-def monta(post, modelo):
+SECOES = {
+    "assessoria-juridica-popular": ("assessoria-juridica-popular", "Assessoria jurídica popular"),
+    "direitos-humanos": ("direitos-humanos", "Direitos humanos"),
+    "movimentos-sociais": ("movimentos-sociais", "Movimentos sociais"),
+    "memoria": ("memoria-e-cultura", "Memória e cultura"),
+    "teoria-critica": ("teoria-critica", "Teoria crítica do direito"),
+    "educacao-popular": ("educacao-popular", "Educação popular"),
+}
+
+
+def slug_autor(nome):
+    sem = unicodedata.normalize("NFD", nome or "")
+    sem = "".join(c for c in sem if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-zA-Z0-9]+", "-", sem).strip("-").lower()[:60] or "redacao"
+
+
+def carrega_indice():
+    try:
+        with io.open(os.path.join(RAIZ, "_indice.json"), encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+
+def liga_paginas(post, indice):
+    """Migalha, link do autor e 'Leia também'."""
+    temas = post.get("temas") or ["assessoria-juridica-popular"]
+    secao = SECOES.get(temas[0], SECOES["assessoria-juridica-popular"])
+    autor = (post.get("autor") or {}).get("nome") or "Redação do blog"
+    titulo = esc(post.get("titulo"))
+
+    migalha = ('<nav class="migalha" aria-label="Você está em">'
+               '<a href="index.html">Acervo</a> <span aria-hidden="true">/</span> '
+               '<a href="%s.html">%s</a> <span aria-hidden="true">/</span> '
+               '<span aria-current="page">%s</span></nav>'
+               % (secao[0], secao[1], titulo))
+
+    autor_link = ('<p class="autor-link">Todos os textos de '
+                  '<a href="autor-%s.html">%s</a></p>' % (slug_autor(autor), esc(autor)))
+
+    ano = (post.get("data") or "")[:4]
+    pontuados = []
+    for outro in indice:
+        if outro.get("slug") == post.get("slug"):
+            continue
+        nota = 3 if set(outro.get("temas") or []) & set(post.get("temas") or []) else 0
+        nota += 2 if (outro.get("autor") or "") == autor else 0
+        nota += 1 if (outro.get("data") or "")[:4] == ano else 0
+        if nota:
+            pontuados.append((nota, outro))
+    pontuados.sort(key=lambda x: (-x[0], x[1].get("data") or ""))
+    escolhidos = [o for _, o in pontuados[:6]]
+
+    relacionados = ""
+    if escolhidos:
+        cartoes = "\n".join(
+            '<li class="item"><a class="item__link" href="%s.html">'
+            '<span class="etiqueta">%s · %s</span><h3>%s</h3>'
+            '<span class="item__ficha">%s</span></a></li>'
+            % (esc(r["slug"]), esc(r.get("tema")), esc(r.get("ano")),
+               esc(r.get("titulo")), esc(r.get("autor")))
+            for r in escolhidos)
+        relacionados = ('<section class="secao relacionados" aria-labelledby="relacionados">'
+                        '<div class="secao__cabeca"><h2 id="relacionados">Leia também</h2>'
+                        '<p class="secao__nota">Mesmo tema, mesmo autor ou mesmo ano</p></div>'
+                        '<ul class="lista-acervo" data-revelar-grupo>%s</ul></section>' % cartoes)
+
+    return migalha, autor_link, relacionados
+
+
+def monta(post, modelo, indice=None):
     blocos = post.get("blocos", [])
-    # Destaque: o parágrafo mais longo acima de 160 caracteres.
     destaque = ""
     indice_destaque = -1
     for i, b in enumerate(blocos):
@@ -133,6 +202,11 @@ def monta(post, modelo):
         "TEXTO": "\n      ".join(corpo),
     }
 
+    migalha, autor_link, relacionados = liga_paginas(post, indice or [])
+    valores["MIGALHA"] = migalha
+    valores["AUTOR_LINK"] = autor_link
+    valores["RELACIONADOS"] = relacionados
+
     saida = modelo
     for chave, valor in valores.items():
         saida = saida.replace("{{%s}}" % chave, valor)
@@ -151,11 +225,12 @@ def main():
     if args.limite:
         arquivos = arquivos[: args.limite]
 
+    indice_ref = carrega_indice()
     indice = []
     for caminho in arquivos:
         post = json.loads(io.open(caminho, encoding="utf-8").read())
         slug = post.get("slug") or slug_de(post.get("titulo"))
-        pagina, valores = monta(post, modelo)
+        pagina, valores = monta(post, modelo, indice_ref)
         destino = os.path.join(RAIZ, slug + ".html")
         with io.open(destino, "w", encoding="utf-8", newline="\n") as f:
             f.write(pagina)

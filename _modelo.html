@@ -121,6 +121,7 @@
           <li><a href="educacao-popular.html">Educação popular</a></li>
         </ul>
       </div>
+      <a href="autores.html">Autores</a>
       <a href="blog.html">Blog</a>
     </nav>
     <div class="topo__tema">
@@ -141,6 +142,7 @@
 </header>
 
 <main id="conteudo" data-revelar-grupo>
+  {{MIGALHA}}
   <article data-revelar-grupo class="pagina" aria-labelledby="titulo">
 
     <!-- 1. OLHO: tema + ano, em texto (nunca só cor).
@@ -179,6 +181,7 @@
           <dd><time datetime="{{CAPTURA_ISO}}">{{CAPTURA}}</time></dd>
         </div>
       </dl>
+      {{AUTOR_LINK}}
     </header>
 
     <!-- 5. BLOCO DE CITAÇÃO (obrigatório, antes do corpo).
@@ -230,6 +233,7 @@
       {{TEXTO}}
     </div>
 
+    {{RELACIONADOS}}
   </article>
 </main>
 

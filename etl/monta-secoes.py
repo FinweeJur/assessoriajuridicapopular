@@ -72,6 +72,7 @@ def topo(ativo):
 %s
         </ul>
       </div>
+      <a href="autores.html">Autores</a>
       <a href="blog.html"%s>Blog</a>
     </nav>
     <div class="topo__tema">

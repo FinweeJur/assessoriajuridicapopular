@@ -548,3 +548,18 @@ h2 {
 }
 .parcerias__lista a:hover img,
 .parcerias__lista a:focus-visible img { opacity: 1; filter: none; }
+
+/* ── Wiki: migalha, autor e relacionados ───────────────────────────────── */
+.migalha {
+  max-width: var(--largura); margin: 0 auto;
+  padding: var(--e4) clamp(16px, 4vw, 40px) 0;
+  font-size: .82rem; color: var(--cp-text-soft);
+  display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+}
+.migalha a { color: var(--cp-text-soft); }
+.migalha span[aria-current] { color: var(--cp-text); font-weight: 600; }
+
+.autor-link { margin: var(--e3) 0 0; font-size: .86rem; color: var(--cp-text-soft); }
+.autor-link a { font-weight: 700; }
+
+.relacionados { margin-top: var(--e6); }
