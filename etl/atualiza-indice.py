@@ -27,17 +27,22 @@ def data_curta(iso):
 
 def item(registro):
     temas = " ".join((registro.get("temas") or [""])[0].split("-"))
-    return """      <li class="item" data-temas="%s">
+    palavras = " ".join(registro.get("palavras") or [])
+    tags = " · ".join((registro.get("palavras") or [])[:3])
+    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s" data-tipo="%s" data-ano="%s" data-palavras="%s">
         <a class="cartao item__link" href="%s.html">
           <span class="etiqueta">%s · %s</span>
           <h3>%s</h3>
           <p>%s</p>
+          <span class="item__tags">%s</span>
           <span class="item__ficha">%s · %s</span>
         </a>
       </li>""" % (
-        esc(temas), esc(registro["slug"]), esc(registro.get("tema")), esc(registro.get("ano")),
+        esc(temas), esc(registro.get("data")), esc(registro.get("titulo")),
+        esc(registro.get("tipo") or "formativo"), esc(registro.get("ano")), esc(palavras),
+        esc(registro["slug"]), esc(registro.get("tema")), esc(registro.get("ano")),
         esc(registro.get("titulo")), esc((registro.get("resumo") or "")[:220]),
-        esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
+        esc(tags), esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
 
 
 def main():
