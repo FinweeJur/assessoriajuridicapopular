@@ -1,0 +1,45 @@
+/* Scroll reveal — só o necessário.
+   O bloco entra com 12 px de subida e 0,5 s de curva; nada de escala, blur ou
+   deslocamento grande, porque aqui o assunto é leitura, não vitrine. */
+
+[data-revelar] {
+  opacity: 1;                 /* sem JS, tudo visível */
+  transform: none;
+}
+
+html.tem-revelar [data-revelar]:not(.revelado) {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+html.tem-revelar [data-revelar] {
+  transition:
+    opacity .5s cubic-bezier(.2, .7, .2, 1) var(--atraso, 0ms),
+    transform .5s cubic-bezier(.2, .7, .2, 1) var(--atraso, 0ms);
+  will-change: opacity, transform;
+}
+
+html.tem-revelar [data-revelar].revelado {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+/* Quem pediu menos movimento recebe a página pronta, sem animação. */
+@media (prefers-reduced-motion: reduce) {
+  html.tem-revelar [data-revelar],
+  html.tem-revelar [data-revelar]:not(.revelado) {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* Impressão e PDF: nada escondido. */
+@media print {
+  [data-revelar],
+  [data-revelar]:not(.revelado) {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

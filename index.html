@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Acervo · Assessoria Jurídica Popular</title>
+  <meta name="description" content="Acervo de textos sobre assessoria jurídica popular, em citação direta, com fonte, autor e data. Parceria RENAP, IPDMS e MAB." />
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="fontes/fontshare.css" />
+  <link rel="stylesheet" href="temas/temas.css" />
+  <link rel="stylesheet" href="temas/renap.css" />
+  <link rel="stylesheet" href="acervo.css" />
+  <link rel="stylesheet" href="reveal.css" />
+</head>
+<body>
+
+<a class="pular" href="#conteudo">Pular para o acervo</a>
+
+<header class="topo">
+  <div class="topo__interno">
+    <a class="topo__marca" href="./">
+      <span class="ponto" aria-hidden="true"></span>
+      RENAP <span>· Acervo</span>
+    </a>
+    <div class="topo__tema">
+      <label for="tema">Tema</label>
+      <select id="tema" name="tema">
+        <option value="light" selected>Claro</option>
+        <option value="dark">Escuro</option>
+        <option value="brasil">Brasil</option>
+        <option value="high-contrast">Alto contraste</option>
+        <option value="pequi">Pequi</option>
+        <option value="cerrado">Cerrado</option>
+        <option value="mata-atlantica">Mata Atlântica</option>
+        <option value="caatinga">Caatinga</option>
+        <option value="pantanal">Pantanal</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo" data-revelar-grupo>
+
+  <section class="porta" aria-labelledby="titulo-acervo">
+    <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Acervo</p>
+    <h1 id="titulo-acervo">Assessoria jurídica popular, em citação direta</h1>
+    <p class="resumo">
+      Textos publicados no blog <b>Assessoria Jurídica Popular</b> desde 2009,
+      com autor, data, link para o original e crédito de cada parceria.
+    </p>
+    <p class="resumo resumo--nota">
+      <b>Em uma frase:</b> é o trabalho de advogados, estudantes e educadores
+      com movimentos sociais para realizar direitos — e a porta de entrada é
+      esta coleção.
+    </p>
+  </section>
+
+  <section class="busca" aria-labelledby="titulo-busca">
+    <h2 id="titulo-busca" class="sr-only">Buscar no acervo</h2>
+    <label class="busca__campo">
+      <span class="sr-only">Buscar por título, autor ou tema</span>
+      <input id="busca" type="search" placeholder="Buscar por título, autor ou tema" autocomplete="off" />
+    </label>
+    <p class="busca__contagem" id="busca-contagem" role="status" aria-live="polite">1 texto</p>
+  </section>
+
+  <nav class="chips" aria-label="Categorias do acervo">
+    <a class="chip" href="#" aria-current="true">Tudo</a>
+    <a class="chip" href="#">Assessoria jurídica popular</a>
+    <a class="chip" href="#">Educação popular</a>
+    <a class="chip" href="#">Movimentos sociais</a>
+    <a class="chip" href="#">Direitos humanos</a>
+    <a class="chip" href="#">Memória</a>
+    <a class="chip" href="#">Teoria crítica</a>
+  </nav>
+
+  <section aria-labelledby="titulo-lista">
+    <h2 id="titulo-lista" class="sr-only">Textos</h2>
+    <ul class="lista-acervo" id="lista-acervo" data-revelar-grupo>
+
+      <li class="item" data-temas="assessoria juridica popular educacao popular direitos humanos">
+        <a class="cartao item__link" href="o-que-e-assessoria-juridica-popular.html">
+          <span class="etiqueta">Assessoria jurídica popular · 2009</span>
+          <h3>O que é assessoria jurídica popular?</h3>
+          <p>Definição escrita por Luiz Otávio Ribas em 2009: o que é, de onde vem
+          e quem faz assessoria jurídica popular no Brasil.</p>
+          <span class="item__ficha">Luiz Otávio Ribas · 16 de agosto de 2009</span>
+        </a>
+      </li>
+
+    </ul>
+    <p class="aviso-lote">
+      O acervo entra em lotes: os 790 textos do blog estão sendo baixados e
+      revisados. Este é o primeiro.
+    </p>
+  </section>
+
+  <section class="porta porta--sobre" aria-labelledby="titulo-sobre">
+    <h2 id="titulo-sobre">Como este acervo funciona</h2>
+    <ul class="linhas">
+      <li><span class="emoji" aria-hidden="true">✍️</span><b>Citação direta:</b> o texto entra como o autor escreveu, com a grafia dele.</li>
+      <li><span class="emoji" aria-hidden="true">🔗</span><b>Fonte sempre:</b> cada página tem autor, data, link do original e data de captura.</li>
+      <li><span class="emoji" aria-hidden="true">🧭</span><b>Para quem chega:</b> “em uma frase”, glossário e o caminho de leitura.</li>
+      <li><span class="emoji" aria-hidden="true">🤝</span><b>Parceria:</b> publicação e curadoria com o IPDMS — GT de Assessoria Jurídica Popular.</li>
+    </ul>
+    <p class="acao"><a class="botao secundario" href="./">← Voltar à apresentação</a></p>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape__interno">
+    <p class="parceria">
+      Publicação e curadoria em parceria com o
+      <a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS<span class="sr-only"> (abre em outra aba)</span></a>
+      — GT de Assessoria Jurídica Popular.
+    </p>
+  </div>
+  <div class="parcerias" aria-label="Realização e parceria">
+    <p class="parcerias__titulo">Realização e parceria</p>
+    <ul class="parcerias__lista">
+      <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP — Rede Nacional de Advogados e Advogadas Populares" loading="lazy" /></a></li>
+      <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS — Instituto de Pesquisa, Direitos e Movimentos Sociais" loading="lazy" /></a></li>
+      <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB — Movimento dos Atingidos por Barragens" loading="lazy" /></a></li>
+    </ul>
+  </div>
+</footer>
+
+<script>
+  /* Tema e busca desta página. Sem framework. */
+  (function () {
+    'use strict';
+    var raiz = document.documentElement;
+    var seletor = document.getElementById('tema');
+    var guardado = localStorage.getItem('renap-tema');
+    if (guardado) { raiz.dataset.theme = guardado; seletor.value = guardado; }
+    seletor.addEventListener('change', function () {
+      raiz.dataset.theme = seletor.value;
+      localStorage.setItem('renap-tema', seletor.value);
+    });
+
+    var campo = document.getElementById('busca');
+    var lista = document.getElementById('lista-acervo');
+    var contagem = document.getElementById('busca-contagem');
+    var itens = [].slice.call(lista.querySelectorAll('.item'));
+
+    function semAcento(texto) {
+      return (texto || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    }
+
+    campo.addEventListener('input', function () {
+      var termo = semAcento(campo.value.trim());
+      var achou = 0;
+      itens.forEach(function (item) {
+        var alvo = semAcento(item.textContent + ' ' + (item.dataset.temas || ''));
+        var bate = !termo || alvo.indexOf(termo) > -1;
+        item.hidden = !bate;
+        if (bate) { achou++; }
+      });
+      contagem.textContent = achou === 1 ? '1 texto' : achou + ' textos';
+    });
+  })();
+</script>
+<script src="reveal.js" defer></script>
+</body>
+</html>
