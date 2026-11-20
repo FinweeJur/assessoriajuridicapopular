@@ -64,7 +64,7 @@ TEMAS = {
 CAMPOS_OBRIGATORIOS = (
     "id", "slug", "titulo", "data", "autor", "fonte", "blocos", "revisao",
 )
-CAMPOS_OPCIONAIS = {"resumo", "temas", "imagens", "categorias_blogger"}
+CAMPOS_OPCIONAIS = {"resumo", "temas", "imagens", "categorias_blogger", "descartes"}
 CAMPOS_FONTE = {"site", "url", "capturado_em", "licenca", "hash_html"}
 CAMPOS_FONTE_EXTRAS = {"origem_html", "user_agent"}
 

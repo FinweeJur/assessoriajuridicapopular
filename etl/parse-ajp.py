@@ -53,7 +53,7 @@ import re
 import sys
 import unicodedata
 import urllib.parse
-from typing import Any, Iterable
+from typing import Any
 
 from bs4 import BeautifulSoup, Comment, Doctype, NavigableString, Tag
 
@@ -233,7 +233,7 @@ TAGS_QUEBRA = {
     "p", "div", "center", "section", "article", "header", "footer", "main",
     "aside", "nav", "form", "fieldset", "address", "dl", "dt", "dd", "figure",
     "figcaption", "li", "td", "th", "tr", "tbody", "thead", "tfoot", "caption",
-    "output", "details", "summary", "span_quebra_inexistente",
+    "output", "details", "summary",
 }
 TAGS_TITULO = {"h1", "h2", "h3", "h4", "h5", "h6"}
 TAGS_MIDIA = {"iframe", "object", "embed", "video", "audio", "param"}
@@ -292,7 +292,9 @@ def normaliza(texto: str) -> str:
     linhas = [linha.strip() for linha in t.split("\n")]
     t = "\n".join(linhas)
     t = _VAZIAS.sub("\n", t)
-    return t.strip()
+    # NFC: "c" + cedilha vira "ç" de novo. É forma Unicode, não grafia —
+    # o original às vezes vem decomposto (colado do Word) e quebra a busca.
+    return unicodedata.normalize("NFC", t.strip())
 
 
 def tem_conteudo(texto: str) -> bool:
@@ -535,7 +537,6 @@ class Contexto:
         self.pendencias: list[dict[str, str]] = []
         self.imagens: list[dict[str, Any]] = []
         self.descartados = 0
-        self.links = 0
         # URL canônica do post: resolve link relativo e âncora de nota.
         self.base: str | None = None
 
@@ -552,11 +553,6 @@ class Contexto:
             "legenda": bloco.get("legenda"),
             "licenca": "link",
         })
-
-    def conta_links(self, blocos: Iterable[dict[str, Any]]) -> None:
-        for bloco in blocos:
-            for link in bloco.get("links") or []:
-                self.links += 1
 
 
 def _achata(no: Any, atomos: list[tuple[str, Any]]) -> None:
@@ -624,12 +620,10 @@ def _bloco_de_texto(buffer: list[Any], ctx: Contexto) -> list[dict[str, Any]]:
         resto = normaliza(texto.replace(ancoras, "", 1) if ancoras in texto else texto)
         if not tem_conteudo(resto) and len(links) >= 1:
             # O bloco inteiro é um link: vira bloco `link`, não parágrafo.
-            ctx.links += len(links)
             return [
                 {"tipo": "link", "texto": link["texto"], "url": link["url"], "externo": link["externo"]}
                 for link in links
             ]
-        ctx.links += len(links)
         return [{"tipo": "paragrafo", "texto": texto, "links": links}]
     return [{"tipo": "paragrafo", "texto": texto}]
 
@@ -865,7 +859,7 @@ def data_pt_br(texto: str) -> str | None:
         return None
 
 
-def le_pagina(html: str, post_id: str) -> tuple[dict[str, Any], Tag | None]:
+def le_pagina(html: str) -> tuple[dict[str, Any], Tag | None]:
     """Extrai metadados e o `.post-body` de uma página de post do Blogger.
 
     A ordem importa: título, autor e URL canônica moram no cabeçalho e no
@@ -1082,7 +1076,6 @@ def monta_registro(
     dados_pagina: dict[str, Any] | None,
     corpo_html: str | None,
     entrada_feed: dict[str, Any] | None,
-    capa_html: str | None,
     hash_html: str | None,
     origem_html: str,
     capturado_em: str,
@@ -1173,6 +1166,8 @@ def monta_registro(
         "blocos": blocos,
         "imagens": ctx.imagens,
         "categorias_blogger": categorias,
+        # Quantos blocos o parser jogou fora (rabicho, parágrafo vazio, cromo).
+        "descartes": ctx.descartados,
         "revisao": {"estado": "pendente", "notas": notas, "pendencias": pendencias},
     }
     return registro
@@ -1182,7 +1177,7 @@ def hash_de(texto: bytes) -> str:
     return "sha256:" + hashlib.sha256(texto).hexdigest()
 
 
-def carrega_pagina(caminho: str, post_id: str) -> tuple[dict[str, Any], str, str | None] | None:
+def carrega_pagina(caminho: str) -> tuple[dict[str, Any], str, str | None] | None:
     """Lê a página baixada. Devolve (dados, html do corpo, hash) ou None."""
     with io.open(caminho, "rb") as f:
         bruto = f.read()
@@ -1191,7 +1186,7 @@ def carrega_pagina(caminho: str, post_id: str) -> tuple[dict[str, Any], str, str
     html = bruto.decode("utf-8", errors="replace")
     if "</html>" not in html.lower():
         return None  # download interrompido
-    dados, corpo = le_pagina(html, post_id)
+    dados, corpo = le_pagina(html)
     if corpo is None:
         return None
     return dados, str(corpo), hash_de(bruto)
@@ -1240,7 +1235,7 @@ def processa(
         if fonte != "feed":
             caminho = os.path.join(pasta_posts, post_id + ".html")
             if os.path.exists(caminho):
-                lido = carrega_pagina(caminho, post_id)
+                lido = carrega_pagina(caminho)
                 if lido is not None:
                     dados_pagina, corpo_html, hash_html = lido
                 else:
@@ -1264,7 +1259,6 @@ def processa(
             dados_pagina=dados_pagina,
             corpo_html=corpo_html,
             entrada_feed=entrada or por_id.get(post_id),
-            capa_html=None,
             hash_html=hash_html,
             origem_html=origem,
             capturado_em=capturado_em,
@@ -1302,6 +1296,7 @@ def monta_relatorio(
     total_links = 0
     total_externos = 0
     origens: dict[str, int] = {}
+    total_descartes = 0
     vistos: dict[tuple[str, str], str] = {}
     duplicatas: list[dict[str, str]] = []
 
@@ -1319,6 +1314,7 @@ def monta_relatorio(
         for tema in registro["temas"]:
             temas[tema] = temas.get(tema, 0) + 1
         total_imagens += len(registro["imagens"])
+        total_descartes += int(registro.get("descartes") or 0)
         origens[registro["fonte"]["origem_html"]] = origens.get(registro["fonte"]["origem_html"], 0) + 1
         for pendencia in registro["revisao"]["pendencias"]:
             pendencias[pendencia["tipo"]] = pendencias.get(pendencia["tipo"], 0) + 1
@@ -1344,6 +1340,7 @@ def monta_relatorio(
         "posts_do_feed": usou_feed,
         "blocos_por_tipo": dict(sorted(por_tipo.items(), key=lambda par: -par[1])),
         "total_blocos": sum(por_tipo.values()),
+        "descartes": total_descartes,
         "imagens": total_imagens,
         "links": total_links,
         "links_externos": total_externos,
@@ -1406,6 +1403,7 @@ def main(argv: list[str] | None = None) -> int:
     print("posts gravados: %d em %s" % (relatorio["total_posts"], args.saida))
     print("origem do HTML:", relatorio["origem_do_html"])
     print("blocos por tipo:", relatorio["blocos_por_tipo"])
+    print("blocos descartados (cromo e vazios): %d" % relatorio["descartes"])
     print("imagens: %d | links: %d (externos: %d)" % (
         relatorio["imagens"], relatorio["links"], relatorio["links_externos"]))
     print("temas:", relatorio["temas"])
