@@ -1485,3 +1485,9 @@ a.cartao, .item__link, .destaque, .bento__item {
   .topo__tema select { max-width: 110px; font-size: .72rem; padding: 6px 6px; }
 }
 .electro { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--cp-primary) 20%, transparent); }
+
+/* No celular, o bento vira uma coluna de verdade */
+@media (max-width: 560px) {
+  .bento .bento__item { grid-column: auto; grid-row: auto; }
+  .bento .bento__item--grande, .bento .bento__item--largo { grid-column: auto; }
+}
