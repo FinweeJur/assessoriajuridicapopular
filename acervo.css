@@ -1138,3 +1138,19 @@ body[data-comeco="true"] .assistente {
 @media (prefers-reduced-motion: reduce) {
   .radio-flut, .assistente { transition: none; }
 }
+
+/* Aviso de IA: largura inteira e espaço para os botões */
+.rodape { padding-bottom: 140px; }
+.rodape .rodape__ia {
+  max-width: var(--largura) !important;
+  margin: 0 auto !important;
+  padding: 14px clamp(16px, 4vw, 40px) 0 !important;
+  font-size: .72rem !important;
+  line-height: 1.55 !important;
+  color: var(--cp-text-soft) !important;
+  text-align: center !important;
+}
+@media (max-width: 620px) {
+  .rodape { padding-bottom: 180px; }
+  .rodape .rodape__ia { font-size: .7rem !important; }
+}
