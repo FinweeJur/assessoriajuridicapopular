@@ -273,7 +273,7 @@
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
     var alvos = document.querySelectorAll('.bento__item--grande, .mistica-cartao');
     if (!alvos.length) {
-      alvos = document.querySelectorAll('.item__link, a.cartao, .destaque');
+      alvos = document.querySelectorAll('.item__link, a.cartao, .destaque, .cp-cartao, article.cartao, figure.cartao');
     }
     Array.prototype.slice.call(alvos, 0, 2).forEach(function (el) {
       el.classList.add('electro');
