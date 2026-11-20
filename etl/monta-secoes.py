@@ -149,12 +149,17 @@ def rodape():
 
 
 def cartao(registro):
+    palavras = (registro.get("palavras") or [])[:3]
+    tags = ""
+    if palavras:
+        tags = '<span class="item__tags">%s</span>' % "".join(
+            '<span class="item__tag">%s</span>' % esc(p) for p in palavras)
     return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s" data-tipo="%s" data-ano="%s" data-palavras="%s">
         <a class="item__link" href="%s.html">
           <span class="etiqueta">%s · %s</span>
           <h3>%s</h3>
           <p>%s</p>
-          <span class="item__tags">%s</span>
+          %s
           <span class="item__ficha">%s · %s</span>
         </a>
       </li>""" % (
@@ -164,7 +169,7 @@ def cartao(registro):
         esc(" ".join(registro.get("palavras") or [])),
         esc(registro["slug"]), esc(registro.get("tema")), esc(registro.get("ano")),
         esc(registro.get("titulo")), esc((registro.get("resumo") or "")[:200]),
-        esc(" · ".join((registro.get("palavras") or [])[:3])),
+        tags,
         esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
 
 
@@ -183,8 +188,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=29" />
-  <link rel="stylesheet" href="reveal.css?v=29" />
+  <link rel="stylesheet" href="acervo.css?v=36" />
+  <link rel="stylesheet" href="reveal.css?v=36" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -341,9 +346,9 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
-<script src="casca.js?v=3" defer></script>
+<script src="casca.js?v=6" defer></script>
 <script src="leitura.js?v=2" defer></script>
-<script src="fundo-grade.js?v=1" defer></script>
+<script src="fundo-grade.js?v=3" defer></script>
 </body>
 </html>
 """ % (esc(titulo), esc(lead), topo(ativo), foto, esc(titulo), esc(lead), n,

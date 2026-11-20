@@ -1,4 +1,4 @@
-/* Fundo: grade interativa de quadrados pequenos em todas as páginas. */
+/* Fundo: grade interativa + estrelas que esticam com a rolagem. */
 (function () {
   'use strict';
 
@@ -15,8 +15,10 @@
   var dpr = Math.min(window.devicePixelRatio || 1, 2);
   var W = 0, H = 0;
   var px = -9999, py = -9999, quadro = 0;
+  var vel = 0, ultimoY = window.scrollY;
   var reduz = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var fino = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  var estrelas = [];
 
   function resolve(nome, fallback) {
     var sonda = document.createElement('span');
@@ -31,6 +33,19 @@
   var primaria = resolve('--cp-primary', '#ffd700');
   var texto = resolve('--cp-text', '#ffffff');
 
+  function criaEstrelas() {
+    estrelas = [];
+    var n = Math.max(26, Math.round(W * H / 26000));
+    for (var i = 0; i < n; i++) {
+      estrelas.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        r: 0.6 + Math.random() * 1.2,
+        a: 0.12 + Math.random() * 0.22
+      });
+    }
+  }
+
   function mede() {
     W = window.innerWidth;
     H = window.innerHeight;
@@ -39,14 +54,17 @@
     canvas.style.width = W + 'px';
     canvas.style.height = H + 'px';
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    criaEstrelas();
     desenha();
   }
 
   function desenha() {
     ctx.clearRect(0, 0, W, H);
+
+    // Grade de quadrados pequenos.
     var tam = W < 620 ? 10 : 14;
     var passo = tam + 4;
-    var raio = 102; // 40% menor que o brilho anterior
+    var raio = 102;
     for (var y = 4; y < H; y += passo) {
       for (var x = 4; x < W; x += passo) {
         var d = Math.hypot(x + tam / 2 - px, y + tam / 2 - py);
@@ -56,7 +74,25 @@
         ctx.fillRect(x, y, tam, tam);
       }
     }
+
+    // Estrelas: pontos parados ou riscos na velocidade da rolagem.
+    ctx.fillStyle = texto;
+    var risco = Math.max(0, Math.min(46, Math.abs(vel) * 2.4));
+    for (var i = 0; i < estrelas.length; i++) {
+      var e = estrelas[i];
+      e.y += vel * 0.35;
+      if (e.y < -8) { e.y = H + 8; e.x = Math.random() * W; }
+      if (e.y > H + 8) { e.y = -8; e.x = Math.random() * W; }
+      ctx.globalAlpha = e.a;
+      if (risco > 1.5) {
+        ctx.fillRect(e.x, e.y - Math.sign(vel) * risco, e.r, risco + e.r);
+      } else {
+        ctx.fillRect(e.x, e.y, e.r, e.r);
+      }
+    }
+
     ctx.globalAlpha = 1;
+    vel *= 0.82;
   }
 
   function anima() {
@@ -80,6 +116,13 @@
       agenda();
     });
   }
+
+  window.addEventListener('scroll', function () {
+    var y = window.scrollY;
+    vel = Math.max(-70, Math.min(70, y - ultimoY));
+    ultimoY = y;
+    agenda();
+  }, { passive: true });
 
   window.addEventListener('resize', mede);
   new MutationObserver(function () {

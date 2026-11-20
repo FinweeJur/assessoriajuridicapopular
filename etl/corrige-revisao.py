@@ -28,8 +28,8 @@ def template(titulo, olho, lead, corpo, arquivo, autor="Acervo AJP", data="2026-
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=29" />
-  <link rel="stylesheet" href="reveal.css?v=29" />
+  <link rel="stylesheet" href="acervo.css?v=36" />
+  <link rel="stylesheet" href="reveal.css?v=36" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
@@ -66,11 +66,11 @@ def template(titulo, olho, lead, corpo, arquivo, autor="Acervo AJP", data="2026-
 </main>
 %s
 <script src="compartilhar.js" defer></script>
-<script src="casca.js?v=3" defer></script>
+<script src="casca.js?v=6" defer></script>
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
-<script src="fundo-grade.js?v=1" defer></script>
+<script src="fundo-grade.js?v=3" defer></script>
 </body>
 </html>
 """ % (ms.esc(titulo), TOPO, ms.esc(titulo), ms.esc(olho), ms.esc(titulo), ms.esc(lead), corpo,

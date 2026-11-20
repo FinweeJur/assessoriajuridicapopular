@@ -99,7 +99,7 @@ with io.open(ANTIGA, "w", encoding="utf-8", newline="\n") as f:
 <title>Direito crítico comparado · AJP</title>
 <link rel="canonical" href="assessoria-juridica-popular-no-mundo.html" />
 </head><body><p>O conteúdo está em
-<a href="assessoria-juridica-popular-no-mundo.html#direito-critico">Direito crítico comparado</a>.</p><script src="fundo-grade.js?v=1" defer></script>
+<a href="assessoria-juridica-popular-no-mundo.html#direito-critico">Direito crítico comparado</a>.</p><script src="fundo-grade.js?v=3" defer></script>
 </body></html>
 """)
 print("redirecionamento: ok")

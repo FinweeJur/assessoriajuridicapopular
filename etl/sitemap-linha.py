@@ -56,6 +56,9 @@ CORPO = """    <section class="secao">
       <p class="secao__nota">Role a página: a linha se preenche e os anos acendem.</p></div>
       <div class="tl" data-tl>
         <span class="tl__trilho" aria-hidden="true"><i data-tl-linha></i></span>
+        <svg class="tl__svg" viewBox="0 0 20 1000" preserveAspectRatio="none" aria-hidden="true">
+          <path class="tl__caminho" data-tl-caminho pathLength="100" d="M9 0 C17 110, 2 230, 9 350 S17 590, 9 710 S2 890, 9 1000" />
+        </svg>
         <ul class="tl__lista">
 %s
         </ul>
@@ -80,8 +83,8 @@ PAGINA = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=29" />
-  <link rel="stylesheet" href="reveal.css?v=29" />
+  <link rel="stylesheet" href="acervo.css?v=36" />
+  <link rel="stylesheet" href="reveal.css?v=36" />
   <link rel="stylesheet" href="componentes/radio.css" />
 </head>
 <body>
@@ -100,11 +103,11 @@ PAGINA = """<!DOCTYPE html>
 %s
 <script src="linha-tempo.js?v=2" defer></script>
 <script src="leitura.js?v=2" defer></script>
-<script src="casca.js?v=3" defer></script>
+<script src="casca.js?v=6" defer></script>
 <script src="site.js?v=2" defer></script>
 <script src="reveal.js" defer></script>
 <script src="componentes/radio.js" defer></script>
-<script src="fundo-grade.js?v=1" defer></script>
+<script src="fundo-grade.js?v=3" defer></script>
 </body>
 </html>
 """ % (ms.topo("texto"), CORPO, ms.rodape())

@@ -3,37 +3,79 @@
 (function () {
   'use strict';
 
-  // ── Rolagem: descer e subir ──────────────────────────────────────────────
-  if (!document.querySelector('[data-casca-rolagem]')) {
-    var caixa = document.createElement('div');
-    caixa.className = 'casca-rolagem';
-    caixa.setAttribute('data-casca-rolagem', '');
-    caixa.innerHTML =
-      '<button type="button" data-casca-subir aria-label="Subir a página" data-dica="Subir">' +
-      '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg></button>' +
-      '<button type="button" data-casca-descer aria-label="Descer a página" data-dica="Descer">' +
-      '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>';
-    document.body.appendChild(caixa);
+  // ── Discagem rápida: topo, descer e buscar/compartilhar ────────────────
+  if (!document.querySelector('[data-dial]')) {
+    var dial = document.createElement('div');
+    dial.className = 'casca-dial';
+    dial.setAttribute('data-dial', '');
+    dial.dataset.aberto = 'false';
+    dial.dataset.visivel = 'false';
 
-    var subir = caixa.querySelector('[data-casca-subir]');
-    var descer = caixa.querySelector('[data-casca-descer]');
+    var busca = document.querySelector('[data-busca]');
+    var compartilhar = document.querySelector('.compartilhar');
+    var terceira = busca
+      ? '<button type="button" data-dial-busca style="--i:2"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg> Buscar</button>'
+      : (compartilhar
+        ? '<button type="button" data-dial-compartilhar style="--i:2"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.7 6.8-4.1M8.6 13.3l6.8 4.1"/></svg> Compartilhar</button>'
+        : '');
 
-    subir.addEventListener('click', function () {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-    descer.addEventListener('click', function () {
-      window.scrollBy({ top: window.innerHeight * 0.85, behavior: 'smooth' });
-    });
+    dial.innerHTML =
+      '<div class="casca-dial__acoes">' +
+      '<button type="button" data-dial-topo style="--i:0"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg> Topo</button>' +
+      '<button type="button" data-dial-descer style="--i:1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg> Descer</button>' +
+      terceira +
+      '</div>' +
+      '<button class="casca-dial__botao" type="button" data-dial-toggle aria-expanded="false" aria-label="Ações da página">' +
+      '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>';
+    document.body.appendChild(dial);
 
-    function avalia() {
-      var y = window.scrollY;
-      var fim = y + window.innerHeight >= document.body.scrollHeight - 80;
-      subir.dataset.visivel = y > 500 ? 'true' : 'false';
-      descer.dataset.visivel = fim ? 'false' : 'true';
+    var botaoDial = dial.querySelector('[data-dial-toggle]');
+    function fechaDial() {
+      dial.dataset.aberto = 'false';
+      botaoDial.setAttribute('aria-expanded', 'false');
     }
-    window.addEventListener('scroll', avalia, { passive: true });
-    window.addEventListener('resize', avalia);
-    avalia();
+    botaoDial.addEventListener('click', function () {
+      var aberto = dial.dataset.aberto === 'true';
+      dial.dataset.aberto = String(!aberto);
+      botaoDial.setAttribute('aria-expanded', String(!aberto));
+    });
+    document.addEventListener('click', function (ev) {
+      if (!dial.contains(ev.target)) { fechaDial(); }
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape') { fechaDial(); }
+    });
+
+    dial.querySelector('[data-dial-topo]').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      fechaDial();
+    });
+    dial.querySelector('[data-dial-descer]').addEventListener('click', function () {
+      window.scrollBy({ top: window.innerHeight * 0.85, behavior: 'smooth' });
+      fechaDial();
+    });
+    if (busca) {
+      dial.querySelector('[data-dial-busca]').addEventListener('click', function () {
+        busca.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        window.setTimeout(function () { busca.focus(); }, 420);
+        fechaDial();
+      });
+    }
+    if (!busca && compartilhar) {
+      dial.querySelector('[data-dial-compartilhar]').addEventListener('click', function () {
+        compartilhar.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        var alvo = compartilhar.querySelector('button, a');
+        if (alvo) { window.setTimeout(function () { alvo.focus(); }, 420); }
+        fechaDial();
+      });
+    }
+
+    function avaliaDial() {
+      dial.dataset.visivel = window.scrollY > 240 ? 'true' : 'false';
+    }
+    window.addEventListener('scroll', avaliaDial, { passive: true });
+    window.addEventListener('resize', avaliaDial);
+    avaliaDial();
   }
 
   // ── Assistente do acervo ─────────────────────────────────────────────────
@@ -212,5 +254,96 @@
     window.addEventListener('scroll', avalia, { passive: true });
     window.addEventListener('resize', avalia);
     avalia();
+  })();
+
+  // ── Magic card: holofote que segue o ponteiro ───────────────────────────
+  (function magicCards() {
+    var cards = document.querySelectorAll('a.cartao, .item__link, .destaque, .bento__item');
+    Array.prototype.forEach.call(cards, function (card) {
+      card.addEventListener('pointermove', function (ev) {
+        var r = card.getBoundingClientRect();
+        card.style.setProperty('--mx', ((ev.clientX - r.left) / r.width * 100).toFixed(1) + '%');
+        card.style.setProperty('--my', ((ev.clientY - r.top) / r.height * 100).toFixed(1) + '%');
+      });
+    });
+  })();
+
+  // ── Electro border: no máximo dois por página ───────────────────────────
+  (function electro() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { return; }
+    var alvos = document.querySelectorAll('.bento__item--grande, .mistica-cartao');
+    if (!alvos.length) {
+      alvos = document.querySelectorAll('.item__link, a.cartao, .destaque');
+    }
+    Array.prototype.slice.call(alvos, 0, 2).forEach(function (el) {
+      el.classList.add('electro');
+    });
+  })();
+
+  // ── Busca expansível: limpar com um clique ──────────────────────────────
+  (function buscaExpansivel() {
+    var campos = document.querySelectorAll('[data-busca], .busca__campo input[type="search"]');
+    Array.prototype.forEach.call(campos, function (campo) {
+      if (campo.parentNode.querySelector('.busca__limpar')) { return; }
+      var limpar = document.createElement('button');
+      limpar.type = 'button';
+      limpar.className = 'busca__limpar';
+      limpar.setAttribute('aria-label', 'Limpar a busca');
+      limpar.textContent = '×';
+      campo.insertAdjacentElement('afterend', limpar);
+      limpar.addEventListener('click', function () {
+        campo.value = '';
+        campo.dispatchEvent(new Event('input', { bubbles: true }));
+        campo.focus();
+      });
+    });
+  })();
+
+  // ── Busca na barra do topo (telas estreitas) ───────────────────────────
+  (function buscaNoTopo() {
+    var interno = document.querySelector('.topo__interno');
+    if (!interno || interno.querySelector('.topo__busca-movel')) { return; }
+    var form = document.createElement('form');
+    form.className = 'topo__busca-movel';
+    form.setAttribute('role', 'search');
+    form.innerHTML =
+      '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
+      '<input type="search" aria-label="Buscar no acervo" placeholder="Buscar no acervo" autocomplete="off" />';
+    interno.appendChild(form);
+
+    var campo = form.querySelector('input');
+    var principal = document.querySelector('[data-busca]');
+    if (principal) {
+      campo.addEventListener('input', function () {
+        principal.value = campo.value;
+        principal.dispatchEvent(new Event('input', { bubbles: true }));
+      });
+    }
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var termo = campo.value.trim();
+      if (!termo) { return; }
+      if (principal) {
+        principal.value = termo;
+        principal.dispatchEvent(new Event('input', { bubbles: true }));
+        principal.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        window.setTimeout(function () { principal.focus(); }, 380);
+      } else {
+        try { sessionStorage.setItem('ajp-busca', termo); } catch (e) {}
+        window.location.href = 'index.html#lista-acervo';
+      }
+    });
+
+    window.addEventListener('load', function () {
+      var termo = '';
+      try {
+        termo = sessionStorage.getItem('ajp-busca') || '';
+        if (termo) { sessionStorage.removeItem('ajp-busca'); }
+      } catch (e) {}
+      if (!termo || !principal) { return; }
+      principal.value = termo;
+      principal.dispatchEvent(new Event('input', { bubbles: true }));
+      principal.scrollIntoView({ block: 'center' });
+    });
   })();
 })();
