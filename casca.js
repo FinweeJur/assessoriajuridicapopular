@@ -351,9 +351,42 @@
         '</defs></svg>';
       document.body.appendChild(caixaFiltro);
     }
+    function semAcento(t) {
+      return (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    }
+
+    function pontuaAtemporal(el) {
+      var li = el.closest('.item');
+      if (!li || li.hidden) { return -99; }
+      var tipo = semAcento(li.getAttribute('data-tipo') || '');
+      var titulo = semAcento(li.getAttribute('data-titulo') || '');
+      var resumo = el.querySelector('p') ? el.querySelector('p').textContent : '';
+      var nota = 0;
+      if (tipo === 'formativo') { nota += 5; }
+      else if (tipo === 'resenha') { nota += 4; }
+      else if (tipo === 'poesia') { nota += 2; }
+      else if (tipo === 'evento' || tipo === 'noticia' || tipo === 'documento') { nota -= 6; }
+      nota += Math.min(4, resumo.length / 60);
+      var ruins = ['programacao', 'convite', 'inscri', 'oficina', 'encontro', 'seminario',
+        'mesa', 'debate', 'live', 'aula', 'curso', 'jornada', 'evento', 'festival',
+        'mostra', 'lancamento', 'assembleia', 'abaixo-assinado', 'convocatoria', 'selecao'];
+      if (ruins.some(function (w) { return titulo.indexOf(w) > -1; })) { nota -= 7; }
+      var bons = ['direito', 'assessoria', 'teoria', 'critica', 'movimento', 'terra',
+        'trabalho', 'democracia', 'constituicao', 'racismo', 'genero', 'educacao',
+        'justica', 'reforma', 'politica'];
+      if (bons.some(function (w) { return titulo.indexOf(w) > -1; })) { nota += 2; }
+      return nota;
+    }
+
     var alvos = document.querySelectorAll('.bento__item--grande, .mistica-cartao');
     if (!alvos.length) {
-      alvos = document.querySelectorAll('.item__link, a.cartao, .destaque, .cp-cartao, .tl__cartao, article.cartao, figure.cartao');
+      var links = Array.prototype.slice.call(document.querySelectorAll('.item__link'));
+      if (links.length) {
+        links.sort(function (a, b) { return pontuaAtemporal(b) - pontuaAtemporal(a); });
+        alvos = links.slice(0, 2);
+      } else {
+        alvos = document.querySelectorAll('a.cartao, .destaque, .cp-cartao, .tl__cartao, article.cartao, figure.cartao');
+      }
     }
     Array.prototype.slice.call(alvos, 0, 2).forEach(function (el) {
       el.classList.add('electro');
