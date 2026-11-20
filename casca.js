@@ -380,7 +380,7 @@
 
     // Electric só em card grande: bento da home ou hero da seção.
     var grande = document.querySelector('.bento__item--grande');
-    var hero = document.querySelector('.hero');
+    var hero = document.querySelector('.hero__interno');
     var alvos = grande ? [grande] : (hero ? [hero] : []);
     alvos.forEach(function (el) {
       el.classList.add('electro');
