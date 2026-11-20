@@ -401,11 +401,20 @@
       el.addEventListener('focus', function () { move(el); });
     });
     nav.addEventListener('pointerleave', function () { move(ativo); });
-    window.addEventListener('resize', function () { move(ativo); });
-    window.addEventListener('load', function () { move(ativo); });
+    function reposiciona() { move(ativo); }
+    window.addEventListener('resize', reposiciona);
+    window.addEventListener('load', function () {
+      reposiciona();
+      window.setTimeout(reposiciona, 250);
+      window.setTimeout(reposiciona, 900);
+    });
     if (document.fonts && document.fonts.ready) {
-      document.fonts.ready.then(function () { move(ativo); });
+      document.fonts.ready.then(function () {
+        reposiciona();
+        window.setTimeout(reposiciona, 150);
+      });
     }
-    move(ativo);
+    if (window.ResizeObserver) { new ResizeObserver(reposiciona).observe(nav); }
+    reposiciona();
   })();
 })();
