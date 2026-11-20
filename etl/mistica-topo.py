@@ -26,7 +26,7 @@ BLOCO = '''  <section class="mistica-dia" aria-labelledby="mistica-titulo" hidde
 
 '''
 
-m = re.search(r'<main id="conteudo">\s*\n', t)
+m = re.search(r'<main id="conteudo"[^>]*>\s*\n', t)
 if not m:
     raise SystemExit("nao achei o main da capa")
 t = t[:m.end()] + BLOCO + t[m.end():]
