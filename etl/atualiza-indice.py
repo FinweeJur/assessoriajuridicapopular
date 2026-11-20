@@ -56,7 +56,7 @@ def main():
     if inicio < 0:
         raise SystemExit("nao achei a lista na capa")
     fim = t.find("</ul>", inicio) + len("</ul>")
-    lista = ('<ul class="lista-acervo" id="lista-acervo" data-revelar-grupo>\n\n'
+    lista = ('<ul class="lista-acervo" id="lista-acervo" data-revelar-grupo data-paginada>\n\n'
              + "\n\n".join(item(r) for r in registros) + "\n\n    </ul>")
     t = t[:inicio] + lista + t[fim:]
 

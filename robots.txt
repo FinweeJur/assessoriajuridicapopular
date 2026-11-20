@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /_modelo.html
+Disallow: /radio-markup.html
+Disallow: /etl/
+Disallow: /fontes-textos/
+Sitemap: https://finweejur.github.io/assessoriajuridicapopular/sitemap.xml
