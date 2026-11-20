@@ -24,7 +24,8 @@
   }
 
   function visiveis() {
-    return itens.filter(function (li) { return !li.hidden && !li.dataset.fora; });
+    // O hidden é consequência da paginação; o filtro olha só o que foi excluído.
+    return itens.filter(function (li) { return li.dataset.fora !== '1'; });
   }
 
   function aplica() {
