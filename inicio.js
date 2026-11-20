@@ -334,18 +334,34 @@
 
     // Coluna cônica atrás dos filamentos.
     var gc = ctx.createLinearGradient(0, baseY, 0, 0);
-    gc.addColorStop(0, 'rgba(26,255,156,.5)');
-    gc.addColorStop(.5, 'rgba(26,255,156,.17)');
+    gc.addColorStop(0, 'rgba(26,255,156,.62)');
+    gc.addColorStop(.45, 'rgba(26,255,156,.3)');
     gc.addColorStop(1, 'rgba(26,255,156,0)');
     ctx.beginPath();
-    ctx.moveTo(x - 18, baseY);
-    ctx.lineTo(x - 5, 0);
-    ctx.lineTo(x + 5, 0);
-    ctx.lineTo(x + 18, baseY);
+    ctx.moveTo(x - 24, baseY);
+    ctx.lineTo(x - 7, 0);
+    ctx.lineTo(x + 7, 0);
+    ctx.lineTo(x + 24, baseY);
     ctx.closePath();
     ctx.fillStyle = gc;
     ctx.shadowColor = '#1aff9c';
-    ctx.shadowBlur = 16;
+    ctx.shadowBlur = 18;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+
+    var gi = ctx.createLinearGradient(0, baseY, 0, 0);
+    gi.addColorStop(0, 'rgba(150,255,220,.55)');
+    gi.addColorStop(.55, 'rgba(26,255,156,.18)');
+    gi.addColorStop(1, 'rgba(26,255,156,0)');
+    ctx.beginPath();
+    ctx.moveTo(x - 13, baseY);
+    ctx.lineTo(x - 4, 0);
+    ctx.lineTo(x + 4, 0);
+    ctx.lineTo(x + 13, baseY);
+    ctx.closePath();
+    ctx.fillStyle = gi;
+    ctx.shadowColor = '#1aff9c';
+    ctx.shadowBlur = 12;
     ctx.fill();
     ctx.shadowBlur = 0;
 
@@ -375,7 +391,7 @@
     gc.addColorStop(.66, 'rgba(26,255,156,.42)');
     gc.addColorStop(1, 'rgba(26,255,156,0)');
     ctx.strokeStyle = gc;
-    ctx.lineWidth = 3.4;
+    ctx.lineWidth = 5.2;
     ctx.shadowColor = '#1aff9c';
     ctx.shadowBlur = 12;
     ctx.beginPath();
