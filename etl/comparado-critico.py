@@ -12,7 +12,7 @@ RAIZ = r"X:\DevCoder\assessoriajuridicapopular"
 PAGINA = os.path.join(RAIZ, "assessoria-juridica-popular-no-mundo.html")
 
 SECAO = '''    <section class="secao" id="direito-critico"><div class="secao__cabeca">
-      <h2>4. Direito crítico popular: quatro perspectivas</h2>
+      <h2>1. Direito crítico popular: quatro perspectivas</h2>
       <p class="secao__nota">AJP, direito insurgente, direito achado na rua e uso tático — o que cada um responde</p></div>
       <p>As quatro perspectivas não são sinônimos. Cada uma responde a uma pergunta diferente:
       <b>como fazer</b> (AJP), <b>de onde vem o direito</b> (achado na rua), <b>a que preço se usa o
@@ -72,13 +72,13 @@ SECAO = '''    <section class="secao" id="direito-critico"><div class="secao__ca
       </ul>
 
       <h3>Como se combinam na prática</h3>
-      <p>Na luta dos atingidos por barragens, as quatro entram juntas. A <b>AJP</b> organiza o método:
-      assessoria técnica independente, rodas de formação e linguagem acessível. O <b>direito achado na
-      rua</b> amplia o que conta como direito: a definição de “atingido” inclui danos culturais,
-      territoriais e de meios de vida, mesmo fora da área inundada. O <b>direito insurgente</b> lembra
-      que assembleias, regulamentos de acampamento e rituais de decisão valem sem homologação judicial.
-      O <b>uso tático</b> decide quando entrar no Judiciário: ação civil pública, <i>habeas corpus</i>
-      para lideranças, bloqueio de bens — sem confundir vitória judicial com vitória política.</p>
+      <p>Na prática, as quatro entram juntas. A <b>AJP</b> organiza o método: formação, linguagem
+      acessível e protagonismo de quem vive o conflito. O <b>direito achado na rua</b> amplia o que
+      conta como direito: normas comunitárias, usos, territórios e modos de vida que não cabem nos
+      códigos. O <b>direito insurgente</b> lembra que assembleias, regulamentos internos e decisões
+      coletivas valem sem homologação judicial. O <b>uso tático</b> decide quando entrar no Judiciário:
+      ação civil pública, <i>habeas corpus</i>, bloqueio de bens, denúncia internacional — sem confundir
+      vitória judicial com vitória política.</p>
 
       <h3>Onde ler no acervo</h3>
       <ul class="linhas">

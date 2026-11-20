@@ -1042,3 +1042,7 @@ a.cartao:hover, a.cartao:focus-visible,
 .mistica__titulo { line-height: 1.5 !important; max-width: 54ch; margin: 0 auto 12px !important; }
 .mistica__resumo { line-height: 1.7 !important; font-size: 1rem !important; max-width: 58ch; margin: 0 auto 14px !important; }
 .mistica__fonte { line-height: 1.5 !important; }
+
+/* Rodapé: espaço para os botões flutuantes não cobrirem os links */
+.rodape { padding-bottom: 96px; }
+@media (max-width: 620px) { .rodape { padding-bottom: 136px; } }

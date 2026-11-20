@@ -7,11 +7,11 @@ RAIZ = r"X:\DevCoder\assessoriajuridicapopular"
 PAGINA = os.path.join(RAIZ, "assessoria-juridica-popular-no-mundo.html")
 
 LINKS = [
-    ("Jurisprudência dos desastres",
-     "Decisões sobre Mariana, Brumadinho e outros desastres ambientais.",
+    ("Jurisprudência por tema",
+     "Decisões sobre desastres, conflitos ambientais, terra e direitos humanos.",
      "https://www.controlepopular.com.br/jurisprudencia"),
     ("Relatórios de Direitos Humanos",
-     "Dados e relatórios sobre violações, conflitos e atingidos.",
+     "Dados e relatórios sobre violações, conflitos e populações afetadas.",
      "https://www.controlepopular.com.br/ambiental/direitos-humanos"),
     ("Legislação e precedentes por tema",
      "Normas e julgados organizados por assunto.",
@@ -43,14 +43,18 @@ cartoes = "\n".join(
 
 SECAO = '''    <section class="secao" id="controle-popular"><div class="secao__cabeca">
       <h2>5. O que existe no Controle Popular</h2>
-      <p class="secao__nota">%d portas de entrada, com link direto</p></div>
-      <p>O Controle Popular reúne jurisprudência, legislação, relatórios e caminhos de denúncia.
-      Cada cartão abre a página correspondente, em outra aba.</p>
+      <p class="secao__nota">Portal parceiro, com %d portas de entrada</p></div>
+      <p>O <b>Controle Popular</b> é um portal parceiro deste acervo. Reúne e organiza
+      <b>dados públicos</b> sobre jurisprudência, legislação, relatórios de direitos humanos,
+      decisões de acesso à informação e caminhos de denúncia. Não é um blog de opinião: é uma
+      base de consulta, com link para a fonte de cada item. Cada cartão abre a página
+      correspondente, em outra aba.</p>
       <div class="grade-cp">
 %s
       </div>
-      <p class="secao__nota">Sugestão de uso: comece pela jurisprudência dos desastres, confira a
-      legislação aplicável e só então volte ao comparado para situar o caso no debate internacional.</p>
+      <p class="secao__nota">Sugestão de uso: comece pela jurisprudência do tema que você pesquisa,
+      confira a legislação e os relatórios aplicáveis e só então volte ao comparado para situar o
+      caso no debate internacional.</p>
     </section>
 
 ''' % (len(LINKS), cartoes)
