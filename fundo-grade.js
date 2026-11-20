@@ -117,12 +117,14 @@
     });
   }
 
-  window.addEventListener('scroll', function () {
-    var y = window.scrollY;
-    vel = Math.max(-70, Math.min(70, y - ultimoY));
-    ultimoY = y;
-    agenda();
-  }, { passive: true });
+  if (!reduz) {
+    window.addEventListener('scroll', function () {
+      var y = window.scrollY;
+      vel = Math.max(-70, Math.min(70, y - ultimoY));
+      ultimoY = y;
+      agenda();
+    }, { passive: true });
+  }
 
   window.addEventListener('resize', mede);
   new MutationObserver(function () {
