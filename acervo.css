@@ -814,3 +814,17 @@ a.cartao:hover, a.cartao:focus-visible,
   .lista-acervo { grid-template-columns: minmax(0, 1fr) !important; }
 }
 .lista-acervo .item__link { min-width: 0; }
+
+/* Rodapé curto: três colunas + uma linha de parceria */
+.rodape__interno { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+.rodape__topo { padding-bottom: var(--e2) !important; }
+.rodape__linha {
+  max-width: var(--largura); margin: 0 auto;
+  padding: var(--e2) clamp(16px, 4vw, 40px);
+  font-size: .82rem; color: var(--cp-text-soft); text-align: center;
+}
+.rodape__linha b { color: var(--cp-text); }
+.parcerias { padding: var(--e4) var(--e4) var(--e5) !important; }
+@media (max-width: 760px) {
+  .rodape__interno { grid-template-columns: 1fr !important; gap: var(--e4) !important; }
+}
