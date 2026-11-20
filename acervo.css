@@ -1870,6 +1870,7 @@ a.cartao, .item__link, .destaque, .bento__item {
 }
 
 /* ── Mística: Beam Flow na borda superior ─────────────────────────────── */
+.mistica-dia { --beam: clamp(92px, 8vw, 118px); padding-top: var(--beam) !important; }
 .mistica-cartao { position: relative; }
 .mistica-cartao > :not(.beam-core) { position: relative; z-index: 1; }
 .mistica-cartao::before {
@@ -1883,35 +1884,38 @@ a.cartao, .item__link, .destaque, .bento__item {
   animation: beam-varre 6s linear infinite, beam-linha 4s ease-in-out infinite;
 }
 .mistica-cartao::after {
-  content: ""; position: absolute; top: 0; left: 62%; width: 16px; height: 118px;
-  background: linear-gradient(to bottom, rgba(26,255,156,.55), rgba(26,255,156,.12) 55%, transparent);
-  filter: blur(6px); transform-origin: top; z-index: 0; pointer-events: none;
-  animation: beam-desce 3.2s ease-in-out infinite, beam-flutua 5.5s ease-in-out infinite;
+  content: ""; position: absolute; top: calc(-1 * var(--beam)); left: 62%;
+  width: 14px; height: var(--beam);
+  background: linear-gradient(to top, rgba(26,255,156,.92), rgba(26,255,156,.28) 58%,
+              rgba(26,255,156,.06) 88%, transparent);
+  filter: blur(4px); transform-origin: bottom; z-index: 0; pointer-events: none;
+  animation: beam-sobe 2.8s ease-in-out infinite, beam-flutua 5.5s ease-in-out infinite;
 }
 .mistica-cartao .beam-core {
-  position: absolute; top: 0; left: calc(62% + 2px); width: 3px; height: 78px;
-  background: linear-gradient(to bottom, #eafff5, rgba(26,255,156,.55) 45%, transparent);
+  position: absolute; top: calc(-1 * var(--beam)); left: calc(62% + 2px);
+  width: 4px; height: var(--beam);
+  background: linear-gradient(to top, #eafff5, rgba(26,255,156,.58) 45%, transparent 90%);
   filter: blur(.8px); z-index: 0; pointer-events: none;
   animation: beam-core 1.8s ease-in-out infinite;
 }
 .mistica-cartao .beam-core::before {
-  content: ""; position: absolute; left: 50%; top: 0; width: 250px; height: 122px;
+  content: ""; position: absolute; left: 50%; bottom: -12px; width: 280px; height: 52px;
   transform: translateX(-50%);
-  background: radial-gradient(ellipse at 50% 0%, rgba(26,255,156,.36), rgba(26,255,156,.08) 46%, transparent 72%);
-  clip-path: polygon(50% 0, 0 100%, 100% 100%);
-  filter: blur(7px); opacity: .85; z-index: -1;
+  background: radial-gradient(ellipse at 50% 100%, rgba(26,255,156,.62),
+              rgba(26,255,156,.12) 48%, transparent 76%);
+  filter: blur(8px); opacity: .9; z-index: -1;
 }
 .mistica-cartao .beam-core::after {
-  content: ""; position: absolute; left: 50%; top: -7px; width: 78px; height: 26px;
+  content: ""; position: absolute; left: 50%; bottom: -8px; width: 84px; height: 28px;
   transform: translateX(-50%);
-  background: radial-gradient(ellipse at 50% 50%, rgba(26,255,156,.75), transparent 70%);
-  filter: blur(4px); opacity: .9; pointer-events: none;
+  background: radial-gradient(ellipse at 50% 50%, rgba(26,255,156,.78), transparent 70%);
+  filter: blur(4px); opacity: .95; pointer-events: none;
 }
 @keyframes beam-varre { from { background-position: 110% 0; } to { background-position: -110% 0; } }
 @keyframes beam-linha { 0%, 100% { opacity: .62; } 50% { opacity: 1; } }
-@keyframes beam-desce { 0%, 100% { transform: scaleY(.78); opacity: .55; } 50% { transform: scaleY(1.05); opacity: .95; } }
-@keyframes beam-flutua { 0%, 100% { translate: 0 0; } 50% { translate: 14px 0; } }
-@keyframes beam-core { 0%, 100% { transform: scaleY(.82); opacity: .6; } 50% { transform: scaleY(1.04); opacity: 1; } }
+@keyframes beam-sobe { 0%, 100% { transform: scaleY(.72); opacity: .55; } 50% { transform: scaleY(1.06); opacity: .98; } }
+@keyframes beam-flutua { 0%, 100% { translate: 0 0; } 50% { translate: 12px 0; } }
+@keyframes beam-core { 0%, 100% { transform: scaleY(.82); opacity: .62; } 50% { transform: scaleY(1.04); opacity: 1; } }
 @media (prefers-reduced-motion: reduce) {
   .mistica-cartao::before, .mistica-cartao::after, .mistica-cartao .beam-core { animation: none; }
 }
@@ -1941,7 +1945,6 @@ a.cartao, .item__link, .destaque, .bento__item {
 @keyframes meteor-gira { to { --meteor-ang: 360deg; } }
 
 /* Navbar mais próxima da próxima seção */
-.mistica-dia { padding-top: 4px !important; }
 .mistica-dia .miolo { padding-top: 0 !important; padding-bottom: 0 !important; }
 .hero--texto .hero__interno { padding-top: clamp(18px, 2.2vw, 30px) !important; }
 @media (prefers-reduced-motion: reduce) {
