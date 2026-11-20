@@ -12,8 +12,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2024",
-  "tema_principal": "teoria-critica"
+  "ano": "2024"
  },
  {
   "slug": "oficina-de-introducao-as-teorias-criticas-e-ajp",
@@ -28,8 +27,7 @@
    "movimentos-sociais"
   ],
   "tema": "Teoria crítica",
-  "ano": "2024",
-  "tema_principal": "teoria-critica"
+  "ano": "2024"
  },
  {
   "slug": "marchinha-do-najup",
@@ -41,8 +39,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2023",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2023"
  },
  {
   "slug": "catalogo-da-editora-sergio-antonio-fabris",
@@ -54,8 +51,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2019",
-  "tema_principal": "teoria-critica"
+  "ano": "2019"
  },
  {
   "slug": "guia-de-empoderamento-para-a-seguranca-das-mulheres-na",
@@ -68,9 +64,8 @@
    "memoria",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2019",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2019"
  },
  {
   "slug": "o-abismo-entre-o-asfalto-e-a-favela",
@@ -82,9 +77,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2018",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2018"
  },
  {
   "slug": "a-escassez-do-acesso-a-justica-a-populacao-brasileira",
@@ -96,8 +90,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2018",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2018"
  },
  {
   "slug": "cafe-guaii-e-quilombo-campo-grande",
@@ -110,9 +103,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2018",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2018"
  },
  {
   "slug": "uma-experiencia-de-educacao-popular",
@@ -125,8 +117,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2018",
-  "tema_principal": "educacao-popular"
+  "ano": "2018"
  },
  {
   "slug": "os-instrumentos-do-direito-servem-para-quem",
@@ -141,8 +132,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2018",
-  "tema_principal": "educacao-popular"
+  "ano": "2018"
  },
  {
   "slug": "vamos-precisar-de-todo-mundo-um-mais-um-e-sempre-mais-que",
@@ -155,9 +145,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2018",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2018"
  },
  {
   "slug": "os-instrumentos-do-direito-servem-para-quem-uma-breve",
@@ -170,9 +159,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2018",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2018"
  },
  {
   "slug": "curso-de-extensao-em-ajp-na-uerj",
@@ -185,9 +173,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2018",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2018"
  },
  {
   "slug": "publicacao-do-livro-direito-achado-na-ilha-no-maranhao",
@@ -199,8 +186,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2018",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2018"
  },
  {
   "slug": "moradores-sao-espancados-e-barracos-incendiados-na-ocupacao",
@@ -212,8 +198,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2018",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2018"
  },
  {
   "slug": "lyra-filho-filosofia-teologia-e-experiencia-mistica",
@@ -226,8 +211,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2018",
-  "tema_principal": "teoria-critica"
+  "ano": "2018"
  },
  {
   "slug": "prefacio-lyra-filho-em-livro-de-gilberto-freyre",
@@ -239,8 +223,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2018",
-  "tema_principal": "teoria-critica"
+  "ano": "2018"
  },
  {
   "slug": "biblioteca-crescendo",
@@ -252,8 +235,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2018",
-  "tema_principal": "teoria-critica"
+  "ano": "2018"
  },
  {
   "slug": "atualizacao-da-biblioteca-roberto-lyra-filho",
@@ -265,8 +247,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2018",
-  "tema_principal": "teoria-critica"
+  "ano": "2018"
  },
  {
   "slug": "biblioteca-miguel-lanzellotti-baldez",
@@ -279,9 +260,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2017",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2017"
  },
  {
   "slug": "jornada-universitaria-em-fortaleza",
@@ -294,8 +274,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2017",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2017"
  },
  {
   "slug": "fortalecimento-da-renaju-em-uma-conjuntura-de-retrocessos",
@@ -309,9 +288,8 @@
    "memoria",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2017",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2017"
  },
  {
   "slug": "e-quando-nao-ha-o-pai-para-matar",
@@ -325,9 +303,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "o-fantasma-colonial-do-infanticidio-indigena",
@@ -339,8 +316,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2016",
-  "tema_principal": "direitos-humanos"
+  "ano": "2016"
  },
  {
   "slug": "o-conceito-de-casa-contra-o-conceito-de-propriedade-privada",
@@ -352,9 +328,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2016",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2016"
  },
  {
   "slug": "para-que-a-justica-brasileira-existe",
@@ -367,9 +342,8 @@
    "movimentos-sociais",
    "assessoria-juridica-popular"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2016",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2016"
  },
  {
   "slug": "resistir-para-que",
@@ -381,8 +355,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2016",
-  "tema_principal": "direitos-humanos"
+  "ano": "2016"
  },
  {
   "slug": "pesquisa-participante-como-metodo-utilizado-pela-assessoria",
@@ -395,9 +368,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "nao-tenho-condicoes",
@@ -408,9 +380,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2016",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2016"
  },
  {
   "slug": "por-uma-praxis-feminista-da-ajp",
@@ -423,9 +394,8 @@
    "movimentos-sociais",
    "direitos-humanos"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2016",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "direito-e-conjuntura-o-papel-da-ajp-na-luta-contra-o-golpe",
@@ -439,9 +409,8 @@
    "assessoria-juridica-popular",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2016",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2016"
  },
  {
   "slug": "a-acesso-e-sua-contribuicao-para-a-construcao-de-um-direito",
@@ -453,9 +422,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "atualizacoes-das-bibliotecas",
@@ -469,9 +437,8 @@
    "assessoria-juridica-popular",
    "memoria"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2016"
  },
  {
   "slug": "assessoria-juridica-popular-nada-deve-parecer-impossivel-de",
@@ -483,9 +450,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "assessoria-juridica-popular-um-importante-marco-na-estrada",
@@ -497,8 +463,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2016",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2016"
  },
  {
   "slug": "ajup-um-trabalho-pela-igualdade",
@@ -510,9 +475,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2016",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "estamos-bem-arrumados",
@@ -524,8 +488,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2016",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2016"
  },
  {
   "slug": "a-linguagem-como-elemento-determinante-da-assessoria",
@@ -538,9 +501,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "direito-e-conjuntura-cenarios-possiveis-com-o-fim-da-nova",
@@ -552,9 +514,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2016",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Memória",
+  "ano": "2016"
  },
  {
   "slug": "direito-e-conjuntura-a-conjuntura-politica-internacional-e",
@@ -567,9 +528,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2016",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2016"
  },
  {
   "slug": "teatro-do-oprimido-e-assessoria-juridica-popular-duas",
@@ -581,9 +541,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2016",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "direito-e-conjuntura-o-papel-do-direito-no-golpe-de-estado",
@@ -596,8 +555,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2016",
-  "tema_principal": "educacao-popular"
+  "ano": "2016"
  },
  {
   "slug": "relato-de-experiencia-com-o-teatro-do-oprimido",
@@ -610,8 +568,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2016",
-  "tema_principal": "educacao-popular"
+  "ano": "2016"
  },
  {
   "slug": "direito-e-conjuntura-nova-coluna-no-blogue-ajp",
@@ -625,9 +582,8 @@
    "movimentos-sociais",
    "assessoria-juridica-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2016",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2016"
  },
  {
   "slug": "ajup-e-a-formacao-contra-hegemonica-no-direito",
@@ -640,9 +596,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2016"
  },
  {
   "slug": "apresentacao-por-manuel-eugenio-gandara-carballido",
@@ -655,8 +610,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "ano": "2016"
  },
  {
   "slug": "biblioteca-joaquin-herrera-flores",
@@ -669,8 +623,7 @@
    "direitos-humanos"
   ],
   "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "ano": "2016"
  },
  {
   "slug": "fazer-a-universidade-ajup-e-educacao-juridica",
@@ -683,8 +636,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2016",
-  "tema_principal": "educacao-popular"
+  "ano": "2016"
  },
  {
   "slug": "as-ajps-e-uma-teoria-critica-da-sociedade",
@@ -697,8 +649,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2016",
-  "tema_principal": "teoria-critica"
+  "ano": "2016"
  },
  {
   "slug": "morro",
@@ -710,8 +661,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2016",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2016"
  },
  {
   "slug": "microconto",
@@ -723,8 +673,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2015",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2015"
  },
  {
   "slug": "uma-rede-com-20-anos-de-defesa-gratuita-dos-direitos-de",
@@ -737,9 +686,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2015"
  },
  {
   "slug": "putalizar-o-direito",
@@ -751,8 +699,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2015",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2015"
  },
  {
   "slug": "abracos-destruicoes-e-belo-monte-o-velorio-de-uma-ilha-para",
@@ -765,8 +712,7 @@
    "memoria"
   ],
   "tema": "Direitos humanos",
-  "ano": "2015",
-  "tema_principal": "direitos-humanos"
+  "ano": "2015"
  },
  {
   "slug": "mlb-encaminha-demanda-da-ocupacao-lanceiros-negros",
@@ -778,8 +724,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2015"
  },
  {
   "slug": "20-anos-de-rede-nacional-de-advogados-e-advogadas-populares",
@@ -793,9 +738,8 @@
    "assessoria-juridica-popular",
    "memoria"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2015"
  },
  {
   "slug": "bordando-a-resistencia",
@@ -807,8 +751,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2015",
-  "tema_principal": "direitos-humanos"
+  "ano": "2015"
  },
  {
   "slug": "diana-melo-pereira-as-lutas-do-mmc-pelo-direito-a-uma-vida",
@@ -820,9 +763,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2015"
  },
  {
   "slug": "7-de-setembro-falta-independencia-ainda-para-muita-gente",
@@ -835,8 +777,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2015"
  },
  {
   "slug": "seis-anos-do-blogue-ajpopular",
@@ -850,9 +791,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "advocacia-delirante-parte-ii-preciso-me-encontrar",
@@ -863,9 +803,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2015",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2015"
  },
  {
   "slug": "um-estalo-nas-faculdades-de-direito-perspectivas",
@@ -878,9 +817,8 @@
    "teoria-critica",
    "educacao-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "inscricao-de-trabalhos-gt-assessoria-juridica-popular",
@@ -892,8 +830,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2015",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2015"
  },
  {
   "slug": "triplo-carpado-e-a-constituinte",
@@ -905,8 +842,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2015"
  },
  {
   "slug": "a-ultima-aula-do-professor",
@@ -918,8 +854,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "ano": "2015"
  },
  {
   "slug": "o-tataraneto-do-ex-jurista-de-bonn",
@@ -932,9 +867,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Memória",
+  "ano": "2015"
  },
  {
   "slug": "estudo-de-caso-sobre-promocao-de-direitos-coletivos",
@@ -947,9 +881,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "carta-das-comunidades-quilombolas-de-barro-vermelho-e",
@@ -963,9 +896,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2015",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2015"
  },
  {
   "slug": "uma-pensata-a-respeito-da-relacao-entre-guerra-e-capitalismo",
@@ -977,9 +909,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "o-idiota-sou-eu",
@@ -991,8 +922,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2015",
-  "tema_principal": "direitos-humanos"
+  "ano": "2015"
  },
  {
   "slug": "direito-insurgente-e-pluralismo-juridico-na-advocacia",
@@ -1005,9 +935,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "pelo-fim-do-feminicidio-e-da-violencia-contra-a-mulher",
@@ -1019,8 +948,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2015",
-  "tema_principal": "direitos-humanos"
+  "ano": "2015"
  },
  {
   "slug": "o-movimento-geraizeiro-e-o-direito",
@@ -1034,8 +962,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "ano": "2015"
  },
  {
   "slug": "para-uma-nova-sociedade-insistente",
@@ -1049,9 +976,8 @@
    "teoria-critica",
    "direitos-humanos"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "dossie-rolezinhos",
@@ -1063,8 +989,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2015",
-  "tema_principal": "direitos-humanos"
+  "ano": "2015"
  },
  {
   "slug": "sustenta-a-pisada-na-ajp",
@@ -1078,9 +1003,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2015",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2015"
  },
  {
   "slug": "advocacia-delirante-parte-i",
@@ -1092,9 +1016,8 @@
    "assessoria-juridica-popular",
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2015",
-  "tema_principal": "memoria"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "um-caso-de-criminalizacao-no-relato-de-um-advogado-popular",
@@ -1108,8 +1031,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2015"
  },
  {
   "slug": "arpilleiras-uma-metodologia-latina-de-educacao-popular",
@@ -1123,8 +1045,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2015",
-  "tema_principal": "educacao-popular"
+  "ano": "2015"
  },
  {
   "slug": "lutando-pelos-direitos-sociais-negados-pelo-direito",
@@ -1138,9 +1059,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2015",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2015"
  },
  {
   "slug": "o-projeto-carajas-e-a-critica-ao-desenvolvimentismo-pela-ajp",
@@ -1154,9 +1074,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2015"
  },
  {
   "slug": "escrevendo-a-tese-piando",
@@ -1169,9 +1088,8 @@
    "teoria-critica",
    "assessoria-juridica-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2015"
  },
  {
   "slug": "assessoria-juridica-popular-na-efetivacao-dos-direitos",
@@ -1184,9 +1102,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2015",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "problematizando-o-direito-problematizando-o-ensino-juridico",
@@ -1200,8 +1117,7 @@
    "movimentos-sociais"
   ],
   "tema": "Educação popular",
-  "ano": "2015",
-  "tema_principal": "educacao-popular"
+  "ano": "2015"
  },
  {
   "slug": "relato-em-praca-de-guerra",
@@ -1215,8 +1131,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2015"
  },
  {
   "slug": "estreia-da-coluna-a-frente-do-front-de-vitor-dieter",
@@ -1229,8 +1144,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2015"
  },
  {
   "slug": "crdh-divulga-relatorio-sobre-atuacao-na-paraiba",
@@ -1242,8 +1156,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2015",
-  "tema_principal": "direitos-humanos"
+  "ano": "2015"
  },
  {
   "slug": "sera-que-os-direitos-humanos-vao-chegar-ate-la",
@@ -1257,9 +1170,8 @@
    "movimentos-sociais",
    "assessoria-juridica-popular"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2015"
  },
  {
   "slug": "a-luta-e-a-resistencia-dos-fundos-de-pasto-baianos",
@@ -1273,9 +1185,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2015",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "poema-resistencia-no-parana",
@@ -1288,9 +1199,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2015",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2015"
  },
  {
   "slug": "ii-tribunal-popular-do-ceara-pauta-violacoes-de-direitos",
@@ -1304,9 +1214,8 @@
    "teoria-critica",
    "movimentos-sociais"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "direito-delirio-experiencias-e-coisas-reais",
@@ -1320,9 +1229,8 @@
    "direitos-humanos",
    "memoria"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2015"
  },
  {
   "slug": "coluna-o-direito-das-marias-dos-retornos-de-uma-mae",
@@ -1334,9 +1242,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2015"
  },
  {
   "slug": "um-corpo-caido-e-a-luta-da-advocacia-popular",
@@ -1350,9 +1257,8 @@
    "memoria",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2015"
  },
  {
   "slug": "islandia-a-insurgencia-da-democracia",
@@ -1364,8 +1270,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2015",
-  "tema_principal": "direitos-humanos"
+  "ano": "2015"
  },
  {
   "slug": "projeto-antiterrorismo-ameaca-constituicao",
@@ -1377,8 +1282,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2015"
  },
  {
   "slug": "direito-das-marias-e-hora-de-gritar-o-que-os-olhos-e-o",
@@ -1390,8 +1294,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2015",
-  "tema_principal": "direitos-humanos"
+  "ano": "2015"
  },
  {
   "slug": "direito-dentro-e-contra-a-ordem-na-teoria-e-na-pratica",
@@ -1403,9 +1306,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2015",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2015"
  },
  {
   "slug": "expulsao-de-agricultores-para-barragem-do-guapiacu-repete",
@@ -1418,9 +1320,8 @@
    "movimentos-sociais",
    "direitos-humanos"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Memória",
+  "ano": "2015"
  },
  {
   "slug": "o-achaque-da-politica-burguesa",
@@ -1432,8 +1333,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2015",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2015"
  },
  {
   "slug": "manifestacoes-populares-trancam-vias-do-distrito-federal",
@@ -1446,8 +1346,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2013"
  },
  {
   "slug": "carta-a-um-estudante-de-direito-sobre-a-barbarie-no-egito",
@@ -1459,9 +1358,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2013",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2013"
  },
  {
   "slug": "colectivo-de-abogados-zapatistas-caz-mexico-denuncia",
@@ -1473,9 +1371,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2013",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2013"
  },
  {
   "slug": "dissertacao-humberto-betinho-goes-ufpb-2008",
@@ -1487,9 +1384,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2013",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2013"
  },
  {
   "slug": "mas-o-ole-foi-do-povo",
@@ -1502,8 +1398,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2013"
  },
  {
   "slug": "o-que-as-manifestacoes-populares-tem-a-ver-com-a-classe",
@@ -1516,8 +1411,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2013"
  },
  {
   "slug": "cadernos-insurgentes-e-oficina-do-geap",
@@ -1530,9 +1424,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2013",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2013"
  },
  {
   "slug": "a-tarifa-zero-5-anos-depois",
@@ -1545,9 +1438,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2013",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2013"
  },
  {
   "slug": "monografia-andressa-chiamulera-ufpr-2003",
@@ -1559,8 +1451,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2013",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2013"
  },
  {
   "slug": "monografia-ivan-furmann-ufpr-2003",
@@ -1574,8 +1465,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2013",
-  "tema_principal": "teoria-critica"
+  "ano": "2013"
  },
  {
   "slug": "monografia-murilo-sampaio-oliveira-ufba-2003",
@@ -1587,9 +1477,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2013",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2013"
  },
  {
   "slug": "monografias-da-assessoria-juridica-popular-universitaria",
@@ -1601,8 +1490,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2013",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2013"
  },
  {
   "slug": "atualizacao-com-textos-de-lyra-filho",
@@ -1614,8 +1502,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2013",
-  "tema_principal": "teoria-critica"
+  "ano": "2013"
  },
  {
   "slug": "as-tres-vertebras-de-pedro-carrano",
@@ -1627,8 +1514,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2013"
  },
  {
   "slug": "inauguracao-do-instituto-de-estudos-criticos-do-direito",
@@ -1640,8 +1526,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2013",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2013"
  },
  {
   "slug": "a-primeira-turma-de-pos-graduacao-em-direitos-sociais-do",
@@ -1653,9 +1538,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2013",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2013"
  },
  {
   "slug": "o-neofacismo-facismo-social",
@@ -1668,9 +1552,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2013"
  },
  {
   "slug": "sobre-a-ajup-roberto-lyra-filho",
@@ -1684,9 +1567,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2013",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2013"
  },
  {
   "slug": "antropologia-juridica-videos-sobre-comunidades-tradicionais",
@@ -1699,8 +1581,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2013"
  },
  {
   "slug": "quadros-das-atividades-do-ajup-rj",
@@ -1712,9 +1593,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2013",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2013"
  },
  {
   "slug": "ana-claudia-tavares-e-a-advocacia-popular-no-rio-de-janeiro",
@@ -1727,9 +1607,8 @@
    "teoria-critica",
    "movimentos-sociais"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2013",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2013"
  },
  {
   "slug": "frentes-de-atuacao-do-ajup-rj",
@@ -1741,8 +1620,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2013",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2013"
  },
  {
   "slug": "no-itinerario-pendente-do-fogo",
@@ -1755,8 +1633,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2013"
  },
  {
   "slug": "instituto-apoio-juridico-popular-ajup",
@@ -1769,9 +1646,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2013"
  },
  {
   "slug": "uma-aula-sobre-o-direito-que-nasce-do-capital",
@@ -1784,8 +1660,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2013"
  },
  {
   "slug": "caboclos-posseiros-sem-terra-100-anos-nos-trilhos-do",
@@ -1798,8 +1673,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2013",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2013"
  },
  {
   "slug": "iii-seminario-do-ipdms-convoca-para-espacos-de-discussao-eds",
@@ -1812,9 +1686,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2013",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2013"
  },
  {
   "slug": "poema-de-assis-oliveira-sobre-criancas-indigenas",
@@ -1826,8 +1699,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2013",
-  "tema_principal": "direitos-humanos"
+  "ano": "2013"
  },
  {
   "slug": "poema-do-rodrigao-sobre-encontro-da-renap-em-salvador",
@@ -1838,9 +1710,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2013",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2013"
  },
  {
   "slug": "esta-provado-que-so-possivel-filosofar-em-alemao",
@@ -1852,8 +1723,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "luta-pela-terra-e-o-tema-de-seminario-em-pinhao-no-parana",
@@ -1865,8 +1735,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "manifesto-do-najup-luiza-mahin",
@@ -1878,8 +1747,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2012",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2012"
  },
  {
   "slug": "sistema-penal-concentracao-fundiaria-e-onibus-que-pegam",
@@ -1892,9 +1760,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Memória",
+  "ano": "2012"
  },
  {
   "slug": "poema-sobre-o-encontro-em-santarem",
@@ -1906,8 +1773,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "mocao-de-comunidade-no-rio-de-janeiro-contra-remocoes",
@@ -1919,9 +1785,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "ode-ao-povo",
@@ -1935,9 +1800,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "curso-de-formacao-politica-da-renaju",
@@ -1951,9 +1815,8 @@
    "movimentos-sociais",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "tentativa-de-criminalizacao-dos-escrachos",
@@ -1965,9 +1828,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2012"
  },
  {
   "slug": "encontro-da-renap-no-rio-de-janeiro",
@@ -1980,9 +1842,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "manifesto-contra-criminalizacao-da-luta-contra-o-uso",
@@ -1994,9 +1855,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "direito-achado-na-beira-dos-rios-tapajos-e-amazonas",
@@ -2008,8 +1868,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "ano": "2012"
  },
  {
   "slug": "carta-de-protesto-da-prisao-do-advogado-rodrigo-maia",
@@ -2021,9 +1880,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "homenagens-ao-advogado-eugenio-lyra",
@@ -2035,9 +1893,8 @@
    "memoria",
    "assessoria-juridica-popular"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2012",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2012"
  },
  {
   "slug": "vila-do-chocolatao-remocao-e-impactos",
@@ -2049,9 +1906,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "delirium",
@@ -2063,8 +1919,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "peticao-do-processo-17-022",
@@ -2076,8 +1931,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "poemas-em-homenagem-a-eugenio-lyra",
@@ -2089,9 +1943,8 @@
    "memoria",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "tema": "Memória",
+  "ano": "2012"
  },
  {
   "slug": "sem-titulo",
@@ -2103,8 +1956,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "senhor-capitao",
@@ -2116,8 +1968,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "terra-em-terra",
@@ -2129,8 +1980,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "as-ninguens-e-a-prisao-por-nada",
@@ -2142,8 +1992,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "hino-da-greve-cifra",
@@ -2155,8 +2004,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "aulaco-popular-em-vigario-geral",
@@ -2170,8 +2018,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "assessorando-a-assistencia-juridica-e-possivel",
@@ -2183,8 +2030,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2012",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2012"
  },
  {
   "slug": "desdobramentos-da-greve-geral-dos-spfs-decidirao-o-futuro",
@@ -2197,8 +2043,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "documentario-nao-quero-falar-de-chacina",
@@ -2210,9 +2055,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2012"
  },
  {
   "slug": "coluna-direitos-das-marias-iv-encontro-de-mulheres-do-mpa",
@@ -2225,9 +2069,8 @@
    "movimentos-sociais",
    "assessoria-juridica-popular"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "formatura-da-turma-evandro-lins-e-silva-da-ufg",
@@ -2239,9 +2082,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2012"
  },
  {
   "slug": "entrevista-de-jacques-alfonsin-sobre-o-codigo-penal",
@@ -2253,8 +2095,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2012",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2012"
  },
  {
   "slug": "poema-memorias-do-movimento-sem-terra",
@@ -2265,9 +2106,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2012",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2012"
  },
  {
   "slug": "para-gostar-de-escrever",
@@ -2279,8 +2119,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "ano": "2012"
  },
  {
   "slug": "nova-secao-biblioteca-roberto-lyra-filho",
@@ -2292,8 +2131,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "revista-o-direito-alternativo-lanca-edital",
@@ -2305,8 +2143,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "uma-critica-ao-ensino-juridico-e-os-direitos-dos-quilombolas",
@@ -2318,9 +2155,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2012"
  },
  {
   "slug": "biblioteca-ajup-rj",
@@ -2332,8 +2168,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2012",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2012"
  },
  {
   "slug": "biblioteca-digital",
@@ -2347,9 +2182,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "biblioteca-roberto-lyra-filho",
@@ -2362,8 +2196,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "poesia-critica-do-direito",
@@ -2376,8 +2209,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "referencias",
@@ -2391,9 +2223,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2012"
  },
  {
   "slug": "nenhuma-mulher-a-menos",
@@ -2405,8 +2236,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "o-golpe-no-paraguai-e-o-manto-juridico",
@@ -2419,8 +2249,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "mobilizacao-indigena-paralisa-uhe-belo-monte",
@@ -2432,9 +2261,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "esculacho-popular-no-rio-de-janeiro",
@@ -2448,8 +2276,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "debate-sobre-a-greve-na-faculdade-de-direito-da-ufpr",
@@ -2461,8 +2288,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "nota-de-apoio-e-preocupacao-diante-da-situacao-do-quilombo",
@@ -2474,9 +2300,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "direitos-das-marias-um-giro-por-maio",
@@ -2488,8 +2313,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "direitos-das-marias-entrevista-com-lenir-correia",
@@ -2501,9 +2325,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2012"
  },
  {
   "slug": "revista-de-direito-agrario-prorroga-prazo-para-envio-de",
@@ -2515,8 +2338,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "coluna-direitos-das-marias-o-que-faz-a-mulher-na-educacao",
@@ -2528,8 +2350,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "ano": "2012"
  },
  {
   "slug": "direitos-das-marias-mulher-e-literatura",
@@ -2541,8 +2362,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "seminario-internacional-sobre-modernidade-global-no-rio-de",
@@ -2554,8 +2374,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "seminario-de-justica-ambiental-no-ceara",
@@ -2567,9 +2386,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "nasce-a-coluna-direitos-das-marias",
@@ -2582,8 +2400,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "cpt-repudia-declaracoes-de-delegada-geral-do-ma",
@@ -2595,9 +2412,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "legislacao-de-excecao-para-megaeventos-sera-tema-de-debate",
@@ -2609,9 +2425,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "do-espirito-de-depredacao-a-depredacao-do-espirito",
@@ -2624,8 +2439,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "defensoria-publica-assessoria-juridica-popular-e-movimentos",
@@ -2639,8 +2453,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "a-promocao-dos-direitos-humanos-no-campo-da-aids",
@@ -2652,9 +2465,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "a-retirada-de-crucifixos-das-salas-dos-tribunais-parece-ter",
@@ -2667,9 +2479,8 @@
    "movimentos-sociais",
    "memoria"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "povos-kayabi-apiaka-e-munduruku-contra-construcao-de",
@@ -2681,8 +2492,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "no-dia-da-mentira-anistiaram-a-verdade-desarquivandobr",
@@ -2694,9 +2504,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2012"
  },
  {
   "slug": "grupo-de-genero-da-ufpr-mobiliza-faculdade-de-direito",
@@ -2709,9 +2518,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "juventude-se-levanta-contra-a-tortura-no-brasil",
@@ -2723,9 +2531,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2012"
  },
  {
   "slug": "minicurso-da-critica-ao-direito-no-maranhao",
@@ -2740,8 +2547,7 @@
    "movimentos-sociais"
   ],
   "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "ano": "2012"
  },
  {
   "slug": "cirandas-construindo-a-praxis-das-ajups-no-ma",
@@ -2753,9 +2559,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "o-circo-e-a-cerca-a-lei-geral-da-copa-e-suas-garantias",
@@ -2767,8 +2572,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "acesso-e-saju-debatem-copa-do-mundo",
@@ -2781,9 +2585,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "stf-concede-habeas-corpus-a-jose-rainha-lider-sem-terra",
@@ -2796,9 +2599,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "barragens-convencao-169-e-o-sempre-mais-do-mesmo-do-estado",
@@ -2810,8 +2612,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "carta-de-mobilizacao-nacional-do-mab",
@@ -2823,8 +2624,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "pedro-martins-sobre-a-reforma-agraria-no-contexto-amazonico",
@@ -2836,8 +2636,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "relacoes-de-genero-e-assessoria-juridica-popular-um-debate",
@@ -2849,9 +2648,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "o-direito-a-informacao-no-brasil-a-amazonia-enquanto",
@@ -2864,8 +2662,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "ano": "2012"
  },
  {
   "slug": "do-direito-a-insurgencia-ao-direito-insurgente-o-caso-do",
@@ -2878,8 +2675,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "nasce-o-instituto-de-pesquisa-direito-e-movimentos-sociais",
@@ -2891,8 +2687,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "ii-seminario-direito-pesquisa-e-movimentos-sociais",
@@ -2906,9 +2701,8 @@
    "educacao-popular",
    "direitos-humanos"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2012",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2012"
  },
  {
   "slug": "transparencia-e-democratizacao-do-poder-judiciario-carta",
@@ -2921,9 +2715,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "quem-tensionou-foi-o-governo-resposta-a-elio-gaspari",
@@ -2937,8 +2730,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "iii-congresso-latino-americano-de-direitos-humanos-na-unb",
@@ -2950,8 +2742,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "ano": "2012"
  },
  {
   "slug": "todos-somos-pinheirinho",
@@ -2963,9 +2754,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "arrogancia-de-classe",
@@ -2978,9 +2768,8 @@
    "memoria",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "massacre-contra-o-povo-da-ocupacao-pinheirinho-em-sjc",
@@ -2994,8 +2783,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "o-brado-retumbante-ou-o-berro-reacionario-qualquer",
@@ -3009,9 +2797,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2012"
  },
  {
   "slug": "coluna-do-jacques-sobre-a-fome-no-brasil",
@@ -3025,9 +2812,8 @@
    "memoria",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "mande-artigos-para-a-revista-do-saju-rs",
@@ -3039,9 +2825,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2012",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2012"
  },
  {
   "slug": "pinheirinho",
@@ -3053,8 +2838,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2012",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2012"
  },
  {
   "slug": "a-luta-d-s-indignad-s-em-teresina-pelo-direito-a-se-mover",
@@ -3068,8 +2852,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2012"
  },
  {
   "slug": "policia-serve-para-que-vamos-perguntar-a-estudantes-de",
@@ -3081,9 +2864,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2012",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "teresina-indignada-exige-passagem",
@@ -3097,9 +2879,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2012",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2012"
  },
  {
   "slug": "presente-de-ano-novo",
@@ -3111,8 +2892,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2012",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2012"
  },
  {
   "slug": "em-2012-mais-de-cem-familias-do-bairro-zachia-continuarao",
@@ -3124,8 +2904,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "pacto-forum-justica-do-rio-de-janeiro",
@@ -3137,9 +2916,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "entrevista-com-thiago-hoshino-do-comite-popular-da-copa",
@@ -3152,9 +2930,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "dialogos-latino-americanos-em-curitiba",
@@ -3166,8 +2943,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "andarilhando-com-paulo-freire",
@@ -3180,8 +2956,7 @@
    "movimentos-sociais"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "ditadura-democracia-e-resistencia-para-quem-serie-de",
@@ -3192,9 +2967,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "resultados-do-encontro-nacional-da-renap-em-fortaleza",
@@ -3207,8 +2981,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "traducao-de-el-arbor-el-rio-el-hombre-de-atahualpa-yupanqui",
@@ -3220,8 +2993,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "nova-secao-biblioteca-ajup-rj",
@@ -3233,9 +3005,8 @@
    "assessoria-juridica-popular",
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "noticias-do-encontro-da-renap",
@@ -3248,9 +3019,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "alienacao",
@@ -3262,8 +3032,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "latinoamerica-calle-13",
@@ -3275,8 +3044,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "programacao-do-encontro-nacional-da-renap",
@@ -3290,9 +3058,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "dandara",
@@ -3306,8 +3073,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "critica-da-ecologia-politica",
@@ -3321,8 +3087,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "o-direito-alternativo-revista-do-nucleo-de-estudos-de",
@@ -3336,8 +3101,7 @@
    "movimentos-sociais"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "laboratorio-de-cartografias-insurgentes",
@@ -3350,9 +3114,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "michael-lowy-na-ufpr",
@@ -3364,8 +3127,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "luta-pelos-direitos-do-trabalho-e-hoje-vital-diante-da",
@@ -3379,9 +3141,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "campanha-outro-s-11-9-s",
@@ -3393,8 +3154,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "encontro-da-renap-em-fortaleza",
@@ -3408,9 +3168,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "fe",
@@ -3424,8 +3183,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "atentado-contra-militante-do-mtst-no-distrito-federal",
@@ -3438,8 +3196,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "dois-anos-do-blogue-da-assessoria-juridica-popular",
@@ -3453,9 +3210,8 @@
    "teoria-critica",
    "direitos-humanos"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "carta-aberta-aos-estudantes-e-academicos-do-brasil",
@@ -3467,9 +3223,8 @@
    "memoria",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "a-revolucao-brasileira-cosmogonia-de-nossa-acao-cultural",
@@ -3482,8 +3237,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "revista-direito-sensibilidade",
@@ -3495,8 +3249,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "o-toque-de-classe-nas-mobilizacoes-em-teresina",
@@ -3508,9 +3261,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "carta-dos-enamorados-do-neda",
@@ -3523,8 +3275,7 @@
    "direitos-humanos"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "quando-os-lirios-nao-nascem-da-lei-nascem-de-onde",
@@ -3537,8 +3288,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "o-movimento-docente-das-universidades-federais-indignacao",
@@ -3550,8 +3300,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "pachucanis-para-alem-de-o-etnocentrismo",
@@ -3563,8 +3312,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "seminario-sobre-constitucionalismo-na-america-latina",
@@ -3578,9 +3326,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "10-anos-do-sajup-pr",
@@ -3592,8 +3339,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "domingos-savio-dresch-da-silveira-e-o-novo-ouvidor-nacional",
@@ -3605,8 +3351,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "oficina-em-blumenau-com-movimento-estudantil-de-luta",
@@ -3620,8 +3365,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "prisao-de-advogado-do-movimento-popular-em-despejo-e-objeto",
@@ -3634,9 +3378,8 @@
    "movimentos-sociais",
    "assessoria-juridica-popular"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "feijao-arroz-e-veneno",
@@ -3649,9 +3392,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "serie-10-indicacoes-dez-livros-para-fazer-assessoria",
@@ -3664,9 +3406,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2011"
  },
  {
   "slug": "hino-do-movimento-dos-trabalhadores-rurais-sem-terra-cifra",
@@ -3678,8 +3419,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "pierre-seghers-o-mais-celebre-editor-de-poesia-do-seculo-xx",
@@ -3691,9 +3431,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "ruidos-do-porao-o-jornal-do-saju-ba",
@@ -3705,8 +3444,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "justica-uma-cancao-de-amor-e-liberdade",
@@ -3720,9 +3458,8 @@
    "teoria-critica",
    "movimentos-sociais"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "50-anos-da-campanha-da-legalidade-para-uma-reflexao-sobre-a",
@@ -3734,9 +3471,8 @@
    "memoria",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "editorial-do-brasil-de-fato-denuncia-ataque-do-poder",
@@ -3749,8 +3485,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "o-tripe-manco",
@@ -3762,9 +3497,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "para-um-historico-da-advocacia-popular-no-brasil",
@@ -3778,9 +3512,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "a-filosofia-na-america-latina-encontro-em-sao-bernardo-do",
@@ -3793,8 +3526,7 @@
    "direitos-humanos"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "da-tensao-ao-tesao-des-ordem-e-processo-no-surgimento-do",
@@ -3806,9 +3538,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "desapropriacao-para-instalacao-do-museu-historico-das-lutas",
@@ -3819,9 +3550,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "juri-anghinoni-decisao-inedita-garante-justica-no-caso-de",
@@ -3835,9 +3565,8 @@
    "direitos-humanos",
    "memoria"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "longe-dos-olhos-do-direito-de-alma-citadina-um-dialogo",
@@ -3849,8 +3578,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "rosas-vermelhas-a-intensidade-de-lyra-filho",
@@ -3863,8 +3591,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "companheiros-haitianos-presente-relato-de-um-espaco-de",
@@ -3877,8 +3604,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "luta-pela-moradia-no-distrito-federal",
@@ -3891,9 +3617,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve",
@@ -3905,8 +3630,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "o-direito-achado-na-rua-tambem-se-acha-na-teve-2-a-turma",
@@ -3918,8 +3642,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "lirica-de-um-filho-da-critica",
@@ -3931,8 +3654,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "ah-desculpe-achavamos-que-fossem-gays-ou-mendigos",
@@ -3944,8 +3666,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "congresso-de-pensamento-juridico-alternativo-na-argentina",
@@ -3958,8 +3679,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "mais-uma-defensora-de-direitos-humanos-presa-caso-colombiano",
@@ -3972,8 +3692,7 @@
    "memoria"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "lyra-filho-e-o-feminino",
@@ -3988,8 +3707,7 @@
    "direitos-humanos"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "neda-organiza-simposio-de-direito-alternativo-em-franca",
@@ -4001,8 +3719,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "encontro-de-culturas-da-chapada-dos-viadeiros-homenageia",
@@ -4016,9 +3733,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "filme-patagonia-rebelde",
@@ -4030,8 +3746,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "quando-a-insonia-nos-obriga-a-gritar",
@@ -4044,8 +3759,7 @@
    "memoria"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "juri-de-assassinato-de-sem-terra-no-parana",
@@ -4057,9 +3771,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "texto-sobre-sanchez-vazquez-no-brasil-de-fato",
@@ -4072,8 +3785,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "revista-discenso-iniciativa-da-estudantada-da-ufsc",
@@ -4085,8 +3797,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "defensoria-publica-em-sc",
@@ -4098,8 +3809,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "o-que-esta-por-tras-da-criminalizacao-do-infanticidio",
@@ -4111,8 +3821,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "poetica-feminista",
@@ -4124,9 +3833,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "sanchez-vazquez-renovacao-marxista-utopia-e-estetica",
@@ -4139,8 +3847,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "noticias-do-front-ou-da-fronteira",
@@ -4153,8 +3860,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "por-um-corredor-das-ideias-marginais-em-sao-leopoldo",
@@ -4168,9 +3874,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "nasce-a-rebela",
@@ -4182,8 +3887,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "saju-uma-historia-de-extensao",
@@ -4195,9 +3899,8 @@
    "assessoria-juridica-popular",
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "sociedade-barracao-usucapindo-a-cooperacao",
@@ -4209,9 +3912,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "ajp-e-o-resgate-de-nossa-latinidade",
@@ -4225,9 +3927,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "8-anos-de-luta-pela-estatizacao-da-fabrica-ocupada-flasko",
@@ -4239,8 +3940,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "a-vila-chocolatao-e-o-exemplo-negativo",
@@ -4254,9 +3954,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "fica-graciosa-campanha-lancada-com-sucesso-em-pinhais",
@@ -4269,9 +3968,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "uma-fala-epistemologicamente-feminista",
@@ -4284,9 +3982,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "jornalista-maldito-o-olhar-agucado-de-lucio-flavio-pinto",
@@ -4300,8 +3997,7 @@
    "movimentos-sociais"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "aborto-do-pluralismo-juridico-a-efetivacao-do-direito-a",
@@ -4313,9 +4009,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "a-grecia-e-a-democracia",
@@ -4327,8 +4022,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "mais-um-advogado-popular-preso-quem-e-roberto-rainha",
@@ -4342,9 +4036,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "os-grundrisse-de-marx-em-portugues-longa-espera-de-70-anos",
@@ -4356,8 +4049,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "ajp-com-vladimir-luz-em-floripa",
@@ -4369,9 +4061,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "o-hiato-da-captura-criptica",
@@ -4383,8 +4074,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "os-direitos-do-orvalho-ou-da-nossa-obsessao-pelo-dialogo",
@@ -4395,9 +4085,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "atuacao-do-najup-negro-cosme-na-luta-por-moradia",
@@ -4409,9 +4098,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "justica-poetica",
@@ -4423,9 +4111,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2011"
  },
  {
   "slug": "dois-patronos-da-critica-juridica-brasileira-homenageados",
@@ -4439,8 +4126,7 @@
    "direitos-humanos"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "mariana-criola-realiza-evento-do-rio",
@@ -4452,9 +4138,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "em-londrina-jornada-de-agroecologia-e-lancamento-de-livro",
@@ -4466,8 +4151,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "a-desnecessidade-historica-do-direito",
@@ -4479,9 +4163,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "carta-aberta-do-movimento-foramicarla-reflexoes-sobre-as",
@@ -4493,8 +4176,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-2",
@@ -4506,8 +4188,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "poesitando-a-amazonia",
@@ -4520,9 +4201,8 @@
    "memoria",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "a-luta-dos-moradores-do-jardim-graciosa",
@@ -4535,9 +4215,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "as-turmas-especiais-de-direito-retomando-um-depoimento-a",
@@ -4551,8 +4230,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "revista-redhes-novo-numero",
@@ -4564,8 +4242,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "carta-aberta-de-conselheiros-tutelares-e-de-direito-da",
@@ -4577,9 +4254,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "convocatoria-cubana-vii-encontro-internacional-presenca-de",
@@ -4591,8 +4267,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "gramsci-as-periferias-e-os-subalternos-em-marilia-sp",
@@ -4604,9 +4279,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2011"
  },
  {
   "slug": "levante-sua-voz",
@@ -4620,9 +4294,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos",
@@ -4637,8 +4310,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "fabiana-cristina-severi-e-a-luta-pela-terra",
@@ -4651,8 +4323,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-3",
@@ -4665,8 +4336,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "i-seminario-de-direitos-humanos-da-fened-direito-e-movimento",
@@ -4678,8 +4348,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "praticar-refletir-e-registrar",
@@ -4691,9 +4360,8 @@
    "assessoria-juridica-popular",
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "coraje-e-musica",
@@ -4708,8 +4376,7 @@
    "movimentos-sociais"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "que-vergonha",
@@ -4722,9 +4389,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "mais-um-assessor-juridico-popular-perseguido-homenageado",
@@ -4737,9 +4403,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "repatriacao-do-acervo-do-brasil-nunca-mais",
@@ -4750,9 +4415,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "os-direitos-humanos-e-sua-incompreensao",
@@ -4764,9 +4428,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "registro-historico-e-ajp-um-video-de-coraje",
@@ -4777,9 +4440,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-4",
@@ -4791,8 +4453,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "direito-achado-na-rua",
@@ -4804,8 +4465,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "vinte-anos-de-direito-alternativo-balanco-e-perspectivas",
@@ -4819,8 +4479,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "estudos-em-homenagem-a-roberto-lyra-filho-em-franca",
@@ -4833,8 +4492,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "nossas-lutas-e-conquistas",
@@ -4846,8 +4504,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "a-vida-nua-concreta-e-a-autoconsciencia-latino-americana",
@@ -4861,9 +4518,8 @@
    "memoria",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "o-direito-achado-na-rua-tambem-se-acha-na-teve",
@@ -4875,8 +4531,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "a-margem-protagonismo-estudantil-e-comunicacao",
@@ -4888,8 +4543,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-5",
@@ -4901,8 +4555,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-6",
@@ -4915,9 +4568,8 @@
    "movimentos-sociais",
    "memoria"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "o-codigo-florestal-a-propriedade-privada-e-o-futuro",
@@ -4929,8 +4581,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "ajup-movimento-estudantil-ou-servico-legal",
@@ -4944,9 +4595,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "encontro-de-grupos-de-estudo-e-pesquisa-marxistas-iii",
@@ -4959,8 +4609,7 @@
    "movimentos-sociais"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "assessoria-juridica-um-passo-na-formacao-dos-estudantes-de",
@@ -4974,9 +4623,8 @@
    "movimentos-sociais",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "assessoria-popular-nordestina-a-dignitatis",
@@ -4989,9 +4637,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "marx-e-o-complexo-de-dom-casmurro-dos-marxistas-mais-sobre",
@@ -5003,8 +4650,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "espanha-se-levanta",
@@ -5016,8 +4662,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "antropologia-e-direito-ii-enadir-2011",
@@ -5029,8 +4674,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-7",
@@ -5042,8 +4686,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "estreia-da-coluna-do-nep-unb",
@@ -5055,9 +4698,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "i-seminario-nacional-de-direitos-humanos-da-fened-direito",
@@ -5070,9 +4712,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "os-quilombolas-e-o-estado-video-reportagem-sobre-o-quilombo",
@@ -5084,8 +4725,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "irregularidades-seguem-acontecendo-na-vila-chocolatao-em",
@@ -5098,9 +4738,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "o-canto-que-e-solucar-de-dor-a-subversao-epistemologica-de",
@@ -5114,9 +4753,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "documentario-o-cinema-libertario",
@@ -5128,8 +4766,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "povo-grego-volta-as-ruas-contra-medidas-do-governo",
@@ -5141,8 +4778,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-complexo-universo-paralelo",
@@ -5154,8 +4790,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "experiencias-de-assessoria-juridica-popular-e-o-direito",
@@ -5168,9 +4803,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "noticias-do-front-ou-da-fronteira-2",
@@ -5184,9 +4818,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "criminologia-e-direitos-humanos-em-debate-na-ufpe",
@@ -5199,9 +4832,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "a-10a-jornada-de-agroecologia-a-soberania-alimentar-e-a",
@@ -5213,8 +4845,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "organizacoes-de-esquerda-debatem-sobre-oriente-medio-e",
@@ -5226,8 +4857,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "poesitando-a-diversidade-sexual",
@@ -5239,8 +4869,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "maio-mes-do-trabalho",
@@ -5252,8 +4881,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "da-insurgencia",
@@ -5265,9 +4893,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2011"
  },
  {
   "slug": "negros-e-indios-na-invencao-do-brasil",
@@ -5280,8 +4907,7 @@
    "memoria"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "os-quilombolas-e-o-estado-uso-alternativo-do-ministerio",
@@ -5293,8 +4919,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "debatendo-a-educacao-juridica-na-ufersa",
@@ -5308,9 +4933,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2011"
  },
  {
   "slug": "direito-para-que-m-discute-a-fabrica-ocupada-flasko",
@@ -5322,8 +4946,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-o-alimento-e-importante",
@@ -5335,8 +4958,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "relato-da-ajp-sobre-o-i-seminario-de-direito-pesquisa-e",
@@ -5349,8 +4971,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "acoes-afirmativas-e-eu-com-isso",
@@ -5363,8 +4984,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "comentarios-sobre-a-luta-pela-terra-por-baldez",
@@ -5376,9 +4996,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "lembrando-quatro-advogados-populares-assassinados-simbolos",
@@ -5391,9 +5010,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "com-a-paz-dos-ovos-de-pascoa",
@@ -5405,8 +5023,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-obsolescencia-programada",
@@ -5418,8 +5035,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "cineclube-ajp-narradores-de-jave",
@@ -5433,9 +5049,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "preparativos-para-o-xiii-erenaju-em-eldorado-do-sul",
@@ -5450,8 +5065,7 @@
    "movimentos-sociais"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-o-dia-que-durou-21-anos",
@@ -5463,8 +5077,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "pesquisa-em-direito-com-movimentos-sociais-em-foco-na-usp",
@@ -5476,9 +5089,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "a-guerrilha-do-caparao-um-matematico-um-jurista-e-muitos",
@@ -5490,9 +5102,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "america-latina-experiencias-de-um-continente-vi-encontro",
@@ -5507,8 +5118,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "ajp-e-etnodesenvolvimento",
@@ -5521,9 +5131,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "dialogo-de-professores-de-lugar-nenhum",
@@ -5535,8 +5144,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "procura-se-e-o-povo-brasileiro-pergunta-quem-torturou-quem",
@@ -5547,9 +5155,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "direito-e-antropologia-iii-seminario-indigena-historia-e",
@@ -5562,8 +5169,7 @@
    "memoria"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "sobre-o-bairro-23-de-janeiro",
@@ -5574,9 +5180,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "a-assessoria-juridica-popular-no-1o-encontro-estadual-dos",
@@ -5590,9 +5195,8 @@
    "movimentos-sociais",
    "direitos-humanos"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-lixo-extraordinario",
@@ -5604,8 +5208,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "sao-sangue-sao-lagrimas",
@@ -5616,9 +5219,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "parceria-do-blogue-com-a-terra-de-direitos",
@@ -5630,8 +5232,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "movimentos-sociais-em-prol-do-efta-novo-ato",
@@ -5645,8 +5246,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "contra-o-legado-do-ministerio-do-silencio-a-longa-marcha-de",
@@ -5657,9 +5257,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "muca-denuncia-campanha-de-desarticulacao-do-nut-defensoria",
@@ -5673,9 +5272,8 @@
    "assessoria-juridica-popular",
    "memoria"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "mostra-o-que-ninguem-ve-difamacao",
@@ -5687,8 +5285,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "versos-d-arak",
@@ -5699,9 +5296,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "contribua-para-o-mapeamento-das-assessorias",
@@ -5713,9 +5309,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "justica-e-politica-capturadas-pelo-direito-um-rapto-moderno",
@@ -5728,8 +5323,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "stf-e-a-lei-ficha-limpa-novas-contradicoes-judiciais",
@@ -5741,9 +5335,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "campo-minado-questao-para-debate",
@@ -5755,9 +5348,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "injustica-de-transicao-na-unb",
@@ -5768,9 +5360,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "vive-la-commune-140-anos-da-comuna-de-paris",
@@ -5783,9 +5374,8 @@
    "memoria",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "a-cara-da-mentira-declaracao-da-rede-popular-catarinense-de",
@@ -5799,9 +5389,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "roteiro-de-teatro-forum-discurso-da-competencia",
@@ -5813,8 +5402,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "a-divisao-social-do-trabalho-intelectual-perplexidades",
@@ -5827,9 +5415,8 @@
    "teoria-critica",
    "memoria"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2011"
  },
  {
   "slug": "assessoria-juridica-popular-universitaria-na-ufsc",
@@ -5841,9 +5428,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "novos-apoios-ao-escritorio-frei-tito",
@@ -5856,9 +5442,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "para-uma-economia-politica-das-carreiras-juridicas",
@@ -5870,8 +5455,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "defensoria-ja-gralha-povo-paranaense-gralha",
@@ -5884,9 +5468,8 @@
    "movimentos-sociais",
    "assessoria-juridica-popular"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "nova-tentativa-de-criminalizacao-lider-do-movimento-de",
@@ -5898,9 +5481,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "papo-de-cinema",
@@ -5912,9 +5494,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "seminario-memorias-em-movimento-juventude-cultura-e-politica",
@@ -5925,9 +5506,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2011",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "thomaz-miguel-pressburger-presente",
@@ -5941,9 +5521,8 @@
    "teoria-critica",
    "direitos-humanos"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "mais-sobre-o-escritorio-frei-tito-movimentos-sociais-lancam",
@@ -5956,9 +5535,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "e-todo-pranto-forma-a-imagem-do-homem-rapidas-notas-sobre",
@@ -5972,9 +5550,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "noticias-do-front-ou-da-fronteira-3",
@@ -5987,9 +5564,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "jesus-antonio-de-la-torre-rangel-e-a-analogia-do-direito",
@@ -6003,8 +5579,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "odio-virtual",
@@ -6016,8 +5591,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "carta-de-divulgacao-do-nascimento-de-nova-ajup",
@@ -6030,9 +5604,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "dizer-que-nao",
@@ -6044,8 +5617,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "a-religiosidade-e-a-assessoria-popular",
@@ -6059,9 +5631,8 @@
    "educacao-popular",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "reflexoes-a-partir-da-leitura-de-balaios-e-bem-te-vis-a",
@@ -6074,9 +5645,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "saindo-definitivamente-de-cima-de-muro",
@@ -6089,9 +5659,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "as-mulheres-sua-resistencia-e-a-totalidade-ou-quando-as",
@@ -6105,9 +5674,8 @@
    "teoria-critica",
    "assessoria-juridica-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "ricardo-prestes-pazello-e-o-poder-dual-do-pluralismo",
@@ -6119,8 +5687,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "08-de-marco-dia-de-luta-das-mulheres-estudantes",
@@ -6132,8 +5699,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "denuncia-exoneracao-de-advogados-e-estagiarios-do",
@@ -6146,8 +5712,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "calourada-do-saju-sp-e-extensao",
@@ -6161,9 +5726,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "ocupacao-28-de-maio-e-a-assessoria-juridica",
@@ -6175,9 +5739,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "denuncia-familias-sem-teto-completam-10-dias-morando-na",
@@ -6190,8 +5753,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "nota-de-falecimento-de-sebastiao-bezerra",
@@ -6204,8 +5766,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "rui-mauro-marini-a-teoria-marxista-da-dependencia-e-a",
@@ -6218,8 +5779,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "amanda-alves-de-souza-e-a-praxis-extensionista",
@@ -6231,8 +5791,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "negro-coracao-de-alegre-correa-e-raul-boeira",
@@ -6244,8 +5803,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "a-revolucao-do-jasmim-e-a-praca-libertacao-o-estado-de",
@@ -6259,9 +5817,8 @@
    "movimentos-sociais",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "livro-justica-e-direitos-humanos-sobre-experiencias-de",
@@ -6273,9 +5830,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "as-veias-abertas-da-amazonia-uma-contribuicao-ao-debate",
@@ -6289,9 +5845,8 @@
    "memoria",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "ano-recomeca-com-nova-linguagem",
@@ -6305,9 +5860,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "a-questao-agraria-na-america-latina-questionamentos-iniciais",
@@ -6321,8 +5875,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "luiz-otavio-ribas-e-a-advocacia-popular-no-rio-e-porto",
@@ -6335,9 +5888,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "miguel-lanzellotti-baldez-e-a-presentacao",
@@ -6351,9 +5903,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "uma-historia-de-domingos-um-naco-de-historia-do-direito-no",
@@ -6365,9 +5916,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "a-classe-que-vive-do-trabalho-e-o-que-a-ajp-tem-a-ver-com",
@@ -6381,9 +5931,8 @@
    "educacao-popular",
    "assessoria-juridica-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "luiz-otavio-ribas-e-a-assessoria-estudantil-no-brasil",
@@ -6397,9 +5946,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2011"
  },
  {
   "slug": "novidades-sobre-a-biblioteca-digital-da-ajp",
@@ -6411,8 +5959,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2011",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2011"
  },
  {
   "slug": "amilcar-cabral-as-formas-da-resistencia-e-o-suicidio-de",
@@ -6426,9 +5973,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2011"
  },
  {
   "slug": "carla-miranda-e-a-praxis-da-assessoria-juridica",
@@ -6440,9 +5986,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "um-pouco-de-humor-direitos-do-cidadao",
@@ -6454,8 +5999,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2011",
-  "tema_principal": "direitos-humanos"
+  "ano": "2011"
  },
  {
   "slug": "a-comunicacao-e-o-apoio-popular",
@@ -6468,9 +6012,8 @@
    "teoria-critica",
    "movimentos-sociais"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "a-repercussao-de-uma-vitoria-no-judiciario-o-caso-dos",
@@ -6482,8 +6025,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2011"
  },
  {
   "slug": "sobre-a-tragedia-no-rio",
@@ -6496,9 +6038,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2011"
  },
  {
   "slug": "algumas-linhas-sobre-assessoria-juridica-popular-e",
@@ -6510,9 +6051,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "a-traducao-na-assessoria-juridica-popular",
@@ -6525,9 +6065,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "metodologia-e-organizacao-interna-das-ajups-alguns",
@@ -6540,9 +6079,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "provocacao-de-50-anos-atras-o-que-a-universidade-cria-e-o",
@@ -6555,8 +6093,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "manifesto-do-conselho-popular-contra-ditadura-aos-pobres",
@@ -6569,9 +6106,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2011",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Memória",
+  "ano": "2011"
  },
  {
   "slug": "conscientizacao-de-direitos-pequena-tese",
@@ -6583,8 +6119,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2011",
-  "tema_principal": "educacao-popular"
+  "ano": "2011"
  },
  {
   "slug": "por-uma-nova-articulacao-da-assessoria-juridica-popular",
@@ -6596,9 +6131,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "resenha-do-livro-de-alberto-kopittke-sobre-a-renap",
@@ -6610,9 +6144,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2011"
  },
  {
   "slug": "o-giro-descolonial-e-o-direito-os-tres-cortes-estruturais",
@@ -6624,8 +6157,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2011",
-  "tema_principal": "teoria-critica"
+  "ano": "2011"
  },
  {
   "slug": "pesquisa-sobre-a-organizacao-politica-dos-xokleng",
@@ -6637,9 +6169,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "carta-do-ano-que-nao-terminou",
@@ -6652,9 +6183,8 @@
    "educacao-popular",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "morreu-lia-pires-e-com-ele-a-advocacia",
@@ -6666,8 +6196,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "sobre-mestres-e-professores-lembrando-warat",
@@ -6679,8 +6208,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "oracao-ignominiosa-de-uma-habitante-da-escuridao",
@@ -6693,8 +6221,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "o-que-a-assessoria-juridica-popular-tem-a-dizer-sobre-o",
@@ -6706,9 +6233,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "o-teatro-e-o-ensino-do-direito-3",
@@ -6721,8 +6247,7 @@
    "movimentos-sociais"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "uma-contribuicao-de-miguel-baldez",
@@ -6736,9 +6261,8 @@
    "educacao-popular",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2010"
  },
  {
   "slug": "consideracoes-sobre-o-popular-direito-e-cultura",
@@ -6751,9 +6275,8 @@
    "teoria-critica",
    "memoria"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "com-tristeza-luis-adeus",
@@ -6766,8 +6289,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "encontro-das-assessorias-populares-do-rs",
@@ -6780,9 +6302,8 @@
    "educacao-popular",
    "assessoria-juridica-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2010"
  },
  {
   "slug": "ludovico-silva-e-a-critica-a-naturalizacao-metodica",
@@ -6794,8 +6315,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "pode-a-universidade-nao-ser-emancipatoria",
@@ -6807,8 +6327,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "poesitando-a-guerra",
@@ -6820,9 +6339,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "novidades-da-semana-para-ler-e-comemorar",
@@ -6836,9 +6354,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "a-formacao-de-uma-casta",
@@ -6850,8 +6367,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "universidade-popular-na-america-latina-3",
@@ -6865,9 +6381,8 @@
    "teoria-critica",
    "memoria"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2010"
  },
  {
   "slug": "livro-sobre-advocacia-popular-e-lyra-filho",
@@ -6879,9 +6394,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "o-outro-lado-dos-direitos-humanos-povos-indigenas-e",
@@ -6893,9 +6407,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "violencia-no-rio-estado-e-constitucionalismo-de-fachada",
@@ -6907,9 +6420,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "defenda-a-defensoria-publica-para-banir-um-direito-sonegado",
@@ -6922,9 +6434,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "universidade-popular-na-america-latina-2",
@@ -6936,8 +6447,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "poesia-sobre-absurdos-na-forma-da-lei",
@@ -6949,9 +6459,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "formacao-em-direitos-humanos-com-movimentos-sociais-limites",
@@ -6964,9 +6473,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "o-genero-e-o-direito-a-genera-e-a-direita",
@@ -6978,8 +6486,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "chao-de-fabrica-e-doutores-da-serie-memorias",
@@ -6990,9 +6497,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2010",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "universidade-popular-na-america-latina-1",
@@ -7004,8 +6510,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "i-encontro-paraense-de-assessoria-juridica-universitaria",
@@ -7017,8 +6522,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "la-grieta-assessoria-juridica-popular-na-argentina",
@@ -7030,9 +6534,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "critica-aos-direitos-humanos-e-movimentos-sociais-2",
@@ -7044,9 +6547,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "coluna-de-jacques-alfonsin",
@@ -7058,8 +6560,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "a-hora-e-a-vez-da-autogestao",
@@ -7072,8 +6573,7 @@
    "movimentos-sociais"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "ha-um-ano-em-teresina",
@@ -7087,8 +6587,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "relatos-de-um-jovem-professor-1",
@@ -7103,8 +6602,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "a-internacional-e-o-direito-notas-sobre-a-ludicidade",
@@ -7118,8 +6616,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "cinema-e-luta-no-campo",
@@ -7133,8 +6630,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "direito-e-ditadura-militar-no-brasil",
@@ -7146,9 +6642,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "marx-e-o-nao-direito-direito-e-marxismo",
@@ -7160,8 +6655,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "coluna-prestes-a-coluna-de-domingo",
@@ -7173,8 +6667,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "relato-do-acampamento-do-sajup-pr-em-agosto",
@@ -7187,9 +6680,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "pet-direito-ufsc-aborda-o-direito-e-a-ditadura",
@@ -7201,9 +6693,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "os-sujeitos-historicos-da-transformacao-organizacao",
@@ -7216,8 +6707,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "critica-aos-direitos-humanos-e-movimentos-sociais",
@@ -7229,9 +6719,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "assessoria-popular-em-ocupacao-urbana-de-passo-fundo",
@@ -7245,9 +6734,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2010"
  },
  {
   "slug": "o-dia-9-o-dia-10-o-dia-11-e-o-dia-12",
@@ -7260,9 +6748,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "captura-criptica-novo-volume-e-chamada-para-artigos",
@@ -7277,8 +6764,7 @@
    "memoria"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "direito-insurgente-e-pluralismo-juridico",
@@ -7291,8 +6777,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "o-golpe-no-equador-e-o-terrivel-inverno-politico-latino",
@@ -7304,8 +6789,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "coluna-de-jacques-alfonsin-2",
@@ -7317,8 +6801,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "critica-ao-direito-e-movimento-estudantil",
@@ -7332,9 +6815,8 @@
    "teoria-critica",
    "direitos-humanos"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "campanha-contra-a-nova-criminalizacao-dos-saberes",
@@ -7346,9 +6828,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "duvida-insanavel-como-deve-ser-para-um-ministro-do-stf",
@@ -7360,9 +6841,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "poema-sobre-a-insurgencia",
@@ -7374,8 +6854,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "o-latifundio-matou-mais-um-trabalhador-sem-terra-no-para",
@@ -7388,8 +6867,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "editorial-de-domingo-e-preciso-parar-para-pensar",
@@ -7402,9 +6880,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "o-teatro-e-o-ensino-do-direito-2",
@@ -7418,8 +6895,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "saju-ce-e-o-plebiscito-popular",
@@ -7431,9 +6907,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "o-onze-de-setembro-e-a-abertura-das-grandes-alamedas",
@@ -7446,8 +6921,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "recomendacao-de-leituras",
@@ -7460,9 +6934,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "vencer-a-barbarie-em-anapu-e-uma-obrigacao-do-estado",
@@ -7474,9 +6947,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "o-bandido-que-sabia-latim-tambem-sabia-de-musica",
@@ -7489,8 +6961,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "autonomia-universitaria-ou-colonialidade-do-saber",
@@ -7502,8 +6973,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "sergio-bianchi",
@@ -7515,8 +6985,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "analfabetos-fracos-pobres-rudes-e-santos",
@@ -7528,8 +6997,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "da-rua-para-academia-por-livia-gimenes",
@@ -7542,8 +7010,7 @@
    "movimentos-sociais"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "assine-a-peticao-em-favor-dos-agricultores-de-imbituba",
@@ -7555,8 +7022,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "coluna-de-jacques-alfonsin-3",
@@ -7569,8 +7035,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "o-enedex-e-os-desafios-da-extensao-universitaria-do-direito",
@@ -7582,9 +7047,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "o-enedex-e-os-desafios-da-extensao-universitaria-do-direit-2",
@@ -7597,9 +7061,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "o-devermos-ver-e-a-verdade",
@@ -7611,8 +7074,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "entrevista-com-o-jacques-alfonsin",
@@ -7624,8 +7086,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "1-ano-de-comunicacao-sobre-a-luta-popular",
@@ -7637,8 +7098,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "cidadania-e-educacao-historica-perspectivas-de-alunos-e",
@@ -7649,9 +7109,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2010",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "da-utopia-estudantil-a-acao-politica",
@@ -7663,8 +7122,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "organizacao-popular-e-resistencia-o-exemplo-de-pinheirinho",
@@ -7677,8 +7135,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "i-seminario-internacional-de-educacao-em-direitos-humanos",
@@ -7692,8 +7149,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "direito-a-moradia-e-direito-ao-meio-ambiente-ecologicamente",
@@ -7705,8 +7161,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "noticias-de-imbituba",
@@ -7718,8 +7173,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "quem-planta-cultura-colhe-revolucao",
@@ -7731,8 +7185,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "assentados-de-joia-sao-absolvidos",
@@ -7746,8 +7199,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "lira-filho-porque-a-critica-juridica-nao-pode-morrer",
@@ -7759,8 +7211,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "despejo-em-imbituba-mas-essa-gente-ai-hein-como-e-que-faz",
@@ -7773,9 +7224,8 @@
    "movimentos-sociais",
    "direitos-humanos"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "novo-livro-de-direito-urbanistico",
@@ -7786,9 +7236,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2010",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "o-despertar-da-espera",
@@ -7800,8 +7249,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "o-homem-da-casa-de-papelao-direito-da-indiferenca",
@@ -7814,9 +7262,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "quem-planta-cultura-colhe-revolucao-2",
@@ -7829,8 +7276,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "estatizacao-e-na-flasko-ninguem-coloca-a-mao-eles-podem",
@@ -7844,8 +7290,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "imbituba-urgente",
@@ -7857,8 +7302,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "poema-em-homenagem-a-eugenio-lyra",
@@ -7870,9 +7314,8 @@
    "memoria",
    "assessoria-juridica-popular"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2010",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "coluna-do-jacques-o-morro-e-nosso",
@@ -7884,8 +7327,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "ato-de-imbituba-as-comunidades-tradicionais-contra-o-capital",
@@ -7898,8 +7340,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "sobre-burocratas-travestidos-de-poetas",
@@ -7911,8 +7352,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "noticias-do-front-ou-da-fronteira-4",
@@ -7925,9 +7365,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "judiciario-decreta-falencia-da-flasko",
@@ -7940,8 +7379,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "niilismo-e-movimento-popular-ou-entre-ceticos-e-cinicos-eu",
@@ -7953,8 +7391,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "imbituba-cronica-de-um-mandado-de-despejo",
@@ -7968,8 +7405,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "helio-bicudo-sobre-o-mst",
@@ -7981,8 +7417,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "campanha-adote-um-dia-do-mes-seja-colunista",
@@ -7994,8 +7429,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "direito-de-resistencia-e-estado-liberal",
@@ -8010,8 +7444,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "a-importancia-do-estudo-do-pluralismo-juridico-justica",
@@ -8024,8 +7457,7 @@
    "movimentos-sociais"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "mercedes-sosa-e-sebastiao-salgado",
@@ -8037,8 +7469,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "sobre-os-crimes-a-subjetividade-e-o-limite",
@@ -8050,8 +7481,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "morro-santa-teresa-vitoria-do-povo",
@@ -8064,8 +7494,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "flexibilizacao-das-leis-trabalhistas",
@@ -8078,8 +7507,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "o-que-e-a-greve",
@@ -8092,9 +7520,8 @@
    "teoria-critica",
    "assessoria-juridica-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Movimentos sociais",
+  "ano": "2010"
  },
  {
   "slug": "o-que-e-o-direito",
@@ -8107,8 +7534,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "uma-partida",
@@ -8120,8 +7546,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "bolivar-echeverria-resistencia-e-critica-na-america-latina",
@@ -8133,8 +7558,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "poder-politico-juridico-dual-plural",
@@ -8146,8 +7570,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "resenha-do-texto-diante-da-lei-de-franz-kafka",
@@ -8159,8 +7582,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "coluna-alfonsin-ficha-limpa",
@@ -8172,8 +7594,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "a-licao-de-juruti-velho",
@@ -8184,9 +7605,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2010",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "direitos-fundamentais-e-poesia",
@@ -8198,9 +7618,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "resenha-do-livro-de-elaine-tavares",
@@ -8212,8 +7631,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "campanha-o-morro-e-nosso",
@@ -8225,8 +7643,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "reformulacao-do-blogue",
@@ -8238,8 +7655,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "semana-de-direitos-humanos-do-saju-rs",
@@ -8252,8 +7668,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "dissertacao-christianny-diogenes-maia",
@@ -8267,9 +7682,8 @@
    "direitos-humanos",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "eged-2010-sera-em-junho-em-santa-maria",
@@ -8281,9 +7695,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2010"
  },
  {
   "slug": "a-anistia-e-a-ajuris",
@@ -8296,9 +7709,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "assessoria-juridica-popular",
@@ -8310,8 +7722,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "saga-das-contradicoes-latino-americanas-estado-de-excecao",
@@ -8324,9 +7735,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "captura-criptica-chamada-para-artigos",
@@ -8338,8 +7748,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "biblioteca-digital-da-filosofia-latino-americana",
@@ -8352,8 +7761,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "xii-encontro-da-rede-nacional-de-assessoria-juridica",
@@ -8365,8 +7773,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "tabula-rasa-revista-de-humanidades",
@@ -8378,8 +7785,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "3-anos-de-nepe-14-anos-do-massacre",
@@ -8391,9 +7797,8 @@
    "movimentos-sociais",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Movimentos sociais",
+  "ano": "2010"
  },
  {
   "slug": "jornalismo-da-maioria-ouro-de-poucos",
@@ -8406,8 +7811,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "as-ocupacoes-e-o-vermelho-das-coisas",
@@ -8420,8 +7824,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "quem-constroi-a-ponte-nao-conhece-o-lado-de-la",
@@ -8434,9 +7837,8 @@
    "educacao-popular",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "adeus-sete-quedas-adeus-ivo-rodrigues",
@@ -8447,9 +7849,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2010",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "cultura-negra-historia-e-musica",
@@ -8461,9 +7862,8 @@
    "memoria",
    "assessoria-juridica-popular"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2010",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "coluna-de-jacques-alfonsin-4",
@@ -8475,8 +7875,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "rebeliao-na-comunicacao-mundial",
@@ -8488,8 +7887,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "participe-do-identidade-mercosul",
@@ -8501,8 +7899,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "assista-as-jornadas-bolivarianas-pela-internete",
@@ -8514,8 +7911,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "manda-pro-pessoal-no-erenaju-teresina",
@@ -8529,8 +7925,7 @@
    "movimentos-sociais"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "entre-coroneis-e-pistoleiros-um-ano-sem-manoel-mattos",
@@ -8543,8 +7938,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "o-teatro-e-o-ensino-do-direito-1",
@@ -8557,8 +7951,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "uno-mas-para-nunca-mas",
@@ -8571,8 +7964,7 @@
    "memoria"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "mais-sobre-o-dia-da-mulher-e-o-feminismo",
@@ -8585,8 +7977,7 @@
    "memoria"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "programa-nacional-de-direitos-humanos",
@@ -8598,9 +7989,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "coluna-alfonsin-cechin",
@@ -8612,9 +8002,8 @@
    "assessoria-juridica-popular",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "noticias-do-norte",
@@ -8626,8 +8015,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "um-novo-direito-internacional-desde-a-america-latina",
@@ -8640,8 +8028,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "dia-internacional-da-mulher",
@@ -8653,8 +8040,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "poema-todas-as-mulheres",
@@ -8666,8 +8052,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "assessoria-juridica-popular-na-vila-do-chocolatao-em-porto",
@@ -8679,8 +8064,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "monologo-do-poeta-do-povo-e-da-mocidade",
@@ -8693,9 +8077,8 @@
    "educacao-popular",
    "direitos-humanos"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "novo-prazo-para-revista-da-aatr",
@@ -8707,8 +8090,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "coluna-da-ana-lia-almeida",
@@ -8720,8 +8102,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "participacao-democratica-e-assessoria-estudantil",
@@ -8734,9 +8115,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "o-que-os-reacionarios-dizem-das-posturas-criticas-do-direito",
@@ -8748,8 +8128,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "80-anos-do-miguel-baldez",
@@ -8762,9 +8141,8 @@
    "movimentos-sociais",
    "memoria"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "coluna-do-jacques-alfonsin-e-o-cnj",
@@ -8776,9 +8154,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "estatisticas-do-blogue-2",
@@ -8791,9 +8168,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "sobre-a-libertacao-sexual",
@@ -8805,8 +8181,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "ninguem-havera-de-gritar-pelos-povos-da-amazonia",
@@ -8820,9 +8195,8 @@
    "movimentos-sociais",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2010"
  },
  {
   "slug": "video-com-palestra-do-enrique-dussel",
@@ -8834,9 +8208,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "revolucao-e-direito-mais-contradicoes",
@@ -8848,8 +8221,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "poema-de-ana-lia-almeida",
@@ -8861,8 +8233,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "elaine-tavares-e-o-desafio-da-comunicacao",
@@ -8875,8 +8246,7 @@
    "movimentos-sociais"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "mande-sua-contribuicao-para-a-revista-da-aatr",
@@ -8888,8 +8258,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "noticia-coluna-semanal-jacques-alfonsin",
@@ -8901,8 +8270,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "ajp-ajup-com-povos-indigenas",
@@ -8915,9 +8283,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "companheiro-baldez-presente-2",
@@ -8929,9 +8296,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "e-as-algemas-nos-membros-do-mst",
@@ -8943,8 +8309,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "mais-sobre-o-advogado-popular",
@@ -8956,9 +8321,8 @@
    "assessoria-juridica-popular",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "marcha-do-mst-em-imbituba-sc",
@@ -8970,8 +8334,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "xii-erenaju-reuniao-virtual",
@@ -8983,9 +8346,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "globo-bbb10-e-lgbt-s-o-mito",
@@ -8997,8 +8359,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "campanhas-de-agitacao-com-os-calouros",
@@ -9010,8 +8371,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "circulo-de-cultura-de-paulo-freire",
@@ -9023,8 +8383,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "poesitando-n-o-direito",
@@ -9036,9 +8395,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2010"
  },
  {
   "slug": "mais-de-50-entidades-manifestam-apoio-ao-mst-de-santa",
@@ -9051,8 +8409,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "companheiro-lavratti-presente",
@@ -9065,8 +8422,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "poetizando",
@@ -9078,8 +8434,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "resenha-do-artigo-do-vladimir-luz",
@@ -9091,9 +8446,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "estatisticas-do-blogue",
@@ -9106,8 +8460,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "uma-sensacao",
@@ -9119,8 +8472,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "a-realidade-brasileira-e-o-forum-social-mundial",
@@ -9132,8 +8484,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "rumo-ao-xii-erenaju",
@@ -9145,8 +8496,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "america-latina-dos-abismos",
@@ -9158,8 +8508,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "revista-captura-criptica-nova-edicao",
@@ -9171,8 +8520,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "entrevista-leandro-scalabrin-na-caros-amigos",
@@ -9187,8 +8535,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2010",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2010"
  },
  {
   "slug": "o-direito-e-as-cadeiras",
@@ -9200,8 +8547,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "pndh-3-por-que-mudar-da-revista-carta-maior",
@@ -9213,9 +8559,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "os-lirios-nao-nascem-das-leis",
@@ -9227,8 +8572,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "o-fetiche-da-tv-paradoxos-das-discussoes-sobre-conteudo-e",
@@ -9241,9 +8585,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "o-que-o-direito-ensina-errado",
@@ -9255,8 +8598,7 @@
    "educacao-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "noticias-da-renaju",
@@ -9268,8 +8610,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2010",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2010"
  },
  {
   "slug": "direitos-humanos-sob-conflito",
@@ -9281,8 +8622,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "como-formar-uma-ajup",
@@ -9296,9 +8636,8 @@
    "direitos-humanos",
    "memoria"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "comunicacao-na-america-latina",
@@ -9310,9 +8649,8 @@
    "memoria",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "os-nossos-direitos-humanos-e-os-direitos-humanos-deles",
@@ -9324,8 +8662,7 @@
    "direitos-humanos"
   ],
   "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "ano": "2010"
  },
  {
   "slug": "revisao-da-lei-de-anistia",
@@ -9337,9 +8674,8 @@
    "memoria",
    "direitos-humanos"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "tema": "Memória",
+  "ano": "2010"
  },
  {
   "slug": "assessoria-juridica-popular-2",
@@ -9352,9 +8688,8 @@
    "direitos-humanos",
    "memoria"
   ],
-  "tema": "Direitos humanos",
-  "ano": "2010",
-  "tema_principal": "direitos-humanos"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "poesitando",
@@ -9367,9 +8702,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2010"
  },
  {
   "slug": "preparacao-para-o-primeiro-dia",
@@ -9381,9 +8715,8 @@
    "educacao-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2010"
  },
  {
   "slug": "a-contradicao-do-direito",
@@ -9396,8 +8729,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2010",
-  "tema_principal": "teoria-critica"
+  "ano": "2010"
  },
  {
   "slug": "educacao-de-geracao-para-geracao",
@@ -9410,8 +8742,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "ano": "2010"
  },
  {
   "slug": "o-advogado-popular-um-ser-em-extincao",
@@ -9423,9 +8754,8 @@
    "assessoria-juridica-popular",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2010",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2010"
  },
  {
   "slug": "entre-dois-ceus-a-tensao-congenita-ao-juridico",
@@ -9439,9 +8769,8 @@
    "teoria-critica",
    "educacao-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "tema": "Memória",
+  "ano": "2009"
  },
  {
   "slug": "novos-textos-na-biblioteca-digital-da-ajp",
@@ -9453,8 +8782,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-6",
@@ -9466,8 +8794,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "lamentacao-ecologica",
@@ -9479,8 +8806,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "10-anos-do-cajuina",
@@ -9494,9 +8820,8 @@
    "memoria",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2009",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2009"
  },
  {
   "slug": "retificacao-direito-insurgente-e-pluralismo-juridico",
@@ -9509,8 +8834,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "ano": "2009"
  },
  {
   "slug": "retificacao-revista-captura-criptica",
@@ -9522,8 +8846,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "biblioteca-digital-da-assessoria-juridica-popular",
@@ -9535,8 +8858,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "da-forma-exegese-e-desnumeracao",
@@ -9548,9 +8870,8 @@
    "memoria",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "tema": "Memória",
+  "ano": "2009"
  },
  {
   "slug": "noticia-de-jacques-alfonsin-e-antonio-cechin",
@@ -9562,8 +8883,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "recompensa-do-tedio-utopia",
@@ -9575,8 +8895,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "a-ultima-de-luiz-carlos-prates-ou-ai-que-saudades-de-luiz",
@@ -9587,9 +8906,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2009",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2009"
  },
  {
   "slug": "revista-civitas-chamada-de-artigos",
@@ -9601,8 +8919,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "o-natal-dos-sem-no-brasil",
@@ -9614,8 +8931,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "sitio-da-revista-captura-criptica",
@@ -9628,9 +8944,8 @@
    "teoria-critica",
    "educacao-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2009"
  },
  {
   "slug": "assessoria-juridica-popular-3",
@@ -9642,8 +8957,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "companheiro-baldez-presente",
@@ -9657,8 +8971,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2009",
-  "tema_principal": "educacao-popular"
+  "ano": "2009"
  },
  {
   "slug": "minicurso-critica-da-critica-critica-no-piaui",
@@ -9672,8 +8985,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "ano": "2009"
  },
  {
   "slug": "universidade-popular",
@@ -9686,8 +8998,7 @@
    "movimentos-sociais"
   ],
   "tema": "Educação popular",
-  "ano": "2009",
-  "tema_principal": "educacao-popular"
+  "ano": "2009"
  },
  {
   "slug": "novo-livro-sobre-assessoria-juridica-popular",
@@ -9699,8 +9010,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "e-a-luta-das-mulheres",
@@ -9713,8 +9023,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Direitos humanos",
-  "ano": "2009",
-  "tema_principal": "direitos-humanos"
+  "ano": "2009"
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-5",
@@ -9727,8 +9036,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "entrevista-com-jose-pepe-mujica",
@@ -9741,8 +9049,7 @@
    "memoria"
   ],
   "tema": "Educação popular",
-  "ano": "2009",
-  "tema_principal": "educacao-popular"
+  "ano": "2009"
  },
  {
   "slug": "assessoria-juridica-e-enade",
@@ -9755,8 +9062,7 @@
    "direitos-humanos"
   ],
   "tema": "Educação popular",
-  "ano": "2009",
-  "tema_principal": "educacao-popular"
+  "ano": "2009"
  },
  {
   "slug": "manifesto-em-defesa-do-mst",
@@ -9769,8 +9075,7 @@
    "direitos-humanos"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-4",
@@ -9783,8 +9088,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "contribuicoes-insurgentes-por-um-direito-transformador",
@@ -9798,8 +9102,7 @@
    "educacao-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "ano": "2009"
  },
  {
   "slug": "falece-herrera-flores",
@@ -9812,9 +9115,8 @@
    "teoria-critica",
    "educacao-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "tema": "Direitos humanos",
+  "ano": "2009"
  },
  {
   "slug": "ja-faz-tempo-que-escolhi",
@@ -9826,8 +9128,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-3",
@@ -9840,8 +9141,7 @@
    "memoria"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-2",
@@ -9853,8 +9153,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin",
@@ -9866,8 +9165,7 @@
    "movimentos-sociais"
   ],
   "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "ano": "2009"
  },
  {
   "slug": "entrevista-massimo-pavarini",
@@ -9879,8 +9177,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Assessoria jurídica popular",
-  "ano": "2009",
-  "tema_principal": "assessoria-juridica-popular"
+  "ano": "2009"
  },
  {
   "slug": "direito-insurgente-e-pluralismo-juridico-2",
@@ -9893,9 +9190,8 @@
    "teoria-critica",
    "direitos-humanos"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2009"
  },
  {
   "slug": "direito-achado-na-rua-2",
@@ -9908,8 +9204,7 @@
    "assessoria-juridica-popular"
   ],
   "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "ano": "2009"
  },
  {
   "slug": "poema-realidade-em-cronica",
@@ -9921,8 +9216,7 @@
    "teoria-critica"
   ],
   "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "ano": "2009"
  },
  {
   "slug": "entrevista-com-flavio-tavares",
@@ -9933,9 +9227,8 @@
   "temas": [
    "memoria"
   ],
-  "tema": "Memória e cultura",
-  "ano": "2009",
-  "tema_principal": "memoria"
+  "tema": "Memória",
+  "ano": "2009"
  },
  {
   "slug": "auto-retrato",
@@ -9949,9 +9242,8 @@
    "educacao-popular",
    "movimentos-sociais"
   ],
-  "tema": "Educação popular",
-  "ano": "2009",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2009"
  },
  {
   "slug": "blog-e-site-do-nepe-ufsc",
@@ -9965,9 +9257,8 @@
    "teoria-critica",
    "assessoria-juridica-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "tema": "Educação popular",
+  "ano": "2009"
  },
  {
   "slug": "entrevista-com-jacques-alfonsin",
@@ -9979,9 +9270,8 @@
    "direitos-humanos",
    "movimentos-sociais"
   ],
-  "tema": "Movimentos sociais",
-  "ano": "2009",
-  "tema_principal": "movimentos-sociais"
+  "tema": "Direitos humanos",
+  "ano": "2009"
  },
  {
   "slug": "livro-vladimir-luz",
@@ -9993,9 +9283,8 @@
    "assessoria-juridica-popular",
    "teoria-critica"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2009"
  },
  {
   "slug": "o-que-e-assessoria-juridica-popular",
@@ -10008,9 +9297,8 @@
    "direitos-humanos",
    "educacao-popular"
   ],
-  "tema": "Educação popular",
-  "ano": "2009",
-  "tema_principal": "educacao-popular"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2009"
  },
  {
   "slug": "poema-esse-brasileiro-estreia",
@@ -10023,8 +9311,7 @@
    "teoria-critica",
    "educacao-popular"
   ],
-  "tema": "Teoria crítica",
-  "ano": "2009",
-  "tema_principal": "teoria-critica"
+  "tema": "Assessoria jurídica popular",
+  "ano": "2009"
  }
 ]

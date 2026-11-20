@@ -75,11 +75,14 @@ def bloco_para_html(b):
         src = b.get("href") or b.get("src")
         legenda = b.get("legenda") or b.get("alt")
         if b.get("licenca") == "link" or not b.get("credito"):
-            rotulo = esc(legenda) if legenda else "Ver a imagem no original"
-            return ('<figure class="cartao imagem-link"><a href="%s" target="_blank" rel="noopener">'
-                    '%s<span class="sr-only"> (abre em outra aba)</span></a>'
-                    '<figcaption>Imagem do original, sem licença declarada.</figcaption></figure>'
-                    % (esc(src), rotulo))
+            # Reprodução com aviso: sem crédito declarado, o titular pede retirada.
+            return ('<figure class="reproducao"><img src="%s" alt="%s" loading="lazy" />'
+                    '<figcaption>%s<span class="reproducao__aviso">Imagem sem crédito declarado no original. '
+                    'Se você é titular e quer a retirada, escreva para '
+                    '<a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a>.</span>'
+                    '</figcaption></figure>'
+                    % (esc(src), esc(b.get("alt") or legenda or "Imagem do texto"),
+                       (esc(legenda) + " — ") if legenda else ""))
         return ('<figure><img src="%s" alt="%s" loading="lazy" />'
                 '<figcaption>%s%s</figcaption></figure>'
                 % (esc(src), esc(b.get("alt") or legenda), esc(legenda),
