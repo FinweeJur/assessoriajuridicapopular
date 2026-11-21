@@ -1,0 +1,90 @@
+[
+ {
+  "ano": "1960",
+  "titulo": "Surgem as primeiras assessorias jurídicas populares",
+  "tipo": "marco",
+  "descricao": "Práticas de advocacia junto a movimentos sociais e organizações populares começam a se articular no Brasil, com influência da educação popular e da crítica ao assistencialismo.",
+  "fonte": "assessoria-juridica-popular-no-mundo.html",
+  "fonte_label": "Dossiê: AJP, Brasil, América Latina e mundo"
+ },
+ {
+  "ano": "1980",
+  "titulo": "Direito Achado na Rua e crítica jurídica",
+  "tipo": "marco",
+  "descricao": "A Nova Escola Jurídica Brasileira e Roberto Lyra Filho formulam o direito achado na rua; o pluralismo jurídico e os sujeitos coletivos de direito entram no vocabulário da AJP.",
+  "fonte": "assessoria-juridica-popular-no-mundo.html",
+  "fonte_label": "Dossiê: AJP, Brasil, América Latina e mundo"
+ },
+ {
+  "ano": "1995",
+  "titulo": "Fundação da RENAP",
+  "tipo": "marco",
+  "descricao": "A Rede Nacional de Advogadas e Advogados Populares se constitui como articulação nacional da advocacia popular. A página Sobre da RENAP registra 1996; o 29º Encontro (2025) fala em 30 anos, o que recua a 1995.",
+  "fonte": "https://www.renap.org.br/encontro-nacional",
+  "fonte_label": "RENAP — 29º Encontro Nacional"
+ },
+ {
+  "ano": "2001",
+  "titulo": "Caderno RENAP n.1 — Alhandra",
+  "tipo": "publicacao",
+  "descricao": "A RENAP inicia a série de Cadernos com estudos de caso, peças e jurisprudência voltados à advocacia popular.",
+  "fonte": "https://www.renap.org.br/publicacoes",
+  "fonte_label": "RENAP — Publicações"
+ },
+ {
+  "ano": "2009",
+  "titulo": "Nasce o blogue AJP",
+  "tipo": "publicacao",
+  "descricao": "O blogue Assessoria Jurídica Popular começa a publicar notícias, textos de formação, memória e poesia. É a base deste acervo.",
+  "fonte": "seis-anos-do-blogue-ajpopular.html",
+  "fonte_label": "Seis anos do blogue AJPopular"
+ },
+ {
+  "ano": "2010",
+  "titulo": "Coletânea de Poesias (CMM)",
+  "tipo": "publicacao",
+  "descricao": "O Caderno de Poesias, organizado por Cleber Mori, reúne 272 páginas de autores brasileiros e estrangeiros. 135 poemas estão publicados no acervo.",
+  "fonte": "poemas.html",
+  "fonte_label": "Caderno de Poesias e poesia do blog"
+ },
+ {
+  "ano": "2013",
+  "titulo": "Defensoria Pública, AJP e movimentos sociais",
+  "tipo": "publicacao",
+  "descricao": "A RENAP publica o primeiro volume da série sobre Defensoria Pública, assessoria jurídica popular e movimentos sociais.",
+  "fonte": "https://www.renap.org.br/publicacoes",
+  "fonte_label": "RENAP — Publicações"
+ },
+ {
+  "ano": "2015",
+  "titulo": "RENAP: 20 anos de defesa gratuita",
+  "tipo": "marco",
+  "descricao": "A rede celebra duas décadas de articulação da advocacia popular.",
+  "fonte": "uma-rede-com-20-anos-de-defesa-gratuita-dos-direitos-de.html",
+  "fonte_label": "Uma rede com 20 anos de defesa gratuita"
+ },
+ {
+  "ano": "2019",
+  "titulo": "XXIV Encontro Nacional da RENAP",
+  "tipo": "encontro",
+  "descricao": "Belém (PA) recebe o primeiro encontro nacional da RENAP no Norte do país, com 23 estados e cerca de 130 participantes.",
+  "fonte": "https://www.renap.org.br/encontro-nacional",
+  "fonte_label": "RENAP — Encontro Nacional"
+ },
+ {
+  "ano": "2025",
+  "titulo": "XXIX Encontro Nacional da RENAP",
+  "tipo": "encontro",
+  "descricao": "Salvador (BA) reúne mais de 150 pessoas de 23 estados para os 30 anos da rede, com lançamento de livros e oficinas.",
+  "fonte": "https://www.renap.org.br/encontro-nacional",
+  "fonte_label": "RENAP — 29º Encontro Nacional"
+ },
+ {
+  "ano": "2026",
+  "titulo": "Publicação deste acervo digital",
+  "tipo": "marco",
+  "descricao": "O acervo AJP é reorganizado como site estático, com 713 textos, seções, coleções e linha do tempo.",
+  "fonte": "acervo.html",
+  "fonte_label": "Acervo AJP"
+ }
+]

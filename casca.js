@@ -310,7 +310,8 @@
         botao.setAttribute('aria-expanded', 'false');
       });
     }
-  
+  })();
+
   // Menu hambúrguer em tela estreita
   (function menuEstreito() {
     var topo = document.querySelector('.topo');
@@ -338,7 +339,6 @@
       if (ev.key === 'Escape') { topo.dataset.aberto = 'false'; botao.setAttribute('aria-expanded', 'false'); }
     });
   })();
-})();
 
   // ── Ímã: botões e atalhos seguem de leve o ponteiro ─────────────────────
   (function ima() {
@@ -583,7 +583,10 @@
     var ativo = nav.querySelector(':scope > a[aria-current="page"]');
     if (!ativo) {
       var dentro = nav.querySelector('.menu__lista a[aria-current="page"]');
-      if (dentro) { ativo = nav.querySelector('.menu__botao'); }
+      if (dentro) {
+      var menuAtivo = dentro.closest('.menu');
+      ativo = menuAtivo ? menuAtivo.querySelector('.menu__botao') : null;
+    }
     }
     if (!ativo) { ativo = nav.querySelector('.menu__botao[aria-current="page"]'); }
 

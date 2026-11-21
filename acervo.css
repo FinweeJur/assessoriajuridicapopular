@@ -1546,7 +1546,9 @@ a.cartao, .item__link, .destaque, .bento__item {
 }
 
 /* ── Navegação dinâmica com tubelight ─────────────────────────────────── */
-.topo__links { position: relative; }
+@media (min-width: 1201px) {
+  .topo__links { position: relative; }
+}
 .topo__pilha,
 .topo__tubo {
   position: absolute; left: 0; width: 0; pointer-events: none;
@@ -2036,4 +2038,65 @@ a.cartao, .item__link, .destaque, .bento__item {
     top: auto; bottom: 145px; right: 4px; transform: none;
   }
   .casca-rolagem button { width: 34px; height: 34px; }
+}
+
+
+/* ── Coleções: memória, formação, biblioteca e cultura ─────────────────── */
+.colecao-hero .hero__interno { padding-bottom: clamp(22px, 3vw, 38px); }
+.colecao__atalhos {
+  display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 22px;
+}
+.colecao__atalhos a {
+  display: inline-flex; align-items: center; min-height: 34px; padding: 6px 12px;
+  border: 1px solid var(--borda); border-radius: 999px;
+  color: var(--cp-text-soft); text-decoration: none; font-size: .78rem; font-weight: 700;
+  letter-spacing: .02em;
+}
+.colecao__atalhos a:hover, .colecao__atalhos a:focus-visible {
+  color: var(--cor-tema); border-color: var(--cor-tema);
+}
+.colecao__nota {
+  max-width: 78ch; margin: 0 0 18px; color: var(--cp-text-soft);
+  font-size: .92rem; line-height: 1.7;
+}
+.colecao__post { height: 100%; }
+.colecao__post h3 { font-size: 1.02rem; line-height: 1.3; }
+.colecao__mais { display: inline-block; margin-top: 8px; font-size: .8rem; font-weight: 700; }
+.memoria__eventos { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.memoria__evento {
+  display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 18px;
+  padding: 18px 0; border-top: 1px solid var(--borda);
+}
+.memoria__evento:last-child { border-bottom: 1px solid var(--borda); }
+.memoria__ano {
+  font-family: var(--font-display); font-size: 1.25rem; color: var(--cor-tema);
+  letter-spacing: .02em;
+}
+.memoria__evento h3 { margin: 0 0 6px; font-size: 1.02rem; }
+.memoria__evento p { margin: 0 0 6px; color: var(--cp-text-soft); font-size: .9rem; line-height: 1.6; }
+.memoria__evento a { font-size: .78rem; }
+.memoria__anos {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;
+}
+.memoria__ano-card {
+  padding: 16px; border: 1px solid var(--borda); border-radius: var(--raio);
+  background: color-mix(in srgb, var(--cp-surface) 30%, transparent);
+}
+.memoria__ano-topo { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.memoria__ano-topo h3 { margin: 0; font-family: var(--font-display); font-size: 1.2rem; }
+.memoria__ano-topo span { color: var(--cp-text-soft); font-size: .76rem; }
+.memoria__ano-card ul { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 7px; }
+.memoria__ano-card li { display: flex; justify-content: space-between; gap: 10px; font-size: .84rem; line-height: 1.4; }
+.memoria__ano-card li span { flex: none; color: var(--cp-text-soft); font-size: .72rem; }
+.trilha { margin-bottom: var(--e6); }
+.trilha .grade-3 { margin-top: 12px; }
+@media (max-width: 800px) {
+  .memoria__anos { grid-template-columns: 1fr; }
+  .memoria__evento { grid-template-columns: 64px minmax(0, 1fr); gap: 12px; }
+}
+@media (max-width: 560px) {
+  .memoria__evento { grid-template-columns: 1fr; gap: 4px; }
+  .memoria__ano { font-size: 1.05rem; }
+  .colecao__atalhos { gap: 4px; }
+  .colecao__atalhos a { min-height: 32px; padding: 5px 9px; font-size: .72rem; }
 }

@@ -1,0 +1,104 @@
+[
+ {
+  "tipo": "Acervo",
+  "titulo": "Biblioteca digital",
+  "url": "biblioteca-digital.html",
+  "descricao": "Entrada para os acervos bibliográficos reunidos pela AJP."
+ },
+ {
+  "tipo": "Acervo",
+  "titulo": "Biblioteca AJUP-RJ",
+  "url": "biblioteca-ajup-rj.html",
+  "descricao": "Materiais da assessoria jurídica universitária do Rio de Janeiro."
+ },
+ {
+  "tipo": "Acervo",
+  "titulo": "Biblioteca Roberto Lyra Filho",
+  "url": "biblioteca-roberto-lyra-filho.html",
+  "descricao": "Obras e textos ligados ao direito achado na rua e à crítica jurídica."
+ },
+ {
+  "tipo": "Acervo",
+  "titulo": "Biblioteca Miguel Lanzellotti Baldez",
+  "url": "biblioteca-miguel-lanzellotti-baldez.html",
+  "descricao": "Acervo de referência sobre advocacia popular e direitos humanos."
+ },
+ {
+  "tipo": "Acervo",
+  "titulo": "Biblioteca Joaquín Herrera Flores",
+  "url": "biblioteca-joaquin-herrera-flores.html",
+  "descricao": "Direitos humanos, interculturalidade e crítica ao universalismo abstrato."
+ },
+ {
+  "tipo": "Acervo",
+  "titulo": "Biblioteca digital da filosofia latino-americana",
+  "url": "biblioteca-digital-da-filosofia-latino-americana.html",
+  "descricao": "Filosofia latino-americana e pensamento descolonial."
+ },
+ {
+  "tipo": "Acervo",
+  "titulo": "Monografias da AJP universitária",
+  "url": "monografias-da-assessoria-juridica-popular-universitaria.html",
+  "descricao": "Trabalhos de conclusão sobre assessoria jurídica popular universitária."
+ },
+ {
+  "tipo": "Acervo",
+  "titulo": "Referências",
+  "url": "referencias.html",
+  "descricao": "Bibliografia e fontes usadas no acervo."
+ },
+ {
+  "tipo": "Obra",
+  "titulo": "Dissertação — Christianny Diógenes Maia",
+  "url": "dissertacao-christianny-diogenes-maia.html",
+  "descricao": "Pesquisa acadêmica sobre assessoria jurídica popular."
+ },
+ {
+  "tipo": "Obra",
+  "titulo": "Dissertação — Humberto Betinho Góes (UFPB, 2008)",
+  "url": "dissertacao-humberto-betinho-goes-ufpb-2008.html",
+  "descricao": "Dissertação sobre AJP e educação popular."
+ },
+ {
+  "tipo": "Obra",
+  "titulo": "Monografia — Andressa Chiamulera (UFPR, 2003)",
+  "url": "monografia-andressa-chiamulera-ufpr-2003.html",
+  "descricao": "Monografia sobre assessoria jurídica popular universitária."
+ },
+ {
+  "tipo": "Obra",
+  "titulo": "Monografia — Ivan Furmann (UFPR, 2003)",
+  "url": "monografia-ivan-furmann-ufpr-2003.html",
+  "descricao": "Monografia sobre crítica jurídica e AJP."
+ },
+ {
+  "tipo": "Obra",
+  "titulo": "Monografia — Murilo Sampaio Oliveira (UFBA, 2003)",
+  "url": "monografia-murilo-sampaio-oliveira-ufba-2003.html",
+  "descricao": "Monografia sobre assessoria jurídica popular."
+ },
+ {
+  "tipo": "Obra",
+  "titulo": "Livro — Advocacia popular e Lyra Filho",
+  "url": "livro-sobre-advocacia-popular-e-lyra-filho.html",
+  "descricao": "Livro sobre advocacia popular e o pensamento de Roberto Lyra Filho."
+ },
+ {
+  "tipo": "Obra",
+  "titulo": "Livro — Vladimir Luz",
+  "url": "livro-vladimir-luz.html",
+  "descricao": "Obra sobre direito, política e lutas populares."
+ },
+ {
+  "tipo": "Obra",
+  "titulo": "Livro — Justiça e direitos humanos",
+  "url": "livro-justica-e-direitos-humanos-sobre-experiencias-de.html",
+  "descricao": "Experiências de assessoria jurídica popular."
+ },
+ {
+  "tipo": "Dossiê",
+  "titulo": "Direito crítico comparado",
+  "url": "assessoria-juridica-popular-no-mundo.html",
+  "descricao": "AJP, direito insurgente, direito achado na rua e uso tático no Brasil, América Latina e mundo."
+ }
+]

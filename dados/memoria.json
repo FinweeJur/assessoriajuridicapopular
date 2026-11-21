@@ -1,0 +1,356 @@
+{
+ "anos": [
+  {
+   "ano": "2024",
+   "total": 2,
+   "posts": [
+    {
+     "slug": "programacao-da-oficina-direito-pra-quem",
+     "titulo": "Programação da oficina direito pra quem",
+     "data": "2024-07-12",
+     "tipo": "evento",
+     "tema": "Teoria crítica"
+    },
+    {
+     "slug": "oficina-de-introducao-as-teorias-criticas-e-ajp",
+     "titulo": "Oficina de introdução às teorias críticas e AJP",
+     "data": "2024-06-14",
+     "tipo": "evento",
+     "tema": "Teoria crítica"
+    }
+   ]
+  },
+  {
+   "ano": "2023",
+   "total": 1,
+   "posts": [
+    {
+     "slug": "marchinha-do-najup",
+     "titulo": "Marchinha do Najup",
+     "data": "2023-04-29",
+     "tipo": "formativo",
+     "tema": "Assessoria jurídica popular"
+    }
+   ]
+  },
+  {
+   "ano": "2019",
+   "total": 2,
+   "posts": [
+    {
+     "slug": "catalogo-da-editora-sergio-antonio-fabris",
+     "titulo": "Catálogo da Editora Sérgio Antonio Fabris",
+     "data": "2019-02-25",
+     "tipo": "formativo",
+     "tema": "Teoria crítica"
+    },
+    {
+     "slug": "guia-de-empoderamento-para-a-seguranca-das-mulheres-na",
+     "titulo": "Guia de empoderamento para a segurança das mulheres na Internet",
+     "data": "2019-02-25",
+     "tipo": "formativo",
+     "tema": "Educação popular"
+    }
+   ]
+  },
+  {
+   "ano": "2018",
+   "total": 14,
+   "posts": [
+    {
+     "slug": "o-abismo-entre-o-asfalto-e-a-favela",
+     "titulo": "O abismo entre o asfalto e a favela",
+     "data": "2018-12-10",
+     "tipo": "formativo",
+     "tema": "Educação popular"
+    },
+    {
+     "slug": "a-escassez-do-acesso-a-justica-a-populacao-brasileira",
+     "titulo": "A Escassez do acesso a Justiça a População Brasileira",
+     "data": "2018-12-03",
+     "tipo": "evento",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "cafe-guaii-e-quilombo-campo-grande",
+     "titulo": "Café Guaií e Quilombo Campo Grande",
+     "data": "2018-11-26",
+     "tipo": "formativo",
+     "tema": "Educação popular"
+    },
+    {
+     "slug": "uma-experiencia-de-educacao-popular",
+     "titulo": "Uma experiência de educação popular",
+     "data": "2018-11-20",
+     "tipo": "evento",
+     "tema": "Educação popular"
+    }
+   ]
+  },
+  {
+   "ano": "2017",
+   "total": 3,
+   "posts": [
+    {
+     "slug": "biblioteca-miguel-lanzellotti-baldez",
+     "titulo": "Biblioteca Miguel Lanzellotti Baldez",
+     "data": "2017-05-16",
+     "tipo": "resenha",
+     "tema": "Movimentos sociais"
+    },
+    {
+     "slug": "jornada-universitaria-em-fortaleza",
+     "titulo": "Jornada universitária em Fortaleza",
+     "data": "2017-04-24",
+     "tipo": "evento",
+     "tema": "Movimentos sociais"
+    },
+    {
+     "slug": "fortalecimento-da-renaju-em-uma-conjuntura-de-retrocessos",
+     "titulo": "Fortalecimento da RENAJU em uma conjuntura de retrocessos",
+     "data": "2017-03-06",
+     "tipo": "evento",
+     "tema": "Educação popular"
+    }
+   ]
+  },
+  {
+   "ano": "2016",
+   "total": 28,
+   "posts": [
+    {
+     "slug": "e-quando-nao-ha-o-pai-para-matar",
+     "titulo": "E quando não há o Pai para matar?",
+     "data": "2016-11-28",
+     "tipo": "formativo",
+     "tema": "Teoria crítica"
+    },
+    {
+     "slug": "o-fantasma-colonial-do-infanticidio-indigena",
+     "titulo": "O fantasma colonial do infanticídio indígena",
+     "data": "2016-11-14",
+     "tipo": "evento",
+     "tema": "Direitos humanos"
+    },
+    {
+     "slug": "o-conceito-de-casa-contra-o-conceito-de-propriedade-privada",
+     "titulo": "O CONCEITO DE CASA CONTRA O CONCEITO DE PROPRIEDADE PRIVADA NO FILME AQUARIUS",
+     "data": "2016-09-12",
+     "tipo": "formativo",
+     "tema": "Educação popular"
+    },
+    {
+     "slug": "para-que-a-justica-brasileira-existe",
+     "titulo": "Para que a Justiça brasileira existe?",
+     "data": "2016-08-05",
+     "tipo": "formativo",
+     "tema": "Movimentos sociais"
+    }
+   ]
+  },
+  {
+   "ano": "2015",
+   "total": 50,
+   "posts": [
+    {
+     "slug": "microconto",
+     "titulo": "Microconto",
+     "data": "2015-12-16",
+     "tipo": "resenha",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "uma-rede-com-20-anos-de-defesa-gratuita-dos-direitos-de",
+     "titulo": "Uma Rede com 20 anos de defesa gratuita dos direitos de gente pobre",
+     "data": "2015-12-02",
+     "tipo": "evento",
+     "tema": "Teoria crítica"
+    },
+    {
+     "slug": "putalizar-o-direito",
+     "titulo": "Putalizar o direito",
+     "data": "2015-11-30",
+     "tipo": "formativo",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "abracos-destruicoes-e-belo-monte-o-velorio-de-uma-ilha-para",
+     "titulo": "Abraços, Destruições e Belo Monte: o velório de uma ilha para o desenvolvimento de uma hidrelétrica",
+     "data": "2015-11-27",
+     "tipo": "formativo",
+     "tema": "Direitos humanos"
+    }
+   ]
+  },
+  {
+   "ano": "2013",
+   "total": 29,
+   "posts": [
+    {
+     "slug": "manifestacoes-populares-trancam-vias-do-distrito-federal",
+     "titulo": "Manifestações populares trancam vias do Distrito Federal por moradia e transporte público de qualidade",
+     "data": "2013-09-06",
+     "tipo": "evento",
+     "tema": "Movimentos sociais"
+    },
+    {
+     "slug": "carta-a-um-estudante-de-direito-sobre-a-barbarie-no-egito",
+     "titulo": "CARTA A UM ESTUDANTE DE DIREITO SOBRE A BARBÁRIE NO EGITO",
+     "data": "2013-08-21",
+     "tipo": "documento",
+     "tema": "Educação popular"
+    },
+    {
+     "slug": "colectivo-de-abogados-zapatistas-caz-mexico-denuncia",
+     "titulo": "Colectivo de Abogados Zapatistas (CAZ/México) denuncia agressões",
+     "data": "2013-08-12",
+     "tipo": "notícia",
+     "tema": "Educação popular"
+    },
+    {
+     "slug": "dissertacao-humberto-betinho-goes-ufpb-2008",
+     "titulo": "Dissertação Humberto Betinho Góes UFPB 2008",
+     "data": "2013-08-02",
+     "tipo": "resenha",
+     "tema": "Educação popular"
+    }
+   ]
+  },
+  {
+   "ano": "2012",
+   "total": 91,
+   "posts": [
+    {
+     "slug": "esta-provado-que-so-possivel-filosofar-em-alemao",
+     "titulo": "\"Está provado que só possível filosofar em alemão\"",
+     "data": "2012-11-28",
+     "tipo": "formativo",
+     "tema": "Direitos humanos"
+    },
+    {
+     "slug": "luta-pela-terra-e-o-tema-de-seminario-em-pinhao-no-parana",
+     "titulo": "Luta pela terra é o tema de seminário em Pinhão, no Paraná",
+     "data": "2012-11-21",
+     "tipo": "evento",
+     "tema": "Movimentos sociais"
+    },
+    {
+     "slug": "manifesto-do-najup-luiza-mahin",
+     "titulo": "Manifesto do NAJUP Luiza Mahin",
+     "data": "2012-11-20",
+     "tipo": "documento",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "sistema-penal-concentracao-fundiaria-e-onibus-que-pegam",
+     "titulo": "Sistema penal, concentração fundiária e ônibus que pegam fogo em Floripa-SC",
+     "data": "2012-11-14",
+     "tipo": "formativo",
+     "tema": "Movimentos sociais"
+    }
+   ]
+  },
+  {
+   "ano": "2011",
+   "total": 248,
+   "posts": [
+    {
+     "slug": "em-2012-mais-de-cem-familias-do-bairro-zachia-continuarao",
+     "titulo": "Em 2012 mais de cem famílias do Bairro Záchia continuarão sem ter acesso á rede de água",
+     "data": "2011-12-27",
+     "tipo": "formativo",
+     "tema": "Movimentos sociais"
+    },
+    {
+     "slug": "pacto-forum-justica-do-rio-de-janeiro",
+     "titulo": "Pacto Fórum Justiça do Rio de Janeiro",
+     "data": "2011-12-25",
+     "tipo": "formativo",
+     "tema": "Movimentos sociais"
+    },
+    {
+     "slug": "entrevista-com-thiago-hoshino-do-comite-popular-da-copa",
+     "titulo": "Entrevista com Thiago Hoshino do Comitê Popular da Copa",
+     "data": "2011-12-20",
+     "tipo": "resenha",
+     "tema": "Educação popular"
+    },
+    {
+     "slug": "dialogos-latino-americanos-em-curitiba",
+     "titulo": "Diálogos latino-americanos, em Curitiba",
+     "data": "2011-10-11",
+     "tipo": "formativo",
+     "tema": "Assessoria jurídica popular"
+    }
+   ]
+  },
+  {
+   "ano": "2010",
+   "total": 202,
+   "posts": [
+    {
+     "slug": "pesquisa-sobre-a-organizacao-politica-dos-xokleng",
+     "titulo": "Pesquisa sobre a organização política dos Xokleng",
+     "data": "2010-12-31",
+     "tipo": "resenha",
+     "tema": "Teoria crítica"
+    },
+    {
+     "slug": "carta-do-ano-que-nao-terminou",
+     "titulo": "CARTA DO ANO QUE NÃO TERMINOU",
+     "data": "2010-12-30",
+     "tipo": "documento",
+     "tema": "Educação popular"
+    },
+    {
+     "slug": "morreu-lia-pires-e-com-ele-a-advocacia",
+     "titulo": "Morreu Lia Pires e com ele a advocacia",
+     "data": "2010-12-29",
+     "tipo": "notícia",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "sobre-mestres-e-professores-lembrando-warat",
+     "titulo": "SOBRE MESTRES E PROFESSORES (lembrando Warat...)",
+     "data": "2010-12-29",
+     "tipo": "poesia",
+     "tema": "Assessoria jurídica popular"
+    }
+   ]
+  },
+  {
+   "ano": "2009",
+   "total": 43,
+   "posts": [
+    {
+     "slug": "entre-dois-ceus-a-tensao-congenita-ao-juridico",
+     "titulo": "Entre dois céus: a tensão congênita ao \"jurídico\"",
+     "data": "2009-12-31",
+     "tipo": "formativo",
+     "tema": "Teoria crítica"
+    },
+    {
+     "slug": "novos-textos-na-biblioteca-digital-da-ajp",
+     "titulo": "Novos textos na biblioteca digital da AJP",
+     "data": "2009-12-25",
+     "tipo": "formativo",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "artigo-jacques-alfonsin-e-antonio-cechin-6",
+     "titulo": "Artigo Jacques Alfonsin e Antonio Cechin 6",
+     "data": "2009-12-23",
+     "tipo": "resenha",
+     "tema": "Movimentos sociais"
+    },
+    {
+     "slug": "lamentacao-ecologica",
+     "titulo": "Lamentação Ecológica*",
+     "data": "2009-12-22",
+     "tipo": "formativo",
+     "tema": "Movimentos sociais"
+    }
+   ]
+  }
+ ]
+}

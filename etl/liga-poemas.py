@@ -5,7 +5,7 @@ import re
 RAIZ = r"X:\DevCoder\assessoriajuridicapopular"
 
 # 1. Caderno: chamada para os poemas publicados
-p = RAIZ + r"\caderno-de-poesias.html"
+p = RAIZ + r"\poemas.html"
 t = io.open(p, encoding="utf-8").read()
 
 velho = ("<p class=\"aviso-lote\"><b>Índice, não reprodução.</b> A Coletânea de Poesias (CMM, 2010) tem\n"

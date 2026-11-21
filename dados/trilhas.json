@@ -1,0 +1,83 @@
+[
+ {
+  "id": "o-que-e-ajp",
+  "titulo": "O que é assessoria jurídica popular",
+  "descricao": "Definição, história e prática: comece pelo texto de 2009 e siga pelas discussões sobre método e organização.",
+  "nivel": "Introdutório",
+  "posts": [
+   "o-que-e-assessoria-juridica-popular",
+   "assessoria-juridica-popular",
+   "algumas-linhas-sobre-assessoria-juridica-popular-e",
+   "por-uma-nova-articulacao-da-assessoria-juridica-popular",
+   "como-formar-uma-ajup",
+   "assessoria-juridica-popular-um-importante-marco-na-estrada"
+  ]
+ },
+ {
+  "id": "direito-achado-insurgente",
+  "titulo": "Direito Achado na Rua, insurgente e uso tático",
+  "descricao": "Quatro perspectivas que não são sinônimos: de onde vem o direito, como usar o direito do Estado e a que preço.",
+  "nivel": "Intermediário",
+  "posts": [
+   "o-direito-achado-na-rua-tambem-se-acha-na-teve-2-a-turma",
+   "direito-insurgente-e-pluralismo-juridico-na-advocacia",
+   "do-direito-a-insurgencia-ao-direito-insurgente-o-caso-do",
+   "aborto-do-pluralismo-juridico-a-efetivacao-do-direito-a",
+   "assessoria-juridica-popular-no-mundo",
+   "o-que-e-o-direito"
+  ]
+ },
+ {
+  "id": "educacao-popular",
+  "titulo": "Educação popular e universidade",
+  "descricao": "Formação, círculos de cultura, teatro do oprimido e o lugar da universidade na AJP.",
+  "nivel": "Introdutório",
+  "posts": [
+   "circulo-de-cultura-de-paulo-freire",
+   "teatro-do-oprimido-e-assessoria-juridica-popular-duas",
+   "conscientizacao-de-direitos-pequena-tese",
+   "fazer-a-universidade-ajup-e-educacao-juridica",
+   "como-formar-uma-ajup"
+  ]
+ },
+ {
+  "id": "terra-moradia",
+  "titulo": "Terra, moradia e movimentos",
+  "descricao": "Casos de despejo, ocupação, reforma agrária e organização popular — do conflito à estratégia jurídica.",
+  "nivel": "Intermediário",
+  "posts": [
+   "pinheirinho",
+   "ocupacao-28-de-maio-e-a-assessoria-juridica",
+   "luta-pela-moradia-no-distrito-federal",
+   "mobilizacao-indigena-paralisa-uhe-belo-monte",
+   "a-repercussao-de-uma-vitoria-no-judiciario-o-caso-dos",
+   "o-latifundio-matou-mais-um-trabalhador-sem-terra-no-para"
+  ]
+ },
+ {
+  "id": "teoria-critica",
+  "titulo": "Teoria crítica do direito",
+  "descricao": "Marxismo, crítica da forma jurídica, pluralismo e os clássicos que sustentam a prática.",
+  "nivel": "Avançado",
+  "posts": [
+   "marx-e-o-nao-direito-direito-e-marxismo",
+   "a-desnecessidade-historica-do-direito",
+   "o-que-e-o-direito",
+   "os-instrumentos-do-direito-servem-para-quem"
+  ]
+ },
+ {
+  "id": "memoria-ditadura",
+  "titulo": "Memória, ditadura e justiça",
+  "descricao": "O que a rede guarda sobre a ditadura, a anistia, os arquivos e as lutas por memória e verdade.",
+  "nivel": "Intermediário",
+  "posts": [
+   "repatriacao-do-acervo-do-brasil-nunca-mais",
+   "para-um-historico-da-advocacia-popular-no-brasil",
+   "revisao-da-lei-de-anistia",
+   "a-anistia-e-a-ajuris",
+   "homenagens-ao-advogado-eugenio-lyra",
+   "injustica-de-transicao-na-unb"
+  ]
+ }
+]

@@ -7,7 +7,7 @@ import re
 from pypdf import PdfReader
 
 RAIZ = r"X:\DevCoder\assessoriajuridicapopular"
-PAGINA = RAIZ + r"\caderno-de-poesias.html"
+PAGINA = RAIZ + r"\poemas.html"
 
 pdf = glob.glob(RAIZ + r"\fontes-textos\Poesias*\Poesias*\CADERNO DE POESIAS - CMM.pdf")[0]
 leitor = PdfReader(pdf)

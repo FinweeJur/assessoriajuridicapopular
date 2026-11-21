@@ -3,8 +3,7 @@
   'use strict';
 
   // Menu: hover só com mouse, clique e teclado alternam, Esc fecha.
-  var menu = document.querySelector('.menu');
-  if (menu) {
+  function preparaMenu(menu) {
     var botao = menu.querySelector('.menu__botao');
     var lista = menu.querySelector('.menu__lista');
     var relogio = null;
@@ -43,6 +42,7 @@
       if (ev.key === 'Escape') { fecha(); if (botao) { botao.blur(); } }
     });
   }
+  Array.prototype.forEach.call(document.querySelectorAll('.menu'), preparaMenu);
 
   // Tema: o escolhido manda em todas as páginas; sem escolha, pequi.
   var raiz = document.documentElement;

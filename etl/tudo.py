@@ -29,6 +29,8 @@ def main():
     roda("tema-principal.py")      # um tema por texto, sem duplicar seção
     roda("monta-autores.py")       # páginas de autor
     roda("monta-secoes.py")        # 6 seções + blog
+    roda("gera-dados-colecoes.py")  # dados de memória, trilhas, biblioteca e cultura
+    roda("monta-colecoes.py")       # páginas das coleções
     roda("alinha-capa.py")         # topo e rodapé da capa
     roda("atualiza-indice.py")     # lista da capa
     print("\npronto")

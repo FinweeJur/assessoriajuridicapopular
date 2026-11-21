@@ -59,7 +59,10 @@ def topo(ativo):
     acervo_cur = ' aria-current="page"' if ativo == "acervo" else ""
     blog_cur = ' aria-current="page"' if ativo == "blog" else ""
     autores_cur = ' aria-current="page"' if ativo == "autores" else ""
-    linha_cur = ' aria-current="page"' if ativo == "linha-do-tempo" else ""
+    memoria_cur = ' aria-current="page"' if ativo in ("memoria", "linha-do-tempo") else ""
+    formacao_cur = ' aria-current="page"' if ativo == "formacao" else ""
+    biblioteca_cur = ' aria-current="page"' if ativo == "biblioteca" else ""
+    cultura_cur = ' aria-current="page"' if ativo == "cultura" else ""
     comparado_cur = ' aria-current="page"' if ativo == "comparado" else ""
     return """<header class="topo">
   <div class="topo__interno">
@@ -67,18 +70,28 @@ def topo(ativo):
       <span class="ponto" aria-hidden="true"></span>
       AJP <span>· Assessoria Jurídica Popular</span>
     </a>
-    <nav class="topo__links" aria-label="Seções">
+    <nav class="topo__links" aria-label="Navegação principal">
       <a href="acervo.html"%s>Acervo</a>
       <div class="menu">
-        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes"%s>
+        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes">
           Seções <span aria-hidden="true">▾</span>
         </button>
         <ul class="menu__lista" id="menu-secoes">
 %s
-          <li><a href="assessoria-juridica-popular-no-mundo.html"%s>Direito comparado</a></li>
         </ul>
       </div>
-      <a href="linha-do-tempo.html"%s>Linha do tempo</a>
+      <a href="memoria.html"%s>Memória</a>
+      <div class="menu">
+        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-colecoes">
+          Coleções <span aria-hidden="true">▾</span>
+        </button>
+        <ul class="menu__lista" id="menu-colecoes">
+          <li><a href="formacao.html"%s>Formação</a></li>
+          <li><a href="biblioteca.html"%s>Biblioteca</a></li>
+          <li><a href="cultura.html"%s>Cultura</a></li>
+          <li><a href="assessoria-juridica-popular-no-mundo.html"%s>Dossiê comparado</a></li>
+        </ul>
+      </div>
       <a href="autores.html"%s>Autores</a>
       <a href="blog.html"%s>Blog</a>
     </nav>
@@ -97,7 +110,8 @@ def topo(ativo):
       </select>
     </div>
   </div>
-</header>""" % (acervo_cur, "", secoes, comparado_cur, linha_cur, autores_cur, blog_cur)
+</header>""" % (acervo_cur, secoes, memoria_cur, formacao_cur, biblioteca_cur,
+                     cultura_cur, comparado_cur, autores_cur, blog_cur)
 
 
 def rodape():
@@ -112,8 +126,8 @@ def rodape():
         <li><a href="acervo.html">Todos os textos</a></li>
         <li><a href="blog.html">Blog, em ordem</a></li>
         <li><a href="poemas.html">Poemas publicados</a></li>
-        <li><a href="glossario.html">Glossário</a></li>
-        <li><a href="linha-do-tempo.html">Linha do tempo</a></li>
+        <li><a href="formacao.html">Formação</a></li>\n        <li><a href="biblioteca.html">Biblioteca</a></li>\n        <li><a href="cultura.html">Cultura</a></li>\n        <li><a href="glossario.html">Glossário</a></li>
+        <li><a href="memoria.html">Memória</a></li>\n        <li><a href="memoria.html#linha-do-tempo">Linha do tempo</a></li>
         <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
       </ul>
     </div>
@@ -191,8 +205,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=48" />
-  <link rel="stylesheet" href="reveal.css?v=48" />
+  <link rel="stylesheet" href="acervo.css?v=75" />
+  <link rel="stylesheet" href="reveal.css?v=75" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -286,10 +300,10 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
           <h3>Gama, Carolina e Brecht</h3>
           <p>Oito frases sobre fome, terra e dignidade.</p>
           <span class="item__ficha">Luís Gama, Carolina Maria de Jesus e Bertolt Brecht</span></a></li>
-        <li class="item"><a class="item__link" href="caderno-de-poesias.html">
+        <li class="item"><a class="item__link" href="poemas.html">
           <span class="etiqueta">Poesia · 2010</span>
-          <h3>Caderno de Poesias: índice</h3>
-          <p>O mapa da coletânea de 272 páginas: autores e títulos.</p>
+          <h3>Caderno de Poesias e poesia do blog</h3>
+          <p>135 poemas do caderno, o sumário da coletânea e 42 posts de poesia do blog.</p>
           <span class="item__ficha">Cleber Mori (org.) · 2010</span></a></li>
         <li class="item"><a class="item__link" href="recomendacoes.html">
           <span class="etiqueta">Estante</span>
@@ -346,12 +360,12 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   </div>
 </div>
 <script src="componentes/radio.js" defer></script>
-<script src="site.js?v=2" defer></script>
-<script src="reveal.js" defer></script>
+<script src="site.js?v=3" defer></script>
+<script src="reveal.js?v=75" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
-<script src="casca.js?v=15" defer></script>
-<script src="leitura.js?v=2" defer></script>
-<script src="fundo-grade.js?v=3" defer></script>
+<script src="casca.js?v=25" defer></script>
+<script src="leitura.js?v=3" defer></script>
+<script src="fundo-grade.js?v=6" defer></script>
 </body>
 </html>
 """ % (esc(titulo), esc(lead), topo(ativo), foto, esc(titulo), esc(lead), n,
