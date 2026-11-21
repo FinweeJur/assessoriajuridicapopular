@@ -2100,3 +2100,7 @@ a.cartao, .item__link, .destaque, .bento__item {
   .colecao__atalhos { gap: 4px; }
   .colecao__atalhos a { min-height: 32px; padding: 5px 9px; font-size: .72rem; }
 }
+
+
+/* Respiro entre as quatro perspectivas do dossiê comparado */
+.linhas--teorias li + li { margin-top: 1.5em; }
