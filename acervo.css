@@ -2653,3 +2653,7 @@ html { scroll-padding-top: 92px; }
   }
 }
 
+/* Referências: URL longa e título sem espaço não estouram o cartão. */
+.grade-3 > *, .ref-cit { min-width: 0; }
+.ref-cit__abnt, .ref-cit__fonte { overflow-wrap: anywhere; word-break: break-word; }
+

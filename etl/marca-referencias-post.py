@@ -1,8 +1,8 @@
-"""Adiciona o botão “Referências citadas neste texto” aos posts que têm refs.
+"""Adiciona ou atualiza o botão “Referências citadas neste texto”.
 
 O botão fica antes de `</article>` e aponta para o grupo `#fonte-<slug>` da
-página `referencias-citadas.html`, onde cada obra tem “Disponível aqui” quando
-o link foi confirmado.
+página `referencias-citadas.html`. A contagem é recalculada a cada execução;
+posts que perderam todas as referências têm o botão removido.
 """
 import io
 import json
@@ -12,6 +12,20 @@ import sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REF = os.path.join(RAIZ, "dados", "referencias.json")
+
+BOTAO = re.compile(
+    r'\n?[ \t]*<p class="referencias-post"><a class="botao secundario" '
+    r'href="referencias-citadas\.html#fonte-([^"]+)">'
+    r'Referências citadas neste texto \(\d+\)</a></p>\n?'
+)
+
+
+def monta(slug, n):
+    return (
+        '\n    <p class="referencias-post">'
+        '<a class="botao secundario" href="referencias-citadas.html#fonte-%s">'
+        'Referências citadas neste texto (%d)</a></p>\n' % (slug, n)
+    )
 
 
 def main():
@@ -23,26 +37,40 @@ def main():
         if s:
             por_fonte[s] = por_fonte.get(s, 0) + 1
 
-    mudados = 0
-    for slug, n in sorted(por_fonte.items()):
-        caminho = os.path.join(RAIZ, slug + ".html")
-        if not os.path.exists(caminho):
+    adicionados = atualizados = removidos = 0
+    for nome in os.listdir(RAIZ):
+        if not nome.endswith(".html"):
             continue
+        slug = nome[:-5]
+        caminho = os.path.join(RAIZ, nome)
         t = io.open(caminho, encoding="utf-8").read()
-        if "referencias-citadas.html#fonte-" in t:
-            continue
-        pos = t.rfind("</article>")
-        if pos < 0:
-            continue
-        bloco = (
-            '\n    <p class="referencias-post">'
-            '<a class="botao secundario" href="referencias-citadas.html#fonte-%s">'
-            'Referências citadas neste texto (%d)</a></p>\n' % (slug, n)
-        )
-        t = t[:pos] + bloco + t[pos:]
+        if "referencias-citadas.html#fonte-" not in t:
+            if slug not in por_fonte:
+                continue
+            pos = t.rfind("</article>")
+            if pos < 0:
+                continue
+            t = t[:pos] + monta(slug, por_fonte[slug]) + t[pos:]
+            adicionados += 1
+        else:
+            if slug not in por_fonte:
+                novo = BOTAO.sub("\n", t)
+                if novo != t:
+                    t = novo
+                    removidos += 1
+            else:
+                def troca(m):
+                    return monta(m.group(1), por_fonte[slug])
+                novo = BOTAO.sub(troca, t)
+                if novo != t:
+                    t = novo
+                    atualizados += 1
         io.open(caminho, "w", encoding="utf-8", newline="\n").write(t)
-        mudados += 1
-    print("posts com botão de referências:", mudados)
+
+    print(
+        "botões: %d adicionados, %d atualizados, %d removidos"
+        % (adicionados, atualizados, removidos)
+    )
     return 0
 
 

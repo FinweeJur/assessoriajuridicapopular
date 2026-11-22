@@ -42,6 +42,11 @@ def limpa(t):
     return re.sub(r"\s+", " ", (t or "").replace("\n", " ")).strip()
 
 
+ROTULO_CONF = {
+    "alta": "Referência completa",
+    "media": "Referência parcial",
+    "baixa": "Dados incompletos",
+}
 SUFIXOS = {"filho", "neto", "junior", "sobrinho", "segundo"}
 ORGS = {
     "conselho", "instituto", "rede", "movimento", "associação", "comissão",
@@ -60,9 +65,16 @@ def autor(r):
 def autor_abnt(r):
     """Inverte nome pessoal; mantém organização e nome já invertido."""
     a = limpa(r.get("autor"))
-    if not a or a[0].islower():
+    if not a:
         return ""
+    if r.get("autor_tipo") == "institucional":
+        return a.upper()
+    if a[0].islower():
+        return ""
+    a = re.sub(r"^[-\s]+", "", a)
     a = re.sub(r",\s*em\s+\d{1,2}\s+de\s+[\wÀ-ÿ]+\s+de\s+\d{4}\s*$", "", a, flags=re.I)
+    # Anotação entre parênteses que não é (Org.)/(Coord.): afiliação ou nota.
+    a = re.sub(r"\s*\((?!\s*[Oo]rg|\s*[Cc]oord)[^)]{1,45}\)\s*$", "", a)
     org_sufixo = ""
     m = re.search(r"\s*\((?:orgs?\.?|organizador(?:a)?)\)\s*$", a, flags=re.I)
     if m:
@@ -332,9 +344,17 @@ def main():
 
 ## Como ler
 
-- **Alta:** autor, título, ano e veículo/imprenta reconhecidos.
-- **Média:** referência plausível, mas falta ano, imprenta ou o texto do link é curto.
-- **Baixa:** falta autor, ano ou título; revisar antes de citar.
+- **Alta — referência completa:** autor, título, ano e veículo/imprenta
+  reconhecidos no texto do post.
+- **Média — referência parcial:** autor e título reconhecidos; falta ano,
+  imprenta ou veículo.
+- **Baixa — dados incompletos:** o post original não trazia autoria, ano ou
+  imprenta suficientes. O rótulo mede **o que foi possível ler**, não a
+  existência ou a qualidade da obra.
+- **Autoria não identificada:** o texto citava a obra sem dizer o autor. Não
+  é invenção: o campo fica vazio e a entrada pode ser completada depois.
+- **Autoria institucional:** páginas e documentos de site entram pela
+  organização responsável (ex.: “Brasil de Fato”), como a ABNT admite.
 - `[s.l.: s.n.]` e `[s.d.]` são lacunas da fonte, não invenção.
 - O link “Disponível aqui” leva ao acesso aberto quando ele foi confirmado;
   “Link restrito” e “link não respondeu” ficam visíveis de propósito.
@@ -359,9 +379,10 @@ def main():
             fonte = r.get("fonte_slug") or ""
             post = indice.get(fonte, {})
             linhas.append(
-                "%d. %s  \n   _Fonte:_ [%s](%s.html) · _Confiança:_ %s · %s" % (
+                "%d. %s  \n   _Fonte:_ [%s](%s.html) · _%s_ · %s" % (
                     i, abnt(r), post.get("titulo") or fonte or "—", fonte or "#",
-                    r.get("confianca") or "baixa", marca_link(r.get("url"), links),
+                    ROTULO_CONF.get(r.get("confianca") or "baixa", "dados incompletos"),
+                    marca_link(r.get("url"), links),
                 )
             )
         return linhas

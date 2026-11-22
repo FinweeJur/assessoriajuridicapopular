@@ -19,13 +19,16 @@
 > páginas de capítulo, instituição (`UnB`, `Unicamp`…), inversão de autoria
 > (inclusive `A e B`), `(Org.)`, asteriscos/datas colados no nome, imprenta
 > colada no título, títulos acima de 180 caracteres, duplicatas exatas e
-> sufixos `a`/`b` da NBR 10520:2023. A lista passou a ter **599 entradas
-> únicas** (606 extraídas). O novo `etl/audita-referencias-abnt.py` fecha
+> sufixos `a`/`b` da NBR 10520:2023. A lista passou a ter **515 entradas
+> únicas** (524 extraídas). O novo `etl/audita-referencias-abnt.py` fecha
 > **zero** em `[s.l.]`/`[s.n.]` falsos, capítulo sem `p.`, autoria quebrada,
 > imprenta no título, duplicata, sufixo ausente, numeração repetida e
 > divergência de contagem. Permanecem, e continuam dependendo de revisão
-> humana, as **251 entradas sem autor identificado**, os títulos resumidos de
-> posts antigos e os casos de tipo/obra mal classificados na extração.
+> humana, as **35 entradas sem autor pessoal** (19 vídeos e 7 legislações,
+> que a ABNT admite por título), os títulos resumidos de posts antigos e os
+> casos de tipo/obra mal classificados na extração. A busca externa em
+> Google Books, Crossref, OpenAlex e Internet Archive completou 4 obras e
+> está documentada em `docs/REFERENCIAS-BUSCA-EXTERNA.md`.
 
 ---
 

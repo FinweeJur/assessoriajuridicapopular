@@ -1,0 +1,501 @@
+{
+ "ref-51c474f9db7a": {
+  "status": "sem_match",
+  "consulta": "1788: lutasrevolucionárias pela propriedade camponesa (Introdução)",
+  "log": [
+   "google_books: ok (2)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 7,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-50866c415394": {
+  "status": "sem_match",
+  "consulta": "Perspectivas atuais da criminologia: método, problemas, aplicações",
+  "log": [
+   "google_books: ok (45)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-007228d24358": {
+  "status": "ok",
+  "consulta": "intitle:\"Advocacia popular: utopia e ação política\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: ok (783)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": {
+   "fonte": "openalex",
+   "titulo": "ADVOCACIA POPULAR, UTOPIA E AÇÃO POLÍTICA",
+   "autores": [
+    "André Luiz Conrado Mendes"
+   ],
+   "ano": "2011",
+   "editora": "",
+   "veiculo": "",
+   "url": "https://doi.org/10.17771/pucrio.acad.38673",
+   "match_titulo": 1.0
+  },
+  "total_resultados": 10,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-0c2a25c4bf0c": {
+  "status": "sem_match",
+  "consulta": "Assessoria jurídica popular: teoria e prática emancipatória",
+  "log": [
+   "google_books: ok (28)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-28e2031cb03c": {
+  "status": "ok",
+  "consulta": "intitle:\"Da pedagogia do oprimido ao direito do oprimido\"",
+  "log": [
+   "google_books: ok (22)",
+   "openalex: ok (43032)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": {
+   "fonte": "openalex",
+   "titulo": "Da pedagogia do oprimido ao direito do oprimido: uma noção de direitos humanos na obra de Paulo Freire",
+   "autores": [
+    "José Humberto de Góes"
+   ],
+   "ano": "2008",
+   "editora": "",
+   "veiculo": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "url": "https://repositorio.ufpb.br/jspui/handle/123456789/33448",
+   "match_titulo": 1.0
+  },
+  "total_resultados": 18,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-06ab31745dd8": {
+  "status": "sem_match",
+  "consulta": "Desafios para construção de uma nova práxis extensionista",
+  "log": [
+   "google_books: ok (123)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-54b8258cc4e3": {
+  "status": "sem_match",
+  "consulta": "Direito insurgente na assessoria jurídica de movimentos populares",
+  "log": [
+   "google_books: ok (39)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-e1ef3ab64e33": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Fortaleza: Dedo de Moças\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: ok (1159)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 10,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-114d5c930ac0": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Movimento popular como sujeito criador de direitos\"",
+  "log": [
+   "google_books: ok (1)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 6,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-9e4bf47aea2a": {
+  "status": "sem_match",
+  "consulta": "Os (des)caminhos do constitucionalismo latino-americano: o caso equatoriano",
+  "log": [
+   "google_books: ok (28)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-ddbb5667e283": {
+  "status": "sem_match",
+  "consulta": "Relatos do Inimigo no Campo: A Criminalização dos",
+  "log": [
+   "google_books: ok (234)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-bcd59ad422f5": {
+  "status": "ok",
+  "consulta": "intitle:\"Sem porta-voz na rua, sem dono em casa: as\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: ok (22)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": {
+   "fonte": "openalex",
+   "titulo": "Sem porta-voz na rua, sem dono em casa : as lutas do Movimento de Mulheres Camponesas (MMC Brasil) pelo direito a uma vida sem violência",
+   "autores": [
+    "Diana Melo Pereira"
+   ],
+   "ano": "2015",
+   "editora": "",
+   "veiculo": "RIUnB Institutional Repository (University of Brasília)",
+   "url": "https://doi.org/10.26512/2015.04.d.18885",
+   "match_titulo": 1.0
+  },
+  "total_resultados": 10,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-a67cfc0a8a7a": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Testamento. De Jure\"",
+  "log": [
+   "google_books: ok (7)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 12,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-657fe15058fe": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Grupo de Pesquisa, Ensino e Extensão Direitos Humanos e\"",
+  "log": [
+   "google_books: ok (13)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-d6d8fc5786d9": {
+  "status": "sem_match",
+  "consulta": "LÖWY, Michael. \"Introdução: pontos de referência para uma",
+  "log": [
+   "google_books: ok (217)",
+   "openalex: ok (434)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 18,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-4c248cd29e70": {
+  "status": "sem_match",
+  "consulta": "FREIRE, Paulo \"Direitos Humanos e educação libertadora\" in",
+  "log": [
+   "google_books: ok (8)",
+   "openalex: ok (3)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 16,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-43f7f0088b64": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Artigo a respeito da Comissão da Verdade publicado no\"",
+  "log": [
+   "google_books: ok (2)",
+   "openalex: ok (35497)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 12,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-d608a8e9ad2f": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Revista Pobres & Nogentas\"",
+  "log": [
+   "google_books: ok (1)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 6,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-b5acde64daeb": {
+  "status": "sem_match",
+  "consulta": "intitle:\"8, Campo de Santana, Centro, RJ, sala 409\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: ok (595)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 10,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-28b36517f6a4": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Cadernos insurgentes e o caso do MP/RS versus MST\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 5,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-716d2194719e": {
+  "status": "sem_match",
+  "consulta": "ANUÁRIO 2004/2005: da Escola Superior da Magistratura do",
+  "log": [
+   "google_books: ok (17)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-0f18fba04ed9": {
+  "status": "sem_match",
+  "consulta": "II Seminário Direito, Pesquisa e Movimentos Sociais e",
+  "log": [
+   "google_books: ok (135)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-5f0aed90ac58": {
+  "status": "sem_match",
+  "consulta": "Assessoria jurídica popular universitária e direitos humanos: o",
+  "log": [
+   "google_books: ok (169)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-eaaee9cd1c29": {
+  "status": "ok",
+  "consulta": "intitle:\"Filosofia, teologia e experiência mística\"",
+  "log": [
+   "google_books: ok (6)",
+   "openalex: ok (12246)",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": {
+   "fonte": "openalex",
+   "titulo": "Filosofia, teologia e experiência mística",
+   "autores": [
+    "Roberto Lyra Filho"
+   ],
+   "ano": "1974",
+   "editora": "",
+   "veiculo": "",
+   "url": "https://doi.org/10.5840/icp819742116",
+   "match_titulo": 1.0
+  },
+  "total_resultados": 16,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-3f4fe27a2c44": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Direito Constitucional, prof. UFMG E PUC-MINAS\"",
+  "log": [
+   "google_books: ok (13)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-408a39943282": {
+  "status": "sem_match",
+  "consulta": "intitle:\"RENAP – Rede Nacional de Advogados Populares. IPDMS –\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 5,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-d73e8a6d0ba3": {
+  "status": "sem_match",
+  "consulta": "Tatiana Cotta G. Pereira, professora de Direito da",
+  "log": [
+   "google_books: ok (2)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 7,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-c16194e169d4": {
+  "status": "sem_match",
+  "consulta": "REBELA - Revista Brasileira de Estudos Latino-Americanos",
+  "log": [
+   "google_books: ok (11)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-1b22a5c4c4d2": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Deve realizar sua função: Promotor de Justiça\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 5,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-1dc506585f57": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Centro Integrado de Apoio a Mulher - CIAM. Cidadania,\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 5,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-2dd1b8609a03": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Instituto de Estudos da Religião – ISER. Instituto de\"",
+  "log": [
+   "google_books: ok (6)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 11,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-ffd0affca574": {
+  "status": "sem_match",
+  "consulta": "intitle:\"15h30: Os Movimentos Sociais, o Direito, a Pesquisa\"",
+  "log": [
+   "google_books: ok (63)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-e7ea68d9193c": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Tudo que é sólido se desfaz no ar: o\"",
+  "log": [
+   "google_books: ok (4)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 9,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-7c9a41694d6c": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Revista teórica pobres & nojentas\"",
+  "log": [
+   "google_books: ok (0)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 5,
+  "verificado_em": "2026-11-22"
+ },
+ "ref-4752bce82336": {
+  "status": "sem_match",
+  "consulta": "intitle:\"Teatro do Oprimido. Centro do Teatro Oprimido\"",
+  "log": [
+   "google_books: ok (18)",
+   "openalex: erro: HTTP Error 429: Too Many Requests",
+   "internet_archive: ok",
+   "crossref: ok"
+  ],
+  "candidato": null,
+  "total_resultados": 13,
+  "verificado_em": "2026-11-22"
+ }
+}

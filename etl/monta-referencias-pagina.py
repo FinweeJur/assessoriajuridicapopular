@@ -24,6 +24,18 @@ ab = importlib.util.module_from_spec(spec2)
 spec2.loader.exec_module(ab)
 
 
+ROTULO_CONF = {
+    "alta": "referência completa",
+    "media": "referência parcial",
+    "baixa": "dados incompletos",
+}
+EXPLICA_CONF = {
+    "alta": "Autoria, título, ano e imprenta/veículo reconhecidos no texto.",
+    "media": "Autoria e título reconhecidos; falta ano, imprenta ou veículo.",
+    "baixa": "O post original não trazia autoria, ano ou imprenta suficientes. Não é juízo sobre a obra.",
+}
+
+
 def esc(t):
     return html.escape(str(t or ""), quote=True)
 
@@ -65,16 +77,19 @@ def main():
                 acao = '<span class="ref-status">Link restrito</span>'
             elif s == "morto_ou_instavel":
                 acao = '<span class="ref-status">Link não respondeu</span>'
+            elif s == "nao_verificado" and url:
+                acao = '<a class="botao secundario" href="%s" target="_blank" rel="noopener">Ver link</a>' % esc(url)
             else:
                 acao = '<span class="ref-status">Sem link localizado</span>'
             busca = " ".join([r.get("titulo") or "", r.get("autor") or "", r.get("ano") or "", titulo])
             cards.append("""<article class="cartao ref-cit" id="ref-%s" data-fonte="%s" data-busca="%s">
   <p class="ref-cit__abnt">%s</p>
-  <p class="ref-cit__fonte">Citada em <a href="%s.html">%s</a> · confiança <b>%s</b></p>
+  <p class="ref-cit__fonte">Citada em <a href="%s.html">%s</a> · <span title="%s">%s</span></p>
   <p class="ref-cit__acao">%s</p>
 </article>""" % (
                 esc(r.get("id")), esc(slug), esc(busca.lower()), ab.abnt_html(r), esc(slug), esc(titulo),
-                esc(r.get("confianca") or "baixa"), acao))
+                esc(EXPLICA_CONF.get(r.get("confianca") or "baixa", "")),
+                esc(ROTULO_CONF.get(r.get("confianca") or "baixa", "dados incompletos")), acao))
         blocos.append("""<section class="secao ref-fonte" id="fonte-%s" data-fonte="%s">
   <div class="secao__cabeca"><h2><a href="%s.html">%s</a></h2><p class="secao__nota">%d %s</p></div>
   <div class="grade-3">%s</div>
@@ -86,6 +101,7 @@ def main():
     <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Biblioteca</p>
     <h1>Referências citadas no acervo</h1>
     <p class="lead">%d referências extraídas de %d páginas. “Disponível aqui” só aparece quando o link respondeu; link restrito e link morto ficam visíveis.</p>
+    <p class="colecao__nota">O rótulo ao lado de cada ficha mede <b>o que foi possível ler no post</b>, não a existência da obra: “referência completa” tem autoria, título, ano e imprenta; “referência parcial” tem parte disso; “dados incompletos” é o que o texto original não trazia. Sites e documentos aparecem com <b>autoria institucional</b> (a organização responsável pela página).</p>
   </div>
 </section>
 <div class="miolo">

@@ -48,6 +48,8 @@ def autor_suspeito(r):
     """Olha a saída, não o campo bruto: nome natural, lixo ou partícula solta."""
     if not ab.autor_abnt(r):
         return False
+    if r.get("autor_tipo") == "institucional":
+        return False
     bruto = (r.get("autor") or "").lower()
     if re.search(r"\s[-–]\s", bruto) or any(p.strip(".,;") in ab.ORGS for p in bruto.split()):
         return False
@@ -73,7 +75,10 @@ def entradas_do_documento():
             continue
         texto_item = m.group(1)
         autor = texto_item.split(". ")[0]
-        ano = re.search(r"(\d{4}[a-z]?)\s*(?:\.|,|$)", texto_item)
+        # O ano de publicação vem antes de "Disponível em"/"Acesso em";
+        # a data de acesso não conta para o sufixo a/b.
+        corte = re.split(r"Dispon[ií]vel em|Acesso em", texto_item)[0]
+        ano = re.search(r"(\d{4}[a-z]?)\s*(?:\.|,|$)", corte)
         itens.append((autor, ano.group(1) if ano else "", texto_item))
     return itens
 

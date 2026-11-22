@@ -313,8 +313,37 @@ def chave(t):
 def limpa_rotulo(t):
     """Tira numeração e marcadores de lista, preservando o texto."""
     t = normaliza_espacos(t)
-    t = re.sub(r"^(?:\d{1,2}\s*[-–.)]\s*|[-•*]\s+)", "", t)
-    return t.strip()
+    while True:
+        antes = t
+        t = re.sub(r"^(?:\[\s*\d{1,3}\s*\]|\(\s*\d{1,3}\s*\)|\d{1,3}\s*[).])\s*", "", t)
+        t = re.sub(r"^(?:[-–—•*·]\s*|Resenha\s*[-–—:]\s*)", "", t, flags=re.I)
+        t = re.sub(r"^(?:Fonte|Endere[çc]o|Local|Publicado em)\s*:\s*", "", t, flags=re.I)
+        t = t.strip()
+        if t == antes:
+            return t
+
+
+def autor_embutido(t):
+    """Autor colado no começo do título por falha de pontuação do original."""
+    # "SOBRENOME, Nome." / "SOBRENOME, Nome," / "Lyra Filho, Roberto, \"Título\""
+    m = re.match(
+        r"^([A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ'’-]*(?:\s+(?:d[aeo]s?|"
+        r"[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ'’-]*)){0,5},\s*"
+        r"[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ'’]*(?:\s+[\wÀ-ÿ'’]+){0,4})"
+        r"(?=\.\s|,\s*[\"“”]|\s+[\"“]|$)",
+        t,
+    )
+    if m:
+        return m.group(1).strip(), t[m.end():].lstrip(" .,")
+    # "Pedro Demo. Título" (nome natural, 2–4 palavras) antes de ponto.
+    m = re.match(
+        r"^([A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ'’]+(?:\s+"
+        r"(?:d[aeo]s?|[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][\wÀ-ÿ'’]+)){1,3})\.\s+(.{10,})$",
+        t,
+    )
+    if m and parece_autor(m.group(1)):
+        return m.group(1).strip(), m.group(2).strip()
+    return "", t
 
 
 def extrai_ano(texto):
@@ -354,7 +383,7 @@ def parece_autor(s):
                 r"Vale|Confira|Veja|Vejam|Trata-se|Saiba|Leia|Acesse)\b", s, re.I):
         return False  # frase, não autor
     limpo = re.sub(r"\((?:Org|org|Coord|coord|Ed|ed|Comp|comp)\.?\)", "", s)
-    tokens = re.findall(r"[A-Za-zÁÀÂÃÉÊÍÓÔÕÚÇáàâãéêíóôõúç'’\-]+", limpo)
+    tokens = re.findall(r"[^\W\d_]+(?:'’\-][^\W\d_]+)*", limpo, re.UNICODE)
     if not (2 <= len(tokens) <= 16):
         return False
     significativas = [t for t in tokens if t.lower() not in PARTICULAS]
@@ -400,7 +429,9 @@ def parece_titulo(s):
 
 def parece_imprenta_titulo(t):
     """'São Paulo: Boitempo, 2004' é imprenta; 'La vida: ensayo' é título."""
-    m = re.match(r"^([A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][\w\s\.]{1,40}):\s", t or "")
+    m = re.match(
+        r"^([A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][\w\s\.]{1,40}):\s+[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ]", t or ""
+    )
     if not m:
         return False
     local = m.group(1).strip()
@@ -422,6 +453,42 @@ def nome_solto(t):
         r"[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][a-záàâãéêíóôõúç]+",
         t,
     ) and len(t.split()) <= 6:
+        return True
+    return False
+
+
+ABERTURAS_NARRATIVAS = re.compile(
+    r"^(?:N[óo]s|Eu|Est[ãa]o|Estamos|Publicamos|Escrevi|Escrevemos|Foi|Fui|"
+    r"Sou|Somos|Ainda|H[áa]\s|Hoje|Em\s+\d{4}|Em\s+[a-zç]+(?:\s+de)?\s+\d{4}|"
+    r"Aqui|Este post|Neste|Nesta|Confira|Acesse|Leia|Veja|Vejam|Trata-se|"
+    r"Vale|Destacamos|Ressaltamos|Queremos|Agradecemos|Participamos|"
+    r"Participei|Durante|Quando|Ap[óo]s|Depois|Recentemente|Ontem|"
+    r"Naquela|Naquele|Tivemos|Recebemos|Divulgamos|Compartilhamos|"
+    r"Endere[çc]o|Avenida|Rua)\b"
+)
+
+
+RUIDO_TITULO = re.compile(
+    r'^(?:Rede["”]?\s*:|aluno\s*\(|Fonte\s*:|\d{1,3},\s|'
+    r"\d{1,2}\s+de\s+[\wÀ-ÿ]+\s+a\s+.*\b\d{4}\b)"
+)
+
+
+def ruido_narrativo(titulo, trecho):
+    """Frase do post não é referência, mesmo que cite um ano."""
+    t = normaliza_espacos(titulo)
+    if not t or RUIDO_TITULO.match(t):
+        return True
+    if len(t) > 150:
+        return True
+    if len(t.split()) > 28:
+        return True
+    if ABERTURAS_NARRATIVAS.match(t):
+        return True
+    if t.endswith("...") or t.endswith("…"):
+        return True
+    # Parágrafo com várias orações seguidas de ano costuma ser narrativa.
+    if t.count(". ") >= 3 and not re.search(r":\s*[^,]{2,50},\s*(?:19|20)\d{2}", trecho or ""):
         return True
     return False
 
@@ -519,6 +586,10 @@ def extrai_titulo(resto):
     resto = normaliza_espacos(resto)
     if not resto:
         return ""
+    # Título entre aspas logo no começo: "Introdução: ..." / "Direitos ...".
+    m = re.match(r'^[“"]([^”"]{4,300})[”"]', resto)
+    if m:
+        return m.group(1).strip()[:500]
     # Corrige ausência de espaço depois do ponto antes de imprenta/edição
     # ("Brasil.Rio de Janeiro:"), só para leitura; o trecho guarda o original.
     resto = re.sub(r"\.(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ][\w\s\.]{1,32}:)", ". ", resto)
@@ -655,6 +726,8 @@ def tenta_ref(texto, links=None):
         return None  # crédito de tradução, não obra assinada
 
     autor, resto = separa_autor(t)
+    if not autor:
+        autor, resto = autor_embutido(t)
     if autor:
         extras = autores_extras(resto)
         if extras:
@@ -687,11 +760,24 @@ def tenta_ref(texto, links=None):
     if m:
         titulo = normaliza_espacos(m.group(1))
         autor = normaliza_espacos(m.group(2)).rstrip(".")
+        if ruido_narrativo(titulo, t):
+            return None
+        # Post de blogue: "Título", de Autor, em 21 de janeiro de 2010.
+        d = re.match(
+            r"^(.+?),\s*em\s+\d{1,2}\s+de\s+[\wÀ-ÿ]+\s+de\s+(\d{4})$",
+            autor, re.I,
+        )
+        confianca = "baixa"
+        motivo = "lista 'Título', de Autor sem dados de publicação"
+        if d:
+            autor = d.group(1).strip()
+            ano = d.group(2)
+            confianca = "media"
+            motivo = "post de blogue com autor, título e data"
         return {
             "tipo": "obra", "titulo": titulo, "autor": autor, "ano": ano,
-            "veiculo": "", "trecho": original[:600], "confianca": "baixa",
-            "metodo": "padrao",
-            "motivo": "lista 'Título', de Autor sem dados de publicação",
+            "veiculo": "", "trecho": original[:600], "confianca": confianca,
+            "metodo": "padrao", "motivo": motivo,
             "_links": links or [],
         }
 
@@ -703,7 +789,7 @@ def tenta_ref(texto, links=None):
         tipo = tipo if tipo == "legislacao" else extrai_tipo(t)
         if not titulo:
             return None
-        if titulo_narrativo(titulo):
+        if titulo_narrativo(titulo) or ruido_narrativo(titulo, t):
             return None
         # Evita transformar uma frase narrativa em título.
         if len(titulo.split()) < 3 and tipo == "obra":
@@ -745,8 +831,10 @@ def tenta_ref(texto, links=None):
     titulo = extrai_titulo(t)
     if not titulo or len(titulo.split()) < 2:
         return None
-    if titulo_narrativo(titulo):
+    if titulo_narrativo(titulo) or ruido_narrativo(titulo, t):
         return None
+    if parece_imprenta_titulo(titulo):
+        return None  # só a imprenta sobrou; o título ficou no bloco anterior
     if nome_solto(titulo):
         return None
     if re.match(r"^(Monografia|Dissertação|Dissertacao|Tese|Relatório|Relatorio)\b",
@@ -871,6 +959,11 @@ def monta_link(bloco, link):
         return None
     if link_generico(texto):
         return None
+    if ruido_narrativo(texto, bloco["texto"]):
+        return None
+    if re.match(r"^(?:Artigo\s+(?:a respeito|sobre)|Mat[ée]ria\s+(?:a respeito|sobre))\b",
+                texto, re.I):
+        return None
     if len(texto.split()) < 2 and tipo_link(href, texto) != "legislacao":
         return None
     if len(texto) < 12 and tipo_link(href, texto) != "legislacao":
@@ -900,9 +993,18 @@ def monta_link(bloco, link):
     elif len(texto.split()) <= 3:
         confianca = "baixa"
         motivo = "texto do link curto; pode ser rótulo, não referência"
+    veiculo = veiculo_link(href, tipo)
+    autor = ""
+    autor_tipo = ""
+    # Página institucional: a organização responsável pelo site é a autoria
+    # possível. Não se aplica a artigo/tese, cuja autoria é pessoal.
+    if tipo in ("site", "documento", "relatorio") and veiculo:
+        autor = veiculo
+        autor_tipo = "institucional"
+        motivo += "; autoria institucional pelo site"
     return {
-        "tipo": tipo, "titulo": titulo, "autor": "", "ano": ano,
-        "veiculo": veiculo_link(href, tipo), "url": href,
+        "tipo": tipo, "titulo": titulo, "autor": autor, "autor_tipo": autor_tipo,
+        "ano": ano, "veiculo": veiculo, "url": href,
         "trecho": trecho[:600], "confianca": confianca,
         "metodo": "link", "motivo": motivo,
     }
@@ -1052,7 +1154,8 @@ def referencias_da_pagina(slug, titulo_fonte, blocos):
             refs.append(ref)
 
     for r in refs:
-        if not r["autor"] and autor_padrao and r["metodo"] == "padrao" and r["tipo"] != "site":
+        if (not r["autor"] and not r.get("autor_tipo") and autor_padrao
+                and r["metodo"] == "padrao" and r["tipo"] != "site"):
             r["autor"] = autor_padrao
             r["motivo"] += "; autor indicado no título da lista"
             if r["ano"] and tem_imprenta(r["trecho"]):
@@ -1202,6 +1305,25 @@ def main():
             for r in achadas:
                 print("   %-6s %-12s %-5s %s | %s" % (
                     r["confianca"], r["tipo"], r["ano"], r["autor"][:35], r["titulo"][:80]))
+
+    # Link institucional que duplica uma referência com autor pessoal: fica a
+    # pessoal, que é mais informativa. O URL do link é aproveitado.
+    por_titulo = {}
+    for r in refs:
+        if r.get("autor") and r.get("autor_tipo") != "institucional":
+            por_titulo.setdefault(chave(r["titulo"]), r)
+    filtrados = []
+    for r in refs:
+        if r.get("autor_tipo") == "institucional":
+            dono = por_titulo.get(chave(r["titulo"]))
+            if dono is not None and (
+                not r["ano"] or not dono["ano"] or r["ano"] == dono["ano"]
+            ):
+                if not dono["url"] and r["url"]:
+                    dono["url"] = r["url"]
+                continue
+        filtrados.append(r)
+    refs = filtrados
 
     # Dedup global entre páginas (mesma obra citada em vários posts).
     unicos = {}
