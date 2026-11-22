@@ -541,11 +541,14 @@ bibliografia. Resultado:
 Artefatos:
 
 - `dados/referencias.json` — base completa;
-- `dados/referencias-links.json` — status dos 180 links (em conferência);
+- `dados/referencias-links.json` — status das 177 URLs (102 abertas, 4 restritas, 74 mortas);
+- `docs/referencias-sem-link.csv` e `docs/referencias-links-status.md` — pendências para a próxima rodada;
 - `docs/referencias-abnt.md` — documento único em ABNT NBR 6023:2018;
 - `docs/referencias-por-tema.md` e `docs/referencias-por-autor.md` — recortes;
 - `referencias-citadas.html` — página pública com “Disponível aqui”;
-- `etl/monta-referencias-abnt.py` e `etl/monta-referencias-pagina.py`.
+- `etl/monta-referencias-abnt.py` e `etl/monta-referencias-pagina.py`;
+- `docs/REFERENCIAS-ABNT-REVISAO.md` — revisão crítica de 30 referências de
+  confiança alta, com os defeitos que o gerador ainda precisa corrigir.
 
 O que ainda falta: resolver link gratuito para as 426 referências sem URL
 (Open Library, Crossref, BDTD, SciELO, Planalto), revisar as 236 de confiança

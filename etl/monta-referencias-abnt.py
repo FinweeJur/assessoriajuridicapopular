@@ -41,9 +41,42 @@ def limpa(t):
     return re.sub(r"\s+", " ", (t or "").replace("\n", " ")).strip()
 
 
+SUFIXOS = {"filho", "neto", "junior", "sobrinho", "segundo"}
+ORGS = {
+    "conselho", "instituto", "rede", "movimento", "associação", "comissão",
+    "ministério", "universidade", "centro", "núcleo", "gabinete", "sociedade",
+    "organização", "observatório", "fórum", "grupo", "coletivo", "editora",
+    "revista", "assembleia", "secretaria", "coordenação",
+}
+
+
 def autor(r):
+    """Autor como chave de agrupamento; vazio vira rótulo explícito."""
     a = limpa(r.get("autor"))
-    return a or "AUTOR NÃO IDENTIFICADO"
+    return a or "Autoria não identificada"
+
+
+def autor_abnt(r):
+    """Inverte nome pessoal; mantém organização e nome já invertido."""
+    a = limpa(r.get("autor"))
+    if not a:
+        return ""
+    if "," in a or ";" in a:
+        return a
+    palavras = a.split()
+    if len(palavras) < 2:
+        return a
+    if any(p.lower() in ORGS for p in palavras[:2]):
+        return a
+    if all(p.isupper() for p in palavras if p.isalpha()):
+        return a
+    if palavras[-1].lower() in SUFIXOS and len(palavras) > 2:
+        sobrenome = " ".join(palavras[-2:])
+        nome = " ".join(palavras[:-2])
+    else:
+        sobrenome = palavras[-1]
+        nome = " ".join(palavras[:-1])
+    return "%s, %s" % (sobrenome.upper(), nome)
 
 
 def ano(r):
@@ -55,35 +88,76 @@ def titulo(r):
     return limpa(r.get("titulo")) or "[Sem título]"
 
 
+def dados_trecho(r):
+    """Recupera imprenta e dados complementares que já estão no trecho."""
+    trecho = limpa(r.get("trecho"))
+    local = editora = paginas = volume = numero = instituicao = ""
+    achados = re.findall(
+        r"([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*(?:\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*){0,3}):\s*([^,;]{2,55}),\s*(\d{4})",
+        trecho,
+    )
+    if achados:
+        local, editora = achados[-1][0].strip(), achados[-1][1].strip()
+    if not local:
+        m = re.search(r",\s*([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ .'-]{2,35}),\s*(\d{4})", trecho)
+        if m:
+            local = m.group(1).strip()
+    m = re.search(r"p\.\s*([\d]+(?:\s*[-–]\s*\d+)?)", trecho)
+    if m:
+        paginas = m.group(1)
+    m = re.search(r"v\.\s*(\d+)", trecho)
+    if m:
+        volume = m.group(1)
+    m = re.search(r"n\.\s*(\d+)", trecho)
+    if m:
+        numero = m.group(1)
+    m = re.search(r"(Universidade [A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ .'-]+|UF[A-Z]{2}|PUC[\w-]*)", trecho)
+    if m:
+        instituicao = m.group(1).strip().rstrip(".,;")
+    return local, editora, paginas, volume, numero, instituicao
+
+
 def abnt(r):
-    a = autor(r)
+    a = autor_abnt(r)
+    prefixo = (a + ". ") if a else ""
     t = titulo(r)
     y = ano(r)
     tipo = r.get("tipo") or "obra"
     veiculo = limpa(r.get("veiculo"))
     url = limpa(r.get("url"))
+    local, editora, paginas, volume, numero, instituicao = dados_trecho(r)
     base = ""
 
     if tipo in ("livro", "obra"):
-        imprenta = "[s.l.: s.n.]"
-        if veiculo:
-            imprenta = "[s.l.]: %s" % veiculo
-        base = "%s. **%s**. %s, %s." % (a, t, imprenta, y)
+        imprenta = "%s: %s" % (local or "[s.l.]", editora or veiculo or "[s.n.]")
+        base = "%s**%s**. %s, %s." % (prefixo, t, imprenta, y)
     elif tipo == "capitulo":
-        base = "%s. **%s**. In: [obra coletiva], %s." % (a, t, y)
+        base = "%s**%s**. In: [coletânea], %s." % (prefixo, t, y)
     elif tipo == "artigo":
-        base = "%s. **%s**. *%s*, %s." % (a, t, veiculo or "[periódico não identificado]", y)
+        periodico = veiculo or "[periódico]"
+        extras = []
+        if local:
+            extras.append(local)
+        if volume:
+            extras.append("v. %s" % volume)
+        if numero:
+            extras.append("n. %s" % numero)
+        if paginas:
+            extras.append("p. %s" % paginas)
+        meio = ", ".join(extras + [y])
+        base = "%s**%s**. *%s*, %s." % (prefixo, t, periodico, meio)
     elif tipo in ("tese", "dissertacao", "monografia"):
         rotulo = {"tese": "Tese", "dissertacao": "Dissertação", "monografia": "Monografia"}[tipo]
-        base = "%s. **%s**. %s. %s – [instituição não identificada], [s.l.]." % (a, t, y, rotulo)
+        inst = instituicao or "[s.l.: s.n.]"
+        base = "%s**%s**. %s. %s – %s." % (prefixo, t, y, rotulo, inst)
     elif tipo == "legislacao":
-        base = "%s. **%s**. %s." % (a if a != "AUTOR NÃO IDENTIFICADO" else "BRASIL", t, y)
+        base = "%s**%s**. %s." % (prefixo or "BRASIL. ", t, y)
     elif tipo == "video":
-        base = "%s. **%s**. %s. [Vídeo]." % (a, t, y)
+        base = "%s**%s**. %s. [Vídeo]." % (prefixo, t, y)
     elif tipo == "relatorio":
-        base = "%s. **%s**. %s. [Relatório]." % (a, t, y)
+        base = "%s**%s**. %s. [Relatório]." % (prefixo, t, y)
     else:
-        base = "%s. **%s**. %s." % (a, t, y)
+        base = "%s**%s**. %s." % (prefixo, t, y)
 
     if url:
         base += " Disponível em: <%s>. Acesso em: %s." % (url, ACESSO)
