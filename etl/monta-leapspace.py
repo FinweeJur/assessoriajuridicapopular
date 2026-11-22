@@ -420,7 +420,6 @@ def bloco_panorama(refs):
       espanhol e %d com autoria no acervo. Referências restritas ou fora do tema foram retiradas. O status de
       acesso foi consultado no Unpaywall em 21/11/2026.</p>
       <p class="leapspace__legenda"><span class="selo selo--aberto">acesso aberto</span>
-      <span class="selo selo--restrito">acesso restrito</span>
       <span class="selo selo--pt">português</span><span class="selo selo--es">espanhol</span>
       <span class="selo selo--acervo">autoria no acervo</span></p>
       <details class="acordeao acordeao--refs">
