@@ -45,27 +45,31 @@ secoes = [
 
 colecoes = [
     ("memoria.html", "Memória", "acontecimentos, publicações por ano e efemérides"),
-    ("formacao.html", "Formação", "seis trilhas para estudar por conta própria"),
+    ("formacao.html", "Formação", "seis trilhas, mais citações, recomendações e glossário"),
     ("biblioteca.html", "Biblioteca", "artigos, monografias, dissertações e teses"),
-    ("cultura.html", "Cultura", "poesia, cinema, teatro, música e documentários"),
+    ("cultura.html", "Cultura", "poesia, cinema, teatro, música e documentários — com Poemas e Mística"),
     ("assessoria-juridica-popular-no-mundo.html", "AJP pelo mundo",
      "Brasil, América Latina e panorama da pesquisa (154 referências)"),
 ]
 
-leitura = [
-    ("poemas.html", "Poemas e Caderno", "%d poemas publicados" % poemas),
-    ("mistica.html", "Mística do dia", "efemérides e memória de luta"),
+dentro = [
+    ("poemas.html", "Poemas e Caderno", "%d poemas publicados e o caderno" % poemas),
+    ("mistica.html", "Mística", "o que sustenta a luta: arte, memória e celebração"),
     ("citacoes.html", "Citações", "falas do acervo por tema"),
-    ("recomendacoes.html", "Recomendações", "livros, filmes e materiais"),
+    ("recomendacoes.html", "Recomendações", "livros, filmes e músicas"),
     ("glossario.html", "Glossário", "termos do direito e da organização popular"),
 ]
 
 comeco = [
     ("index.html", "Apresentação", "a capa do acervo"),
     ("acervo.html", "Acervo completo", "%d textos com busca e filtros" % len(indice)),
-    ("blog.html", "Blog em ordem", "tudo em ordem cronológica, por ano"),
-    ("autores.html", "Autores", "%d pessoas que assinam textos" % len(autores)),
     ("indice.html", "Índice", "esta página: todas as portas de entrada"),
+]
+
+acervo_sub = [
+    ("acervo.html", "Todos os textos", "busca por palavra, tipo, ano e rede"),
+    ("blog.html", "Por ano", "os mesmos textos em ordem cronológica, 2003 a 2024"),
+    ("autores.html", "Autores", "%d pessoas que assinam textos" % len(autores)),
 ]
 
 redes = [
@@ -101,6 +105,7 @@ corpo = """<section class="secao indice-topo">
   </div>
 </section>
 
+%s
 %s
 %s
 %s
@@ -147,11 +152,12 @@ corpo = """<section class="secao indice-topo">
 })();
 </script>""" % (
     len(indice),
-    grupo("Comece por aqui", "O essencial em cinco links", [item(*x) for x in comeco]),
+    grupo("Comece por aqui", "O essencial em três links", [item(*x) for x in comeco]),
+    grupo("Dentro do Acervo", "Uma porta, três jeitos de ler", [item(*x) for x in acervo_sub]),
     grupo("Seções", "Os seis recortes temáticos do acervo",
           [item(h, t, "%d textos · %s" % (n, d)) for h, t, n, d in secoes]),
     grupo("Coleções", "Páginas que reúnem materiais por uso", [item(*x) for x in colecoes]),
-    grupo("Leitura e cultura", "Para navegar sem pressa", [item(*x) for x in leitura]),
+    grupo("Dentro de Cultura e Formação", "Subpáginas das duas coleções", [item(*x) for x in dentro]),
     grupo("Recortes por rede", "Quem produz e articula o campo", [item(*x) for x in redes]),
 )
 
@@ -167,8 +173,8 @@ pagina = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=86" />
-  <link rel="stylesheet" href="reveal.css?v=86" />
+  <link rel="stylesheet" href="acervo.css?v=87" />
+  <link rel="stylesheet" href="reveal.css?v=87" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>

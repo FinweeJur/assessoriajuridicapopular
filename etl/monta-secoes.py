@@ -57,8 +57,6 @@ def topo(ativo):
             slug, ' aria-current="page"' if slug == ativo else "", esc(titulo))
         for slug, titulo, _, _, _ in SECOES)
     acervo_cur = ' aria-current="page"' if ativo == "acervo" else ""
-    blog_cur = ' aria-current="page"' if ativo == "blog" else ""
-    autores_cur = ' aria-current="page"' if ativo == "autores" else ""
     memoria_cur = ' aria-current="page"' if ativo in ("memoria", "linha-do-tempo") else ""
     formacao_cur = ' aria-current="page"' if ativo == "formacao" else ""
     biblioteca_cur = ' aria-current="page"' if ativo == "biblioteca" else ""
@@ -92,8 +90,6 @@ def topo(ativo):
           <li><a href="assessoria-juridica-popular-no-mundo.html"%s>AJP pelo mundo</a></li>
         </ul>
       </div>
-      <a href="autores.html"%s>Autores</a>
-      <a href="blog.html"%s>Blog</a>
       <a href="indice.html">Índice</a>
     </nav>
     <div class="topo__tema">
@@ -112,7 +108,7 @@ def topo(ativo):
     </div>
   </div>
 </header>""" % (acervo_cur, secoes, memoria_cur, formacao_cur, biblioteca_cur,
-                     cultura_cur, comparado_cur, autores_cur, blog_cur)
+                     cultura_cur, comparado_cur)
 
 
 def rodape():
@@ -214,8 +210,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=86" />
-  <link rel="stylesheet" href="reveal.css?v=86" />
+  <link rel="stylesheet" href="acervo.css?v=87" />
+  <link rel="stylesheet" href="reveal.css?v=87" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>

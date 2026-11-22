@@ -2305,3 +2305,40 @@ a.cartao, .item__link, .destaque, .bento__item {
   gap: 10px; margin-top: 12px;
 }
 .cp-botoes .botao { width: 100%; justify-content: center; text-align: center; }
+
+/* ── Subnavegação dentro dos hubs ───────────────────────────────────────── */
+.subnav {
+  display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  max-width: var(--largura); margin: 12px auto 0;
+  padding: 0 clamp(16px, 4vw, 40px);
+}
+.subnav__rotulo {
+  font-size: .68rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--cp-text-soft); margin-right: 4px;
+}
+.subnav a {
+  padding: 7px 12px; border: 1px solid var(--borda); border-radius: 999px;
+  background: color-mix(in srgb, var(--cp-surface) 24%, transparent);
+  color: var(--cp-text-soft); font-size: .8rem; font-weight: 600;
+  text-decoration: none; white-space: nowrap;
+}
+.subnav a:hover, .subnav a:focus-visible, .subnav a[aria-current="page"] {
+  color: var(--cor-tema); border-color: var(--cor-tema);
+}
+@media (max-width: 760px) {
+  .subnav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .subnav::-webkit-scrollbar { display: none; }
+}
+
+/* ── Visitas na capa ────────────────────────────────────────────────────── */
+.visitas { margin: 28px 0 0; }
+.visitas__interno {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px;
+  padding-top: 16px; border-top: 1px solid var(--borda);
+}
+.visitas__rotulo { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: .95rem; }
+.visitas__numero { margin: 0; font-size: 1.05rem; color: var(--cor-tema); }
+.visitas__numero .count { font-family: var(--font-display); font-weight: 700; }
+.visitas__numero .counterapi:empty::before { content: "—"; }
+.visitas__nota { margin: 0; font-size: .75rem; color: var(--cp-text-soft); }
+

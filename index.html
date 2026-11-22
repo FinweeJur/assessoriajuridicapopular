@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css?v=5" />
   <link rel="stylesheet" href="temas/renap.css?v=2" />
-  <link rel="stylesheet" href="acervo.css?v=86" />
-  <link rel="stylesheet" href="reveal.css?v=86" />
+  <link rel="stylesheet" href="acervo.css?v=87" />
+  <link rel="stylesheet" href="reveal.css?v=87" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -52,8 +52,6 @@
           <li><a href="assessoria-juridica-popular-no-mundo.html">AJP pelo mundo</a></li>
         </ul>
       </div>
-      <a href="autores.html">Autores</a>
-      <a href="blog.html">Blog</a>
       <a href="indice.html">Índice</a>
     </nav>
     <div class="topo__tema">
@@ -170,13 +168,13 @@
           <h3 class="bento__titulo">Educação popular</h3>
           <span class="bento__conta">158 textos</span>
         </a>
-        <a class="bento__item " href="glossario.html" style="--i:8">
+        <a class="bento__item " href="formacao.html#glossario" style="--i:8">
           <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="m8 13 4-7 4 7"/><path d="M9.1 11h5.7"/></svg></span>
           <span class="bento__etiqueta">Consulta</span>
           <h3 class="bento__titulo">Glossário</h3>
           <span class="bento__conta">18 verbetes</span>
         </a>
-        <a class="bento__item " href="linha-do-tempo.html" style="--i:9">
+        <a class="bento__item " href="memoria.html#linha-do-tempo" style="--i:9">
           <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
           <span class="bento__etiqueta">Série histórica</span>
           <h3 class="bento__titulo">Linha do tempo</h3>
@@ -185,10 +183,10 @@
         <a class="bento__item " href="assessoria-juridica-popular-no-mundo.html" style="--i:10">
           <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 3v18"/><path d="M17 3v18"/></svg></span>
           <span class="bento__etiqueta">Pesquisa</span>
-          <h3 class="bento__titulo">Direito comparado</h3>
-          <span class="bento__conta">4 perspectivas</span>
+          <h3 class="bento__titulo">AJP pelo mundo</h3>
+          <span class="bento__conta">8 sínteses</span>
         </a>
-        <a class="bento__item " href="poemas.html" style="--i:11">
+        <a class="bento__item " href="cultura.html#poemas" style="--i:11">
           <span class="bento__ico"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z"/><path d="M16 8 2 22"/><path d="M17.5 15H9"/></svg></span>
           <span class="bento__etiqueta">Antologia</span>
           <h3 class="bento__titulo">Poemas</h3>
@@ -198,6 +196,18 @@
       </div>
     </div>
   </section>
+
+  <section class="visitas" aria-labelledby="visitas-titulo">
+    <div class="miolo visitas__interno">
+      <p class="visitas__rotulo" id="visitas-titulo">Visitas ao site</p>
+      <p class="visitas__numero" aria-live="polite">
+        <span class="counterapi" ns="ajp-acervo" action="view" key="home"
+              noCss="true" noIcon="true" noLink="true" label="visitas"></span>
+      </p>
+      <p class="visitas__nota">Contador público, sem cookies. Conta acessos à capa desde novembro de 2026.</p>
+    </div>
+  </section>
+
 
   <section class="referencias" aria-labelledby="referencias">
     <div class="miolo secao">
@@ -297,8 +307,8 @@
       <ul>
         <li><a href="acervo.html">Todos os textos</a></li>
         <li><a href="blog.html">Blog, em ordem</a></li>
-        <li><a href="poemas.html">Poemas publicados</a></li>
-        <li><a href="glossario.html">Glossário</a></li>
+        <li><a href="cultura.html#poemas">Poemas publicados</a></li>
+        <li><a href="formacao.html#glossario">Glossário</a></li>
         <li><a href="memoria.html">Memória</a></li>
         <li><a href="memoria.html#linha-do-tempo">Linha do tempo</a></li>
         <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
@@ -392,5 +402,6 @@
 <script src="inicio.js?v=20" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 <script src="conversa.js?v=2" defer></script>
+<script src="https://counterapi.com/c.js" async></script>
 </body>
 </html>

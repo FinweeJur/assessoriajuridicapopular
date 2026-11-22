@@ -33,10 +33,10 @@ CARTÕES = [
     ("blog.html", "Em ordem", "Blog", "713 textos em 12 anos", "jornal", "bento__item--largo"),
     ("memoria-e-cultura.html", "Seção", "Memória e cultura", "30 textos", "relogio", ""),
     ("educacao-popular.html", "Seção", "Educação popular", "158 textos", "formatura", ""),
-    ("glossario.html", "Consulta", "Glossário", "18 verbetes", "dicionario", ""),
-    ("linha-do-tempo.html", "Série histórica", "Linha do tempo", "2009–2024", "relogio", ""),
-    ("assessoria-juridica-popular-no-mundo.html", "Pesquisa", "Direito comparado", "4 perspectivas", "colunas", ""),
-    ("poemas.html", "Antologia", "Poemas", "135 poemas", "pena", ""),
+    ("formacao.html#glossario", "Consulta", "Glossário", "18 verbetes", "dicionario", ""),
+    ("memoria.html#linha-do-tempo", "Série histórica", "Linha do tempo", "2009–2024", "relogio", ""),
+    ("assessoria-juridica-popular-no-mundo.html", "Pesquisa", "AJP pelo mundo", "8 sínteses", "colunas", ""),
+    ("cultura.html#poemas", "Antologia", "Poemas e Caderno", "135 poemas", "pena", ""),
 ]
 
 

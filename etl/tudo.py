@@ -32,7 +32,9 @@ def main():
     roda("monta-secoes.py")        # 6 seções + blog
     roda("gera-dados-colecoes.py")  # dados de memória, trilhas, biblioteca e cultura
     roda("monta-colecoes.py")       # páginas das coleções
-roda("monta-leapspace.py")      # dossiê LeapSpace no comparado (usa dados/leapspace-refs.json)
+    roda("monta-leapspace.py")     # panorama no comparado
+    roda("monta-indice.py")        # indice wiki do site
+    roda("marca-subnavs.py")       # subnavegacao dos hubs (Blog, Autores, Poemas, Mística, Citações)
     roda("alinha-capa.py")         # topo e rodapé da capa
     roda("atualiza-indice.py")     # lista da capa
     print("\npronto")
