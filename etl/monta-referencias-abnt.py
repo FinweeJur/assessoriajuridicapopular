@@ -251,9 +251,9 @@ def main():
         links_contagem.get("sem_link", 0),
     )
 
-    def lista(itens):
+    def lista(itens, inicio=1):
         linhas = []
-        for i, r in enumerate(itens, 1):
+        for i, r in enumerate(itens, inicio):
             fonte = r.get("fonte_slug") or ""
             post = indice.get(fonte, {})
             linhas.append(
@@ -268,7 +268,7 @@ def main():
     baixas = [r for r in refs if (r.get("confianca") or "baixa") == "baixa"]
     corpo = "\n".join(lista(principais))
     corpo += "\n\n## Apêndice — confiança baixa (revisar antes de citar)\n\n"
-    corpo += "\n".join(lista(baixas))
+    corpo += "\n".join(lista(baixas, len(principais) + 1))
     io.open(os.path.join(DOCS, "referencias-abnt.md"), "w", encoding="utf-8", newline="\n").write(
         cabeca + corpo + "\n"
     )

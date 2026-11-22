@@ -777,475 +777,475 @@
 
 ## Apêndice — confiança baixa (revisar antes de citar)
 
-1. À Classe Trabalhadora, e. **Aos Lutadores do Povo brasileiro,. Nós, professores, professoras, pesquisadores, pesquisadoras, militantes, profissionais e estudantes, conscientes da necessidade de construirmos uma práxis crítica sobre novos horizontes utópicos, decidimos pelo apoio aos movimentos populares brasileiros. Para tanto, pesquisa e ação devem se reencontrar e superar os escombros da crítica jurídica nacional**. [s.l.]: [s.n.], [s.d.].  
+371. À Classe Trabalhadora, e. **Aos Lutadores do Povo brasileiro,. Nós, professores, professoras, pesquisadores, pesquisadoras, militantes, profissionais e estudantes, conscientes da necessidade de construirmos uma práxis crítica sobre novos horizontes utópicos, decidimos pelo apoio aos movimentos populares brasileiros. Para tanto, pesquisa e ação devem se reencontrar e superar os escombros da crítica jurídica nacional**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [II Seminário Direito, Pesquisa e Movimentos Sociais](ii-seminario-direito-pesquisa-e-movimentos-sociais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-2. PALAVRA.)", acordo com a origem etimológica da. **aluno ( entendido como um ser desprovido de luz**. [s.l.]: [s.n.], [s.d.].  
+372. PALAVRA.)", acordo com a origem etimológica da. **aluno ( entendido como um ser desprovido de luz**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Oração ignominiosa de uma habitante da escuridão](oracao-ignominiosa-de-uma-habitante-da-escuridao.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-3. GENRO FILHO, Adelmo. **O segredo da pirâmide: uma teoria marxista do jornalismo**. [s.l.]: [s.n.], [s.d.].  
+373. GENRO FILHO, Adelmo. **O segredo da pirâmide: uma teoria marxista do jornalismo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Elaine Tavares e o desafio da comunicação](elaine-tavares-e-o-desafio-da-comunicacao.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-4. GENRO FILHO, Adelmo. **Violência, política, poder e Estado: reflexões preliminares**. [s.l.]: [s.n.], [s.d.].  
+374. GENRO FILHO, Adelmo. **Violência, política, poder e Estado: reflexões preliminares**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Elaine Tavares e o desafio da comunicação](elaine-tavares-e-o-desafio-da-comunicacao.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-5. MARQUES NETO, Agostinho Ramalho. **A importância do direito no Brasil hoje**. [s.l.]: [s.n.], [s.d.].  
+375. MARQUES NETO, Agostinho Ramalho. **A importância do direito no Brasil hoje**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-6. SOUZA, Amanda Alves de. **Desafios para construção de uma nova práxis extensionista no Direito**. [s.d.]. Monografia – Universidade Federal do Rio de Janeiro.  
+376. SOUZA, Amanda Alves de. **Desafios para construção de uma nova práxis extensionista no Direito**. [s.d.]. Monografia – Universidade Federal do Rio de Janeiro.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-7. MENDES, André Luiz Conrado. **Advocacia popular: utopia e ação política**. [s.d.]. Dissertação – Universidade Católica do Rio de Janeiro.  
+377. MENDES, André Luiz Conrado. **Advocacia popular: utopia e ação política**. [s.d.]. Dissertação – Universidade Católica do Rio de Janeiro.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-8. MALFÁTI, Anita. **A mulher de cabelos verdes**. [s.l.]: [s.n.], [s.d.].  
+378. MALFÁTI, Anita. **A mulher de cabelos verdes**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [As mulheres, sua resistência e a totalidade: ou quando as compositoras femininas compõem sua própria história](as-mulheres-sua-resistencia-e-a-totalidade-ou-quando-as.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-9. Antônio Alberto Machado, professor da UNESP-Franca e orientador do NEDA, disponível hein. **Economia pela metade**. [s.l.]: [s.n.], [s.d.].  
+379. Antônio Alberto Machado, professor da UNESP-Franca e orientador do NEDA, disponível hein. **Economia pela metade**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Economia pela metade](economia-pela-metade.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-10. GRAMSCI, Antonio. **Os intelectuais e a organização da cultura**. [s.l.]: [s.n.], [s.d.].  
+380. GRAMSCI, Antonio. **Os intelectuais e a organização da cultura**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-11. Antônio Jeovah de Andrade Meireles, Professor Dr. **do Departamento de Geografia da Universidade Federal do Ceará**. [s.l.]: [s.n.], [s.d.].  
+381. Antônio Jeovah de Andrade Meireles, Professor Dr. **do Departamento de Geografia da Universidade Federal do Ceará**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Novos apoios ao Escritório Frei Tito](novos-apoios-ao-escritorio-frei-tito.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-12. Assis Oliveira, em 13 de janeiro de 2010. **Como formar uma AJUP?**. [s.l.]: [s.n.], 2010.  
+382. Assis Oliveira, em 13 de janeiro de 2010. **Como formar uma AJUP?**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-13. BOAL, Augusto. **O arco-íris do desejo**. [s.l.]: [s.n.], [s.d.].  
+383. BOAL, Augusto. **O arco-íris do desejo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-14. BOAL, Augusto. **Teatro do oprimido**. [s.l.]: [s.n.], [s.d.].  
+384. BOAL, Augusto. **Teatro do oprimido**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-15. **· 28 de maio a 1º de junho de 2013 – III Seminário Direito, Pesquisa e Movimentos Sociais**. [s.l.]: [s.n.], 2013.  
+385. **· 28 de maio a 1º de junho de 2013 – III Seminário Direito, Pesquisa e Movimentos Sociais**. [s.l.]: [s.n.], 2013.  
    _Fonte:_ [III seminário do IPDMS convoca para Espaços de Discussão (EDs)](iii-seminario-do-ipdms-convoca-para-espacos-de-discussao-eds.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-16. **(1) WARAT, Luis Alberto**. Florianópolis: Fundação Boiteux, 2004.  
+386. **(1) WARAT, Luis Alberto**. Florianópolis: Fundação Boiteux, 2004.  
    _Fonte:_ [Direito, delírio, experiências e coisas reais](direito-delirio-experiencias-e-coisas-reais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-17. **(2) Ver LÖWY, Michael. As aventuras de Karl Marx contra o Barão de Münchhausen: marxismo e positivismo na sociologia do conhecimento**. São Paulo: Cortez, 2000.  
+387. **(2) Ver LÖWY, Michael. As aventuras de Karl Marx contra o Barão de Münchhausen: marxismo e positivismo na sociologia do conhecimento**. São Paulo: Cortez, 2000.  
    _Fonte:_ [Direito, delírio, experiências e coisas reais](direito-delirio-experiencias-e-coisas-reais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-18. **(prefácio ao livro de ROCHA, Amélia; CARNEIRO, Ana; ZAFFALON, Luciana; JOCA, Priscylla; MEDEIROS, Rodrigo de; FURTADO, Talita. (Org.). Defensoria Pública, Assessoria Jurídica Popular e Movimentos Sociais e Populares: novos caminhos traçados na concretização do direito de acesso à justiça**. In: [coletânea], 2013.  
+388. **(prefácio ao livro de ROCHA, Amélia; CARNEIRO, Ana; ZAFFALON, Luciana; JOCA, Priscylla; MEDEIROS, Rodrigo de; FURTADO, Talita. (Org.). Defensoria Pública, Assessoria Jurídica Popular e Movimentos Sociais e Populares: novos caminhos traçados na concretização do direito de acesso à justiça**. In: [coletânea], 2013.  
    _Fonte:_ [ANADEP e RENAP lançam livro "Defensoria Pública, Assessoria Jurídica Popular e Movimentos Sociais e Populares"](anadep-e-renap-lancam-livro-defensoria-publica-assessoria.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-19. **[10] Ver a monografia de Raquel Cerqueira Santos, "Educação Jurídica, Extensão Universitária e o perfil profissional do bacharel em direito: correlações possíveis" (Faculdade de Direito, UFBA, 2013), que estuda as contribuições relativas à atuação em projetos de extensão em relação ao perfil profissional dos egressos do SAJU**. 2013. Monografia – UFBA.  
+389. **[10] Ver a monografia de Raquel Cerqueira Santos, "Educação Jurídica, Extensão Universitária e o perfil profissional do bacharel em direito: correlações possíveis" (Faculdade de Direito, UFBA, 2013), que estuda as contribuições relativas à atuação em projetos de extensão em relação ao perfil profissional dos egressos do SAJU**. 2013. Monografia – UFBA.  
    _Fonte:_ [E quando não há o Pai para matar?](e-quando-nao-ha-o-pai-para-matar.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-20. **[1] BOAL, Augusto. Teatro do oprimido e outras poéticas políticas**. Janeiro: Civilização Brasileira, 1991.  
+390. **[1] BOAL, Augusto. Teatro do oprimido e outras poéticas políticas**. Janeiro: Civilização Brasileira, 1991.  
    _Fonte:_ [A linguagem como elemento determinante da assessoria jurídica popular](a-linguagem-como-elemento-determinante-da-assessoria.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-21. **[1] FERNANDES, Florestan."O que é revolução**. In: [coletânea], 2007.  
+391. **[1] FERNANDES, Florestan."O que é revolução**. In: [coletânea], 2007.  
    _Fonte:_ [Advocacia delirante. Parte I.](advocacia-delirante-parte-i.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-22. **[1] LENIN, Vladimir Ilitich. O estado e a revolução. Campinas-SP: FE/UNICAMP, 2011**. *[periódico]*, SP, p. 72, 2011.  
+392. **[1] LENIN, Vladimir Ilitich. O estado e a revolução. Campinas-SP: FE/UNICAMP, 2011**. *[periódico]*, SP, p. 72, 2011.  
    _Fonte:_ [As AJPs e uma teoria crítica da sociedade](as-ajps-e-uma-teoria-critica-da-sociedade.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-23. **[1] Thomaz Miguel Pressburger foi advogado popular, coordenador do Instituto Apoio Jurídico Popular, foi diretor do Departamento de Pesquisa e Documentação da OAB/RJ, no Rio de Janeiro – RJ, assessor jurídico da Comissão Pastoral da Terra do Rio de Janeiro e nacional**. [s.l.]: [s.n.], 2008.  
+393. **[1] Thomaz Miguel Pressburger foi advogado popular, coordenador do Instituto Apoio Jurídico Popular, foi diretor do Departamento de Pesquisa e Documentação da OAB/RJ, no Rio de Janeiro – RJ, assessor jurídico da Comissão Pastoral da Terra do Rio de Janeiro e nacional**. [s.l.]: [s.n.], 2008.  
    _Fonte:_ [ANADEP e RENAP lançam livro "Defensoria Pública, Assessoria Jurídica Popular e Movimentos Sociais e Populares"](anadep-e-renap-lancam-livro-defensoria-publica-assessoria.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-24. **[2] BENJAMIN, Walter**. São Paulo: Editora da Universidade de São Paulo, 1986.  
+394. **[2] BENJAMIN, Walter**. São Paulo: Editora da Universidade de São Paulo, 1986.  
    _Fonte:_ [A violência espectral no âmbito do SNI: a extração de informações para a identificação de inimigos internos disfarçados no Brasil](a-violencia-espectral-no-ambito-do-sni-a-extracao-de.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-25. **[2] Ibidem p. 15-16. A avaliação da Cediso é citada neste relatório do AJUP. Foi consultado ainda o documento original, disponibilizado pela pesquisadora Ana Lúcia Pastore Scritzmeyer: CENTRO DE ESTUDOS DIREITO E SOCIEDADE**. 1993. [Relatório].  
+395. **[2] Ibidem p. 15-16. A avaliação da Cediso é citada neste relatório do AJUP. Foi consultado ainda o documento original, disponibilizado pela pesquisadora Ana Lúcia Pastore Scritzmeyer: CENTRO DE ESTUDOS DIREITO E SOCIEDADE**. 1993. [Relatório].  
    _Fonte:_ [Frentes de atuação do AJUP RJ](frentes-de-atuacao-do-ajup-rj.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-26. **[2] MARX, Karl**. *I. Livro Primeiro. São Paulo*, São Paulo, p. 205, 1996.  
+396. **[2] MARX, Karl**. *I. Livro Primeiro. São Paulo*, São Paulo, p. 205, 1996.  
    _Fonte:_ [As AJPs e uma teoria crítica da sociedade](as-ajps-e-uma-teoria-critica-da-sociedade.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-27. **[3] BOAL, Augusto. Teatro do oprimido e outras poéticas políticas**. Janeiro: Civilização Brasileira, 1991.  
+397. **[3] BOAL, Augusto. Teatro do oprimido e outras poéticas políticas**. Janeiro: Civilização Brasileira, 1991.  
    _Fonte:_ [A linguagem como elemento determinante da assessoria jurídica popular](a-linguagem-como-elemento-determinante-da-assessoria.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-28. **[3] Trata-se do final de poema de Roque Dalton sobre Marx, com "tradução" nossa**. In: [coletânea], 2010.  
+398. **[3] Trata-se do final de poema de Roque Dalton sobre Marx, com "tradução" nossa**. In: [coletânea], 2010.  
    _Fonte:_ [As AJPs e uma teoria crítica da sociedade](as-ajps-e-uma-teoria-critica-da-sociedade.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-29. **[5] BONILLA, Victor D; CASTILLO, Gonzalo; BORDA, Orlando Fals; LIBREROS, Augusto. Causa popular, ciência popular. Uma metodologia do conhecimento científico através da ação**. In: [coletânea], 1999.  
+399. **[5] BONILLA, Victor D; CASTILLO, Gonzalo; BORDA, Orlando Fals; LIBREROS, Augusto. Causa popular, ciência popular. Uma metodologia do conhecimento científico através da ação**. In: [coletânea], 1999.  
    _Fonte:_ [Teatro do Oprimido e Assessoria Jurídica Popular: duas maneiras alternativas de ver e tocar a realidade](teatro-do-oprimido-e-assessoria-juridica-popular-duas.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-30. **Adoniran Barbosa**. [s.d.]. Disponível em: <https://letras.terra.com.br/adoniran-barbosa/>. Acesso em: 22 nov. 2026.  
+400. **Adoniran Barbosa**. [s.d.]. Disponível em: <https://letras.terra.com.br/adoniran-barbosa/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Despejo em Imbituba: "mas essa gente aí, hein, como é que faz?"](despejo-em-imbituba-mas-essa-gente-ai-hein-como-e-que-faz.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-31. **Ainda conforme Alfonsin, é preciso atuar em três frentes: tradução, assistência e formação. A assistência consiste no acompanhamento processual de grupos e movimentos sociais, e a formação significa a atualização em matéria processual e pesquisa acadêmica. Alfonsin relata que essa divisão foi inspirada na proposta da Rede Nacional de Advogados e Advogadas Populares (RENAP), fundada em 1986, em São Paulo, que une o esforço de elaboração teórica (com publicações) e advocacia preventiva (tradução d**. [s.l.]: [s.n.], 1986.  
+401. **Ainda conforme Alfonsin, é preciso atuar em três frentes: tradução, assistência e formação. A assistência consiste no acompanhamento processual de grupos e movimentos sociais, e a formação significa a atualização em matéria processual e pesquisa acadêmica. Alfonsin relata que essa divisão foi inspirada na proposta da Rede Nacional de Advogados e Advogadas Populares (RENAP), fundada em 1986, em São Paulo, que une o esforço de elaboração teórica (com publicações) e advocacia preventiva (tradução d**. [s.l.]: [s.n.], 1986.  
    _Fonte:_ [A tradução na assessoria jurídica popular](a-traducao-na-assessoria-juridica-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-32. **ANUÁRIO 2004/2005: da Escola Superior da Magistratura do Rio grande do Sul – Ajuris. Jurisdição e direitos fundamentais**. Porto Alegre: Livraria do Advogado, 2006.  
+402. **ANUÁRIO 2004/2005: da Escola Superior da Magistratura do Rio grande do Sul – Ajuris. Jurisdição e direitos fundamentais**. Porto Alegre: Livraria do Advogado, 2006.  
    _Fonte:_ [Falece Herrera Flores](falece-herrera-flores.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-33. **Artigo "UDR E TFP: A Força bruta que enterrou a reforma agrária na constituinte de 1987", publicado na Revista Digital " Em Debate", do Laboratório de Sociologia do Trabalho da UFSC**. In: [coletânea], 2011.  
+403. **Artigo "UDR E TFP: A Força bruta que enterrou a reforma agrária na constituinte de 1987", publicado na Revista Digital " Em Debate", do Laboratório de Sociologia do Trabalho da UFSC**. In: [coletânea], 2011.  
    _Fonte:_ [A desnecessidade histórica do Direito](a-desnecessidade-historica-do-direito.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-34. **Artigo de Rita Segato, com base em pesquisa empírica desenvolvida entre os Suruahá, verificou que dos 143 membros deste povo houve, entre 2003 e 2005, 23 suicídios, dois "infanticídios" e uma morte por doença, ou seja, a ampla maioria dos casos de morte foram decorrentes de suicídio, isto sem contar os casos de desnutrição e pobreza. Compreender a diferença e produzir respeito aos povos indígenas, é o que a diversidade nos ensina**. [s.l.]: [s.n.], 2005.  
+404. **Artigo de Rita Segato, com base em pesquisa empírica desenvolvida entre os Suruahá, verificou que dos 143 membros deste povo houve, entre 2003 e 2005, 23 suicídios, dois "infanticídios" e uma morte por doença, ou seja, a ampla maioria dos casos de morte foram decorrentes de suicídio, isto sem contar os casos de desnutrição e pobreza. Compreender a diferença e produzir respeito aos povos indígenas, é o que a diversidade nos ensina**. [s.l.]: [s.n.], 2005.  
    _Fonte:_ [O fantasma colonial do infanticídio indígena](o-fantasma-colonial-do-infanticidio-indigena.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-35. **Assessoria jurídica popular universitária e direitos humanos: o diálogo emancipatório entre estudantes e movimentos sociais (1988-2008)**. 2008. Monografia – Universidade Federal do Rio Grande do Sul.  
+405. **Assessoria jurídica popular universitária e direitos humanos: o diálogo emancipatório entre estudantes e movimentos sociais (1988-2008)**. 2008. Monografia – Universidade Federal do Rio Grande do Sul.  
    _Fonte:_ [Luiz Otávio Ribas](luiz-otavio-ribas.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-36. **Blog do santuário**. [s.d.]. Disponível em: <https://santuariodospajes.blogspot.com/>. Acesso em: 22 nov. 2026.  
+406. **Blog do santuário**. [s.d.]. Disponível em: <https://santuariodospajes.blogspot.com/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [O Santuário dos Pajés não se move!](o-santuario-dos-pajes-nao-se-move.html) · _Confiança:_ baixa · [Disponível aqui](https://santuariodospajes.blogspot.com/)
-37. **Blogue "Furo"**. [s.d.]. Disponível em: <https://rogerioalmeidafuro.blogspot.com.br/2012/04/indigenas-afetados-pela-hidreletrica-de.html>. Acesso em: 22 nov. 2026.  
+407. **Blogue "Furo"**. [s.d.]. Disponível em: <https://rogerioalmeidafuro.blogspot.com.br/2012/04/indigenas-afetados-pela-hidreletrica-de.html>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Povos Kayabi, Apiaka e Munduruku contra construção de hidroelétrica](povos-kayabi-apiaka-e-munduruku-contra-construcao-de.html) · _Confiança:_ baixa · [Disponível aqui](https://rogerioalmeidafuro.blogspot.com.br/2012/04/indigenas-afetados-pela-hidreletrica-de.html)
-38. **Blogue "Palavras insurgentes"**. [s.d.]. Disponível em: <https://eteia.blogspot.com/>. Acesso em: 22 nov. 2026.  
+408. **Blogue "Palavras insurgentes"**. [s.d.]. Disponível em: <https://eteia.blogspot.com/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Elaine Tavares e o desafio da comunicação](elaine-tavares-e-o-desafio-da-comunicacao.html) · _Confiança:_ baixa · [Disponível aqui](https://eteia.blogspot.com/)
-39. **Boca do Lixo**. [s.d.]. [Vídeo]. Disponível em: <https://www.youtube.com/watch?v=UY-4w-JQkOw&playnext=1&list=PLAA452BB4800B62FD>. Acesso em: 22 nov. 2026.  
+409. **Boca do Lixo**. [s.d.]. [Vídeo]. Disponível em: <https://www.youtube.com/watch?v=UY-4w-JQkOw&playnext=1&list=PLAA452BB4800B62FD>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Mostra O Que Ninguém Vê](mostra-o-que-ninguem-ve-3.html) · _Confiança:_ baixa · [Disponível aqui](https://www.youtube.com/watch?v=UY-4w-JQkOw&playnext=1&list=PLAA452BB4800B62FD)
-40. **Cadernos insurgentes e o caso do MP/RS versus MST 2008, 27 nov**. *Cadernos insurgentes e o caso do MP/RS versus MST 2008*, v. 2013, 2013.  
+410. **Cadernos insurgentes e o caso do MP/RS versus MST 2008, 27 nov**. *Cadernos insurgentes e o caso do MP/RS versus MST 2008*, v. 2013, 2013.  
    _Fonte:_ [Estudo de caso sobre promoção de direitos coletivos](estudo-de-caso-sobre-promocao-de-direitos-coletivos.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-41. **CLÈVE, Clèmerson Merlin**. Curitiba: Scientia et Labor, 1988.  
+411. **CLÈVE, Clèmerson Merlin**. Curitiba: Scientia et Labor, 1988.  
    _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-42. **Coleções Nerdes**. [s.d.]. Disponível em: <https://colecoesnerds.weebly.com/index.html>. Acesso em: 22 nov. 2026.  
+412. **Coleções Nerdes**. [s.d.]. Disponível em: <https://colecoesnerds.weebly.com/index.html>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Mostra o que ninguém vê](mostra-o-que-ninguem-ve-7.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-43. **Com muita satisfação, compartilho com todas e todos a minha tese de doutorado, orientada por Renata Ribeiro Rolim no Programa de Pós-Graduação em Ciências Jurídicas da UFPB. A defesa ocorreu no dia 31.07.2015 e contou com a participação de Ricardo Prestes Pazello na banca. A tese problematiza as possibilidades, as contradições e as limitações da AJUP como uma perspectiva de enfrentamento ideológico no direito**. 2015. Tese – UFPB.  
+413. **Com muita satisfação, compartilho com todas e todos a minha tese de doutorado, orientada por Renata Ribeiro Rolim no Programa de Pós-Graduação em Ciências Jurídicas da UFPB. A defesa ocorreu no dia 31.07.2015 e contou com a participação de Ricardo Prestes Pazello na banca. A tese problematiza as possibilidades, as contradições e as limitações da AJUP como uma perspectiva de enfrentamento ideológico no direito**. 2015. Tese – UFPB.  
    _Fonte:_ [Um estalo nas faculdades de direito: perspectivas ideológicas da Assessoria Jurídica Universitária Popular](um-estalo-nas-faculdades-de-direito-perspectivas.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-44. **Como a UnB não pode parar, interessante que a dignidade dos servidores fosse respeitada, que a íntegra de sua remuneração fosse mantida e que os governos se comprometessem efetivamente com a educação, direito de todos e dever do estado, conforme afirma a Constituição Federal de 1988. Isso, de fato, evitaria prejuízo à sociedade, pois teria pessoas respeitadas para seguirem mobilizando a pesquisa, o ensino, a extensão e, em outros termos, para produzirem conhecimentos capazes de corresponder aos**. [s.l.]: [s.n.], 1988.  
+414. **Como a UnB não pode parar, interessante que a dignidade dos servidores fosse respeitada, que a íntegra de sua remuneração fosse mantida e que os governos se comprometessem efetivamente com a educação, direito de todos e dever do estado, conforme afirma a Constituição Federal de 1988. Isso, de fato, evitaria prejuízo à sociedade, pois teria pessoas respeitadas para seguirem mobilizando a pesquisa, o ensino, a extensão e, em outros termos, para produzirem conhecimentos capazes de corresponder aos**. [s.l.]: [s.n.], 1988.  
    _Fonte:_ [EDITORIAL DE DOMINGO: É PRECISO PARAR PARA PENSAR](editorial-de-domingo-e-preciso-parar-para-pensar.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-45. **Como uma das ferramentas de pesquisa nos utilizaremos de um questionário, a ser respondido via internet, que no momento já está sendo aplicado. Se você atuou na defesa jurídica de manifestantes no ano de 2013 e deseja responder ao questionário, favor entrar em contato com: professorluizribas@gmail.com**. [s.l.]: [s.n.], 2013.  
+415. **Como uma das ferramentas de pesquisa nos utilizaremos de um questionário, a ser respondido via internet, que no momento já está sendo aplicado. Se você atuou na defesa jurídica de manifestantes no ano de 2013 e deseja responder ao questionário, favor entrar em contato com: professorluizribas@gmail.com**. [s.l.]: [s.n.], 2013.  
    _Fonte:_ [Oficina de balanço da advocacia no Rio de Janeiro](oficina-de-balanco-da-advocacia-no-rio-de-janeiro.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-46. **Criada no ano de 1973, a Revista de Direito Agrário tem o objetivo de provocar a reflexão, a discussão e a difusão de seus temas. Deste modo, assume o papel de delinear, sob uma visão crítica, aspectos inerentes ao direito agrário e, entre outros assuntos, à temática da reforma agrária**. *[periódico]*, 1973.  
+416. **Criada no ano de 1973, a Revista de Direito Agrário tem o objetivo de provocar a reflexão, a discussão e a difusão de seus temas. Deste modo, assume o papel de delinear, sob uma visão crítica, aspectos inerentes ao direito agrário e, entre outros assuntos, à temática da reforma agrária**. *[periódico]*, 1973.  
    _Fonte:_ [Revista de Direito Agrário prorroga prazo para envio de artigos](revista-de-direito-agrario-prorroga-prazo-para-envio-de.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-47. **Da pedagogia do oprimido ao direito do oprimido**. 2008. Dissertação – UFPB.  
+417. **Da pedagogia do oprimido ao direito do oprimido**. 2008. Dissertação – UFPB.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-48. **Despejo na Favela**. [s.d.]. [Vídeo]. Disponível em: <https://www.youtube.com/watch?v=lLUOJEPpvBQ&feature=player_embedded>. Acesso em: 22 nov. 2026.  
+418. **Despejo na Favela**. [s.d.]. [Vídeo]. Disponível em: <https://www.youtube.com/watch?v=lLUOJEPpvBQ&feature=player_embedded>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Despejo em Imbituba: "mas essa gente aí, hein, como é que faz?"](despejo-em-imbituba-mas-essa-gente-ai-hein-como-e-que-faz.html) · _Confiança:_ baixa · [Disponível aqui](https://www.youtube.com/watch?v=lLUOJEPpvBQ&feature=player_embedded)
-49. **DIÁLOGO – A pesquisa também aponta a necessidade de incluir os indígenas nas discussões que lhes dizem respeito. "Não se pode chegar a uma conclusão ou a um projeto de lei sem a participação efetiva dos maiores interessados: os índios. E eles só foram ouvidos uma única vez, em uma audiência pública em 2007, e mesmo assim tiveram pouco espaço para falar", conta Marianna**. [s.l.]: [s.n.], 2007.  
+419. **DIÁLOGO – A pesquisa também aponta a necessidade de incluir os indígenas nas discussões que lhes dizem respeito. "Não se pode chegar a uma conclusão ou a um projeto de lei sem a participação efetiva dos maiores interessados: os índios. E eles só foram ouvidos uma única vez, em uma audiência pública em 2007, e mesmo assim tiveram pouco espaço para falar", conta Marianna**. [s.l.]: [s.n.], 2007.  
    _Fonte:_ [O que está por trás da criminalização do "infanticídio" indígena?](o-que-esta-por-tras-da-criminalizacao-do-infanticidio.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-50. **Difamação (2009)**. 2009. [Vídeo]. Disponível em: <https://www.youtube.com/watch?v=rCUPXWyE1HY>. Acesso em: 22 nov. 2026.  
+420. **Difamação (2009)**. 2009. [Vídeo]. Disponível em: <https://www.youtube.com/watch?v=rCUPXWyE1HY>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Mostra o que ninguém vê - Difamação](mostra-o-que-ninguem-ve-difamacao.html) · _Confiança:_ baixa · [Disponível aqui](https://www.youtube.com/watch?v=rCUPXWyE1HY)
-51. **Direito insurgente na assessoria jurídica de movimentos populares no Brasil (1960-2010)**. 2010. Tese – [s.l.: s.n.]. Disponível em: <https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf>. Acesso em: 22 nov. 2026.  
+421. **Direito insurgente na assessoria jurídica de movimentos populares no Brasil (1960-2010)**. 2010. Tese – [s.l.: s.n.]. Disponível em: <https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · [Disponível aqui](https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf)
-52. **Direito, a alternativa**. [s.d.]. Disponível em: <https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing>. Acesso em: 22 nov. 2026.  
+422. **Direito, a alternativa**. [s.d.]. Disponível em: <https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · [Disponível aqui](https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing)
-53. **Divulgamos a carta-convite e o edital de chamada de trabalhos para o II Seminário Direito, Pesquisa e Movimentos Sociais. Trata-se do segundo encontro - o primeiro ocorreu em São Paulo, em 2011 - que tem por objetivo fundar um Instituto de Pesquisa, Direito e Movimentos Sociais. Todos estão convidados a comparecer, assinar a carta e construir o instituto**. [s.l.]: [s.n.], 2011.  
+423. **Divulgamos a carta-convite e o edital de chamada de trabalhos para o II Seminário Direito, Pesquisa e Movimentos Sociais. Trata-se do segundo encontro - o primeiro ocorreu em São Paulo, em 2011 - que tem por objetivo fundar um Instituto de Pesquisa, Direito e Movimentos Sociais. Todos estão convidados a comparecer, assinar a carta e construir o instituto**. [s.l.]: [s.n.], 2011.  
    _Fonte:_ [II Seminário Direito, Pesquisa e Movimentos Sociais](ii-seminario-direito-pesquisa-e-movimentos-sociais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-54. **Divulgamos os Cadernos InSURgentes, em parceria com o Instituto de Pesquisa, Direito e Movimentos Sociais (IPDMS). O primeiro volume tratou do "Estudo de caso da tentativa de dissolução do MST por parte do MP/RS – 2008". O volume zero tem como título "Poesia crítica do direito**. *[periódico]*, 2008.  
+424. **Divulgamos os Cadernos InSURgentes, em parceria com o Instituto de Pesquisa, Direito e Movimentos Sociais (IPDMS). O primeiro volume tratou do "Estudo de caso da tentativa de dissolução do MST por parte do MP/RS – 2008". O volume zero tem como título "Poesia crítica do direito**. *[periódico]*, 2008.  
    _Fonte:_ [Seis anos do blogue AJPopular](seis-anos-do-blogue-ajpopular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-55. **É importante dizer que, no Brasil, o termo "direito alternativo" foi amplamente recepcionado após o grupo de juízes gaúchos ganhar fama no artigo "Juízes gaúchos colocam direito acima da lei" do Jornal da Tarde, em 1990, de Luiz Maklouf e, em 1991, quando um grupo de juristas, provocados pelo texto "jornalístico", resolvem organizar o I Encontro Internacional de Direito Alternativo, em Florianópolis. Como resultado, foi publicado o livro organizado por Edmundo Lima Arruda Jr, "Lições de direito**. 1995. Tese – [s.l.: s.n.].  
+425. **É importante dizer que, no Brasil, o termo "direito alternativo" foi amplamente recepcionado após o grupo de juízes gaúchos ganhar fama no artigo "Juízes gaúchos colocam direito acima da lei" do Jornal da Tarde, em 1990, de Luiz Maklouf e, em 1991, quando um grupo de juristas, provocados pelo texto "jornalístico", resolvem organizar o I Encontro Internacional de Direito Alternativo, em Florianópolis. Como resultado, foi publicado o livro organizado por Edmundo Lima Arruda Jr, "Lições de direito**. 1995. Tese – [s.l.: s.n.].  
    _Fonte:_ [Direito e libertação: breves notas introdutórias](direito-e-libertacao-breves-notas-introdutorias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-56. **Economia pela metade**. [s.d.]. Disponível em: <https://blogs.lemos.net/machado/>. Acesso em: 22 nov. 2026.  
+426. **Economia pela metade**. [s.d.]. Disponível em: <https://blogs.lemos.net/machado/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Economia pela metade](economia-pela-metade.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-57. **Em 1760, chegavam à região de Adrianópolis (PR), no Vale do Ribeira, os primeiros habitantes da comunidade São João. As memórias passadas de geração para geração relatam que João Muratinho e Tomázia Fernanda de Matos foram os precursores da ocupação, vindos da cidade de Eldorado Paulista, em São Paulo. São João é uma das 36 comunidades certificadas pela Fundação Cultural Palmares como remanescentes de quilombos no Paraná, fruto da resistência da população negra escravizada durante mais de 300 an**. 2005. [Relatório].  
+427. **Em 1760, chegavam à região de Adrianópolis (PR), no Vale do Ribeira, os primeiros habitantes da comunidade São João. As memórias passadas de geração para geração relatam que João Muratinho e Tomázia Fernanda de Matos foram os precursores da ocupação, vindos da cidade de Eldorado Paulista, em São Paulo. São João é uma das 36 comunidades certificadas pela Fundação Cultural Palmares como remanescentes de quilombos no Paraná, fruto da resistência da população negra escravizada durante mais de 300 an**. 2005. [Relatório].  
    _Fonte:_ [Os quilombolas e o estado: uso alternativo do Ministério Público, no Paraná](os-quilombolas-e-o-estado-uso-alternativo-do-ministerio.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-58. **Em setembro de 2009, ocorrida a mobilização do MST nos limites da fazenda da Cutrale, onde se planta laranja, a gradne mídia comercial cumpriu seu papel histórico: o de assumir um lado na luta de classes instaurada no país e em todo o continente. Uma despreocupada pesquisa pelas páginas de busca mostra bem isto (ver notas e reportagens de alguns dos principais jornais comerciais sobre o assunto: MST invade fazenda de laranja em Iaras, MST destrói tratores e instalações antes de desocupar plantaç**. [s.l.]: [s.n.], 1990.  
+428. **Em setembro de 2009, ocorrida a mobilização do MST nos limites da fazenda da Cutrale, onde se planta laranja, a gradne mídia comercial cumpriu seu papel histórico: o de assumir um lado na luta de classes instaurada no país e em todo o continente. Uma despreocupada pesquisa pelas páginas de busca mostra bem isto (ver notas e reportagens de alguns dos principais jornais comerciais sobre o assunto: MST invade fazenda de laranja em Iaras, MST destrói tratores e instalações antes de desocupar plantaç**. [s.l.]: [s.n.], 1990.  
    _Fonte:_ [A repercussão de uma vitória no judiciário: o caso dos laranjais e a luta pela terra](a-repercussao-de-uma-vitoria-no-judiciario-o-caso-dos.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-59. **Endereço: Avenida Brigadeiro Luiz Antônio, 2020, térreo, Bela Vista, São Paulo/SP**. Endereço: Avenida Brigadeiro Luiz Antônio, 2020.  
+429. **Endereço: Avenida Brigadeiro Luiz Antônio, 2020, térreo, Bela Vista, São Paulo/SP**. Endereço: Avenida Brigadeiro Luiz Antônio, 2020.  
    _Fonte:_ [Repatriação do acervo do "Brasil: nunca mais"](repatriacao-do-acervo-do-brasil-nunca-mais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-60. **Entre os dias 16 e 19 de maio de 2012, a Faculdade Christus realizará o "Seminário Conflitos Socioambientais e Direitos Humanos", em parceria com a Associação Cearense do Ministério Público, a Associação dos Defensores Públicos do Estado do Ceará, Associação dos Geógrafos do Brasil, o Centro de Assessoria Popular Caldeirão, a Justiça Federal – Ceará, o Grupo de Pesquisa Teorias Críticas – UFC, o Núcleo Tramas – UFC, a Rede Nacional de Advogados e Advogadas Populares - Ceará e o Terramar**. [s.l.]: [s.n.], 2012.  
+430. **Entre os dias 16 e 19 de maio de 2012, a Faculdade Christus realizará o "Seminário Conflitos Socioambientais e Direitos Humanos", em parceria com a Associação Cearense do Ministério Público, a Associação dos Defensores Públicos do Estado do Ceará, Associação dos Geógrafos do Brasil, o Centro de Assessoria Popular Caldeirão, a Justiça Federal – Ceará, o Grupo de Pesquisa Teorias Críticas – UFC, o Núcleo Tramas – UFC, a Rede Nacional de Advogados e Advogadas Populares - Ceará e o Terramar**. [s.l.]: [s.n.], 2012.  
    _Fonte:_ [Seminário de Justiça Ambiental no Ceará](seminario-de-justica-ambiental-no-ceara.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-61. **Entre os dias 28 de maio e 1º de junho de 2013, será realizado, na Universidade Federal do Rio Grande do Norte, em Natal, o III Seminário Direito, Pesquisa e Movimentos Sociais, com a participação de pesquisadores e pesquisadoras de todo o Brasil**. [s.l.]: [s.n.], 2013.  
+431. **Entre os dias 28 de maio e 1º de junho de 2013, será realizado, na Universidade Federal do Rio Grande do Norte, em Natal, o III Seminário Direito, Pesquisa e Movimentos Sociais, com a participação de pesquisadores e pesquisadoras de todo o Brasil**. [s.l.]: [s.n.], 2013.  
    _Fonte:_ [III seminário do IPDMS convoca para Espaços de Discussão (EDs)](iii-seminario-do-ipdms-convoca-para-espacos-de-discussao-eds.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-62. **Entrevista com Jesus Antonio de la Torre Rangel, professor e assessor jurídico popular, intitulada "A analogia do direito pelo "inequivocamente outro": a concepção de "lo nuestro" pluralismo juridico índio mexicano", realizada por Luiz Otávio Ribas e Ricardo Prestes Pazello e publicada na Revista captura Críptica em 2009**. *[periódico]*, 2009.  
+432. **Entrevista com Jesus Antonio de la Torre Rangel, professor e assessor jurídico popular, intitulada "A analogia do direito pelo "inequivocamente outro": a concepção de "lo nuestro" pluralismo juridico índio mexicano", realizada por Luiz Otávio Ribas e Ricardo Prestes Pazello e publicada na Revista captura Críptica em 2009**. *[periódico]*, 2009.  
    _Fonte:_ [Jesus Antonio de la Torre Rangel e a analogia do direito](jesus-antonio-de-la-torre-rangel-e-a-analogia-do-direito.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-63. **Escrevi também a dissertação do curso de mestrado na UFSC, com o título "Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e Rio de Janeiro (1960-2000)**. 2000. Dissertação – UFSC.  
+433. **Escrevi também a dissertação do curso de mestrado na UFSC, com o título "Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e Rio de Janeiro (1960-2000)**. 2000. Dissertação – UFSC.  
    _Fonte:_ [Auto-retrato](auto-retrato.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-64. **Estão previstas três etapas presenciais (tempo escola) para os meses de julho (2013), janeiro e julho de 2014. Haverá também o tempo comunidade, no qual xs educandxs farão seus trabalhos de pesquisa e ou extensão**. [s.l.]: [s.n.], 2014.  
+434. **Estão previstas três etapas presenciais (tempo escola) para os meses de julho (2013), janeiro e julho de 2014. Haverá também o tempo comunidade, no qual xs educandxs farão seus trabalhos de pesquisa e ou extensão**. [s.l.]: [s.n.], 2014.  
    _Fonte:_ [A primeira turma de Pós-Graduação em Direitos Sociais do Campo](a-primeira-turma-de-pos-graduacao-em-direitos-sociais-do.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-65. **Estou disponibilizando o arquivo da minha dissertação de mestrado intitulada "Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e Rio de Janeiro (1960-2000)**. 2000. Dissertação – [s.l.: s.n.].  
+435. **Estou disponibilizando o arquivo da minha dissertação de mestrado intitulada "Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e Rio de Janeiro (1960-2000)**. 2000. Dissertação – [s.l.: s.n.].  
    _Fonte:_ [Direito insurgente e pluralismo jurídico](direito-insurgente-e-pluralismo-juridico-2.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-66. **Eu participei da fundação do Núcleo de Estudos e Práticas Emancipatórias em 2007. Na sua maioria, participaram no primeiro ano estudantes do mestrado do CPGD UFSC, mas também estudantes de graduação do curso de direito e serviço social. A principal atividade foi o curso de extensão para assessores estudantis, intitulado "Educação popular em direitos humanos", para estudantes da UFSC e outras faculdades de direito de Florianópolis, assim como advogados e outros militantes dos direitos humanos. O**. [s.l.]: [s.n.], 2007.  
+436. **Eu participei da fundação do Núcleo de Estudos e Práticas Emancipatórias em 2007. Na sua maioria, participaram no primeiro ano estudantes do mestrado do CPGD UFSC, mas também estudantes de graduação do curso de direito e serviço social. A principal atividade foi o curso de extensão para assessores estudantis, intitulado "Educação popular em direitos humanos", para estudantes da UFSC e outras faculdades de direito de Florianópolis, assim como advogados e outros militantes dos direitos humanos. O**. [s.l.]: [s.n.], 2007.  
    _Fonte:_ [Blog e site do NEPE UFSC](blog-e-site-do-nepe-ufsc.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-67. **Filosofia, teologia e experiência mística**. *Kriterion: revista da Faculdade de Filosofia e Ciências Humanas da Universidade Federal de Minas Ge*, n. 69, p. 136-145, 1976.  
+437. **Filosofia, teologia e experiência mística**. *Kriterion: revista da Faculdade de Filosofia e Ciências Humanas da Universidade Federal de Minas Ge*, n. 69, p. 136-145, 1976.  
    _Fonte:_ [LYRA FILHO Filosofia, teologia e experiência mística](lyra-filho-filosofia-teologia-e-experiencia-mistica.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-68. **Foi assim quando escrevi a monografia de conclusão de uma especialização em direitos humanos na ESMPU/UFRGS, o título ficou "Assessoria jurídica popular universitária e direitos humanos: o diálogo entre estudantes e movimentos sociais (1980-2000)**. 2000. Monografia – UFRG.  
+438. **Foi assim quando escrevi a monografia de conclusão de uma especialização em direitos humanos na ESMPU/UFRGS, o título ficou "Assessoria jurídica popular universitária e direitos humanos: o diálogo entre estudantes e movimentos sociais (1980-2000)**. 2000. Monografia – UFRG.  
    _Fonte:_ [Auto-retrato](auto-retrato.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-69. **Fonte: FREIRE, Paulo "Direitos Humanos e educação libertadora" in "Pedagogia dos Sonhos Possíveis", Coleção: Série Paulo Freire SP:UNESP, 2001**. Coleção: Série Paulo Freire SP:UNESP, 2001.  
+439. **Fonte: FREIRE, Paulo "Direitos Humanos e educação libertadora" in "Pedagogia dos Sonhos Possíveis", Coleção: Série Paulo Freire SP:UNESP, 2001**. Coleção: Série Paulo Freire SP:UNESP, 2001.  
    _Fonte:_ [Da rua para academia, por Lívia Gimenes](da-rua-para-academia-por-livia-gimenes.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-70. **Há 5 anos atrás, em 2008, apresentei minha monografia de conclusão do curso de Direito na UFPR, intitulada "O programa Tarifa Zero no transporte coletivo de Curitiba**. 2008. Monografia – UFPR.  
+440. **Há 5 anos atrás, em 2008, apresentei minha monografia de conclusão do curso de Direito na UFPR, intitulada "O programa Tarifa Zero no transporte coletivo de Curitiba**. 2008. Monografia – UFPR.  
    _Fonte:_ [A tarifa zero, 5 anos depois...](a-tarifa-zero-5-anos-depois.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-71. **HINO DA GREVE**. [s.d.]. Disponível em: <https://www.piratininga.org.br/novapagina/leitura.asp?id_noticia=9484&topico=Musicas>. Acesso em: 22 nov. 2026.  
+441. **HINO DA GREVE**. [s.d.]. Disponível em: <https://www.piratininga.org.br/novapagina/leitura.asp?id_noticia=9484&topico=Musicas>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Hino da greve (cifra)](hino-da-greve-cifra.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-72. **Humberto Gessinger**. [s.d.]. Disponível em: <https://letras.terra.com.br/engenheiros-do-hawaii/45712/>. Acesso em: 22 nov. 2026.  
+442. **Humberto Gessinger**. [s.d.]. Disponível em: <https://letras.terra.com.br/engenheiros-do-hawaii/45712/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Jornalismo da maioria, ouro de poucos](jornalismo-da-maioria-ouro-de-poucos.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-73. **imagens da RBS**. [s.d.]. Disponível em: <https://mediacenter.clicrbs.com.br/templates/playerpopup.aspx?midia=98136&channel=46>. Acesso em: 22 nov. 2026.  
+443. **imagens da RBS**. [s.d.]. Disponível em: <https://mediacenter.clicrbs.com.br/templates/playerpopup.aspx?midia=98136&channel=46>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Mais de 50 entidades manifestam apoio ao MST de Santa Catarina](mais-de-50-entidades-manifestam-apoio-ao-mst-de-santa.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-74. **Jacques Távora Alfonsin**. [s.d.]. Disponível em: <https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/ribas%28n1v2%29.pdf>. Acesso em: 22 nov. 2026.  
+444. **Jacques Távora Alfonsin**. [s.d.]. Disponível em: <https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/ribas%28n1v2%29.pdf>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-75. **Jogo de Cena**. [s.d.]. [Vídeo]. Disponível em: <https://www.youtube.com/watch?v=i2UbAt6lTL8>. Acesso em: 22 nov. 2026.  
+445. **Jogo de Cena**. [s.d.]. [Vídeo]. Disponível em: <https://www.youtube.com/watch?v=i2UbAt6lTL8>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Mostra O Que Ninguém Vê](mostra-o-que-ninguem-ve-3.html) · _Confiança:_ baixa · [Disponível aqui](https://www.youtube.com/watch?v=i2UbAt6lTL8)
-76. **Justamente no correr da década de 1960 é que Sánchez Vázquez executaria uma virada crítica em sua interpretação marxista da realidade, guinada esta que culminaria com sua obra clássica, inclusive no Brasil, intitulada "Filosofia da práxis". Contumaz crítico da "esclerose e dogmatismo" que o "movimento comunista mundial" seguia – como se refere nos prólogos deste seu livro –, sua tese central ficou assim esculpida: "o marxismo é, acima de tudo, uma filosofia da práxis e não uma nova práxis da fil**. 1960. Tese – [s.l.: s.n.].  
+446. **Justamente no correr da década de 1960 é que Sánchez Vázquez executaria uma virada crítica em sua interpretação marxista da realidade, guinada esta que culminaria com sua obra clássica, inclusive no Brasil, intitulada "Filosofia da práxis". Contumaz crítico da "esclerose e dogmatismo" que o "movimento comunista mundial" seguia – como se refere nos prólogos deste seu livro –, sua tese central ficou assim esculpida: "o marxismo é, acima de tudo, uma filosofia da práxis e não uma nova práxis da fil**. 1960. Tese – [s.l.: s.n.].  
    _Fonte:_ [Sánchez Vázquez: renovação marxista, utopia e estética](sanchez-vazquez-renovacao-marxista-utopia-e-estetica.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-77. **Lívia Gimenes Dias da Fonseca, mestranda em Direito pela Universidade de Brasília, integrante da equipe de coordenação do projeto "Promotoras Legais Populares do Distrito Federal" (PLPs/DF) e da linha de pesquisa "O Direito Achado na Rua". O meu diploma de graduação é da faculdade de Direito da USP, mas a minha verdadeira formação se deu pelo Serviço de Assessoria Jurídica Universitária (SAJU/USP) do qual fiz parte de 2003 à 2007**. [s.l.]: [s.n.], 2007.  
+447. **Lívia Gimenes Dias da Fonseca, mestranda em Direito pela Universidade de Brasília, integrante da equipe de coordenação do projeto "Promotoras Legais Populares do Distrito Federal" (PLPs/DF) e da linha de pesquisa "O Direito Achado na Rua". O meu diploma de graduação é da faculdade de Direito da USP, mas a minha verdadeira formação se deu pelo Serviço de Assessoria Jurídica Universitária (SAJU/USP) do qual fiz parte de 2003 à 2007**. [s.l.]: [s.n.], 2007.  
    _Fonte:_ [Colunistas](colunistas.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-78. **Löwy, cientista social de formação, foi para a Europa na década de 1960, onde se doutorou sob a orientação de um dos expoentes franceses do marxismo do século XX, Lucien Goldman, e onde consolidou sua carreira acadêmica no Centro Social de Pesquisa Científica, em Paris**. [s.l.]: [s.n.], 1960.  
+448. **Löwy, cientista social de formação, foi para a Europa na década de 1960, onde se doutorou sob a orientação de um dos expoentes franceses do marxismo do século XX, Lucien Goldman, e onde consolidou sua carreira acadêmica no Centro Social de Pesquisa Científica, em Paris**. [s.l.]: [s.n.], 1960.  
    _Fonte:_ [Crítica da ecologia política](critica-da-ecologia-politica.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-79. **LÖWY, Michael. "Introdução: pontos de referência para uma história do marxismo na América Latina**. *Luís Carlos Borges. 2 ed. ampl. São Paulo*, São Paulo, p. 9-64, 2006.  
+449. **LÖWY, Michael. "Introdução: pontos de referência para uma história do marxismo na América Latina**. *Luís Carlos Borges. 2 ed. ampl. São Paulo*, São Paulo, p. 9-64, 2006.  
    _Fonte:_ [Companheiros haitianos, presente!: relato de um espaço de formação sobre a América Latina](companheiros-haitianos-presente-relato-de-um-espaco-de.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-80. **Lyra Filho, Roberto, "Marx e o direito", In: Educação & Sociedade**. In: [coletânea], 1984.  
+450. **Lyra Filho, Roberto, "Marx e o direito", In: Educação & Sociedade**. In: [coletânea], 1984.  
    _Fonte:_ [Atualização com textos de Lyra Filho](atualizacao-com-textos-de-lyra-filho.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-81. **Lyra Filho, Roberto, "Problemas atuais do ensino jurídico", Brasília: Obreira, 1981**. Brasília: Obreira, 1981.  
+451. **Lyra Filho, Roberto, "Problemas atuais do ensino jurídico", Brasília: Obreira, 1981**. Brasília: Obreira, 1981.  
    _Fonte:_ [Atualização com textos de Lyra Filho](atualizacao-com-textos-de-lyra-filho.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-82. **Maio, nosso maio**. [s.d.]. [Vídeo]. Disponível em: <https://vimeo.com/23105830>. Acesso em: 22 nov. 2026.  
+452. **Maio, nosso maio**. [s.d.]. [Vídeo]. Disponível em: <https://vimeo.com/23105830>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Maio, mês... do trabalho](maio-mes-do-trabalho.html) · _Confiança:_ baixa · [Disponível aqui](https://vimeo.com/23105830)
-83. **Mais uma vez, orientadas pelo curso, nós fomos buscar dados. Segundo o "IV Diagnóstico da Defensoria Pública no Brasil", divulgado em 2016 (com dados de 2015), havia à época no Rio de Janeiro uma razão de 8.987 potenciais assistidos para cada UM defensor público empossado - o que, chocantemente, é um número que coloca o Rio de Janeiro em posição de vantagem em relação aos demais estados que têm ainda menos defensores. Ainda, sem novos estudos e informações de um número razoável de novas posses,**. 2015. [Relatório].  
+453. **Mais uma vez, orientadas pelo curso, nós fomos buscar dados. Segundo o "IV Diagnóstico da Defensoria Pública no Brasil", divulgado em 2016 (com dados de 2015), havia à época no Rio de Janeiro uma razão de 8.987 potenciais assistidos para cada UM defensor público empossado - o que, chocantemente, é um número que coloca o Rio de Janeiro em posição de vantagem em relação aos demais estados que têm ainda menos defensores. Ainda, sem novos estudos e informações de um número razoável de novas posses,**. 2015. [Relatório].  
    _Fonte:_ [Vamos precisar de todo mundo: um mais um é sempre mais que dois](vamos-precisar-de-todo-mundo-um-mais-um-e-sempre-mais-que.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-84. **Movimento Faculdade Interativa**. [s.d.]. Disponível em: <https://interativaonline.blogspot.com/2009/02/semana-manoel-mattos-de-direitos.html>. Acesso em: 22 nov. 2026.  
+454. **Movimento Faculdade Interativa**. [s.d.]. Disponível em: <https://interativaonline.blogspot.com/2009/02/semana-manoel-mattos-de-direitos.html>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Entre coronéis e pistoleiros: um ano sem Manoel Mattos](entre-coroneis-e-pistoleiros-um-ano-sem-manoel-mattos.html) · _Confiança:_ baixa · [Disponível aqui](https://interativaonline.blogspot.com/2009/02/semana-manoel-mattos-de-direitos.html)
-85. **MST: Organização Terrorista**. [s.d.]. [Vídeo]. Disponível em: <https://www.youtube.com/playlist?p=PL1A64D59D76A42F02>. Acesso em: 22 nov. 2026.  
+455. **MST: Organização Terrorista**. [s.d.]. [Vídeo]. Disponível em: <https://www.youtube.com/playlist?p=PL1A64D59D76A42F02>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Mostra o que ninguém vê](mostra-o-que-ninguem-ve-2.html) · _Confiança:_ baixa · [Disponível aqui](https://www.youtube.com/playlist?p=PL1A64D59D76A42F02)
-86. **Neste item duas coisas devem ser frisadas para ver o descalabro que aqui se estabelece: os 1500 devem ser unicamente de Curitiba, pois é sabido que não há estrutura no interior do Estado e mesmo que houvesse seria estranho imaginarmos (com toda a boa vontade do mundo) que ele fosse itinerante. Já no Rio de Janeiro, os 1050 termos são do Estado todo**. 1500. [Relatório].  
+456. **Neste item duas coisas devem ser frisadas para ver o descalabro que aqui se estabelece: os 1500 devem ser unicamente de Curitiba, pois é sabido que não há estrutura no interior do Estado e mesmo que houvesse seria estranho imaginarmos (com toda a boa vontade do mundo) que ele fosse itinerante. Já no Rio de Janeiro, os 1050 termos são do Estado todo**. 1500. [Relatório].  
    _Fonte:_ [Defenda a defensoria pública!: para banir um direito sonegado](defenda-a-defensoria-publica-para-banir-um-direito-sonegado.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-87. **Nós somos os colaboradores do blogue "Assessoria jurídica popular". Hoje, um ano após a primeira postagem, em 16 de agosto de 2009, vamos contar a nossa história. Deste espaço que é comunicação, pesquisa, resenhas e poemas**. [s.l.]: [s.n.], 2009.  
+457. **Nós somos os colaboradores do blogue "Assessoria jurídica popular". Hoje, um ano após a primeira postagem, em 16 de agosto de 2009, vamos contar a nossa história. Deste espaço que é comunicação, pesquisa, resenhas e poemas**. [s.l.]: [s.n.], 2009.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-88. **Nosso objetivo maior foi fomentar projetos de pesquisa e extensão na cidade de Teresina, especialmente, debater com os integrantes do CORAJE e do CAJUÍNA. Acabamos contribuindo para os debates que ocorrerão no próximo Encontro Nacional das Assessorias Universitárias - ERENAJU, que ocorrerá em Teresina, em abril de 2010**. [s.l.]: [s.n.], 2010.  
+458. **Nosso objetivo maior foi fomentar projetos de pesquisa e extensão na cidade de Teresina, especialmente, debater com os integrantes do CORAJE e do CAJUÍNA. Acabamos contribuindo para os debates que ocorrerão no próximo Encontro Nacional das Assessorias Universitárias - ERENAJU, que ocorrerá em Teresina, em abril de 2010**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [Minicurso "Crítica da crítica crítica" no Piauí](minicurso-critica-da-critica-critica-no-piaui.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-89. **O GEAP tem pesquisado os usos do Direito e as ações do Estado no tratamento das manifestações de rua na cidade do Rio de Janeiro em 2013. Nesta fase da pesquisa nos direcionamos aos advogados que atuaram na defesa do direito de livre manifestação, seja através de coletivos ou mesmo individualmente**. [s.l.]: [s.n.], 2013.  
+459. **O GEAP tem pesquisado os usos do Direito e as ações do Estado no tratamento das manifestações de rua na cidade do Rio de Janeiro em 2013. Nesta fase da pesquisa nos direcionamos aos advogados que atuaram na defesa do direito de livre manifestação, seja através de coletivos ou mesmo individualmente**. [s.l.]: [s.n.], 2013.  
    _Fonte:_ [Oficina de balanço da advocacia no Rio de Janeiro](oficina-de-balanco-da-advocacia-no-rio-de-janeiro.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-90. **O Paraná que viu a Operação Marumbi e o Massacre de Medianeira, várias prisões, desaparecimentos e mortes, também participa desta aviltante página da história nacional. Muitos livros de história podem ser citados, mas fiquemos com apenas um que elabora um cruel ainda que importante "mapa da tortura". No livro "Ex-presos políticos e a memória social da tortura no Paraná (1964-1978)", Silvia Calciolari percebe o aumento do número de técnicas, seguindo o aperfeiçoamento da "franquia da tortura", co**. 1978. Tese – [s.l.: s.n.].  
+460. **O Paraná que viu a Operação Marumbi e o Massacre de Medianeira, várias prisões, desaparecimentos e mortes, também participa desta aviltante página da história nacional. Muitos livros de história podem ser citados, mas fiquemos com apenas um que elabora um cruel ainda que importante "mapa da tortura". No livro "Ex-presos políticos e a memória social da tortura no Paraná (1964-1978)", Silvia Calciolari percebe o aumento do número de técnicas, seguindo o aperfeiçoamento da "franquia da tortura", co**. 1978. Tese – [s.l.: s.n.].  
    _Fonte:_ [No dia da mentira, anistiaram a verdade... #desarquivandoBR](no-dia-da-mentira-anistiaram-a-verdade-desarquivandobr.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-91. **Outro bom exemplo a ser aventado, em termos históricos, é o da fundação da primeira Faculdade de Sociologia da América Latina, na Universidade Nacional da Colômbia, levada a cabo em 1960. Foram seus pioneiros, dentre outros, o padre Camilo Torres e o sociólogo Orlando Fals Borda e ambos teriam uma atividade político-científica das mais importantes do continente, sendo que o primeiro, um teólogo da libertação, iria para a guerrilha armada, após intensa vida sacerdotal e acadêmica, e o segundo des**. [s.l.]: [s.n.], 1960.  
+461. **Outro bom exemplo a ser aventado, em termos históricos, é o da fundação da primeira Faculdade de Sociologia da América Latina, na Universidade Nacional da Colômbia, levada a cabo em 1960. Foram seus pioneiros, dentre outros, o padre Camilo Torres e o sociólogo Orlando Fals Borda e ambos teriam uma atividade político-científica das mais importantes do continente, sendo que o primeiro, um teólogo da libertação, iria para a guerrilha armada, após intensa vida sacerdotal e acadêmica, e o segundo des**. [s.l.]: [s.n.], 1960.  
    _Fonte:_ [Universidade popular na América Latina (3)](universidade-popular-na-america-latina-3.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-92. **Outro é do advogado popular Thomaz Miguel Pressburger (1930-2008), intitulado "Derechos humanos, administración de justicia y otros organismos del Estado", da Revista El Otro Derecho, do ILSA, Colômbia**. *[periódico]*, 2008.  
+462. **Outro é do advogado popular Thomaz Miguel Pressburger (1930-2008), intitulado "Derechos humanos, administración de justicia y otros organismos del Estado", da Revista El Otro Derecho, do ILSA, Colômbia**. *[periódico]*, 2008.  
    _Fonte:_ [Novos textos na biblioteca digital da AJP](novos-textos-na-biblioteca-digital-da-ajp.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-93. **Outros também vivem à margem de uma cobertura jornalística mais apurada. O Movimento dos Sem-Terra, por exemplo, aparece aos olhos da opinião pública como "um bando de baderneiros" que "completa um quarto de século zombando da lei", como diria reportagem da Revista VEJA, em 28 de janeiro de 2010**. *[periódico]*, 2010.  
+463. **Outros também vivem à margem de uma cobertura jornalística mais apurada. O Movimento dos Sem-Terra, por exemplo, aparece aos olhos da opinião pública como "um bando de baderneiros" que "completa um quarto de século zombando da lei", como diria reportagem da Revista VEJA, em 28 de janeiro de 2010**. *[periódico]*, 2010.  
    _Fonte:_ [Jornalismo da maioria, ouro de poucos](jornalismo-da-maioria-ouro-de-poucos.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-94. **Página do MST**. [s.d.]. Disponível em: <https://www.mst.org.br/>. Acesso em: 22 nov. 2026.  
+464. **Página do MST**. [s.d.]. Disponível em: <https://www.mst.org.br/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Hélio Bicudo sobre o MST](helio-bicudo-sobre-o-mst.html) · _Confiança:_ baixa · [Disponível aqui](https://www.mst.org.br/)
-95. **Parece não restar nenhuma dúvida. Um despacho judicial, como o prolatado nesse caso de Cruz Alta, confirma o que já era sabido há muito tempo. Em 1987, durante uma conferência da OAB nacional realizada em Belém do Pará, justamente com o objetivo de se agilizar o respeito devido aos direitos humanos fundamentais do povo pobre, aí se incluindo as/os sem terra com direito à reforma agrária, transitava no auditório a seguinte tese: "é preciso garantir-se que a reforma agrária, atualmente impedida pe**. 1987. Tese – [s.l.: s.n.].  
+465. **Parece não restar nenhuma dúvida. Um despacho judicial, como o prolatado nesse caso de Cruz Alta, confirma o que já era sabido há muito tempo. Em 1987, durante uma conferência da OAB nacional realizada em Belém do Pará, justamente com o objetivo de se agilizar o respeito devido aos direitos humanos fundamentais do povo pobre, aí se incluindo as/os sem terra com direito à reforma agrária, transitava no auditório a seguinte tese: "é preciso garantir-se que a reforma agrária, atualmente impedida pe**. 1987. Tese – [s.l.: s.n.].  
    _Fonte:_ [Quando a ocupação de terra é a única saída](quando-a-ocupacao-de-terra-e-a-unica-saida.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-96. **Perspectivas atuais da criminologia: método, problemas, aplicações**. Recife: Imprensa Oficial de Pernambuco, 1967.  
+466. **Perspectivas atuais da criminologia: método, problemas, aplicações**. Recife: Imprensa Oficial de Pernambuco, 1967.  
    _Fonte:_ [Biblioteca crescendo](biblioteca-crescendo.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-97. **Por fim, gostaria de convidar todas e todos para comporem o projeto de pesquisa-ação "Assessoria popular em Curitiba", que será iniciado em 2011. Convidar, especialmente, o coletivo de advogados populares, Fórum de extensão da UFPR e Terra de Direitos. O projeto é proposto também pelos professores Ricardo Pazello e Ivan Furmann**. [s.l.]: [s.n.], 2011.  
+467. **Por fim, gostaria de convidar todas e todos para comporem o projeto de pesquisa-ação "Assessoria popular em Curitiba", que será iniciado em 2011. Convidar, especialmente, o coletivo de advogados populares, Fórum de extensão da UFPR e Terra de Direitos. O projeto é proposto também pelos professores Ricardo Pazello e Ivan Furmann**. [s.l.]: [s.n.], 2011.  
    _Fonte:_ [Novidades da semana: para ler e comemorar](novidades-da-semana-para-ler-e-comemorar.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-98. **Por fim, neste caso, o Estado, Judiciário e Executivo (Brigada Militar), contradisseram os entendimentos acima, ou melhor, o restringiram para somente a defesa e proteção de um direito, o de propriedade. Seguindo esta linha, exclui-se da Justiça o papel de guardiã da Constituição como um todo, do ordenamento jurídico, fica longe o Judiciário dos objetivos fundamentais da República, nega-se, assim, um perfil de realizador do bem comum. Para que a Justiça existe, então continua confuso, mas seguin**. 2014. [Relatório].  
+468. **Por fim, neste caso, o Estado, Judiciário e Executivo (Brigada Militar), contradisseram os entendimentos acima, ou melhor, o restringiram para somente a defesa e proteção de um direito, o de propriedade. Seguindo esta linha, exclui-se da Justiça o papel de guardiã da Constituição como um todo, do ordenamento jurídico, fica longe o Judiciário dos objetivos fundamentais da República, nega-se, assim, um perfil de realizador do bem comum. Para que a Justiça existe, então continua confuso, mas seguin**. 2014. [Relatório].  
    _Fonte:_ [Para que a Justiça brasileira existe?](para-que-a-justica-brasileira-existe.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-99. BRASIL. **Primeiro Bloco**. [s.d.]. Disponível em: <https://imagem.camara.gov.br/internet/midias/TV/2008/09/tvcasintonia20080929-002-wm.100.wmv>. Acesso em: 22 nov. 2026.  
+469. BRASIL. **Primeiro Bloco**. [s.d.]. Disponível em: <https://imagem.camara.gov.br/internet/midias/TV/2008/09/tvcasintonia20080929-002-wm.100.wmv>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Entrevista com Flávio Tavares](entrevista-com-flavio-tavares.html) · _Confiança:_ baixa · [Disponível aqui](https://imagem.camara.gov.br/internet/midias/TV/2008/09/tvcasintonia20080929-002-wm.100.wmv)
-100. **Publicamos em nossa biblioteca digital a dissertação de mestrado do Lucas Nascimento Seara, com o título "A promoção dos direitos humanos no campo da AIDS: estudo de caso da Assessoria jurídica no Grupo de Apoio à Prevenção à AIDS da Bahia (GAPA/BA)", na Escola de Administração da Universidade Federal da Bahia, em 2011**. 2011. Dissertação – Universidade Federal da Bahia.  
+470. **Publicamos em nossa biblioteca digital a dissertação de mestrado do Lucas Nascimento Seara, com o título "A promoção dos direitos humanos no campo da AIDS: estudo de caso da Assessoria jurídica no Grupo de Apoio à Prevenção à AIDS da Bahia (GAPA/BA)", na Escola de Administração da Universidade Federal da Bahia, em 2011**. 2011. Dissertação – Universidade Federal da Bahia.  
    _Fonte:_ [A promoção dos direitos humanos no campo da AIDS](a-promocao-dos-direitos-humanos-no-campo-da-aids.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-101. **Rádio comunitária Campeche**. [s.d.]. Disponível em: <https://www.radiocampeche.com.br/>. Acesso em: 22 nov. 2026.  
+471. **Rádio comunitária Campeche**. [s.d.]. Disponível em: <https://www.radiocampeche.com.br/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Elaine Tavares e o desafio da comunicação](elaine-tavares-e-o-desafio-da-comunicacao.html) · _Confiança:_ baixa · [Disponível aqui](https://www.radiocampeche.com.br/)
-102. **Rádio Progresso**. [s.d.]. Disponível em: <https://www.radioprogresso640.com.br/2011/10/indios-kayabi-mantem-sete-refens-contra-construcao-de-usina-no-teles-pires/>. Acesso em: 22 nov. 2026.  
+472. **Rádio Progresso**. [s.d.]. Disponível em: <https://www.radioprogresso640.com.br/2011/10/indios-kayabi-mantem-sete-refens-contra-construcao-de-usina-no-teles-pires/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Povos Kayabi, Apiaka e Munduruku contra construção de hidroelétrica](povos-kayabi-apiaka-e-munduruku-contra-construcao-de.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-103. **Recebemos o trabalho da professora da UFTO, Shirley Silveira Andrade, sua dissertação de mestrado em direito na Universidade Federal de Pernambuco, intitulada "Movimento popular como sujeito criador de direitos", de 2003**. 2003. Dissertação – UFTO.  
+473. **Recebemos o trabalho da professora da UFTO, Shirley Silveira Andrade, sua dissertação de mestrado em direito na Universidade Federal de Pernambuco, intitulada "Movimento popular como sujeito criador de direitos", de 2003**. 2003. Dissertação – UFTO.  
    _Fonte:_ [Novidades da semana: para ler e comemorar](novidades-da-semana-para-ler-e-comemorar.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-104. **Recomenda-se ainda a leitura do livro "O acesso à terra como conteúdo de direitos humanos fundamentais à alimentação e à moradia", sua dissertação de mestrado em direito na Unisinos, que foi publicada pela Sérgio Antonio Fabris, de Porto Alegre, em 2003**. 2003. Dissertação – [s.l.: s.n.].  
+474. **Recomenda-se ainda a leitura do livro "O acesso à terra como conteúdo de direitos humanos fundamentais à alimentação e à moradia", sua dissertação de mestrado em direito na Unisinos, que foi publicada pela Sérgio Antonio Fabris, de Porto Alegre, em 2003**. 2003. Dissertação – [s.l.: s.n.].  
    _Fonte:_ [Entrevista com Jacques Alfonsin](entrevista-com-jacques-alfonsin.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-105. **Relatos do Inimigo no Campo: A Criminalização dos Movimentos Sociais no Rio Grande do Sul (2006-2010)**. 2010. Monografia – [s.l.: s.n.].  
+475. **Relatos do Inimigo no Campo: A Criminalização dos Movimentos Sociais no Rio Grande do Sul (2006-2010)**. 2010. Monografia – [s.l.: s.n.].  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-106. **Resenha - MARX, Karl. Simón Bolívar por Karl Marx**. São Paulo: Martins, 2008.  
+476. **Resenha - MARX, Karl. Simón Bolívar por Karl Marx**. São Paulo: Martins, 2008.  
    _Fonte:_ [Sítio da revista Captura Críptica](sitio-da-revista-captura-criptica.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-107. **Resistência Popular**. [s.d.]. Disponível em: <https://resistenciapopular.blogspot.com/>. Acesso em: 22 nov. 2026.  
+477. **Resistência Popular**. [s.d.]. Disponível em: <https://resistenciapopular.blogspot.com/>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Mapeamento](mapeamento.html) · _Confiança:_ baixa · [Disponível aqui](https://resistenciapopular.blogspot.com/)
-108. **Retrato da repressão política no campo: Brasil, 1962-1985 (2011) - Ana Carneiro e Marta Cioccari (ver o item que finaliza o livro: "Advogados vítimas de repressão", com informações livremente extraídas de nosso blogue)**. [s.l.]: Brasil, 2011.  
+478. **Retrato da repressão política no campo: Brasil, 1962-1985 (2011) - Ana Carneiro e Marta Cioccari (ver o item que finaliza o livro: "Advogados vítimas de repressão", com informações livremente extraídas de nosso blogue)**. [s.l.]: Brasil, 2011.  
    _Fonte:_ [A advocacia política e os 50 anos da ditadura: estudos e personagens](a-advocacia-politica-e-os-50-anos-da-ditadura-estudos-e.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-109. **Sou assessor estudantil (1) há 6 anos. Em Passo Fundo atuei no Centro de Assessoria Jurídica Universitária e Popular - CAJU Sepé Tiaraju, de 2004 a 2006. Em Florianópolis atuei no Núcleo de Estudos e Práticas Emancipatórias - NEPE UFSC, de 2007 a 2009**. In: [coletânea], 2009.  
+479. **Sou assessor estudantil (1) há 6 anos. Em Passo Fundo atuei no Centro de Assessoria Jurídica Universitária e Popular - CAJU Sepé Tiaraju, de 2004 a 2006. Em Florianópolis atuei no Núcleo de Estudos e Práticas Emancipatórias - NEPE UFSC, de 2007 a 2009**. In: [coletânea], 2009.  
    _Fonte:_ [Auto-retrato](auto-retrato.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-110. **Telma Monteiro**. [s.d.]. Disponível em: <https://telmadmonteiro.blogspot.com.br/2011/08/tres-hidreletricas-ameacam-indigenas-no.html>. Acesso em: 22 nov. 2026.  
+480. **Telma Monteiro**. [s.d.]. Disponível em: <https://telmadmonteiro.blogspot.com.br/2011/08/tres-hidreletricas-ameacam-indigenas-no.html>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Povos Kayabi, Apiaka e Munduruku contra construção de hidroelétrica](povos-kayabi-apiaka-e-munduruku-contra-construcao-de.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-111. **Thomaz Miguel Pressburger foi advogado popular, coordenador do Instituto Apoio Jurídico Popular, ex-diretor do Departamento de Pesquisa e Documentação da OAB/RJ, no Rio de Janeiro – RJ, assessor jurídico da Comissão Pastoral da Terra do Rio de Janeiro e nacional. Faleceu em 13 de julho de 2008**. [s.l.]: [s.n.], 2008.  
+481. **Thomaz Miguel Pressburger foi advogado popular, coordenador do Instituto Apoio Jurídico Popular, ex-diretor do Departamento de Pesquisa e Documentação da OAB/RJ, no Rio de Janeiro – RJ, assessor jurídico da Comissão Pastoral da Terra do Rio de Janeiro e nacional. Faleceu em 13 de julho de 2008**. [s.l.]: [s.n.], 2008.  
    _Fonte:_ [Thomaz Miguel Pressburger, presente!](thomaz-miguel-pressburger-presente.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-112. **Tivemos acesso a pesquisa da Carla Miranda, intitulada "Na práxis da Assessoria Jurídica Universitária Popular: extensão e produção de conhecimento", no mestrado em direito da Universidade Federal da Paraíba, de 2010**. [s.l.]: [s.n.], 2010.  
+482. **Tivemos acesso a pesquisa da Carla Miranda, intitulada "Na práxis da Assessoria Jurídica Universitária Popular: extensão e produção de conhecimento", no mestrado em direito da Universidade Federal da Paraíba, de 2010**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [Novidades da semana: para ler e comemorar](novidades-da-semana-para-ler-e-comemorar.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-113. **Todos estão chamados e convidados para assinar esta convocação e para participar do II Seminário Direito, Pesquisa e Movimentos Sociais, e da assembléia de fundação do Instituto de Pesquisa, Direito e Movimentos Sociais, que será realizado na Universidade Federal de Goiás – UFG, Campus Cidade de Goiás/GO, nos dias 26, 27 e 28 de abril de 2012**. [s.l.]: [s.n.], 2012.  
+483. **Todos estão chamados e convidados para assinar esta convocação e para participar do II Seminário Direito, Pesquisa e Movimentos Sociais, e da assembléia de fundação do Instituto de Pesquisa, Direito e Movimentos Sociais, que será realizado na Universidade Federal de Goiás – UFG, Campus Cidade de Goiás/GO, nos dias 26, 27 e 28 de abril de 2012**. [s.l.]: [s.n.], 2012.  
    _Fonte:_ [II Seminário Direito, Pesquisa e Movimentos Sociais](ii-seminario-direito-pesquisa-e-movimentos-sociais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-114. **Universidade popular**. [s.d.]. Disponível em: <https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/diehl%28n1v2%29.pdf>. Acesso em: 22 nov. 2026.  
+484. **Universidade popular**. [s.d.]. Disponível em: <https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/diehl%28n1v2%29.pdf>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-115. **Versão para visualização**. [s.d.]. Disponível em: <https://issuu.com/assessoriajuridicapopular/docs/ipdms_cadernos_insurgentes_visualiz>. Acesso em: 22 nov. 2026.  
+485. **Versão para visualização**. [s.d.]. Disponível em: <https://issuu.com/assessoriajuridicapopular/docs/ipdms_cadernos_insurgentes_visualiz>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Cadernos Insurgentes e o caso do MP/RS versus MST 2008](cadernos-insurgentes-e-o-caso-do-mp-rs-versus-mst-2008.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-116. BALDEZ, Miguel Lanzellotti. **Ainda a reforma urbana: notas sobre algumas conquistas institucionais – Mecanismos de concretização: conselhos de participação popular.**. [s.l.]: [s.n.], [s.d.].  
+486. BALDEZ, Miguel Lanzellotti. **Ainda a reforma urbana: notas sobre algumas conquistas institucionais – Mecanismos de concretização: conselhos de participação popular.**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Biblioteca Miguel Lanzellotti Baldez](biblioteca-miguel-lanzellotti-baldez.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-117. BALDEZ, Miguel Lanzellotti. **Usucapião especial urbano, ou usucapião pró-moradia.**. [s.l.]: [s.n.], [s.d.].  
+487. BALDEZ, Miguel Lanzellotti. **Usucapião especial urbano, ou usucapião pró-moradia.**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Biblioteca Miguel Lanzellotti Baldez](biblioteca-miguel-lanzellotti-baldez.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-118. COSTA, Beatriz. **Para analisar uma prática de educação popular**. [s.l.]: [s.n.], [s.d.].  
+488. COSTA, Beatriz. **Para analisar uma prática de educação popular**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-119. Betinho Goes, em 25 de julho de 2010. **O homem da "casa" de papelão - direito da indiferença"**. [s.l.]: [s.n.], 2010.  
+489. Betinho Goes, em 25 de julho de 2010. **O homem da "casa" de papelão - direito da indiferença"**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-120. SANTOS, Boaventura de Sousa. **A crítica da razão indolente**. [s.l.]: [s.n.], [s.d.].  
+490. SANTOS, Boaventura de Sousa. **A crítica da razão indolente**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-121. SANTOS, Boaventura de Sousa. **Justiça popular, dualidade de poderes e estratégia socialista**. [s.l.]: [s.n.], [s.d.].  
+491. SANTOS, Boaventura de Sousa. **Justiça popular, dualidade de poderes e estratégia socialista**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-122. SANTOS, Boaventura de Sousa. **Pela mão de Alice**. [s.l.]: [s.n.], [s.d.].  
+492. SANTOS, Boaventura de Sousa. **Pela mão de Alice**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-123. PRADO JUNIOR, Caio. **A revolução brasileira**. [s.l.]: [s.n.], [s.d.].  
+493. PRADO JUNIOR, Caio. **A revolução brasileira**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-124. PORTINÁRI, Cândido. **O lavrador de café" (1934)**. [s.l.]: [s.n.], 1934.  
+494. PORTINÁRI, Cândido. **O lavrador de café" (1934)**. [s.l.]: [s.n.], 1934.  
    _Fonte:_ [A questão agrária na América Latina: questionamentos iniciais](a-questao-agraria-na-america-latina-questionamentos-iniciais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-125. ANDRADE, Carlos Drummond de. **Sentimento de mundo**. [s.l.]: [s.n.], [s.d.].  
+495. ANDRADE, Carlos Drummond de. **Sentimento de mundo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-126. CHAVES, Carlos Eduardo Lemos. **Da resistência à força" é o tema central do meu projeto de pesquisa apresentado no Programa de Pós-Graduação em Direitos Sociais do Campo – Residência Agrária, da Universidade Federal de Goiás. Merece destaque aqui por trazer um duplo sentido: seja o da resistência à força bruta empregada pela Marinha de Guerra do Brasil na gradativa tentativa de total desterritorialização da Comunidade Quilombola do Rio dos Macacos; seja o da trajetória da resistência, pura e simples,com o acúmulo de visibilida**. [s.l.]: [s.n.], [s.d.].  
+496. CHAVES, Carlos Eduardo Lemos. **Da resistência à força" é o tema central do meu projeto de pesquisa apresentado no Programa de Pós-Graduação em Direitos Sociais do Campo – Residência Agrária, da Universidade Federal de Goiás. Merece destaque aqui por trazer um duplo sentido: seja o da resistência à força bruta empregada pela Marinha de Guerra do Brasil na gradativa tentativa de total desterritorialização da Comunidade Quilombola do Rio dos Macacos; seja o da trajetória da resistência, pura e simples,com o acúmulo de visibilida**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Insurgência quilombola e assessoria jurídica popular](insurgencia-quilombola-e-assessoria-juridica-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-127. MARX, Carlos. **A guerra civil na França**. [s.l.]: [s.n.], [s.d.].  
+497. MARX, Carlos. **A guerra civil na França**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-128. O, Carta Convite para. **II Seminário Direito, Pesquisa e Movimentos Sociais e fundação do Instituto de Pesquisa, Direito e Movimentos Sociais (IPDMS)**. [s.l.]: [s.n.], [s.d.].  
+498. O, Carta Convite para. **II Seminário Direito, Pesquisa e Movimentos Sociais e fundação do Instituto de Pesquisa, Direito e Movimentos Sociais (IPDMS)**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [II Seminário Direito, Pesquisa e Movimentos Sociais](ii-seminario-direito-pesquisa-e-movimentos-sociais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-129. Centro de Articulação de Populações Marginalizadas - CEAP. **Centro Integrado de Apoio a Mulher - CIAM. Cidadania, Estudo, Pesquisa, Informação e Ação - CEPIA**. [s.l.]: [s.n.], [s.d.].  
+499. Centro de Articulação de Populações Marginalizadas - CEAP. **Centro Integrado de Apoio a Mulher - CIAM. Cidadania, Estudo, Pesquisa, Informação e Ação - CEPIA**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Pacto Fórum Justiça do Rio de Janeiro](pacto-forum-justica-do-rio-de-janeiro.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-130. Centro de Assessoria Jurídica Popular de Teresina – Cajuína;. **Grupo de Pesquisa, Ensino e Extensão Direitos Humanos e Cidadania - DiHuCI/UFPI**. [s.l.]: [s.n.], [s.d.].  
+500. Centro de Assessoria Jurídica Popular de Teresina – Cajuína;. **Grupo de Pesquisa, Ensino e Extensão Direitos Humanos e Cidadania - DiHuCI/UFPI**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Carta das comunidades quilombolas de Barro Vermelho e Contente](carta-das-comunidades-quilombolas-de-barro-vermelho-e.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-131. MAIA, Christianny Diógenes. **Assessoria jurídica popular: teoria e prática emancipatória**. [s.d.]. Dissertação – Universidade Federal do Ceará.  
+501. MAIA, Christianny Diógenes. **Assessoria jurídica popular: teoria e prática emancipatória**. [s.d.]. Dissertação – Universidade Federal do Ceará.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-132. GEERTZ, Clifford. **O saber local**. [s.l.]: [s.n.], [s.d.].  
+502. GEERTZ, Clifford. **O saber local**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-133. BOFF, Clódovis. **Como trabalhar com o povo**. [s.l.]: [s.n.], [s.d.].  
+503. BOFF, Clódovis. **Como trabalhar com o povo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-134. Comissão Organizadora. **II Seminário Direito, Pesquisa e Movimentos Sociais**. [s.l.]: [s.n.], [s.d.].  
+504. Comissão Organizadora. **II Seminário Direito, Pesquisa e Movimentos Sociais**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [II Seminário Direito, Pesquisa e Movimentos Sociais](ii-seminario-direito-pesquisa-e-movimentos-sociais.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-135. DANDARA, Comunidade. **RENAP – Rede Nacional de Advogados Populares. IPDMS – Instituto de Pesquisa, Direito e Movimentos Sociais, MG**. [s.l.]: [s.n.], [s.d.].  
+505. DANDARA, Comunidade. **RENAP – Rede Nacional de Advogados Populares. IPDMS – Instituto de Pesquisa, Direito e Movimentos Sociais, MG**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Manifesto contra criminalização da luta contra o uso indiscriminado de agrotóxicos](manifesto-contra-criminalizacao-da-luta-contra-o-uso.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-136. HERZ, Daniel. **A história secreta da Rede Globo**. [s.l.]: [s.n.], [s.d.].  
+506. HERZ, Daniel. **A história secreta da Rede Globo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Elaine Tavares e o desafio da comunicação](elaine-tavares-e-o-desafio-da-comunicacao.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-137. RIBEIRO, Darci. **O povo brasileiro**. [s.l.]: [s.n.], [s.d.].  
+507. RIBEIRO, Darci. **O povo brasileiro**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-138. RIBEIRO, Darcy. **A universidade necessária**. [s.l.]: [s.n.], [s.d.].  
+508. RIBEIRO, Darcy. **A universidade necessária**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-139. (1961), Di Cavalcânti. **Tempos modernos**. [s.l.]: [s.n.], 1961.  
+509. (1961), Di Cavalcânti. **Tempos modernos**. [s.l.]: [s.n.], 1961.  
    _Fonte:_ [A divisão social do trabalho intelectual: perplexidades antropológicas](a-divisao-social-do-trabalho-intelectual-perplexidades.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-140. PEREIRA, Diana Melo. **Sem porta-voz na rua, sem dono em casa: as lutas do movimento de mulheres camponesas (MMC Brasil) pelo direito a uma vida sem violência**. [s.d.]. Dissertação – [s.l.: s.n.].  
+510. PEREIRA, Diana Melo. **Sem porta-voz na rua, sem dono em casa: as lutas do movimento de mulheres camponesas (MMC Brasil) pelo direito a uma vida sem violência**. [s.d.]. Dissertação – [s.l.: s.n.].  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-141. DIEHL, Diego Augusto. **Espaços territoriais especialmente protegidos como instrumentos jurídicos de defesa dos povos da Amazônia: uma análise dos riscos socioambientais da expansão da soja geneticamente modificada**. [s.d.]. Dissertação – UFPA. Disponível em: <https://issuu.com/diegodiehl/docs/diego_augusto_diehl_-_disserta____o>. Acesso em: 22 nov. 2026.  
+511. DIEHL, Diego Augusto. **Espaços territoriais especialmente protegidos como instrumentos jurídicos de defesa dos povos da Amazônia: uma análise dos riscos socioambientais da expansão da soja geneticamente modificada**. [s.d.]. Dissertação – UFPA. Disponível em: <https://issuu.com/diegodiehl/docs/diego_augusto_diehl_-_disserta____o>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · ~~Disponível aqui~~ (link não respondeu)
-142. Diego Augusto Diehl, em 13 de março de 2010. **Um novo direito internacional desde a América Latina**. [s.l.]: [s.n.], 2010.  
+512. Diego Augusto Diehl, em 13 de março de 2010. **Um novo direito internacional desde a América Latina**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-143. DUSSEL, Enrique. **1492: o encobrimento do outro. Conferências 1 e 5**. [s.l.]: [s.n.], [s.d.].  
+513. DUSSEL, Enrique. **1492: o encobrimento do outro. Conferências 1 e 5**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Minicurso da Crítica ao Direito no Maranhão](minicurso-da-critica-ao-direito-no-maranhao.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-144. ARRUDA JUNIOR, Edmundo Lima de. **Direito moderno e mudança social: ensaios de sociologia jurídica**. [s.l.]: [s.n.], [s.d.].  
+514. ARRUDA JUNIOR, Edmundo Lima de. **Direito moderno e mudança social: ensaios de sociologia jurídica**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-145. GALEANO, Eduardo. **As veias abertas da América Latina**. [s.l.]: [s.n.], [s.d.].  
+515. GALEANO, Eduardo. **As veias abertas da América Latina**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-146. GALEANO, Eduardo. **De pernas pro ar: uma escola do mundo ao avesso**. [s.l.]: [s.n.], [s.d.].  
+516. GALEANO, Eduardo. **De pernas pro ar: uma escola do mundo ao avesso**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-147. Educação, Direito e Universidade. **Educação jurídica para a libertação**. [s.l.]: [s.n.], [s.d.].  
+517. Educação, Direito e Universidade. **Educação jurídica para a libertação**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [da Tensão ao Tesão - (des) ordem e processo no surgimento do NAJUP-DF](da-tensao-ao-tesao-des-ordem-e-processo-no-surgimento-do.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-148. BRAVO, Efendy Emiliano Maldonado. **Os (des)caminhos do constitucionalismo latino-americano: o caso equatoriano desde a plurinacionalidade e a libertação**. [s.d.]. Tese – UFSC. Disponível em: <https://repositorio.ufsc.br/handle/123456789/214678>. Acesso em: 22 nov. 2026.  
+518. BRAVO, Efendy Emiliano Maldonado. **Os (des)caminhos do constitucionalismo latino-americano: o caso equatoriano desde a plurinacionalidade e a libertação**. [s.d.]. Tese – UFSC. Disponível em: <https://repositorio.ufsc.br/handle/123456789/214678>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · [Disponível aqui](https://repositorio.ufsc.br/handle/123456789/214678)
-149. FOTI, Elvis. **Na prisão**. [s.l.]: [s.n.], [s.d.].  
+519. FOTI, Elvis. **Na prisão**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Mais uma defensora de direitos humanos presa: caso colombiano](mais-uma-defensora-de-direitos-humanos-presa-caso-colombiano.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-150. DUSSEL, Enrique. **20 teses sobre política**. [s.l.]: [s.n.], [s.d.].  
+520. DUSSEL, Enrique. **20 teses sobre política**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-151. DUSSEL, Enrique. **Filosofia da libertação**. [s.l.]: [s.n.], [s.d.].  
+521. DUSSEL, Enrique. **Filosofia da libertação**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-152. Estado, Poder e Democracia. **Democracia, Poder e Estado**. [s.d.].  
+522. Estado, Poder e Democracia. **Democracia, Poder e Estado**. [s.d.].  
    _Fonte:_ [da Tensão ao Tesão - (des) ordem e processo no surgimento do NAJUP-DF](da-tensao-ao-tesao-des-ordem-e-processo-no-surgimento-do.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-153. PACHUCÂNIS, Eugênio. **Teoria geral do direito e marxismo**. [s.l.]: [s.n.], [s.d.].  
+523. PACHUCÂNIS, Eugênio. **Teoria geral do direito e marxismo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-154. ROLNIK, Felix Guatarri e Suely. **Micropolítica: cartografias do desejo**. [s.l.]: [s.n.], [s.d.].  
+524. ROLNIK, Felix Guatarri e Suely. **Micropolítica: cartografias do desejo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-155. FERNANDES, Florestan. **A Constituição inacabada**. [s.l.]: [s.n.], [s.d.].  
+525. FERNANDES, Florestan. **A Constituição inacabada**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-156. FERNANDES, Florestan. **Reflexões sobre as revoluções interrompidas**. [s.l.]: [s.n.], [s.d.].  
+526. FERNANDES, Florestan. **Reflexões sobre as revoluções interrompidas**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-157. Florianópolis. **Derrubando as cercas do saber jurídico: a abertura da Universidade aos movimentos de luta pela terra" – Entrevista com estudantes da turma publicada na Revista Captura Críptica**. [s.l.]: [s.n.], [s.d.].  
+527. Florianópolis. **Derrubando as cercas do saber jurídico: a abertura da Universidade aos movimentos de luta pela terra" – Entrevista com estudantes da turma publicada na Revista Captura Críptica**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Formatura da Turma Evandro Lins e Silva da UFG](formatura-da-turma-evandro-lins-e-silva-da-ufg.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-158. FOUCAULT, Michel. **Introdução à vida não-fascista**. [s.l.]: [s.n.], [s.d.].  
+528. FOUCAULT, Michel. **Introdução à vida não-fascista**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Preparativos para o XIII ERENAJU em Eldorado do Sul](preparativos-para-o-xiii-erenaju-em-eldorado-do-sul.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-159. BETTO, Frei. **A mosca azul**. [s.l.]: [s.n.], [s.d.].  
+529. BETTO, Frei. **A mosca azul**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-160. FUNAGUAS – Terezina/PI. **GPEA (Grupo Pesquisador em Educação Ambiental da UFMT) – Cuiabá/MT. Grupo de Pesquisa Historicidade do Estado e do Direito: interações sociedade e meio ambiente, da UFBA – Salvador/BA**. [s.l.]: [s.n.], [s.d.].  
+530. FUNAGUAS – Terezina/PI. **GPEA (Grupo Pesquisador em Educação Ambiental da UFMT) – Cuiabá/MT. Grupo de Pesquisa Historicidade do Estado e do Direito: interações sociedade e meio ambiente, da UFBA – Salvador/BA**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [TRANSPARÊNCIA E DEMOCRATIZAÇÃO DO PODER JUDICIÁRIO: carta aberta](transparencia-e-democratizacao-do-poder-judiciario-carta.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-161. Grupo de Pesquisa Direitos Humanos, Poder Judiciário e Sociedade – DHPJS. **José Ricardo Cunha**. [s.l.]: [s.n.], [s.d.].  
+531. Grupo de Pesquisa Direitos Humanos, Poder Judiciário e Sociedade – DHPJS. **José Ricardo Cunha**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Pacto Fórum Justiça do Rio de Janeiro](pacto-forum-justica-do-rio-de-janeiro.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-162. Grupo Dignidade. **Grupo de Estudos em Direito Crítico, Marxismo e América Latina – GEDIC/RN. Grupo de Pesquisa "Metamorfose Jurídica" da Universidade de Caxias do Sul**. [s.l.]: [s.n.], [s.d.].  
+532. Grupo Dignidade. **Grupo de Estudos em Direito Crítico, Marxismo e América Latina – GEDIC/RN. Grupo de Pesquisa "Metamorfose Jurídica" da Universidade de Caxias do Sul**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Grupo de gênero da UFPR mobiliza Faculdade de Direito](grupo-de-genero-da-ufpr-mobiliza-faculdade-de-direito.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-163. Gustavo Raposo Pereira Feitosa, Professor Dr. **da Faculdade de Direito da Universidade Federal do Ceará e da Universidade de Fortaleza**. [s.l.]: [s.n.], [s.d.].  
+533. Gustavo Raposo Pereira Feitosa, Professor Dr. **da Faculdade de Direito da Universidade Federal do Ceará e da Universidade de Fortaleza**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Novos apoios ao Escritório Frei Tito](novos-apoios-ao-escritorio-frei-tito.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-164. THOREAU, Henry David. **A desobediência civil**. [s.l.]: [s.n.], [s.d.].  
+534. THOREAU, Henry David. **A desobediência civil**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-165. HERRERA FLORES, Joaquín. **16 Premisas de unaTeoría Crítica del derecho y de los derechos humanos. Mimeo. 8 p**. [s.l.]: [s.n.], [s.d.].  
+535. HERRERA FLORES, Joaquín. **16 Premisas de unaTeoría Crítica del derecho y de los derechos humanos. Mimeo. 8 p**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Biblioteca Joaquín Herrera Flores](biblioteca-joaquin-herrera-flores.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-166. HERRERA FLORES, Joaquín. **La democracia en procesos participativos: princípios, fundamentos y requisitos. Mimeo. 11 p**. [s.l.]: [s.n.], [s.d.].  
+536. HERRERA FLORES, Joaquín. **La democracia en procesos participativos: princípios, fundamentos y requisitos. Mimeo. 11 p**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Biblioteca Joaquín Herrera Flores](biblioteca-joaquin-herrera-flores.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-167. HERRERA FLORES, Joaquín. **La reinvención de losderechos humanos**. [s.l.]: [s.n.], [s.d.].  
+537. HERRERA FLORES, Joaquín. **La reinvención de losderechos humanos**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Biblioteca Joaquín Herrera Flores](biblioteca-joaquin-herrera-flores.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-168. HERRERA FLORES, Joaquín. **Testamento. De Jure**. *[periódico]*, n. 14, p. 137-145, [s.d.].  
+538. HERRERA FLORES, Joaquín. **Testamento. De Jure**. *[periódico]*, n. 14, p. 137-145, [s.d.].  
    _Fonte:_ [Biblioteca Joaquín Herrera Flores](biblioteca-joaquin-herrera-flores.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-169. LOVISOLO, Hugo. **Educação popular: maioridade e conciliação**. [s.l.]: [s.n.], [s.d.].  
+539. LOVISOLO, Hugo. **Educação popular: maioridade e conciliação**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-170. CIDADANIA, Humanitas Direitos Humanos e. **Instituto de Estudos da Religião – ISER. Instituto de Pesquisa das Culturas Negras - IPCN**. [s.l.]: [s.n.], [s.d.].  
+540. CIDADANIA, Humanitas Direitos Humanos e. **Instituto de Estudos da Religião – ISER. Instituto de Pesquisa das Culturas Negras - IPCN**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Pacto Fórum Justiça do Rio de Janeiro](pacto-forum-justica-do-rio-de-janeiro.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-171. III SEMINÁRIO. **DIREITO, PESQUISA E MOVIMENTOS SOCIAIS**. [s.l.]: [s.n.], [s.d.].  
+541. III SEMINÁRIO. **DIREITO, PESQUISA E MOVIMENTOS SOCIAIS**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [III seminário do IPDMS convoca para Espaços de Discussão (EDs)](iii-seminario-do-ipdms-convoca-para-espacos-de-discussao-eds.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-172. RANGEL, Jesús Antonio de la Torre. **El derecho como arma de liberación en América Latina**. [s.l.]: [s.n.], [s.d.].  
+542. RANGEL, Jesús Antonio de la Torre. **El derecho como arma de liberación en América Latina**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-173. FLORES, Joaquin Herrera. **A (re) invenção dos Direitos Humanos**. [s.l.]: [s.n.], [s.d.].  
+543. FLORES, Joaquin Herrera. **A (re) invenção dos Direitos Humanos**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-174. FARIA, José Eduardo. **Direito e justiça: a função social do judiciário**. [s.l.]: [s.n.], [s.d.].  
+544. FARIA, José Eduardo. **Direito e justiça: a função social do judiciário**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-175. CARVALHO, José Murilo de. **Cidadania no Brasil: o longo caminho**. [s.l.]: [s.n.], [s.d.].  
+545. CARVALHO, José Murilo de. **Cidadania no Brasil: o longo caminho**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-176. CORTÁZAR, Júlio. **Histórias de cronópios e de famas**. [s.l.]: [s.n.], [s.d.].  
+546. CORTÁZAR, Júlio. **Histórias de cronópios e de famas**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-177. HUMANOS, JusDH – Articulação Justiça e Direitos. **Terra de Direitos – Organização de Direitos Humanos. Ação Educativa – Assessoria, Pesquisa e Informação**. [s.l.]: [s.n.], [s.d.].  
+547. HUMANOS, JusDH – Articulação Justiça e Direitos. **Terra de Direitos – Organização de Direitos Humanos. Ação Educativa – Assessoria, Pesquisa e Informação**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [TRANSPARÊNCIA E DEMOCRATIZAÇÃO DO PODER JUDICIÁRIO: carta aberta](transparencia-e-democratizacao-do-poder-judiciario-carta.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-178. MARX, Karl. **O Manifesto comunista**. [s.l.]: [s.n.], [s.d.].  
+548. MARX, Karl. **O Manifesto comunista**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-179. BOFF, Leonardo. **O despertar da Águia**. [s.l.]: [s.n.], [s.d.].  
+549. BOFF, Leonardo. **O despertar da Águia**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-180. LESSA, Sérgio e TONET, Ivo. **Introdução à Filosofia de Marx**. [s.l.]: [s.n.], [s.d.].  
+550. LESSA, Sérgio e TONET, Ivo. **Introdução à Filosofia de Marx**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Preparativos para o XIII ERENAJU em Eldorado do Sul](preparativos-para-o-xiii-erenaju-em-eldorado-do-sul.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-181. WARAT, Luis Alberto. **A rua grita Dionísio: direitos humanos da alteridade, surrealismo e cartografia**. [s.l.]: [s.n.], [s.d.].  
+551. WARAT, Luis Alberto. **A rua grita Dionísio: direitos humanos da alteridade, surrealismo e cartografia**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-182. WARAT, Luis Alberto. **Manifestos para uma ecologia do desejo**. [s.l.]: [s.n.], [s.d.].  
+552. WARAT, Luis Alberto. **Manifestos para uma ecologia do desejo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-183. WARAT, Luis Alberto. **O Manifesto do surrealismo jurídico**. [s.l.]: [s.n.], [s.d.].  
+553. WARAT, Luis Alberto. **O Manifesto do surrealismo jurídico**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-184. COELHO, Luiz Fernando. **Teoria crítica do direito**. [s.l.]: [s.n.], [s.d.].  
+554. COELHO, Luiz Fernando. **Teoria crítica do direito**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-185. RIBAS, Luiz Otávio. **Assessoria jurídica popular universitária: tradução e autogestão**. [s.l.]: [s.n.], [s.d.].  
+555. RIBAS, Luiz Otávio. **Assessoria jurídica popular universitária: tradução e autogestão**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Assessoria jurídica popular universitária na UFSC](assessoria-juridica-popular-universitaria-na-ufsc.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-186. PAZELLO, Luiz Otávio Ribas e Ricardo Prestes. **Teoria e prática da assessoria jurídica popular: metodologia para o trabalho popular**. [s.l.]: [s.n.], [s.d.].  
+556. PAZELLO, Luiz Otávio Ribas e Ricardo Prestes. **Teoria e prática da assessoria jurídica popular: metodologia para o trabalho popular**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Assessoria jurídica popular universitária na UFSC](assessoria-juridica-popular-universitaria-na-ufsc.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-187. Luiz Otávio Ribas, em 1 de janeiro de 2010. **O advogado popular: um ser em extinção?**. [s.l.]: [s.n.], 2010.  
+557. Luiz Otávio Ribas, em 1 de janeiro de 2010. **O advogado popular: um ser em extinção?**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-188. Luiz Otávio Ribas, em 28 de março de 2010. **O teatro e o ensino do direito (1)**. [s.l.]: [s.n.], 2010.  
+558. Luiz Otávio Ribas, em 28 de março de 2010. **O teatro e o ensino do direito (1)**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-189. LYRA FILHO, Roberto. **Dialética do Direito in "O que é Direito?**. [s.l.]: [s.n.], [s.d.].  
+559. LYRA FILHO, Roberto. **Dialética do Direito in "O que é Direito?**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Preparativos para o XIII ERENAJU em Eldorado do Sul](preparativos-para-o-xiii-erenaju-em-eldorado-do-sul.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-190. LYRA FILHO, Roberto. **Prefácio**. In: [coletânea], 1968.  
+560. LYRA FILHO, Roberto. **Prefácio**. In: [coletânea], 1968.  
    _Fonte:_ [Prefácio Lyra Filho em livro de Gilberto Freyre](prefacio-lyra-filho-em-livro-de-gilberto-freyre.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-191. CUNHA, Manuela Carneiro da. **Cultura com aspas**. [s.l.]: [s.n.], [s.d.].  
+561. CUNHA, Manuela Carneiro da. **Cultura com aspas**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-192. Mariana Matos, em 17 de janeiro de 2010. **O que o direito ensina errado?**. [s.l.]: [s.n.], 2010.  
+562. Mariana Matos, em 17 de janeiro de 2010. **O que o direito ensina errado?**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-193. MARX, Karl. **Crítica ao programa de Gotha**. [s.l.]: [s.n.], [s.d.].  
+563. MARX, Karl. **Crítica ao programa de Gotha**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Minicurso da Crítica ao Direito no Maranhão](minicurso-da-critica-ao-direito-no-maranhao.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-194. SERENATO, Mauricio Wosniaki. **membro do Núcleo de Pesquisa Constitucionalismo e Democracia**. [s.l.]: [s.n.], [s.d.].  
+564. SERENATO, Mauricio Wosniaki. **membro do Núcleo de Pesquisa Constitucionalismo e Democracia**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Islândia: a insurgência da democracia](islandia-a-insurgencia-da-democracia.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-195. LEVY, Michael Tigar e Madeleine. **O direito e a ascensão do capitalismo**. [s.l.]: [s.n.], [s.d.].  
+565. LEVY, Michael Tigar e Madeleine. **O direito e a ascensão do capitalismo**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-196. FOUCAULT, Michel. **Microfísica do Poder**. [s.l.]: [s.n.], [s.d.].  
+566. FOUCAULT, Michel. **Microfísica do Poder**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-197. MIAILLE, Michel. **Introdução crítica ao direito**. [s.l.]: [s.n.], [s.d.].  
+567. MIAILLE, Michel. **Introdução crítica ao direito**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-198. PRESSBURGER, Miguel. **O sistema jurídico e o socialismo: ou como a burguesia suporta a ilegalidade**. [s.l.]: [s.n.], [s.d.].  
+568. PRESSBURGER, Miguel. **O sistema jurídico e o socialismo: ou como a burguesia suporta a ilegalidade**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-199. SANTOS, Milton. **Por uma outra globalização**. [s.l.]: [s.n.], [s.d.].  
+569. SANTOS, Milton. **Por uma outra globalização**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-200. Nayara Barros, em 22 de dezembro de 2009. **Lamentação ecológica**. [s.l.]: [s.n.], 2009.  
+570. Nayara Barros, em 22 de dezembro de 2009. **Lamentação ecológica**. [s.l.]: [s.n.], 2009.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-201. Newton de Menezes Albuquerque, Professor Dr. **da Faculdade de Direito da Universidade Federal do Ceará e da Universidade de Fortaleza**. [s.l.]: [s.n.], [s.d.].  
+571. Newton de Menezes Albuquerque, Professor Dr. **da Faculdade de Direito da Universidade Federal do Ceará e da Universidade de Fortaleza**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Novos apoios ao Escritório Frei Tito](novos-apoios-ao-escritorio-frei-tito.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-202. O Ministério Público não deve ser instrumento de criminalização casuística, infundada e ilegítima. **Deve realizar sua função: Promotor de Justiça**. [s.l.]: [s.n.], [s.d.].  
+572. O Ministério Público não deve ser instrumento de criminalização casuística, infundada e ilegítima. **Deve realizar sua função: Promotor de Justiça**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [O manifestante, o "crime" e a "pena": uma punição pelo direito de manifestar-se](o-manifestante-o-crime-e-a-pena-uma-punicao-pelo-direito-de.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-203. OLIVEIRA, Assis da Costa. **Rede Nacional das Assessorias JurídicasUniversitárias: história, teoria e desafios**. [s.l.]: [s.n.], [s.d.].  
+573. OLIVEIRA, Assis da Costa. **Rede Nacional das Assessorias JurídicasUniversitárias: história, teoria e desafios**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Preparativos para o XIII ERENAJU em Eldorado do Sul](preparativos-para-o-xiii-erenaju-em-eldorado-do-sul.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-204. FREIRE, Paulo. **Educação como prática para a liberdade**. [s.l.]: [s.n.], [s.d.].  
+574. FREIRE, Paulo. **Educação como prática para a liberdade**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-205. FREIRE, Paulo. **Extensão ou comunicação**. [s.l.]: [s.n.], [s.d.].  
+575. FREIRE, Paulo. **Extensão ou comunicação**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-206. FREIRE, Paulo. **Pedagogia da autonomia**. [s.l.]: [s.n.], [s.d.].  
+576. FREIRE, Paulo. **Pedagogia da autonomia**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-207. FREIRE, Paulo. **Pedagogia da tolerância**. [s.l.]: [s.n.], [s.d.].  
+577. FREIRE, Paulo. **Pedagogia da tolerância**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-208. FREIRE, Paulo. **Pedagogia do oprimido**. [s.l.]: [s.n.], [s.d.].  
+578. FREIRE, Paulo. **Pedagogia do oprimido**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-209. LEGENDRE, Pierre. **O amor do censor: ensaio sobre a ordem dogmática**. [s.l.]: [s.n.], [s.d.].  
+579. LEGENDRE, Pierre. **O amor do censor: ensaio sobre a ordem dogmática**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-210. Prof. José Luiz Quadros de Magalhães, Dr. **Direito Constitucional, prof. UFMG E PUC-MINAS**. [s.l.]: [s.n.], [s.d.].  
+580. Prof. José Luiz Quadros de Magalhães, Dr. **Direito Constitucional, prof. UFMG E PUC-MINAS**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Manifesto contra criminalização da luta contra o uso indiscriminado de agrotóxicos](manifesto-contra-criminalizacao-da-luta-contra-o-uso.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-211. Raquel Maria Rigoto, Professora Dra. **da Faculdade de Medicina da Universidade Federal do Ceará**. [s.l.]: [s.n.], [s.d.].  
+581. Raquel Maria Rigoto, Professora Dra. **da Faculdade de Medicina da Universidade Federal do Ceará**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Novos apoios ao Escritório Frei Tito](novos-apoios-ao-escritorio-frei-tito.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-212. RIBAS, Luiz Otávio. **Assessoria jurídica popular universitária e direitos humanos**. [s.l.]: [s.n.], [s.d.].  
+582. RIBAS, Luiz Otávio. **Assessoria jurídica popular universitária e direitos humanos**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Biblioteca digital da assessoria jurídica popular](biblioteca-digital-da-assessoria-juridica-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-213. RIBAS, Luiz Otávio. **Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares**. [s.l.]: [s.n.], [s.d.].  
+583. RIBAS, Luiz Otávio. **Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Biblioteca digital da assessoria jurídica popular](biblioteca-digital-da-assessoria-juridica-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-214. ANTUNES, Ricardo. **Adeus ao trabalho**. [s.l.]: [s.n.], [s.d.].  
+584. ANTUNES, Ricardo. **Adeus ao trabalho**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-215. Ricardo Pazello, em 3 de julho de 2010. **Imbituba: crônica de um mandado de despejo**. [s.l.]: [s.n.], 2010.  
+585. Ricardo Pazello, em 3 de julho de 2010. **Imbituba: crônica de um mandado de despejo**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-216. Ricardo Pazello, em 31 de julho de 2010. **Lira Filho: porque a crítica jurídica não pode morrer**. [s.l.]: [s.n.], 2010.  
+586. Ricardo Pazello, em 31 de julho de 2010. **Lira Filho: porque a crítica jurídica não pode morrer**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-217. PAZELLO, Ricardo Prestes. **Universidade popular: três modelos de práticas insurgentes de estudantes**. [s.l.]: [s.n.], [s.d.].  
+587. PAZELLO, Ricardo Prestes. **Universidade popular: três modelos de práticas insurgentes de estudantes**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Assessoria jurídica popular universitária na UFSC](assessoria-juridica-popular-universitaria-na-ufsc.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-218. Ricardo Prestes Pazello, em 31 de dezembro de 2009. **Entre dois céus: a tensão congênita ao "jurídico""**. [s.l.]: [s.n.], 2009.  
+588. Ricardo Prestes Pazello, em 31 de dezembro de 2009. **Entre dois céus: a tensão congênita ao "jurídico""**. [s.l.]: [s.n.], 2009.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-219. Roberta Cunha, em 21 de janeiro de 2010. **América Latina dos abismos**. [s.l.]: [s.n.], 2010.  
+589. Roberta Cunha, em 21 de janeiro de 2010. **América Latina dos abismos**. [s.l.]: [s.n.], 2010.  
    _Fonte:_ [1 ano de comunicação sobre a luta popular](1-ano-de-comunicacao-sobre-a-luta-popular.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-220. AGUIAR, Roberto. **Crise da advocacia no Brasil**. [s.l.]: [s.n.], [s.d.].  
+590. AGUIAR, Roberto. **Crise da advocacia no Brasil**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-221. GOMES, Roberto. **Crítica da razão tupiniquim**. [s.l.]: [s.n.], [s.d.].  
+591. GOMES, Roberto. **Crítica da razão tupiniquim**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-222. LIRA FILHO, Roberto. **O que é direito**. [s.l.]: [s.n.], [s.d.].  
+592. LIRA FILHO, Roberto. **O que é direito**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-223. MARINI, Rui Mauro. **Dialética da dependência**. [s.l.]: [s.n.], [s.d.].  
+593. MARINI, Rui Mauro. **Dialética da dependência**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-224. SANTOS, Bárbara. **Teatro do Oprimido. Centro do Teatro Oprimido**. [s.l.]: [s.n.], [s.d.].  
+594. SANTOS, Bárbara. **Teatro do Oprimido. Centro do Teatro Oprimido**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Teatro do Oprimido e Assessoria Jurídica Popular: duas maneiras alternativas de ver e tocar a realidade](teatro-do-oprimido-e-assessoria-juridica-popular-duas.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-225. Seção Sudeste do Instituto de Pesquisa, Direitos e Movimentos Sociais, IPDMS.. **Tatiana Cotta G. Pereira, professora de Direito da UFRRJ, doutoranda no PPGSD/UFF e pesquisadora PROURB/FAU/UFRJ**. [s.l.]: [s.n.], [s.d.].  
+595. Seção Sudeste do Instituto de Pesquisa, Direitos e Movimentos Sociais, IPDMS.. **Tatiana Cotta G. Pereira, professora de Direito da UFRRJ, doutoranda no PPGSD/UFF e pesquisadora PROURB/FAU/UFRJ**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Manifesto da comunidade jurídica contra a criminalização da pobreza e dos movimentos sociais no Rio de Janeiro](manifesto-da-comunidade-juridica-contra-a-criminalizacao-da.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-226. ANDRADE, Shirley Silveira. **Movimento popular como sujeito criador de direitos**. [s.d.]. Dissertação – Universidade Federal de Pernambuco. Disponível em: <https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos>. Acesso em: 22 nov. 2026.  
+596. ANDRADE, Shirley Silveira. **Movimento popular como sujeito criador de direitos**. [s.d.]. Dissertação – Universidade Federal de Pernambuco. Disponível em: <https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos>. Acesso em: 22 nov. 2026.  
    _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _Confiança:_ baixa · [Disponível aqui](https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos)
-227. SOBOUL, Albert. **1788: lutasrevolucionárias pela propriedade camponesa (Introdução)**. [s.l.]: [s.n.], [s.d.].  
+597. SOBOUL, Albert. **1788: lutasrevolucionárias pela propriedade camponesa (Introdução)**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Biblioteca AJUP-RJ](biblioteca-ajup-rj.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-228. SOUZA SANTOS, Boaventura. **Tudo que é sólido se desfaz no ar: o marxismo também? In O social e o político na pós-modernidade**. In: [coletânea], [s.d.].  
+598. SOUZA SANTOS, Boaventura. **Tudo que é sólido se desfaz no ar: o marxismo também? In O social e o político na pós-modernidade**. In: [coletânea], [s.d.].  
    _Fonte:_ [Preparativos para o XIII ERENAJU em Eldorado do Sul](preparativos-para-o-xiii-erenaju-em-eldorado-do-sul.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-229. MEILI, Stephen. **The Interaction between Lawyers and Grass Roots Social Movements in Brazil**. [s.l.]: [s.n.], [s.d.].  
+599. MEILI, Stephen. **The Interaction between Lawyers and Grass Roots Social Movements in Brazil**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-230. AMARAL, Tarsila do. **Morro da favela**. [s.l.]: [s.n.], [s.d.].  
+600. AMARAL, Tarsila do. **Morro da favela**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Niilismo e movimento popular (ou: Entre céticos e cínicos, eu fico com o povo)](niilismo-e-movimento-popular-ou-entre-ceticos-e-cinicos-eu.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-231. Uma Universidade se faz da ação empenhada de sua comunidade, professores, estudantes e técnicos. **São estes os responsáveis pela grandeza dos trabalhos que a Universidade Pública brasileira ainda, apesar das dificuldades, da omissão de governos, dos baixos orçamentos, em muitos casos, consegue manter em favor da sociedade. Se a UnB é grande é porque sua comunidade a faz grande. É o compromisso de seus docentes, técnicos e estudantes que a torna importante polo nacional, internacional e local de conhecimento**. [s.l.]: [s.n.], [s.d.].  
+601. Uma Universidade se faz da ação empenhada de sua comunidade, professores, estudantes e técnicos. **São estes os responsáveis pela grandeza dos trabalhos que a Universidade Pública brasileira ainda, apesar das dificuldades, da omissão de governos, dos baixos orçamentos, em muitos casos, consegue manter em favor da sociedade. Se a UnB é grande é porque sua comunidade a faz grande. É o compromisso de seus docentes, técnicos e estudantes que a torna importante polo nacional, internacional e local de conhecimento**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [EDITORIAL DE DOMINGO: É PRECISO PARAR PARA PENSAR](editorial-de-domingo-e-preciso-parar-para-pensar.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-232. Universidade Federal do ABC (São Bernardo do Campo/SP).. **Apresentação. A Associação Nacional de Pós-Graduação em Filosofia – ANPOF – é o órgão máximo representativo da pesquisa em filosofia no Brasil. Seu funcionamento se dá por meio da articulação entre os Programas de Pós-Graduação Associados e, principalmente, pelo agrupamento dos pesquisadores em Grupos de Trabalho (GT's), os quais são reconhecidos pela Associação apenas após criteriosa e restritiva avaliação de sua sustentação acadêmica**. [s.l.]: [s.n.], [s.d.].  
+602. Universidade Federal do ABC (São Bernardo do Campo/SP).. **Apresentação. A Associação Nacional de Pós-Graduação em Filosofia – ANPOF – é o órgão máximo representativo da pesquisa em filosofia no Brasil. Seu funcionamento se dá por meio da articulação entre os Programas de Pós-Graduação Associados e, principalmente, pelo agrupamento dos pesquisadores em Grupos de Trabalho (GT's), os quais são reconhecidos pela Associação apenas após criteriosa e restritiva avaliação de sua sustentação acadêmica**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [A filosofia na América Latina, encontro em São Bernardo do Campo](a-filosofia-na-america-latina-encontro-em-sao-bernardo-do.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-233. Valeu, Leminsque. **É o que posso dizer. E vou dizê-lo difundindo suas canções na voz dos mais renomados intérpretes, conforme compilação divulgada no blogue Poemas de Paulo Leminski. Ali, se deu o nome do disco compilado, e apto para ser baixado por qualquer navegante, de "O bandido que sabia latim", título homônimo à biografia escrita por Toninho Vaz e que merece ser lida por todo estudante de direito insurgente. Não tanto porque vai contar a experiência dele nas arcadas da Santos Andrade, mas porque vai external**. [s.l.]: [s.n.], [s.d.].  
+603. Valeu, Leminsque. **É o que posso dizer. E vou dizê-lo difundindo suas canções na voz dos mais renomados intérpretes, conforme compilação divulgada no blogue Poemas de Paulo Leminski. Ali, se deu o nome do disco compilado, e apto para ser baixado por qualquer navegante, de "O bandido que sabia latim", título homônimo à biografia escrita por Toninho Vaz e que merece ser lida por todo estudante de direito insurgente. Não tanto porque vai contar a experiência dele nas arcadas da Santos Andrade, mas porque vai external**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [O bandido que sabia latim também sabia de música](o-bandido-que-sabia-latim-tambem-sabia-de-musica.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-234. TELLES, Vera Silva. **Pobreza e cidadania**. [s.l.]: [s.n.], [s.d.].  
+604. TELLES, Vera Silva. **Pobreza e cidadania**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-235. LUZ, Vladimir de Carvalho. **Assessoria jurídica popular no Brasil**. [s.l.]: [s.n.], [s.d.].  
+605. LUZ, Vladimir de Carvalho. **Assessoria jurídica popular no Brasil**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
-236. MIGNOLO, Walter. **La idea de america latina: la herida colonial y la opción decolonial**. [s.l.]: [s.n.], [s.d.].  
+606. MIGNOLO, Walter. **La idea de america latina: la herida colonial y la opción decolonial**. [s.l.]: [s.n.], [s.d.].  
    _Fonte:_ [Referências](referencias.html) · _Confiança:_ baixa · _sem link gratuito localizado_
