@@ -33,7 +33,6 @@ def main():
     roda("gera-dados-colecoes.py")  # dados de memória, trilhas, biblioteca e cultura
     roda("monta-colecoes.py")       # páginas das coleções
     roda("monta-leapspace.py")     # panorama no comparado
-    roda("monta-indice.py")        # indice wiki do site
     roda("marca-subnavs.py")       # subnavegacao dos hubs (Blog, Autores, Poemas, Mística, Citações)
     roda("marca-teses.py")          # teses e dissertações do Catálogo CAPES
     roda("marca-publicacoes.py")    # IPDMS e Cadernos da RENAP

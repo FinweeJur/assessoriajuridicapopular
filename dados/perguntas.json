@@ -39,7 +39,7 @@
   "pergunta": "Quais são as seções e quantos textos cada uma tem?",
   "resposta": "São cinco: Movimentos sociais (194), Assessoria jurídica popular (169), Educação popular (128), Direitos humanos (119) e Teoria crítica do direito (103). A antiga seção Memória e cultura virou coleção Memória + tag nos textos.",
   "links": [
-   {"texto": "Seções", "url": "indice.html"},
+   {"texto": "Seções", "url": "index.html#mapa"},
    {"texto": "Movimentos sociais", "url": "movimentos-sociais.html"},
    {"texto": "Assessoria jurídica popular", "url": "assessoria-juridica-popular.html"}
   ]
@@ -124,8 +124,8 @@
   "pergunta": "Como o site organiza as teorias do direito crítico?",
   "resposta": "Em cinco perspectivas: AJP, Direito Achado na Rua, direito insurgente, uso tático do direito e positivismo de combate/pluralismo jurídico. O panorama reúne oito sínteses e 89 referências em acesso aberto.",
   "links": [
-   {"texto": "AJP pelo mundo", "url": "assessoria-juridica-popular-no-mundo.html"},
-   {"texto": "Panorama da pesquisa", "url": "assessoria-juridica-popular-no-mundo.html#panorama"}
+   {"texto": "IA: comparado e mundo", "url": "ia.html"},
+   {"texto": "Panorama da pesquisa", "url": "ia.html#panorama"}
   ]
  },
  {
@@ -142,7 +142,7 @@
   "pergunta": "O acervo usa inteligência artificial?",
   "resposta": "O chatbot é uma busca local nos 713 textos e nas perguntas curadas — não gera resposta na hora. O panorama da pesquisa foi gerado pelo LeapSpace, IA parceira da CAPES, com curadoria editorial e só referências em acesso aberto.",
   "links": [
-   {"texto": "Panorama da pesquisa", "url": "assessoria-juridica-popular-no-mundo.html#panorama"},
+   {"texto": "Panorama da pesquisa", "url": "ia.html#panorama"},
    {"texto": "Como o acervo é feito", "url": "index.html"}
   ]
  }

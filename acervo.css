@@ -2443,3 +2443,15 @@ a.cartao, .item__link, .destaque, .bento__item {
   background: var(--cp-surface); color: var(--cp-text); font: inherit; font-size: .72rem;
 }
 
+/* ── Mapa do site na home ───────────────────────────────────────────────── */
+.mapa__grupos {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 18px 26px; margin-top: 6px;
+}
+.mapa__grupos h3 {
+  margin: 0 0 8px; font-size: .72rem; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--cor-tema);
+}
+.mapa__grupos .linhas { margin: 0; padding-left: 1.1rem; }
+.mapa__grupos .linhas li { margin-bottom: 6px; font-size: .88rem; }
+

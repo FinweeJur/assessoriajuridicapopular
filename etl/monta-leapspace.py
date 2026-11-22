@@ -13,10 +13,12 @@ import importlib.util
 import io
 import json
 import os
+import re
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGINA = os.path.join(RAIZ, "dossie-leapspace.html")
-MUNDO = os.path.join(RAIZ, "assessoria-juridica-popular-no-mundo.html")
+STUB_MUNDO = os.path.join(RAIZ, "assessoria-juridica-popular-no-mundo.html")
+MUNDO = os.path.join(RAIZ, "ia.html")
 REFS = os.path.join(RAIZ, "dados", "leapspace-refs.json")
 MD = os.path.join(RAIZ, "dados", "panorama-pesquisa.md")
 
@@ -435,6 +437,21 @@ def bloco_panorama(refs):
                     total, em_pt, em_es, no_acervo, total, lista_refs(refs))
 
 
+STUB_MUNDO_HTML = """<!DOCTYPE html>
+<html lang="pt-BR" data-theme="pequi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex" />
+  <meta http-equiv="refresh" content="0; url=ia.html" />
+  <title>IA · AJP</title>
+  <link rel="canonical" href="ia.html" />
+</head>
+<body><p>O dossiê comparado foi incorporado à página
+<a href="ia.html">IA</a>.</p>
+<script>location.replace('ia.html');</script>
+</body></html>
+"""
+
 STUB = """<!DOCTYPE html>
 <html lang="pt-BR" data-theme="pequi">
 <head>
@@ -556,11 +573,13 @@ def main():
     t = t.replace('href="#leapspace"', 'href="#panorama"')
     t = t.replace('Dossiê LeapSpace</a> — seis sínteses de IA',
                   'Panorama da pesquisa</a> — oito sínteses da literatura')
-    t = t.replace('<title>Assessoria jurídica popular: Brasil, América Latina e mundo · AJP — Assessoria Jurídica Popular</title>',
-                  '<title>AJP pelo mundo · AJP — Assessoria Jurídica Popular</title>')
+    t = re.sub(r"<title>.*?</title>",
+               "<title>IA · Direito comparado, AJP pelo mundo, LeapSpace e Consensus · AJP</title>",
+               t, count=1, flags=re.S)
     io.open(MUNDO, "w", encoding="utf-8", newline="\n").write(t)
 
     io.open(PAGINA, "w", encoding="utf-8", newline="\n").write(STUB)
+    io.open(STUB_MUNDO, "w", encoding="utf-8", newline="\n").write(STUB_MUNDO_HTML)
 
     print("panorama: %d refs | md: %d bytes" % (len(refs), len(io.open(MD, encoding="utf-8").read())))
 

@@ -4,6 +4,7 @@ Idempotente: roda depois dos geradores para que um rebuild não perca as
 subpáginas que saíram da barra superior.
 """
 import io
+import re
 import os
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,17 +23,23 @@ SUBS = {
         ("acervo.html", "Todos os textos", True),
         ("blog.html", "Por ano", False),
         ("autores.html", "Autores", False),
-    ]),
+   ("memoria.html", "Memória", False),
+        ("cultura.html", "Cultura", False),
+     ]),
     "blog.html": ("Acervo", [
         ("acervo.html", "Todos os textos", False),
         ("blog.html", "Por ano", True),
         ("autores.html", "Autores", False),
-    ]),
+   ("memoria.html", "Memória", False),
+        ("cultura.html", "Cultura", False),
+     ]),
     "autores.html": ("Acervo", [
         ("acervo.html", "Todos os textos", False),
         ("blog.html", "Por ano", False),
         ("autores.html", "Autores", True),
-    ]),
+   ("memoria.html", "Memória", False),
+        ("cultura.html", "Cultura", False),
+     ]),
     "cultura.html": ("Cultura", [
         ("cultura.html#poesia", "Poesia", False),
         ("poemas.html", "Poemas e Caderno", False),
@@ -50,6 +57,18 @@ SUBS = {
         ("cultura.html", "← Cultura", False),
         ("poemas.html", "Poemas e Caderno", False),
         ("mistica.html", "Mística", True),
+    ]),
+    "biblioteca.html": ("Biblioteca", [
+        ("biblioteca.html#acervo", "Acervos", True),
+        ("biblioteca.html#obra", "Obras", False),
+        ("formacao.html", "Formação", False),
+        ("biblioteca.html#teses-capes", "Teses", False),
+        ("biblioteca.html#ipdms", "IPDMS", False),
+        ("biblioteca.html#renap", "RENAP", False),
+        ("citacoes.html", "Citações", False),
+        ("recomendacoes.html", "Recomendações", False),
+        ("glossario.html", "Glossário", False),
+        ("ia.html", "IA", False),
     ]),
     "formacao.html": ("Formação", [
         ("formacao.html", "Trilhas", True),
@@ -78,6 +97,17 @@ SUBS = {
 }
 
 
+SECOES_SUB = """
+  <nav class="subnav" aria-label="Seções do acervo">
+    <span class="subnav__rotulo">Seções</span>
+    <a href="assessoria-juridica-popular.html">AJP</a>
+    <a href="direitos-humanos.html">Direitos humanos</a>
+    <a href="movimentos-sociais.html">Movimentos sociais</a>
+    <a href="educacao-popular.html">Educação popular</a>
+    <a href="teoria-critica.html">Teoria crítica</a>
+  </nav>"""
+
+
 def main():
     # migalha nas páginas geradas por monta-secoes
     for nome, trilha in MIGALHAS.items():
@@ -102,6 +132,19 @@ def main():
             continue
         fim = marcador + len('<main id="conteudo">')
         t = t[:fim] + "\n  " + nav + t[fim:]
+        io.open(caminho, "w", encoding="utf-8", newline="\n").write(t)
+
+    for nome in ("acervo.html", "blog.html", "autores.html"):
+        caminho = os.path.join(RAIZ, nome)
+        if not os.path.exists(caminho):
+            continue
+        t = io.open(caminho, encoding="utf-8").read()
+        if 'aria-label="Seções do acervo"' in t:
+            continue
+        m = re.search(r'<nav class="subnav".*?</nav>', t, re.S)
+        if not m:
+            continue
+        t = t[: m.end()] + SECOES_SUB + t[m.end():]
         io.open(caminho, "w", encoding="utf-8", newline="\n").write(t)
 
     feitos = 0

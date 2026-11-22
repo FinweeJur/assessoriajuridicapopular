@@ -49,16 +49,16 @@ def data_curta(iso):
 
 
 def topo(ativo):
-    secoes = "\n".join(
-        '          <li><a href="%s.html"%s>%s</a></li>' % (
-            slug, ' aria-current="page"' if slug == ativo else "", esc(titulo))
-        for slug, titulo, _, _, _ in SECOES)
-    acervo_cur = ' aria-current="page"' if ativo == "acervo" else ""
-    memoria_cur = ' aria-current="page"' if ativo in ("memoria", "linha-do-tempo") else ""
-    formacao_cur = ' aria-current="page"' if ativo == "formacao" else ""
-    biblioteca_cur = ' aria-current="page"' if ativo == "biblioteca" else ""
-    cultura_cur = ' aria-current="page"' if ativo == "cultura" else ""
-    comparado_cur = ' aria-current="page"' if ativo == "comparado" else ""
+    secoes = {"assessoria-juridica-popular", "direitos-humanos", "movimentos-sociais",
+              "educacao-popular", "teoria-critica"}
+    acervo = secoes | {"acervo", "blog", "autores", "memoria", "cultura", "poemas",
+                       "memoria-e-cultura"}
+    biblio = {"biblioteca", "formacao", "citacoes", "recomendacoes", "glossario"}
+    ia = {"ia", "comparado", "assessoria-juridica-popular-no-mundo"}
+
+    def cur(grupo):
+        return ' aria-current="page"' if ativo in grupo else ""
+
     return """<header class="topo">
   <div class="topo__interno">
     <a class="topo__marca" href="index.html">
@@ -66,28 +66,11 @@ def topo(ativo):
       AJP <span>· Assessoria Jurídica Popular</span>
     </a>
     <nav class="topo__links" aria-label="Navegação principal">
+      <a href="index.html"%s>Home</a>
       <a href="acervo.html"%s>Acervo</a>
-      <div class="menu">
-        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-secoes">
-          Seções <span aria-hidden="true">▾</span>
-        </button>
-        <ul class="menu__lista" id="menu-secoes">
-%s
-        </ul>
-      </div>
-      <a href="memoria.html"%s>Memória</a>
-      <div class="menu">
-        <button class="menu__botao" type="button" aria-expanded="false" aria-controls="menu-colecoes">
-          Coleções <span aria-hidden="true">▾</span>
-        </button>
-        <ul class="menu__lista" id="menu-colecoes">
-          <li><a href="formacao.html"%s>Formação</a></li>
-          <li><a href="biblioteca.html"%s>Biblioteca</a></li>
-          <li><a href="cultura.html"%s>Cultura</a></li>
-          <li><a href="assessoria-juridica-popular-no-mundo.html"%s>AJP pelo mundo</a></li>
-        </ul>
-      </div>
-      <a href="indice.html">Índice</a>
+      <a href="biblioteca.html"%s>Biblioteca</a>
+      <a href="mistica.html"%s>Mística</a>
+      <a href="ia.html"%s>IA</a>
     </nav>
     <div class="topo__tema">
       <label for="tema">Tema</label>
@@ -104,9 +87,7 @@ def topo(ativo):
       </select>
     </div>
   </div>
-</header>""" % (acervo_cur, secoes, memoria_cur, formacao_cur, biblioteca_cur,
-                     cultura_cur, comparado_cur)
-
+</header>""" % (cur({"index"}), cur(acervo), cur(biblio), cur({"mistica"}), cur(ia))
 
 def rodape():
     return """<footer class="rodape">
@@ -119,6 +100,8 @@ def rodape():
       <ul>
         <li><a href="acervo.html">Todos os textos</a></li>
         <li><a href="blog.html">Blog, em ordem</a></li>
+        <li><a href="ia.html">IA</a></li>
+        <li><a href="mistica.html">Mística</a></li>
         <li><a href="poemas.html">Poemas publicados</a></li>
         <li><a href="formacao.html">Formação</a></li>\n        <li><a href="biblioteca.html">Biblioteca</a></li>\n        <li><a href="cultura.html">Cultura</a></li>\n        <li><a href="glossario.html">Glossário</a></li>
         <li><a href="memoria.html">Memória</a></li>\n        <li><a href="memoria.html#linha-do-tempo">Linha do tempo</a></li>
@@ -206,8 +189,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=93" />
-  <link rel="stylesheet" href="reveal.css?v=93" />
+  <link rel="stylesheet" href="acervo.css?v=94" />
+  <link rel="stylesheet" href="reveal.css?v=94" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>

@@ -19,7 +19,7 @@ extras = ["", "blog", "autores", "glossario", "linha-do-tempo", "mistica",
           "poemas", "assessoria-juridica-popular-no-mundo", "direito-critico-comparado",
           "assessoria-juridica-popular", "direitos-humanos", "movimentos-sociais",
           "memoria-e-cultura", "teoria-critica", "educacao-popular",
-          "memoria", "formacao", "biblioteca", "cultura", "indice"]
+          "memoria", "formacao", "biblioteca", "cultura"]
 for e in extras:
     caminho = os.path.join(RAIZ, (e or "index") + ".html")
     if os.path.exists(caminho):
