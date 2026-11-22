@@ -33,15 +33,21 @@ cultura = carrega("cultura.json", [])
 trilhas = carrega("trilhas.json", [])
 memoria = carrega("memoria.json", [])
 
-secoes = [
-    ("assessoria-juridica-popular.html", "O que é assessoria jurídica popular", 97,
-     "a prática, a história e os debates do campo"),
-    ("direitos-humanos.html", "Direitos humanos", 76, "violações, denúncia e proteção"),
-    ("movimentos-sociais.html", "Movimentos sociais", 170, "lutas por terra, moradia, trabalho e cidade"),
-    ("memoria-e-cultura.html", "Memória e cultura", 30, "relatos, entrevistas e arquivo"),
-    ("teoria-critica.html", "Teoria crítica do direito", 182, "crítica do direito e do ensino jurídico"),
-    ("educacao-popular.html", "Educação popular", 158, "Freire, formação e metodologia"),
+SECOES_INFO = [
+    ("assessoria-juridica-popular", "assessoria-juridica-popular.html",
+     "O que é assessoria jurídica popular", "a prática, a história e os debates do campo"),
+    ("direitos-humanos", "direitos-humanos.html",
+     "Direitos humanos", "violações, denúncia e proteção"),
+    ("movimentos-sociais", "movimentos-sociais.html",
+     "Movimentos sociais", "lutas por terra, moradia, trabalho e cidade"),
+    ("educacao-popular", "educacao-popular.html",
+     "Educação popular", "Freire, formação e metodologia"),
+    ("teoria-critica", "teoria-critica.html",
+     "Teoria crítica do direito", "crítica do direito e do ensino jurídico"),
 ]
+_contagem = collections.Counter(r.get("tema_principal") for r in indice)
+secoes = [(arquivo, titulo, _contagem.get(chave, 0), desc)
+          for chave, arquivo, titulo, desc in SECOES_INFO]
 
 colecoes = [
     ("memoria.html", "Memória", "acontecimentos, publicações por ano e efemérides"),
@@ -195,7 +201,7 @@ pagina = """<!DOCTYPE html>
   </div>
 </main>
 %s
-<script src="casca.js?v=28" defer></script>
+<script src="casca.js?v=29" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="reveal.js?v=75" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>

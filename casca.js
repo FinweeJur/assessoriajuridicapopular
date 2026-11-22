@@ -86,6 +86,10 @@
   // ── Barra global de busca, filtro e ordem ────────────────────────────────
   (function buscaGlobal() {
     if (document.querySelector('.fita') || document.querySelector('.busca-global')) { return; }
+    var arquivo = location.pathname.split('/').pop() || 'index.html';
+    // Sem busca na capa e em páginas que não listam textos
+    if (arquivo === '' || arquivo === 'index.html') { return; }
+    if (!document.querySelector('.lista-acervo, [data-paginada], .grade-3, .item')) { return; }
     var topo = document.querySelector('.topo');
     if (!topo) { return; }
 

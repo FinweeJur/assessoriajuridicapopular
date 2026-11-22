@@ -66,7 +66,7 @@ def pagina(slug, titulo, ativo, lead, corpo):
   </div>
 </main>
 %s
-<script src="casca.js?v=28" defer></script>
+<script src="casca.js?v=29" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="reveal.js?v=75" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>

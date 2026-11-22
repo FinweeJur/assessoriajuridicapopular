@@ -28,9 +28,6 @@ SECOES = [
     ("movimentos-sociais", "Movimentos sociais", "movimentos-sociais",
      "Terra, moradia, água e trabalho: os movimentos que chamam a assessoria para perto.",
      "img/foto-09.jpg"),
-    ("memoria-e-cultura", "Memória e cultura", "memoria",
-     "Encontros, cartas políticas, poesia e o que a rede guarda desde 2009.",
-     "img/foto-03.jpg"),
     ("teoria-critica", "Teoria crítica do direito", "teoria-critica",
      "Resenhas, livros e aulas: a estante de quem pensa o direito a partir da luta.",
      "img/foto-13.jpg"),
@@ -134,7 +131,6 @@ def rodape():
         <li><a href="assessoria-juridica-popular.html">Assessoria jurídica popular</a></li>
         <li><a href="direitos-humanos.html">Direitos humanos</a></li>
         <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
-        <li><a href="memoria-e-cultura.html">Memória e cultura</a></li>
         <li><a href="teoria-critica.html">Teoria crítica</a></li>
         <li><a href="educacao-popular.html">Educação popular</a></li>
       </ul>
@@ -368,7 +364,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <script src="site.js?v=4" defer></script>
 <script src="reveal.js?v=75" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
-<script src="casca.js?v=28" defer></script>
+<script src="casca.js?v=29" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>
