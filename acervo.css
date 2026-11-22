@@ -2578,3 +2578,20 @@ body:has(.radio-flut[data-aberto="true"]) .casca-rolagem {
   .casca-rolagem { top: auto; bottom: 150px; right: 10px; transform: none; }
 }
 
+/* ── Dica flutuante controlada por JS ──────────────────────────────────── */
+[data-dica]::after { display: none !important; }
+.dica-flutuante {
+  position: fixed; z-index: 130; max-width: min(18rem, calc(100vw - 16px));
+  padding: 7px 10px; border-radius: 8px; pointer-events: none;
+  background: var(--cp-text); color: var(--cp-bg);
+  font-size: .74rem; line-height: 1.35; text-align: center;
+  opacity: 0; transform: translateY(4px); transition: opacity .15s ease, transform .15s ease;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .35);
+}
+.dica-flutuante[data-visivel="true"] { opacity: 1; transform: none; }
+.dica-flutuante[data-acima="true"] { translate: 0 -100%; }
+
+/* Setas: mais afastadas da borda e com respiro entre elas */
+.casca-rolagem { right: 26px; gap: 12px; }
+@media (max-width: 700px) { .casca-rolagem { right: 22px; } }
+

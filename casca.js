@@ -57,7 +57,7 @@
 
 
     dial.querySelector('[data-dial-radio]').addEventListener('click', function () {
-      var b = document.querySelector('[data-radio-toggle]');
+      var b = document.querySelector('.radio-flut__botao');
       if (b) { b.click(); }
       fechaDial();
     });
@@ -160,6 +160,69 @@
     });
   })();
 
+
+
+  // ── Dica flutuante: hover com saída de 1 segundo ────────────────────────
+  (function dicas() {
+    if (document.querySelector('[data-dica-flutuante]')) { return; }
+    var caixa = document.createElement('div');
+    caixa.className = 'dica-flutuante';
+    caixa.setAttribute('data-dica-flutuante', '');
+    caixa.setAttribute('role', 'tooltip');
+    document.body.appendChild(caixa);
+    var relogio = null;
+    var atual = null;
+
+    function texto(el) {
+      if (!el) { return ''; }
+      var t = el.getAttribute('data-dica') || el.getAttribute('aria-label') || el.getAttribute('title') || '';
+      if (!t && el.matches('.casca-dial__acoes button')) { t = (el.textContent || '').trim(); }
+      return t.trim().slice(0, 80);
+    }
+
+    function posiciona(el) {
+      var r = el.getBoundingClientRect();
+      var largura = caixa.offsetWidth || 160;
+      var x = Math.min(Math.max(8, r.left + r.width / 2 - largura / 2), window.innerWidth - largura - 8);
+      var acima = r.top > 52;
+      caixa.style.left = x + 'px';
+      caixa.style.top = (acima ? r.top - 10 : r.bottom + 10) + 'px';
+      caixa.dataset.acima = acima ? 'true' : 'false';
+    }
+
+    function mostra(el) {
+      var t = texto(el);
+      if (!t) { return; }
+      clearTimeout(relogio);
+      atual = el;
+      caixa.textContent = t;
+      caixa.dataset.visivel = 'true';
+      posiciona(el);
+    }
+
+    function esconde() {
+      caixa.dataset.visivel = 'false';
+      atual = null;
+    }
+
+    document.addEventListener('pointerenter', function (ev) {
+      if (ev.pointerType && ev.pointerType !== 'mouse') { return; }
+      var el = ev.target.closest('[data-dica], [aria-label], .casca-dial__acoes button');
+      if (!el) { return; }
+      mostra(el);
+    }, true);
+
+    document.addEventListener('pointerleave', function (ev) {
+      if (ev.pointerType && ev.pointerType !== 'mouse') { return; }
+      var el = ev.target.closest('[data-dica], [aria-label], .casca-dial__acoes button');
+      if (!el || el !== atual) { return; }
+      clearTimeout(relogio);
+      relogio = window.setTimeout(esconde, 1000);
+    }, true);
+
+    window.addEventListener('scroll', esconde, { passive: true });
+    window.addEventListener('resize', esconde);
+  })();
 
   // ── Busca expansível na barra do topo ────────────────────────────────────
   (function buscaTopo() {
