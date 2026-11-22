@@ -89,12 +89,12 @@ def topo(ativo):
           <li><a href="formacao.html"%s>Formação</a></li>
           <li><a href="biblioteca.html"%s>Biblioteca</a></li>
           <li><a href="cultura.html"%s>Cultura</a></li>
-          <li><a href="assessoria-juridica-popular-no-mundo.html"%s>Dossiê comparado</a></li>
-          <li><a href="dossie-leapspace.html">Dossiê LeapSpace</a></li>
+          <li><a href="assessoria-juridica-popular-no-mundo.html"%s>AJP pelo mundo</a></li>
         </ul>
       </div>
       <a href="autores.html"%s>Autores</a>
       <a href="blog.html"%s>Blog</a>
+      <a href="indice.html">Índice</a>
     </nav>
     <div class="topo__tema">
       <label for="tema">Tema</label>
@@ -214,8 +214,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=85" />
-  <link rel="stylesheet" href="reveal.css?v=82" />
+  <link rel="stylesheet" href="acervo.css?v=86" />
+  <link rel="stylesheet" href="reveal.css?v=86" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -372,7 +372,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <script src="site.js?v=4" defer></script>
 <script src="reveal.js?v=75" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
-<script src="casca.js?v=27" defer></script>
+<script src="casca.js?v=28" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>

@@ -669,4 +669,41 @@
     abre();
     window.addEventListener('hashchange', abre);
   })();
+
+  // Barra wiki: anterior, índice e próxima entre as páginas principais
+  (function wikiNav() {
+    var ordem = [
+      ['acervo.html', 'Acervo'],
+      ['blog.html', 'Blog'],
+      ['autores.html', 'Autores'],
+      ['memoria.html', 'Memória'],
+      ['formacao.html', 'Formação'],
+      ['biblioteca.html', 'Biblioteca'],
+      ['cultura.html', 'Cultura'],
+      ['assessoria-juridica-popular-no-mundo.html', 'AJP pelo mundo']
+    ];
+    var atual = location.pathname.split('/').pop() || 'index.html';
+    var pos = -1;
+    for (var i = 0; i < ordem.length; i += 1) {
+      if (ordem[i][0] === atual) { pos = i; }
+    }
+    var main = document.querySelector('main');
+    if (pos < 0 || !main || main.querySelector('.wiki-nav')) { return; }
+    var nav = document.createElement('nav');
+    nav.className = 'wiki-nav';
+    nav.setAttribute('aria-label', 'Navegação entre páginas');
+    var partes = [];
+    if (pos > 0) {
+      partes.push('<a class="wiki-nav__ant" href="' + ordem[pos - 1][0] + '">← ' + ordem[pos - 1][1] + '</a>');
+    } else {
+      partes.push('<span class="wiki-nav__vazio"></span>');
+    }
+    partes.push('<a class="wiki-nav__indice" href="indice.html">Índice</a>');
+    if (pos < ordem.length - 1) {
+      partes.push('<a class="wiki-nav__prox" href="' + ordem[pos + 1][0] + '">' + ordem[pos + 1][1] + ' →</a>');
+    }
+    nav.innerHTML = partes.join('');
+    main.appendChild(nav);
+  })();
+
 })();

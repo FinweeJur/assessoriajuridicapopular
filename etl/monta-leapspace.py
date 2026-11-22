@@ -18,7 +18,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGINA = os.path.join(RAIZ, "dossie-leapspace.html")
 MUNDO = os.path.join(RAIZ, "assessoria-juridica-popular-no-mundo.html")
 REFS = os.path.join(RAIZ, "dados", "leapspace-refs.json")
-MD = os.path.join(RAIZ, "dados", "dossie-leapspace.md")
+MD = os.path.join(RAIZ, "dados", "panorama-pesquisa.md")
 
 spec = importlib.util.spec_from_file_location("ms", os.path.join(RAIZ, "etl", "monta-secoes.py"))
 ms = importlib.util.module_from_spec(spec)
@@ -312,43 +312,8 @@ def lista_refs(refs):
     return "\n".join(itens)
 
 
-def resumo_mundo(refs):
-    total = len(refs)
-    abertos = sum(1 for r in refs if r.get("aberto"))
-    em_pt = sum(1 for r in refs if r.get("idioma") == "pt")
-    return """<section class="secao" id="leapspace" aria-labelledby="leapspace-titulo">
-      <div class="secao__cabeca"><h2 id="leapspace-titulo">LeapSpace: dossiê em oito sínteses</h2>
-      <p class="secao__nota">Respostas geradas por IA em 21/11/2026 · revisão editorial pendente</p></div>
-      <div class="leapspace__painel">
-        <div><b>8</b><span>eixos de síntese</span></div>
-        <div><b>%d</b><span>referências</span></div>
-        <div><b>%d</b><span>em acesso aberto</span></div>
-        <div><b>%d</b><span>em português</span></div>
-      </div>
-      <p>O dossiê reúne oito respostas do LeapSpace: AJP no Brasil, AJUP e extensão universitária, Direito Achado na
-      Rua, direito insurgente, uso tático do direito, positivismo de combate e pluralismo jurídico, advocacia popular e
-      pesquisa socialmente orientada. Cada eixo traz uma síntese, uma tabela e as referências que a sustentam.</p>
-      <p>Todas as referências citadas foram mantidas e estão ordenadas por prioridade de acesso: primeiro as de
-      <b>acesso aberto</b>, depois as de <b>acesso restrito</b>; dentro de cada grupo, <b>português</b>, <b>espanhol</b>
-      e <b>inglês</b>. Quem assina texto no acervo ganha destaque e link direto.</p>
-      <p class="colecao__nota">%s</p>
-      <p><a class="botao" href="dossie-leapspace.html">Ler o dossiê completo e as %d referências</a>
-      <a class="botao secundario" href="dados/dossie-leapspace.md">Baixar em Markdown</a></p>
-    </section>""" % (total, abertos, em_pt, esc(NOTA_IA), total)
-
-
-def monta_pagina(refs):
-    total = len(refs)
-    abertos = sum(1 for r in refs if r.get("aberto"))
-    em_pt = sum(1 for r in refs if r.get("idioma") == "pt")
-    em_es = sum(1 for r in refs if r.get("idioma") == "es")
-    no_acervo = sum(1 for r in refs if r.get("acervo_autor"))
-
-    sumario = "".join(
-        '<li><a href="#%s">%s</a> <span>%s</span></li>'
-        % (esc(s["id"]), esc(s["titulo"]), esc(s["resumo"])) for s in CONTEUDO
-    )
-
+def secoes_html():
+    """Os oito eixos em acordeões, reaproveitados na página e no panorama."""
     secoes = []
     for s in CONTEUDO:
         corpo = ["<h3>%s</h3>" % esc(s["titulo"])]
@@ -359,7 +324,7 @@ def monta_pagina(refs):
         if s.get("lista"):
             titulo_lista, itens = s["lista"]
             corpo.append("<h4>%s</h4><ul>%s</ul>" % (esc(titulo_lista),
-                                                     "".join("<li>%s</li>" % esc(i) for i in itens)))
+                                                    "".join("<li>%s</li>" % esc(i) for i in itens)))
         if s.get("nota"):
             corpo.append('<p class="colecao__nota">%s</p>' % esc(s["nota"]))
         secoes.append(
@@ -368,36 +333,47 @@ def monta_pagina(refs):
             '<div class="acordeao__corpo">%s</div></details>'
             % (esc(s["id"]), esc(s["titulo"]), esc(s["resumo"]), "".join(corpo))
         )
+    return "".join(secoes)
 
-    corpo = """<section class="secao">
-      <div class="secao__cabeca"><h2>Oito sínteses para começar</h2></div>
+
+def bloco_panorama(refs):
+    total = len(refs)
+    abertos = sum(1 for r in refs if r.get("aberto"))
+    em_pt = sum(1 for r in refs if r.get("idioma") == "pt")
+    em_es = sum(1 for r in refs if r.get("idioma") == "es")
+    no_acervo = sum(1 for r in refs if r.get("acervo_autor"))
+    sumario = "".join(
+        '<li><a href="#%s">%s</a> <span>%s</span></li>'
+        % (esc(s["id"]), esc(s["titulo"]), esc(s["resumo"])) for s in CONTEUDO
+    )
+    return """<section class="secao" id="panorama" aria-labelledby="panorama-titulo">
+      <div class="secao__cabeca">
+        <h2 id="panorama-titulo">Panorama da pesquisa sobre AJP</h2>
+        <p class="secao__nota">Oito sínteses da literatura · geradas com IA em 21/11/2026 · revisão pendente</p>
+      </div>
       <p class="colecao__nota">%s</p>
       <div class="leapspace__painel">
+        <div><b>8</b><span>eixos</span></div>
         <div><b>%d</b><span>referências</span></div>
         <div><b>%d</b><span>em acesso aberto</span></div>
         <div><b>%d</b><span>em português</span></div>
-        <div><b>%d</b><span>autoria no acervo</span></div>
       </div>
-      <p>A ordem de leitura sugerida é: o campo da AJP, a extensão universitária, as três teorias de base (Direito
-      Achado na Rua, direito insurgente, positivismo de combate e pluralismo), o uso tático do direito e, por fim, a
-      advocacia popular e a pesquisa socialmente orientada. Cada bloco abre em acordeão para não alongar a página.</p>
+      <p>O panorama reúne o que a literatura internacional e brasileira diz sobre AJP, extensão universitária,
+      Direito Achado na Rua, direito insurgente, uso tático do direito, positivismo de combate, advocacia popular
+      e pesquisa socialmente orientada. Cada eixo abre em acordeão e traz uma tabela e as referências que o
+      sustentam.</p>
+      <p>As referências estão ordenadas por prioridade de acesso: primeiro as de <b>acesso aberto</b>, depois as de
+      acesso restrito; dentro de cada grupo, <b>português</b>, <b>espanhol</b> e <b>inglês</b>. Quem assina texto no
+      acervo ganha destaque e link direto.</p>
       <ul class="linhas">%s</ul>
-    </section>
 
-    <section class="secao" aria-labelledby="eixos-titulo">
-      <div class="secao__cabeca"><h2 id="eixos-titulo">Os oito eixos</h2>
-      <p class="secao__nota">Clique para abrir. Os acordeões aceitam link direto: #ajp-brasil, #ajup, #uso-tatico…</p></div>
       %s
-    </section>
 
-    <section class="secao" id="referencias-leapspace" aria-labelledby="refs-titulo">
-      <div class="secao__cabeca"><h2 id="refs-titulo">Referências do dossiê</h2>
-      <p class="secao__nota">%d no total · %d em acesso aberto · %d em português · %d em espanhol · %d com autoria no acervo</p></div>
-      <p class="colecao__nota">A lista reúne <b>todas</b> as referências citadas nas oito respostas, sem exclusão.
-      A ordem prioriza o que está em <b>acesso aberto</b> e, dentro de cada grupo, o que está em <b>português</b>,
-      depois <b>espanhol</b> e <b>inglês</b>. Quem assina texto no acervo aparece com selo e link. O status de acesso foi
-      consultado no Unpaywall em 21/11/2026 e pode mudar; quando o texto não está livre, o link leva ao DOI ou à página
-      da editora.</p>
+      <h3>Referências do panorama</h3>
+      <p class="colecao__nota">A lista reúne <b>todas</b> as referências citadas nas oito sínteses, sem exclusão:
+      %d no total, %d em acesso aberto, %d em português, %d em espanhol e %d com autoria no acervo. O status de
+      acesso foi consultado no Unpaywall em 21/11/2026 e pode mudar; quando o texto não está livre, o link leva ao
+      DOI ou à página da editora.</p>
       <p class="leapspace__legenda"><span class="selo selo--aberto">acesso aberto</span>
       <span class="selo selo--restrito">acesso restrito</span>
       <span class="selo selo--pt">português</span><span class="selo selo--es">espanhol</span>
@@ -407,58 +383,33 @@ def monta_pagina(refs):
         <span class="acordeao__dica">todas as citadas, inclusive as de acesso restrito</span></summary>
         <div class="acordeao__corpo"><ol class="leapspace__refs">%s</ol></div>
       </details>
-      <p class="colecao__nota">Arquivos para reuso: <a href="dados/dossie-leapspace.md">dossiê completo em Markdown</a>,
-      <a href="dados/leapspace/advocacia-popular.md">advocacia popular</a> e
-      <a href="dados/leapspace/pesquisa-socialmente-orientada.md">pesquisa socialmente orientada</a>.</p>
-    </section>""" % (esc(NOTA_IA), total, abertos, em_pt, no_acervo, sumario, "".join(secoes),
+      <p class="colecao__nota">Arquivos para reuso:
+      <a href="dados/panorama-pesquisa.md">panorama completo em Markdown</a>,
+      <a href="dados/panorama/advocacia-popular.md">advocacia popular</a> e
+      <a href="dados/panorama/pesquisa-socialmente-orientada.md">pesquisa socialmente orientada</a>.</p>
+    </section>""" % (esc(NOTA_IA), total, abertos, em_pt, sumario, secoes_html(),
                     total, abertos, em_pt, em_es, no_acervo, total, lista_refs(refs))
 
-    return """<!DOCTYPE html>
+
+STUB = """<!DOCTYPE html>
 <html lang="pt-BR" data-theme="pequi">
 <head>
-  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dossiê LeapSpace: oito sínteses sobre AJP · AJP — Assessoria Jurídica Popular</title>
-  <meta name="description" content="Oito sínteses geradas por IA sobre AJP no Brasil, AJUP, Direito Achado na Rua, direito insurgente, uso tático, positivismo de combate, advocacia popular e pesquisa socialmente orientada, com as referências completas." />
-  <link rel="icon" href="data:," />
-  <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
-  <link rel="stylesheet" href="temas/temas.css" />
-  <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=85" />
-  <link rel="stylesheet" href="reveal.css?v=82" />
-  <link rel="stylesheet" href="componentes/radio.css" />
-  <link rel="stylesheet" href="leitura.css?v=1" />
+  <meta name="robots" content="noindex" />
+  <meta http-equiv="refresh" content="0; url=assessoria-juridica-popular-no-mundo.html#panorama" />
+  <title>Panorama da pesquisa · AJP</title>
+  <link rel="canonical" href="assessoria-juridica-popular-no-mundo.html#panorama" />
 </head>
-<body>
-<a class="pular" href="#conteudo">Pular para o conteúdo</a>
-%s
-<main id="conteudo">
-  <section class="hero hero--texto colecao-hero">
-    <div class="hero__interno">
-      <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Dossiê de leitura</p>
-      <h1>LeapSpace: oito sínteses sobre AJP</h1>
-      <p class="lead">AJP no Brasil, AJUP, Direito Achado na Rua, direito insurgente, uso tático, positivismo de
-      combate, advocacia popular e pesquisa socialmente orientada — com as referências completas.</p>
-    </div>
-  </section>
-  <div class="miolo">
-%s
-  </div>
-</main>
-%s
-<script src="casca.js?v=27" defer></script>
-<script src="leitura.js?v=3" defer></script>
-<script src="reveal.js?v=75" defer></script>
-<script src="fundo-grade.js?v=6" defer></script>
-</body>
-</html>
-""" % (ms.topo("comparado"), corpo, ms.rodape())
+<body><p>O panorama da pesquisa foi incorporado à página
+<a href="assessoria-juridica-popular-no-mundo.html#panorama">AJP pelo mundo</a>.</p>
+<script>location.replace('assessoria-juridica-popular-no-mundo.html#panorama');</script>
+</body></html>
+"""
 
 
 def md_texto(refs):
     linhas = [
-        "# Dossiê LeapSpace: oito sínteses sobre assessoria jurídica popular",
+        "# Panorama da pesquisa sobre assessoria jurídica popular",
         "",
         "> " + NOTA_IA,
         "",
@@ -530,10 +481,9 @@ REFS_PESQUISA = {"p%d" % n for n in range(1, 17)}
 
 def main():
     refs = carrega_refs()
-    io.open(PAGINA, "w", encoding="utf-8", newline="\n").write(monta_pagina(refs))
 
     io.open(MD, "w", encoding="utf-8", newline="\n").write(md_texto(refs))
-    pasta = os.path.join(RAIZ, "dados", "leapspace")
+    pasta = os.path.join(RAIZ, "dados", "panorama")
     os.makedirs(pasta, exist_ok=True)
     io.open(os.path.join(pasta, "advocacia-popular.md"), "w", encoding="utf-8", newline="\n").write(
         md_secao(refs, "advocacia-popular", "Advocacia popular", REFS_ADVOCACIA))
@@ -541,15 +491,33 @@ def main():
         md_secao(refs, "pesquisa-socialmente-orientada", "Pesquisa socialmente orientada", REFS_PESQUISA))
 
     t = io.open(MUNDO, encoding="utf-8").read()
-    bloco = resumo_mundo(refs)
-    i = t.find('<section class="secao" id="leapspace"')
-    if i < 0:
-        raise SystemExit("secao leapspace nao encontrada")
-    j = t.find("<section", i + 10)
-    t = t[:i] + bloco + "\n\n" + t[j:]
+    bloco = bloco_panorama(refs)
+
+    antigo = t.find('<section class="secao" id="leapspace"')
+    if antigo >= 0:
+        fim = t.find("<section", antigo + 10)
+        t = t[:antigo] + (t[fim:] if fim > 0 else "")
+
+    atual = t.find('<section class="secao" id="panorama"')
+    if atual >= 0:
+        fim = t.find("<section", atual + 10)
+        t = t[:atual] + bloco + "\n\n" + (t[fim:] if fim > 0 else "")
+    else:
+        marcador = '<section class="secao"><div class="secao__cabeca"><h2>Referências</h2></div>'
+        if marcador not in t:
+            raise SystemExit("marcador de referencias nao encontrado")
+        t = t.replace(marcador, bloco + "\n\n" + marcador, 1)
+
+    t = t.replace('href="#leapspace"', 'href="#panorama"')
+    t = t.replace('Dossiê LeapSpace</a> — seis sínteses de IA',
+                  'Panorama da pesquisa</a> — oito sínteses da literatura')
+    t = t.replace('<title>Assessoria jurídica popular: Brasil, América Latina e mundo · AJP — Assessoria Jurídica Popular</title>',
+                  '<title>AJP pelo mundo · AJP — Assessoria Jurídica Popular</title>')
     io.open(MUNDO, "w", encoding="utf-8", newline="\n").write(t)
 
-    print("pagina: %d refs | md: %d bytes" % (len(refs), len(io.open(MD, encoding="utf-8").read())))
+    io.open(PAGINA, "w", encoding="utf-8", newline="\n").write(STUB)
+
+    print("panorama: %d refs | md: %d bytes" % (len(refs), len(io.open(MD, encoding="utf-8").read())))
 
 
 if __name__ == "__main__":

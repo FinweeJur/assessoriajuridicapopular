@@ -2251,3 +2251,57 @@ a.cartao, .item__link, .destaque, .bento__item {
   .acordeao__corpo { animation: none; }
   .acordeao > summary::after { transition: none; }
 }
+
+/* ── Índice do site (mapa wiki) ─────────────────────────────────────────── */
+.indice-topo { margin-top: clamp(18px, 3vw, 30px); }
+.indice-busca {
+  display: flex; align-items: center; gap: 8px; margin-top: 14px;
+  padding: 0 12px; min-height: 46px; max-width: 34rem;
+  border: 1px solid var(--borda); border-radius: 12px; background: var(--cp-surface);
+}
+.indice-busca .ico { width: 17px; height: 17px; color: var(--cp-text-soft); }
+.indice-busca input {
+  flex: 1; min-width: 0; border: 0; outline: 0; background: transparent;
+  color: var(--cp-text); font: inherit; font-size: .9rem;
+}
+.indice-conta { font-size: .76rem; color: var(--cp-text-soft); white-space: nowrap; }
+.indice-grupo .indice-lista {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px; margin: 0; padding: 0; list-style: none;
+}
+.indice-lista li {
+  padding: 14px 16px; border: 1px solid var(--borda); border-radius: 12px;
+  background: color-mix(in srgb, var(--cp-surface) 26%, transparent);
+}
+.indice-lista a {
+  font-family: var(--font-display); font-weight: 700; font-size: 1rem;
+  color: var(--cp-text); text-decoration: none;
+}
+.indice-lista a:hover, .indice-lista a:focus-visible { color: var(--cor-tema); text-decoration: underline; }
+.indice-lista span { display: block; margin-top: 3px; font-size: .8rem; color: var(--cp-text-soft); }
+@media (max-width: 760px) {
+  .indice-grupo .indice-lista { grid-template-columns: 1fr; }
+}
+
+/* ── Navegação wiki: anterior, índice e próxima ─────────────────────────── */
+.wiki-nav {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+  max-width: var(--largura); margin: 44px auto 0;
+  padding: 0 clamp(16px, 4vw, 40px);
+}
+.wiki-nav a {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 10px 14px; border: 1px solid var(--borda); border-radius: 10px;
+  background: color-mix(in srgb, var(--cp-surface) 30%, transparent);
+  color: var(--cp-text); font-weight: 600; font-size: .85rem; text-decoration: none;
+}
+.wiki-nav a:hover, .wiki-nav a:focus-visible { border-color: var(--cor-tema); color: var(--cor-tema); }
+.wiki-nav__indice { margin-left: auto; }
+.wiki-nav__prox { margin-left: auto; }
+.wiki-nav__vazio { flex: 1; }
+
+.cp-botoes {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px; margin-top: 12px;
+}
+.cp-botoes .botao { width: 100%; justify-content: center; text-align: center; }

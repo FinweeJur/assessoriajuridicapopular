@@ -1,4 +1,4 @@
-# Dossiê LeapSpace: oito sínteses sobre assessoria jurídica popular
+# Panorama da pesquisa sobre assessoria jurídica popular
 
 > Conteúdo gerado por IA (LeapSpace, 21/11/2026). Serve como mapa inicial de leitura: confira cada afirmação na referência original antes de citar.
 
