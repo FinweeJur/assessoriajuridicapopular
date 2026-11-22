@@ -2104,3 +2104,25 @@ a.cartao, .item__link, .destaque, .bento__item {
 
 /* Respiro entre as quatro perspectivas do dossiê comparado */
 .linhas--teorias li + li { margin-top: 1.5em; }
+
+
+/* MAB: colorido com fundo escuro no claro; branco nos temas escuros */
+.parcerias__lista img.mab-branco { display: none; }
+.parcerias__lista img.mab-cor { border-radius: 6px; }
+[data-theme="dark"] .parcerias__lista img.mab-cor,
+[data-theme="pequi"] .parcerias__lista img.mab-cor,
+[data-theme="cerrado"] .parcerias__lista img.mab-cor,
+[data-theme="mata-atlantica"] .parcerias__lista img.mab-cor,
+[data-theme="caatinga"] .parcerias__lista img.mab-cor,
+[data-theme="pantanal"] .parcerias__lista img.mab-cor,
+[data-theme="brasil"] .parcerias__lista img.mab-cor { display: none; }
+[data-theme="dark"] .parcerias__lista img.mab-branco,
+[data-theme="pequi"] .parcerias__lista img.mab-branco,
+[data-theme="cerrado"] .parcerias__lista img.mab-branco,
+[data-theme="mata-atlantica"] .parcerias__lista img.mab-branco,
+[data-theme="caatinga"] .parcerias__lista img.mab-branco,
+[data-theme="pantanal"] .parcerias__lista img.mab-branco,
+[data-theme="brasil"] .parcerias__lista img.mab-branco {
+  display: inline-block; opacity: .92;
+}
+.tabela table.tabela--seis { min-width: 68rem; }

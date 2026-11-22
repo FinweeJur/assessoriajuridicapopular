@@ -153,7 +153,7 @@ def rodape():
       <ul class="parcerias__lista">
         <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
         <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
-        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
+        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img class="mab-cor" src="logos/mab-cor.png" alt="MAB" loading="lazy" /><img class="mab-branco" src="logos/mab-branco.png" alt="MAB" loading="lazy" /></a></li>
       </ul>
       <p>GT de Assessoria Jurídica Popular do IPDMS · Coord. Luiz Otávio Ribas</p>
       <p>Desenvolvimento e retirada de imagens ou conteúdo: Artur Colito —
@@ -205,8 +205,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=75" />
-  <link rel="stylesheet" href="reveal.css?v=75" />
+  <link rel="stylesheet" href="acervo.css?v=77" />
+  <link rel="stylesheet" href="reveal.css?v=77" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>

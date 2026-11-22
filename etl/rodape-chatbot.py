@@ -50,7 +50,7 @@ novo_rodape = '''def rodape():
       <ul class="parcerias__lista">
         <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
         <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
-        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img src="logos/mab.png" alt="MAB" loading="lazy" /></a></li>
+        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img class="mab-cor" src="logos/mab-cor.png" alt="MAB" loading="lazy" /><img class="mab-branco" src="logos/mab-branco.png" alt="MAB" loading="lazy" /></a></li>
       </ul>
       <p><b>GT de Assessoria Jurídica Popular do IPDMS</b></p>
       <p>Desenvolvimento e retirada de imagens ou conteúdo:
