@@ -7,7 +7,10 @@
   "programa": "Direito",
   "instituicao": "UFSC",
   "url": "https://repositorio.ufsc.br/handle/123456789/95706",
-  "temas": ["AJP", "história"]
+  "temas": [
+   "AJP",
+   "história"
+  ]
  },
  {
   "titulo": "Assessoria jurídica popular: teoria e prática emancipatória",
@@ -17,7 +20,10 @@
   "programa": "Direito (Direito e Desenvolvimento)",
   "instituicao": "UFC",
   "url": "https://repositorio.ufc.br/handle/riufc/12460",
-  "temas": ["AJP", "emancipação"]
+  "temas": [
+   "AJP",
+   "emancipação"
+  ]
  },
  {
   "titulo": "Direito insurgente e pluralismo jurídico: assessoria jurídica de movimentos populares em Porto Alegre e no Rio de Janeiro (1960-2000)",
@@ -27,7 +33,10 @@
   "programa": "Direito",
   "instituicao": "UFSC",
   "url": "https://repositorio.ufsc.br/handle/123456789/93227",
-  "temas": ["direito insurgente", "pluralismo jurídico"]
+  "temas": [
+   "direito insurgente",
+   "pluralismo jurídico"
+  ]
  },
  {
   "titulo": "Na práxis da assessoria jurídica universitária popular: extensão e produção de conhecimento",
@@ -37,7 +46,10 @@
   "programa": "Ciências Jurídicas",
   "instituicao": "UFPB",
   "url": "https://repositorio.ufpb.br/jspui/handle/tede/4433",
-  "temas": ["AJUP", "extensão"]
+  "temas": [
+   "AJUP",
+   "extensão"
+  ]
  },
  {
   "titulo": "Direito(s) e(m) movimento(s): assessoria jurídica popular a movimentos populares organizados em torno do direito à terra e ao território em meio rural no Ceará",
@@ -47,7 +59,10 @@
   "programa": "Direito",
   "instituicao": "UFC",
   "url": "https://repositorio.ufc.br/handle/riufc/12599",
-  "temas": ["AJP", "terra e território"]
+  "temas": [
+   "AJP",
+   "terra e território"
+  ]
  },
  {
   "titulo": "Direito achado na rua, pluralismo jurídico, teoria crítica dos direitos humanos e a luta por direitos no Presídio Regional de Pelotas",
@@ -58,7 +73,10 @@
   "instituicao": "UnB",
   "url": "https://repositorio.unb.br/handle/10482/13134",
   "capes": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=122570",
-  "temas": ["direito achado na rua", "pluralismo jurídico"]
+  "temas": [
+   "direito achado na rua",
+   "pluralismo jurídico"
+  ]
  },
  {
   "titulo": "Um estalo nas faculdades de direito: perspectivas ideológicas da assessoria jurídica universitária popular",
@@ -69,7 +87,10 @@
   "instituicao": "UFPB",
   "url": "https://repositorio.ufpb.br/jspui/handle/tede/8352",
   "capes": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3449942",
-  "temas": ["AJUP", "ensino jurídico"]
+  "temas": [
+   "AJUP",
+   "ensino jurídico"
+  ]
  },
  {
   "titulo": "Direito insurgente na assessoria jurídica de movimentos populares no Brasil (1960-2010)",
@@ -80,7 +101,10 @@
   "instituicao": "UERJ",
   "url": "https://www.bdtd.uerj.br:8443/handle/1/9319",
   "capes": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=2922272",
-  "temas": ["direito insurgente", "AJP"]
+  "temas": [
+   "direito insurgente",
+   "AJP"
+  ]
  },
  {
   "titulo": "Assessoria jurídica universitária popular: um instrumento de transformação social",
@@ -91,7 +115,10 @@
   "instituicao": "FURG",
   "url": "https://repositorio.furg.br/items/f290aa67-8b83-4a4b-8abb-e264fb601d03",
   "capes": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=6307788",
-  "temas": ["AJUP", "transformação social"]
+  "temas": [
+   "AJUP",
+   "transformação social"
+  ]
  },
  {
   "titulo": "A assessoria jurídica popular no marco do pensamento decolonial: direitos e saberes construídos nas resistências populares",
@@ -102,7 +129,10 @@
   "instituicao": "UFOP",
   "url": "https://www.repositorio.ufop.br/items/30a0f13c-ee0c-46e2-b907-3c32d620b180",
   "capes": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=9005702",
-  "temas": ["AJP", "decolonial"]
+  "temas": [
+   "AJP",
+   "decolonial"
+  ]
  },
  {
   "titulo": "Direitos humanos desde e para a América Latina: uma proposta crítico-dialética a partir de O Direito Achado na Rua",
@@ -113,7 +143,10 @@
   "instituicao": "UnB",
   "url": "https://repositorio.unb.br/handle/10482/51479",
   "capes": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=12913011",
-  "temas": ["direito achado na rua", "direitos humanos"]
+  "temas": [
+   "direito achado na rua",
+   "direitos humanos"
+  ]
  },
  {
   "titulo": "A assessoria jurídica popular como defesa dos povos: desafios para uma prática cosmopolítica no Brasil e na América Latina",
@@ -124,6 +157,124 @@
   "instituicao": "UERJ",
   "url": "https://www.bdtd.uerj.br:8443/handle/1/22417",
   "capes": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=15130019",
-  "temas": ["AJP", "América Latina"]
+  "temas": [
+   "AJP",
+   "América Latina"
+  ]
+ },
+ {
+  "titulo": "Advocacia popular na construção de um novo senso comum jurídico",
+  "autoria": "Leandro Franklin Gorsdorf",
+  "ano": "2004",
+  "grau": "Mestrado",
+  "programa": "Direito",
+  "instituicao": "UFPR",
+  "url": "https://acervodigital.ufpr.br/handle/1884/41528",
+  "temas": [
+   "advocacia popular"
+  ]
+ },
+ {
+  "titulo": "A teoria do direito de Pachukanis e pseudoconcreticidade: uma contribuição à crítica marxista do direito",
+  "autoria": "Vinícius Gomes Casalino",
+  "ano": "2006",
+  "grau": "Mestrado",
+  "programa": "Direito",
+  "instituicao": "USP",
+  "url": "https://repositorio.usp.br/item/001625438",
+  "temas": [
+   "teoria crítica do direito"
+  ]
+ },
+ {
+  "titulo": "A delimitação de formas de juridicidade no pluralismo jurídico: um modelo para os conflitos entre o direito afirmado pelo MST e o direito estatal",
+  "autoria": "Renata Ovenhausen Albernaz",
+  "ano": "2008",
+  "grau": "Doutorado",
+  "programa": "Direito",
+  "instituicao": "UFSC",
+  "url": "https://repositorio.ufsc.br/handle/123456789/91268",
+  "temas": [
+   "pluralismo jurídico",
+   "MST"
+  ]
+ },
+ {
+  "titulo": "O pluralismo jurídico: marco teórico para a discussão do acesso à justiça",
+  "autoria": "Fernando Luis Coelho Antunes",
+  "ano": "2008",
+  "grau": "Mestrado",
+  "programa": "Direito",
+  "instituicao": "UFSC",
+  "url": "https://repositorio.ufsc.br/handle/123456789/91919",
+  "temas": [
+   "pluralismo jurídico",
+   "acesso à justiça"
+  ]
+ },
+ {
+  "titulo": "Litígio estratégico e sistema interamericano de direitos humanos: análise de casos da Corte Interamericana",
+  "autoria": "Evorah Lusci Costa Cardoso",
+  "ano": "2008",
+  "grau": "Mestrado",
+  "programa": "Direito",
+  "instituicao": "USP",
+  "url": "https://repositorio.usp.br/item/001700774",
+  "temas": [
+   "uso tático do direito",
+   "litígio estratégico"
+  ]
+ },
+ {
+  "titulo": "Semeando justiça: a relação entre a advocacia popular e os movimentos sociais populares na busca do acesso à justiça",
+  "autoria": "Flávia Carlet",
+  "ano": "2009",
+  "grau": "Mestrado",
+  "programa": "Direito",
+  "instituicao": "UFRGS",
+  "url": "https://lume.ufrgs.br/handle/10183/101382",
+  "temas": [
+   "advocacia popular",
+   "acesso à justiça"
+  ]
+ },
+ {
+  "titulo": "A produção da vida e o poder dual do pluralismo jurídico insurgente: ensaio para uma teoria de libertação dos movimentos populares no choro-canção latino-americano",
+  "autoria": "Ricardo Prestes Pazello",
+  "ano": "2010",
+  "grau": "Mestrado",
+  "programa": "Direito",
+  "instituicao": "UFSC",
+  "url": "https://repositorio.ufsc.br/handle/123456789/94178",
+  "temas": [
+   "direito insurgente",
+   "pluralismo jurídico"
+  ]
+ },
+ {
+  "titulo": "Direito insurgente e movimentos populares: o giro descolonial do poder e a crítica marxista ao direito",
+  "autoria": "Ricardo Prestes Pazello",
+  "ano": "2014",
+  "grau": "Doutorado",
+  "programa": "Direito",
+  "instituicao": "UFPR",
+  "url": "https://acervodigital.ufpr.br/handle/1884/36287",
+  "temas": [
+   "direito insurgente",
+   "movimentos populares"
+  ]
+ },
+ {
+  "titulo": "Promotoras legais populares: organização coletiva de mulheres para a constituição de um feminismo popular",
+  "autoria": "Priscila Miranda de Sá",
+  "ano": "2021",
+  "grau": "Mestrado",
+  "programa": "Direitos Humanos",
+  "instituicao": "UFG",
+  "url": "https://repositorio.bc.ufg.br/tede/items/d045d9f8-8d05-426b-893d-0de847fbb478",
+  "temas": [
+   "educação popular em direitos",
+   "promotoras legais populares"
+  ]
  }
 ]

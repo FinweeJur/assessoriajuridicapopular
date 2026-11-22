@@ -52,12 +52,14 @@ def main():
     </section>""" % (len(teses), "\n".join(itens))
 
     t = io.open(PAGINA, encoding="utf-8").read()
-    if 'id="teses-capes"' in t:
-        print("teses: ja inseridas")
-        return
-    i = t.rfind("</main>")
-    j = t.rfind("</div>", 0, i)
-    t = t[:j] + "\n" + bloco + "\n" + t[j:]
+    inicio = t.find('<section class="secao" id="teses-capes"')
+    if inicio >= 0:
+        fim = t.find("</section>", inicio) + len("</section>")
+        t = t[:inicio] + bloco + t[fim:]
+    else:
+        i = t.rfind("</main>")
+        j = t.rfind("</div>", 0, i)
+        t = t[:j] + "\n" + bloco + "\n" + t[j:]
     io.open(PAGINA, "w", encoding="utf-8", newline="\n").write(t)
     print("teses inseridas:", len(teses))
 
