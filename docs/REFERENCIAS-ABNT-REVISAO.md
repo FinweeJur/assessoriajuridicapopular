@@ -555,8 +555,8 @@ A lista existe para sustentar citação no texto. Hoje ela não sustenta:
 11. **Numeração:** o apêndice continua a série (371–606) ou usa `B1…B236`;
     reiniciar em 1 cria 236 números duplicados no mesmo arquivo.
 12. **`Acesso em`:** guardar a data por referência, não uma constante
-    global; e não imprimir “Acesso em” para link que a conferência marcou
-    como morto (74 casos).
+    global. Hoje 74 referências com link morto carregam “Acesso em: 22 nov.
+    2026” como se tivessem sido abertas nessa data.
 
 ### P1 — consistência editorial
 
@@ -617,8 +617,8 @@ leia o Markdown gerado e o JSON e falhe com código ≠ 0 quando:
 
 Enquanto esses limites não forem zero, o documento não deve ser apresentado
 como “referências em ABNT”: são **pistas de referência** para revisão humana.
-Se o objetivo é publicar já, a única fatia aproveitável sem retrabalho é a de
-livros com imprenta completa — e mesmo ela precisa da correção de local.
+A fatia com menos retrabalho é a de livros cujo `trecho` já traz local e
+editora — mesmo ela precisa da correção de imprenta.
 
 ---
 
