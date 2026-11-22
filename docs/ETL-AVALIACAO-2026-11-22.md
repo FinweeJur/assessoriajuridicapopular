@@ -478,7 +478,7 @@ as bibliotecas externas (RENAP, IPDMS).
 | `dados/manifest.json` | contagem oficial: 790 posts, 790 canonicais, 0 lacunas, RAG 790, sitemap 816 |
 | `dados/ajups.json` | 40 fichas (3 redes + 9 advocacias + 25 AJUPs + 3 movimentos) |
 | `rede.html` / `mapeamento-ajups.html` | camada comunitária e mapa filtrável |
-| `dados/referencias.json` | 606 referências extraídas de 790 páginas |
+| `dados/referencias.json` | 606 referências extraídas de 790 páginas; 599 entradas únicas na lista ABNT (duplicatas exatas removidas) |
 | `referencias-citadas.html` / `docs/referencias-abnt.md` | ABNT + “Disponível aqui” |
 | `docs/PLANO-NAVEGACAO-ORIGINAL.md` | plano de hierarquia e movimentos do blog antigo |
 | `etl/monta-rede.py`, `etl/monta-referencias-*.py` | geradores da camada de rede e das referências |
@@ -533,7 +533,7 @@ bibliografia. Resultado:
 |---|---:|
 | Referências extraídas | **606** |
 | Com URL explícita | 180 |
-| Links abertos / empréstimo / restritos / mortos / sem link | 106 / 1 / 16 / 74 / 409 |
+| Links abertos / empréstimo / restritos / mortos / sem link | 106 / 1 / 16 / 74 / 409 (402 sem link entre as 599 entradas únicas) |
 | Confiança alta / média / baixa | 221 / 149 / 236 |
 | Páginas com alguma referência | 192 |
 | Tipos | livro 160, obra 130, site 121, artigo 57, capítulo 39, documento 26, vídeo 19, dissertação 18, monografia 13, legislação 8, tese 8, relatório 7 |

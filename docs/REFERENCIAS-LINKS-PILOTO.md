@@ -17,15 +17,15 @@ Das 606 referências, **213** são de confiança alta e não tinham URL. Foram s
 |---|---:|
 | Referências na amostra | 40 |
 | Com URL localizada | **17 (42,5%)** |
-| Correspondência exata | 16 |
-| Correspondência provável | 1 |
+| Correspondência exata | 15 |
+| Correspondência provável | 2 |
 | Sem correspondência | 23 |
 | Acesso aberto | 4 |
 | Empréstimo digital | 1 |
 | Acesso restrito (metadado/paywall) | 12 |
 | Não encontrado | 23 |
 
-Por fonte que forneceu o link: Open Library **12**, Crossref **4**, SciELO **1**. Internet Archive, BDTD e Planalto não forneceram link nesta amostra. A soma fecha 17 — 16 exatos e 1 provável (Lyra Filho 1974/1976).
+Por fonte que forneceu o link: Open Library **12**, Crossref **4**, SciELO **1**. Internet Archive, BDTD e Planalto não forneceram link nesta amostra. A soma fecha 17 — 15 exatos e 2 prováveis (Lyra Filho 1974/1976 e Schmitt em edição espanhola).
 
 Leitura rápida: o piloto resolveu **42,5%** da amostra, mas só **5 itens (12,5%)** têm texto integral imediato (4 abertos + 1 empréstimo). Os outros 12 links são registros de catálogo ou páginas restritas — úteis para identificação bibliográfica, não para leitura.
 
@@ -90,7 +90,7 @@ Normalização antes de comparar: minúsculas, remoção de acentos, pontuação
 | `ref-cce56d173208` | Pedagogia da autonomia: saberes necessários à prática educativa | FREIRE, Paulo | <https://openlibrary.org/works/OL26415542W> | openlibrary | restrito | exato |
 | `ref-0bb524e3e61d` | Pedagogia do oprimido | FREIRE, Paulo | <https://openlibrary.org/works/OL1870556W> | openlibrary | restrito | exato |
 | `ref-7b72ed72d9ba` | Socioambientalismo e novos direitos | SANTILI, Juliana | <https://openlibrary.org/works/OL12273795W> | openlibrary | emprestimo | exato |
-| `ref-3f0e5edf81e1` | Teologia política | SCHMITT, Carl | <https://openlibrary.org/works/OL1157163W> | openlibrary | restrito | exato |
+| `ref-3f0e5edf81e1` | Teologia política | SCHMITT, Carl | <https://openlibrary.org/works/OL28600955W> | openlibrary | restrito | provavel |
 | `ref-bf96bf6445d2` | Direito insurgente: fundamentações marxistas desde a América Latina | PAZELLO, Ricardo Prestes | <https://doi.org/10.1590/2179-8966/2018/36564> | scielo | aberto | exato |
 | `ref-82d04e4ed9ff` | Filosofia, teologia e experiência mística | Roberto Lyra Filho | <https://doi.org/10.5840/icp819742116> | crossref | restrito | provavel |
 | `ref-7d81d6d42ece` | Reflexos do discurso liberal do direito de propriedade nas decisões judiciais proferidas em ações de desapropriação agrária | FIDELES, Junior Divino | <https://doi.org/10.25109/2525-328x.v.13.n.41.2014.426> | crossref | aberto | exato |
@@ -110,7 +110,7 @@ Normalização antes de comparar: minúsculas, remoção de acentos, pontuação
 - **Pedagogia da autonomia: saberes necessários à prática educativa** — Work OL26415542W: 'Pedagogia da Autonomia - Edicao especial' (2019), Paulo Freire; mesma obra, com qualificador de edição no título. Sem ebook.
 - **Pedagogia do oprimido** — Work OL1870556W: 'Pedagogia do Oprimido', Paulo Freire, 19 edições, 1ª de 1967. A 12ª ed. de 1983 (Paz e Terra) não tem ebook; acesso só para leitores com deficiência de impressão (printdisabled).
 - **Socioambientalismo e novos direitos** — Work OL12273795W: 'Socioambientalismo e novos direitos', Juliana Santilli, 2005 (mesmo ano). Empréstimo digital (borrowable); cópia IA em inlibrary/printdisabled.
-- **Teologia política** — Work OL1157163W: 'Teologia politica', Carl Schmitt, edição registrada de 1996; a referência cita a ed. Del Rey de 2006. Título e autor conferem; sem ebook.
+- **Teologia política** — Work OL28600955W: 'Teología política', Carl Schmitt, edição de 2009 em espanhol; a referência cita a ed. brasileira Del Rey, 2006, não localizada. Título e autor conferem; língua e edição divergem.
 - **Direito insurgente: fundamentações marxistas desde a América Latina** — DOI 10.1590/2179-8966/2018/36564; Revista Direito e Práxis, 2018; texto integral no SciELO (acesso aberto).
 - **Filosofia, teologia e experiência mística** — DOI 10.5840/icp819742116: 'Filosofia, teologia e experiência mística', Lyra Filho, 1974 (anais do VIII Congresso); a referência cita 1976 (Kriterion). Título e autoria conferem, edição/veículo diferem; landing page responde 403 (paywall).
 - **Reflexos do discurso liberal do direito de propriedade nas decisões judiciais proferidas em ações de desapropriação agrária** — DOI 10.25109/2525-328x.v.13.n.41.2014.426; Revista da AGU, v.13 n.41, 2014; PDF público na SEER da AGU, sem login.
@@ -167,10 +167,10 @@ Normalização antes de comparar: minúsculas, remoção de acentos, pontuação
 4. **Acervo Digital da UFPR — busca e API desautorizadas.** O `robots.txt` bloqueia `/rest/` e `/xmlui/search` e pede `Crawl-delay: 5`. As 5 consultas de teste a `/rest/items` foram feitas antes da leitura do robots, retornaram resultados genéricos (a API ignorou o `query`) e **não foram aproveitadas**. Nenhuma coleta UFPR entrou no resultado.
 5. **CAPES — sem acesso público.** O Portal de Periódicos exige login institucional para o conteúdo. Não foi consultado; não há como validar texto integral sem credencial.
 6. **Planalto — não se aplica à amostra.** Nenhuma das 40 referências é do tipo `legislacao`; as 8 referências de legislação do acervo não entraram na seleção.
-7. **Open Library — exceção de robots registrada.** O `robots.txt` tem `Disallow: /search`. O endpoint `search.json` foi usado porque a tarefa o autorizou explicitamente; o uso ficou limitado a esta amostra (66 consultas), com pausa e sem crawling de páginas.
+7. **Open Library — exceção de robots registrada e bloqueio ao final.** O `robots.txt` tem `Disallow: /search`. O endpoint `search.json` foi usado porque a tarefa o autorizou explicitamente; o uso ficou limitado a esta amostra (66 consultas), com pausa e sem crawling de páginas. Nas últimas verificações de URL, o site passou a responder **“Human Verification”** e timeouts de conexão. A checagem HTTP final dos 12 links do Open Library não completou; **não houve tentativa de contornar o desafio**. Os vínculos vêm das respostas JSON obtidas antes do bloqueio (work key, título e autoria).
 8. **Internet Archive — uploads comunitários não foram vinculados.** Havia cópias de Baratta, Freire e José de Souza Martins em `booksbylanguage_portuguese` (uploads de usuários, obra ainda protegida), além de uma cópia com marca `z-lib` de Cappelletti/Garth. Por ética e por não serem empréstimo legítimo, não entraram. Só o item `inlibrary/printdisabled` de Santilli foi usado como evidência de empréstimo — e a URL gravada é a do Open Library.
 9. **Ruído do Crossref.** Muitos resultados eram resenhas, capítulos sobre a obra ou homônimos. Exemplo: “Pedagogia do oprimido” retorna um capítulo alemão *sobre* Freire, não o livro. Todos foram rejeitados.
-10. **Um provável.** O único `provavel` é Lyra Filho, “Filosofia, teologia e experiência mística”: o DOI aponta para os anais de 1974, e a referência cita o Kriterion de 1976. Título e autoria conferem; a edição não. O DOI responde 403 (paywall).
+10. **Dois prováveis.** Lyra Filho, “Filosofia, teologia e experiência mística”: o DOI aponta para os anais de 1974, e a referência cita o Kriterion de 1976. Schmitt, “Teologia política”: só há registro em espanhol (2009), não a edição brasileira Del Rey (2006). Em ambos, título e autoria conferem, mas a edição não.
 11. **Dois timeouts** na primeira rodada do Open Library (Baratta e Herrera Flores/El proceso cultural). O segundo foi recuperado na repetição; o primeiro continuou sem registro com autoria.
 12. **Ano da edição ≠ ano da referência.** Em 7 obras do Open Library a edição registrada é anterior ou posterior à citada (ex.: Stucka 1976 vs. 1988; Benjamin 1989 vs. 1994). Como a URL é a *work*, o vínculo é com a obra, não com a edição — a observação de cada item diz isso.
 
@@ -180,11 +180,11 @@ Normalização antes de comparar: minúsculas, remoção de acentos, pontuação
 
 1. **Separar o piloto em duas filas:** livros (Open Library rende bem) e teses (dependem de DOI/repositório). Misturar esconde que a taxa de sucesso é muito diferente.
 2. **Teses:** tentar o OAI-PMH ou os sitemaps dos repositórios por *handle*, não a busca; ou obter a lista de handles por set. Respeitar `Crawl-delay` e `Disallow`. O caminho mais barato é o DOI `10.26512` para a UnB.
-3. **Livros:** complementar o Open Library com catálogo da Biblioteca Nacional e páginas de editoras; o Open Library cobre bem Freire, Benjamin, Herrera Flores e a coleção Acadêmica, mas não cobre AJUP/FASE, Del Rey e Boitempo.
-4. **Nunca gravar `restrito` como se fosse leitura.** O campo `tipo_acesso` já separa; a página pública deve mostrar “localizar em biblioteca” quando for `restrito`.
-5. **Revisão humana do `provavel`** antes de promover a `exato`.
-6. **Não promover nada para `dados/referencias-links.json`** sem decisão do dono: este arquivo é insumo de outro ETL e tem semântica de link testado (status HTTP, content-type).
-
+3. **Open Library:** cachear cada resposta e espaçar mais as consultas. Ao primeiro “Human Verification”, parar a sessão e retomar depois; não insistir. Para o próximo lote, vale dividir em blocos de 20–30 itens por dia.
+4. **Livros:** complementar o Open Library com catálogo da Biblioteca Nacional e páginas de editoras; o Open Library cobre bem Freire, Benjamin, Herrera Flores e a coleção Acadêmica, mas não cobre AJUP/FASE, Del Rey e Boitempo.
+5. **Nunca gravar `restrito` como se fosse leitura.** O campo `tipo_acesso` já separa; a página pública deve mostrar “localizar em biblioteca” quando for `restrito`.
+6. **Revisão humana do `provavel`** antes de promover a `exato`.
+7. **Não promover nada para `dados/referencias-links.json`** sem decisão do dono: este arquivo é insumo de outro ETL e tem semântica de link testado (status HTTP, content-type).
 ---
 
 ## 7. Reprodutibilidade

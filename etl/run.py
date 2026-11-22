@@ -53,9 +53,11 @@ ETAPAS = {
     "refs": [
         [PY, os.path.join(RAIZ, "etl", "extrai-referencias.py"), "--tudo",
          "--saida", os.path.join(RAIZ, "dados", "referencias.json")],
+        [PY, os.path.join(RAIZ, "etl", "mescla-referencias-resolvidas.py")],
         [PY, os.path.join(RAIZ, "etl", "monta-referencias-abnt.py")],
         [PY, os.path.join(RAIZ, "etl", "monta-referencias-pagina.py")],
         [PY, os.path.join(RAIZ, "etl", "relatorio-referencias-links.py")],
+        [PY, os.path.join(RAIZ, "etl", "audita-referencias-abnt.py")],
     ],
     "manifest": [
         [PY, os.path.join(RAIZ, "etl", "gera-manifest.py")],

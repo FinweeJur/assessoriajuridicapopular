@@ -61,8 +61,8 @@ de autoria: cada texto continua assinado por quem escreveu.
 - [x] `rede.html`: Quem somos, Como postar, Blogues parceiros, Entidades,
       Movimentos, Mapeamento, Colunas e Bibliotecas
 - [x] `mapeamento-ajups.html`: 38 organizações históricas + 2 redes atuais
-- [x] `referencias-citadas.html`: 606 referências em ABNT; 106 links abertos,
-      1 empréstimo, 16 restritos, 74 mortos, 409 sem link
+- [x] `referencias-citadas.html`: 599 entradas únicas em ABNT (606 extraídas),
+      106 links abertos, 1 empréstimo, 16 restritos, 74 mortos, 402 sem link
 - [x] `python etl/audita-acervo.py` verde: 790/790, 0 lacunas, 0 duplicadas
 - [ ] Autorização jurídica registrada em `docs/autorizacoes/`
 - [ ] Revisão humana das 1.146 pendências do parser e dos links restritos/mortos

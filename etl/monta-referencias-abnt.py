@@ -47,7 +47,7 @@ ORGS = {
     "conselho", "instituto", "rede", "movimento", "associação", "comissão",
     "ministério", "universidade", "centro", "núcleo", "gabinete", "sociedade",
     "organização", "observatório", "fórum", "grupo", "coletivo", "editora",
-    "revista", "assembleia", "secretaria", "coordenação",
+    "revista", "assembleia", "secretaria", "coordenação", "setor", "direitos",
 }
 
 
@@ -60,24 +60,40 @@ def autor(r):
 def autor_abnt(r):
     """Inverte nome pessoal; mantém organização e nome já invertido."""
     a = limpa(r.get("autor"))
-    if not a:
+    if not a or a[0].islower():
         return ""
-    if "," in a or ";" in a:
-        return a
+    a = re.sub(r",\s*em\s+\d{1,2}\s+de\s+[\wÀ-ÿ]+\s+de\s+\d{4}\s*$", "", a, flags=re.I)
+    org_sufixo = ""
+    m = re.search(r"\s*\((?:orgs?\.?|organizador(?:a)?)\)\s*$", a, flags=re.I)
+    if m:
+        org_sufixo = " (Org.)"
+        a = a[: m.start()].strip()
+    a = re.sub(r"\s*\*+\s*$", "", a)
+    a = re.sub(r"\s*\(\s*\d{4}\s*\)\s*$", "", a)
+    a = a.rstrip(" .,;:")
+    if re.search(r"\s+[-–]\s+", a) or any(p.lower() in ORGS for p in a.split()[:3]):
+        return a + org_sufixo
+    if "," in a:
+        esquerda, direita = a.split(",", 1)
+        return "%s, %s%s" % (esquerda.strip().upper(), direita.strip(), org_sufixo)
+    if ";" in a:
+        return a + org_sufixo
+    if " e " in a and not any(p.lower() in ORGS for p in a.split()[:2]):
+        partes = [p.strip() for p in a.split(" e ") if len(p.split()) > 1]
+        if len(partes) > 1:
+            return "; ".join(autor_abnt({"autor": p}) for p in partes) + org_sufixo
     palavras = a.split()
     if len(palavras) < 2:
-        return a
-    if any(p.lower() in ORGS for p in palavras[:2]):
-        return a
+        return a + org_sufixo
     if all(p.isupper() for p in palavras if p.isalpha()):
-        return a
+        return a + org_sufixo
     if palavras[-1].lower() in SUFIXOS and len(palavras) > 2:
         sobrenome = " ".join(palavras[-2:])
         nome = " ".join(palavras[:-2])
     else:
         sobrenome = palavras[-1]
         nome = " ".join(palavras[:-1])
-    return "%s, %s" % (sobrenome.upper(), nome)
+    return "%s, %s%s" % (sobrenome.upper(), nome, org_sufixo)
 
 
 def ano(r):
@@ -86,7 +102,50 @@ def ano(r):
 
 
 def titulo(r):
-    return limpa(r.get("titulo")) or "[Sem título]"
+    """Título sem a imprenta que às vezes veio colada no fim do trecho."""
+    t = limpa(r.get("titulo")) or "[Sem título]"
+    t = re.sub(
+        r"[\.,;]?\s*(?:\d+\s*ed[\.,]?\s*)?[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*(?:\s+d[aeo]s?"
+        r"|\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*){0,4}\s*:\s*[^:;]{2,60},\s*\d{4}\s*$",
+        "",
+        t,
+    )
+    t = re.sub(r"[\"”']?\s*,?\s*In:\s*.+$", "", t)
+    t = re.sub(r"(?:[\.,;]|\s)+$", "", t)
+    t = t.strip() or "[Sem título]"
+    if len(t) > 180:
+        corte = t[:180].rsplit(" ", 1)[0]
+        t = corte + " […]"
+    return t
+
+
+def chave_titulo(r):
+    """Compara títulos ignorando caixa, acento, pontuação e espaços."""
+    return re.sub(r"\W+", "", sem_acento(titulo(r)))
+
+
+def aplica_sufixos(refs):
+    """NBR 10520:2023 — mesmo autor e ano recebem sufixo a, b, c…"""
+    grupos = {}
+    for r in refs:
+        a = sem_acento(autor_abnt(r) or autor(r)).split(";")[0].strip()
+        y = r.get("ano") if re.fullmatch(r"\d{4}", str(r.get("ano") or "")) else ""
+        r["_sufixo"] = ""
+        if a and y:
+            grupos.setdefault((a, y), []).append(r)
+    for itens in grupos.values():
+        if len({chave_titulo(r) for r in itens}) < 2:
+            continue
+        itens.sort(key=chave_titulo)
+        letra = "a"
+        por_titulo = {}
+        for r in itens:
+            chave = chave_titulo(r)
+            if chave not in por_titulo:
+                por_titulo[chave] = letra
+                letra = chr(ord(letra) + 1)
+            r["_sufixo"] = por_titulo[chave]
+    return refs
 
 
 def dados_trecho(r):
@@ -94,13 +153,18 @@ def dados_trecho(r):
     trecho = limpa(r.get("trecho"))
     local = editora = paginas = volume = numero = instituicao = ""
     achados = re.findall(
-        r"([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*(?:\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*){0,3}):\s*([^,;]{2,55}),\s*(\d{4})",
+        r"([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*(?:\s+(?:d[aeo]s?|[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*)){0,4}):"
+        r"\s*([^,;]{2,55}),\s*(?:[a-z]{3,9}\.?\s*)?(\d{4})",
         trecho,
     )
     if achados:
         local, editora = achados[-1][0].strip(), achados[-1][1].strip()
     if not local:
-        m = re.search(r",\s*([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ .'-]{2,35}),\s*(\d{4})", trecho)
+        m = re.search(
+            r",\s*([A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*(?:\s+(?:d[aeo]s?|[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ]*)){0,4}),"
+            r"\s*(?:[a-z]{3,9}\.?\s*)?(\d{4})",
+            trecho,
+        )
         if m:
             local = m.group(1).strip()
     m = re.search(r"p\.\s*([\d]+(?:\s*[-–]\s*\d+)?)", trecho)
@@ -112,7 +176,10 @@ def dados_trecho(r):
     m = re.search(r"n\.\s*(\d+)", trecho)
     if m:
         numero = m.group(1)
-    m = re.search(r"(Universidade [A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ .'-]+|UF[A-Z]{2}|PUC[\w-]*)", trecho)
+    m = re.search(
+        r"(Universidade [A-ZÁÉÍÓÚÂÊÔÃÕÇ][\wÀ-ÿ .'-]+|UnB|Unicamp|USP|UFRJ|UFRGS|UFBA|UFPR|UFSC|UFF|UERJ|UF[A-Z]{2}|PUC[\w-]*)",
+        trecho,
+    )
     if m:
         instituicao = m.group(1).strip().rstrip(".,;")
     return local, editora, paginas, volume, numero, instituicao
@@ -122,7 +189,7 @@ def abnt(r):
     a = autor_abnt(r)
     prefixo = (a + ". ") if a else ""
     t = titulo(r)
-    y = ano(r)
+    y = ano(r) + (r.get("_sufixo") or "")
     tipo = r.get("tipo") or "obra"
     veiculo = limpa(r.get("veiculo"))
     url = limpa(r.get("url"))
@@ -133,7 +200,12 @@ def abnt(r):
         imprenta = "%s: %s" % (local or "[s.l.]", editora or veiculo or "[s.n.]")
         base = "%s**%s**. %s, %s." % (prefixo, t, imprenta, y)
     elif tipo == "capitulo":
-        base = "%s**%s**. In: [coletânea], %s." % (prefixo, t, y)
+        fim = "%s, p. %s" % (y, paginas) if paginas else y
+        if local or editora:
+            base = "%s**%s**. %s: %s, %s." % (
+                prefixo, t, local or "[s.l.]", editora or "[s.n.]", fim)
+        else:
+            base = "%s**%s**. %s." % (prefixo, t, fim)
     elif tipo == "artigo":
         periodico = veiculo or "[periódico]"
         extras = []
@@ -209,6 +281,20 @@ def main():
     refs = dados.get("referencias", []) if isinstance(dados, dict) else dados
     links = carrega(LINKS, {})
     indice = {r["slug"]: r for r in carrega(INDICE, [])}
+    aplica_sufixos(refs)
+    vistos = set()
+    unicos = []
+    for r in refs:
+        chave = (
+            chave_titulo(r),
+            re.sub(r"\W+", "", sem_acento(autor_abnt(r) or autor(r))),
+            str(r.get("ano") or ""),
+        )
+        if chave in vistos:
+            continue
+        vistos.add(chave)
+        unicos.append(r)
+    refs = unicos
     refs.sort(key=lambda r: (sem_acento(autor(r)), sem_acento(titulo(r)), r.get("ano") or ""))
 
     contagem = {}
@@ -219,6 +305,7 @@ def main():
         s = status_link(r.get("url"), links)
         links_contagem[s] = links_contagem.get(s, 0) + 1
 
+    com_url = sum(1 for r in refs if r.get("url"))
     cabeca = """# Referências citadas no acervo AJP — ABNT
 
 > **Gerado em:** 22/11/2026
@@ -227,17 +314,18 @@ def main():
 > **Norma:** ABNT NBR 6023:2018. Citações no texto: NBR 10520:2023.
 > **Links:** `dados/referencias-links.json`, conferido em 22/11/2026 com
 > User-Agent `finweejur/github artur colito`; HEAD/GET de 1 byte, 1,2 s entre
-> requisições. As 177 URLs das referências foram conferidas. “Disponível aqui”
+> requisições. As %d referências com URL foram conferidas. “Disponível aqui”
 > só aparece quando o link respondeu 2xx/3xx.
-> **Aviso:** 221 referências têm confiança alta; 149 média; 236 baixa. As de
+> **Aviso:** %d referências têm confiança alta; %d média; %d baixa. As de
 > confiança baixa (sem autor, ano ou título) estão marcadas e precisam de
-> revisão humana antes de virar citação oficial.
+> revisão humana antes de virar citação oficial. Entradas de mesmo autor e
+> ano recebem sufixo a, b, c… conforme a NBR 10520:2023.
 
 ## Números
 
 | Item | Valor |
 |---|---:|
-| Referências extraídas | %d |
+| Referências na lista (duplicatas exatas removidas) | %d |
 | Com URL explícita | %d |
 | Confiança alta / média / baixa | %d / %d / %d |
 | Links abertos / empréstimo / restritos / mortos / sem link | %d / %d / %d / %d / %d |
@@ -256,8 +344,9 @@ def main():
 ## Referências em ordem alfabética
 
 """ % (
-        len(refs),
-        sum(1 for r in refs if r.get("url")),
+        com_url,
+        contagem.get("alta", 0), contagem.get("media", 0), contagem.get("baixa", 0),
+        len(refs), com_url,
         contagem.get("alta", 0), contagem.get("media", 0), contagem.get("baixa", 0),
         links_contagem.get("aberto", 0), links_contagem.get("emprestimo", 0),
         links_contagem.get("restrito", 0), links_contagem.get("morto_ou_instavel", 0),
@@ -308,8 +397,13 @@ def main():
     # Por autor
     por_autor = {}
     for r in refs:
-        por_autor.setdefault(autor(r), []).append(r)
-    saida = ["# Referências por autor — ABNT\n\n> Agrupadas pelo autor como aparece na fonte; `AUTOR NÃO IDENTIFICADO` é lacuna, não pseudônimo.\n"]
+        chave = autor_abnt(r) or "Autoria não identificada"
+        por_autor.setdefault(chave, []).append(r)
+    saida = [
+        "# Referências por autor — ABNT\n\n> Sobrenome em caixa alta, como na"
+        " lista principal; `Autoria não identificada` é lacuna da fonte, não"
+        " pseudônimo. Mesma base de `referencias-abnt.md` (%d entradas).\n" % len(refs)
+    ]
     for a in sorted(por_autor, key=sem_acento):
         saida.append("\n## %s (%d)\n" % (a, len(por_autor[a])))
         for r in por_autor[a]:

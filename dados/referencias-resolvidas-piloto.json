@@ -26,8 +26,8 @@
     "com_url": 17,
     "por_match": {
       "nenhum": 23,
-      "exato": 16,
-      "provavel": 1
+      "exato": 15,
+      "provavel": 2
     },
     "por_tipo_acesso": {
       "nao_encontrado": 23,
@@ -367,11 +367,11 @@
       "titulo": "Teologia política",
       "autor": "SCHMITT, Carl",
       "ano": "2006",
-      "url_encontrada": "https://openlibrary.org/works/OL1157163W",
+      "url_encontrada": "https://openlibrary.org/works/OL28600955W",
       "fonte": "openlibrary",
       "tipo_acesso": "restrito",
-      "match": "exato",
-      "observacao": "Work OL1157163W: 'Teologia politica', Carl Schmitt, edição registrada de 1996; a referência cita a ed. Del Rey de 2006. Título e autor conferem; sem ebook.",
+      "match": "provavel",
+      "observacao": "Work OL28600955W: 'Teología política', Carl Schmitt, edição de 2009 em espanhol; a referência cita a ed. brasileira Del Rey, 2006, não localizada. Título e autor conferem; língua e edição divergem.",
       "verificado_em": "2026-11-22"
     },
     {
@@ -566,4 +566,8 @@
       "fonte": "",
       "tipo_acesso": "nao_encontrado",
       "match": "nenhum",
-      "observacao": "Crossref, Open Library e Internet Archive: 0; busca do acervo UFPR desautoriza
+      "observacao": "Crossref, Open Library e Internet Archive: 0; busca do acervo UFPR desautorizada por robots (/rest/, /xmlui/search), sem outra via pública de busca.",
+      "verificado_em": "2026-11-22"
+    }
+  ]
+}

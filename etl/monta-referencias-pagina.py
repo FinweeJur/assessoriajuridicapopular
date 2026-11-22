@@ -38,6 +38,7 @@ def carrega(p, padrao):
 def main():
     dados = carrega(REF, {})
     refs = dados.get("referencias", []) if isinstance(dados, dict) else dados
+    ab.aplica_sufixos(refs)
     links = carrega(LINKS, {})
     indice = {r["slug"]: r for r in carrega(INDICE, [])}
 
