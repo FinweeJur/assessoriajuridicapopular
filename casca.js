@@ -113,6 +113,12 @@
           '<option value="notícia">Notícias</option>' +
         '</select>' +
         '<select name="ano" aria-label="Ano"><option value="">Todos os anos</option>' + anos + '</select>' +
+        '<select name="rede" aria-label="Rede ou organização">' +
+          '<option value="">Todas as redes</option>' +
+          '<option value="renap">RENAP</option>' +
+          '<option value="ipdms">IPDMS</option>' +
+          '<option value="renaju-ajup">RENAJU/AJUPs</option>' +
+        '</select>' +
         '<select name="ordem" aria-label="Ordenar">' +
           '<option value="recente">Mais recente</option>' +
           '<option value="antigo">Mais antigo</option>' +
@@ -128,11 +134,13 @@
       var q = form.querySelector('input[name="q"]').value.trim();
       var tipo = form.querySelector('select[name="tipo"]').value;
       var ano = form.querySelector('select[name="ano"]').value;
+      var rede = form.querySelector('select[name="rede"]').value;
       var ordem = form.querySelector('select[name="ordem"]').value;
       var params = new URLSearchParams();
       if (q) { params.set('q', q); }
       if (tipo && tipo !== 'todos') { params.set('tipo', tipo); }
       if (ano) { params.set('ano', ano); }
+      if (rede) { params.set('rede', rede); }
       if (ordem && ordem !== 'recente') { params.set('ordem', ordem); }
       var url = 'acervo.html';
       if (params.toString()) { url += '?' + params.toString(); }

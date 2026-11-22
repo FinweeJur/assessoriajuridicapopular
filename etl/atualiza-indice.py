@@ -33,20 +33,28 @@ def item(registro):
     if palavras_tags:
         tags = '<span class="item__tags">%s</span>' % "".join(
             '<span class="item__tag">%s</span>' % esc(p) for p in palavras_tags)
-    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s" data-tipo="%s" data-ano="%s" data-palavras="%s">
+    redes = registro.get("redes") or []
+    rotulos = {"renap": "RENAP", "ipdms": "IPDMS", "renaju-ajup": "RENAJU/AJUPs"}
+    redes_tags = ""
+    if redes:
+        redes_tags = '<span class="item__redes">%s</span>' % "".join(
+            '<span class="item__rede">%s</span>' % rotulos[r] for r in redes if r in rotulos)
+    return """      <li class="item" data-temas="%s" data-data="%s" data-titulo="%s" data-tipo="%s" data-ano="%s" data-palavras="%s" data-redes="%s">
         <a class="cartao item__link" href="%s.html">
           <span class="etiqueta">%s · %s</span>
           <h3>%s</h3>
           <p>%s</p>
+          %s
           %s
           <span class="item__ficha">%s · %s</span>
         </a>
       </li>""" % (
         esc(temas), esc(registro.get("data")), esc(registro.get("titulo")),
         esc(registro.get("tipo") or "formativo"), esc(registro.get("ano")), esc(palavras),
+        esc(" ".join(registro.get("redes") or [])),
         esc(registro["slug"]), esc(registro.get("tema")), esc(registro.get("ano")),
         esc(registro.get("titulo")), esc((registro.get("resumo") or "")[:220]),
-        tags, esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
+        tags, redes_tags, esc(registro.get("autor")), esc(data_curta(registro.get("data"))))
 
 
 def main():

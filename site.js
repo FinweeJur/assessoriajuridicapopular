@@ -16,7 +16,28 @@
   var tipoAtual = 'todos';
   var ordem = document.querySelector('[data-ordem]');
 
-  var itens = [].slice.call(listas[0].querySelectorAll('.item'));
+  (function filtroRedes() {
+    var fita = document.querySelector('.fita');
+    if (!fita || fita.querySelector('[data-redes-filtro]')) { return; }
+    var rotulo = document.createElement('label');
+    rotulo.className = 'sr-only';
+    rotulo.setAttribute('for', 'f-rede');
+    rotulo.textContent = 'Rede ou organização';
+    var select = document.createElement('select');
+    select.id = 'f-rede';
+    select.setAttribute('data-redes-filtro', '');
+    select.innerHTML =
+      '<option value="">Todas as redes</option>' +
+      '<option value="renap">RENAP</option>' +
+      '<option value="ipdms">IPDMS</option>' +
+      '<option value="renaju-ajup">RENAJU/AJUPs</option>';
+    var referencia = fita.querySelector('[data-ordem]');
+    fita.insertBefore(rotulo, referencia);
+    fita.insertBefore(select, referencia);
+  })();
+
+  var redes = document.querySelector('[data-redes-filtro]');
+  var itens = [].slice.call(document.querySelectorAll('[data-paginada] .item'));
   var mostrados = PASSOS;
 
   function semAcento(t) {
@@ -37,6 +58,15 @@
     if (conta) {
       conta.textContent = vivos.length + (vivos.length === 1 ? ' texto' : ' textos');
     }
+    if (listas.length > 1) {
+      listas.forEach(function (lista) {
+        var sec = lista.closest('.secao');
+        if (!sec || sec.querySelector('.fita')) { return; }
+        var algum = false;
+        lista.querySelectorAll('.item').forEach(function (li) { if (!li.hidden) { algum = true; } });
+        sec.hidden = !algum;
+      });
+    }
     if (botaoMais) {
       var restam = vivos.length - mostrados;
       botaoMais.hidden = restam <= 0;
@@ -48,13 +78,15 @@
     var termo = semAcento((busca && busca.value || '').trim());
     var ano = anos && anos.value || '';
     var palavra = palavras && palavras.value || '';
+    var rede = redes && redes.value || '';
     itens.forEach(function (li) {
       var alvo = semAcento(li.textContent + ' ' + (li.dataset.temas || ''));
       var bateTermo = !termo || alvo.indexOf(termo) > -1;
       var bateTipo = tipoAtual === 'todos' || (li.dataset.tipo || 'formativo') === tipoAtual;
       var bateAno = !ano || li.dataset.ano === ano;
       var batePalavra = !palavra || (li.dataset.palavras || '').indexOf(palavra) > -1;
-      li.dataset.fora = (bateTermo && bateTipo && bateAno && batePalavra) ? '' : '1';
+      var bateRede = !rede || (li.dataset.redes || '').split(' ').indexOf(rede) > -1;
+      li.dataset.fora = (bateTermo && bateTipo && bateAno && batePalavra && bateRede) ? '' : '1';
     });
     mostrados = PASSOS;
     aplica();
@@ -63,6 +95,7 @@
   if (busca) { busca.addEventListener('input', filtra); }
   if (anos) { anos.addEventListener('change', filtra); }
   if (palavras) { palavras.addEventListener('change', filtra); }
+  if (redes) { redes.addEventListener('change', filtra); }
 
   chips.forEach(function (botao) {
     botao.addEventListener('click', function () {
@@ -90,7 +123,6 @@
 
   if (ordem) {
     ordem.addEventListener('change', function () {
-      var lista = listas[0];
       var copia = itens.slice();
       copia.sort(function (a, b) {
         var da = a.dataset.data || '', db = b.dataset.data || '';
@@ -99,7 +131,7 @@
         if (ordem.value === 'titulo') { return ta < tb ? -1 : ta > tb ? 1 : 0; }
         return da > db ? -1 : da < db ? 1 : 0;
       });
-      copia.forEach(function (li) { lista.appendChild(li); });
+      copia.forEach(function (li) { li.parentNode.appendChild(li); });
       itens = copia;
       mostrados = PASSOS;
       aplica();
@@ -150,6 +182,9 @@
 
     var ano = params.get('ano');
     if (ano && anos) { anos.value = ano; }
+
+    var rede = params.get('rede');
+    if (rede && redes) { redes.value = rede; }
 
     var qualOrdem = params.get('ordem');
     if (qualOrdem && ordem) {

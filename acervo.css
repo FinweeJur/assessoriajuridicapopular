@@ -1985,8 +1985,9 @@ a.cartao, .item__link, .destaque, .bento__item {
 .busca-global__form {
   max-width: var(--largura); margin: 0 auto;
   display: grid; align-items: center; gap: 8px;
-  grid-template-columns: minmax(180px, 2fr) minmax(100px, 1fr)
-                         minmax(92px, .8fr) minmax(110px, .9fr) auto;
+  grid-template-columns: minmax(160px, 2fr) minmax(88px, 1fr)
+                         minmax(82px, .8fr) minmax(105px, .9fr)
+                         minmax(105px, .9fr) auto;
 }
 .busca-global__campo { position: relative; display: flex; align-items: center; }
 .busca-global__campo .ico {
@@ -2014,6 +2015,11 @@ a.cartao, .item__link, .destaque, .bento__item {
 }
 .busca-global button:focus-visible {
   outline: 3px solid var(--cp-focus, var(--cor-tema)); outline-offset: 2px;
+}
+@media (max-width: 1200px) {
+  .busca-global__form { grid-template-columns: 1fr 1fr; }
+  .busca-global__campo { grid-column: 1 / -1; }
+  .busca-global button { grid-column: 1 / -1; }
 }
 @media (max-width: 860px) {
   .busca-global__form { grid-template-columns: 1fr 1fr; }
@@ -2126,3 +2132,13 @@ a.cartao, .item__link, .destaque, .bento__item {
   display: inline-block; opacity: .92;
 }
 .tabela table.tabela--seis { min-width: 68rem; }
+
+
+/* Chips de rede/organização nos cards */
+.item__redes { display: inline-flex; flex-wrap: wrap; gap: 4px; margin-top: 2px; }
+.item__rede {
+  font-size: .64rem; line-height: 1.2; letter-spacing: .05em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--cor-tema) 45%, transparent);
+  color: var(--cor-tema); background: color-mix(in srgb, var(--cor-tema) 8%, transparent);
+}

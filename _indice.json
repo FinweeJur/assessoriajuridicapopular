@@ -20,7 +20,11 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "ipdms",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "oficina-de-introducao-as-teorias-criticas-e-ajp",
@@ -44,7 +48,11 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "ipdms",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "marchinha-do-najup",
@@ -62,7 +70,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "catalogo-da-editora-sergio-antonio-fabris",
@@ -80,7 +91,8 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "guia-de-empoderamento-para-a-seguranca-das-mulheres-na",
@@ -103,7 +115,8 @@
    "água",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "o-abismo-entre-o-asfalto-e-a-favela",
@@ -122,7 +135,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "a-escassez-do-acesso-a-justica-a-populacao-brasileira",
@@ -142,7 +156,8 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "cafe-guaii-e-quilombo-campo-grande",
@@ -166,7 +181,8 @@
    "terra",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "uma-experiencia-de-educacao-popular",
@@ -186,7 +202,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "os-instrumentos-do-direito-servem-para-quem",
@@ -209,7 +226,8 @@
    "criminologia",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "vamos-precisar-de-todo-mundo-um-mais-um-e-sempre-mais-que",
@@ -231,7 +249,10 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "os-instrumentos-do-direito-servem-para-quem-uma-breve",
@@ -253,7 +274,8 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "curso-de-extensao-em-ajp-na-uerj",
@@ -276,7 +298,8 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "publicacao-do-livro-direito-achado-na-ilha-no-maranhao",
@@ -292,7 +315,10 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "moradores-sao-espancados-e-barracos-incendiados-na-ocupacao",
@@ -310,7 +336,10 @@
   "palavras": [
    "moradia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "lyra-filho-filosofia-teologia-e-experiencia-mistica",
@@ -329,7 +358,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "prefacio-lyra-filho-em-livro-de-gilberto-freyre",
@@ -345,7 +377,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "biblioteca-crescendo",
@@ -361,7 +394,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "atualizacao-da-biblioteca-roberto-lyra-filho",
@@ -377,7 +411,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "biblioteca-miguel-lanzellotti-baldez",
@@ -397,7 +432,10 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "jornada-universitaria-em-fortaleza",
@@ -416,7 +454,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "fortalecimento-da-renaju-em-uma-conjuntura-de-retrocessos",
@@ -438,7 +477,12 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap",
+   "ipdms",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "e-quando-nao-ha-o-pai-para-matar",
@@ -460,7 +504,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-fantasma-colonial-do-infanticidio-indigena",
@@ -478,7 +525,8 @@
   "palavras": [
    "indígena"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "o-conceito-de-casa-contra-o-conceito-de-propriedade-privada",
@@ -497,7 +545,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "para-que-a-justica-brasileira-existe",
@@ -517,7 +566,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "resistir-para-que",
@@ -533,7 +583,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "pesquisa-participante-como-metodo-utilizado-pela-assessoria",
@@ -555,7 +606,10 @@
    "pesquisa",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "nao-tenho-condicoes",
@@ -571,7 +625,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "por-uma-praxis-feminista-da-ajp",
@@ -593,7 +648,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "direito-e-conjuntura-o-papel-da-ajp-na-luta-contra-o-golpe",
@@ -615,7 +673,11 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "a-acesso-e-sua-contribuicao-para-a-construcao-de-um-direito",
@@ -635,7 +697,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "atualizacoes-das-bibliotecas",
@@ -658,7 +723,8 @@
    "pesquisa",
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "assessoria-juridica-popular-nada-deve-parecer-impossivel-de",
@@ -678,7 +744,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "assessoria-juridica-popular-um-importante-marco-na-estrada",
@@ -696,7 +765,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "ajup-um-trabalho-pela-igualdade",
@@ -716,7 +786,10 @@
    "trabalho",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "estamos-bem-arrumados",
@@ -732,7 +805,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-linguagem-como-elemento-determinante-da-assessoria",
@@ -754,7 +828,8 @@
    "teatro",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "direito-e-conjuntura-cenarios-possiveis-com-o-fim-da-nova",
@@ -771,7 +846,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "direito-e-conjuntura-a-conjuntura-politica-internacional-e",
@@ -791,7 +867,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "teatro-do-oprimido-e-assessoria-juridica-popular-duas",
@@ -812,7 +889,8 @@
    "teatro",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "direito-e-conjuntura-o-papel-do-direito-no-golpe-de-estado",
@@ -832,7 +910,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "relato-de-experiencia-com-o-teatro-do-oprimido",
@@ -853,7 +932,8 @@
    "teatro",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "direito-e-conjuntura-nova-coluna-no-blogue-ajp",
@@ -875,7 +955,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "ajup-e-a-formacao-contra-hegemonica-no-direito",
@@ -897,7 +978,10 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "apresentacao-por-manuel-eugenio-gandara-carballido",
@@ -916,7 +1000,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "biblioteca-joaquin-herrera-flores",
@@ -933,7 +1018,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "fazer-a-universidade-ajup-e-educacao-juridica",
@@ -953,7 +1039,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "as-ajps-e-uma-teoria-critica-da-sociedade",
@@ -974,7 +1063,10 @@
    "assessoria jurídica popular",
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "morro",
@@ -990,7 +1082,10 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "microconto",
@@ -1006,7 +1101,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "uma-rede-com-20-anos-de-defesa-gratuita-dos-direitos-de",
@@ -1024,7 +1120,10 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "putalizar-o-direito",
@@ -1040,7 +1139,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "abracos-destruicoes-e-belo-monte-o-velorio-de-uma-ilha-para",
@@ -1059,7 +1159,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "mlb-encaminha-demanda-da-ocupacao-lanceiros-negros",
@@ -1077,7 +1178,10 @@
   "palavras": [
    "moradia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "20-anos-de-rede-nacional-de-advogados-e-advogadas-populares",
@@ -1099,7 +1203,10 @@
    "mulheres",
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "bordando-a-resistencia",
@@ -1115,7 +1222,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "diana-melo-pereira-as-lutas-do-mmc-pelo-direito-a-uma-vida",
@@ -1134,7 +1242,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "7-de-setembro-falta-independencia-ainda-para-muita-gente",
@@ -1151,7 +1260,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "seis-anos-do-blogue-ajpopular",
@@ -1175,7 +1285,11 @@
    "poesia",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "ipdms",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "advocacia-delirante-parte-ii-preciso-me-encontrar",
@@ -1193,7 +1307,8 @@
   "palavras": [
    "transporte"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "um-estalo-nas-faculdades-de-direito-perspectivas",
@@ -1214,7 +1329,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "inscricao-de-trabalhos-gt-assessoria-juridica-popular",
@@ -1233,7 +1351,8 @@
    "trabalho",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "triplo-carpado-e-a-constituinte",
@@ -1249,7 +1368,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "a-ultima-aula-do-professor",
@@ -1267,7 +1387,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-tataraneto-do-ex-jurista-de-bonn",
@@ -1287,7 +1408,8 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "estudo-de-caso-sobre-promocao-de-direitos-coletivos",
@@ -1305,7 +1427,8 @@
   "tipo": "documento",
   "tipo_rotulo": "Documento",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "carta-das-comunidades-quilombolas-de-barro-vermelho-e",
@@ -1328,7 +1451,10 @@
    "quilombo",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "uma-pensata-a-respeito-da-relacao-entre-guerra-e-capitalismo",
@@ -1348,7 +1474,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-idiota-sou-eu",
@@ -1364,7 +1491,8 @@
   "tipo": "poesia",
   "tipo_rotulo": "Poesia",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "direito-insurgente-e-pluralismo-juridico-na-advocacia",
@@ -1385,7 +1513,10 @@
    "indígena",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "pelo-fim-do-feminicidio-e-da-violencia-contra-a-mulher",
@@ -1403,7 +1534,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "o-movimento-geraizeiro-e-o-direito",
@@ -1424,7 +1556,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "para-uma-nova-sociedade-insistente",
@@ -1446,7 +1579,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "dossie-rolezinhos",
@@ -1462,7 +1596,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "sustenta-a-pisada-na-ajp",
@@ -1486,7 +1621,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "advocacia-delirante-parte-i",
@@ -1506,7 +1644,10 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "um-caso-de-criminalizacao-no-relato-de-um-advogado-popular",
@@ -1528,7 +1669,8 @@
    "criminalização",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "arpilleiras-uma-metodologia-latina-de-educacao-popular",
@@ -1549,7 +1691,8 @@
    "mulheres",
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "lutando-pelos-direitos-sociais-negados-pelo-direito",
@@ -1571,7 +1714,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "o-projeto-carajas-e-a-critica-ao-desenvolvimentismo-pela-ajp",
@@ -1594,7 +1738,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "escrevendo-a-tese-piando",
@@ -1614,7 +1761,8 @@
   "palavras": [
    "pesquisa"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "assessoria-juridica-popular-na-efetivacao-dos-direitos",
@@ -1636,7 +1784,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "problematizando-o-direito-problematizando-o-ensino-juridico",
@@ -1657,7 +1808,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "relato-em-praca-de-guerra",
@@ -1678,7 +1830,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "estreia-da-coluna-a-frente-do-front-de-vitor-dieter",
@@ -1695,7 +1848,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "crdh-divulga-relatorio-sobre-atuacao-na-paraiba",
@@ -1714,7 +1868,8 @@
    "água",
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "sera-que-os-direitos-humanos-vao-chegar-ate-la",
@@ -1735,7 +1890,11 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap",
+   "ipdms"
+  ]
  },
  {
   "slug": "a-luta-e-a-resistencia-dos-fundos-de-pasto-baianos",
@@ -1758,7 +1917,8 @@
    "terra",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "poema-resistencia-no-parana",
@@ -1780,7 +1940,8 @@
    "oficina",
    "poesia"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "ii-tribunal-popular-do-ceara-pauta-violacoes-de-direitos",
@@ -1802,7 +1963,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "direito-delirio-experiencias-e-coisas-reais",
@@ -1821,7 +1985,10 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "coluna-o-direito-das-marias-dos-retornos-de-uma-mae",
@@ -1840,7 +2007,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "um-corpo-caido-e-a-luta-da-advocacia-popular",
@@ -1864,7 +2032,10 @@
    "trabalho",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "islandia-a-insurgencia-da-democracia",
@@ -1880,7 +2051,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "projeto-antiterrorismo-ameaca-constituicao",
@@ -1896,7 +2068,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "direito-das-marias-e-hora-de-gritar-o-que-os-olhos-e-o",
@@ -1914,7 +2087,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "direito-dentro-e-contra-a-ordem-na-teoria-e-na-pratica",
@@ -1934,7 +2108,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "expulsao-de-agricultores-para-barragem-do-guapiacu-repete",
@@ -1957,7 +2132,8 @@
    "água",
    "ditadura"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-achaque-da-politica-burguesa",
@@ -1973,7 +2149,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "manifestacoes-populares-trancam-vias-do-distrito-federal",
@@ -1994,7 +2171,8 @@
    "moradia",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "carta-a-um-estudante-de-direito-sobre-a-barbarie-no-egito",
@@ -2013,7 +2191,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "colectivo-de-abogados-zapatistas-caz-mexico-denuncia",
@@ -2033,7 +2212,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "dissertacao-humberto-betinho-goes-ufpb-2008",
@@ -2054,7 +2234,8 @@
    "pesquisa",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "mas-o-ole-foi-do-povo",
@@ -2071,7 +2252,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-que-as-manifestacoes-populares-tem-a-ver-com-a-classe",
@@ -2090,7 +2272,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "cadernos-insurgentes-e-oficina-do-geap",
@@ -2112,7 +2295,11 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "ipdms",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "a-tarifa-zero-5-anos-depois",
@@ -2135,7 +2322,8 @@
    "pesquisa",
    "oficina"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "monografia-andressa-chiamulera-ufpr-2003",
@@ -2153,7 +2341,8 @@
   "palavras": [
    "pesquisa"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "monografia-ivan-furmann-ufpr-2003",
@@ -2175,7 +2364,8 @@
    "pesquisa",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "monografia-murilo-sampaio-oliveira-ufba-2003",
@@ -2195,7 +2385,10 @@
    "educação",
    "pesquisa"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "monografias-da-assessoria-juridica-popular-universitaria",
@@ -2214,7 +2407,10 @@
    "pesquisa",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "atualizacao-com-textos-de-lyra-filho",
@@ -2230,7 +2426,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "as-tres-vertebras-de-pedro-carrano",
@@ -2246,7 +2443,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "inauguracao-do-instituto-de-estudos-criticos-do-direito",
@@ -2264,7 +2462,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-primeira-turma-de-pos-graduacao-em-direitos-sociais-do",
@@ -2284,7 +2483,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-neofacismo-facismo-social",
@@ -2302,7 +2502,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "sobre-a-ajup-roberto-lyra-filho",
@@ -2324,7 +2525,11 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "ipdms",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "antropologia-juridica-videos-sobre-comunidades-tradicionais",
@@ -2341,7 +2546,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "quadros-das-atividades-do-ajup-rj",
@@ -2360,7 +2566,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "ana-claudia-tavares-e-a-advocacia-popular-no-rio-de-janeiro",
@@ -2383,7 +2592,8 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "frentes-de-atuacao-do-ajup-rj",
@@ -2399,7 +2609,10 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "no-itinerario-pendente-do-fogo",
@@ -2420,7 +2633,8 @@
    "poesia",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "instituto-apoio-juridico-popular-ajup",
@@ -2441,7 +2655,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "uma-aula-sobre-o-direito-que-nasce-do-capital",
@@ -2458,7 +2675,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "caboclos-posseiros-sem-terra-100-anos-nos-trilhos-do",
@@ -2478,7 +2696,8 @@
    "MST",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "iii-seminario-do-ipdms-convoca-para-espacos-de-discussao-eds",
@@ -2502,7 +2721,10 @@
    "trabalho",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "ipdms"
+  ]
  },
  {
   "slug": "poema-de-assis-oliveira-sobre-criancas-indigenas",
@@ -2524,7 +2746,8 @@
    "trabalho",
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "poema-do-rodrigao-sobre-encontro-da-renap-em-salvador",
@@ -2542,7 +2765,10 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "esta-provado-que-so-possivel-filosofar-em-alemao",
@@ -2558,7 +2784,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "luta-pela-terra-e-o-tema-de-seminario-em-pinhao-no-parana",
@@ -2577,7 +2804,8 @@
    "terra",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "manifesto-do-najup-luiza-mahin",
@@ -2596,7 +2824,10 @@
    "mulheres",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "sistema-penal-concentracao-fundiaria-e-onibus-que-pegam",
@@ -2617,7 +2848,8 @@
    "transporte",
    "criminologia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "poema-sobre-o-encontro-em-santarem",
@@ -2636,7 +2868,8 @@
    "poesia",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "mocao-de-comunidade-no-rio-de-janeiro-contra-remocoes",
@@ -2655,7 +2888,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "ode-ao-povo",
@@ -2677,7 +2911,10 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "curso-de-formacao-politica-da-renaju",
@@ -2700,7 +2937,10 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "tentativa-de-criminalizacao-dos-escrachos",
@@ -2721,7 +2961,8 @@
    "criminalização",
    "ditadura"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "encontro-da-renap-no-rio-de-janeiro",
@@ -2742,7 +2983,10 @@
    "educação",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "manifesto-contra-criminalizacao-da-luta-contra-o-uso",
@@ -2761,7 +3005,11 @@
   "palavras": [
    "criminalização"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap",
+   "ipdms"
+  ]
  },
  {
   "slug": "direito-achado-na-beira-dos-rios-tapajos-e-amazonas",
@@ -2779,7 +3027,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "carta-de-protesto-da-prisao-do-advogado-rodrigo-maia",
@@ -2798,7 +3047,8 @@
   "palavras": [
    "criminologia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "homenagens-ao-advogado-eugenio-lyra",
@@ -2817,7 +3067,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "vila-do-chocolatao-remocao-e-impactos",
@@ -2834,7 +3085,10 @@
   "tipo": "documento",
   "tipo_rotulo": "Documento",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "delirium",
@@ -2850,7 +3104,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "peticao-do-processo-17-022",
@@ -2866,7 +3121,8 @@
   "tipo": "documento",
   "tipo_rotulo": "Documento",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "poemas-em-homenagem-a-eugenio-lyra",
@@ -2887,7 +3143,8 @@
    "terra",
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "sem-titulo",
@@ -2903,7 +3160,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "senhor-capitao",
@@ -2919,7 +3177,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "terra-em-terra",
@@ -2937,7 +3196,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "as-ninguens-e-a-prisao-por-nada",
@@ -2956,7 +3216,8 @@
    "mulheres",
    "criminologia"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "hino-da-greve-cifra",
@@ -2974,7 +3235,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "aulaco-popular-em-vigario-geral",
@@ -2994,7 +3256,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "assessorando-a-assistencia-juridica-e-possivel",
@@ -3012,7 +3275,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "desdobramentos-da-greve-geral-dos-spfs-decidirao-o-futuro",
@@ -3032,7 +3298,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "documentario-nao-quero-falar-de-chacina",
@@ -3051,7 +3318,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "coluna-direitos-das-marias-iv-encontro-de-mulheres-do-mpa",
@@ -3072,7 +3340,8 @@
    "mulheres",
    "clima"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "formatura-da-turma-evandro-lins-e-silva-da-ufg",
@@ -3091,7 +3360,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "ipdms"
+  ]
  },
  {
   "slug": "entrevista-de-jacques-alfonsin-sobre-o-codigo-penal",
@@ -3109,7 +3381,8 @@
   "palavras": [
    "criminologia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "poema-memorias-do-movimento-sem-terra",
@@ -3129,7 +3402,8 @@
    "poesia",
    "terra"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "para-gostar-de-escrever",
@@ -3147,7 +3421,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "nova-secao-biblioteca-roberto-lyra-filho",
@@ -3165,7 +3440,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "revista-o-direito-alternativo-lanca-edital",
@@ -3183,7 +3459,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "uma-critica-ao-ensino-juridico-e-os-direitos-dos-quilombolas",
@@ -3203,7 +3480,8 @@
    "educação",
    "quilombo"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "biblioteca-ajup-rj",
@@ -3222,7 +3500,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "biblioteca-digital",
@@ -3244,7 +3525,11 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "biblioteca-roberto-lyra-filho",
@@ -3264,7 +3549,8 @@
    "criminologia",
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "poesia-critica-do-direito",
@@ -3283,7 +3569,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "referencias",
@@ -3305,7 +3592,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "nenhuma-mulher-a-menos",
@@ -3323,7 +3611,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "o-golpe-no-paraguai-e-o-manto-juridico",
@@ -3342,7 +3631,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "mobilizacao-indigena-paralisa-uhe-belo-monte",
@@ -3362,7 +3652,8 @@
    "indígena",
    "moradia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "esculacho-popular-no-rio-de-janeiro",
@@ -3383,7 +3674,8 @@
    "água",
    "ditadura"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "debate-sobre-a-greve-na-faculdade-de-direito-da-ufpr",
@@ -3401,7 +3693,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "nota-de-apoio-e-preocupacao-diante-da-situacao-do-quilombo",
@@ -3422,7 +3715,8 @@
    "moradia",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "direitos-das-marias-um-giro-por-maio",
@@ -3440,7 +3734,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "direitos-das-marias-entrevista-com-lenir-correia",
@@ -3461,7 +3756,10 @@
    "educação",
    "terra"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "revista-de-direito-agrario-prorroga-prazo-para-envio-de",
@@ -3479,7 +3777,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "coluna-direitos-das-marias-o-que-faz-a-mulher-na-educacao",
@@ -3498,7 +3797,8 @@
    "mulheres",
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "direitos-das-marias-mulher-e-literatura",
@@ -3516,7 +3816,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "seminario-internacional-sobre-modernidade-global-no-rio-de",
@@ -3534,7 +3835,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "seminario-de-justica-ambiental-no-ceara",
@@ -3556,7 +3858,10 @@
    "água",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "nasce-a-coluna-direitos-das-marias",
@@ -3576,7 +3881,8 @@
    "mulheres",
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "cpt-repudia-declaracoes-de-delegada-geral-do-ma",
@@ -3593,7 +3899,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "legislacao-de-excecao-para-megaeventos-sera-tema-de-debate",
@@ -3612,7 +3919,10 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "do-espirito-de-depredacao-a-depredacao-do-espirito",
@@ -3632,7 +3942,8 @@
    "MST",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "defensoria-publica-assessoria-juridica-popular-e-movimentos",
@@ -3653,7 +3964,10 @@
    "clima",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "a-promocao-dos-direitos-humanos-no-campo-da-aids",
@@ -3674,7 +3988,8 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "a-retirada-de-crucifixos-das-salas-dos-tribunais-parece-ter",
@@ -3692,7 +4007,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "povos-kayabi-apiaka-e-munduruku-contra-construcao-de",
@@ -3710,7 +4026,8 @@
   "palavras": [
    "clima"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "no-dia-da-mentira-anistiaram-a-verdade-desarquivandobr",
@@ -3730,7 +4047,8 @@
    "água",
    "ditadura"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "grupo-de-genero-da-ufpr-mobiliza-faculdade-de-direito",
@@ -3751,7 +4069,11 @@
    "mulheres",
    "educação"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "juventude-se-levanta-contra-a-tortura-no-brasil",
@@ -3770,7 +4092,8 @@
   "palavras": [
    "ditadura"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "minicurso-da-critica-ao-direito-no-maranhao",
@@ -3792,7 +4115,10 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "cirandas-construindo-a-praxis-das-ajups-no-ma",
@@ -3812,7 +4138,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-circo-e-a-cerca-a-lei-geral-da-copa-e-suas-garantias",
@@ -3828,7 +4157,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "acesso-e-saju-debatem-copa-do-mundo",
@@ -3849,7 +4179,10 @@
    "MST",
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "stf-concede-habeas-corpus-a-jose-rainha-lider-sem-terra",
@@ -3870,7 +4203,8 @@
    "MST",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "barragens-convencao-169-e-o-sempre-mais-do-mesmo-do-estado",
@@ -3891,7 +4225,8 @@
    "água",
    "trabalho"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "carta-de-mobilizacao-nacional-do-mab",
@@ -3910,7 +4245,8 @@
    "MAB",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "pedro-martins-sobre-a-reforma-agraria-no-contexto-amazonico",
@@ -3929,7 +4265,8 @@
    "pesquisa",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "relacoes-de-genero-e-assessoria-juridica-popular-um-debate",
@@ -3950,7 +4287,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-direito-a-informacao-no-brasil-a-amazonia-enquanto",
@@ -3971,7 +4311,8 @@
    "pesquisa",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "do-direito-a-insurgencia-ao-direito-insurgente-o-caso-do",
@@ -3992,7 +4333,8 @@
    "terra",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "nasce-o-instituto-de-pesquisa-direito-e-movimentos-sociais",
@@ -4012,7 +4354,10 @@
    "pesquisa",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "ipdms"
+  ]
  },
  {
   "slug": "ii-seminario-direito-pesquisa-e-movimentos-sociais",
@@ -4036,7 +4381,10 @@
    "água",
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "ipdms"
+  ]
  },
  {
   "slug": "transparencia-e-democratizacao-do-poder-judiciario-carta",
@@ -4058,7 +4406,10 @@
    "água",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "quem-tensionou-foi-o-governo-resposta-a-elio-gaspari",
@@ -4078,7 +4429,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "iii-congresso-latino-americano-de-direitos-humanos-na-unb",
@@ -4096,7 +4448,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "todos-somos-pinheirinho",
@@ -4113,7 +4466,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "arrogancia-de-classe",
@@ -4133,7 +4487,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "massacre-contra-o-povo-da-ocupacao-pinheirinho-em-sjc",
@@ -4153,7 +4508,8 @@
   "palavras": [
    "moradia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-brado-retumbante-ou-o-berro-reacionario-qualquer",
@@ -4174,7 +4530,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "coluna-do-jacques-sobre-a-fome-no-brasil",
@@ -4196,7 +4555,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "mande-artigos-para-a-revista-do-saju-rs",
@@ -4215,7 +4575,10 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "pinheirinho",
@@ -4231,7 +4594,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-luta-d-s-indignad-s-em-teresina-pelo-direito-a-se-mover",
@@ -4251,7 +4615,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "policia-serve-para-que-vamos-perguntar-a-estudantes-de",
@@ -4271,7 +4638,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "teresina-indignada-exige-passagem",
@@ -4293,7 +4661,8 @@
    "transporte",
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "presente-de-ano-novo",
@@ -4309,7 +4678,8 @@
   "tipo": "poesia",
   "tipo_rotulo": "Poesia",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "em-2012-mais-de-cem-familias-do-bairro-zachia-continuarao",
@@ -4328,7 +4698,8 @@
    "moradia",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "pacto-forum-justica-do-rio-de-janeiro",
@@ -4347,7 +4718,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "entrevista-com-thiago-hoshino-do-comite-popular-da-copa",
@@ -4368,7 +4740,8 @@
    "educação",
    "terra"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "dialogos-latino-americanos-em-curitiba",
@@ -4386,7 +4759,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "andarilhando-com-paulo-freire",
@@ -4405,7 +4779,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "ditadura-democracia-e-resistencia-para-quem-serie-de",
@@ -4423,7 +4798,8 @@
   "palavras": [
    "ditadura"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "resultados-do-encontro-nacional-da-renap-em-fortaleza",
@@ -4440,7 +4816,10 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "traducao-de-el-arbor-el-rio-el-hombre-de-atahualpa-yupanqui",
@@ -4456,7 +4835,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "nova-secao-biblioteca-ajup-rj",
@@ -4473,7 +4853,11 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "noticias-do-encontro-da-renap",
@@ -4491,7 +4875,10 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "alienacao",
@@ -4507,7 +4894,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "latinoamerica-calle-13",
@@ -4526,7 +4914,8 @@
    "clima",
    "água"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "programacao-do-encontro-nacional-da-renap",
@@ -4547,7 +4936,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "dandara",
@@ -4565,7 +4957,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "critica-da-ecologia-politica",
@@ -4583,7 +4976,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-direito-alternativo-revista-do-nucleo-de-estudos-de",
@@ -4601,7 +4995,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "laboratorio-de-cartografias-insurgentes",
@@ -4622,7 +5017,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "michael-lowy-na-ufpr",
@@ -4641,7 +5037,8 @@
    "educação",
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "luta-pelos-direitos-do-trabalho-e-hoje-vital-diante-da",
@@ -4663,7 +5060,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "campanha-outro-s-11-9-s",
@@ -4679,7 +5077,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "encontro-da-renap-em-fortaleza",
@@ -4700,7 +5099,11 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "fe",
@@ -4718,7 +5121,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "atentado-contra-militante-do-mtst-no-distrito-federal",
@@ -4735,7 +5139,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "dois-anos-do-blogue-da-assessoria-juridica-popular",
@@ -4757,7 +5162,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "carta-aberta-aos-estudantes-e-academicos-do-brasil",
@@ -4777,7 +5183,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "a-revolucao-brasileira-cosmogonia-de-nossa-acao-cultural",
@@ -4794,7 +5201,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "revista-direito-sensibilidade",
@@ -4812,7 +5220,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-toque-de-classe-nas-mobilizacoes-em-teresina",
@@ -4832,7 +5241,10 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "carta-dos-enamorados-do-neda",
@@ -4849,7 +5261,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "quando-os-lirios-nao-nascem-da-lei-nascem-de-onde",
@@ -4868,7 +5281,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-movimento-docente-das-universidades-federais-indignacao",
@@ -4887,7 +5301,8 @@
    "educação",
    "mineração"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "pachucanis-para-alem-de-o-etnocentrismo",
@@ -4903,7 +5318,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "seminario-sobre-constitucionalismo-na-america-latina",
@@ -4926,7 +5342,8 @@
    "indígena",
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "10-anos-do-sajup-pr",
@@ -4945,7 +5362,10 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "domingos-savio-dresch-da-silveira-e-o-novo-ouvidor-nacional",
@@ -4963,7 +5383,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "oficina-em-blumenau-com-movimento-estudantil-de-luta",
@@ -4985,7 +5406,10 @@
    "oficina",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "prisao-de-advogado-do-movimento-popular-em-despejo-e-objeto",
@@ -5008,7 +5432,8 @@
    "moradia",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "feijao-arroz-e-veneno",
@@ -5029,7 +5454,8 @@
    "educação",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "serie-10-indicacoes-dez-livros-para-fazer-assessoria",
@@ -5050,7 +5476,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "hino-do-movimento-dos-trabalhadores-rurais-sem-terra-cifra",
@@ -5070,7 +5497,8 @@
    "terra",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "pierre-seghers-o-mais-celebre-editor-de-poesia-do-seculo-xx",
@@ -5089,7 +5517,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "ruidos-do-porao-o-jornal-do-saju-ba",
@@ -5107,7 +5536,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "justica-uma-cancao-de-amor-e-liberdade",
@@ -5126,7 +5558,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "50-anos-da-campanha-da-legalidade-para-uma-reflexao-sobre-a",
@@ -5146,7 +5579,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "editorial-do-brasil-de-fato-denuncia-ataque-do-poder",
@@ -5165,7 +5599,8 @@
   "palavras": [
    "oficina"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-tripe-manco",
@@ -5185,7 +5620,8 @@
    "educação",
    "poesia"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "para-um-historico-da-advocacia-popular-no-brasil",
@@ -5208,7 +5644,11 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "a-filosofia-na-america-latina-encontro-em-sao-bernardo-do",
@@ -5228,7 +5668,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "da-tensao-ao-tesao-des-ordem-e-processo-no-surgimento-do",
@@ -5248,7 +5689,10 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "desapropriacao-para-instalacao-do-museu-historico-das-lutas",
@@ -5264,7 +5708,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "juri-anghinoni-decisao-inedita-garante-justica-no-caso-de",
@@ -5285,7 +5730,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "longe-dos-olhos-do-direito-de-alma-citadina-um-dialogo",
@@ -5301,7 +5747,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "rosas-vermelhas-a-intensidade-de-lyra-filho",
@@ -5318,7 +5765,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "companheiros-haitianos-presente-relato-de-um-espaco-de",
@@ -5338,7 +5786,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "luta-pela-moradia-no-distrito-federal",
@@ -5361,7 +5810,8 @@
    "moradia",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve",
@@ -5377,7 +5827,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "o-direito-achado-na-rua-tambem-se-acha-na-teve-2-a-turma",
@@ -5395,7 +5846,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "lirica-de-um-filho-da-critica",
@@ -5411,7 +5863,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "ah-desculpe-achavamos-que-fossem-gays-ou-mendigos",
@@ -5427,7 +5880,8 @@
   "tipo": "notícia",
   "tipo_rotulo": "Notícia",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "congresso-de-pensamento-juridico-alternativo-na-argentina",
@@ -5446,7 +5900,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "mais-uma-defensora-de-direitos-humanos-presa-caso-colombiano",
@@ -5466,7 +5921,10 @@
    "criminologia",
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "lyra-filho-e-o-feminino",
@@ -5487,7 +5945,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "neda-organiza-simposio-de-direito-alternativo-em-franca",
@@ -5505,7 +5966,10 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "encontro-de-culturas-da-chapada-dos-viadeiros-homenageia",
@@ -5526,7 +5990,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "filme-patagonia-rebelde",
@@ -5542,7 +6007,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "quando-a-insonia-nos-obriga-a-gritar",
@@ -5559,7 +6025,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "juri-de-assassinato-de-sem-terra-no-parana",
@@ -5580,7 +6047,8 @@
    "criminologia",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "texto-sobre-sanchez-vazquez-no-brasil-de-fato",
@@ -5599,7 +6067,8 @@
   "palavras": [
    "oficina"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "revista-discenso-iniciativa-da-estudantada-da-ufsc",
@@ -5618,7 +6087,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "defensoria-publica-em-sc",
@@ -5634,7 +6104,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "o-que-esta-por-tras-da-criminalizacao-do-infanticidio",
@@ -5653,7 +6124,8 @@
    "criminalização",
    "indígena"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "poetica-feminista",
@@ -5672,7 +6144,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "sanchez-vazquez-renovacao-marxista-utopia-e-estetica",
@@ -5691,7 +6164,8 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "noticias-do-front-ou-da-fronteira",
@@ -5708,7 +6182,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "por-um-corredor-das-ideias-marginais-em-sao-leopoldo",
@@ -5729,7 +6204,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "nasce-a-rebela",
@@ -5747,7 +6223,8 @@
   "palavras": [
    "pesquisa"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "saju-uma-historia-de-extensao",
@@ -5764,7 +6241,10 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "sociedade-barracao-usucapindo-a-cooperacao",
@@ -5785,7 +6265,8 @@
    "oficina",
    "moradia"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "ajp-e-o-resgate-de-nossa-latinidade",
@@ -5807,7 +6288,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "8-anos-de-luta-pela-estatizacao-da-fabrica-ocupada-flasko",
@@ -5825,7 +6307,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-vila-chocolatao-e-o-exemplo-negativo",
@@ -5848,7 +6331,10 @@
    "trabalho",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "fica-graciosa-campanha-lancada-com-sucesso-em-pinhais",
@@ -5868,7 +6354,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "uma-fala-epistemologicamente-feminista",
@@ -5891,7 +6378,8 @@
    "oficina",
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "jornalista-maldito-o-olhar-agucado-de-lucio-flavio-pinto",
@@ -5911,7 +6399,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "aborto-do-pluralismo-juridico-a-efetivacao-do-direito-a",
@@ -5928,7 +6417,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "a-grecia-e-a-democracia",
@@ -5944,7 +6434,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "mais-um-advogado-popular-preso-quem-e-roberto-rainha",
@@ -5966,7 +6457,11 @@
    "educação",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "os-grundrisse-de-marx-em-portugues-longa-espera-de-70-anos",
@@ -5985,7 +6480,8 @@
    "água",
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "ajp-com-vladimir-luz-em-floripa",
@@ -6007,7 +6503,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-hiato-da-captura-criptica",
@@ -6023,7 +6522,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "os-direitos-do-orvalho-ou-da-nossa-obsessao-pelo-dialogo",
@@ -6039,7 +6539,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "atuacao-do-najup-negro-cosme-na-luta-por-moradia",
@@ -6058,7 +6559,10 @@
   "palavras": [
    "moradia"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "justica-poetica",
@@ -6077,7 +6581,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "dois-patronos-da-critica-juridica-brasileira-homenageados",
@@ -6097,7 +6602,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "mariana-criola-realiza-evento-do-rio",
@@ -6116,7 +6622,11 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "em-londrina-jornada-de-agroecologia-e-lancamento-de-livro",
@@ -6132,7 +6642,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-desnecessidade-historica-do-direito",
@@ -6149,7 +6660,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "carta-aberta-do-movimento-foramicarla-reflexoes-sobre-as",
@@ -6165,7 +6677,8 @@
   "tipo": "documento",
   "tipo_rotulo": "Documento",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-2",
@@ -6184,7 +6697,8 @@
    "MST",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "poesitando-a-amazonia",
@@ -6204,7 +6718,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "a-luta-dos-moradores-do-jardim-graciosa",
@@ -6226,7 +6741,8 @@
    "moradia",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "as-turmas-especiais-de-direito-retomando-um-depoimento-a",
@@ -6247,7 +6763,8 @@
    "educação",
    "terra"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "revista-redhes-novo-numero",
@@ -6263,7 +6780,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "carta-aberta-de-conselheiros-tutelares-e-de-direito-da",
@@ -6284,7 +6802,8 @@
    "oficina",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "convocatoria-cubana-vii-encontro-internacional-presenca-de",
@@ -6302,7 +6821,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "gramsci-as-periferias-e-os-subalternos-em-marilia-sp",
@@ -6322,7 +6842,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "levante-sua-voz",
@@ -6343,7 +6864,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos",
@@ -6365,7 +6887,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "fabiana-cristina-severi-e-a-luta-pela-terra",
@@ -6384,7 +6909,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-3",
@@ -6404,7 +6930,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "i-seminario-de-direitos-humanos-da-fened-direito-e-movimento",
@@ -6423,7 +6950,10 @@
    "água",
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "praticar-refletir-e-registrar",
@@ -6440,7 +6970,10 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "coraje-e-musica",
@@ -6462,7 +6995,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "que-vergonha",
@@ -6480,7 +7016,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "mais-um-assessor-juridico-popular-perseguido-homenageado",
@@ -6502,7 +7039,10 @@
    "água",
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "repatriacao-do-acervo-do-brasil-nunca-mais",
@@ -6522,7 +7062,8 @@
    "pesquisa",
    "ditadura"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "os-direitos-humanos-e-sua-incompreensao",
@@ -6541,7 +7082,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "registro-historico-e-ajp-um-video-de-coraje",
@@ -6559,7 +7101,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "mostra-o-que-ninguem-ve-4",
@@ -6577,7 +7122,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "direito-achado-na-rua",
@@ -6595,7 +7141,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "vinte-anos-de-direito-alternativo-balanco-e-perspectivas",
@@ -6616,7 +7163,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "estudos-em-homenagem-a-roberto-lyra-filho-em-franca",
@@ -6633,7 +7181,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "nossas-lutas-e-conquistas",
@@ -6652,7 +7201,8 @@
    "MST",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "a-vida-nua-concreta-e-a-autoconsciencia-latino-americana",
@@ -6673,7 +7223,10 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-direito-achado-na-rua-tambem-se-acha-na-teve",
@@ -6691,7 +7244,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-margem-protagonismo-estudantil-e-comunicacao",
@@ -6709,7 +7263,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-5",
@@ -6725,7 +7280,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-6",
@@ -6745,7 +7301,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-codigo-florestal-a-propriedade-privada-e-o-futuro",
@@ -6763,7 +7320,8 @@
   "palavras": [
    "clima"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "ajup-movimento-estudantil-ou-servico-legal",
@@ -6785,7 +7343,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "encontro-de-grupos-de-estudo-e-pesquisa-marxistas-iii",
@@ -6806,7 +7367,8 @@
    "pesquisa",
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "assessoria-juridica-um-passo-na-formacao-dos-estudantes-de",
@@ -6831,7 +7393,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "assessoria-popular-nordestina-a-dignitatis",
@@ -6851,7 +7416,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "marx-e-o-complexo-de-dom-casmurro-dos-marxistas-mais-sobre",
@@ -6869,7 +7435,8 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "espanha-se-levanta",
@@ -6885,7 +7452,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "antropologia-e-direito-ii-enadir-2011",
@@ -6903,7 +7471,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-7",
@@ -6919,7 +7488,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "estreia-da-coluna-do-nep-unb",
@@ -6939,7 +7509,8 @@
    "educação",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "i-seminario-nacional-de-direitos-humanos-da-fened-direito",
@@ -6960,7 +7531,11 @@
    "água",
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "os-quilombolas-e-o-estado-video-reportagem-sobre-o-quilombo",
@@ -6980,7 +7555,8 @@
    "água",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "irregularidades-seguem-acontecendo-na-vila-chocolatao-em",
@@ -6998,7 +7574,10 @@
   "tipo": "documento",
   "tipo_rotulo": "Documento",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-canto-que-e-solucar-de-dor-a-subversao-epistemologica-de",
@@ -7020,7 +7599,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "documentario-o-cinema-libertario",
@@ -7038,7 +7618,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "povo-grego-volta-as-ruas-contra-medidas-do-governo",
@@ -7054,7 +7635,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-complexo-universo-paralelo",
@@ -7074,7 +7656,8 @@
    "poesia",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "experiencias-de-assessoria-juridica-popular-e-o-direito",
@@ -7094,7 +7677,11 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "noticias-do-front-ou-da-fronteira-2",
@@ -7115,7 +7702,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "criminologia-e-direitos-humanos-em-debate-na-ufpe",
@@ -7139,7 +7727,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "a-10a-jornada-de-agroecologia-a-soberania-alimentar-e-a",
@@ -7155,7 +7746,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "organizacoes-de-esquerda-debatem-sobre-oriente-medio-e",
@@ -7171,7 +7763,8 @@
   "tipo": "notícia",
   "tipo_rotulo": "Notícia",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "poesitando-a-diversidade-sexual",
@@ -7189,7 +7782,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "maio-mes-do-trabalho",
@@ -7207,7 +7801,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "da-insurgencia",
@@ -7226,7 +7821,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "negros-e-indios-na-invencao-do-brasil",
@@ -7245,7 +7841,8 @@
   "palavras": [
    "indígena"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "os-quilombolas-e-o-estado-uso-alternativo-do-ministerio",
@@ -7264,7 +7861,8 @@
    "quilombo",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "debatendo-a-educacao-juridica-na-ufersa",
@@ -7286,7 +7884,10 @@
    "educação",
    "direitos humanos"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "direito-para-que-m-discute-a-fabrica-ocupada-flasko",
@@ -7304,7 +7905,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-o-alimento-e-importante",
@@ -7322,7 +7924,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "relato-da-ajp-sobre-o-i-seminario-de-direito-pesquisa-e",
@@ -7343,7 +7946,8 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "acoes-afirmativas-e-eu-com-isso",
@@ -7363,7 +7967,8 @@
    "educação",
    "indígena"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "comentarios-sobre-a-luta-pela-terra-por-baldez",
@@ -7382,7 +7987,10 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "lembrando-quatro-advogados-populares-assassinados-simbolos",
@@ -7402,7 +8010,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "com-a-paz-dos-ovos-de-pascoa",
@@ -7418,7 +8027,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-obsolescencia-programada",
@@ -7437,7 +8047,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "cineclube-ajp-narradores-de-jave",
@@ -7459,7 +8070,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "preparativos-para-o-xiii-erenaju-em-eldorado-do-sul",
@@ -7481,7 +8093,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "mostra-o-que-ninguem-ve-o-dia-que-durou-21-anos",
@@ -7499,7 +8114,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "pesquisa-em-direito-com-movimentos-sociais-em-foco-na-usp",
@@ -7519,7 +8135,10 @@
    "pesquisa",
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "a-guerrilha-do-caparao-um-matematico-um-jurista-e-muitos",
@@ -7538,7 +8157,8 @@
   "palavras": [
    "ditadura"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "america-latina-experiencias-de-um-continente-vi-encontro",
@@ -7559,7 +8179,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "ajp-e-etnodesenvolvimento",
@@ -7581,7 +8202,8 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "dialogo-de-professores-de-lugar-nenhum",
@@ -7600,7 +8222,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "procura-se-e-o-povo-brasileiro-pergunta-quem-torturou-quem",
@@ -7620,7 +8243,8 @@
    "MAB",
    "ditadura"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "direito-e-antropologia-iii-seminario-indigena-historia-e",
@@ -7640,7 +8264,8 @@
    "indígena",
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "sobre-o-bairro-23-de-janeiro",
@@ -7656,7 +8281,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "a-assessoria-juridica-popular-no-1o-encontro-estadual-dos",
@@ -7677,7 +8303,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-lixo-extraordinario",
@@ -7695,7 +8322,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "sao-sangue-sao-lagrimas",
@@ -7711,7 +8339,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "parceria-do-blogue-com-a-terra-de-direitos",
@@ -7731,7 +8360,8 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "movimentos-sociais-em-prol-do-efta-novo-ato",
@@ -7753,7 +8383,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "contra-o-legado-do-ministerio-do-silencio-a-longa-marcha-de",
@@ -7771,7 +8404,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "muca-denuncia-campanha-de-desarticulacao-do-nut-defensoria",
@@ -7794,7 +8428,8 @@
    "moradia",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "mostra-o-que-ninguem-ve-difamacao",
@@ -7812,7 +8447,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "versos-d-arak",
@@ -7830,7 +8466,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "contribua-para-o-mapeamento-das-assessorias",
@@ -7849,7 +8486,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "justica-e-politica-capturadas-pelo-direito-um-rapto-moderno",
@@ -7868,7 +8506,8 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "stf-e-a-lei-ficha-limpa-novas-contradicoes-judiciais",
@@ -7885,7 +8524,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "campo-minado-questao-para-debate",
@@ -7905,7 +8545,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "injustica-de-transicao-na-unb",
@@ -7921,7 +8562,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "vive-la-commune-140-anos-da-comuna-de-paris",
@@ -7939,7 +8581,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "a-cara-da-mentira-declaracao-da-rede-popular-catarinense-de",
@@ -7961,7 +8604,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "roteiro-de-teatro-forum-discurso-da-competencia",
@@ -7982,7 +8626,8 @@
    "teatro",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "a-divisao-social-do-trabalho-intelectual-perplexidades",
@@ -8004,7 +8649,8 @@
    "trabalho",
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "assessoria-juridica-popular-universitaria-na-ufsc",
@@ -8024,7 +8670,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "novos-apoios-ao-escritorio-frei-tito",
@@ -8046,7 +8695,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "para-uma-economia-politica-das-carreiras-juridicas",
@@ -8062,7 +8714,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "defensoria-ja-gralha-povo-paranaense-gralha",
@@ -8082,7 +8735,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "nova-tentativa-de-criminalizacao-lider-do-movimento-de",
@@ -8102,7 +8756,8 @@
    "criminalização",
    "moradia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "papo-de-cinema",
@@ -8124,7 +8779,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "seminario-memorias-em-movimento-juventude-cultura-e-politica",
@@ -8142,7 +8800,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "thomaz-miguel-pressburger-presente",
@@ -8161,7 +8820,8 @@
   "tipo": "notícia",
   "tipo_rotulo": "Notícia",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "mais-sobre-o-escritorio-frei-tito-movimentos-sociais-lancam",
@@ -8182,7 +8842,11 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "e-todo-pranto-forma-a-imagem-do-homem-rapidas-notas-sobre",
@@ -8203,7 +8867,8 @@
   "palavras": [
    "MAB"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "noticias-do-front-ou-da-fronteira-3",
@@ -8223,7 +8888,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "jesus-antonio-de-la-torre-rangel-e-a-analogia-do-direito",
@@ -8241,7 +8907,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "odio-virtual",
@@ -8259,7 +8926,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "carta-de-divulgacao-do-nascimento-de-nova-ajup",
@@ -8280,7 +8948,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "dizer-que-nao",
@@ -8296,7 +8967,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-religiosidade-e-a-assessoria-popular",
@@ -8319,7 +8991,8 @@
    "terra",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "reflexoes-a-partir-da-leitura-de-balaios-e-bem-te-vis-a",
@@ -8339,7 +9012,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "saindo-definitivamente-de-cima-de-muro",
@@ -8359,7 +9033,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "as-mulheres-sua-resistencia-e-a-totalidade-ou-quando-as",
@@ -8380,7 +9055,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "ricardo-prestes-pazello-e-o-poder-dual-do-pluralismo",
@@ -8398,7 +9074,8 @@
   "palavras": [
    "pesquisa"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "08-de-marco-dia-de-luta-das-mulheres-estudantes",
@@ -8417,7 +9094,8 @@
    "mulheres",
    "educação"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "denuncia-exoneracao-de-advogados-e-estagiarios-do",
@@ -8438,7 +9116,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "calourada-do-saju-sp-e-extensao",
@@ -8459,7 +9140,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "ocupacao-28-de-maio-e-a-assessoria-juridica",
@@ -8480,7 +9164,8 @@
    "moradia",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "denuncia-familias-sem-teto-completam-10-dias-morando-na",
@@ -8499,7 +9184,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "nota-de-falecimento-de-sebastiao-bezerra",
@@ -8518,7 +9204,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "rui-mauro-marini-a-teoria-marxista-da-dependencia-e-a",
@@ -8537,7 +9224,8 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "amanda-alves-de-souza-e-a-praxis-extensionista",
@@ -8557,7 +9245,8 @@
    "pesquisa",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "negro-coracao-de-alegre-correa-e-raul-boeira",
@@ -8573,7 +9262,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-revolucao-do-jasmim-e-a-praca-libertacao-o-estado-de",
@@ -8595,7 +9285,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "livro-justica-e-direitos-humanos-sobre-experiencias-de",
@@ -8616,7 +9307,8 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "as-veias-abertas-da-amazonia-uma-contribuicao-ao-debate",
@@ -8637,7 +9329,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "ano-recomeca-com-nova-linguagem",
@@ -8659,7 +9352,10 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "a-questao-agraria-na-america-latina-questionamentos-iniciais",
@@ -8679,7 +9375,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "luiz-otavio-ribas-e-a-advocacia-popular-no-rio-e-porto",
@@ -8702,7 +9399,8 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "miguel-lanzellotti-baldez-e-a-presentacao",
@@ -8725,7 +9423,10 @@
    "terra",
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "uma-historia-de-domingos-um-naco-de-historia-do-direito-no",
@@ -8742,7 +9443,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "a-classe-que-vive-do-trabalho-e-o-que-a-ajp-tem-a-ver-com",
@@ -8765,7 +9467,11 @@
    "trabalho",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap",
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "luiz-otavio-ribas-e-a-assessoria-estudantil-no-brasil",
@@ -8790,7 +9496,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "novidades-sobre-a-biblioteca-digital-da-ajp",
@@ -8808,7 +9517,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "amilcar-cabral-as-formas-da-resistencia-e-o-suicidio-de",
@@ -8829,7 +9539,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "carla-miranda-e-a-praxis-da-assessoria-juridica",
@@ -8851,7 +9562,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "um-pouco-de-humor-direitos-do-cidadao",
@@ -8867,7 +9581,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "a-comunicacao-e-o-apoio-popular",
@@ -8887,7 +9602,8 @@
   "palavras": [
    "oficina"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "a-repercussao-de-uma-vitoria-no-judiciario-o-caso-dos",
@@ -8905,7 +9621,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "sobre-a-tragedia-no-rio",
@@ -8926,7 +9643,8 @@
    "educação",
    "terra"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "algumas-linhas-sobre-assessoria-juridica-popular-e",
@@ -8945,7 +9663,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "a-traducao-na-assessoria-juridica-popular",
@@ -8967,7 +9686,10 @@
    "pesquisa",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "metodologia-e-organizacao-interna-das-ajups-alguns",
@@ -8987,7 +9709,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "provocacao-de-50-anos-atras-o-que-a-universidade-cria-e-o",
@@ -9006,7 +9731,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "manifesto-do-conselho-popular-contra-ditadura-aos-pobres",
@@ -9029,7 +9755,8 @@
    "água",
    "ditadura"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "conscientizacao-de-direitos-pequena-tese",
@@ -9048,7 +9775,8 @@
    "educação",
    "pesquisa"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "por-uma-nova-articulacao-da-assessoria-juridica-popular",
@@ -9067,7 +9795,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "resenha-do-livro-de-alberto-kopittke-sobre-a-renap",
@@ -9084,7 +9815,10 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "o-giro-descolonial-e-o-direito-os-tres-cortes-estruturais",
@@ -9102,7 +9836,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "pesquisa-sobre-a-organizacao-politica-dos-xokleng",
@@ -9124,7 +9859,8 @@
    "indígena",
    "terra"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "carta-do-ano-que-nao-terminou",
@@ -9144,7 +9880,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "morreu-lia-pires-e-com-ele-a-advocacia",
@@ -9160,7 +9899,8 @@
   "tipo": "notícia",
   "tipo_rotulo": "Notícia",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "sobre-mestres-e-professores-lembrando-warat",
@@ -9178,7 +9918,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "oracao-ignominiosa-de-uma-habitante-da-escuridao",
@@ -9197,7 +9938,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "o-que-a-assessoria-juridica-popular-tem-a-dizer-sobre-o",
@@ -9217,7 +9959,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "o-teatro-e-o-ensino-do-direito-3",
@@ -9237,7 +9980,8 @@
    "educação",
    "teatro"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "uma-contribuicao-de-miguel-baldez",
@@ -9259,7 +10003,10 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "consideracoes-sobre-o-popular-direito-e-cultura",
@@ -9279,7 +10026,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "com-tristeza-luis-adeus",
@@ -9296,7 +10044,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "encontro-das-assessorias-populares-do-rs",
@@ -9318,7 +10067,10 @@
    "oficina",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "ludovico-silva-e-a-critica-a-naturalizacao-metodica",
@@ -9336,7 +10088,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "pode-a-universidade-nao-ser-emancipatoria",
@@ -9354,7 +10107,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "poesitando-a-guerra",
@@ -9373,7 +10127,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "novidades-da-semana-para-ler-e-comemorar",
@@ -9394,7 +10149,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "a-formacao-de-uma-casta",
@@ -9413,7 +10171,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "universidade-popular-na-america-latina-3",
@@ -9434,7 +10193,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "livro-sobre-advocacia-popular-e-lyra-filho",
@@ -9453,7 +10215,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "o-outro-lado-dos-direitos-humanos-povos-indigenas-e",
@@ -9474,7 +10239,8 @@
    "indígena",
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "violencia-no-rio-estado-e-constitucionalismo-de-fachada",
@@ -9494,7 +10260,8 @@
    "oficina",
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "defenda-a-defensoria-publica-para-banir-um-direito-sonegado",
@@ -9512,7 +10279,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "universidade-popular-na-america-latina-2",
@@ -9530,7 +10298,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "poesia-sobre-absurdos-na-forma-da-lei",
@@ -9549,7 +10318,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "formacao-em-direitos-humanos-com-movimentos-sociais-limites",
@@ -9571,7 +10341,8 @@
    "oficina",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "o-genero-e-o-direito-a-genera-e-a-direita",
@@ -9589,7 +10360,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "chao-de-fabrica-e-doutores-da-serie-memorias",
@@ -9605,7 +10377,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "universidade-popular-na-america-latina-1",
@@ -9623,7 +10396,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "i-encontro-paraense-de-assessoria-juridica-universitaria",
@@ -9641,7 +10415,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "la-grieta-assessoria-juridica-popular-na-argentina",
@@ -9660,7 +10437,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "critica-aos-direitos-humanos-e-movimentos-sociais-2",
@@ -9679,7 +10457,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "coluna-de-jacques-alfonsin",
@@ -9698,7 +10477,8 @@
    "moradia",
    "trabalho"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "a-hora-e-a-vez-da-autogestao",
@@ -9715,7 +10495,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "ha-um-ano-em-teresina",
@@ -9735,7 +10516,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "relatos-de-um-jovem-professor-1",
@@ -9756,7 +10538,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "a-internacional-e-o-direito-notas-sobre-a-ludicidade",
@@ -9774,7 +10557,10 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "cinema-e-luta-no-campo",
@@ -9794,7 +10580,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "direito-e-ditadura-militar-no-brasil",
@@ -9813,7 +10600,8 @@
   "palavras": [
    "ditadura"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "marx-e-o-nao-direito-direito-e-marxismo",
@@ -9831,7 +10619,8 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "coluna-prestes-a-coluna-de-domingo",
@@ -9849,7 +10638,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "relato-do-acampamento-do-sajup-pr-em-agosto",
@@ -9872,7 +10662,10 @@
    "oficina",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "pet-direito-ufsc-aborda-o-direito-e-a-ditadura",
@@ -9893,7 +10686,8 @@
    "água",
    "ditadura"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "os-sujeitos-historicos-da-transformacao-organizacao",
@@ -9913,7 +10707,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "critica-aos-direitos-humanos-e-movimentos-sociais",
@@ -9934,7 +10729,8 @@
    "direitos humanos",
    "teoria crítica"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "assessoria-popular-em-ocupacao-urbana-de-passo-fundo",
@@ -9959,7 +10755,10 @@
    "trabalho",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-dia-9-o-dia-10-o-dia-11-e-o-dia-12",
@@ -9980,7 +10779,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "captura-criptica-novo-volume-e-chamada-para-artigos",
@@ -10001,7 +10801,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "direito-insurgente-e-pluralismo-juridico",
@@ -10020,7 +10821,8 @@
   "palavras": [
    "oficina"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-golpe-no-equador-e-o-terrivel-inverno-politico-latino",
@@ -10040,7 +10842,8 @@
    "educação",
    "pesquisa"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "coluna-de-jacques-alfonsin-2",
@@ -10058,7 +10861,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "critica-ao-direito-e-movimento-estudantil",
@@ -10079,7 +10883,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "campanha-contra-a-nova-criminalizacao-dos-saberes",
@@ -10098,7 +10903,8 @@
   "palavras": [
    "criminalização"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "duvida-insanavel-como-deve-ser-para-um-ministro-do-stf",
@@ -10115,7 +10921,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "poema-sobre-a-insurgencia",
@@ -10134,7 +10941,8 @@
    "educação",
    "poesia"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "o-latifundio-matou-mais-um-trabalhador-sem-terra-no-para",
@@ -10155,7 +10963,8 @@
    "terra",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "editorial-de-domingo-e-preciso-parar-para-pensar",
@@ -10176,7 +10985,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-teatro-e-o-ensino-do-direito-2",
@@ -10198,7 +11008,10 @@
    "teatro",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "saju-ce-e-o-plebiscito-popular",
@@ -10217,7 +11030,10 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-onze-de-setembro-e-a-abertura-das-grandes-alamedas",
@@ -10237,7 +11053,8 @@
    "transporte",
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "recomendacao-de-leituras",
@@ -10257,7 +11074,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "vencer-a-barbarie-em-anapu-e-uma-obrigacao-do-estado",
@@ -10274,7 +11094,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-bandido-que-sabia-latim-tambem-sabia-de-musica",
@@ -10294,7 +11115,8 @@
    "educação",
    "teoria crítica"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "autonomia-universitaria-ou-colonialidade-do-saber",
@@ -10310,7 +11132,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "sergio-bianchi",
@@ -10328,7 +11151,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "analfabetos-fracos-pobres-rudes-e-santos",
@@ -10346,7 +11170,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "da-rua-para-academia-por-livia-gimenes",
@@ -10366,7 +11191,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "assine-a-peticao-em-favor-dos-agricultores-de-imbituba",
@@ -10384,7 +11210,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "coluna-de-jacques-alfonsin-3",
@@ -10401,7 +11228,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "o-enedex-e-os-desafios-da-extensao-universitaria-do-direito",
@@ -10422,7 +11250,10 @@
    "oficina",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-enedex-e-os-desafios-da-extensao-universitaria-do-direit-2",
@@ -10442,7 +11273,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-devermos-ver-e-a-verdade",
@@ -10460,7 +11294,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "entrevista-com-o-jacques-alfonsin",
@@ -10478,7 +11313,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "1-ano-de-comunicacao-sobre-a-luta-popular",
@@ -10496,7 +11332,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "cidadania-e-educacao-historica-perspectivas-de-alunos-e",
@@ -10515,7 +11354,8 @@
    "educação",
    "pesquisa"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "da-utopia-estudantil-a-acao-politica",
@@ -10536,7 +11376,8 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "organizacao-popular-e-resistencia-o-exemplo-de-pinheirinho",
@@ -10555,7 +11396,8 @@
   "palavras": [
    "moradia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "i-seminario-internacional-de-educacao-em-direitos-humanos",
@@ -10577,7 +11419,8 @@
    "água",
    "direitos humanos"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "direito-a-moradia-e-direito-ao-meio-ambiente-ecologicamente",
@@ -10596,7 +11439,8 @@
    "moradia",
    "trabalho"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "noticias-de-imbituba",
@@ -10612,7 +11456,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "quem-planta-cultura-colhe-revolucao",
@@ -10631,7 +11476,8 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "assentados-de-joia-sao-absolvidos",
@@ -10649,7 +11495,8 @@
   "tipo": "notícia",
   "tipo_rotulo": "Notícia",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "lira-filho-porque-a-critica-juridica-nao-pode-morrer",
@@ -10665,7 +11512,8 @@
   "tipo": "poesia",
   "tipo_rotulo": "Poesia",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "despejo-em-imbituba-mas-essa-gente-ai-hein-como-e-que-faz",
@@ -10686,7 +11534,8 @@
    "moradia",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "novo-livro-de-direito-urbanistico",
@@ -10702,7 +11551,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "o-despertar-da-espera",
@@ -10723,7 +11573,8 @@
    "terra",
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "o-homem-da-casa-de-papelao-direito-da-indiferenca",
@@ -10743,7 +11594,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "quem-planta-cultura-colhe-revolucao-2",
@@ -10762,7 +11614,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "estatizacao-e-na-flasko-ninguem-coloca-a-mao-eles-podem",
@@ -10780,7 +11635,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "imbituba-urgente",
@@ -10796,7 +11652,8 @@
   "tipo": "notícia",
   "tipo_rotulo": "Notícia",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "poema-em-homenagem-a-eugenio-lyra",
@@ -10815,7 +11672,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "coluna-do-jacques-o-morro-e-nosso",
@@ -10833,7 +11691,8 @@
   "palavras": [
    "moradia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "ato-de-imbituba-as-comunidades-tradicionais-contra-o-capital",
@@ -10850,7 +11709,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "sobre-burocratas-travestidos-de-poetas",
@@ -10868,7 +11728,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "noticias-do-front-ou-da-fronteira-4",
@@ -10888,7 +11749,8 @@
   "palavras": [
    "ditadura"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "judiciario-decreta-falencia-da-flasko",
@@ -10908,7 +11770,8 @@
    "água",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "niilismo-e-movimento-popular-ou-entre-ceticos-e-cinicos-eu",
@@ -10926,7 +11789,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "imbituba-cronica-de-um-mandado-de-despejo",
@@ -10947,7 +11811,8 @@
    "moradia",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "helio-bicudo-sobre-o-mst",
@@ -10966,7 +11831,8 @@
    "MST",
    "direitos humanos"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "campanha-adote-um-dia-do-mes-seja-colunista",
@@ -10984,7 +11850,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "direito-de-resistencia-e-estado-liberal",
@@ -11003,7 +11870,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "a-importancia-do-estudo-do-pluralismo-juridico-justica",
@@ -11020,7 +11888,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "mercedes-sosa-e-sebastiao-salgado",
@@ -11036,7 +11905,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "sobre-os-crimes-a-subjetividade-e-o-limite",
@@ -11052,7 +11922,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "morro-santa-teresa-vitoria-do-povo",
@@ -11069,7 +11940,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "flexibilizacao-das-leis-trabalhistas",
@@ -11088,7 +11960,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-que-e-a-greve",
@@ -11108,7 +11981,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-que-e-o-direito",
@@ -11125,7 +11999,8 @@
   "tipo": "poesia",
   "tipo_rotulo": "Poesia",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "uma-partida",
@@ -11141,7 +12016,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "bolivar-echeverria-resistencia-e-critica-na-america-latina",
@@ -11159,7 +12035,8 @@
   "palavras": [
    "teoria crítica"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "poder-politico-juridico-dual-plural",
@@ -11177,7 +12054,8 @@
   "palavras": [
    "pesquisa"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "resenha-do-texto-diante-da-lei-de-franz-kafka",
@@ -11195,7 +12073,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "coluna-alfonsin-ficha-limpa",
@@ -11213,7 +12092,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-licao-de-juruti-velho",
@@ -11231,7 +12111,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "direitos-fundamentais-e-poesia",
@@ -11252,7 +12133,8 @@
    "poesia",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "resenha-do-livro-de-elaine-tavares",
@@ -11273,7 +12155,8 @@
    "água",
    "trabalho"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "campanha-o-morro-e-nosso",
@@ -11291,7 +12174,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "reformulacao-do-blogue",
@@ -11309,7 +12193,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "semana-de-direitos-humanos-do-saju-rs",
@@ -11329,7 +12214,10 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "dissertacao-christianny-diogenes-maia",
@@ -11352,7 +12240,8 @@
    "pesquisa",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "eged-2010-sera-em-junho-em-santa-maria",
@@ -11371,7 +12260,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "a-anistia-e-a-ajuris",
@@ -11392,7 +12282,8 @@
    "água",
    "ditadura"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "assessoria-juridica-popular",
@@ -11411,7 +12302,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "saga-das-contradicoes-latino-americanas-estado-de-excecao",
@@ -11431,7 +12325,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "captura-criptica-chamada-para-artigos",
@@ -11449,7 +12344,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "biblioteca-digital-da-filosofia-latino-americana",
@@ -11468,7 +12364,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "xii-encontro-da-rede-nacional-de-assessoria-juridica",
@@ -11486,7 +12383,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "tabula-rasa-revista-de-humanidades",
@@ -11502,7 +12402,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "3-anos-de-nepe-14-anos-do-massacre",
@@ -11521,7 +12422,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "jornalismo-da-maioria-ouro-de-poucos",
@@ -11538,7 +12440,10 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "as-ocupacoes-e-o-vermelho-das-coisas",
@@ -11557,7 +12462,8 @@
   "palavras": [
    "moradia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "quem-constroi-a-ponte-nao-conhece-o-lado-de-la",
@@ -11578,7 +12484,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "adeus-sete-quedas-adeus-ivo-rodrigues",
@@ -11594,7 +12503,8 @@
   "tipo": "notícia",
   "tipo_rotulo": "Notícia",
   "palavras": [],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "cultura-negra-historia-e-musica",
@@ -11613,7 +12523,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "coluna-de-jacques-alfonsin-4",
@@ -11631,7 +12542,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "rebeliao-na-comunicacao-mundial",
@@ -11649,7 +12561,8 @@
   "palavras": [
    "oficina"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "participe-do-identidade-mercosul",
@@ -11667,7 +12580,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "assista-as-jornadas-bolivarianas-pela-internete",
@@ -11683,7 +12597,8 @@
   "tipo": "evento",
   "tipo_rotulo": "Evento",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "manda-pro-pessoal-no-erenaju-teresina",
@@ -11704,7 +12619,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "entre-coroneis-e-pistoleiros-um-ano-sem-manoel-mattos",
@@ -11723,7 +12641,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "o-teatro-e-o-ensino-do-direito-1",
@@ -11744,7 +12663,8 @@
    "teatro",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "uno-mas-para-nunca-mas",
@@ -11761,7 +12681,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "mais-sobre-o-dia-da-mulher-e-o-feminismo",
@@ -11780,7 +12701,8 @@
   "palavras": [
    "mulheres"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "programa-nacional-de-direitos-humanos",
@@ -11800,7 +12722,8 @@
    "direitos humanos",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "coluna-alfonsin-cechin",
@@ -11817,7 +12740,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "noticias-do-norte",
@@ -11835,7 +12759,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "um-novo-direito-internacional-desde-a-america-latina",
@@ -11854,7 +12781,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "dia-internacional-da-mulher",
@@ -11873,7 +12801,8 @@
    "mulheres",
    "pesquisa"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "poema-todas-as-mulheres",
@@ -11892,7 +12821,8 @@
    "mulheres",
    "poesia"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "assessoria-juridica-popular-na-vila-do-chocolatao-em-porto",
@@ -11911,7 +12841,10 @@
    "trabalho",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "monologo-do-poeta-do-povo-e-da-mocidade",
@@ -11932,7 +12865,8 @@
    "educação",
    "poesia"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "novo-prazo-para-revista-da-aatr",
@@ -11950,7 +12884,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "coluna-da-ana-lia-almeida",
@@ -11966,7 +12901,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "participacao-democratica-e-assessoria-estudantil",
@@ -11986,7 +12922,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-que-os-reacionarios-dizem-das-posturas-criticas-do-direito",
@@ -12004,7 +12943,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "80-anos-do-miguel-baldez",
@@ -12025,7 +12965,8 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "coluna-do-jacques-alfonsin-e-o-cnj",
@@ -12044,7 +12985,8 @@
   "palavras": [
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "estatisticas-do-blogue-2",
@@ -12065,7 +13007,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "sobre-a-libertacao-sexual",
@@ -12083,7 +13028,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "ninguem-havera-de-gritar-pelos-povos-da-amazonia",
@@ -12106,7 +13052,8 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "video-com-palestra-do-enrique-dussel",
@@ -12125,7 +13072,8 @@
   "palavras": [
    "indígena"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "revolucao-e-direito-mais-contradicoes",
@@ -12141,7 +13089,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "poema-de-ana-lia-almeida",
@@ -12159,7 +13108,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "elaine-tavares-e-o-desafio-da-comunicacao",
@@ -12176,7 +13126,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "mande-sua-contribuicao-para-a-revista-da-aatr",
@@ -12194,7 +13145,8 @@
   "palavras": [
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "noticia-coluna-semanal-jacques-alfonsin",
@@ -12210,7 +13162,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "ajp-ajup-com-povos-indigenas",
@@ -12233,7 +13186,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "companheiro-baldez-presente-2",
@@ -12253,7 +13209,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "e-as-algemas-nos-membros-do-mst",
@@ -12271,7 +13228,8 @@
   "palavras": [
    "MST"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "mais-sobre-o-advogado-popular",
@@ -12290,7 +13248,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "marcha-do-mst-em-imbituba-sc",
@@ -12309,7 +13268,8 @@
    "MST",
    "criminologia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "xii-erenaju-reuniao-virtual",
@@ -12328,7 +13288,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "globo-bbb10-e-lgbt-s-o-mito",
@@ -12346,7 +13309,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "campanhas-de-agitacao-com-os-calouros",
@@ -12366,7 +13330,8 @@
    "teatro",
    "trabalho"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "circulo-de-cultura-de-paulo-freire",
@@ -12385,7 +13350,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "poesitando-n-o-direito",
@@ -12406,7 +13372,8 @@
    "poesia",
    "água"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "mais-de-50-entidades-manifestam-apoio-ao-mst-de-santa",
@@ -12425,7 +13392,8 @@
   "palavras": [
    "MST"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "companheiro-lavratti-presente",
@@ -12445,7 +13413,8 @@
    "MST",
    "criminologia"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "poetizando",
@@ -12463,7 +13432,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "resenha-do-artigo-do-vladimir-luz",
@@ -12482,7 +13452,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "estatisticas-do-blogue",
@@ -12501,7 +13474,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "uma-sensacao",
@@ -12517,7 +13493,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-realidade-brasileira-e-o-forum-social-mundial",
@@ -12533,7 +13510,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "rumo-ao-xii-erenaju",
@@ -12551,7 +13529,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "america-latina-dos-abismos",
@@ -12569,7 +13550,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "revista-captura-criptica-nova-edicao",
@@ -12585,7 +13567,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "entrevista-leandro-scalabrin-na-caros-amigos",
@@ -12604,7 +13587,10 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": [
+   "renap"
+  ]
  },
  {
   "slug": "o-direito-e-as-cadeiras",
@@ -12622,7 +13608,10 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "pndh-3-por-que-mudar-da-revista-carta-maior",
@@ -12641,7 +13630,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "os-lirios-nao-nascem-das-leis",
@@ -12660,7 +13650,8 @@
    "educação",
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "o-fetiche-da-tv-paradoxos-das-discussoes-sobre-conteudo-e",
@@ -12681,7 +13672,8 @@
    "educação",
    "direitos humanos"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "o-que-o-direito-ensina-errado",
@@ -12700,7 +13692,8 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "noticias-da-renaju",
@@ -12718,7 +13711,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "direitos-humanos-sob-conflito",
@@ -12736,7 +13732,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "como-formar-uma-ajup",
@@ -12759,7 +13756,10 @@
    "oficina",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "comunicacao-na-america-latina",
@@ -12776,7 +13776,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "os-nossos-direitos-humanos-e-os-direitos-humanos-deles",
@@ -12794,7 +13795,8 @@
   "palavras": [
    "direitos humanos"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "revisao-da-lei-de-anistia",
@@ -12813,7 +13815,8 @@
   "palavras": [
    "ditadura"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "assessoria-juridica-popular-2",
@@ -12834,7 +13837,8 @@
    "moradia",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "poesitando",
@@ -12854,7 +13858,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "preparacao-para-o-primeiro-dia",
@@ -12874,7 +13879,8 @@
    "educação",
    "trabalho"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "a-contradicao-do-direito",
@@ -12891,7 +13897,8 @@
   "tipo": "notícia",
   "tipo_rotulo": "Notícia",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "educacao-de-geracao-para-geracao",
@@ -12910,7 +13917,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "o-advogado-popular-um-ser-em-extincao",
@@ -12930,7 +13938,10 @@
    "educação",
    "pesquisa"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "entre-dois-ceus-a-tensao-congenita-ao-juridico",
@@ -12951,7 +13962,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "novos-textos-na-biblioteca-digital-da-ajp",
@@ -12969,7 +13981,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-6",
@@ -12988,7 +14001,8 @@
    "MST",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "lamentacao-ecologica",
@@ -13004,7 +14018,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "10-anos-do-cajuina",
@@ -13026,7 +14041,10 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "retificacao-direito-insurgente-e-pluralismo-juridico",
@@ -13045,7 +14063,8 @@
   "palavras": [
    "pesquisa"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "retificacao-revista-captura-criptica",
@@ -13063,7 +14082,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "biblioteca-digital-da-assessoria-juridica-popular",
@@ -13081,7 +14103,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "da-forma-exegese-e-desnumeracao",
@@ -13100,7 +14125,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "noticia-de-jacques-alfonsin-e-antonio-cechin",
@@ -13118,7 +14144,8 @@
   "palavras": [
    "MST"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "recompensa-do-tedio-utopia",
@@ -13136,7 +14163,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "a-ultima-de-luiz-carlos-prates-ou-ai-que-saudades-de-luiz",
@@ -13154,7 +14182,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "revista-civitas-chamada-de-artigos",
@@ -13170,7 +14199,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "o-natal-dos-sem-no-brasil",
@@ -13186,7 +14216,8 @@
   "tipo": "formativo",
   "tipo_rotulo": "Texto formativo",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "sitio-da-revista-captura-criptica",
@@ -13206,7 +14237,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "assessoria-juridica-popular-3",
@@ -13224,7 +14258,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "companheiro-baldez-presente",
@@ -13245,7 +14280,10 @@
    "educação",
    "água"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "minicurso-critica-da-critica-critica-no-piaui",
@@ -13266,7 +14304,10 @@
    "educação",
    "oficina"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "universidade-popular",
@@ -13285,7 +14326,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "novo-livro-sobre-assessoria-juridica-popular",
@@ -13303,7 +14347,8 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "e-a-luta-das-mulheres",
@@ -13323,7 +14368,8 @@
    "mulheres",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "direitos-humanos"
+  "tema_principal": "direitos-humanos",
+  "redes": []
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-5",
@@ -13340,7 +14386,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "entrevista-com-jose-pepe-mujica",
@@ -13359,7 +14406,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "assessoria-juridica-e-enade",
@@ -13379,7 +14427,8 @@
    "educação",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": []
  },
  {
   "slug": "manifesto-em-defesa-do-mst",
@@ -13399,7 +14448,8 @@
    "MST",
    "criminalização"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-4",
@@ -13416,7 +14466,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "contribuicoes-insurgentes-por-um-direito-transformador",
@@ -13436,7 +14487,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "falece-herrera-flores",
@@ -13456,7 +14508,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "ja-faz-tempo-que-escolhi",
@@ -13474,7 +14527,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-3",
@@ -13493,7 +14547,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin-2",
@@ -13509,7 +14564,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "artigo-jacques-alfonsin-e-antonio-cechin",
@@ -13528,7 +14584,8 @@
    "MST",
    "terra"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "entrevista-massimo-pavarini",
@@ -13546,7 +14603,8 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "assessoria-juridica-popular"
+  "tema_principal": "assessoria-juridica-popular",
+  "redes": []
  },
  {
   "slug": "direito-insurgente-e-pluralismo-juridico-2",
@@ -13567,7 +14625,8 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "direito-achado-na-rua-2",
@@ -13584,7 +14643,8 @@
   "tipo": "resenha",
   "tipo_rotulo": "Resenha e livro",
   "palavras": [],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "poema-realidade-em-cronica",
@@ -13602,7 +14662,8 @@
   "palavras": [
    "poesia"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  },
  {
   "slug": "entrevista-com-flavio-tavares",
@@ -13620,7 +14681,8 @@
   "palavras": [
    "ditadura"
   ],
-  "tema_principal": "memoria"
+  "tema_principal": "memoria",
+  "redes": []
  },
  {
   "slug": "auto-retrato",
@@ -13641,7 +14703,10 @@
   "palavras": [
    "educação"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "blog-e-site-do-nepe-ufsc",
@@ -13663,7 +14728,10 @@
    "educação",
    "pesquisa"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "entrevista-com-jacques-alfonsin",
@@ -13682,7 +14750,8 @@
   "palavras": [
    "água"
   ],
-  "tema_principal": "movimentos-sociais"
+  "tema_principal": "movimentos-sociais",
+  "redes": []
  },
  {
   "slug": "livro-vladimir-luz",
@@ -13701,7 +14770,10 @@
   "palavras": [
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "o-que-e-assessoria-juridica-popular",
@@ -13723,7 +14795,10 @@
    "água",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "educacao-popular"
+  "tema_principal": "educacao-popular",
+  "redes": [
+   "renaju-ajup"
+  ]
  },
  {
   "slug": "poema-esse-brasileiro-estreia",
@@ -13745,6 +14820,7 @@
    "poesia",
    "assessoria jurídica popular"
   ],
-  "tema_principal": "teoria-critica"
+  "tema_principal": "teoria-critica",
+  "redes": []
  }
 ]

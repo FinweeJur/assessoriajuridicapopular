@@ -27,6 +27,7 @@ def main():
     roda("classifica.py")          # tipo de texto
     roda("palavras.py")            # palavras-chave
     roda("tema-principal.py")      # um tema por texto, sem duplicar seção
+    roda("marca-redes.py")         # RENAP, IPDMS e RENAJU/AJUPs
     roda("monta-autores.py")       # páginas de autor
     roda("monta-secoes.py")        # 6 seções + blog
     roda("gera-dados-colecoes.py")  # dados de memória, trilhas, biblioteca e cultura
