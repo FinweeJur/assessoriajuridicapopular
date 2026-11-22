@@ -132,9 +132,9 @@
 <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
 <link rel="stylesheet" href="temas/temas.css?v=5" />
 <link rel="stylesheet" href="temas/renap.css?v=2" />
-<link rel="stylesheet" href="acervo.css?v=108" />
-  <link rel="stylesheet" href="reveal.css?v=108" />
-  <link rel="stylesheet" href="componentes/radio.css" />
+<link rel="stylesheet" href="acervo.css?v=109" />
+  <link rel="stylesheet" href="reveal.css?v=109" />
+  <link rel="stylesheet" href="componentes/radio.css?v=4" />
 
 <!-- Citação por máquina: Article + isBasedOn + autor + data. -->
 <script type="application/ld+json">
@@ -463,33 +463,38 @@
     <span aria-hidden="true">📻</span> Rádio
   </button>
   <div class="radio-flut__painel" id="radio-painel">
-    <button class="radio-flut__fechar" type="button" data-radio-fechar aria-label="Fechar o rádio">×</button>
-        <div class="rp__controles">
-          <div class="rp__linha">
-            <button class="rp__tocar" type="button" data-radio-tocar data-tocando="false" aria-label="Tocar rádio">▶</button>
-            <button class="rp__parar" type="button" data-radio-parar aria-label="Parar o rádio" title="Parar o rádio">■</button>
-            <div>
-              <div class="rp__nome" data-radio-nome>Rádio Brasil de Fato<span class="rp__meta" data-radio-meta>toque em ▶ ou escolha outra estação</span></div>
-            </div>
-          </div>
-          <label class="rp__volume">
-            <span>Volume</span>
-            <input type="range" min="0" max="100" value="70" data-radio-volume aria-label="Volume do rádio" />
-          </label>
-          <p class="rp__status" data-radio-status aria-live="polite"></p>
-        </div>
-        <div class="rp__lista-area">
-          <div class="rp__busca">
-            <input type="search" placeholder="Buscar estação, cidade ou UF" data-radio-busca aria-label="Buscar estação" />
-            <span class="rp__contagem" data-radio-contagem></span>
-          </div>
-          <div class="rp__lista" data-radio-lista></div>
-        </div>
-        <audio data-radio-audio preload="none"></audio>
+    <div class="rp__coluna">
+      <div class="rp__cabeca">
+        <p class="rp__titulo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15V6"/><path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/><path d="M12 12H3"/><path d="M16 6H3"/><path d="M12 18H3"/></svg>
+          Índice de rádios
+        </p>
+        <a class="rp__ver" href="https://controlepopular.com.br/radio" target="_blank" rel="noopener" title="Abrir o diretório completo no Controle Popular">Ver todas →</a>
+        <button class="rp__fechar" type="button" data-radio-fechar aria-label="Fechar o índice de rádios" title="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="rp__lista" data-radio-lista></div>
+    </div>
+    <div class="rp__volume-col">
+      <button class="rp__mudo" type="button" data-radio-mudo aria-label="Silenciar rádio" aria-pressed="false" title="Silenciar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+      </button>
+      <div class="rp__medidor" data-radio-medidor role="slider" tabindex="0" aria-label="Volume da rádio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-orientation="vertical" data-interactive="true">
+        <span class="rp__valor rp__valor--fora" aria-hidden="true">100%</span>
+        <div class="rp__liquido" aria-hidden="true"><span class="rp__valor rp__valor--dentro">100%</span></div>
+        <div class="rp__marcas" aria-hidden="true"></div>
+        <div class="rp__marca" aria-hidden="true"></div>
+      </div>
+      <span class="rp__pct" data-radio-pct aria-hidden="true">100%</span>
+    </div>
+    <p class="rp__status" data-radio-status aria-live="polite"></p>
   </div>
+  <audio data-radio-audio preload="none"></audio>
 </div>
-<script src="componentes/radio.js" defer></script>
-<script src="casca.js?v=37" defer></script>
+<script src="componentes/radio-dados.js?v=1" defer></script>
+<script src="componentes/radio.js?v=4" defer></script>
+<script src="casca.js?v=38" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>

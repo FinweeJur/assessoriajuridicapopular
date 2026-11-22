@@ -2594,7 +2594,21 @@ body:has(.radio-flut[data-aberto="true"]) .casca-rolagem {
 .dica-flutuante[data-visivel="true"] { opacity: 1; transform: none; }
 .dica-flutuante[data-acima="true"] { translate: 0 -100%; }
 
-/* Setas: mais afastadas da borda e com respiro entre elas */
-.casca-rolagem { right: 26px; gap: 12px; }
-@media (max-width: 700px) { .casca-rolagem { right: 22px; } }
+/* Setas no mesmo eixo vertical do "+": centro da coluna = centro do botão.
+   A conta desconta a diferença de largura entre a seta e o "+", então vale
+   para 44 px no desktop e 34 px no celular. O respiro entre elas é 12 px. */
+.casca-rolagem {
+  --dial-direita: 14px;
+  --dial-largura: 54px;
+  --seta-largura: 44px;
+  right: calc(var(--dial-direita) + (var(--dial-largura) - var(--seta-largura)) / 2);
+  gap: 12px;
+}
+@media (max-width: 700px) {
+  .casca-rolagem {
+    --dial-direita: 10px;
+    --seta-largura: 34px;
+    right: calc(var(--dial-direita) + (var(--dial-largura) - var(--seta-largura)) / 2);
+  }
+}
 

@@ -205,16 +205,22 @@
       atual = null;
     }
 
+    function alvoDaDica(ev) {
+      var alvo = ev.target;
+      if (!alvo || typeof alvo.closest !== 'function') { return null; }
+      return alvo.closest('[data-dica], [aria-label], .casca-dial__acoes button');
+    }
+
     document.addEventListener('pointerenter', function (ev) {
       if (ev.pointerType && ev.pointerType !== 'mouse') { return; }
-      var el = ev.target.closest('[data-dica], [aria-label], .casca-dial__acoes button');
+      var el = alvoDaDica(ev);
       if (!el) { return; }
       mostra(el);
     }, true);
 
     document.addEventListener('pointerleave', function (ev) {
       if (ev.pointerType && ev.pointerType !== 'mouse') { return; }
-      var el = ev.target.closest('[data-dica], [aria-label], .casca-dial__acoes button');
+      var el = alvoDaDica(ev);
       if (!el || el !== atual) { return; }
       clearTimeout(relogio);
       relogio = window.setTimeout(esconde, 1000);

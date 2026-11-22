@@ -44,9 +44,9 @@ def pagina(slug, titulo, ativo, lead, corpo):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=108" />
-  <link rel="stylesheet" href="reveal.css?v=108" />
-  <link rel="stylesheet" href="componentes/radio.css" />
+  <link rel="stylesheet" href="acervo.css?v=109" />
+  <link rel="stylesheet" href="reveal.css?v=109" />
+  <link rel="stylesheet" href="componentes/radio.css?v=4" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
 <body>
@@ -66,7 +66,7 @@ def pagina(slug, titulo, ativo, lead, corpo):
   </div>
 </main>
 %s
-<script src="casca.js?v=37" defer></script>
+<script src="casca.js?v=38" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="reveal.js?v=75" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
