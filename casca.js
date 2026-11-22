@@ -21,8 +21,6 @@
 
     dial.innerHTML =
       '<div class="casca-dial__acoes">' +
-      '<button type="button" data-dial-topo style="--i:0"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg> Topo</button>' +
-      '<button type="button" data-dial-descer style="--i:1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg> Descer</button>' +
       terceira +
       '<button type="button" data-dial-radio style="--i:3"><span aria-hidden="true">📻</span> Rádio</button>' +
       '<button type="button" data-dial-perguntar style="--i:4"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg> Perguntar</button>' +
@@ -57,14 +55,6 @@
       if (ev.key === 'Escape') { fechaDial(); }
     });
 
-    dial.querySelector('[data-dial-topo]').addEventListener('click', function () {
-      rolaPara(0);
-      fechaDial();
-    });
-    dial.querySelector('[data-dial-descer]').addEventListener('click', function () {
-      rolaPara(window.scrollY + Math.round(window.innerHeight * 0.85));
-      fechaDial();
-    });
 
     dial.querySelector('[data-dial-radio]').addEventListener('click', function () {
       var b = document.querySelector('[data-radio-toggle]');

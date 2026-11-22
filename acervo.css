@@ -2520,4 +2520,61 @@ body[data-comeco=true] .radio-flut[data-aberto=true] {
 .radio-flut__botao, .assistente__botao { display: none !important; }
 .radio-flut, .assistente, .casca-rolagem, .casca-dial { pointer-events: none; }
 .radio-flut__painel, .assistente__painel,
-.casca-rolagem button, .casca-dial__acoes, .casca-dial__botao { pointer-events: auto; }
+.casca-rolagem button, .casca-dial__botao { pointer-events: auto; }
+.casca-dial[data-aberto=true] .casca-dial__acoes { pointer-events: auto; }
+
+/* ── Botões por tema: cor da marca, não rosa fixo ──────────────────────── */
+[data-theme="light"] {
+  --cp-primary: #12467b; --cp-primary-ink: #ffffff;
+  --botao-sombra: 0 1px 2px rgba(0, 0, 0, .38);
+}
+[data-theme="dark"] {
+  --cp-primary: #4a90d9; --cp-primary-ink: #08111e;
+  --botao-sombra: 0 1px 0 rgba(255, 255, 255, .35);
+}
+[data-theme="brasil"] {
+  --cp-primary: #ffd700; --cp-primary-ink: #12250f;
+  --botao-sombra: 0 1px 0 rgba(255, 255, 255, .55);
+}
+[data-theme="pequi"] {
+  --cp-primary: #ff9f1c; --cp-primary-ink: #140d06;
+  --botao-sombra: 0 1px 0 rgba(255, 255, 255, .45);
+}
+[data-theme="cerrado"] {
+  --cp-primary: #d98b62; --cp-primary-ink: #1a0e06;
+  --botao-sombra: 0 1px 0 rgba(255, 255, 255, .42);
+}
+[data-theme="mata-atlantica"] {
+  --cp-primary: #4f8a47; --cp-primary-ink: #ffffff;
+  --botao-sombra: 0 1px 2px rgba(0, 0, 0, .45);
+}
+[data-theme="caatinga"] {
+  --cp-primary: #e0862c; --cp-primary-ink: #180e04;
+  --botao-sombra: 0 1px 0 rgba(255, 255, 255, .45);
+}
+[data-theme="pantanal"] {
+  --cp-primary: #0a91d1; --cp-primary-ink: #ffffff;
+  --botao-sombra: 0 1px 2px rgba(0, 0, 0, .45);
+}
+[data-theme="high-contrast"] {
+  --cp-primary: #0000cc; --cp-primary-ink: #ffffff;
+  --botao-sombra: 0 1px 2px rgba(0, 0, 0, .5);
+}
+.botao:not(.secundario), .casca-dial__botao, .chip-f[aria-current],
+.topo__busca-form button {
+  text-shadow: var(--botao-sombra, 0 1px 2px rgba(0, 0, 0, .35));
+}
+
+/* Setas fixas acima do +; somem quando o menu ou o chat abrem */
+.casca-rolagem {
+  top: auto; bottom: 150px; right: 14px; transform: none;
+}
+.casca-dial[data-aberto="true"] ~ .casca-rolagem,
+body:has(.assistente[data-aberto="true"]) .casca-rolagem,
+body:has(.radio-flut[data-aberto="true"]) .casca-rolagem {
+  opacity: 0; visibility: hidden; pointer-events: none;
+}
+@media (max-width: 700px) {
+  .casca-rolagem { top: auto; bottom: 150px; right: 10px; transform: none; }
+}
+
