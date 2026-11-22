@@ -1,6 +1,6 @@
 # Advocacia popular
 
-> Conteúdo gerado por IA (LeapSpace, 21/11/2026). Serve como mapa inicial de leitura: confira cada afirmação na referência original antes de citar.
+> Conteúdo gerado pelo LeapSpace, IA parceira da CAPES (21/11/2026), com curadoria editorial do acervo AJP. Serve como mapa inicial de leitura: confira cada afirmação na referência original antes de citar.
 
 **Prática jurídica comprometida com movimentos e sujeitos coletivos, entre a técnica e a organização.**
 
@@ -39,8 +39,6 @@ A advocacia popular tende a traduzir conflitos sociais em linguagem jurídica pa
   <https://www.mdpi.com/2075-5309/15/13/2143/pdf?version=1750409553>
 - Mascarello, M.D.A.; Cafrune, M.E. (2023) Possibilidades e desafios no acolhimento de demandas coletivas, especialmente socioambientais, pelo escritório modelo de assessoria jurídica da Universidade Federal do Rio Grande. — acesso aberto (português)
   <https://reedrevista.org/reed/article/download/745/444>
-- Medeiros, S. et al. (2023) Racial inequalities in mental healthcare use and mortality: a cross-sectional analysis of 1.2 million low-income individuals in Rio de Janeiro, Brazil 2010–2016. — acesso aberto (português)
-  <https://gh.bmj.com/content/bmjgh/8/12/e013327.full.pdf>
 - Soratto, J.; Witt, R.R.; Faria, E.M. (2010) Participação popular e controle social em saúde: desafios da Estratégia Saúde da Família. — acesso aberto (português)
   <https://www.scielo.br/j/physis/a/jd8qFfgLS99Pnm9nbtT86GS/?lang=pt&format=pdf>
 - Beltrán y Puga, A.B.Y.; Monsalve, V.B. (2022) Contentious Politics and Conservative Legal Counter-Mobilization of Abortion in Colombia — acesso aberto (espanhol)
@@ -63,31 +61,3 @@ A advocacia popular tende a traduzir conflitos sociais em linguagem jurídica pa
   <https://doi.org/10.2166/h2oj.2022.023>
 - Şerban, M. (2018) Stemming the tide of illiberalism? Legal mobilization and adversarial legalism in Central and Eastern Europe — acesso aberto (inglês)
   <https://doi.org/10.2139/ssrn.3212848>
-- Salatino, L.C.; Torres, M.; Martines, V.B.S. (2025) Towards situated learning: Luiz Gama Human Rights Clinic and urban realities at the University of São Paulo Law School. — acesso restrito (português)
-  <https://doi.org/10.1093/cdj/bsaf028>
-- Albiston, C.R.; Leachman, G.M. (2015) Law as an Instrument of Social Change — acesso restrito (inglês)
-  <https://doi.org/10.1016/B978-0-08-097086-8.86133-4>
-- Castro, I.R.D.; Loureiro, C.F.G.; Giannotti, M.A. (2025) Evolution of accessibility to work for low-income populations in Brazil — acesso restrito (inglês)
-  <https://doi.org/10.1016/j.habitatint.2025.103306>
-- Chiaramonte, X. (2018) Social Movements and the Legal Field: Becoming-Constituent. Max Planck Yearbook of United Nations Law — acesso restrito (inglês)
-  <https://doi.org/10.1163/18757413_022001015>
-- Cummings, S.L. (2017) Law and Social Movements: An Interdisciplinary Analysis — acesso restrito (inglês)
-  <https://doi.org/10.1007/978-3-319-57648-0_9>
-- Friendly, A. (2017) Urban Policy, Social Movements, and the Right to the City in Brazil — acesso restrito (inglês)
-  <https://doi.org/10.1177/0094582X16675572>
-- Halpern, C. (2001) Public Interest Law. International Encyclopedia of the Social & Behavioral Sciences — acesso restrito (inglês)
-  <https://doi.org/10.1016/B0-08-043076-7/02806-0>
-- Handler, J.F. (2001) Poverty Law. International Encyclopedia of the Social & Behavioral Sciences — acesso restrito (inglês)
-  <https://doi.org/10.1016/B0-08-043076-7/02808-4>
-- Jagannath, M. (2026) Reimagining human rights: a movement lawyering approach to human rights law practice. International Journal of Human Rights — acesso restrito (inglês)
-  <https://doi.org/10.1080/13642987.2025.2462624>
-- Junqueira, E.B. (2022) Two Models of Brazilian Legal Services — acesso restrito (inglês)
-  <https://doi.org/10.4324/9780429272745-18>
-- Mabula, R.N. (2025) Litigating Impacts of Large Infrastructure Development Projects in Lesotho — acesso restrito (inglês)
-  <https://doi.org/10.1093/jhuman/huaf014>
-- Martins, J.P. et al. (2023) COVID-19 in Brazil: a 3-year update — acesso restrito (inglês)
-  <https://doi.org/10.1016/j.diagmicrobio.2023.116074>
-- Matthews, T. (2023) Interrogating the Debates Around Lawfare and Legal Mobilization — acesso restrito (inglês)
-  <https://doi.org/10.1093/jhuman/huac044>
-- Silva, F.A.C. et al. (2016) Perspectives of popular participation in Brazil. International Business Management — acesso restrito (inglês)
-  <https://doi.org/10.3923/ibm.2016.813.817>

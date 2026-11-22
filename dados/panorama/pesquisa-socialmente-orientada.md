@@ -1,6 +1,6 @@
 # Pesquisa socialmente orientada
 
-> Conteúdo gerado por IA (LeapSpace, 21/11/2026). Serve como mapa inicial de leitura: confira cada afirmação na referência original antes de citar.
+> Conteúdo gerado pelo LeapSpace, IA parceira da CAPES (21/11/2026), com curadoria editorial do acervo AJP. Serve como mapa inicial de leitura: confira cada afirmação na referência original antes de citar.
 
 **Pesquisa participativa em que a comunidade é parceira e coprodutora do conhecimento.**
 
@@ -36,19 +36,9 @@ A abordagem serve para melhorar a relevância da pesquisa para problemas reais d
   <https://pmc.ncbi.nlm.nih.gov/articles/PMC4943756/>
 - Ortiz, K. et al. (2019) Partnerships, processes, and outcomes: a health equity-focused scoping meta-review — acesso aberto (inglês)
   <https://doi.org/10.1146/annurev-publhealth-040119-094220>
-- Planells-Aleixandre, E.; García-Aracil, A.; Isusi-Fagoaga, R. (2025) University's Contribution to Society: benchmarking of social innovation — acesso aberto (inglês)
-  <https://www.mdpi.com/2071-1050/17/8/3427/pdf?version=1744381025>
 - Wallerstein, N. et al. (2020) Engage for Equity: a long-term study of community-based participatory research. Health Education and Behavior — acesso aberto (inglês)
   <https://pmc.ncbi.nlm.nih.gov/articles/PMC8093095/>
 - Wallerstein, N.; Duran, B. (2010) Community-based participatory research contributions to intervention research — acesso aberto (inglês)
   <https://pmc.ncbi.nlm.nih.gov/articles/PMC2837458/>
 - Wallerstein, N.B.; Duran, B. (2006) Using Community-Based Participatory Research to Address Health Disparities — acesso aberto (inglês)
   <https://journals.sagepub.com/doi/pdf/10.1177/1524839906289376>
-- Huffman, T. (2017) Participatory/Action Research/CBPR — acesso restrito (inglês)
-  <https://doi.org/10.1002/9781118901731.iecrm0180>
-- Jacobson, M.; Rugeley, C. (2007) Community-based participatory research: group work for social justice and community change — acesso restrito (inglês)
-  <https://doi.org/10.1300/J009v30n04_03>
-- Key, K.D. et al. (2019) The continuum of community engagement in research. Progress in Community Health Partnerships — acesso restrito (inglês)
-  <https://doi.org/10.1353/cpr.2019.0064>
-- Ramsden, V.R.; McKay, S.; Crowe, J. (2010) The pursuit of excellence: engaging the community in participatory health research — acesso restrito (inglês)
-  <https://doi.org/10.1177/1757975910383929>

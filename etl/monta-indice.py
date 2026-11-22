@@ -79,9 +79,11 @@ redes = [
 ]
 
 
-def item(href, titulo, desc):
-    return ('<li data-busca="%s"><a href="%s">%s</a>'
-            '<span>%s</span></li>' % (esc((titulo + " " + desc).lower()), esc(href), esc(titulo), esc(desc)))
+def item(href, titulo, desc, externo=False):
+    extra = ' target="_blank" rel="noopener"' if externo else ""
+    return ('<li data-busca="%s"><a class="indice-lista__link" href="%s"%s>'
+            '<b>%s</b><span>%s</span></a></li>'
+            % (esc((titulo + " " + desc).lower()), esc(href), extra, esc(titulo), esc(desc)))
 
 
 def grupo(titulo, nota, itens):
@@ -116,12 +118,9 @@ corpo = """<section class="secao indice-topo">
   <div class="secao__cabeca"><h2>Parceiros e fontes</h2>
   <p class="secao__nota">Saem do site, abrem em outra aba</p></div>
   <ul class="indice-lista">
-    <li><a href="https://www.controlepopular.com.br/" target="_blank" rel="noopener">Controle Popular</a>
-      <span>dados públicos, jurisprudência e biblioteca</span></li>
-    <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener">IPDMS</a>
-      <span>pesquisa, direito e movimentos sociais</span></li>
-    <li><a href="https://mab.org.br/" target="_blank" rel="noopener">MAB</a>
-      <span>Movimento dos Atingidos por Barragens</span></li>
+    <li><a class="indice-lista__link" href="https://www.controlepopular.com.br/" target="_blank" rel="noopener"><b>Controle Popular</b><span>dados públicos, jurisprudência e biblioteca</span></a></li>
+    <li><a class="indice-lista__link" href="https://ipdms.org.br/" target="_blank" rel="noopener"><b>IPDMS</b><span>pesquisa, direito e movimentos sociais</span></a></li>
+    <li><a class="indice-lista__link" href="https://mab.org.br/" target="_blank" rel="noopener"><b>MAB</b><span>Movimento dos Atingidos por Barragens</span></a></li>
   </ul>
 </section>
 
@@ -173,8 +172,8 @@ pagina = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=90" />
-  <link rel="stylesheet" href="reveal.css?v=90" />
+  <link rel="stylesheet" href="acervo.css?v=91" />
+  <link rel="stylesheet" href="reveal.css?v=91" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>

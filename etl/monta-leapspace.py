@@ -262,8 +262,34 @@ CONTEUDO = [
     },
 ]
 
-NOTA_IA = ("Conteúdo gerado por IA (LeapSpace, 21/11/2026). Serve como mapa inicial de leitura: "
-           "confira cada afirmação na referência original antes de citar.")
+# Referências fora do tema, mesmo quando em acesso aberto
+EXCLUIR_DOI = {
+    "10.3389/fpsyt.2015.00102",        # saúde mental infantojuvenil
+    "10.7717/peerj-cs.1225",           # regressão em julgados
+    "10.1016/j.marpol.2019.103798",    # política pesqueira
+    "10.1007/978-3-031-80068-9_5",     # transição energética
+    "10.1136/jech-2024-223465",        # tuberculose
+    "10.1016/j.jth.2019.100595",       # acessibilidade em saúde
+    "10.1016/j.compenvurbsys.2020.101462",  # acessibilidade ao trabalho
+    "10.1016/j.jth.2023.101722",       # desigualdades em saúde
+    "10.1016/j.jtrangeo.2023.103590",  # transporte
+    "10.1136/bmjgh-2023-013327",       # saúde mental
+    "10.1016/j.marpolbul.2025.118315", # ecologia marinha
+    "10.1016/j.heliyon.2023.e13421",   # educação interprofissional
+    "10.1016/j.rauspm.2017.12.009",    # intenção empreendedora
+    "10.1016/j.habitatint.2025.103306",# acessibilidade ao trabalho
+    "10.1016/j.diagmicrobio.2023.116074",  # covid-19
+    "10.1016/j.clinsp.2022.100149",    # saúde LGBT+
+    "10.1016/j.socscimed.2014.10.062", # alimentação infantil
+    "10.3390/su17083427",              # inovação social
+    "10.1590/0034-7167-2022-0414",     # comunicação em enfermagem
+    "10.1016/j.geoforum.2025.104419",  # ecologia política urbana
+    "10.1016/j.habitatint.2022.102628",# acessibilidade e habitação
+}
+
+NOTA_IA = ("Conteúdo gerado pelo LeapSpace, IA parceira da CAPES (21/11/2026), com curadoria "
+           "editorial do acervo AJP. Serve como mapa inicial de leitura: confira cada afirmação "
+           "na referência original antes de citar.")
 
 
 def tabela_html(cabecalho, linhas, dica=None):
@@ -325,7 +351,7 @@ def refs_eixo_html(refs, eixo):
     )
     return ('<h4>Referências deste eixo</h4>'
             '<p class="colecao__nota">%d referências citadas nesta síntese. '
-            'A lista completa, com todos os %d itens, está no fim do panorama.</p>'
+            'A lista curada, com os %d itens em acesso aberto, está no fim do panorama.</p>'
             '<ol class="refs-eixo">%s</ol>' % (len(lista), len(refs), itens))
 
 
@@ -367,46 +393,47 @@ def bloco_panorama(refs):
     return """<section class="secao" id="panorama" aria-labelledby="panorama-titulo">
       <div class="secao__cabeca">
         <h2 id="panorama-titulo">Panorama da pesquisa sobre AJP</h2>
-        <p class="secao__nota">Oito sínteses da literatura · geradas com IA em 21/11/2026 · revisão pendente</p>
+        <p class="secao__nota">Oito sínteses da literatura · LeapSpace, IA parceira da CAPES · curadoria do acervo</p>
       </div>
       <p class="colecao__nota">%s</p>
       <div class="leapspace__painel">
         <div><b>8</b><span>eixos</span></div>
         <div><b>%d</b><span>referências</span></div>
-        <div><b>%d</b><span>em acesso aberto</span></div>
+        <div><b>%d</b><span>em espanhol</span></div>
         <div><b>%d</b><span>em português</span></div>
       </div>
       <p>O panorama reúne o que a literatura internacional e brasileira diz sobre AJP, extensão universitária,
       Direito Achado na Rua, direito insurgente, uso tático do direito, positivismo de combate, advocacia popular
       e pesquisa socialmente orientada. Cada eixo abre em acordeão e traz uma tabela e as referências que o
       sustentam.</p>
-      <p>As referências estão ordenadas por prioridade de acesso: primeiro as de <b>acesso aberto</b>, depois as de
-      acesso restrito; dentro de cada grupo, <b>português</b>, <b>espanhol</b> e <b>inglês</b>. Quem assina texto no
-      acervo ganha destaque e link direto.</p>
+      <p>A lista abaixo é <b>curada</b>: entram apenas as referências citadas nas sínteses que estão em
+      <b>acesso aberto</b> e têm relação direta com o tema. Fora do tema ou de acesso restrito ficaram de fora.
+      Dentro do conjunto, a ordem é <b>português</b>, <b>espanhol</b> e <b>inglês</b>, e quem assina texto no acervo
+      ganha destaque e link direto.</p>
       <ul class="linhas">%s</ul>
 
       %s
 
       <h3>Referências do panorama</h3>
-      <p class="colecao__nota">A lista reúne <b>todas</b> as referências citadas nas oito sínteses, sem exclusão:
-      %d no total, %d em acesso aberto, %d em português, %d em espanhol e %d com autoria no acervo. O status de
-      acesso foi consultado no Unpaywall em 21/11/2026 e pode mudar; quando o texto não está livre, o link leva ao
-      DOI ou à página da editora.</p>
+      <p class="colecao__nota">Lista curada das referências <b>efetivamente citadas</b> nas oito sínteses do
+      LeapSpace (IA parceira da CAPES): %d no total, todas em <b>acesso aberto</b>, sendo %d em português, %d em
+      espanhol e %d com autoria no acervo. Referências restritas ou fora do tema foram retiradas. O status de
+      acesso foi consultado no Unpaywall em 21/11/2026.</p>
       <p class="leapspace__legenda"><span class="selo selo--aberto">acesso aberto</span>
       <span class="selo selo--restrito">acesso restrito</span>
       <span class="selo selo--pt">português</span><span class="selo selo--es">espanhol</span>
       <span class="selo selo--acervo">autoria no acervo</span></p>
       <details class="acordeao acordeao--refs">
         <summary><span class="acordeao__rotulo">Ver as %d referências</span>
-        <span class="acordeao__dica">todas as citadas, inclusive as de acesso restrito</span></summary>
+        <span class="acordeao__dica">só as citadas no resumo, em acesso aberto</span></summary>
         <div class="acordeao__corpo"><ol class="leapspace__refs">%s</ol></div>
       </details>
       <p class="colecao__nota">Arquivos para reuso:
       <a href="dados/panorama-pesquisa.md">panorama completo em Markdown</a>,
       <a href="dados/panorama/advocacia-popular.md">advocacia popular</a> e
       <a href="dados/panorama/pesquisa-socialmente-orientada.md">pesquisa socialmente orientada</a>.</p>
-    </section>""" % (esc(NOTA_IA), total, abertos, em_pt, sumario, secoes_html(refs),
-                    total, abertos, em_pt, em_es, no_acervo, total, lista_refs(refs))
+    </section>""" % (esc(NOTA_IA), total, em_es, em_pt, sumario, secoes_html(refs),
+                    total, em_pt, em_es, no_acervo, total, lista_refs(refs))
 
 
 STUB = """<!DOCTYPE html>
@@ -431,7 +458,7 @@ def md_texto(refs):
         "",
         "> " + NOTA_IA,
         "",
-        "Gerado por LeapSpace em 21/11/2026. Edição e curadoria: acervo AJP.",
+        "Fonte: LeapSpace, IA parceira da CAPES (21/11/2026). Edição e curadoria: acervo AJP.",
         "",
     ]
     for s in CONTEUDO:
@@ -498,7 +525,8 @@ REFS_PESQUISA = {"p%d" % n for n in range(1, 17)}
 
 
 def main():
-    refs = carrega_refs()
+    refs = [r for r in carrega_refs()
+            if r.get("aberto") and r.get("doi", "").lower() not in EXCLUIR_DOI]
 
     io.open(MD, "w", encoding="utf-8", newline="\n").write(md_texto(refs))
     pasta = os.path.join(RAIZ, "dados", "panorama")

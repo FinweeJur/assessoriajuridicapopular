@@ -2270,15 +2270,22 @@ a.cartao, .item__link, .destaque, .bento__item {
   gap: 10px; margin: 0; padding: 0; list-style: none;
 }
 .indice-lista li {
-  padding: 14px 16px; border: 1px solid var(--borda); border-radius: 12px;
+  padding: 0; border: 1px solid var(--borda); border-radius: 12px;
   background: color-mix(in srgb, var(--cp-surface) 26%, transparent);
+  transition: border-color .2s ease;
 }
-.indice-lista a {
-  font-family: var(--font-display); font-weight: 700; font-size: 1rem;
+.indice-lista li:hover, .indice-lista li:focus-within { border-color: var(--cor-tema); }
+.indice-lista__link {
+  display: block; padding: 14px 16px; border-radius: 12px;
   color: var(--cp-text); text-decoration: none;
 }
-.indice-lista a:hover, .indice-lista a:focus-visible { color: var(--cor-tema); text-decoration: underline; }
-.indice-lista span { display: block; margin-top: 3px; font-size: .8rem; color: var(--cp-text-soft); }
+.indice-lista__link b {
+  display: block; font-family: var(--font-display); font-weight: 700; font-size: 1rem;
+}
+.indice-lista__link span { display: block; margin-top: 3px; font-size: .8rem; color: var(--cp-text-soft); }
+.indice-lista__link:hover b, .indice-lista__link:focus-visible b {
+  color: var(--cor-tema); text-decoration: underline;
+}
 @media (max-width: 760px) {
   .indice-grupo .indice-lista { grid-template-columns: 1fr; }
 }
