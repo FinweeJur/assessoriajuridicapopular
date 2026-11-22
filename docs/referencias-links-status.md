@@ -4,8 +4,20 @@
 > O CSV `referencias-sem-link.csv` traz todas as pendências para a próxima rodada.
 
 ## Restritos (4)
+- **Teologia política** — SCHMITT, Carl (2006) — https://openlibrary.org/works/OL1157163W
+- **Filosofia, teologia e experiência mística** — Roberto Lyra Filho (1976) — https://doi.org/10.5840/icp819742116
+- **Karl, meu amigo: diálogo com Marx sobre o Direito** — Roberto Lyra Filho (1983) — https://openlibrary.org/works/OL4851915W
 - **Falleció Bolívar Echeverría, voz crítica de la modernidad capitalista** — autoria não identificada (s.d.) — https://www.jornada.unam.mx/2010/06/06/index.php?section=cultura&article=a02n1cul&partner=rss
+- **El processo cultural: materiales para la creatividad humana** — HERRERA FLORES, Joaquín (2005) — https://openlibrary.org/works/OL34923246W
+- **Los derechos humanos desde la escuela de Budapeste** — HERRERA FLORES, Joaquín (1989) — https://openlibrary.org/works/OL4186187W
+- **Magia e técnica, arte e política. Ensaios sobre a literatura e história da cultura** — BENJAMIN, Walter (1994) — https://openlibrary.org/works/OL19885070W
+- **Direito e luta de classes: teoria geral do direito** — STUCKA, Petr Ivanovich (1988) — https://openlibrary.org/works/OL46046079W
+- **Introdução ao pensamento jurídico crítico** — WOLKMER, Antonio Carlos (1991) — https://openlibrary.org/works/OL42844007W
+- **O Ícaro da modernidade: direito e política em Max Weber** — ARGÜELLO, Katie Silene Cáceres (1997) — https://openlibrary.org/works/OL45522294W
 - **Fórum Matogrossense de Meio Ambiente e Desenvolvimento** — autoria não identificada (s.d.) — https://www.formad.org.br/wordpress/?p=607
+- **Pedagogia da autonomia: saberes necessários à prática educativa** — FREIRE, Paulo (1996) — https://openlibrary.org/works/OL26415542W
+- **Pedagogia do oprimido** — FREIRE, Paulo (1983) — https://openlibrary.org/works/OL1870556W
+- **O Cativeiro da Terra** — MARTINS, José de Souza (2021) — https://openlibrary.org/works/OL15417275W
 - **Fallece el filósofo y escritor Adolfo Sánchez Vázquez** — autoria não identificada (s.d.) — https://www.jornada.unam.mx/ultimas/2011/07/08/13213758-fallece-el-filosofo-y-academico-adolfo-sanchez-vazquez
 - **La "amante secreta" de Sánchez Vázquez** — autoria não identificada (s.d.) — https://www.jornada.unam.mx/2005/10/01/a44n1cul.php
 
@@ -73,7 +85,7 @@
 - **Publicamos em nossa biblioteca digital a dissertação de mestrado do Lucas Nascimento Seara, com o título "A promoção dos direitos humanos no campo da AIDS: estudo de caso da Assessoria jurídica no Grupo de Apoio à Prevenção à AIDS da Bahia (GAPA/BA)", na Escola de Administração da Universidade Federal da Bahia, em 2011** — autoria não identificada (2011) — confiança baixa
 - **O lavrador de café" (1934)** — Cândido Portinári (1934) — confiança baixa
 - **Em setembro de 2009, ocorrida a mobilização do MST nos limites da fazenda da Cutrale, onde se planta laranja, a gradne mídia comercial cumpriu seu papel histórico: o de assumir um lado na luta de classes instaurada no país e em todo o continente. Uma despreocupada pesquisa pelas páginas de busca mostra bem isto (ver notas e reportagens de alguns dos principais jornais comerciais sobre o assunto: MST invade fazenda de laranja em Iaras, MST destrói tratores e instalações antes de desocupar plantaç** — autoria não identificada (1990) — confiança baixa
-- … mais 396 no CSV.
+- … mais 379 no CSV.
 
 ## Como resolver
 1. Priorizar as 221 de confiança alta; buscar Open Library/Crossref/BDTD/SciELO/Planalto.

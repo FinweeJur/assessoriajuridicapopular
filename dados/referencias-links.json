@@ -1314,5 +1314,175 @@
   "content_type": "",
   "erro": "sem resposta",
   "acesso": "morto_ou_instavel"
+ },
+ "https://openlibrary.org/works/OL46046079W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL46046079W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL46046079W: 'Direito e luta de classes', Petr Ivanovich Stucka (trad. Soveral Martins), edição registrada de 1976; a referência cita a ed. Acadêmica de 1988. Mesma obra, edição distinta."
+ },
+ "https://openlibrary.org/works/OL34923246W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL34923246W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL34923246W: 'El proceso cultural', Joaquín Herrera Flores, 2005 (mesmo ano). A 1ª consulta deu timeout e foi repetida. Sem ebook."
+ },
+ "https://openlibrary.org/works/OL42844007W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL42844007W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL42844007W: 'Introdução ao pensamento jurídico crítico', Antônio Carlos Wolkmer, 1991 (mesmo ano da referência). Sem ebook."
+ },
+ "https://openlibrary.org/works/OL4851915W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL4851915W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL4851915W: 'Karl, meu amigo', Roberto Lyra Filho, 1983 (mesmo ano); o registro traz só o título principal. Sem ebook."
+ },
+ "https://openlibrary.org/works/OL4186187W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL4186187W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL4186187W: 'Los derechos humanos desde la Escuela de Budapest', Joaquín Herrera Flores, 1989 (mesmo ano). Sem ebook."
+ },
+ "https://openlibrary.org/works/OL19885070W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL19885070W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL19885070W: 'Magia e tecnica, arte e politica', Walter Benjamin, edição registrada de 1989; a referência cita a 7ª ed. de 1994. Mesma obra, edição distinta. Sem ebook."
+ },
+ "https://openlibrary.org/works/OL15417275W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL15417275W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL15417275W: 'O cativeiro da terra', José de Souza Martins, edição registrada de 2010; a 9ª ed. de 2021 (Contexto) não está digitalizada. Cópia comunitária no IA não vinculada."
+ },
+ "https://openlibrary.org/works/OL45522294W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL45522294W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL45522294W: 'O Icaro da modernidade', Katie Argüello, edição registrada de 1996; a referência cita 1997. Sem ebook."
+ },
+ "https://openlibrary.org/works/OL26415542W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL26415542W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL26415542W: 'Pedagogia da Autonomia - Edicao especial' (2019), Paulo Freire; mesma obra, com qualificador de edição no título. Sem ebook."
+ },
+ "https://openlibrary.org/works/OL1870556W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL1870556W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL1870556W: 'Pedagogia do Oprimido', Paulo Freire, 19 edições, 1ª de 1967. A 12ª ed. de 1983 (Paz e Terra) não tem ebook; acesso só para leitores com deficiência de impressão (printdisabled)."
+ },
+ "https://openlibrary.org/works/OL12273795W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL12273795W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "emprestimo",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL12273795W: 'Socioambientalismo e novos direitos', Juliana Santilli, 2005 (mesmo ano). Empréstimo digital (borrowable); cópia IA em inlibrary/printdisabled."
+ },
+ "https://openlibrary.org/works/OL1157163W": {
+  "status": 200,
+  "url_final": "https://openlibrary.org/works/OL1157163W",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "openlibrary",
+  "match": "exato",
+  "observacao": "Work OL1157163W: 'Teologia politica', Carl Schmitt, edição registrada de 1996; a referência cita a ed. Del Rey de 2006. Título e autor conferem; sem ebook."
+ },
+ "https://doi.org/10.1590/2179-8966/2018/36564": {
+  "status": 200,
+  "url_final": "https://doi.org/10.1590/2179-8966/2018/36564",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto",
+  "fonte": "scielo",
+  "match": "exato",
+  "observacao": "DOI 10.1590/2179-8966/2018/36564; Revista Direito e Práxis, 2018; texto integral no SciELO (acesso aberto)."
+ },
+ "https://doi.org/10.5840/icp819742116": {
+  "status": 200,
+  "url_final": "https://doi.org/10.5840/icp819742116",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito",
+  "fonte": "crossref",
+  "match": "provavel",
+  "observacao": "DOI 10.5840/icp819742116: 'Filosofia, teologia e experiência mística', Lyra Filho, 1974 (anais do VIII Congresso); a referência cita 1976 (Kriterion). Título e autoria conferem, edição/veículo diferem; landing page responde 403 (paywall)."
+ },
+ "https://doi.org/10.25109/2525-328x.v.13.n.41.2014.426": {
+  "status": 200,
+  "url_final": "https://doi.org/10.25109/2525-328x.v.13.n.41.2014.426",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto",
+  "fonte": "crossref",
+  "match": "exato",
+  "observacao": "DOI 10.25109/2525-328x.v.13.n.41.2014.426; Revista da AGU, v.13 n.41, 2014; PDF público na SEER da AGU, sem login."
+ },
+ "https://doi.org/10.26512/2014.11.d.17858": {
+  "status": 200,
+  "url_final": "https://doi.org/10.26512/2014.11.d.17858",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto",
+  "fonte": "crossref",
+  "match": "exato",
+  "observacao": "DOI 10.26512/2014.11.d.17858; dissertação UnB, 2014; resolve para o handle 10482/17858, texto integral público."
+ },
+ "https://doi.org/10.26512/2015.04.d.18885": {
+  "status": 200,
+  "url_final": "https://doi.org/10.26512/2015.04.d.18885",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto",
+  "fonte": "crossref",
+  "match": "exato",
+  "observacao": "DOI 10.26512/2015.04.d.18885; dissertação UnB, 2015; resolve para o handle 10482/18885, texto integral público."
  }
 }

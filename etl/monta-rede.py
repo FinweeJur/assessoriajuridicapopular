@@ -69,14 +69,14 @@ def links_item(x):
 
 
 def cartao_ajup(x):
-    return """<li class="cartao" data-ajup data-tipo="%s" data-uf="%s" data-nome="%s">
+    return """<li class="cartao" data-ajup data-tipo="%s" data-uf="%s" data-nome="%s %s">
   <span class="etiqueta">%s · %s</span>
   <h3>%s</h3>
   <p>%s</p>
   <p class="colecao__fonte"><b>%s</b> · verificado em %s</p>
   <p class="colecao__acoes">%s</p>
 </li>""" % (
-        esc(x.get("tipo")), esc(x.get("uf")), esc(x.get("nome")),
+        esc(x.get("tipo")), esc(x.get("uf")), esc(x.get("nome")), esc(x.get("cidade") or ""),
         esc(x.get("tipo")), esc(x.get("uf") or "BR"),
         esc(x.get("nome")),
         esc(x.get("observacao") or "Organização do mapeamento histórico de 2011."),
@@ -120,7 +120,7 @@ def pagina_rede(dados, parceiros, colunas):
 
     col = "".join(
         '<li><a href="%s">%s</a> <span class="colecao__nota">%s</span></li>' % (
-            esc("autor-%s.html" % c["slug"] if c.get("slug") else "autores.html"),
+            esc(c["slug"] if (c.get("slug") or "").endswith(".html") else (("autor-%s.html" % c["slug"]) if c.get("slug") else "autores.html")),
             esc(c.get("nome")), esc(c.get("bio", "")[:90]))
         for c in colunas
     )
@@ -164,7 +164,7 @@ def pagina_rede(dados, parceiros, colunas):
 </section>
 
 <section class="secao" id="entidades" aria-labelledby="entidades-titulo">
-  <div class="secao__cabeca"><h2 id="entidades-titulo">Entidades parceiras</h2><p class="secao__nota">12 entidades; 9 com site ativo em 22/11/2026.</p></div>
+  <div class="secao__cabeca"><h2 id="entidades-titulo">Entidades parceiras</h2><p class="secao__nota">12 entidades; sites ativos quando confirmados.</p></div>
   %s
 </section>
 
@@ -222,6 +222,7 @@ def pagina_mapeamento(dados):
 </section>
 
 %s
+<p id="vazio-ajup" class="colecao__nota" hidden>Nenhuma organização com esses filtros. Limpe a busca ou troque o tipo/UF.</p>
 </div>
 
 <script>
@@ -230,15 +231,29 @@ def pagina_mapeamento(dados):
   var tipo = document.getElementById('filtro-tipo');
   var uf = document.getElementById('filtro-uf');
   var conta = document.getElementById('conta-ajup');
+  var vazio = document.getElementById('vazio-ajup');
   var itens = [].slice.call(document.querySelectorAll('[data-ajup]'));
+  var grupos = [].slice.call(document.querySelectorAll('.secao')).filter(function (g) {
+    return g.querySelector('[data-ajup]');
+  });
+  function semAcento(t) {
+    return (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
   function filtra() {
-    var q = (busca.value || '').toLowerCase().trim();
+    var q = semAcento(busca.value).trim();
     var t = tipo.value, u = uf.value, n = 0;
     itens.forEach(function (el) {
-      var ok = (!q || (el.dataset.nome || '').toLowerCase().indexOf(q) > -1) &&
+      var ok = (!q || semAcento(el.dataset.nome).indexOf(q) > -1) &&
                (!t || el.dataset.tipo === t) && (!u || el.dataset.uf === u);
       el.hidden = !ok; if (ok) n++;
     });
+    grupos.forEach(function (g) {
+      var vis = g.querySelectorAll('[data-ajup]:not([hidden])').length;
+      var nota = g.querySelector('.secao__nota');
+      if (nota) { nota.textContent = vis + (vis === 1 ? ' registro' : ' registros'); }
+      g.hidden = vis === 0;
+    });
+    vazio.hidden = n !== 0;
     conta.textContent = n + (n === 1 ? ' registro' : ' registros');
   }
   [busca, tipo, uf].forEach(function (el) { el.addEventListener('input', filtra); });

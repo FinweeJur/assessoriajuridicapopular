@@ -9,6 +9,7 @@ Norma de referência: ABNT NBR 6023:2018. Quando falta local/editora, usa
 `[s.l.: s.n.]`; quando falta ano, `[s.d.]`. Nada é inventado.
 """
 import csv
+import html
 import io
 import json
 import os
@@ -164,6 +165,14 @@ def abnt(r):
     return limpa(base)
 
 
+def abnt_html(r):
+    """ABNT para HTML: escapa tags e converte **forte** e *ênfase*."""
+    s = html.escape(abnt(r), quote=False)
+    s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
+    s = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", s)
+    return s
+
+
 def status_link(url, links):
     if not url:
         return "sem_link"
@@ -177,6 +186,10 @@ def marca_link(url, links):
     s = status_link(url, links)
     if s == "aberto":
         return "[Disponível aqui](%s)" % url
+    if s == "emprestimo":
+        return "[Empréstimo digital](%s)" % url
+    if s == "previa":
+        return "[Prévia](%s)" % url
     if s == "restrito":
         return "[Link restrito](%s)" % url
     if s == "morto_ou_instavel":
@@ -227,7 +240,7 @@ def main():
 | Referências extraídas | %d |
 | Com URL explícita | %d |
 | Confiança alta / média / baixa | %d / %d / %d |
-| Links abertos / restritos / mortos / não verificados / sem link | %d / %d / %d / %d / %d |
+| Links abertos / empréstimo / restritos / mortos / sem link | %d / %d / %d / %d / %d |
 
 ## Como ler
 
@@ -246,8 +259,8 @@ def main():
         len(refs),
         sum(1 for r in refs if r.get("url")),
         contagem.get("alta", 0), contagem.get("media", 0), contagem.get("baixa", 0),
-        links_contagem.get("aberto", 0), links_contagem.get("restrito", 0),
-        links_contagem.get("morto_ou_instavel", 0), links_contagem.get("nao_verificado", 0),
+        links_contagem.get("aberto", 0), links_contagem.get("emprestimo", 0),
+        links_contagem.get("restrito", 0), links_contagem.get("morto_ou_instavel", 0),
         links_contagem.get("sem_link", 0),
     )
 

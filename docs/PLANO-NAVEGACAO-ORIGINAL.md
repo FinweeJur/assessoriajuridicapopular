@@ -7,6 +7,12 @@
 >
 > **Regra:** não copiar a estética de 2011; reconstruir os **pontos de
 > acesso** e a **hierarquia** com a identidade atual.
+>
+> **Status 22/11/2026:** implementado — `rede.html`, `mapeamento-ajups.html`,
+> “Rede” no topo/mapa/rodapé, blogues/entidades/movimentos/quem somos/como
+> postar, link inline “Ler no blog original”, aliases das páginas antigas,
+> autores com a casca atual e navegação mobile. Pendente — QA visual final e
+> revisão de conteúdo dos 21 blogues/12 entidades.
 
 ---
 

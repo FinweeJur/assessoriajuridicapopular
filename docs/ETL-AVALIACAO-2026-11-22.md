@@ -533,7 +533,7 @@ bibliografia. Resultado:
 |---|---:|
 | Referências extraídas | **606** |
 | Com URL explícita | 180 |
-| Links abertos / restritos / mortos | 102 / 4 / 74 |
+| Links abertos / empréstimo / restritos / mortos / sem link | 106 / 1 / 16 / 74 / 409 |
 | Confiança alta / média / baixa | 221 / 149 / 236 |
 | Páginas com alguma referência | 192 |
 | Tipos | livro 160, obra 130, site 121, artigo 57, capítulo 39, documento 26, vídeo 19, dissertação 18, monografia 13, legislação 8, tese 8, relatório 7 |
@@ -541,7 +541,7 @@ bibliografia. Resultado:
 Artefatos:
 
 - `dados/referencias.json` — base completa;
-- `dados/referencias-links.json` — status das 177 URLs (102 abertas, 4 restritas, 74 mortas);
+- `dados/referencias-links.json` — status das 197 URLs (106 abertas, 1 empréstimo, 16 restritas, 74 mortas);
 - `docs/referencias-sem-link.csv` e `docs/referencias-links-status.md` — pendências para a próxima rodada;
 - `docs/referencias-abnt.md` — documento único em ABNT NBR 6023:2018;
 - `docs/referencias-por-tema.md` e `docs/referencias-por-autor.md` — recortes;
@@ -550,7 +550,7 @@ Artefatos:
 - `docs/REFERENCIAS-ABNT-REVISAO.md` — revisão crítica de 30 referências de
   confiança alta, com os defeitos que o gerador ainda precisa corrigir.
 
-O que ainda falta: resolver link gratuito para as 426 referências sem URL
+O que ainda falta: resolver link gratuito para as 409 referências sem URL
 (Open Library, Crossref, BDTD, SciELO, Planalto), revisar as 236 de confiança
 baixa e substituir “link restrito/morto” por alternativa aberta. Nada de
 paywall, login ou raspagem de Meta.

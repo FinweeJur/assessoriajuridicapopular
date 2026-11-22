@@ -707,7 +707,7 @@
 
   // ── Busca expansível: limpar com um clique ──────────────────────────────
   (function buscaExpansivel() {
-    var campos = document.querySelectorAll('[data-busca], .busca__campo input[type="search"]');
+    var campos = document.querySelectorAll('input[data-busca], textarea[data-busca], .busca__campo input[type="search"]');
     Array.prototype.forEach.call(campos, function (campo) {
       if (campo.parentNode.querySelector('.busca__limpar')) { return; }
       var limpar = document.createElement('button');

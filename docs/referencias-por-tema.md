@@ -21,8 +21,8 @@
   _Fonte:_ [Economia pela metade](economia-pela-metade.html) · _sem link gratuito localizado_
 - GRAMSCI, Antonio. **Os intelectuais e a organização da cultura**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Referências](referencias.html) · _sem link gratuito localizado_
-- ARGÜELLO, Katie Silene Cáceres. **O Ícaro da modernidade: direito e política em Max Weber**. São Paulo: Acadêmica, 1997.  
-  _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · _sem link gratuito localizado_
+- ARGÜELLO, Katie Silene Cáceres. **O Ícaro da modernidade: direito e política em Max Weber**. São Paulo: Acadêmica, 1997. Disponível em: <https://openlibrary.org/works/OL45522294W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · [Link restrito](https://openlibrary.org/works/OL45522294W)
 - ARRUDA JÚNIOR, Edmundo Lima de. **Introdução à sociologia jurídica alternativa (ensaios sobre o direito numa sociedade de classes)**. São Paulo: Acadêmica, 1993.  
   _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · _sem link gratuito localizado_
 - ARRUDA JÚNIOR, Edmundo Lima de (org.). **Lições de direito alternativo**. São Paulo: Acadêmica, 1991.  
@@ -403,10 +403,10 @@
   _Fonte:_ [Biblioteca AJUP-RJ](biblioteca-ajup-rj.html) · _sem link gratuito localizado_
 - MEILI, Stephen. **The Interaction between Lawyers and Grass Roots Social Movements in Brazil**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Referências](referencias.html) · _sem link gratuito localizado_
-- STUCKA, Petr Ivanovich. **Direito e luta de classes: teoria geral do direito**. São Paulo: Acadêmica, 1988.  
-  _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · _sem link gratuito localizado_
-- BELLATO, Sueli Aparecida. **Justiça de transição: perdão ou desculpa em nome do Estado brasileiro?**. 2014. Dissertação – [s.l.: s.n.].  
-  _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · _sem link gratuito localizado_
+- STUCKA, Petr Ivanovich. **Direito e luta de classes: teoria geral do direito**. São Paulo: Acadêmica, 1988. Disponível em: <https://openlibrary.org/works/OL46046079W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · [Link restrito](https://openlibrary.org/works/OL46046079W)
+- BELLATO, Sueli Aparecida. **Justiça de transição: perdão ou desculpa em nome do Estado brasileiro?**. 2014. Dissertação – [s.l.: s.n.]. Disponível em: <https://doi.org/10.26512/2014.11.d.17858>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Biblioteca digital](biblioteca-digital.html) · [Disponível aqui](https://doi.org/10.26512/2014.11.d.17858)
 - AMARAL, Tarsila do. **Morro da favela**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Niilismo e movimento popular (ou: Entre céticos e cínicos, eu fico com o povo)](niilismo-e-movimento-popular-ou-entre-ceticos-e-cinicos-eu.html) · _sem link gratuito localizado_
 - TELLES, Vera Silva. **Pobreza e cidadania**. [s.l.]: [s.n.], [s.d.].  
@@ -423,8 +423,8 @@
   _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · _sem link gratuito localizado_
 - WOLKMER, Antonio Carlos. **Constitucionalismo e direitos sociais no Brasil**. São Paulo: Acadêmica, 1989.  
   _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · _sem link gratuito localizado_
-- WOLKMER, Antonio Carlos. **Introdução ao pensamento jurídico crítico**. São Paulo: Acadêmica, 1991.  
-  _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · _sem link gratuito localizado_
+- WOLKMER, Antonio Carlos. **Introdução ao pensamento jurídico crítico**. São Paulo: Acadêmica, 1991. Disponível em: <https://openlibrary.org/works/OL42844007W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Por um projeto de comunicação da AJP: contatos imediatos](por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos.html) · [Link restrito](https://openlibrary.org/works/OL42844007W)
 
 ## Direitos humanos (101)
 
@@ -616,8 +616,8 @@
   _Fonte:_ [TRANSPARÊNCIA E DEMOCRATIZAÇÃO DO PODER JUDICIÁRIO: carta aberta](transparencia-e-democratizacao-do-poder-judiciario-carta.html) · _sem link gratuito localizado_
 - SERENATO, Mauricio Wosniaki. **membro do Núcleo de Pesquisa Constitucionalismo e Democracia**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Islândia: a insurgência da democracia](islandia-a-insurgencia-da-democracia.html) · _sem link gratuito localizado_
-- MELO PEREIRA, Diana. **Sem porta-voz na rua, sem dono em casa: as lutas do movimento de mulheres camponesas (MMC Brasil) pelo direito a uma vida sem violência**. 2015. Dissertação – [s.l.: s.n.].  
-  _Fonte:_ [Diana Melo Pereira As lutas do MMC pelo direito a uma vida sem violência](diana-melo-pereira-as-lutas-do-mmc-pelo-direito-a-uma-vida.html) · _sem link gratuito localizado_
+- MELO PEREIRA, Diana. **Sem porta-voz na rua, sem dono em casa: as lutas do movimento de mulheres camponesas (MMC Brasil) pelo direito a uma vida sem violência**. 2015. Dissertação – [s.l.: s.n.]. Disponível em: <https://doi.org/10.26512/2015.04.d.18885>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Diana Melo Pereira As lutas do MMC pelo direito a uma vida sem violência](diana-melo-pereira-as-lutas-do-mmc-pelo-direito-a-uma-vida.html) · [Disponível aqui](https://doi.org/10.26512/2015.04.d.18885)
 - Newton de Menezes Albuquerque, Professor Dr. **da Faculdade de Direito da Universidade Federal do Ceará e da Universidade de Fortaleza**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Novos apoios ao Escritório Frei Tito](novos-apoios-ao-escritorio-frei-tito.html) · _sem link gratuito localizado_
 - ARANTES, Paulo. **15/10 – Faculdade de Direito da USP. "1964-2011**. [s.l.]: [s.n.], 2011.  
@@ -628,8 +628,8 @@
   _Fonte:_ [Novos apoios ao Escritório Frei Tito](novos-apoios-ao-escritorio-frei-tito.html) · _sem link gratuito localizado_
 - MST, Renap e Setor de Direitos Humanos do. **Manifesto em favor da absolvição de José Batista Gonçalves Afonso, advogado da Comissão Pastoral da Terra – CPT/Pará. Apelação n° 2003.39.01.000173-5**. [s.l.]: [s.n.], 2003.  
   _Fonte:_ [Mais um assessor jurídico popular perseguido: homenageado com prêmio de direitos humanos é condenado pela justiça brasileira por defender estes mesmos direitos](mais-um-assessor-juridico-popular-perseguido-homenageado.html) · _sem link gratuito localizado_
-- SCHMITT, Carl. **Teologia política**. Belo Horizonte: Del Rey, 2006.  
-  _Fonte:_ [A violência espectral no âmbito do SNI: a extração de informações para a identificação de inimigos internos disfarçados no Brasil](a-violencia-espectral-no-ambito-do-sni-a-extracao-de.html) · _sem link gratuito localizado_
+- SCHMITT, Carl. **Teologia política**. Belo Horizonte: Del Rey, 2006. Disponível em: <https://openlibrary.org/works/OL1157163W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [A violência espectral no âmbito do SNI: a extração de informações para a identificação de inimigos internos disfarçados no Brasil](a-violencia-espectral-no-ambito-do-sni-a-extracao-de.html) · [Link restrito](https://openlibrary.org/works/OL1157163W)
 
 ## Movimentos sociais (112)
 
@@ -809,8 +809,8 @@
   _Fonte:_ [Biblioteca Miguel Lanzellotti Baldez](biblioteca-miguel-lanzellotti-baldez.html) · _sem link gratuito localizado_
 - BARATTA, Alessandro. **Criminologia Crítica e Critica do Direito Penal. 3 ed., Rio de Janeiro: Ed. Revan, 1999**. Janeiro: Ed. Revan, 1999.  
   _Fonte:_ [Um corpo caído e a luta da advocacia popular](um-corpo-caido-e-a-luta-da-advocacia-popular.html) · _sem link gratuito localizado_
-- BENJAMIN, Walter. **Magia e técnica, arte e política. Ensaios sobre a literatura e história da cultura**. São Paulo: Ed. brasiliense, 1994.  
-  _Fonte:_ [OS INSTRUMENTOS DO DIREITO SERVEM PARA QUEM?](os-instrumentos-do-direito-servem-para-quem.html) · _sem link gratuito localizado_
+- BENJAMIN, Walter. **Magia e técnica, arte e política. Ensaios sobre a literatura e história da cultura**. São Paulo: Ed. brasiliense, 1994. Disponível em: <https://openlibrary.org/works/OL19885070W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [OS INSTRUMENTOS DO DIREITO SERVEM PARA QUEM?](os-instrumentos-do-direito-servem-para-quem.html) · [Link restrito](https://openlibrary.org/works/OL19885070W)
 - CHAVES, Carlos Eduardo Lemos. **Da resistência à força" é o tema central do meu projeto de pesquisa apresentado no Programa de Pós-Graduação em Direitos Sociais do Campo – Residência Agrária, da Universidade Federal de Goiás. Merece destaque aqui por trazer um duplo sentido: seja o da resistência à força bruta empregada pela Marinha de Guerra do Brasil na gradativa tentativa de total desterritorialização da Comunidade Quilombola do Rio dos Macacos; seja o da trajetória da resistência, pura e simples,com o acúmulo de visibilida**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Insurgência quilombola e assessoria jurídica popular](insurgencia-quilombola-e-assessoria-juridica-popular.html) · _sem link gratuito localizado_
 - O, Carta Convite para. **II Seminário Direito, Pesquisa e Movimentos Sociais e fundação do Instituto de Pesquisa, Direito e Movimentos Sociais (IPDMS)**. [s.l.]: [s.n.], [s.d.].  
@@ -825,10 +825,10 @@
   _Fonte:_ [Formatura da Turma Evandro Lins e Silva da UFG](formatura-da-turma-evandro-lins-e-silva-da-ufg.html) · _sem link gratuito localizado_
 - FREIRE, Paulo. **Educação como prática da liberdade**. Janeiro: Paz e Terra, 1997.  
   _Fonte:_ [Problematizando o direito, problematizando o ensino jurídico](problematizando-o-direito-problematizando-o-ensino-juridico.html) · _sem link gratuito localizado_
-- FREIRE, Paulo. **Pedagogia da autonomia: saberes necessários à prática educativa**. Janeiro: Paz e Terra, 1996.  
-  _Fonte:_ [Problematizando o direito, problematizando o ensino jurídico](problematizando-o-direito-problematizando-o-ensino-juridico.html) · _sem link gratuito localizado_
-- FREIRE, Paulo. **Pedagogia do oprimido**. Janeiro: Paz e Terra, 1983.  
-  _Fonte:_ [Problematizando o direito, problematizando o ensino jurídico](problematizando-o-direito-problematizando-o-ensino-juridico.html) · _sem link gratuito localizado_
+- FREIRE, Paulo. **Pedagogia da autonomia: saberes necessários à prática educativa**. Janeiro: Paz e Terra, 1996. Disponível em: <https://openlibrary.org/works/OL26415542W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Problematizando o direito, problematizando o ensino jurídico](problematizando-o-direito-problematizando-o-ensino-juridico.html) · [Link restrito](https://openlibrary.org/works/OL26415542W)
+- FREIRE, Paulo. **Pedagogia do oprimido**. Janeiro: Paz e Terra, 1983. Disponível em: <https://openlibrary.org/works/OL1870556W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Problematizando o direito, problematizando o ensino jurídico](problematizando-o-direito-problematizando-o-ensino-juridico.html) · [Link restrito](https://openlibrary.org/works/OL1870556W)
 - FURMANN, Ivan. **Assessoria jurídicauniversitária popular: da utopia estudantil à ação política**. 2003. Monografia – Universidade Federal do Paraná.  
   _Fonte:_ [Monografia Ivan Furmann UFPR 2003](monografia-ivan-furmann-ufpr-2003.html) · _sem link gratuito localizado_
 - Grupo de Pesquisa Direitos Humanos, Poder Judiciário e Sociedade – DHPJS. **José Ricardo Cunha**. [s.l.]: [s.n.], [s.d.].  
@@ -968,8 +968,8 @@
   _Fonte:_ [da Tensão ao Tesão - (des) ordem e processo no surgimento do NAJUP-DF](da-tensao-ao-tesao-des-ordem-e-processo-no-surgimento-do.html) · _sem link gratuito localizado_
 - FALS BORDA, Orlando. **Aspectos teóricos da pesquisa participante: considerações sobre o significado e o papel da ciência na participação popular**. In: [coletânea], 1984.  
   _Fonte:_ [Minicurso da Crítica ao Direito no Maranhão](minicurso-da-critica-ao-direito-no-maranhao.html) · _sem link gratuito localizado_
-- FIDELES, Junior Divino. **Reflexos do discurso liberal do direito de propriedade nas decisões judiciais proferidas em ações de desapropriação agrária**. *Revista da AGU*, 2014.  
-  _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
+- FIDELES, Junior Divino. **Reflexos do discurso liberal do direito de propriedade nas decisões judiciais proferidas em ações de desapropriação agrária**. *Revista da AGU*, 2014. Disponível em: <https://doi.org/10.25109/2525-328x.v.13.n.41.2014.426>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · [Disponível aqui](https://doi.org/10.25109/2525-328x.v.13.n.41.2014.426)
 - FOUCAULT, Michel. **Introdução à vida não-fascista**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Preparativos para o XIII ERENAJU em Eldorado do Sul](preparativos-para-o-xiii-erenaju-em-eldorado-do-sul.html) · _sem link gratuito localizado_
 - GÓES JUNIOR, José Humberto de. **Da pedagogia do oprimido ao direito do oprimido: uma noção de direitos humanos na obra de Paulo Freire**. 2008. Dissertação – Universidade Federal da Paraíba.  
@@ -982,12 +982,12 @@
   _Fonte:_ [Falece Herrera Flores](falece-herrera-flores.html) · _sem link gratuito localizado_
 - HERRERA FLORES, Joaquín. **De 'habitaciones proprias' y otros espacios negados: una teoría crítica pelas opresiones patriarcales**. Bilbao: Instituto de Derechos Humanos de Universidad de Deusto, 2005.  
   _Fonte:_ [Falece Herrera Flores](falece-herrera-flores.html) · _sem link gratuito localizado_
-- HERRERA FLORES, Joaquín. **El processo cultural: materiales para la creatividad humana**. Sevilla: Aconcagua libros, 2005.  
-  _Fonte:_ [Falece Herrera Flores](falece-herrera-flores.html) · _sem link gratuito localizado_
+- HERRERA FLORES, Joaquín. **El processo cultural: materiales para la creatividad humana**. Sevilla: Aconcagua libros, 2005. Disponível em: <https://openlibrary.org/works/OL34923246W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Falece Herrera Flores](falece-herrera-flores.html) · [Link restrito](https://openlibrary.org/works/OL34923246W)
 - HERRERA FLORES, Joaquín. **Los derechos humanos como productos culturales: crítica del humanismo abstracto**. Madrid: Catarata, 2005.  
   _Fonte:_ [Falece Herrera Flores](falece-herrera-flores.html) · _sem link gratuito localizado_
-- HERRERA FLORES, Joaquín. **Los derechos humanos desde la escuela de Budapeste**. Madrid: Tecnos, 1989.  
-  _Fonte:_ [Falece Herrera Flores](falece-herrera-flores.html) · _sem link gratuito localizado_
+- HERRERA FLORES, Joaquín. **Los derechos humanos desde la escuela de Budapeste**. Madrid: Tecnos, 1989. Disponível em: <https://openlibrary.org/works/OL4186187W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Falece Herrera Flores](falece-herrera-flores.html) · [Link restrito](https://openlibrary.org/works/OL4186187W)
 - KRENAK, Ailton. **A União das Nações Indígenas**. In: [coletânea], 2015.  
   _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
 - LEITE, Daniel Buarque de Almeida Ferreira. **Direito penal e luta de classes: uma introdução via Pachukanis**. São Paulo: Lavrapalavra, 2022.  
@@ -1004,8 +1004,8 @@
   _Fonte:_ [Minicurso da Crítica ao Direito no Maranhão](minicurso-da-critica-ao-direito-no-maranhao.html) · _sem link gratuito localizado_
 - MALHEIRO, Bruno; PORTO-GONÇALVES, Carlos Walter; MICHELOTTI, Fernando. **Horizontes amazônicos: para repensar o Brasil e o mundo**. [s.l.]: Fundação Rosa Luxemburgo; Expressão Popular, 2021.  
   _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
-- MARTINS, José de Souza. **O Cativeiro da Terra**. São Paulo: Contexto, 2021.  
-  _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
+- MARTINS, José de Souza. **O Cativeiro da Terra**. São Paulo: Contexto, 2021. Disponível em: <https://openlibrary.org/works/OL15417275W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · [Link restrito](https://openlibrary.org/works/OL15417275W)
 - MARX, Karl. **Crítica ao programa de Gotha**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Minicurso da Crítica ao Direito no Maranhão](minicurso-da-critica-ao-direito-no-maranhao.html) · _sem link gratuito localizado_
 - MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. **Curso de Direito Constitucional. 8a edição revista e atualizada**. Janeiro: Paz e Terra, 1992.  
@@ -1014,8 +1014,8 @@
   _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
 - OLIVEIRA, Assis da Costa. **Rede Nacional das Assessorias JurídicasUniversitárias: história, teoria e desafios**. [s.l.]: [s.n.], [s.d.].  
   _Fonte:_ [Preparativos para o XIII ERENAJU em Eldorado do Sul](preparativos-para-o-xiii-erenaju-em-eldorado-do-sul.html) · _sem link gratuito localizado_
-- PAZELLO, Ricardo Prestes. **Direito insurgente: fundamentações marxistas desde a América Latina**. *Revista direito e práxis*, v. 9, p. 1555-1597, 2018.  
-  _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
+- PAZELLO, Ricardo Prestes. **Direito insurgente: fundamentações marxistas desde a América Latina**. *Revista direito e práxis*, v. 9, p. 1555-1597, 2018. Disponível em: <https://doi.org/10.1590/2179-8966/2018/36564>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · [Disponível aqui](https://doi.org/10.1590/2179-8966/2018/36564)
 - PAZELLO, Ricardo Prestes. **Teorias críticas do direito e assessoria jurídica popular**. *Revista Direitos Humanos e Sociedade*, v. 2, p. 141-161, 2019.  
   _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
 - PAZELLO, Ricardo Prestes Pazello. **Alguns problemas para uma teoria política marxista em nossa América**. In: [coletânea], 2009.  
@@ -1030,8 +1030,8 @@
   _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
 - SAMPAIO OLIVEIRA, Murilo Carvalho. **Serviçode Apoio Jurídico – SAJU: a práxis de um Direito crítico**. 2003. Monografia – Universidade Federal da Bahia.  
   _Fonte:_ [Monografia Murilo Sampaio Oliveira UFBA 2003](monografia-murilo-sampaio-oliveira-ufba-2003.html) · _sem link gratuito localizado_
-- SANTILI, Juliana. **Socioambientalismo e novos direitos**. São Paulo: Peirópolis, 2005.  
-  _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · _sem link gratuito localizado_
+- SANTILI, Juliana. **Socioambientalismo e novos direitos**. São Paulo: Peirópolis, 2005. Disponível em: <https://openlibrary.org/works/OL12273795W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Programação da oficina direito pra quem](programacao-da-oficina-direito-pra-quem.html) · [Empréstimo digital](https://openlibrary.org/works/OL12273795W)
 - SANTOS, Boaventura Souza. **Introdução à sociologia da administração da justiça**. In: [coletânea], 1989.  
   _Fonte:_ [O abismo entre o asfalto e a favela](o-abismo-entre-o-asfalto-e-a-favela.html) · _sem link gratuito localizado_
 - SARMENTO. Daniel; OSORIO, Aline. **OSORIO, Aline**. 2014.  
@@ -1193,16 +1193,16 @@
   _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · _sem link gratuito localizado_
 - LYRA FILHO, Roberto. **Filosofia jurídica: pequena bibliografia em perspectiva contemporânea (1976)**. *Revista Notícia do Direito Brasileiro*, Brasília, n. 9, p. 381-403, 2002.  
   _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · _sem link gratuito localizado_
-- LYRA FILHO, Roberto. **Filosofia, teologia e experiência mística**. *Kriterion: revista da Faculdade de Filosofia e Ciências Humanas da Universidade Federal de Minas Ge*, n. 69, p. 136-145, 1976.  
-  _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · _sem link gratuito localizado_
+- LYRA FILHO, Roberto. **Filosofia, teologia e experiência mística**. *Kriterion: revista da Faculdade de Filosofia e Ciências Humanas da Universidade Federal de Minas Ge*, n. 69, p. 136-145, 1976. Disponível em: <https://doi.org/10.5840/icp819742116>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · [Link restrito](https://doi.org/10.5840/icp819742116)
 - LYRA FILHO, Roberto. **Humanismo dialético (I)**. In: [coletânea], 1983.  
   _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · _sem link gratuito localizado_
 - LYRA FILHO, Roberto. **Introdução ao Direito**. *Revista Direito e Avesso*, Brasília, n. 2, p. 39-48, 1982.  
   _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · _sem link gratuito localizado_
 - LYRA FILHO, Roberto. **Introdução ao Direito como ciência social**. *Revista brasileira de filosofia*, v. 23, n. 90, p. 180-185, 1973.  
   _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · _sem link gratuito localizado_
-- LYRA FILHO, Roberto. **Karl, meu amigo: diálogo com Marx sobre o Direito**. [s.l.]: Safe; IAB-RS, 1983.  
-  _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · _sem link gratuito localizado_
+- LYRA FILHO, Roberto. **Karl, meu amigo: diálogo com Marx sobre o Direito**. [s.l.]: Safe; IAB-RS, 1983. Disponível em: <https://openlibrary.org/works/OL4851915W>. Acesso em: 22 nov. 2026.  
+  _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · [Link restrito](https://openlibrary.org/works/OL4851915W)
 - LYRA FILHO, Roberto. **Normas jurídicas e outras normas sociais**. *Revista Direito e Avesso*, Brasília, n. 1, p. 49-60, 1982.  
   _Fonte:_ [Biblioteca Roberto Lyra Filho](biblioteca-roberto-lyra-filho.html) · _sem link gratuito localizado_
 - LYRA FILHO, Roberto. **O Direito que se ensina errado**. Brasília: CADIR UnB, 1980.  

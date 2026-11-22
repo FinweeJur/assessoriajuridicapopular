@@ -56,6 +56,10 @@ def main():
             s = ab.status_link(url, links)
             if s == "aberto":
                 acao = '<a class="botao secundario" href="%s" target="_blank" rel="noopener">Disponível aqui</a>' % esc(url)
+            elif s == "emprestimo":
+                acao = '<a class="botao secundario" href="%s" target="_blank" rel="noopener">Empréstimo digital</a>' % esc(url)
+            elif s == "previa":
+                acao = '<a class="botao secundario" href="%s" target="_blank" rel="noopener">Prévia</a>' % esc(url)
             elif s == "restrito":
                 acao = '<span class="ref-status">Link restrito</span>'
             elif s == "morto_ou_instavel":
@@ -68,12 +72,12 @@ def main():
   <p class="ref-cit__fonte">Citada em <a href="%s.html">%s</a> · confiança <b>%s</b></p>
   <p class="ref-cit__acao">%s</p>
 </article>""" % (
-                esc(r.get("id")), esc(slug), esc(busca.lower()), ab.abnt(r), esc(slug), esc(titulo),
+                esc(r.get("id")), esc(slug), esc(busca.lower()), ab.abnt_html(r), esc(slug), esc(titulo),
                 esc(r.get("confianca") or "baixa"), acao))
         blocos.append("""<section class="secao ref-fonte" id="fonte-%s" data-fonte="%s">
-  <div class="secao__cabeca"><h2><a href="%s.html">%s</a></h2><p class="secao__nota">%d referência(s)</p></div>
+  <div class="secao__cabeca"><h2><a href="%s.html">%s</a></h2><p class="secao__nota">%d %s</p></div>
   <div class="grade-3">%s</div>
-</section>""" % (esc(slug), esc(slug), esc(slug), esc(titulo), len(refs_g), "".join(cards)))
+</section>""" % (esc(slug), esc(slug), esc(slug), esc(titulo), len(refs_g), "referência" if len(refs_g) == 1 else "referências", "".join(cards)))
 
     corpo = """
 <section class="hero hero--texto">

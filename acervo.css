@@ -2468,8 +2468,8 @@ a.cartao, .item__link, .destaque, .bento__item {
 .topo__busca-botao .ico { width: 17px; height: 17px; }
 .topo__busca-form {
   display: none; align-items: center; gap: 6px;
-  position: absolute; right: calc(100% + 8px); top: 50%; transform: translateY(-50%);
-  width: min(21rem, 46vw); padding: 4px 4px 4px 12px;
+  position: absolute; right: 0; top: calc(100% + 8px); transform: none;
+  width: min(21rem, calc(100vw - 2rem)); z-index: 65; padding: 4px 4px 4px 12px;
   border: 1px solid var(--cor-tema); border-radius: 10px;
   background: var(--cp-bg); box-shadow: 0 10px 28px rgba(0, 0, 0, .28);
 }
@@ -2643,4 +2643,13 @@ body:has(.radio-flut[data-aberto="true"]) .casca-rolagem {
 .ref-cit__fonte { margin: 0; font-size: .78rem; color: var(--cp-text-soft); }
 .ref-cit__acao { margin: 10px 0 0; }
 .ref-status { font-size: .8rem; color: var(--cp-text-soft); }
+
+/* Âncoras e impressão: o título não fica atrás do topo fixo; nada some no papel. */
+html { scroll-padding-top: 92px; }
+.secao[id], .colecao__atalhos a { scroll-margin-top: 92px; }
+@media print {
+  .cai, [data-revelar], [data-revelar]:not(.revelado) {
+    opacity: 1 !important; transform: none !important;
+  }
+}
 
