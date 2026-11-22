@@ -2342,3 +2342,8 @@ a.cartao, .item__link, .destaque, .bento__item {
 .visitas__numero .counterapi:empty::before { content: "—"; }
 .visitas__nota { margin: 0; font-size: .75rem; color: var(--cp-text-soft); }
 
+/* ── Definição de AJP na capa ───────────────────────────────────────────── */
+.definicao { margin-top: clamp(24px, 4vw, 44px); }
+.definicao p { max-width: 74ch; line-height: 1.75; }
+.definicao p + p { margin-top: 1em; }
+
