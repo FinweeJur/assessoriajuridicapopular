@@ -37,8 +37,8 @@ foi corrigido.
 | Sem autor | 250 | **35** |
 | Com autoria institucional | 0 | 143 |
 | Confiança alta | 221 | 225 |
-| Confiança média | 149 | 153 |
-| Confiança baixa | 236 | 146 |
+| Confiança média | 149 | 268 |
+| Confiança baixa | 236 | 31 |
 | Entradas únicas na lista ABNT | 599 | 515 |
 
 Das 35 sem autor que restaram:

@@ -61,19 +61,19 @@
 - **Curso de Direito Constitucional. 8a edição revista e atualizada** — MENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet (1992) — confiança alta
 - **OSORIO, Aline** — SARMENTO. Daniel; OSORIO, Aline (2014) — confiança media
 - **Tradução de Marco Aurélio Nogueira** — BOBBIO, Norberto (2013) — confiança alta
-- **Tempos modernos** — Di Cavalcânti (1961) (1961) — confiança baixa
+- **Tempos modernos** — Di Cavalcânti (1961) (1961) — confiança media
 - **Teatro do oprimido e outras poéticas políticas** — BOAL, Augusto (1991) — confiança alta
 - **Teatro do oprimido e outras poéticas políticas, 1991** — BOAL, Augusto (1991) — confiança alta
-- **O lavrador de café" (1934)** — Cândido Portinári (1934) — confiança baixa
+- **O lavrador de café" (1934)** — Cândido Portinári (1934) — confiança media
 - **Conceituação básica da informação (1ª parte) e Técnica de produção da informação (2ª parte)** — CURSO DE INFORMAÇÕES (1959) — confiança media
 - **Crítica da violência: crítica do poder** — BENJAMIN, Walter (1986) — confiança alta
 - **Origem do drama barroco** — BENJAMIN, Walter (1984) — confiança alta
 - **Teologia política** — SCHMITT, Carl (2006) — confiança alta
-- **Apresentação dos eventos que irão ocorrer na Colômbia** — Espaço CONCLAEA – Elver - História, Conjuntura e Importância da CONCLAEA (s.d.) — confiança baixa
-- **A mulher de cabelos verdes** — Anita Malfáti (s.d.) — confiança baixa
-- **Assessoria jurídica popular universitária: tradução e autogestão** — Luiz Otávio Ribas (s.d.) — confiança baixa
-- **Teoria e prática da assessoria jurídica popular: metodologia para o trabalho popular** — Luiz Otávio Ribas e Ricardo Prestes Pazello (s.d.) — confiança baixa
-- **Universidade popular: três modelos de práticas insurgentes de estudantes** — Ricardo Prestes Pazello (s.d.) — confiança baixa
+- **Apresentação dos eventos que irão ocorrer na Colômbia** — Espaço CONCLAEA – Elver - História, Conjuntura e Importância da CONCLAEA (s.d.) — confiança media
+- **A mulher de cabelos verdes** — Anita Malfáti (s.d.) — confiança media
+- **Assessoria jurídica popular universitária: tradução e autogestão** — Luiz Otávio Ribas (s.d.) — confiança media
+- **Teoria e prática da assessoria jurídica popular: metodologia para o trabalho popular** — Luiz Otávio Ribas e Ricardo Prestes Pazello (s.d.) — confiança media
+- **Universidade popular: três modelos de práticas insurgentes de estudantes** — Ricardo Prestes Pazello (s.d.) — confiança media
 - … mais 315 no CSV.
 
 ## Como resolver

@@ -16,7 +16,7 @@
   "status": "sem_match",
   "consulta": "Perspectivas atuais da criminologia: método, problemas, aplicações",
   "log": [
-   "google_books: ok (45)",
+   "google_books: ok (46)",
    "openalex: erro: HTTP Error 429: Too Many Requests",
    "internet_archive: ok",
    "crossref: ok"
@@ -155,7 +155,7 @@
   "status": "sem_match",
   "consulta": "Relatos do Inimigo no Campo: A Criminalização dos",
   "log": [
-   "google_books: ok (234)",
+   "google_books: ok (236)",
    "openalex: erro: HTTP Error 429: Too Many Requests",
    "internet_archive: ok",
    "crossref: ok"
@@ -205,7 +205,7 @@
   "status": "sem_match",
   "consulta": "intitle:\"Grupo de Pesquisa, Ensino e Extensão Direitos Humanos e\"",
   "log": [
-   "google_books: ok (13)",
+   "google_books: ok (12)",
    "openalex: erro: HTTP Error 429: Too Many Requests",
    "internet_archive: ok",
    "crossref: ok"
@@ -296,7 +296,7 @@
   "status": "sem_match",
   "consulta": "ANUÁRIO 2004/2005: da Escola Superior da Magistratura do",
   "log": [
-   "google_books: ok (17)",
+   "google_books: ok (18)",
    "openalex: erro: HTTP Error 429: Too Many Requests",
    "internet_archive: ok",
    "crossref: ok"

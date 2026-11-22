@@ -767,8 +767,8 @@ def tenta_ref(texto, links=None):
             r"^(.+?),\s*em\s+\d{1,2}\s+de\s+[\wÀ-ÿ]+\s+de\s+(\d{4})$",
             autor, re.I,
         )
-        confianca = "baixa"
-        motivo = "lista 'Título', de Autor sem dados de publicação"
+        confianca = "media"
+        motivo = "autoria e título reconhecidos; sem dados de publicação"
         if d:
             autor = d.group(1).strip()
             ano = d.group(2)
@@ -799,8 +799,8 @@ def tenta_ref(texto, links=None):
             # referência acadêmica com tipo explícito (tese/dissertação).
             if "," not in autor and not MARCA_TIPO.search(t):
                 return None
-            confianca = "baixa"
-            motivo = "sem ano de publicação"
+            confianca = "media"
+            motivo = "autoria e título reconhecidos; sem ano de publicação"
         else:
             confianca = "media"
             motivo = "autor, título e ano reconhecidos"
