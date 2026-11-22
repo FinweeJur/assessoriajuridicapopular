@@ -1,0 +1,357 @@
+[
+  {
+    "grupo": "blog",
+    "nome": "Afroblogs",
+    "url_original": "http://afroblogs.blogspot.com/",
+    "status": 200,
+    "url_final": "http://afroblogs.blogspot.com/",
+    "titulo": "Afroblogs",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Agência Carta Maior",
+    "url_original": "http://www.cartamaior.com.br/templates/index.cfm",
+    "status": "erro",
+    "erro": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "grupo": "blog",
+    "nome": "Alexandre Morais da Rosa",
+    "url_original": "http://alexandremoraisdarosa.blogspot.com/",
+    "status": 200,
+    "url_final": "http://alexandremoraisdarosa.blogspot.com/",
+    "titulo": "......alexandre morais da rosa",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Blogue do Baldez",
+    "url_original": "http://alutapelaterra.blogspot.com/",
+    "status": 200,
+    "url_final": "http://alutapelaterra.blogspot.com/",
+    "titulo": "A Luta Pela Terra",
+    "redes": [
+      "http://www.youtube.com/watch?v=QxTE2U9IlMs",
+      "http://www.youtube.com/watch?v=TsXe4re7R9g",
+      "https://www.youtube.com/watch?v=77iqt7WTFX0&feature=player_embedded",
+      "https://www.youtube.com/watch?v=yPI34__86Mo&feature=player_embedded#"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "Café & Direito",
+    "url_original": "http://nardelladellova.blogspot.com/",
+    "status": 200,
+    "url_final": "http://nardelladellova.blogspot.com/",
+    "titulo": "CAFÉ e DIREITO",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Coletivo Sankofa",
+    "url_original": "http://coletivosankofa.wordpress.com/",
+    "status": 200,
+    "url_final": "https://coletivosankofa.wordpress.com/",
+    "titulo": "Coletivo Sankofa | O Blog do Coletivo Sankofa com o público.",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Combate Racismo Ambiental",
+    "url_original": "http://racismoambiental.net.br/",
+    "status": 200,
+    "url_final": "https://racismoambiental.net.br/",
+    "titulo": "Combate Racismo Ambiental - O blog Combate Racismo Ambiental foi criado e é mantido por Tania Pacheco, sem fins lucrativos e utilizando tecnologia WordPress. A reprodução de seu conteúdo é incentivada, desde que citando a fonte e também sem fins lucrativos.",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Diálogos Lyrianos",
+    "url_original": "http://odireitoachadonarua.blogspot.com.br/",
+    "status": 200,
+    "url_final": "http://odireitoachadonarua.blogspot.com/",
+    "titulo": "O Direito Achado na Rua",
+    "redes": [
+      "https://www.youtube.com/watch?v=bcH871osqbI"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "Direito achado na rua",
+    "url_original": "http://odireitoachadonarua.blogspot.com/",
+    "status": 200,
+    "url_final": "http://odireitoachadonarua.blogspot.com/",
+    "titulo": "O Direito Achado na Rua",
+    "redes": [
+      "https://www.youtube.com/watch?v=bcH871osqbI"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "Direito público e diversidade",
+    "url_original": "http://direitopublicoediversidade.blogspot.com.br",
+    "status": 200,
+    "url_final": "http://direitopublicoediversidade.blogspot.com/",
+    "titulo": "Direito Publico, Diversidade e Direitos Humanos",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Em Crisálida",
+    "url_original": "http://emcrisalida.blogspot.com.br",
+    "status": 200,
+    "url_final": "http://emcrisalida.blogspot.com/",
+    "titulo": "Em Crisálida",
+    "redes": [
+      "http://www.youtube.com/watch?v=Lk3jpgb-0iE"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "Mara Paula de Araújo",
+    "url_original": "http://marapauladearaujo.blogspot.com.br",
+    "status": 200,
+    "url_final": "http://marapauladearaujo.blogspot.com/",
+    "titulo": "Mara Paula",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Marxismo21",
+    "url_original": "http://marxismo21.org",
+    "status": 200,
+    "url_final": "https://marxismo21.org/",
+    "titulo": "marxismo21",
+    "redes": [
+      "http://www.facebook.com/sharer.php?u=https://marxismo21.org/",
+      "http://www.facebook.com/sharer.php?u=https://marxismo21.org/40-anos-do-golpe-militar-no-chile/",
+      "http://www.facebook.com/sharer.php?u=https://marxismo21.org/jose-carlos-mariategui/",
+      "http://www.facebook.com/sharer.php?u=https://marxismo21.org/pedagogia-historico-critica/",
+      "http://www.linkedin.com/shareArticle?mini=true&url=https://marxismo21.org/",
+      "http://www.linkedin.com/shareArticle?mini=true&url=https://marxismo21.org/40-anos-do-golpe-militar-no-chile/",
+      "http://www.linkedin.com/shareArticle?mini=true&url=https://marxismo21.org/jose-carlos-mariategui/",
+      "http://www.linkedin.com/shareArticle?mini=true&url=https://marxismo21.org/pedagogia-historico-critica/"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "NAJUP Cabano",
+    "url_original": "http://najupcabano.blogspot.com.br",
+    "status": 200,
+    "url_final": "http://najupcabano.blogspot.com/",
+    "titulo": "Najup Cabano",
+    "redes": [
+      "http://www.facebook.com/apps/application.php?id=9953271133",
+      "https://www.facebook.com/events/948595745287425/?active_tab=about"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "O caminho se faz caminhando",
+    "url_original": "http://caminhosdequixote.blogspot.com/",
+    "status": 200,
+    "url_final": "http://caminhosdequixote.blogspot.com/",
+    "titulo": "o caminho se faz caminhando",
+    "redes": [
+      "https://www.facebook.com/betinho.goes?directed_target_id=0",
+      "https://www.facebook.com/tulio.jales"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "O palco e o mundo",
+    "url_original": "http://opalcoeomundo.blogspot.com/",
+    "status": 200,
+    "url_final": "http://opalcoeomundo.blogspot.com/",
+    "titulo": "O palco e o mundo",
+    "redes": [
+      "https://www.instagram.com/p/DcZOL7ZCRd4/",
+      "https://www.instagram.com/p/DdRTBABzHWA/",
+      "https://www.youtube.com/watch?v=5C_DvSOLnrw",
+      "https://www.youtube.com/watch?v=7GBT5ABHxSU&t=6s",
+      "https://www.youtube.com/watch?v=Mj6Il4NWieA&t=1s",
+      "https://www.youtube.com/watch?v=cDF2J3ykuUM&t=95s",
+      "https://www.youtube.com/watch?v=lVZp_YwRKxQ",
+      "https://www.youtube.com/watch?v=wqeoir7_qE4"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "SAJU UFBA",
+    "url_original": "http://sajubahia.blogspot.com.br/",
+    "status": 200,
+    "url_final": "http://sajubahia.blogspot.com/",
+    "titulo": "SAJU - Ba",
+    "redes": [
+      "https://www.facebook.com/sajubahia.1"
+    ]
+  },
+  {
+    "grupo": "blog",
+    "nome": "SAJU UFRGS",
+    "url_original": "http://www.ufrgs.br/saju/",
+    "status": "erro",
+    "erro": "[WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto"
+  },
+  {
+    "grupo": "blog",
+    "nome": "Tânia defensora",
+    "url_original": "http://taniadefensora.blogspot.com.br",
+    "status": 200,
+    "url_final": "http://taniadefensora.blogspot.com/",
+    "titulo": "Tânia Defensora",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Vila do chocolatão",
+    "url_original": "http://viladochocolatao.blogspot.com/",
+    "status": 200,
+    "url_final": "http://viladochocolatao.blogspot.com/",
+    "titulo": "Vila do Chocolatão",
+    "redes": []
+  },
+  {
+    "grupo": "blog",
+    "nome": "Vladimir de Carvalho Luz",
+    "url_original": "http://vladimirluz.blogspot.com/",
+    "status": 200,
+    "url_final": "http://vladimirluz.blogspot.com/",
+    "titulo": "VLADIMIR LUZ",
+    "redes": []
+  },
+  {
+    "grupo": "entidade",
+    "nome": "ABIA",
+    "url_original": "http://www.abiaids.org.br/",
+    "status": 200,
+    "url_final": "https://abiaids.org.br/",
+    "titulo": "Início - ABIA",
+    "redes": [
+      "https://www.facebook.com/ABIAIDS/",
+      "https://www.instagram.com/abia.abiaids/",
+      "https://www.youtube.com/user/ABIAGAPW"
+    ]
+  },
+  {
+    "grupo": "entidade",
+    "nome": "AATR-BA",
+    "url_original": "http://www.aatr.org.br/site/",
+    "status": "erro",
+    "erro": "HTTP Error 404: Not Found"
+  },
+  {
+    "grupo": "entidade",
+    "nome": "Mariana Criola",
+    "url_original": "http://www.marianacriola.org.br/",
+    "status": "erro",
+    "erro": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "grupo": "entidade",
+    "nome": "CLADEM",
+    "url_original": "http://www.cladem.org/",
+    "status": 200,
+    "url_final": "https://cladem.org/",
+    "titulo": "CLADEM - 35 años usando el derecho como herramienta de cambio",
+    "redes": [
+      "https://www.facebook.com/REDCLADEM",
+      "https://www.instagram.com/clademregional/",
+      "https://www.linkedin.com/company/red-cladem/about/",
+      "https://www.youtube.com/@CLADEMenvideo"
+    ]
+  },
+  {
+    "grupo": "entidade",
+    "nome": "Conectas",
+    "url_original": "http://www.conectas.org/",
+    "status": 200,
+    "url_final": "https://conectas.org/",
+    "titulo": "",
+    "redes": [
+      "https://www.facebook.com/conectas",
+      "https://www.instagram.com/conectas/",
+      "https://www.linkedin.com/company/conectas-direitos-humanos",
+      "https://www.youtube.com/channel/UCem6mFvn8C3bHe04doW2h0w"
+    ]
+  },
+  {
+    "grupo": "entidade",
+    "nome": "Dignitatis",
+    "url_original": "http://dignitatis-assessoria.blogspot.com/",
+    "status": 200,
+    "url_final": "http://dignitatis-assessoria.blogspot.com/",
+    "titulo": "Dignitatis - Assessoria Técnica Popular",
+    "redes": []
+  },
+  {
+    "grupo": "entidade",
+    "nome": "GAJOP",
+    "url_original": "http://www.gajop.org.br/",
+    "status": "erro",
+    "erro": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "grupo": "entidade",
+    "nome": "Justiça Global",
+    "url_original": "http://global.org.br/",
+    "status": 200,
+    "url_final": "https://www.global.org.br/",
+    "titulo": "Início - Justiça Global",
+    "redes": [
+      "https://www.facebook.com/justicaglobal",
+      "https://www.instagram.com/justicaglobal/",
+      "https://www.linkedin.com/company/82578797/admin/feed/posts/?feedType=following",
+      "https://www.youtube.com/user/JusticaGlobalBrasil/videos"
+    ]
+  },
+  {
+    "grupo": "entidade",
+    "nome": "SMDH",
+    "url_original": "http://www.smdh.org.br/",
+    "status": 200,
+    "url_final": "https://smdh.org.br/",
+    "titulo": "Home - Sociedade Maranhense de Direitos Humanos",
+    "redes": [
+      "https://www.facebook.com/smdh.vida/",
+      "https://www.instagram.com/smdhvida/",
+      "https://www.youtube.com/user/SMDHVida"
+    ]
+  },
+  {
+    "grupo": "entidade",
+    "nome": "SDDH-PA",
+    "url_original": "http://www.sddh.kit.net/",
+    "status": "erro",
+    "erro": "<urlopen error timed out>"
+  },
+  {
+    "grupo": "entidade",
+    "nome": "Terra de Direitos",
+    "url_original": "http://terradedireitos.org.br/",
+    "status": 200,
+    "url_final": "https://terradedireitos.org.br/",
+    "titulo": "Terra de Direitos",
+    "redes": [
+      "http://www.facebook.com/terradedireitos",
+      "https://www.facebook.com/terradedireitos",
+      "https://www.instagram.com/terradedireitos",
+      "https://www.youtube.com/channel/UCkdy0w7C6RAAYXRn9gZIxUQ"
+    ]
+  },
+  {
+    "grupo": "entidade",
+    "nome": "Themis",
+    "url_original": "http://www.themis.org.br/",
+    "status": 200,
+    "url_final": "https://themis.org.br/",
+    "titulo": "Página Inicial - Themis - Gênero, Justiça e Direitos Humanos",
+    "redes": [
+      "https://www.facebook.com/themis.org.br%20",
+      "https://www.instagram.com/themis.org.br/",
+      "https://www.linkedin.com/company/themis-genero-justica-e-direitos-humanos/posts/?feedView=all",
+      "https://youtube.com/@themisgenerojusticaedireit2128?si=_nQW9lO-KwCYYsgf"
+    ]
+  }
+]
