@@ -658,4 +658,15 @@
       observador.observe(el);
     });
   })();
+
+  // Acordeões: abre o <details> quando o endereço aponta para ele
+  (function acordeoes() {
+    function abre() {
+      if (!location.hash) { return; }
+      var alvo = document.getElementById(location.hash.slice(1));
+      if (alvo && alvo.tagName === 'DETAILS') { alvo.open = true; }
+    }
+    abre();
+    window.addEventListener('hashchange', abre);
+  })();
 })();

@@ -90,6 +90,7 @@ def topo(ativo):
           <li><a href="biblioteca.html"%s>Biblioteca</a></li>
           <li><a href="cultura.html"%s>Cultura</a></li>
           <li><a href="assessoria-juridica-popular-no-mundo.html"%s>Dossiê comparado</a></li>
+          <li><a href="dossie-leapspace.html">Dossiê LeapSpace</a></li>
         </ul>
       </div>
       <a href="autores.html"%s>Autores</a>
@@ -153,7 +154,7 @@ def rodape():
       <ul class="parcerias__lista">
         <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
         <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
-        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img class="mab-cor" src="logos/mab-cor.png" alt="MAB" loading="lazy" /><img class="mab-branco" src="logos/mab-branco.png" alt="MAB" loading="lazy" /></a></li>
+        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img class="mab-preto" src="logos/mab-simples-preto.png" alt="MAB" loading="lazy" /><img class="mab-branco" src="logos/mab-simples-branco.png" alt="MAB" loading="lazy" /></a></li>
       </ul>
       <p>GT de Assessoria Jurídica Popular do IPDMS · Coord. Luiz Otávio Ribas</p>
       <p>Desenvolvimento e retirada de imagens ou conteúdo: Artur Colito —
@@ -213,8 +214,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=78" />
-  <link rel="stylesheet" href="reveal.css?v=78" />
+  <link rel="stylesheet" href="acervo.css?v=83" />
+  <link rel="stylesheet" href="reveal.css?v=82" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -371,7 +372,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <script src="site.js?v=4" defer></script>
 <script src="reveal.js?v=75" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
-<script src="casca.js?v=26" defer></script>
+<script src="casca.js?v=27" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>

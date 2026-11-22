@@ -2114,14 +2114,14 @@ a.cartao, .item__link, .destaque, .bento__item {
 
 /* MAB: colorido com fundo escuro no claro; branco nos temas escuros */
 .parcerias__lista img.mab-branco { display: none; }
-.parcerias__lista img.mab-cor { border-radius: 6px; }
-[data-theme="dark"] .parcerias__lista img.mab-cor,
-[data-theme="pequi"] .parcerias__lista img.mab-cor,
-[data-theme="cerrado"] .parcerias__lista img.mab-cor,
-[data-theme="mata-atlantica"] .parcerias__lista img.mab-cor,
-[data-theme="caatinga"] .parcerias__lista img.mab-cor,
-[data-theme="pantanal"] .parcerias__lista img.mab-cor,
-[data-theme="brasil"] .parcerias__lista img.mab-cor { display: none; }
+.parcerias__lista img.mab-preto { }
+[data-theme="dark"] .parcerias__lista img.mab-preto,
+[data-theme="pequi"] .parcerias__lista img.mab-preto,
+[data-theme="cerrado"] .parcerias__lista img.mab-preto,
+[data-theme="mata-atlantica"] .parcerias__lista img.mab-preto,
+[data-theme="caatinga"] .parcerias__lista img.mab-preto,
+[data-theme="pantanal"] .parcerias__lista img.mab-preto,
+[data-theme="brasil"] .parcerias__lista img.mab-preto { display: none; }
 [data-theme="dark"] .parcerias__lista img.mab-branco,
 [data-theme="pequi"] .parcerias__lista img.mab-branco,
 [data-theme="cerrado"] .parcerias__lista img.mab-branco,
@@ -2141,4 +2141,112 @@ a.cartao, .item__link, .destaque, .bento__item {
   padding: 2px 6px; border-radius: 999px;
   border: 1px solid color-mix(in srgb, var(--cor-tema) 45%, transparent);
   color: var(--cor-tema); background: color-mix(in srgb, var(--cor-tema) 8%, transparent);
+}
+
+
+/* Dossiê LeapSpace: painel, acordeões e referências */
+.leapspace__painel {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px; margin: 14px 0 18px;
+}
+.leapspace__painel > div {
+  padding: 12px 14px; border: 1px solid var(--borda); border-radius: var(--raio);
+  background: color-mix(in srgb, var(--cp-surface) 32%, transparent);
+}
+.leapspace__painel b {
+  display: block; font-family: var(--font-display); font-size: 1.4rem;
+  line-height: 1.1; color: var(--cor-tema);
+}
+.leapspace__painel span { font-size: .78rem; color: var(--cp-text-soft); }
+
+.acordeao {
+  margin-top: 14px; border: 1px solid var(--borda); border-radius: var(--raio);
+  background: color-mix(in srgb, var(--cp-surface) 26%, transparent); overflow: hidden;
+}
+.acordeao > summary {
+  position: relative; cursor: pointer; list-style: none; padding: 15px 52px 15px 18px;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 14px;
+  font-family: var(--font-display); color: var(--cp-text);
+}
+.acordeao > summary::-webkit-details-marker { display: none; }
+.acordeao > summary::after {
+  content: "+"; position: absolute; right: 18px; top: 50%; transform: translateY(-50%);
+  font-size: 1.45rem; line-height: 1; color: var(--cor-tema);
+  transition: transform .25s ease;
+}
+.acordeao[open] > summary::after { transform: translateY(-50%) rotate(45deg); }
+.acordeao > summary:hover { background: color-mix(in srgb, var(--cor-tema) 7%, transparent); }
+.acordeao > summary:focus-visible { outline: 2px solid var(--cor-tema); outline-offset: -2px; }
+.acordeao__rotulo { font-size: 1.05rem; font-weight: 700; }
+.acordeao__dica { font-size: .8rem; font-weight: 400; color: var(--cp-text-soft); }
+.acordeao__corpo {
+  padding: 2px 18px 20px; border-top: 1px solid var(--borda);
+  animation: acordeaoAbre .3s ease;
+}
+@keyframes acordeaoAbre {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: none; }
+}
+.acordeao__corpo h3 { margin: 26px 0 8px; font-size: 1.06rem; }
+.acordeao__corpo h3:first-child { margin-top: 12px; }
+.acordeao__corpo p { max-width: 78ch; line-height: 1.7; }
+.acordeao__corpo .tabela { margin: 14px 0 6px; }
+
+
+.linhas li span { color: var(--cp-text-soft); }
+.linhas li a + span::before { content: " — "; }
+
+.leapspace__legenda { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; }
+.selo {
+  display: inline-block; font-size: .6rem; line-height: 1.5; letter-spacing: .06em;
+  text-transform: uppercase; padding: 1px 7px; border-radius: 999px;
+  border: 1px solid var(--borda); color: var(--cp-text-soft); white-space: nowrap;
+}
+.selo--aberto {
+  color: var(--cor-tema); font-weight: 700;
+  border-color: color-mix(in srgb, var(--cor-tema) 55%, transparent);
+}
+.selo--restrito { border-style: dashed; opacity: .8; }
+.selo--pt {
+  color: var(--cp-text); font-weight: 700;
+  background: color-mix(in srgb, var(--cor-tema) 16%, transparent);
+  border-color: color-mix(in srgb, var(--cor-tema) 35%, transparent);
+}
+.selo--es {
+  color: var(--cp-text-soft); font-style: italic;
+  border-color: color-mix(in srgb, var(--cp-text) 30%, transparent);
+}
+.selo--acervo {
+  color: var(--cp-text); font-weight: 700; text-decoration: none;
+  background: color-mix(in srgb, var(--cor-tema) 24%, transparent);
+  border-color: color-mix(in srgb, var(--cor-tema) 50%, transparent);
+}
+.selo--acervo:hover, .selo--acervo:focus-visible { text-decoration: underline; }
+.acordeao__corpo h4 { margin: 18px 0 6px; font-size: .95rem; }
+.acordeao__corpo ul { max-width: 78ch; padding-left: 1.2rem; }
+.acordeao__corpo li { margin-bottom: 6px; line-height: 1.6; }
+
+.leapspace__refs {
+  margin: 14px 0 0; padding-left: 1.5rem; display: grid; gap: 14px;
+  font-size: .82rem; line-height: 1.55;
+}
+.leapspace__refs li { margin: 0; }
+.leapspace__refs li::marker { color: var(--cor-tema); font-weight: 700; }
+.leapspace__ref-selos { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 3px; }
+.leapspace__ref-titulo {
+  display: block; color: var(--cp-text); font-weight: 600; text-decoration: none;
+}
+.leapspace__ref-titulo:hover, .leapspace__ref-titulo:focus-visible {
+  color: var(--cor-tema); text-decoration: underline;
+}
+.leapspace__veiculo { display: block; margin-top: 2px; font-size: .72rem; color: var(--cp-text-soft); }
+
+@media (max-width: 780px) {
+  .leapspace__painel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .acordeao__corpo { padding: 2px 14px 18px; }
+  .acordeao > summary { padding: 14px 46px 14px 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .acordeao__corpo { animation: none; }
+  .acordeao > summary::after { transition: none; }
 }
