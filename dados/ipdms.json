@@ -1,0 +1,59 @@
+[
+ {
+  "titulo": "Cadernos Insurgentes — n.1: o caso do MP/RS e o MST (2008)",
+  "serie": "Coleção Pedras e Galos",
+  "ano": "2013",
+  "descricao": "Estudo de caso da tentativa de dissolução do MST pelo Ministério Público do Rio Grande do Sul. Produção do IPDMS.",
+  "links": [
+   {"rotulo": "Ler no blog", "url": "https://assessoriajuridicapopular.blogspot.com/2013/11/cadernos-insurgentes-e-o-caso-do-mprs.html"},
+   {"rotulo": "Cadernos no IPDMS", "url": "https://ipdms.org.br/category/cadernos-insurgentes/"}
+  ]
+ },
+ {
+  "titulo": "Revista InSURgência",
+  "serie": "Periódico do IPDMS",
+  "ano": "2015–",
+  "descricao": "Revista de direitos e movimentos sociais, com dossiês sobre acesso à justiça, terra, moradia e teorias críticas.",
+  "links": [
+   {"rotulo": "Acessar a revista", "url": "https://periodicos.unb.br/index.php/insurgencia"},
+   {"rotulo": "Sobre a revista", "url": "https://ipdms.org.br/publicacoes/"}
+  ]
+ },
+ {
+  "titulo": "Anais dos Seminários do IPDMS",
+  "serie": "Seminários nacionais",
+  "ano": "2008–",
+  "descricao": "Trabalhos apresentados nos Seminários Direitos, Pesquisa e Movimentos Sociais, do I ao XI.",
+  "links": [
+   {"rotulo": "Ver os anais", "url": "https://ipdms.org.br/anais/"},
+   {"rotulo": "Seminários", "url": "https://ipdms.org.br/seminarios/"}
+  ]
+ },
+ {
+  "titulo": "XI Seminário — Venas abiertas",
+  "serie": "Seminário nacional",
+  "ano": "2026",
+  "descricao": "Pesquisas e insurgências na América Latina: programação, chamada e publicações do encontro.",
+  "links": [
+   {"rotulo": "Página do seminário", "url": "https://www.ipdms.org.br/xi-sn-ipdms/"}
+  ]
+ },
+ {
+  "titulo": "Publicações do IPDMS",
+  "serie": "Dossiês e relatórios",
+  "ano": "2018–",
+  "descricao": "Dossiês, relatórios e livros produzidos pelo instituto e seus grupos de trabalho.",
+  "links": [
+   {"rotulo": "Ver publicações", "url": "https://ipdms.org.br/publicacoes/"}
+  ]
+ },
+ {
+  "titulo": "Biblioteca do IPDMS",
+  "serie": "Acervo digital",
+  "ano": "—",
+  "descricao": "Materiais de formação, cartilhas e pesquisas reunidos pelo instituto.",
+  "links": [
+   {"rotulo": "Abrir a biblioteca", "url": "https://www.ipdms.org.br/biblioteca-2/"}
+  ]
+ }
+]

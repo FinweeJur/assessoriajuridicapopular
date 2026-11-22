@@ -2388,3 +2388,37 @@ a.cartao, .item__link, .destaque, .bento__item {
 .tese__acoes { display: flex; flex-wrap: wrap; gap: 8px; margin: auto 0 0; padding-top: 8px; }
 .tese__acoes .botao { padding: 8px 12px; font-size: .8rem; }
 
+/* ── Fonte no blog, publicações e colunistas ────────────────────────────── */
+.colecao__fonte { margin: 10px 0 0; font-size: .78rem; }
+.colecao__fonte a { color: var(--cor-tema); font-weight: 700; }
+
+.lista-publicacoes {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  gap: 14px; margin: 0; padding: 0; list-style: none;
+}
+.publicacao { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; }
+.publicacao h3 { margin: 0; font-size: 1rem; line-height: 1.35; }
+.publicacao p { margin: 0; font-size: .84rem; color: var(--cp-text-soft); }
+.publicacao__acoes { display: flex; flex-wrap: wrap; gap: 8px; margin: auto 0 0 !important; padding-top: 10px; }
+.publicacao__acoes .botao { padding: 8px 12px; font-size: .78rem; }
+
+.lista-colunistas {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 14px; margin: 0; padding: 0; list-style: none;
+}
+.colunista {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  gap: 4px; padding: 20px 16px;
+}
+.colunista img {
+  width: 96px; height: 96px; border-radius: 50%; object-fit: cover;
+  margin: 0 auto 8px; border: 2px solid var(--borda); background: var(--cp-surface);
+}
+.colunista h3 { margin: 0; font-size: 1rem; }
+.colunista p { margin: 0; font-size: .78rem; color: var(--cp-text-soft); line-height: 1.5; }
+.colunista__acao { margin-top: 8px; font-size: .72rem; letter-spacing: .05em; text-transform: uppercase; color: var(--cor-tema); }
+.autor-hero__foto {
+  width: 96px; height: 96px; border-radius: 50%; object-fit: cover;
+  display: block; margin: 0 auto 14px; border: 2px solid var(--borda);
+}
+

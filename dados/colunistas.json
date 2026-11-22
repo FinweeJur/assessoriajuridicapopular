@@ -1,0 +1,37 @@
+[
+ {
+  "nome": "Jacques Távora Alfonsin",
+  "slug": "",
+  "foto": "fotos/autores/jacques-alfonsin.jpg",
+  "bio": "Advogado popular na Acesso — Cidadania e Direitos Humanos, Porto Alegre-RS.",
+  "blog": "https://assessoriajuridicapopular.blogspot.com/search/label/Jacques%20Alfonsin"
+ },
+ {
+  "nome": "Miguel Lanzellotti Baldez",
+  "slug": "",
+  "foto": "fotos/autores/miguel-baldez.jpg",
+  "bio": "Advogado popular no Instituto de Estudos Críticos do Direito, Rio de Janeiro-RJ.",
+  "blog": "https://assessoriajuridicapopular.blogspot.com/search/label/Miguel%20Bald%C3%A9z"
+ },
+ {
+  "nome": "Tchenna Maso",
+  "slug": "autor-tchenna-maso.html",
+  "foto": "fotos/autores/tchenna-maso.jpg",
+  "bio": "Advogada popular, militante do MAB, mestranda em América Latina na UNILA.",
+  "blog": "https://assessoriajuridicapopular.blogspot.com/search/label/Tchenna%20Maso"
+ },
+ {
+  "nome": "Luiz Otávio Ribas",
+  "slug": "autor-luiz-otavio-ribas.html",
+  "foto": "fotos/autores/luiz-otavio-ribas.jpg",
+  "bio": "Professor e conselheiro no IPDMS, Rio de Janeiro-RJ.",
+  "blog": "https://assessoriajuridicapopular.blogspot.com/search/label/Luiz%20Ot%C3%A1vio"
+ },
+ {
+  "nome": "Ricardo Prestes Pazello",
+  "slug": "autor-ricardo-prestes-pazello.html",
+  "foto": "fotos/autores/ricardo-pazello.jpg",
+  "bio": "Professor e secretário no IPDMS, Curitiba-PR.",
+  "blog": "https://assessoriajuridicapopular.blogspot.com/search/label/Coluna%20Prestes"
+ }
+]

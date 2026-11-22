@@ -24,6 +24,14 @@ indice = {r["slug"]: r for r in json.load(io.open(os.path.join(RAIZ, "_indice.js
 
 
 def pagina(slug, titulo, ativo, lead, corpo):
+    if ativo == "memoria":
+        trilha = ('<a href="index.html">Início</a> <span aria-hidden="true">/</span> '
+                  '<span aria-current="page">Memória</span>')
+    else:
+        trilha = ('<a href="index.html">Início</a> <span aria-hidden="true">/</span> '
+                  '<a href="indice.html">Coleções</a> <span aria-hidden="true">/</span> '
+                  '<span aria-current="page">%s</span>' % esc(titulo))
+    migalha = '<nav class="migalha" aria-label="Você está em">%s</nav>' % trilha
     return """<!DOCTYPE html>
 <html lang="pt-BR" data-theme="pequi">
 <head>
@@ -36,8 +44,8 @@ def pagina(slug, titulo, ativo, lead, corpo):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=91" />
-  <link rel="stylesheet" href="reveal.css?v=91" />
+  <link rel="stylesheet" href="acervo.css?v=92" />
+  <link rel="stylesheet" href="reveal.css?v=92" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -45,6 +53,7 @@ def pagina(slug, titulo, ativo, lead, corpo):
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 %s
 <main id="conteudo">
+  %s
   <section class="hero hero--texto colecao-hero">
     <div class="hero__interno">
       <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Coleção</p>
@@ -63,7 +72,7 @@ def pagina(slug, titulo, ativo, lead, corpo):
 <script src="fundo-grade.js?v=6" defer></script>
 </body>
 </html>
-""" % (esc(titulo), esc(lead), ms.topo(ativo), esc(titulo), esc(lead), corpo, ms.rodape())
+""" % (esc(titulo), esc(lead), ms.topo(ativo), migalha, esc(titulo), esc(lead), corpo, ms.rodape())
 
 
 def cartao_post(slug, nota=""):
@@ -80,12 +89,20 @@ def cartao_post(slug, nota=""):
                esc(r.get("autor") or "Acervo AJP"), esc(nota))
 
 
-def cartao_link(url, titulo, desc, tag="Acervo"):
-    return """<a class="cartao destaque colecao__post" href="%s">
+def cartao_link(url, titulo, desc, tag="Acervo", fonte=""):
+    externo = ' target="_blank" rel="noopener"' if url.startswith("http") else ""
+    if fonte:
+        return """<div class="cartao destaque colecao__post">
+      <span class="etiqueta">%s</span>
+      <h3><a href="%s"%s>%s</a></h3>
+      <p>%s</p>
+      <p class="colecao__fonte"><a href="%s" target="_blank" rel="noopener">No blog original ↗</a></p>
+    </div>""" % (esc(tag), esc(url), externo, esc(titulo), esc(desc), esc(fonte))
+    return """<a class="cartao destaque colecao__post" href="%s"%s>
       <span class="etiqueta">%s</span>
       <h3>%s</h3>
       <p>%s</p>
-    </a>""" % (esc(url), esc(tag), esc(titulo), esc(desc))
+    </a>""" % (esc(url), externo, esc(tag), esc(titulo), esc(desc))
 
 
 def memoria():
@@ -183,7 +200,7 @@ def biblioteca():
     blocos = []
     ids = {"Acervo": "acervo", "Obra": "obra", "Dossiê": "dossie"}
     for tipo in ("Acervo", "Obra", "Dossiê"):
-        cards = "".join(cartao_link(i["url"], i["titulo"], i["descricao"], tipo) for i in grupos.get(tipo, []))
+        cards = "".join(cartao_link(i["url"], i["titulo"], i["descricao"], tipo, i.get("fonte", "")) for i in grupos.get(tipo, []))
         ident = ids[tipo]
         blocos.append("""<section class="secao" id="%s" aria-labelledby="%s-titulo">
           <div class="secao__cabeca"><h2 id="%s-titulo">%s</h2>
@@ -198,6 +215,9 @@ def biblioteca():
     <p class="colecao__nota">Esta página separa <b>obras</b> de <b>posts sobre obras</b>.
     Há 111 resenhas no acervo, mas nem toda resenha é uma obra acadêmica. Os PDFs e
     textos completos permanecem nos sites de origem, quando disponíveis.</p>
+    <p class="colecao__nota">As bibliotecas abaixo vêm da página
+    <a href="https://assessoriajuridicapopular.blogspot.com/p/bibliotecas.html" target="_blank" rel="noopener">Bibliotecas</a>
+    do blog original. Cada cartão leva ao acervo no site e, quando existe, à página de origem.</p>
     %s
     <section class="secao" aria-labelledby="busca-titulo">
       <div class="secao__cabeca"><h2 id="busca-titulo">Como procurar</h2></div>

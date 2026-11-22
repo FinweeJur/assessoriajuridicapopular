@@ -46,7 +46,7 @@ secoes = [
 colecoes = [
     ("memoria.html", "Memória", "acontecimentos, publicações por ano e efemérides"),
     ("formacao.html", "Formação", "seis trilhas, mais citações, recomendações e glossário"),
-    ("biblioteca.html", "Biblioteca", "artigos, monografias, dissertações e teses"),
+    ("biblioteca.html", "Biblioteca", "artigos, teses, cadernos da RENAP e produções do IPDMS"),
     ("cultura.html", "Cultura", "poesia, cinema, teatro, música e documentários — com Poemas e Mística"),
     ("assessoria-juridica-popular-no-mundo.html", "AJP pelo mundo",
      "Brasil, América Latina e panorama da pesquisa (154 referências)"),
@@ -172,8 +172,8 @@ pagina = """<!DOCTYPE html>
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=91" />
-  <link rel="stylesheet" href="reveal.css?v=91" />
+  <link rel="stylesheet" href="acervo.css?v=92" />
+  <link rel="stylesheet" href="reveal.css?v=92" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>

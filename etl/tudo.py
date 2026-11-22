@@ -36,6 +36,8 @@ def main():
     roda("monta-indice.py")        # indice wiki do site
     roda("marca-subnavs.py")       # subnavegacao dos hubs (Blog, Autores, Poemas, Mística, Citações)
     roda("marca-teses.py")          # teses e dissertações do Catálogo CAPES
+    roda("marca-publicacoes.py")    # IPDMS e Cadernos da RENAP
+    roda("marca-autores.py")        # fotos dos colunistas
     roda("alinha-capa.py")         # topo e rodapé da capa
     roda("atualiza-indice.py")     # lista da capa
     print("\npronto")
