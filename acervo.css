@@ -1131,10 +1131,6 @@ a.cartao:hover, a.cartao:focus-visible,
 .radio-flut, .assistente {
   transition: opacity .25s ease, transform .25s ease, visibility .25s ease;
 }
-body[data-comeco="true"] .radio-flut,
-body[data-comeco="true"] .assistente {
-  opacity: 0; visibility: hidden; transform: translateY(10px); pointer-events: none;
-}
 @media (prefers-reduced-motion: reduce) {
   .radio-flut, .assistente { transition: none; }
 }
@@ -2455,3 +2451,73 @@ a.cartao, .item__link, .destaque, .bento__item {
 .mapa__grupos .linhas { margin: 0; padding-left: 1.1rem; }
 .mapa__grupos .linhas li { margin-bottom: 6px; font-size: .88rem; }
 
+/* ── Busca expansível da navbar ─────────────────────────────────────────── */
+.topo__busca { position: relative; display: flex; align-items: center; }
+.topo__busca-botao {
+  width: 40px; height: 40px; display: grid; place-items: center; cursor: pointer;
+  border: 1px solid var(--borda); border-radius: 10px;
+  background: var(--cp-surface); color: var(--cp-text);
+}
+.topo__busca-botao:hover, .topo__busca-botao:focus-visible { border-color: var(--cor-tema); color: var(--cor-tema); }
+.topo__busca-botao .ico { width: 17px; height: 17px; }
+.topo__busca-form {
+  display: none; align-items: center; gap: 6px;
+  position: absolute; right: calc(100% + 8px); top: 50%; transform: translateY(-50%);
+  width: min(21rem, 46vw); padding: 4px 4px 4px 12px;
+  border: 1px solid var(--cor-tema); border-radius: 10px;
+  background: var(--cp-bg); box-shadow: 0 10px 28px rgba(0, 0, 0, .28);
+}
+.topo__busca[data-aberto="true"] .topo__busca-form { display: flex; }
+.topo__busca-form input {
+  flex: 1; min-width: 0; border: 0; outline: 0; background: transparent;
+  color: var(--cp-text); font: inherit; font-size: .85rem; height: 34px;
+}
+.topo__busca-form button {
+  min-height: 34px; padding: 0 12px; border: 0; border-radius: 8px; cursor: pointer;
+  background: var(--cor-tema); color: var(--cp-bg); font: inherit; font-size: .78rem; font-weight: 700;
+}
+@media (max-width: 880px) {
+  .topo__busca-form {
+    position: fixed; left: 10px; right: 10px; top: 68px; transform: none;
+    width: auto; z-index: 60;
+  }
+}
+.assistente__item .assistente__trecho {
+  margin: 4px 0 0; font-size: .76rem; line-height: 1.5; color: var(--cp-text-soft);
+}
+.assistente__nota a { color: var(--cor-tema); }
+
+/* ── Responsivo: busca na mesma linha e subnav com quebra ──────────────── */
+@media (max-width: 880px) {
+  .topo__interno {
+    grid-template-columns: minmax(0, 1fr) auto auto auto auto;
+    grid-template-areas: "marca busca tema mais abrir";
+  }
+  .topo__busca { grid-area: busca; }
+}
+@media (max-width: 360px) {
+  .topo__interno { gap: 4px; }
+  .topo__tema select { max-width: 88px; }
+}
+@media (max-width: 760px) {
+  .subnav { flex-wrap: wrap; overflow: visible; }
+  .casca-rolagem { top: 30%; bottom: auto; }
+}
+
+/* Aberto pelo +, o painel aparece mesmo no topo da página */
+body[data-comeco=true] .assistente[data-aberto=true],
+body[data-comeco=true] .radio-flut[data-aberto=true] {
+  opacity: 1; visibility: visible; transform: none; pointer-events: auto;
+}
+
+body[data-comeco=true] .assistente[data-aberto=true],
+body[data-comeco=true] .radio-flut[data-aberto=true] {
+  opacity: 1 !important; visibility: visible !important;
+  transform: none !important; pointer-events: auto !important;
+}
+
+/* So o + visivel: radio e chatbot dentro do menu */
+.radio-flut__botao, .assistente__botao { display: none !important; }
+.radio-flut, .assistente, .casca-rolagem, .casca-dial { pointer-events: none; }
+.radio-flut__painel, .assistente__painel,
+.casca-rolagem button, .casca-dial__acoes, .casca-dial__botao { pointer-events: auto; }

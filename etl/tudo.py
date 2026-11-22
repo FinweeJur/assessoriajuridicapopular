@@ -34,6 +34,7 @@ def main():
     roda("monta-colecoes.py")       # páginas das coleções
     roda("monta-leapspace.py")     # panorama no comparado
     roda("marca-subnavs.py")       # subnavegacao dos hubs (Blog, Autores, Poemas, Mística, Citações)
+    roda("monta-rag.py")          # indice de recuperacao do chatbot
     roda("marca-teses.py")          # teses e dissertações do Catálogo CAPES
     roda("marca-publicacoes.py")    # IPDMS e Cadernos da RENAP
     roda("marca-autores.py")        # fotos dos colunistas

@@ -24,12 +24,23 @@
       '<button type="button" data-dial-topo style="--i:0"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg> Topo</button>' +
       '<button type="button" data-dial-descer style="--i:1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg> Descer</button>' +
       terceira +
+      '<button type="button" data-dial-radio style="--i:3"><span aria-hidden="true">📻</span> Rádio</button>' +
+      '<button type="button" data-dial-perguntar style="--i:4"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg> Perguntar</button>' +
       '</div>' +
       '<button class="casca-dial__botao" type="button" data-dial-toggle aria-expanded="false" aria-label="Ações da página">' +
       '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>';
     document.body.appendChild(dial);
 
     var botaoDial = dial.querySelector('[data-dial-toggle]');
+
+    function rolaPara(y) {
+      var html = document.documentElement;
+      var antes = html.style.scrollBehavior;
+      html.style.scrollBehavior = 'auto';
+      window.scrollTo(0, y);
+      html.style.scrollBehavior = antes;
+    }
+
     function fechaDial() {
       dial.dataset.aberto = 'false';
       botaoDial.setAttribute('aria-expanded', 'false');
@@ -47,11 +58,22 @@
     });
 
     dial.querySelector('[data-dial-topo]').addEventListener('click', function () {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      rolaPara(0);
       fechaDial();
     });
     dial.querySelector('[data-dial-descer]').addEventListener('click', function () {
-      window.scrollBy({ top: window.innerHeight * 0.85, behavior: 'smooth' });
+      rolaPara(window.scrollY + Math.round(window.innerHeight * 0.85));
+      fechaDial();
+    });
+
+    dial.querySelector('[data-dial-radio]').addEventListener('click', function () {
+      var b = document.querySelector('[data-radio-toggle]');
+      if (b) { b.click(); }
+      fechaDial();
+    });
+    dial.querySelector('[data-dial-perguntar]').addEventListener('click', function () {
+      var b = document.querySelector('[data-assistente-toggle]');
+      if (b) { b.click(); }
       fechaDial();
     });
     if (busca) {
@@ -75,12 +97,8 @@
       });
     }
 
-    function avaliaDial() {
-      dial.dataset.visivel = window.scrollY > 240 ? 'true' : 'false';
-    }
-    window.addEventListener('scroll', avaliaDial, { passive: true });
-    window.addEventListener('resize', avaliaDial);
-    avaliaDial();
+    // O + fica sempre visível: é a porta do rádio e do chatbot.
+    dial.dataset.visivel = 'true';
   }
 
   // ── Barra global de busca, filtro e ordem ────────────────────────────────
@@ -152,6 +170,52 @@
     });
   })();
 
+
+  // ── Busca expansível na barra do topo ────────────────────────────────────
+  (function buscaTopo() {
+    var interno = document.querySelector('.topo__interno');
+    if (!interno || interno.querySelector('[data-topo-busca]')) { return; }
+    var caixa = document.createElement('div');
+    caixa.className = 'topo__busca';
+    caixa.setAttribute('data-topo-busca', '');
+    caixa.innerHTML =
+      '<button type="button" class="topo__busca-botao" data-topo-busca-toggle aria-expanded="false" aria-controls="topo-busca-form" aria-label="Buscar no acervo">' +
+      '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>' +
+      '<form class="topo__busca-form" id="topo-busca-form" role="search" action="acervo.html">' +
+      '<input type="search" name="q" placeholder="Buscar no acervo" aria-label="Buscar no acervo" autocomplete="off" />' +
+      '<button type="submit" aria-label="Buscar">Ir</button></form>';
+    var tema = interno.querySelector('.topo__tema');
+    interno.insertBefore(caixa, tema || null);
+
+    var botao = caixa.querySelector('[data-topo-busca-toggle]');
+    var form = caixa.querySelector('.topo__busca-form');
+    var campo = form.querySelector('input');
+    function abre() {
+      caixa.dataset.aberto = 'true';
+      botao.setAttribute('aria-expanded', 'true');
+      window.setTimeout(function () { campo.focus(); }, 60);
+    }
+    function fecha() {
+      caixa.dataset.aberto = 'false';
+      botao.setAttribute('aria-expanded', 'false');
+    }
+    botao.addEventListener('click', function () {
+      if (caixa.dataset.aberto === 'true') { fecha(); } else { abre(); }
+    });
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var termo = campo.value.trim();
+      if (!termo) { campo.focus(); return; }
+      window.location.href = 'acervo.html?q=' + encodeURIComponent(termo) + '#lista-acervo';
+    });
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape') { fecha(); }
+    });
+    document.addEventListener('click', function (ev) {
+      if (!caixa.contains(ev.target)) { fecha(); }
+    });
+  })();
+
   // ── Subir/descer sempre visíveis na lateral direita ─────────────────────
   (function rolagemLateral() {
     if (document.querySelector('[data-rolagem]')) { return; }
@@ -166,11 +230,18 @@
         '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>' +
       '</button>';
     document.body.appendChild(caixa);
+    function rolaLateral(y) {
+      var html = document.documentElement;
+      var antes = html.style.scrollBehavior;
+      html.style.scrollBehavior = 'auto';
+      window.scrollTo(0, y);
+      html.style.scrollBehavior = antes;
+    }
     caixa.querySelector('[data-rolagem-subir]').addEventListener('click', function () {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      rolaLateral(0);
     });
     caixa.querySelector('[data-rolagem-descer]').addEventListener('click', function () {
-      window.scrollBy({ top: Math.round(window.innerHeight * 0.85), behavior: 'smooth' });
+      rolaLateral(window.scrollY + Math.round(window.innerHeight * 0.85));
     });
   })();
 
@@ -193,7 +264,7 @@
       '<label class="assistente__tema"><span>Tema</span>' +
       '<select data-assistente-tema aria-label="Tema do site"></select></label>' +
       '</div>' +
-      '<p class="assistente__nota">Busca nos 713 textos e devolve trechos com autor, ano e link. A resposta em texto com IA depende de um serviço à parte.</p>' +
+      '<p class="assistente__nota">Busca nos 713 textos e devolve trechos com autor, ano e link. <a href="dados/prompt-ia.md" target="_blank" rel="noopener">Como respondo</a>.</p>' +
       '<form class="assistente__form"><label class="sr-only" for="assistente-campo">Sua pergunta</label>' +
       '<input id="assistente-campo" type="search" placeholder="Ex.: o que é assessoria jurídica popular?" autocomplete="off" />' +
       '<button type="submit">Buscar</button></form>' +
@@ -286,62 +357,86 @@
       return (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
     };
 
-    function carrega() {
-      if (indice) { return Promise.resolve(indice); }
-      return fetch('_indice.json').then(function (r) { return r.json(); })
-        .then(function (d) { indice = d; return d; })
-        .catch(function () { indice = []; return indice; });
+    var rag = null;
+    function carregaRag() {
+      if (rag) { return Promise.resolve(rag); }
+      return fetch('dados/rag.json').then(function (r) { return r.json(); })
+        .then(function (d) { rag = d; return d; })
+        .catch(function () { rag = []; return rag; });
+    }
+
+    function trecho(texto, termos) {
+      var baixo = semAcento(texto);
+      var pos = -1;
+      termos.forEach(function (t) {
+        var i = baixo.indexOf(t);
+        if (pos < 0 || (i > -1 && i < pos)) { pos = i; }
+      });
+      if (pos < 0) { pos = 0; }
+      var ini = Math.max(0, pos - 120);
+      var fim = Math.min(texto.length, ini + 290);
+      return (ini > 0 ? '… ' : '') + texto.slice(ini, fim).trim() + (fim < texto.length ? ' …' : '');
     }
 
     function busca(pergunta) {
       var termos = semAcento(pergunta).split(/[^a-z0-9]+/).filter(function (t) { return t.length > 2; });
-      return carrega().then(function (dados) {
+      return carregaRag().then(function (dados) {
         return dados.map(function (r) {
-          var alvo = semAcento([r.titulo, r.resumo, r.autor, (r.temas || []).join(' '), (r.palavras || []).join(' ')].join(' '));
+          var alvo = semAcento([r.titulo, r.autor, (r.temas || []).join(' '), r.texto].join(' '));
           var nota = 0;
           termos.forEach(function (t) {
             var n = alvo.split(t).length - 1;
-            if (n) { nota += n * (t.length > 4 ? 3 : 1); }
-            if (semAcento(r.titulo || '').indexOf(t) > -1) { nota += 6; }
+            if (n) { nota += Math.min(n, 6) * (t.length > 4 ? 3 : 1); }
+            if (semAcento(r.titulo || '').indexOf(t) > -1) { nota += 8; }
           });
           return { r: r, nota: nota };
         }).filter(function (x) { return x.nota > 0; })
           .sort(function (a, b) { return b.nota - a.nota; })
-          .slice(0, 6)
-          .map(function (x) { return x.r; });
+          .slice(0, 4)
+          .map(function (x) { return { r: x.r, termos: termos }; });
       });
     }
 
-    function itemHtml(r) {
-      var titulo = (r.titulo || '').replace(/[&<>"]/g, function (c) {
-        return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c];
-      });
+    function itemHtml(x) {
+      var r = x.r;
+      var titulo = escapa(r.titulo || '');
       return '<li class="assistente__item"><a href="' + r.slug + '.html">' + titulo + '</a>' +
-        '<span>' + (r.autor || '') + ' · ' + (r.ano || '') + ' · ' + (r.tema || '') + '</span></li>';
+        '<span>' + escapa(r.autor || '') + ' · ' + escapa(r.ano || '') + ' · ' + escapa(r.tema || '') + '</span>' +
+        '<p class="assistente__trecho">' + escapa(trecho(r.texto || '', x.termos)) + '</p></li>';
     }
 
     painel.querySelector('[data-assistente-toggle]').addEventListener('click', function () {
       var aberto = painel.dataset.aberto === 'true';
       painel.dataset.aberto = String(!aberto);
       this.setAttribute('aria-expanded', String(!aberto));
+      var d = document.querySelector('.casca-dial');
+      if (d) { d.dataset.visivel = aberto ? 'true' : 'false'; }
       if (!aberto) { campo.focus(); }
     });
     painel.querySelector('[data-assistente-fechar]').addEventListener('click', function () {
       painel.dataset.aberto = 'false';
       painel.querySelector('[data-assistente-toggle]').setAttribute('aria-expanded', 'false');
+      var d = document.querySelector('.casca-dial');
+      if (d) { d.dataset.visivel = 'true'; }
     });
     painel.querySelector('.assistente__form').addEventListener('submit', function (ev) {
       ev.preventDefault();
       var pergunta = campo.value.trim();
       if (!pergunta) { return; }
-      status.textContent = 'Procurando…';
+      var alvo = semAcento(pergunta);
+      var curada = curadas.filter(function (q) {
+        var p = semAcento(q.pergunta);
+        return p.indexOf(alvo) > -1 || alvo.indexOf(p) > -1;
+      })[0];
+      if (curada) { mostraCurada(curada); return; }
+      status.textContent = 'Procurando nos textos…';
       lista.innerHTML = '';
       busca(pergunta).then(function (achados) {
         if (!achados.length) {
-          status.textContent = 'Não achei nada com essas palavras. Tente outra palavra ou use a busca da capa.';
+          status.textContent = 'Não achei isso no acervo. Tente outra palavra ou use a busca.';
           return;
         }
-        status.textContent = achados.length + ' trechos com fonte.';
+        status.textContent = achados.length + ' trechos com fonte. Sem geração livre.';
         lista.innerHTML = achados.map(itemHtml).join('');
       });
     });
