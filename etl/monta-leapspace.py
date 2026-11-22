@@ -425,7 +425,7 @@ def monta_pagina(refs):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=83" />
+  <link rel="stylesheet" href="acervo.css?v=85" />
   <link rel="stylesheet" href="reveal.css?v=82" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />

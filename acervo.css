@@ -1453,18 +1453,19 @@ a.cartao, .item__link, .destaque, .bento__item {
 .topo__busca-movel input::placeholder { color: var(--cp-text-soft); }
 
 @media (max-width: 880px) {
+  /* Uma linha: marca ocupa a sobra, controles ficam à direita */
   .topo__interno {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto auto;
-    grid-template-areas:
-      "marca marca abrir"
-      "busca tema mais";
+    grid-template-columns: minmax(0, 1fr) auto auto auto;
+    grid-template-areas: "marca tema mais abrir";
+    align-items: center;
     gap: 8px;
     padding: 10px 16px;
   }
-  .topo__marca { grid-area: marca; }
+  .topo__marca { grid-area: marca; min-width: 0; }
   .topo__abrir { grid-area: abrir; display: grid !important; margin-left: auto !important; width: 40px; height: 40px; }
-  .topo__busca-movel { grid-area: busca; display: flex; }
+  /* A busca já existe na barra logo abaixo (global ou fita): não repete no topo */
+  .topo__busca-movel { display: none !important; }
   .topo .topo__tema { grid-area: tema; display: inline-flex !important; }
   .topo .topo__leitura { grid-area: mais; display: inline-flex !important; margin-left: 0; justify-self: end; }
   .topo__tema label { display: none; }
