@@ -2362,3 +2362,22 @@ a.cartao, .item__link, .destaque, .bento__item {
   .refs-eixo__selos { display: flex; margin: 3px 0 0; }
 }
 
+/* ── Teses e dissertações (Catálogo CAPES) ──────────────────────────────── */
+.lista-teses {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 14px; margin: 0; padding: 0; list-style: none;
+}
+.tese { display: flex; flex-direction: column; gap: 5px; padding: 16px 18px; }
+.tese .etiqueta { margin-bottom: 2px; }
+.tese h3 { margin: 0; font-size: 1.02rem; line-height: 1.35; }
+.tese__autoria { margin: 0; font-size: .82rem; color: var(--cp-text-soft); }
+.tese__temas { display: flex; flex-wrap: wrap; gap: 4px; margin: 2px 0 0; }
+.tese__temas span {
+  font-size: .64rem; letter-spacing: .05em; text-transform: uppercase;
+  padding: 2px 6px; border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--cor-tema) 40%, transparent);
+  color: var(--cor-tema);
+}
+.tese__acoes { display: flex; flex-wrap: wrap; gap: 8px; margin: auto 0 0; padding-top: 8px; }
+.tese__acoes .botao { padding: 8px 12px; font-size: .8rem; }
+

@@ -35,6 +35,7 @@ def main():
     roda("monta-leapspace.py")     # panorama no comparado
     roda("monta-indice.py")        # indice wiki do site
     roda("marca-subnavs.py")       # subnavegacao dos hubs (Blog, Autores, Poemas, Mística, Citações)
+    roda("marca-teses.py")          # teses e dissertações do Catálogo CAPES
     roda("alinha-capa.py")         # topo e rodapé da capa
     roda("atualiza-indice.py")     # lista da capa
     print("\npronto")

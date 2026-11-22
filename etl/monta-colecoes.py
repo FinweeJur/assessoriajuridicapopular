@@ -36,8 +36,8 @@ def pagina(slug, titulo, ativo, lead, corpo):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=89" />
-  <link rel="stylesheet" href="reveal.css?v=89" />
+  <link rel="stylesheet" href="acervo.css?v=90" />
+  <link rel="stylesheet" href="reveal.css?v=90" />
   <link rel="stylesheet" href="componentes/radio.css" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
