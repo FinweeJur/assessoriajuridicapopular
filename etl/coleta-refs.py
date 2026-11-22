@@ -22,6 +22,24 @@ META = os.path.join(RAIZ, "dados", "leapspace-meta.json")
 EMAIL = "colito2023@gmail.com"
 UA = "finweejur/github artur colito"
 
+# Referências específicas de cada eixo do panorama (ids do LeapSpace)
+EIXOS_POR_ID = {
+    "ajup": {"3", "35", "49", "50", "51", "52", "53", "54", "55", "61"},
+    "direito-achado-na-rua": {"3", "55", "56", "57", "58", "59", "60", "61",
+                              "62", "63", "64", "65", "66", "67"},
+    "direito-insurgente": {"55", "68", "69", "70", "71", "72", "73", "74", "75",
+                           "76", "77", "78", "79", "80", "81", "82", "83", "84",
+                           "85", "86", "87"},
+    "uso-tatico": {"55", "56", "68", "70", "99", "100", "101", "102", "103",
+                   "104", "105", "106", "107", "108", "109", "110", "111",
+                   "112", "113"},
+    "positivismo-de-combate": {"88", "89", "90", "91", "92", "93", "94", "95",
+                               "96", "97", "98"},
+    "advocacia-popular": ({"3", "8", "35", "42", "43", "55", "58", "61"}
+                          | {str(n) for n in range(114, 139)}),
+    "pesquisa-socialmente-orientada": {"p%d" % n for n in range(1, 17)},
+}
+
 STOP_PT = {
     "o", "a", "os", "as", "de", "da", "do", "das", "dos", "e", "em", "para", "por",
     "com", "na", "no", "nas", "nos", "um", "uma", "ao", "à", "às", "aos", "sobre",
@@ -216,6 +234,10 @@ def main():
 
     final = []
     mapa = autores_do_acervo()
+    try:
+        urls_docx = {r["url"].lower().rstrip("/") for r in do_docx()}
+    except Exception:  # noqa: BLE001
+        urls_docx = set()
     for r in refs:
         doi = pega_doi(r["url"])
         d = cache.get(doi, {}) if doi else {}
@@ -250,6 +272,10 @@ def main():
             "ano": d.get("ano", ""),
             "acervo_autor": (autor or {}).get("nome", ""),
             "acervo_url": ("autor-%s.html" % autor["slug"]) if autor else "",
+            "eixos": (["ajp-brasil"]
+                      if r["url"].lower().rstrip("/") in urls_docx else [])
+                     + [eixo for eixo, ids in EIXOS_POR_ID.items()
+                        if r.get("id") in ids],
         })
 
     ordem_idioma = {"pt": 0, "es": 1}

@@ -312,7 +312,24 @@ def lista_refs(refs):
     return "\n".join(itens)
 
 
-def secoes_html():
+def refs_eixo_html(refs, eixo):
+    """Lista curta das referências citadas dentro de um eixo."""
+    lista = [r for r in refs if eixo in (r.get("eixos") or [])]
+    if not lista:
+        return ""
+    itens = "".join(
+        '<li><a class="refs-eixo__titulo" href="%s" target="_blank" rel="noopener">%s</a>'
+        '<span class="refs-eixo__selos">%s</span></li>'
+        % (esc(r.get("url_aberta") or r["url"]), esc(r["titulo"]), selos(r))
+        for r in lista
+    )
+    return ('<h4>Referências deste eixo</h4>'
+            '<p class="colecao__nota">%d referências citadas nesta síntese. '
+            'A lista completa, com todos os %d itens, está no fim do panorama.</p>'
+            '<ol class="refs-eixo">%s</ol>' % (len(lista), len(refs), itens))
+
+
+def secoes_html(refs):
     """Os oito eixos em acordeões, reaproveitados na página e no panorama."""
     secoes = []
     for s in CONTEUDO:
@@ -327,6 +344,7 @@ def secoes_html():
                                                     "".join("<li>%s</li>" % esc(i) for i in itens)))
         if s.get("nota"):
             corpo.append('<p class="colecao__nota">%s</p>' % esc(s["nota"]))
+        corpo.append(refs_eixo_html(refs, s["id"]))
         secoes.append(
             '<details class="acordeao" id="%s"><summary><span class="acordeao__rotulo">%s</span>'
             '<span class="acordeao__dica">%s</span></summary>'
@@ -387,7 +405,7 @@ def bloco_panorama(refs):
       <a href="dados/panorama-pesquisa.md">panorama completo em Markdown</a>,
       <a href="dados/panorama/advocacia-popular.md">advocacia popular</a> e
       <a href="dados/panorama/pesquisa-socialmente-orientada.md">pesquisa socialmente orientada</a>.</p>
-    </section>""" % (esc(NOTA_IA), total, abertos, em_pt, sumario, secoes_html(),
+    </section>""" % (esc(NOTA_IA), total, abertos, em_pt, sumario, secoes_html(refs),
                     total, abertos, em_pt, em_es, no_acervo, total, lista_refs(refs))
 
 

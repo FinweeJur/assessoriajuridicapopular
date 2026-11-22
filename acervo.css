@@ -2347,3 +2347,18 @@ a.cartao, .item__link, .destaque, .bento__item {
 .definicao p { max-width: 74ch; line-height: 1.75; }
 .definicao p + p { margin-top: 1em; }
 
+/* ── Referências dentro de cada eixo do panorama ────────────────────────── */
+.refs-eixo {
+  display: grid; gap: 8px; margin: 10px 0 6px; padding-left: 1.3rem;
+  font-size: .8rem; line-height: 1.5;
+}
+.refs-eixo li::marker { color: var(--cor-tema); }
+.refs-eixo__titulo { color: var(--cp-text); font-weight: 600; text-decoration: none; }
+.refs-eixo__titulo:hover, .refs-eixo__titulo:focus-visible {
+  color: var(--cor-tema); text-decoration: underline;
+}
+.refs-eixo__selos { display: inline-flex; flex-wrap: wrap; gap: 4px; margin-left: 6px; vertical-align: middle; }
+@media (max-width: 760px) {
+  .refs-eixo__selos { display: flex; margin: 3px 0 0; }
+}
+

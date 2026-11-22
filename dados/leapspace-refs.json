@@ -12,7 +12,10 @@
   "veiculo": "Veredas do Direito",
   "ano": "2021",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "61",
@@ -27,7 +30,12 @@
   "veiculo": "Revista de Estudos Constitucionais, Hermenêutica e Teoria do Direito",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajup",
+   "direito-achado-na-rua",
+   "advocacia-popular"
+  ]
  },
  {
   "id": "82",
@@ -42,7 +50,10 @@
   "veiculo": "Revista Brasileira de Políticas Públicas",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "135",
@@ -57,7 +68,10 @@
   "veiculo": "Interface - Comunicação, Saúde, Educação",
   "ano": "2014",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -72,7 +86,10 @@
   "veiculo": "Revista Pedagogía Universitaria y Didáctica del  Derecho",
   "ano": "2024",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "64",
@@ -87,7 +104,10 @@
   "veiculo": "Praxis Educativa",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "103",
@@ -102,7 +122,10 @@
   "veiculo": "Revista Opinião Jurídica (Fortaleza)",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "",
@@ -117,7 +140,10 @@
   "veiculo": "CAMPO JURÍDICO",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "3",
@@ -132,7 +158,13 @@
   "veiculo": "Revista Eletrônica Direito e Sociedade - REDES",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil",
+   "ajup",
+   "direito-achado-na-rua",
+   "advocacia-popular"
+  ]
  },
  {
   "id": "78",
@@ -147,7 +179,10 @@
   "veiculo": "A&amp;C - Revista de Direito Administrativo &amp; Constitucional",
   "ano": "2024",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "",
@@ -162,7 +197,10 @@
   "veiculo": "Virtual Economics",
   "ano": "2024",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -177,7 +215,10 @@
   "veiculo": "Revista Eletrônica Direito e Sociedade - REDES",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "66",
@@ -192,7 +233,10 @@
   "veiculo": "Veredas do Direito: Direito Ambiental e Desenvolvimento Sustentável",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "",
@@ -207,7 +251,10 @@
   "veiculo": "Psicologia em Estudo",
   "ano": "2016",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "62",
@@ -222,7 +269,10 @@
   "veiculo": "Revista Justiça do Direito",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "118",
@@ -237,7 +287,10 @@
   "veiculo": "Lua Nova: Revista de Cultura e Política",
   "ano": "2007",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "119",
@@ -252,7 +305,10 @@
   "veiculo": "Lua Nova: Revista de Cultura e Política",
   "ano": "2010",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "125",
@@ -267,7 +323,10 @@
   "veiculo": "Buildings",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "65",
@@ -282,7 +341,10 @@
   "veiculo": "Revista Brasileira de Educação",
   "ano": "2007",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "p12",
@@ -297,7 +359,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "96",
@@ -312,7 +377,10 @@
   "veiculo": "Revista de Estudos Constitucionais, Hermenêutica e Teoria do Direito",
   "ano": "2026",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "",
@@ -327,7 +395,10 @@
   "veiculo": "Revista Direito GV",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "93",
@@ -342,7 +413,10 @@
   "veiculo": "Revista de Estudos Constitucionais, Hermenêutica e Teoria do Direito",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "69",
@@ -357,7 +431,10 @@
   "veiculo": "Revista Justiça do Direito",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "",
@@ -372,7 +449,10 @@
   "veiculo": "Revista de Estudos Empíricos em Direito",
   "ano": "2026",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -387,7 +467,10 @@
   "veiculo": "Revista da Defensoria Pública do Distrito Federal",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -402,7 +485,10 @@
   "veiculo": "Revista de História Regional",
   "ano": "2024",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "67",
@@ -417,7 +503,10 @@
   "veiculo": "Revista da Defensoria Pública do Distrito Federal",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "122",
@@ -432,7 +521,10 @@
   "veiculo": "Revista de Estudos Empíricos em Direito",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "35",
@@ -447,7 +539,12 @@
   "veiculo": "BMJ Global Health",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil",
+   "ajup",
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -462,7 +559,10 @@
   "veiculo": "Opinião Pública",
   "ano": "2017",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -477,7 +577,10 @@
   "veiculo": "Dados",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "83",
@@ -492,7 +595,10 @@
   "veiculo": "Revista Eurolatinoamericana de Derecho Administrativo",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "63",
@@ -507,7 +613,10 @@
   "veiculo": "Revista Justiça do Direito",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "102",
@@ -522,7 +631,10 @@
   "veiculo": "Revista Direito, Estado e Sociedade",
   "ano": "2026",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "104",
@@ -537,7 +649,10 @@
   "veiculo": "Revista da Defensoria Pública do Distrito Federal",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "81",
@@ -552,7 +667,10 @@
   "veiculo": "Revista da Defensoria Pública do Distrito Federal",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "85",
@@ -567,7 +685,10 @@
   "veiculo": "CAMPO JURÍDICO",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "137",
@@ -582,7 +703,10 @@
   "veiculo": "Physis: Revista de Saúde Coletiva",
   "ano": "2010",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -597,7 +721,10 @@
   "veiculo": "Revista Eletrônica de Direito Processual",
   "ano": "2024",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -612,7 +739,10 @@
   "veiculo": "Historia Agraria Revista de agricultura e historia rural",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -627,7 +757,10 @@
   "veiculo": "Estudos Avançados",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "71",
@@ -642,7 +775,10 @@
   "veiculo": "Estudios de Derecho",
   "ano": "2025",
   "acervo_autor": "Ricardo Prestes Pazello",
-  "acervo_url": "autor-ricardo-prestes-pazello.html"
+  "acervo_url": "autor-ricardo-prestes-pazello.html",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "112",
@@ -657,7 +793,10 @@
   "veiculo": "Perfiles Latinoamericanos",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "138",
@@ -672,7 +811,10 @@
   "veiculo": "Derecho PUCP",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "49",
@@ -687,7 +829,10 @@
   "veiculo": "Revista Pedagogía Universitaria y Didáctica del  Derecho",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajup"
+  ]
  },
  {
   "id": "114",
@@ -702,7 +847,10 @@
   "veiculo": "Social &amp; Legal Studies",
   "ano": "2024",
   "acervo_autor": "Carolina Vestena",
-  "acervo_url": "autor-carolina-vestena.html"
+  "acervo_url": "autor-carolina-vestena.html",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "113",
@@ -717,7 +865,10 @@
   "veiculo": "Lua Nova: Revista de Cultura e Política",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "51",
@@ -732,7 +883,10 @@
   "veiculo": "Revista Brasileira de Enfermagem",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajup"
+  ]
  },
  {
   "id": "",
@@ -747,7 +901,10 @@
   "veiculo": "RAUSP Management Journal",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -762,7 +919,10 @@
   "veiculo": "Journal of Transport &amp; Health",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "117",
@@ -777,7 +937,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -792,7 +955,10 @@
   "veiculo": "European Journal of Political Economy",
   "ano": "2026",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -807,7 +973,10 @@
   "veiculo": "Clinics",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "116",
@@ -822,7 +991,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "121",
@@ -837,7 +1009,10 @@
   "veiculo": "Law &amp; Social Inquiry",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "127",
@@ -852,7 +1027,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -867,7 +1045,10 @@
   "veiculo": "PeerJ Computer Science",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -882,7 +1063,10 @@
   "veiculo": "Social Sciences",
   "ano": "2024",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "91",
@@ -897,7 +1081,10 @@
   "veiculo": "European Journal of International Law",
   "ano": "2012",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "108",
@@ -912,7 +1099,10 @@
   "veiculo": "Social Movement Studies",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "p10",
@@ -927,7 +1117,10 @@
   "veiculo": "Journal of Urban Health",
   "ano": "2007",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "95",
@@ -942,7 +1135,10 @@
   "veiculo": "Journal of International Criminal Justice",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "",
@@ -957,7 +1153,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "100",
@@ -972,7 +1171,10 @@
   "veiculo": "Latin American Politics and Society",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "107",
@@ -987,7 +1189,10 @@
   "veiculo": "Journal of Rural Studies",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "79",
@@ -1002,7 +1207,10 @@
   "veiculo": "City &amp; Society",
   "ano": "2009",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "87",
@@ -1017,7 +1225,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "75",
@@ -1032,7 +1243,10 @@
   "veiculo": "Political Geography",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "p7",
@@ -1047,7 +1261,10 @@
   "veiculo": "American Journal of Public Health",
   "ano": "2010",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "p14",
@@ -1062,7 +1279,10 @@
   "veiculo": "BMC Public Health",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "128",
@@ -1077,7 +1297,10 @@
   "veiculo": "World Development",
   "ano": "2017",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "92",
@@ -1092,7 +1315,10 @@
   "veiculo": "European Journal of International Law",
   "ano": "2014",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "p9",
@@ -1107,7 +1333,10 @@
   "veiculo": "Frontiers in Public Health",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "p1",
@@ -1122,7 +1351,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "124",
@@ -1137,7 +1369,10 @@
   "veiculo": "Saúde e Sociedade",
   "ano": "2008",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -1152,7 +1387,10 @@
   "veiculo": "Frontiers in Psychiatry",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "131",
@@ -1167,7 +1405,10 @@
   "veiculo": "H2Open Journal",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -1182,7 +1423,10 @@
   "veiculo": "BAR - Brazilian Administration Review",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "p11",
@@ -1197,7 +1441,10 @@
   "veiculo": "Critical Sociology",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "90",
@@ -1212,7 +1459,10 @@
   "veiculo": "European Journal of International Law",
   "ano": "2017",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "p8",
@@ -1227,7 +1477,10 @@
   "veiculo": "Annual Review of Public Health",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "68",
@@ -1242,7 +1495,11 @@
   "veiculo": "Contemporary Political Theory",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente",
+   "uso-tatico"
+  ]
  },
  {
   "id": "p16",
@@ -1257,7 +1514,10 @@
   "veiculo": "Sustainability",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "110",
@@ -1272,7 +1532,10 @@
   "veiculo": "International Journal of Environmental Research and Public Health",
   "ano": "2021",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "",
@@ -1287,7 +1550,10 @@
   "veiculo": "Journal of Epidemiology and Community Health",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "94",
@@ -1302,7 +1568,10 @@
   "veiculo": "International Journal for the Semiotics of Law - Revue internationale de Sémiotique juridique",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "",
@@ -1317,7 +1586,10 @@
   "veiculo": "Heliyon",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "99",
@@ -1332,7 +1604,10 @@
   "veiculo": "Contemporary Social Science",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "50",
@@ -1347,7 +1622,10 @@
   "veiculo": "Journal of Educational and Social Research",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajup"
+  ]
  },
  {
   "id": "106",
@@ -1362,7 +1640,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "134",
@@ -1377,7 +1658,10 @@
   "veiculo": "Communist and Post-Communist Studies",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -1392,7 +1676,10 @@
   "veiculo": "Social Indicators Research",
   "ano": "2016",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -1407,7 +1694,10 @@
   "veiculo": "Journal of Transport &amp; Health",
   "ano": "2024",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "p15",
@@ -1422,7 +1712,10 @@
   "veiculo": "Health Education &amp; Behavior",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "p4",
@@ -1437,7 +1730,10 @@
   "veiculo": "American Journal of Public Health",
   "ano": "2010",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "p2",
@@ -1452,7 +1748,10 @@
   "veiculo": "Health Promotion Practice",
   "ano": "2006",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "70",
@@ -1467,7 +1766,11 @@
   "veiculo": "Revista Crítica de Ciências Sociais",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente",
+   "uso-tatico"
+  ]
  },
  {
   "id": "",
@@ -1482,7 +1785,10 @@
   "veiculo": "Journal of Human Security",
   "ano": "2016",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "98",
@@ -1497,7 +1803,10 @@
   "veiculo": "Isonomía - Revista de teoría y filosofía del derecho",
   "ano": "2021",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "55",
@@ -1512,7 +1821,14 @@
   "veiculo": "Community Development Journal",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajup",
+   "direito-achado-na-rua",
+   "direito-insurgente",
+   "uso-tatico",
+   "advocacia-popular"
+  ]
  },
  {
   "id": "111",
@@ -1527,7 +1843,10 @@
   "veiculo": "International Journal of Educational Development",
   "ano": "2021",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "80",
@@ -1542,7 +1861,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "84",
@@ -1557,7 +1879,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "",
@@ -1572,7 +1897,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "58",
@@ -1587,7 +1915,11 @@
   "veiculo": "International Encyclopedia of the Social &amp; Behavioral Sciences",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua",
+   "advocacia-popular"
+  ]
  },
  {
   "id": "101",
@@ -1602,7 +1934,10 @@
   "veiculo": "Transnational Legal Theory",
   "ano": "2021",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "52",
@@ -1617,7 +1952,10 @@
   "veiculo": "",
   "ano": "2010",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajup"
+  ]
  },
  {
   "id": "60",
@@ -1632,7 +1970,10 @@
   "veiculo": "The Wiley Blackwell Companion to Social Movements",
   "ano": "2018",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "",
@@ -1647,7 +1988,10 @@
   "veiculo": "Journal of Transport Geography",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "42",
@@ -1662,7 +2006,11 @@
   "veiculo": "Habitat International",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil",
+   "advocacia-popular"
+  ]
  },
  {
   "id": "54",
@@ -1677,7 +2025,10 @@
   "veiculo": "Community Development Journal",
   "ano": "2021",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajup"
+  ]
  },
  {
   "id": "132",
@@ -1692,7 +2043,10 @@
   "veiculo": "Max Planck Yearbook of United Nations Law Online",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "88",
@@ -1707,7 +2061,10 @@
   "veiculo": "International Encyclopedia of the Social &amp; Behavioral Sciences",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "115",
@@ -1722,7 +2079,10 @@
   "veiculo": "Handbooks of Sociology and Social Research",
   "ano": "2017",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "86",
@@ -1737,7 +2097,10 @@
   "veiculo": "Habitat International",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "",
@@ -1752,7 +2115,10 @@
   "veiculo": "Courts and Social Transformation in New Democracies",
   "ano": "2017",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -1767,7 +2133,10 @@
   "veiculo": "International Journal of Constitutional Law",
   "ano": "2021",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -1782,7 +2151,10 @@
   "veiculo": "Environment and Planning C: Politics and Space",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "59",
@@ -1797,7 +2169,10 @@
   "veiculo": "International Encyclopedia of the Social &amp; Behavioral Sciences",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "",
@@ -1812,7 +2187,10 @@
   "veiculo": "Energy Poverty, Justice and Gender in Latin America",
   "ano": "2024",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "120",
@@ -1827,7 +2205,10 @@
   "veiculo": "Latin American Perspectives",
   "ano": "2017",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "",
@@ -1842,7 +2223,10 @@
   "veiculo": "Research Handbook on Civil Justice",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "129",
@@ -1857,7 +2241,10 @@
   "veiculo": "International Encyclopedia of the Social &amp; Behavioral Sciences",
   "ano": "2001",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "130",
@@ -1872,7 +2259,10 @@
   "veiculo": "International Encyclopedia of the Social &amp; Behavioral Sciences",
   "ano": "2001",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "p3",
@@ -1887,7 +2277,10 @@
   "veiculo": "The International Encyclopedia of Communication Research Methods",
   "ano": "2017",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "p6",
@@ -1902,7 +2295,10 @@
   "veiculo": "Social Work With Groups",
   "ano": "2007",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "123",
@@ -1917,7 +2313,10 @@
   "veiculo": "The International Journal of Human Rights",
   "ano": "2026",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "8",
@@ -1932,7 +2331,11 @@
   "veiculo": "Handbook of Global Legal Policy",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil",
+   "advocacia-popular"
+  ]
  },
  {
   "id": "76",
@@ -1947,7 +2350,10 @@
   "veiculo": "Geoforum",
   "ano": "2009",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "p13",
@@ -1962,7 +2368,10 @@
   "veiculo": "Progress in Community Health Partnerships: Research, Education, and Action",
   "ano": "2019",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "74",
@@ -1977,7 +2386,10 @@
   "veiculo": "Social Science &amp; Medicine",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "",
@@ -1992,7 +2404,10 @@
   "veiculo": "Habitat International",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -2007,7 +2422,10 @@
   "veiculo": "Global Transformations in Media and Communication Research - A Palgrave and IAMCR Series",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "109",
@@ -2022,7 +2440,10 @@
   "veiculo": "The Extractive Industries and Society",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "126",
@@ -2037,7 +2458,10 @@
   "veiculo": "Journal of Human Rights Practice",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "57",
@@ -2052,7 +2476,10 @@
   "veiculo": "Jerusalem Review of Legal Studies",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua"
+  ]
  },
  {
   "id": "43",
@@ -2067,7 +2494,11 @@
   "veiculo": "Diagnostic Microbiology and Infectious Disease",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil",
+   "advocacia-popular"
+  ]
  },
  {
   "id": "133",
@@ -2082,7 +2513,10 @@
   "veiculo": "Journal of Human Rights Practice",
   "ano": "2023",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "56",
@@ -2097,7 +2531,11 @@
   "veiculo": "Annual Review of Law and Social Science",
   "ano": "2006",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-achado-na-rua",
+   "uso-tatico"
+  ]
  },
  {
   "id": "53",
@@ -2112,7 +2550,10 @@
   "veiculo": "The Global Clinical Movement",
   "ano": "2026",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajup"
+  ]
  },
  {
   "id": "73",
@@ -2127,7 +2568,10 @@
   "veiculo": "The Journal of Legal Pluralism and Unofficial Law",
   "ano": "2004",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "",
@@ -2142,7 +2586,10 @@
   "veiculo": "The Global Clinical Movement",
   "ano": "2026",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -2157,7 +2604,10 @@
   "veiculo": "Marine Policy",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -2172,7 +2622,10 @@
   "veiculo": "Marine Pollution Bulletin",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "77",
@@ -2187,7 +2640,10 @@
   "veiculo": "International Encyclopedia of Human Geography",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  },
  {
   "id": "p5",
@@ -2202,7 +2658,10 @@
   "veiculo": "Global Health Promotion",
   "ano": "2010",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "pesquisa-socialmente-orientada"
+  ]
  },
  {
   "id": "",
@@ -2217,7 +2676,10 @@
   "veiculo": "Geoforum",
   "ano": "2025",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "105",
@@ -2232,7 +2694,10 @@
   "veiculo": "Society &amp; Natural Resources",
   "ano": "2004",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "uso-tatico"
+  ]
  },
  {
   "id": "136",
@@ -2247,7 +2712,10 @@
   "veiculo": "",
   "ano": "",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "advocacia-popular"
+  ]
  },
  {
   "id": "89",
@@ -2262,7 +2730,10 @@
   "veiculo": "International Encyclopedia of the Social &amp; Behavioral Sciences",
   "ano": "2015",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "positivismo-de-combate"
+  ]
  },
  {
   "id": "",
@@ -2277,7 +2748,10 @@
   "veiculo": "Computers, Environment and Urban Systems",
   "ano": "2020",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "",
@@ -2292,7 +2766,10 @@
   "veiculo": "Beyond the Megacity",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "ajp-brasil"
+  ]
  },
  {
   "id": "72",
@@ -2307,6 +2784,9 @@
   "veiculo": "Law and Critique",
   "ano": "2022",
   "acervo_autor": "",
-  "acervo_url": ""
+  "acervo_url": "",
+  "eixos": [
+   "direito-insurgente"
+  ]
  }
 ]
