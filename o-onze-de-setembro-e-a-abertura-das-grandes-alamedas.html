@@ -82,8 +82,8 @@
 <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
 <link rel="stylesheet" href="temas/temas.css?v=5" />
 <link rel="stylesheet" href="temas/renap.css?v=2" />
-<link rel="stylesheet" href="acervo.css?v=109" />
-  <link rel="stylesheet" href="reveal.css?v=109" />
+<link rel="stylesheet" href="acervo.css?v=112" />
+  <link rel="stylesheet" href="reveal.css?v=112" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
 
 <!-- Citação por máquina: Article + isBasedOn + autor + data. -->
@@ -130,6 +130,7 @@
       <a href="index.html">Home</a>
       <a href="acervo.html">Acervo</a>
       <a href="biblioteca.html">Biblioteca</a>
+      <a href="rede.html">Rede</a>
       <a href="mistica.html">Mística</a>
       <a href="ia.html">IA</a>
     </nav>
@@ -178,7 +179,7 @@
         <div class="ficha__linha">
           <dt>Blog</dt>
           <dd>
-            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2010/09/o-onze-de-setembro-e-abertura-das.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>
+            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2010/09/o-onze-de-setembro-e-abertura-das.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a> <span class="link-original-sep" aria-hidden="true">·</span> <a class="link-original-inline" href="https://assessoriajuridicapopular.blogspot.com/2010/09/o-onze-de-setembro-e-abertura-das.html" target="_blank" rel="noopener">Ler no blog original<span class="sr-only"> (abre em outra aba)</span></a>
           </dd>
         </div>
         <div class="ficha__linha">
@@ -216,18 +217,7 @@
 
     <!-- 6. DOIS BOTÕES, no topo. Alvo de 44 px; o aviso "abre em outra aba"
          é texto, não ícone. O segundo botão usa o perfil do autor. -->
-    <p class="acoes-fonte">
-      <a class="botao" href="https://assessoriajuridicapopular.blogspot.com/2010/09/o-onze-de-setembro-e-abertura-das.html" target="_blank" rel="noopener">
-        Ler no blog original
-        <span class="botao__nota">abre em outra aba</span>
-      </a>
-      <a class="botao secundario" href="https://www.blogger.com/profile/11698907163325129894" target="_blank" rel="noopener">
-        Sobre Ricardo Prestes Pazello
-        <span class="botao__nota">abre em outra aba</span>
-      </a>
-    </p>
-
-    <!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
+<!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
          O ETL entrega HTML já tipado. Exemplo do que <figure class="reproducao"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha2W3sa9Y6WAhFtJV5dyzZFGvB88dV7s5JH13Zi4IjSIUYez1SbhcSX3Noq6x6rPXAMVTRlD_509BO5xqDEEMoTTXOEVX9YRNC9CpH_WHVGbAybs5G9WFpy-joNDi44BFjQx-khP4Gvav8/s1600/AllendeMoneda.jpg" alt="Imagem do texto" loading="lazy" /></figure>
       <p>Estas alamedas, arborizadas e agradáveis, serão abertas algum dia, sem dúvida. Com muito trabalho e sacrifício, por sinal. Hoje em dia, a tarefa contínua é mostrar sua possibilidade de existência. Nem tudo o que não é nunca poderá vir a ser. Pois bem, isto leva à previsibilidade que, juntamente à coincidência, me faz escrever este pequeno texto. Há tempos, as esquerdas relembram o dia de ontem, vale dizer, o golpe militar de Pinochet efetuado no Chile, num 11 de setembro de 1973. E esta lembrança serve de resistência frente à inanição provocada pelo terror do 11 de setembro nova-iorquino, com a queda das torres gêmeas. Esta tragédia não pode ser o antídoto que inocula passividade, medo e apatia. Deve ser posta em relação a outro momento histórico, de infeliz coincidência no calendário ocidental. O golpe chileno, apoiado, em vários sentidos, pelo governo ianque.</p>
       <p>Por isso, irmano-me no dever de também propalar esta resistência, aqui em nosso blogue. Em outro, no blogue Não apaguem a memória, há uma bela postagem sobre a data. Recebi várias mensagens virtuais e todas com recuerdos do evento histórico, a partir de vídeos sobre a queda de Allende. Compartilho-os, assim, como que pedindo, junto à bela canção de Ismael Serrano: "Papá cuéntame otra vez".</p>
@@ -281,7 +271,9 @@
       </div>
       <p class="compartilhar__status" data-status role="status" aria-live="polite" data-visivel="false"></p>
     </section>
-  </article>
+  
+    <p class="referencias-post"><a class="botao secundario" href="referencias-citadas.html#fonte-o-onze-de-setembro-e-a-abertura-das-grandes-alamedas">Referências citadas neste texto (2)</a></p>
+</article>
 </main>
 
 <!-- 8. RODAPÉ: os mesmos dois botões, o crédito de parceria, "Como citar"
@@ -357,7 +349,7 @@
 })();
 </script>
   <script src="compartilhar.js" defer></script>
-<script src="reveal.js" defer></script>
+<script src="reveal.js?v=2" defer></script>
 <div class="radio-flut" data-radio data-aberto="false">
   <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
     <span aria-hidden="true">📻</span> Rádio
@@ -394,7 +386,7 @@
 </div>
 <script src="componentes/radio-dados.js?v=1" defer></script>
 <script src="componentes/radio.js?v=4" defer></script>
-<script src="casca.js?v=38" defer></script>
+<script src="casca.js?v=39" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>

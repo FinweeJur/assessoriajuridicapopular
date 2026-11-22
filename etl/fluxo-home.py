@@ -21,12 +21,12 @@ FLUXO = """  <section class="fluxo" aria-labelledby="fluxo-titulo">
         <a class="fluxo__no fluxo__no--blog" href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">
           <span class="fluxo__ico fluxo__ico--wp">%s</span>
           <b>Blog original AJP</b>
-          <small>Blogger - 2009</small>
+          <small>15 anos de produção coletiva por assessores jurídicos populares de todo Brasil por meio do Blogger</small>
         </a>
         <div class="fluxo__no fluxo__no--code">
           <span class="fluxo__ico fluxo__ico--code">%s</span>
           <b>OpenCode</b>
-          <small>programa</small>
+          <small>Programa usado para replicar e reformular o Blog, através do desenvolvimento do Site via IA agêntica com modelo DeepSeek</small>
         </div>
         <a class="fluxo__no fluxo__no--git" href="https://github.com/FinweeJur/assessoriajuridicapopular" target="_blank" rel="noopener">
           <span class="fluxo__ico fluxo__ico--git">%s</span>

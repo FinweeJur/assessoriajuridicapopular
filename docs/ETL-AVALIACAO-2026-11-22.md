@@ -3,7 +3,7 @@
 > **Data:** 22/11/2026
 > **Escopo:** repositório `X:\DevCoder\assessoriajuridicapopular`, blog
 > `assessoriajuridicapopular.blogspot.com` e sites institucionais das redes.
-> **Estado do site:** commit `d04ac0e7d`, publicado em
+> **Estado do site:** publicado em
 > <https://finweejur.github.io/assessoriajuridicapopular/>.
 > **Método:** leitura do feed Atom, do `sitemap.xml`, do `robots.txt` e das
 > páginas públicas com User-Agent `finweejur/github artur colito`, 1,2–2 s entre
@@ -13,17 +13,31 @@
 
 ---
 
-## Resumo em uma frase
+## Atualização P0 — executado em 22/11/2026
 
-O ETL entregou um acervo estático bonito, pesquisável e com RAG extrativo, mas
-**não está completo nem é reproduzível**: faltam 78 dos 790 posts (2014 inteiro),
-há uma colisão de slug que contaminou o RAG, e a camada comunitária do blog
-(blogues parceiros, entidades, mapeamento de AJUPs, quem somos, como postar)
-ficou fora do site.
+O diagnóstico abaixo foi feito **antes** da correção. Depois dele, o P0 foi
+executado:
 
-### Números de controle
+- feed corrigido para **8 páginas / 790 entradas**; a paginação agora avança
+  pelo tamanho real da página, não por 150 fixo;
+- **78 posts baixados e importados**; 2014 saiu de 0 para 35 páginas;
+- colisão de `assessoria-juridica-popular` resolvida: seção e posts homônimos
+  em URLs distintas, com `canonical` correto;
+- `_indice.json`, RAG e sitemap reconstruídos;
+- `etl/audita-acervo.py` passa com **790/790**, zero lacunas, zero duplicadas,
+  zero colisões de seção;
+- `rede.html` e `mapeamento-ajups.html` criados; “Rede” entrou no topo, no mapa
+  da home e no rodapé;
+- botões grandes de fonte removidos dos posts; “Ler no blog original” virou
+  link inline na linha “Blog”, no mesmo tamanho do texto.
 
-| Item | Medido em 22/11/2026 |
+O que **continua pendente**: decisão jurídica registrada, revisão humana dos
+1.146 avisos do parser, links gratuitos para as referências citadas, documento
+ABNT, e a consolidação do pipeline em `etl/run.py`.
+
+### Antes do P0
+
+| Item | Medido em 22/11/2026 (antes) |
 |---|---:|
 | Posts declarados pelo blog | **790** |
 | Posts entregues pelo feed baixado | 713 |
@@ -35,7 +49,7 @@ ficou fora do site.
 | Poemas no Caderno | 135 |
 | Blogues parceiros no blog original | 21 |
 | Entidades parceiras no blog original | 12 |
-| Organizações no mapeamento de 2011 | 40 (12 advocacias + 25 AJUPs + 3 movimentos) |
+| Organizações no mapeamento de 2011 | 38 (10 advocacias + 25 AJUPs + 3 movimentos) |
 | Posts do blog sem página local | **78** |
 | Posts regulares perdidos na paginação | **73** |
 | Post perdido por colisão de slug | **1** |
@@ -43,6 +57,20 @@ ficou fora do site.
 | RAG | 713 registros |
 | Perguntas curadas do chatbot | 16 |
 | Rádio | 52 estações |
+
+### Depois do P0
+
+| Item | Valor |
+|---|---:|
+| Posts no feed / no índice / com `canonical` | **790 / 790 / 790** |
+| Posts sem página | **0** |
+| Canonicals repetidos | **0** |
+| Colisões de slug de seção | **0** |
+| Páginas em 2014 | **35** |
+| RAG | **790** |
+| Sitemap | **816 URLs** |
+| Biblioteca | **18 cartões** |
+| Páginas HTML | **859** (inclui 5 aliases e 2 páginas de rede) |
 
 ---
 
@@ -53,22 +81,24 @@ ficou fora do site.
 ```
 feed Atom + HTML dos posts (G:\Meu Drive\RENAP-AJP)
         │
-        ├─ extract ............ 713 posts baixados de 790
+        ├─ extract ............ 790 posts baixados de 790
         ├─ parse .............. título, data, autor, corpo, resumo, tema, tipo
         ├─ classificação ...... 5 seções, temas secundários, palavras-chave
         ├─ load ............... _indice.json + 1 página HTML por post
         ├─ enriquecimento ..... autores, biblioteca, poemas, RAG, sitemap
-        └─ publicação ......... GitHub Pages, 765 HTML, sem framework
+        └─ publicação ......... GitHub Pages, 859 HTML, sem framework
 ```
 
 ### 1.2 O que o site tem hoje
 
-- **Cinco portas:** Home, Acervo, Biblioteca, Mística e IA.
-- **713 entradas** no índice, distribuídas em cinco seções:
-  Movimentos 194 · AJP 169 · Educação 128 · Direitos humanos 119 · Teoria 103.
-  A soma dá 713 porque uma entrada é, na verdade, uma página de seção
-  (ver §3.2).
-- **712 posts reais** com `canonical` para o original.
+- **Cinco portas de conteúdo + Rede:** Home, Acervo, Biblioteca, Rede,
+  Mística e IA.
+- **790 entradas** no índice, distribuídas em cinco seções:
+  Movimentos 218 · AJP 186 · Educação 136 · Direitos humanos 136 ·
+  Teoria 114.
+- **790 posts** com `canonical` para o original.
+- **Rede** (`rede.html`) e **Mapeamento de AJUPs**
+  (`mapeamento-ajups.html`).
 - Busca filtrável por texto, ano, tipo, palavra-chave, rede e ordem.
 - Páginas de autor, coleções, glossário, linha do tempo, memória e cultura.
 - **Biblioteca** com 18 cartões: Biblioteca digital, AJUP-RJ, Roberto Lyra
@@ -76,7 +106,7 @@ feed Atom + HTML dos posts (G:\Meu Drive\RENAP-AJP)
   latino-americana, Monografias, Referências, Poesia crítica do direito,
   teses, livros e o dossiê comparado.
 - **Caderno de Poesias** com 135 poemas e 42 posts de poesia do blog.
-- **RAG local** (`dados/rag.json`) com 713 registros e resposta extrativa, sem
+- **RAG local** (`dados/rag.json`) com 790 registros e resposta extrativa, sem
   geração livre; 16 perguntas curadas.
 - **Rádio** com 52 estações do Controle Popular, índice em duas colunas,
   bandeiras, logos, volume com líquido e dica de 1 s.
@@ -100,6 +130,8 @@ feed Atom + HTML dos posts (G:\Meu Drive\RENAP-AJP)
 ## 2. O que ficou pendente
 
 ### 2.1 Lacuna de extração: 78 posts
+
+**Corrigido no P0.** O texto abaixo fica como registro da causa e da prova.
 
 O blog declara **790** posts no feed. O download gravou **713**. A diferença
 não é editorial: é um **bug de paginação**.
@@ -140,6 +172,8 @@ parser, regenerar `_indice.json`, páginas, seções, RAG e sitemap. O aceite é
 `790` URLs do sitemap cobertas ou uma justificativa explícita por exceção.
 
 ### 2.2 Colisão de slug e RAG contaminado
+
+**Corrigido no P0.** A seção e os posts homônimos agora têm URLs distintas; o RAG foi reconstruído.
 
 Há um caso que resume o risco de gerar HTML em vez de manter conteúdo
 normalizado:
@@ -191,22 +225,22 @@ Isso é o risco jurídico nº 1. Antes de ampliar o acervo, é preciso:
 A página deve se adaptar ao campo `licenca` (`autorizado`, `citacao`,
 `resumo`), como o plano já previa.
 
-### 2.5 Camada comunitária do blog ficou fora
+### 2.5 Camada comunitária: criada, em revisão
 
 O site reproduziu os **textos**, mas não a **rede** que dava sentido ao blog:
 
 | Item do blog original | Estado no site | Evidência |
 |---|---|---|
-| Blogues parceiros (21) | **ausente** | 0 ocorrências de “Blogues parceiros” |
-| Entidades parceiras (12) | **ausente** | 0 ocorrências de “Entidades parceiras” |
-| Mapeamento de AJUPs (40) | **ausente como página** | o post de 2011 está entre os 78 perdidos |
-| Movimentos sociais | **seção de textos** (194), não diretório | `movimentos-sociais.html` |
-| Quem somos | **ausente** | sem `quem-somos.html` |
-| Como postar | **ausente** | 0 ocorrências de “Como postar” |
+| Blogues parceiros (21) | **criado** em `rede.html#blogues` | 21 links, status e data |
+| Entidades parceiras (12) | **criado** em `rede.html#entidades` | 12 links, status e data |
+| Mapeamento de AJUPs (38) | **criado** em `mapeamento-ajups.html` | 40 fichas (38 históricas + 2 redes) |
+| Movimentos sociais | **criado** `rede.html#movimentos` + seção de textos (218) | 3 movimentos históricos |
+| Quem somos | **criado** `rede.html#quem-somos` | texto do blogue adaptado |
+| Como postar | **criado** `rede.html#como-postar` | política editorial + e-mail |
 | Colunistas | **reproduzido** como `autores.html` | 5 colunistas + autores |
 | Cadernos insurgentes | **reproduzido** na Biblioteca | `biblioteca.html#renap` e seção IPDMS |
 | Bibliotecas | **reproduzido** com 18 cartões | `biblioteca.html` |
-| Poesia crítica do direito | **existe como página**, mas não como hub | `poesia-critica-do-direito.html` |
+| Poesia crítica do direito | **página local**; falta virar hub | `poesia-critica-do-direito.html` + `poemas.html` |
 | Referências de AJP | **reproduzido** | `referencias.html` |
 
 ### 2.6 Poesia e bibliotecas: respostas diretas
@@ -266,10 +300,9 @@ Isso deve virar regra no mapa: cada ficha tem `fonte`, `verificado_em` e
 
 ### 2.9 Documentação e contagem
 
-O `README.md` ainda diz que o download está em andamento e que o deploy é
-Cloudflare Pages. O site está no GitHub Pages e o acervo tem 713 entradas
-(712 posts reais). O número “713 textos” precisa ser corrigido para “712 posts
-+ 1 página de seção” até a importação dos 78; depois, 790.
+O `README.md` foi atualizado no P0. O site está no GitHub Pages, com **790
+entradas e 790 canonicais**. O antigo “713 textos” era o retrato do acervo
+incompleto; a página inicial e o Acervo agora mostram 790.
 
 ### 2.10 RAG e busca
 
@@ -283,6 +316,8 @@ resposta extrativa.
 ---
 
 ## 3. O que ficou pendente, em ordem de prioridade
+
+> **P0 concluído em 22/11/2026.** A tabela abaixo fica como registro do que foi corrigido e do que segue em P1/P2.
 
 ### P0 — corrigir a base (1–3 dias)
 
@@ -413,7 +448,7 @@ links oficiais e data.
 **“Mapeamento de AJUPs?”**
 Não existe como página. O post “Mapeamento” (2011) é um dos 78 perdidos pela
 paginação. O conteúdo histórico foi extraído para
-`docs/mapeamento-ajups-2011.md` (12 advocacias + 25 AJUPs + 3 movimentos). O
+`docs/mapeamento-ajups-2011.md` (10 advocacias + 25 AJUPs + 3 movimentos). O
 mapa atual precisa de `dados/ajups.json` e de verificação manual.
 
 **“Poesia crítica do direito entrou como uma página?”**
@@ -435,11 +470,18 @@ as bibliotecas externas (RENAP, IPDMS).
 | Arquivo | O que contém |
 |---|---|
 | `docs/ETL-AVALIACAO-2026-11-22.md` | este relatório |
-| `docs/etl-lacunas-2026-11-22.csv` | os 78 URLs do blog sem página canônica |
+| `docs/etl-lacunas-2026-11-22.csv` | histórico das 78 URLs sem página; hoje 0 |
 | `docs/links-parceiros-2026-11-22.json` | 21 blogues + 12 entidades, status e redes |
 | `docs/redes-2026-11-22.json` | redes atuais, sites, Instagram/Facebook/YouTube e repositórios |
-| `docs/mapeamento-ajups-2011.md` | lista histórica de 40 organizações, com links de 2011 |
+| `docs/mapeamento-ajups-2011.md` | lista histórica de 38 organizações, com links de 2011 |
 | `etl/audita-acervo.py` | auditoria reprodutível: cobertura, lacunas, canonical e colisões (baixa o sitemap com UA se não houver cópia local) |
+| `dados/manifest.json` | contagem oficial: 790 posts, 790 canonicais, 0 lacunas, RAG 790, sitemap 816 |
+| `dados/ajups.json` | 40 fichas (3 redes + 9 advocacias + 25 AJUPs + 3 movimentos) |
+| `rede.html` / `mapeamento-ajups.html` | camada comunitária e mapa filtrável |
+| `dados/referencias.json` | 606 referências extraídas de 790 páginas |
+| `referencias-citadas.html` / `docs/referencias-abnt.md` | ABNT + “Disponível aqui” |
+| `docs/PLANO-NAVEGACAO-ORIGINAL.md` | plano de hierarquia e movimentos do blog antigo |
+| `etl/monta-rede.py`, `etl/monta-referencias-*.py` | geradores da camada de rede e das referências |
 | `~/.config/opencode/skills/ajp/SKILL.md` | skill global `ajp` |
 | `~/.config/opencode/command/ajp.md` | comando `/ajp` |
 
@@ -482,9 +524,37 @@ etapas e os testes do §3.
 
 ---
 
-## 9. Nota sobre o que não foi feito
+## 9. Referências citadas (P1 em andamento)
 
-Não tentei “consertar” o acervo nesta auditoria. O objetivo foi medir, registrar
-e priorizar. A importação dos 78, a página de rede e o mapa de AJUPs são
-trabalho de implementação — e devem começar pelo P0, porque qualquer página
-nova construída sobre 713 posts herdará a lacuna de 2014 e a colisão de slug.
+O extrator `etl/extrai-referencias.py` leu os 790 posts e as páginas de
+bibliografia. Resultado:
+
+| Item | Valor |
+|---|---:|
+| Referências extraídas | **606** |
+| Com URL explícita | 180 |
+| Links abertos / restritos / mortos | 102 / 4 / 74 |
+| Confiança alta / média / baixa | 221 / 149 / 236 |
+| Páginas com alguma referência | 192 |
+| Tipos | livro 160, obra 130, site 121, artigo 57, capítulo 39, documento 26, vídeo 19, dissertação 18, monografia 13, legislação 8, tese 8, relatório 7 |
+
+Artefatos:
+
+- `dados/referencias.json` — base completa;
+- `dados/referencias-links.json` — status dos 180 links (em conferência);
+- `docs/referencias-abnt.md` — documento único em ABNT NBR 6023:2018;
+- `docs/referencias-por-tema.md` e `docs/referencias-por-autor.md` — recortes;
+- `referencias-citadas.html` — página pública com “Disponível aqui”;
+- `etl/monta-referencias-abnt.py` e `etl/monta-referencias-pagina.py`.
+
+O que ainda falta: resolver link gratuito para as 426 referências sem URL
+(Open Library, Crossref, BDTD, SciELO, Planalto), revisar as 236 de confiança
+baixa e substituir “link restrito/morto” por alternativa aberta. Nada de
+paywall, login ou raspagem de Meta.
+
+## 10. Nota sobre o que não foi feito
+
+Esta auditoria começou medindo e priorizando; o P0 foi executado logo depois.
+A importação dos 78, a página de rede e o mapa de AJUPs saíram do papel. O que
+segue pendente é a decisão jurídica, a revisão humana, a resolução de links
+gratuitos e o documento ABNT — não a cobertura básica do acervo.

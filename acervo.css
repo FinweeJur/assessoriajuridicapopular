@@ -246,6 +246,12 @@ h2 {
 .ficha__linha:first-child { border-top: 0; }
 .ficha dt { font-size: .76rem; letter-spacing: .1em; text-transform: uppercase; color: var(--cp-text-soft); }
 .ficha dd { margin: 0; font-size: .92rem; }
+.link-original-sep { margin: 0 .35rem; color: var(--cp-text-soft); }
+.link-original-inline {
+  font: inherit; color: var(--cor-tema); text-decoration: underline;
+  text-underline-offset: 2px; white-space: nowrap;
+}
+.link-original-inline:hover { color: var(--cp-primary); }
 
 .citacao { margin: 0 0 var(--e4); padding: var(--e5); }
 .citacao blockquote { margin: 0; }
@@ -1690,7 +1696,7 @@ a.cartao, .item__link, .destaque, .bento__item {
 }
 .fluxo__ico svg { width: 36px; height: 36px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .fluxo__no b { font-family: var(--font-display); font-size: 1rem; line-height: 1.2; }
-.fluxo__no small { font-size: .72rem; color: var(--cp-text-soft); }
+.fluxo__no small { max-width: 34ch; font-size: .72rem; line-height: 1.4; color: var(--cp-text-soft); }
 .fluxo__novo {
   position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 6px;
   justify-self: start; padding: 8px 14px; border-radius: 999px;
@@ -2611,4 +2617,30 @@ body:has(.radio-flut[data-aberto="true"]) .casca-rolagem {
     right: calc(var(--dial-direita) + (var(--dial-largura) - var(--seta-largura)) / 2);
   }
 }
+
+/* Com a porta Rede, o topo de seis itens só cabe acima de 1080 px. */
+@media (max-width: 1080px) {
+  .topo__abrir {
+    display: inline-grid !important; place-items: center;
+    width: 44px; height: 44px; margin-left: auto;
+    border-radius: 10px; cursor: pointer;
+    border: 1px solid var(--borda); background: transparent; color: var(--cp-text);
+  }
+  .topo__links {
+    position: absolute; left: 0; right: 0; top: 100%;
+    display: none; flex-direction: column; align-items: stretch;
+    padding: 10px; gap: 2px;
+    background: var(--cp-surface); border-bottom: 1px solid var(--borda);
+    box-shadow: 0 18px 40px rgba(0,0,0,.35);
+  }
+  .topo[data-aberto="true"] .topo__links { display: flex; }
+  .topo__marca span { display: none; }
+}
+
+/* Referências citadas: botão no fim do post e fichas ABNT */
+.referencias-post { margin: var(--e4) 0 0; }
+.ref-cit__abnt { margin: 0 0 8px; font-size: .92rem; line-height: 1.5; }
+.ref-cit__fonte { margin: 0; font-size: .78rem; color: var(--cp-text-soft); }
+.ref-cit__acao { margin: 10px 0 0; }
+.ref-status { font-size: .8rem; color: var(--cp-text-soft); }
 

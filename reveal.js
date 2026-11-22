@@ -26,6 +26,10 @@
     [].forEach.call(grupos, function (grupo) {
       [].forEach.call(grupo.children, function (filho, i) {
         if (filho.hasAttribute('data-revelar')) { return; }
+        // Artigo de leitura inteiro não entra no reveal: é maior que a tela
+        // e o IntersectionObserver de 8% nunca dispara. Os blocos internos
+        // continuam animando pelo grupo do próprio artigo.
+        if (filho.matches('article.pagina, .pagina')) { return; }
         filho.setAttribute('data-revelar', '');
         filho.style.setProperty('--atraso', Math.min(i, 6) * 60 + 'ms');
       });
@@ -44,7 +48,7 @@
         entrada.target.classList.add('revelado');
         olho.unobserve(entrada.target);
       });
-    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.08 });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.02 });
 
     alvos.forEach(function (alvo) { olho.observe(alvo); });
   }

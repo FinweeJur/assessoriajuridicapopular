@@ -1,0 +1,444 @@
+<!doctype html>
+<!--
+  ═══ GABARITO — PÁGINA DE TEXTO DO ACERVO ═══════════════════════════════
+  O que é: modelo da página que recebe UM texto do blog Assessoria Jurídica
+  Popular. Não é página publicada: os marcadores {{…}} são preenchidos pelo
+  ETL. Desenho fechado em 20/11/2026, plano seções 6 e 11.
+
+  Por que esta ordem: olho (tema + ano) → título → ficha de origem → crédito
+  de parceria → bloco de citação → dois botões → corpo → dois botões →
+  rodapé. O leitor sabe de quem é o texto antes de ler a primeira linha.
+
+  CONTRATO DE MARCADORES
+  Obrigatórios (nome fixo, não renomear):
+    Colunistas      título exato do original, sem reescrever
+    12 de outubro de 2011        data legível: 16 de agosto de 2009
+    Luiz Otávio Ribas       nome do autor, como assina o original
+    <p>Aqui estão muit@s d@s colunistas deste blogue, entre militantes de movimentos sociais, estudantes, professor@s, educador@s, advogad@s e pesquisador@s. Se você quer fazer parte como colunista, ou enviar textos para nós, entre em contato pelo endereço assessoriajuridicapopular@gmail.com</p>
+      <p>Adriano Dirlei de Oliveira, militante anarquista, colaborador da Federação Anarquista Gaúcha (FAG-RS), militante do Movimento Resistência Popular, participou como militante da luta por moradia do bairro Zácchia (Passo Fundo- RS), atualmente participando da luta por melhorias na saúde e membro da comissão em defesa da saúde do bairro Zácchia.</p>
+      <p>Aline Caldeira Lopes, membro fundadora e sócia do Centro de Assessoria Jurídica Popular Mariana Criola, no Rio de Janeiro, bacharel em Direito pela UFRJ e mestre em Ciências Sociais pela UFRRJ. Minha pesquisa tratou da disputa territorial entre a comunidade da Ilha da Marambaia, no litoral do Estado do Rio de Janeiro, e a Marinha do Brasil, com enfoque no papel do direito e do Poder Judiciário naquele conflito. Atualmente sou professora de processo civil e teoria geral do processo.</p>
+      <p>André Luiz Conrado Mendes, professor substituto de prática jurídica da FND/UFRJ. Especialista em Educação pela FE-UFRJ, Mestre em Direito Constitucional e Teoria do Estado pela PUC-RIO. Advogado e membro do Coletivo Tempo de Resistência de advogados ativistas.</p>
+      <p>Assis da Costa Oliveira, professor de Direitos Humanos da Faculdade de Etnodesenvolvimento da UFPA, campus Altamira. Mestrando pelo Programa de Pós-Graduação em Direito da UFPA. Bacharel em Direito pela UFPA. Pesquisador integrante do Programa de Políticas Afirmativas para Povos Indígenas e Populações Tradicionais (PAPIT). Membro-fundador do Núcleo de Assessoria Jurídica Universitária Popular "Aldeia Kayapó" (NAJUPAK). Advogado. Também participo do Movimento Xingu Vivo para Sempre.</p>
+      <p>Betânia de Moraes Alfonsin, militante do Movimento Nacional pela Reforma Urbana. Membro fundadora da ACESSO - cidadania e direitos humanos. Doutora em Planejamento Urbano e Regional pelo IPPUR - Instituto de Pesquisa e pós-graduação em Planejamento Urbano e Regional da UFRJ. Professora de Direito Urbanístico e de Direito Administrativo na Faculdade de Direito da PUC-RS e da Fundação Escola Superior do Ministério Público do RS. Contato: betania@via-rs.net</p>
+      <p>Christianny Diógenes Maia, professora universitária da Faculdade Christus (Fortaleza-CE), pesquisadora das temáticas que envolvem a Assessoria Jurídica Popular, teorias críticas, práticas jurídicas emancipatórias, movimentos sociais e direitos humanos, doutoranda em Direito pela Universidade de Fortaleza - Unifor; realizando estágio de doutorado sanduiche no Centro de Estudos Sociais da Universidade de Coimbra, sob a orientação do professor Boaventura de Sousa Santos, mestre em Direito Público pela Universidade Federal do Ceará - UFC, participou do Centro de Assessoria Jurídica Universitária - CAJU da UFC. Contato: christiannydm@uol.com.br</p>
+      <p>Diego Augusto Diehl, doutorando em Direito pela Universidade de Brasília (PPGD-UnB). Mestre em Direitos Humanos pelo PPGD-UFPA. Bacharel em Direito pela UFPR. Assessor jurídico popular junto a movimentos populares urbanos e campesinos. Colaborador de projetos de extensão universitária da RENAJU (Rede Nacional de Assessoria Jurídica Universitária). Correl: diegoadiehl@yahoo.com.br</p>
+      <p>Humberto Góes/Betinho Góes, educador e advogado popular com atuação em Movimentos Sociais, especialmente, na militância por Direitos Humanos de Crianças e Adolescentes; atuamente, cursando Doutorado em Direito pela Universidade de Brasília, através de que pesquisa Educação Jurídica e Direitos Humanos; integrante do movimento de Extensão Popular universitária com escritos sobre assessoria jurídica popular, extensão e formação em Direito; fez Mestrado em Ciências Jurídicas, área de concentração em Direitos Humanos na Universidade Federal da Paraíba, instituição através de que integrou projetos de extensão popular e pesquisou a existência de uma noção de Direitos Humanos na obra de Paulo Freire; Membro-Fundador do Serviço de Auxílio Jurídico Universitário (SAJU-SE) da Universidade Federal de Sergipe em que cursou sua graduação em Direito e foi professor-substituto; Membro-Fundador da Rede Nacional de Assessoria Jurídica (RENAJU). e-mail para contato: jhgoesadv@hotmail.com</p>
+      <p>João Ricardo Silva, participante do NAJUP Cabano (Núcleo de Assessoria Jurídica Universitária Popular Cabano do Oeste do Pará/Santarém), Diretor de formação do DCE-UFOPA, graduando do programa de Direito da Universidade Federal do Oeste do Pará, militante do Movimento Ufopa Livre em favor de uma universidade mais justa e democrática. Contato: joao_ricardo_atm@hotmail.com; twitter: https://twitter.com/JoaoRicardoatm Blog: http://outrafrequencianet.blogspot.com/</p>
+      <p>Lívia Gimenes Dias da Fonseca, mestranda em Direito pela Universidade de Brasília, integrante da equipe de coordenação do projeto "Promotoras Legais Populares do Distrito Federal" (PLPs/DF) e da linha de pesquisa "O Direito Achado na Rua". O meu diploma de graduação é da faculdade de Direito da USP, mas a minha verdadeira formação se deu pelo Serviço de Assessoria Jurídica Universitária (SAJU/USP) do qual fiz parte de 2003 à 2007.Contato: liviagdf@gmail.com</p>
+      <p>Luara Colpa, estudante de Direito da Escola Superior Dom Hélder Câmara (Belo Horizonte/MG), faço parte de um grupo de pesquisa/iniciação científica: "Direito à cidade sustentável" - tratando de direito urbanístico e ambiental. Fora das grades (grade curricular) sou militante do movimento Brigadas Populares na Frente pela Reforma Urbana, participo do Fórum de Solidariedade às Ocupações-BH e milito também no Comitê Popular dos Atingidos pela Copa. Ainda, participo da Rede de Reforma Agrária. Estou escrevendo minha monografia sobre os impactos da Copa, a criação de estado de exceção em megaeventos e sua inconstitucionalidade.</p>
+      <p>Lucas Machado, bacharel em Direito pela UCPel, Pelotas-RS, militei no movimento estudantil e participei da formação do NAP-Núcleo de Assessoria Popular/UCPel, trabalhei junto ao Advogado Popular da Região na Assessoria a uma Cooperativa do MST e também alguns sindicatos de trabalhadores. Minha monografia de conclusão de curso foi sobre AJPU. Hoje faço mestrado em direito na UFSC, pesquisando Pluralismo Jurídico e Justiça Comunitária. Atualmente faço parte do projeto do NEPE-Núcleo de Estudos e Práticas Emancipatórias.</p>
+      <p>Luiz Otávio Ribas, professor universitário no Unicuritiba (Curitiba-PR), pesquisador na área de sociologia jurídica dos temas direito insurgente e assessoria jurídica popular, mestre em "filosofia e teoria do direito" pela UFSC, especialista em "direitos humanos" pela UFRGS/ESMPU, tendo participado como assessor estudantil dos grupos CAJU Sepé Tiaraju (Passo Fundo-RS) e Núcleo de Estudos e Práticas Emancipatórias (Florianópolis-SC). Contato: https://twitter.com/@luizotavioribas (Twitter).</p>
+      <p>Mariana Monteiro de Matos, nasceu em 1988 em Belém, capital do Pará, estado situado na Amazônia Oriental Brasileira onde atualmente reside. Morou no Chile e na Alemanha, país este no qual pretende realizar seus estudos de pós-graduação com foco no binômio direitos humanos e propriedade intelectual. Integrante do Núcleo de Assessoria Jurídica Universitária Popular Aldeia Kayapó (NAJUPAK), da Rede Nacional de Assessoria Jurídica (RENAJU) e da Ordem dos Advogados do Brasil (OAB). Recebeu recentemente os títulos de Bacharel em Direito pela Universidade Federal do Pará e Bacharel em Secretariado Executivo Trilingue pela Universidade do Estado do Pará. Contato: mariana.selva@hotmail.com</p>
+      <p>Nayara Barros de Sousa, Mestranda em Ética e Epistemologia na Universidade Federal do Piauí, presentemente interessada em estudar Nancy Fraser, pesquisadora do grupo de estudos República-UFPI, graduada em Direito pela Universidade Estadual do Piauí e advogada. Passando para a primeira pessoa, agora: sinceramente, reconheço-me mesmo como uma interessada na complexidade do ser humano em geral e em suas mais diversas manifestações coletivas e individuais. Bem genérico isso. Eventual colaboradora do blogue da Assessoria Jurídica Popular, mas comentadora assídua dele e participante avulsa (amiga) do Corpo de Assessoria Jurídica Estudantil- CORAJE (UESPI). Tenho sérias pretensões no mundo da docência. Ah, e gosto demais de literatura, minha expressão artística favorita. Contatos: nayarapequena@hotmail.com; nayarapequena@yahoo.com e @naybsousa (tuíter).</p>
+      <p>Ricardo Prestes Pazello, professor de Antropologia Jurídica na Universidade Federal do Paraná (Curitiba-PR), pesquisador da temática sobre teorias críticas do direito, filosofia latino-americana e movimentos populares. Doutorando em Direito das Relações Sociais pela UFPR, mestre em Filosofia e Teoria do Direito pela UFSC, tendo participado como assessor estudantil do Serviço de Assessoria Jurídica Universitária Popular (SAJUP/UFPR) e do Núcleo de Direito Cooperativo e Cidadania (NDCC/UFPR), em Curitiba, e do Núcleo de Estudos e Práticas Emancipatórias (NEPE/UFSC), em Florianópolis. Contatos: ricardo2p@ufpr.br (correl) e https://twitter.com/@ricardo2p (tuíter).</p>
+      <p>Roberta Cunha de Oliveira, bacharel pela Universidade Federal de Santa Maria/ RS, mestranda em ciências criminais/ criminologia crítica pela Puc/ RS, advogada, colaboradora do Grupo de Apoio aos Povos Indígenas (Gapin) e da Comissão de Direitos Humanos da subseção da Oab na cidade de Santa Maria, atualmente atuo como colaboradora também do NIJUC (núcleo de interação jurídica comunitária), depois de alguns anos na ativa como membro do grupo. Sou uma "curiosa"e pesquisadora da cultura e resistência latino- americana, com especial enfoque no direito à memória e à verdade nos países em transição democrática e dos povos originários no continente. Contatos: robertacunha_86@hotmail.com, robertacunha_86@yahoo.com.br.</p>
+      <p>Sabrine Tams Gasperin, militante permanente da emancipação humana, integrante do SURJA - Serviço Universitário de Resistência e Justiça para Autonomia, pesquisadora autônoma da questão urbana e sua insustentabilidade, integrante da gestão Todas as Cores DCE UFPel, pesquisadora autônoma da música brasileira, graduanda em Direito pela Universidade Federal de Pelotas e integrante do Centro Acadêmico Ferreira Vianna - CAFV. Contato: binagasper@gmail.com</p>
+      <p>Thiago de Azevedo Pinheiro Hoshino, mestrando em Direito pela Universidade Federal do Paraná, integrante do Centro de Estudos em Segurança Pública e Direitos Humanos na mesma instituição e do Núcleo de Estudos Afro-Brasileiros (NEAB-UFPR). Assessor da Organização Terra de Direitos para o eixo "Terra, Território e Eqüidade Sócio-Espacial Urbana" e militante pelo Direito à Cidade. Pesquisador nas áreas de antropologia jurídica, história do direito e sociologia das relações raciais, com ênfase no estudo da territorialidade das comunidades de terreiro e sua potência contra-hegemônica. Curioso, em especial, de todas as formas de interação entre cultura popular e organização política. Muzenza do Abassá de Luango - São Paulo, SP. Filho de Ogum, Iemanjá e Oxaguiã. thihoshino@hotmail.com</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2009/08/o-que-e-assessoria-juridica-popular.html" target="_blank" rel="noopener">O que é assessoria jurídica popular?</a></p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2010/01/como-formar-uma-ajup.html" target="_blank" rel="noopener">Como formar uma assessoria jurídica popular universitária?</a></p>       blocos do corpo na ordem do original, já tipados em HTML
+    https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html   URL canônica do post no blog
+    https://www.blogger.com/profile/16853403191296683788   perfil público do autor
+
+  Apoio (o gerador pode preencher; se não usar, troque à mão):
+    2011-10-12      a mesma data em 2009-08-16 (atributo datetime e meta)
+    22 de novembro de 2026       data da coleta legível: 17/11/2026
+    2026-11-22   a mesma data em 2026-11-17
+    2011           ano do post: 2009
+    Assessoria jurídica popular          tema principal: Assessoria jurídica popular
+    Aqui estão muit@s d@s colunistas deste blogue, entre militantes de movimentos sociais, estudantes, professor@s, educador@s, advogad@s e pesquisador@s.        uma frase para a meta description
+    Diana Melo, maranhense, feminista, integrante do coletivo Agrupa que discute relações de gênero e feminismos a partir de outras linguagens; advogada militante da SMDH-Sociedade Maranhense de Direitos Humanos- Escritório Brasília, responsável por questões relacionadas à Justiça e Segurança em especifico no Combate à Prática da Tortura; educadora popular, colaboradora de projetos de extensão universitária na UNB (Promotoras Legais Populares - UNB) e UFMA (Najup Negro Cosme). Iniciei minha militância no estado do Maranhão, no movimento estudantil (Centro Acadêmico I de Maio) e extensionista (NAJUP Negro Cosme) em 2001 e no movimento feminista em 2004 no Grupo de Mulheres da Ilha. Atuei na CPT em Anapu e Altamira em 2006 e como assessora jurídica na Secretaria de Estado da Mulher no Maranhão em 2007. Colaborei na fundação do grupo NAJUP Maria Aragão na Faculdade São Luís, como professora da disciplina de Direitos Humanos. Moro em Brasília atualmente e transito constantemente pelo Território Nacional. Quando posso (ou mesmo quando não posso, rsrs), dou alguns pulos pela América Latina. Apóio a integração dos povos latinoamericanos, Cuba e a luta socialista. Contato twitter @diana_cerrado      trecho do bloco central para o blockquote
+
+  Regras que o gerador não pode quebrar:
+  1. <p>Aqui estão muit@s d@s colunistas deste blogue, entre militantes de movimentos sociais, estudantes, professor@s, educador@s, advogad@s e pesquisador@s. Se você quer fazer parte como colunista, ou enviar textos para nós, entre em contato pelo endereço assessoriajuridicapopular@gmail.com</p>
+      <p>Adriano Dirlei de Oliveira, militante anarquista, colaborador da Federação Anarquista Gaúcha (FAG-RS), militante do Movimento Resistência Popular, participou como militante da luta por moradia do bairro Zácchia (Passo Fundo- RS), atualmente participando da luta por melhorias na saúde e membro da comissão em defesa da saúde do bairro Zácchia.</p>
+      <p>Aline Caldeira Lopes, membro fundadora e sócia do Centro de Assessoria Jurídica Popular Mariana Criola, no Rio de Janeiro, bacharel em Direito pela UFRJ e mestre em Ciências Sociais pela UFRRJ. Minha pesquisa tratou da disputa territorial entre a comunidade da Ilha da Marambaia, no litoral do Estado do Rio de Janeiro, e a Marinha do Brasil, com enfoque no papel do direito e do Poder Judiciário naquele conflito. Atualmente sou professora de processo civil e teoria geral do processo.</p>
+      <p>André Luiz Conrado Mendes, professor substituto de prática jurídica da FND/UFRJ. Especialista em Educação pela FE-UFRJ, Mestre em Direito Constitucional e Teoria do Estado pela PUC-RIO. Advogado e membro do Coletivo Tempo de Resistência de advogados ativistas.</p>
+      <p>Assis da Costa Oliveira, professor de Direitos Humanos da Faculdade de Etnodesenvolvimento da UFPA, campus Altamira. Mestrando pelo Programa de Pós-Graduação em Direito da UFPA. Bacharel em Direito pela UFPA. Pesquisador integrante do Programa de Políticas Afirmativas para Povos Indígenas e Populações Tradicionais (PAPIT). Membro-fundador do Núcleo de Assessoria Jurídica Universitária Popular "Aldeia Kayapó" (NAJUPAK). Advogado. Também participo do Movimento Xingu Vivo para Sempre.</p>
+      <p>Betânia de Moraes Alfonsin, militante do Movimento Nacional pela Reforma Urbana. Membro fundadora da ACESSO - cidadania e direitos humanos. Doutora em Planejamento Urbano e Regional pelo IPPUR - Instituto de Pesquisa e pós-graduação em Planejamento Urbano e Regional da UFRJ. Professora de Direito Urbanístico e de Direito Administrativo na Faculdade de Direito da PUC-RS e da Fundação Escola Superior do Ministério Público do RS. Contato: betania@via-rs.net</p>
+      <p>Christianny Diógenes Maia, professora universitária da Faculdade Christus (Fortaleza-CE), pesquisadora das temáticas que envolvem a Assessoria Jurídica Popular, teorias críticas, práticas jurídicas emancipatórias, movimentos sociais e direitos humanos, doutoranda em Direito pela Universidade de Fortaleza - Unifor; realizando estágio de doutorado sanduiche no Centro de Estudos Sociais da Universidade de Coimbra, sob a orientação do professor Boaventura de Sousa Santos, mestre em Direito Público pela Universidade Federal do Ceará - UFC, participou do Centro de Assessoria Jurídica Universitária - CAJU da UFC. Contato: christiannydm@uol.com.br</p>
+      <p>Diego Augusto Diehl, doutorando em Direito pela Universidade de Brasília (PPGD-UnB). Mestre em Direitos Humanos pelo PPGD-UFPA. Bacharel em Direito pela UFPR. Assessor jurídico popular junto a movimentos populares urbanos e campesinos. Colaborador de projetos de extensão universitária da RENAJU (Rede Nacional de Assessoria Jurídica Universitária). Correl: diegoadiehl@yahoo.com.br</p>
+      <p>Humberto Góes/Betinho Góes, educador e advogado popular com atuação em Movimentos Sociais, especialmente, na militância por Direitos Humanos de Crianças e Adolescentes; atuamente, cursando Doutorado em Direito pela Universidade de Brasília, através de que pesquisa Educação Jurídica e Direitos Humanos; integrante do movimento de Extensão Popular universitária com escritos sobre assessoria jurídica popular, extensão e formação em Direito; fez Mestrado em Ciências Jurídicas, área de concentração em Direitos Humanos na Universidade Federal da Paraíba, instituição através de que integrou projetos de extensão popular e pesquisou a existência de uma noção de Direitos Humanos na obra de Paulo Freire; Membro-Fundador do Serviço de Auxílio Jurídico Universitário (SAJU-SE) da Universidade Federal de Sergipe em que cursou sua graduação em Direito e foi professor-substituto; Membro-Fundador da Rede Nacional de Assessoria Jurídica (RENAJU). e-mail para contato: jhgoesadv@hotmail.com</p>
+      <p>João Ricardo Silva, participante do NAJUP Cabano (Núcleo de Assessoria Jurídica Universitária Popular Cabano do Oeste do Pará/Santarém), Diretor de formação do DCE-UFOPA, graduando do programa de Direito da Universidade Federal do Oeste do Pará, militante do Movimento Ufopa Livre em favor de uma universidade mais justa e democrática. Contato: joao_ricardo_atm@hotmail.com; twitter: https://twitter.com/JoaoRicardoatm Blog: http://outrafrequencianet.blogspot.com/</p>
+      <p>Lívia Gimenes Dias da Fonseca, mestranda em Direito pela Universidade de Brasília, integrante da equipe de coordenação do projeto "Promotoras Legais Populares do Distrito Federal" (PLPs/DF) e da linha de pesquisa "O Direito Achado na Rua". O meu diploma de graduação é da faculdade de Direito da USP, mas a minha verdadeira formação se deu pelo Serviço de Assessoria Jurídica Universitária (SAJU/USP) do qual fiz parte de 2003 à 2007.Contato: liviagdf@gmail.com</p>
+      <p>Luara Colpa, estudante de Direito da Escola Superior Dom Hélder Câmara (Belo Horizonte/MG), faço parte de um grupo de pesquisa/iniciação científica: "Direito à cidade sustentável" - tratando de direito urbanístico e ambiental. Fora das grades (grade curricular) sou militante do movimento Brigadas Populares na Frente pela Reforma Urbana, participo do Fórum de Solidariedade às Ocupações-BH e milito também no Comitê Popular dos Atingidos pela Copa. Ainda, participo da Rede de Reforma Agrária. Estou escrevendo minha monografia sobre os impactos da Copa, a criação de estado de exceção em megaeventos e sua inconstitucionalidade.</p>
+      <p>Lucas Machado, bacharel em Direito pela UCPel, Pelotas-RS, militei no movimento estudantil e participei da formação do NAP-Núcleo de Assessoria Popular/UCPel, trabalhei junto ao Advogado Popular da Região na Assessoria a uma Cooperativa do MST e também alguns sindicatos de trabalhadores. Minha monografia de conclusão de curso foi sobre AJPU. Hoje faço mestrado em direito na UFSC, pesquisando Pluralismo Jurídico e Justiça Comunitária. Atualmente faço parte do projeto do NEPE-Núcleo de Estudos e Práticas Emancipatórias.</p>
+      <p>Luiz Otávio Ribas, professor universitário no Unicuritiba (Curitiba-PR), pesquisador na área de sociologia jurídica dos temas direito insurgente e assessoria jurídica popular, mestre em "filosofia e teoria do direito" pela UFSC, especialista em "direitos humanos" pela UFRGS/ESMPU, tendo participado como assessor estudantil dos grupos CAJU Sepé Tiaraju (Passo Fundo-RS) e Núcleo de Estudos e Práticas Emancipatórias (Florianópolis-SC). Contato: https://twitter.com/@luizotavioribas (Twitter).</p>
+      <p>Mariana Monteiro de Matos, nasceu em 1988 em Belém, capital do Pará, estado situado na Amazônia Oriental Brasileira onde atualmente reside. Morou no Chile e na Alemanha, país este no qual pretende realizar seus estudos de pós-graduação com foco no binômio direitos humanos e propriedade intelectual. Integrante do Núcleo de Assessoria Jurídica Universitária Popular Aldeia Kayapó (NAJUPAK), da Rede Nacional de Assessoria Jurídica (RENAJU) e da Ordem dos Advogados do Brasil (OAB). Recebeu recentemente os títulos de Bacharel em Direito pela Universidade Federal do Pará e Bacharel em Secretariado Executivo Trilingue pela Universidade do Estado do Pará. Contato: mariana.selva@hotmail.com</p>
+      <p>Nayara Barros de Sousa, Mestranda em Ética e Epistemologia na Universidade Federal do Piauí, presentemente interessada em estudar Nancy Fraser, pesquisadora do grupo de estudos República-UFPI, graduada em Direito pela Universidade Estadual do Piauí e advogada. Passando para a primeira pessoa, agora: sinceramente, reconheço-me mesmo como uma interessada na complexidade do ser humano em geral e em suas mais diversas manifestações coletivas e individuais. Bem genérico isso. Eventual colaboradora do blogue da Assessoria Jurídica Popular, mas comentadora assídua dele e participante avulsa (amiga) do Corpo de Assessoria Jurídica Estudantil- CORAJE (UESPI). Tenho sérias pretensões no mundo da docência. Ah, e gosto demais de literatura, minha expressão artística favorita. Contatos: nayarapequena@hotmail.com; nayarapequena@yahoo.com e @naybsousa (tuíter).</p>
+      <p>Ricardo Prestes Pazello, professor de Antropologia Jurídica na Universidade Federal do Paraná (Curitiba-PR), pesquisador da temática sobre teorias críticas do direito, filosofia latino-americana e movimentos populares. Doutorando em Direito das Relações Sociais pela UFPR, mestre em Filosofia e Teoria do Direito pela UFSC, tendo participado como assessor estudantil do Serviço de Assessoria Jurídica Universitária Popular (SAJUP/UFPR) e do Núcleo de Direito Cooperativo e Cidadania (NDCC/UFPR), em Curitiba, e do Núcleo de Estudos e Práticas Emancipatórias (NEPE/UFSC), em Florianópolis. Contatos: ricardo2p@ufpr.br (correl) e https://twitter.com/@ricardo2p (tuíter).</p>
+      <p>Roberta Cunha de Oliveira, bacharel pela Universidade Federal de Santa Maria/ RS, mestranda em ciências criminais/ criminologia crítica pela Puc/ RS, advogada, colaboradora do Grupo de Apoio aos Povos Indígenas (Gapin) e da Comissão de Direitos Humanos da subseção da Oab na cidade de Santa Maria, atualmente atuo como colaboradora também do NIJUC (núcleo de interação jurídica comunitária), depois de alguns anos na ativa como membro do grupo. Sou uma "curiosa"e pesquisadora da cultura e resistência latino- americana, com especial enfoque no direito à memória e à verdade nos países em transição democrática e dos povos originários no continente. Contatos: robertacunha_86@hotmail.com, robertacunha_86@yahoo.com.br.</p>
+      <p>Sabrine Tams Gasperin, militante permanente da emancipação humana, integrante do SURJA - Serviço Universitário de Resistência e Justiça para Autonomia, pesquisadora autônoma da questão urbana e sua insustentabilidade, integrante da gestão Todas as Cores DCE UFPel, pesquisadora autônoma da música brasileira, graduanda em Direito pela Universidade Federal de Pelotas e integrante do Centro Acadêmico Ferreira Vianna - CAFV. Contato: binagasper@gmail.com</p>
+      <p>Thiago de Azevedo Pinheiro Hoshino, mestrando em Direito pela Universidade Federal do Paraná, integrante do Centro de Estudos em Segurança Pública e Direitos Humanos na mesma instituição e do Núcleo de Estudos Afro-Brasileiros (NEAB-UFPR). Assessor da Organização Terra de Direitos para o eixo "Terra, Território e Eqüidade Sócio-Espacial Urbana" e militante pelo Direito à Cidade. Pesquisador nas áreas de antropologia jurídica, história do direito e sociologia das relações raciais, com ênfase no estudo da territorialidade das comunidades de terreiro e sua potência contra-hegemônica. Curioso, em especial, de todas as formas de interação entre cultura popular e organização política. Muzenza do Abassá de Luango - São Paulo, SP. Filho de Ogum, Iemanjá e Oxaguiã. thihoshino@hotmail.com</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2009/08/o-que-e-assessoria-juridica-popular.html" target="_blank" rel="noopener">O que é assessoria jurídica popular?</a></p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2010/01/como-formar-uma-ajup.html" target="_blank" rel="noopener">Como formar uma assessoria jurídica popular universitária?</a></p> entra como blocos tipados (<p>, <figure>, <h2>), nunca HTML
+     cru do Blogger. Gadgets "Mapeamento", "Colunistas", "Postado por" e
+     "Tecnologia do Blogger" ficam de fora.
+  2. O bloco de citação é obrigatório e vem antes do corpo.
+  3. Os dois botões aparecem no topo e no rodapé.
+  4. Imagem sem licença declarada entra como link, nunca como arquivo.
+  5. "Capturado em" só existe com data real da coleta.
+  6. Regime de citação: canonical aponta para o original. Só troque para a
+     página nova quando houver autorização escrita.
+  ══════════════════════════════════════════════════════════════════════ -->
+<html lang="pt-BR" data-theme="pequi">
+<head>
+  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Colunistas · AJP — Assessoria Jurídica Popular</title>
+<meta name="description" content="Aqui estão muit@s d@s colunistas deste blogue, entre militantes de movimentos sociais, estudantes, professor@s, educador@s, advogad@s e pesquisador@s." />
+
+<!-- Regime de citação: canonical no original enquanto a licença for
+     `citacao`. Com autorização escrita, passa a apontar para esta página. -->
+<link rel="canonical" href="https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html" />
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Colunistas" />
+<meta property="og:description" content="Aqui estão muit@s d@s colunistas deste blogue, entre militantes de movimentos sociais, estudantes, professor@s, educador@s, advogad@s e pesquisador@s." />
+<meta property="og:url" content="https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html" />
+<meta property="article:published_time" content="2011-10-12" />
+<meta property="article:author" content="Luiz Otávio Ribas" />
+
+<link rel="icon" href="data:," />
+
+<!-- Caminhos relativos a partir de acervo/. A ordem importa: base (temas.css),
+     marca (renap.css) e por último as regras desta página (acervo.css). -->
+<link rel="stylesheet" href="fontes/fontshare.css?v=3" />
+<link rel="stylesheet" href="temas/temas.css?v=5" />
+<link rel="stylesheet" href="temas/renap.css?v=2" />
+<link rel="stylesheet" href="acervo.css?v=112" />
+  <link rel="stylesheet" href="reveal.css?v=112" />
+  <link rel="stylesheet" href="componentes/radio.css?v=4" />
+
+<!-- Citação por máquina: Article + isBasedOn + autor + data. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Colunistas",
+  "datePublished": "2011-10-12",
+  "inLanguage": "pt-BR",
+  "author": {
+    "@type": "Person",
+    "name": "Luiz Otávio Ribas",
+    "url": "https://www.blogger.com/profile/16853403191296683788"
+  },
+  "isBasedOn": "https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html",
+  "publisher": {
+    "@type": "Organization",
+    "name": "RENAP — Rede Nacional de Advogadas e Advogados Populares",
+    "url": "https://renap.org.br/"
+  }
+}
+</script>
+  <link rel="stylesheet" href="leitura.css?v=1" />
+</head>
+<!-- Foto de fundo é opcional. Para ligar, use:
+       <body class="com-foto" style="--fundo:url('../assets/fundo/foto-27.jpg')">
+     O brilho (.38) e a opacidade (.42) já vêm do acervo.css, e o véu do
+     tema (40/28/18; claro 92/84/74) garante a leitura. No alto contraste a
+     foto sai de cena. Só use foto com licença e crédito declarados. -->
+<body>
+
+<a class="pular" href="#conteudo">Pular para o texto</a>
+
+<!-- Barra do topo: marca e seletor de tema. Nove temas no <select>, sem
+     rádio. O script do fim da página só grava data-theme no <html>. -->
+<header class="topo">
+  <div class="topo__interno">
+    <a class="topo__marca" href="index.html">
+      <span class="ponto" aria-hidden="true"></span>
+      AJP <span>· Assessoria Jurídica Popular</span>
+    </a>
+    <nav class="topo__links" aria-label="Navegação principal">
+      <a href="index.html">Home</a>
+      <a href="acervo.html">Acervo</a>
+      <a href="biblioteca.html">Biblioteca</a>
+      <a href="rede.html">Rede</a>
+      <a href="mistica.html">Mística</a>
+      <a href="ia.html">IA</a>
+    </nav>
+    <div class="topo__tema">
+      <label for="tema">Tema</label>
+      <select id="tema" name="tema">
+        <option value="light">⚪ Claro</option>
+        <option value="dark">⚫ Escuro</option>
+        <option value="brasil">🟢 Brasil</option>
+        <option value="high-contrast">◐ Alto contraste</option>
+        <option value="pequi">🟠 Pequi</option>
+        <option value="cerrado">🟡 Cerrado</option>
+        <option value="mata-atlantica">🟩 Mata Atlântica</option>
+        <option value="caatinga">🟤 Caatinga</option>
+        <option value="pantanal">🔵 Pantanal</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo" data-revelar-grupo>
+  <nav class="migalha" aria-label="Você está em"><a href="index.html">Acervo</a> <span aria-hidden="true">/</span> <a href="assessoria-juridica-popular.html">Assessoria jurídica popular</a> <span aria-hidden="true">/</span> <span aria-current="page">Colunistas</span></nav>
+  <article data-revelar-grupo class="pagina" aria-labelledby="titulo">
+
+    <!-- 1. OLHO: tema + ano, em texto (nunca só cor).
+         2. TÍTULO: o do original, sem reescrever.
+         3. FICHA DE ORIGEM: autor, data, blog, regime e captura.
+         4. CRÉDITO DE PARCERIA: visível, com link para o IPDMS. -->
+    <header>
+      <p class="olho">
+        <span class="olho__ponto" aria-hidden="true"></span>
+        Assessoria jurídica popular <span aria-hidden="true">·</span> 2011
+      </p>
+
+      <h1 id="titulo">Colunistas</h1>
+
+      <dl class="ficha">
+        <div class="ficha__linha">
+          <dt>Autor</dt>
+          <dd>Luiz Otávio Ribas</dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Publicado</dt>
+          <dd><time datetime="2011-10-12">12 de outubro de 2011</time></dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Blog</dt>
+          <dd>
+            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>
+            <span class="link-original-sep" aria-hidden="true">·</span>
+            <a class="link-original-inline" href="https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html" target="_blank" rel="noopener">Ler no blog original<span class="sr-only"> (abre em outra aba)</span></a>
+          </dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Regime</dt>
+          <dd>Citação direta, com crédito e link para o original</dd>
+        </div>
+        <div class="ficha__linha">
+          <dt>Capturado em</dt>
+          <dd><time datetime="2026-11-22">22 de novembro de 2026</time></dd>
+        </div>
+      </dl>
+      <p class="autor-link">Todos os textos de <a href="autor-luiz-otavio-ribas.html">Luiz Otávio Ribas</a></p>
+    </header>
+
+    <!-- 5. BLOCO DE CITAÇÃO (obrigatório, antes do corpo).
+         - blockquote com cite na URL canônica;
+         - autor em negrito, antes do veículo;
+         - data legível + datetime ISO;
+         - "Capturado em" com a data real da coleta.
+
+         Diana Melo, maranhense, feminista, integrante do coletivo Agrupa que discute relações de gênero e feminismos a partir de outras linguagens; advogada militante da SMDH-Sociedade Maranhense de Direitos Humanos- Escritório Brasília, responsável por questões relacionadas à Justiça e Segurança em especifico no Combate à Prática da Tortura; educadora popular, colaboradora de projetos de extensão universitária na UNB (Promotoras Legais Populares - UNB) e UFMA (Najup Negro Cosme). Iniciei minha militância no estado do Maranhão, no movimento estudantil (Centro Acadêmico I de Maio) e extensionista (NAJUP Negro Cosme) em 2001 e no movimento feminista em 2004 no Grupo de Mulheres da Ilha. Atuei na CPT em Anapu e Altamira em 2006 e como assessora jurídica na Secretaria de Estado da Mulher no Maranhão em 2007. Colaborei na fundação do grupo NAJUP Maria Aragão na Faculdade São Luís, como professora da disciplina de Direitos Humanos. Moro em Brasília atualmente e transito constantemente pelo Território Nacional. Quando posso (ou mesmo quando não posso, rsrs), dou alguns pulos pela América Latina. Apóio a integração dos povos latinoamericanos, Cuba e a luta socialista. Contato twitter @diana_cerrado é o bloco central do original. No regime de citação,
+         use até 30% do texto; com autorização, pode ser o bloco inteiro.
+         O mesmo trecho não se repete no corpo. -->
+    <figure class="cartao citacao">
+      <blockquote cite="https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html">
+        <p>Diana Melo, maranhense, feminista, integrante do coletivo Agrupa que discute relações de gênero e feminismos a partir de outras linguagens; advogada militante da SMDH-Sociedade Maranhense de Direitos Humanos- Escritório Brasília, responsável por questões relacionadas à Justiça e Segurança em especifico no Combate à Prática da Tortura; educadora popular, colaboradora de projetos de extensão universitária na UNB (Promotoras Legais Populares - UNB) e UFMA (Najup Negro Cosme). Iniciei minha militância no estado do Maranhão, no movimento estudantil (Centro Acadêmico I de Maio) e extensionista (NAJUP Negro Cosme) em 2001 e no movimento feminista em 2004 no Grupo de Mulheres da Ilha. Atuei na CPT em Anapu e Altamira em 2006 e como assessora jurídica na Secretaria de Estado da Mulher no Maranhão em 2007. Colaborei na fundação do grupo NAJUP Maria Aragão na Faculdade São Luís, como professora da disciplina de Direitos Humanos. Moro em Brasília atualmente e transito constantemente pelo Território Nacional. Quando posso (ou mesmo quando não posso, rsrs), dou alguns pulos pela América Latina. Apóio a integração dos povos latinoamericanos, Cuba e a luta socialista. Contato twitter @diana_cerrado</p>
+      </blockquote>
+      <figcaption>
+        <b>Luiz Otávio Ribas</b>, em “Colunistas”,
+        <time datetime="2011-10-12">12 de outubro de 2011</time>,
+        <a href="https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>.
+        Capturado em <time datetime="2026-11-22">22 de novembro de 2026</time>.
+      </figcaption>
+    </figure>
+
+    <!-- 6. O link para o original fica na ficha de origem, na linha "Blog",
+         no mesmo tamanho do texto. Sem botões grandes depois da citação. -->
+
+    <!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
+         O ETL entrega HTML já tipado. Exemplo do que <p>Aqui estão muit@s d@s colunistas deste blogue, entre militantes de movimentos sociais, estudantes, professor@s, educador@s, advogad@s e pesquisador@s. Se você quer fazer parte como colunista, ou enviar textos para nós, entre em contato pelo endereço assessoriajuridicapopular@gmail.com</p>
+      <p>Adriano Dirlei de Oliveira, militante anarquista, colaborador da Federação Anarquista Gaúcha (FAG-RS), militante do Movimento Resistência Popular, participou como militante da luta por moradia do bairro Zácchia (Passo Fundo- RS), atualmente participando da luta por melhorias na saúde e membro da comissão em defesa da saúde do bairro Zácchia.</p>
+      <p>Aline Caldeira Lopes, membro fundadora e sócia do Centro de Assessoria Jurídica Popular Mariana Criola, no Rio de Janeiro, bacharel em Direito pela UFRJ e mestre em Ciências Sociais pela UFRRJ. Minha pesquisa tratou da disputa territorial entre a comunidade da Ilha da Marambaia, no litoral do Estado do Rio de Janeiro, e a Marinha do Brasil, com enfoque no papel do direito e do Poder Judiciário naquele conflito. Atualmente sou professora de processo civil e teoria geral do processo.</p>
+      <p>André Luiz Conrado Mendes, professor substituto de prática jurídica da FND/UFRJ. Especialista em Educação pela FE-UFRJ, Mestre em Direito Constitucional e Teoria do Estado pela PUC-RIO. Advogado e membro do Coletivo Tempo de Resistência de advogados ativistas.</p>
+      <p>Assis da Costa Oliveira, professor de Direitos Humanos da Faculdade de Etnodesenvolvimento da UFPA, campus Altamira. Mestrando pelo Programa de Pós-Graduação em Direito da UFPA. Bacharel em Direito pela UFPA. Pesquisador integrante do Programa de Políticas Afirmativas para Povos Indígenas e Populações Tradicionais (PAPIT). Membro-fundador do Núcleo de Assessoria Jurídica Universitária Popular "Aldeia Kayapó" (NAJUPAK). Advogado. Também participo do Movimento Xingu Vivo para Sempre.</p>
+      <p>Betânia de Moraes Alfonsin, militante do Movimento Nacional pela Reforma Urbana. Membro fundadora da ACESSO - cidadania e direitos humanos. Doutora em Planejamento Urbano e Regional pelo IPPUR - Instituto de Pesquisa e pós-graduação em Planejamento Urbano e Regional da UFRJ. Professora de Direito Urbanístico e de Direito Administrativo na Faculdade de Direito da PUC-RS e da Fundação Escola Superior do Ministério Público do RS. Contato: betania@via-rs.net</p>
+      <p>Christianny Diógenes Maia, professora universitária da Faculdade Christus (Fortaleza-CE), pesquisadora das temáticas que envolvem a Assessoria Jurídica Popular, teorias críticas, práticas jurídicas emancipatórias, movimentos sociais e direitos humanos, doutoranda em Direito pela Universidade de Fortaleza - Unifor; realizando estágio de doutorado sanduiche no Centro de Estudos Sociais da Universidade de Coimbra, sob a orientação do professor Boaventura de Sousa Santos, mestre em Direito Público pela Universidade Federal do Ceará - UFC, participou do Centro de Assessoria Jurídica Universitária - CAJU da UFC. Contato: christiannydm@uol.com.br</p>
+      <p>Diego Augusto Diehl, doutorando em Direito pela Universidade de Brasília (PPGD-UnB). Mestre em Direitos Humanos pelo PPGD-UFPA. Bacharel em Direito pela UFPR. Assessor jurídico popular junto a movimentos populares urbanos e campesinos. Colaborador de projetos de extensão universitária da RENAJU (Rede Nacional de Assessoria Jurídica Universitária). Correl: diegoadiehl@yahoo.com.br</p>
+      <p>Humberto Góes/Betinho Góes, educador e advogado popular com atuação em Movimentos Sociais, especialmente, na militância por Direitos Humanos de Crianças e Adolescentes; atuamente, cursando Doutorado em Direito pela Universidade de Brasília, através de que pesquisa Educação Jurídica e Direitos Humanos; integrante do movimento de Extensão Popular universitária com escritos sobre assessoria jurídica popular, extensão e formação em Direito; fez Mestrado em Ciências Jurídicas, área de concentração em Direitos Humanos na Universidade Federal da Paraíba, instituição através de que integrou projetos de extensão popular e pesquisou a existência de uma noção de Direitos Humanos na obra de Paulo Freire; Membro-Fundador do Serviço de Auxílio Jurídico Universitário (SAJU-SE) da Universidade Federal de Sergipe em que cursou sua graduação em Direito e foi professor-substituto; Membro-Fundador da Rede Nacional de Assessoria Jurídica (RENAJU). e-mail para contato: jhgoesadv@hotmail.com</p>
+      <p>João Ricardo Silva, participante do NAJUP Cabano (Núcleo de Assessoria Jurídica Universitária Popular Cabano do Oeste do Pará/Santarém), Diretor de formação do DCE-UFOPA, graduando do programa de Direito da Universidade Federal do Oeste do Pará, militante do Movimento Ufopa Livre em favor de uma universidade mais justa e democrática. Contato: joao_ricardo_atm@hotmail.com; twitter: https://twitter.com/JoaoRicardoatm Blog: http://outrafrequencianet.blogspot.com/</p>
+      <p>Lívia Gimenes Dias da Fonseca, mestranda em Direito pela Universidade de Brasília, integrante da equipe de coordenação do projeto "Promotoras Legais Populares do Distrito Federal" (PLPs/DF) e da linha de pesquisa "O Direito Achado na Rua". O meu diploma de graduação é da faculdade de Direito da USP, mas a minha verdadeira formação se deu pelo Serviço de Assessoria Jurídica Universitária (SAJU/USP) do qual fiz parte de 2003 à 2007.Contato: liviagdf@gmail.com</p>
+      <p>Luara Colpa, estudante de Direito da Escola Superior Dom Hélder Câmara (Belo Horizonte/MG), faço parte de um grupo de pesquisa/iniciação científica: "Direito à cidade sustentável" - tratando de direito urbanístico e ambiental. Fora das grades (grade curricular) sou militante do movimento Brigadas Populares na Frente pela Reforma Urbana, participo do Fórum de Solidariedade às Ocupações-BH e milito também no Comitê Popular dos Atingidos pela Copa. Ainda, participo da Rede de Reforma Agrária. Estou escrevendo minha monografia sobre os impactos da Copa, a criação de estado de exceção em megaeventos e sua inconstitucionalidade.</p>
+      <p>Lucas Machado, bacharel em Direito pela UCPel, Pelotas-RS, militei no movimento estudantil e participei da formação do NAP-Núcleo de Assessoria Popular/UCPel, trabalhei junto ao Advogado Popular da Região na Assessoria a uma Cooperativa do MST e também alguns sindicatos de trabalhadores. Minha monografia de conclusão de curso foi sobre AJPU. Hoje faço mestrado em direito na UFSC, pesquisando Pluralismo Jurídico e Justiça Comunitária. Atualmente faço parte do projeto do NEPE-Núcleo de Estudos e Práticas Emancipatórias.</p>
+      <p>Luiz Otávio Ribas, professor universitário no Unicuritiba (Curitiba-PR), pesquisador na área de sociologia jurídica dos temas direito insurgente e assessoria jurídica popular, mestre em "filosofia e teoria do direito" pela UFSC, especialista em "direitos humanos" pela UFRGS/ESMPU, tendo participado como assessor estudantil dos grupos CAJU Sepé Tiaraju (Passo Fundo-RS) e Núcleo de Estudos e Práticas Emancipatórias (Florianópolis-SC). Contato: https://twitter.com/@luizotavioribas (Twitter).</p>
+      <p>Mariana Monteiro de Matos, nasceu em 1988 em Belém, capital do Pará, estado situado na Amazônia Oriental Brasileira onde atualmente reside. Morou no Chile e na Alemanha, país este no qual pretende realizar seus estudos de pós-graduação com foco no binômio direitos humanos e propriedade intelectual. Integrante do Núcleo de Assessoria Jurídica Universitária Popular Aldeia Kayapó (NAJUPAK), da Rede Nacional de Assessoria Jurídica (RENAJU) e da Ordem dos Advogados do Brasil (OAB). Recebeu recentemente os títulos de Bacharel em Direito pela Universidade Federal do Pará e Bacharel em Secretariado Executivo Trilingue pela Universidade do Estado do Pará. Contato: mariana.selva@hotmail.com</p>
+      <p>Nayara Barros de Sousa, Mestranda em Ética e Epistemologia na Universidade Federal do Piauí, presentemente interessada em estudar Nancy Fraser, pesquisadora do grupo de estudos República-UFPI, graduada em Direito pela Universidade Estadual do Piauí e advogada. Passando para a primeira pessoa, agora: sinceramente, reconheço-me mesmo como uma interessada na complexidade do ser humano em geral e em suas mais diversas manifestações coletivas e individuais. Bem genérico isso. Eventual colaboradora do blogue da Assessoria Jurídica Popular, mas comentadora assídua dele e participante avulsa (amiga) do Corpo de Assessoria Jurídica Estudantil- CORAJE (UESPI). Tenho sérias pretensões no mundo da docência. Ah, e gosto demais de literatura, minha expressão artística favorita. Contatos: nayarapequena@hotmail.com; nayarapequena@yahoo.com e @naybsousa (tuíter).</p>
+      <p>Ricardo Prestes Pazello, professor de Antropologia Jurídica na Universidade Federal do Paraná (Curitiba-PR), pesquisador da temática sobre teorias críticas do direito, filosofia latino-americana e movimentos populares. Doutorando em Direito das Relações Sociais pela UFPR, mestre em Filosofia e Teoria do Direito pela UFSC, tendo participado como assessor estudantil do Serviço de Assessoria Jurídica Universitária Popular (SAJUP/UFPR) e do Núcleo de Direito Cooperativo e Cidadania (NDCC/UFPR), em Curitiba, e do Núcleo de Estudos e Práticas Emancipatórias (NEPE/UFSC), em Florianópolis. Contatos: ricardo2p@ufpr.br (correl) e https://twitter.com/@ricardo2p (tuíter).</p>
+      <p>Roberta Cunha de Oliveira, bacharel pela Universidade Federal de Santa Maria/ RS, mestranda em ciências criminais/ criminologia crítica pela Puc/ RS, advogada, colaboradora do Grupo de Apoio aos Povos Indígenas (Gapin) e da Comissão de Direitos Humanos da subseção da Oab na cidade de Santa Maria, atualmente atuo como colaboradora também do NIJUC (núcleo de interação jurídica comunitária), depois de alguns anos na ativa como membro do grupo. Sou uma "curiosa"e pesquisadora da cultura e resistência latino- americana, com especial enfoque no direito à memória e à verdade nos países em transição democrática e dos povos originários no continente. Contatos: robertacunha_86@hotmail.com, robertacunha_86@yahoo.com.br.</p>
+      <p>Sabrine Tams Gasperin, militante permanente da emancipação humana, integrante do SURJA - Serviço Universitário de Resistência e Justiça para Autonomia, pesquisadora autônoma da questão urbana e sua insustentabilidade, integrante da gestão Todas as Cores DCE UFPel, pesquisadora autônoma da música brasileira, graduanda em Direito pela Universidade Federal de Pelotas e integrante do Centro Acadêmico Ferreira Vianna - CAFV. Contato: binagasper@gmail.com</p>
+      <p>Thiago de Azevedo Pinheiro Hoshino, mestrando em Direito pela Universidade Federal do Paraná, integrante do Centro de Estudos em Segurança Pública e Direitos Humanos na mesma instituição e do Núcleo de Estudos Afro-Brasileiros (NEAB-UFPR). Assessor da Organização Terra de Direitos para o eixo "Terra, Território e Eqüidade Sócio-Espacial Urbana" e militante pelo Direito à Cidade. Pesquisador nas áreas de antropologia jurídica, história do direito e sociologia das relações raciais, com ênfase no estudo da territorialidade das comunidades de terreiro e sua potência contra-hegemônica. Curioso, em especial, de todas as formas de interação entre cultura popular e organização política. Muzenza do Abassá de Luango - São Paulo, SP. Filho de Ogum, Iemanjá e Oxaguiã. thihoshino@hotmail.com</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2009/08/o-que-e-assessoria-juridica-popular.html" target="_blank" rel="noopener">O que é assessoria jurídica popular?</a></p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2010/01/como-formar-uma-ajup.html" target="_blank" rel="noopener">Como formar uma assessoria jurídica popular universitária?</a></p> pode conter:
+
+           <p>Parágrafo do original.</p>
+           <figure class="cartaz">
+             <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html" target="_blank" rel="noopener">Ver o cartaz no blog original<span class="sr-only"> (abre em outra aba)</span></a>
+             <figcaption>Legenda do original, com crédito ou aviso de licença.</figcaption>
+           </figure>
+           <h2>Pergunta final do original</h2>
+
+         Imagem sem licença: só link. Nunca copie o arquivo. -->
+    <div data-revelar-grupo class="cartao corpo">
+      <p>Aqui estão muit@s d@s colunistas deste blogue, entre militantes de movimentos sociais, estudantes, professor@s, educador@s, advogad@s e pesquisador@s. Se você quer fazer parte como colunista, ou enviar textos para nós, entre em contato pelo endereço assessoriajuridicapopular@gmail.com</p>
+      <p>Adriano Dirlei de Oliveira, militante anarquista, colaborador da Federação Anarquista Gaúcha (FAG-RS), militante do Movimento Resistência Popular, participou como militante da luta por moradia do bairro Zácchia (Passo Fundo- RS), atualmente participando da luta por melhorias na saúde e membro da comissão em defesa da saúde do bairro Zácchia.</p>
+      <p>Aline Caldeira Lopes, membro fundadora e sócia do Centro de Assessoria Jurídica Popular Mariana Criola, no Rio de Janeiro, bacharel em Direito pela UFRJ e mestre em Ciências Sociais pela UFRRJ. Minha pesquisa tratou da disputa territorial entre a comunidade da Ilha da Marambaia, no litoral do Estado do Rio de Janeiro, e a Marinha do Brasil, com enfoque no papel do direito e do Poder Judiciário naquele conflito. Atualmente sou professora de processo civil e teoria geral do processo.</p>
+      <p>André Luiz Conrado Mendes, professor substituto de prática jurídica da FND/UFRJ. Especialista em Educação pela FE-UFRJ, Mestre em Direito Constitucional e Teoria do Estado pela PUC-RIO. Advogado e membro do Coletivo Tempo de Resistência de advogados ativistas.</p>
+      <p>Assis da Costa Oliveira, professor de Direitos Humanos da Faculdade de Etnodesenvolvimento da UFPA, campus Altamira. Mestrando pelo Programa de Pós-Graduação em Direito da UFPA. Bacharel em Direito pela UFPA. Pesquisador integrante do Programa de Políticas Afirmativas para Povos Indígenas e Populações Tradicionais (PAPIT). Membro-fundador do Núcleo de Assessoria Jurídica Universitária Popular "Aldeia Kayapó" (NAJUPAK). Advogado. Também participo do Movimento Xingu Vivo para Sempre.</p>
+      <p>Betânia de Moraes Alfonsin, militante do Movimento Nacional pela Reforma Urbana. Membro fundadora da ACESSO - cidadania e direitos humanos. Doutora em Planejamento Urbano e Regional pelo IPPUR - Instituto de Pesquisa e pós-graduação em Planejamento Urbano e Regional da UFRJ. Professora de Direito Urbanístico e de Direito Administrativo na Faculdade de Direito da PUC-RS e da Fundação Escola Superior do Ministério Público do RS. Contato: betania@via-rs.net</p>
+      <p>Christianny Diógenes Maia, professora universitária da Faculdade Christus (Fortaleza-CE), pesquisadora das temáticas que envolvem a Assessoria Jurídica Popular, teorias críticas, práticas jurídicas emancipatórias, movimentos sociais e direitos humanos, doutoranda em Direito pela Universidade de Fortaleza - Unifor; realizando estágio de doutorado sanduiche no Centro de Estudos Sociais da Universidade de Coimbra, sob a orientação do professor Boaventura de Sousa Santos, mestre em Direito Público pela Universidade Federal do Ceará - UFC, participou do Centro de Assessoria Jurídica Universitária - CAJU da UFC. Contato: christiannydm@uol.com.br</p>
+      <p>Diego Augusto Diehl, doutorando em Direito pela Universidade de Brasília (PPGD-UnB). Mestre em Direitos Humanos pelo PPGD-UFPA. Bacharel em Direito pela UFPR. Assessor jurídico popular junto a movimentos populares urbanos e campesinos. Colaborador de projetos de extensão universitária da RENAJU (Rede Nacional de Assessoria Jurídica Universitária). Correl: diegoadiehl@yahoo.com.br</p>
+      <p>Humberto Góes/Betinho Góes, educador e advogado popular com atuação em Movimentos Sociais, especialmente, na militância por Direitos Humanos de Crianças e Adolescentes; atuamente, cursando Doutorado em Direito pela Universidade de Brasília, através de que pesquisa Educação Jurídica e Direitos Humanos; integrante do movimento de Extensão Popular universitária com escritos sobre assessoria jurídica popular, extensão e formação em Direito; fez Mestrado em Ciências Jurídicas, área de concentração em Direitos Humanos na Universidade Federal da Paraíba, instituição através de que integrou projetos de extensão popular e pesquisou a existência de uma noção de Direitos Humanos na obra de Paulo Freire; Membro-Fundador do Serviço de Auxílio Jurídico Universitário (SAJU-SE) da Universidade Federal de Sergipe em que cursou sua graduação em Direito e foi professor-substituto; Membro-Fundador da Rede Nacional de Assessoria Jurídica (RENAJU). e-mail para contato: jhgoesadv@hotmail.com</p>
+      <p>João Ricardo Silva, participante do NAJUP Cabano (Núcleo de Assessoria Jurídica Universitária Popular Cabano do Oeste do Pará/Santarém), Diretor de formação do DCE-UFOPA, graduando do programa de Direito da Universidade Federal do Oeste do Pará, militante do Movimento Ufopa Livre em favor de uma universidade mais justa e democrática. Contato: joao_ricardo_atm@hotmail.com; twitter: https://twitter.com/JoaoRicardoatm Blog: http://outrafrequencianet.blogspot.com/</p>
+      <p>Lívia Gimenes Dias da Fonseca, mestranda em Direito pela Universidade de Brasília, integrante da equipe de coordenação do projeto "Promotoras Legais Populares do Distrito Federal" (PLPs/DF) e da linha de pesquisa "O Direito Achado na Rua". O meu diploma de graduação é da faculdade de Direito da USP, mas a minha verdadeira formação se deu pelo Serviço de Assessoria Jurídica Universitária (SAJU/USP) do qual fiz parte de 2003 à 2007.Contato: liviagdf@gmail.com</p>
+      <p>Luara Colpa, estudante de Direito da Escola Superior Dom Hélder Câmara (Belo Horizonte/MG), faço parte de um grupo de pesquisa/iniciação científica: "Direito à cidade sustentável" - tratando de direito urbanístico e ambiental. Fora das grades (grade curricular) sou militante do movimento Brigadas Populares na Frente pela Reforma Urbana, participo do Fórum de Solidariedade às Ocupações-BH e milito também no Comitê Popular dos Atingidos pela Copa. Ainda, participo da Rede de Reforma Agrária. Estou escrevendo minha monografia sobre os impactos da Copa, a criação de estado de exceção em megaeventos e sua inconstitucionalidade.</p>
+      <p>Lucas Machado, bacharel em Direito pela UCPel, Pelotas-RS, militei no movimento estudantil e participei da formação do NAP-Núcleo de Assessoria Popular/UCPel, trabalhei junto ao Advogado Popular da Região na Assessoria a uma Cooperativa do MST e também alguns sindicatos de trabalhadores. Minha monografia de conclusão de curso foi sobre AJPU. Hoje faço mestrado em direito na UFSC, pesquisando Pluralismo Jurídico e Justiça Comunitária. Atualmente faço parte do projeto do NEPE-Núcleo de Estudos e Práticas Emancipatórias.</p>
+      <p>Luiz Otávio Ribas, professor universitário no Unicuritiba (Curitiba-PR), pesquisador na área de sociologia jurídica dos temas direito insurgente e assessoria jurídica popular, mestre em "filosofia e teoria do direito" pela UFSC, especialista em "direitos humanos" pela UFRGS/ESMPU, tendo participado como assessor estudantil dos grupos CAJU Sepé Tiaraju (Passo Fundo-RS) e Núcleo de Estudos e Práticas Emancipatórias (Florianópolis-SC). Contato: https://twitter.com/@luizotavioribas (Twitter).</p>
+      <p>Mariana Monteiro de Matos, nasceu em 1988 em Belém, capital do Pará, estado situado na Amazônia Oriental Brasileira onde atualmente reside. Morou no Chile e na Alemanha, país este no qual pretende realizar seus estudos de pós-graduação com foco no binômio direitos humanos e propriedade intelectual. Integrante do Núcleo de Assessoria Jurídica Universitária Popular Aldeia Kayapó (NAJUPAK), da Rede Nacional de Assessoria Jurídica (RENAJU) e da Ordem dos Advogados do Brasil (OAB). Recebeu recentemente os títulos de Bacharel em Direito pela Universidade Federal do Pará e Bacharel em Secretariado Executivo Trilingue pela Universidade do Estado do Pará. Contato: mariana.selva@hotmail.com</p>
+      <p>Nayara Barros de Sousa, Mestranda em Ética e Epistemologia na Universidade Federal do Piauí, presentemente interessada em estudar Nancy Fraser, pesquisadora do grupo de estudos República-UFPI, graduada em Direito pela Universidade Estadual do Piauí e advogada. Passando para a primeira pessoa, agora: sinceramente, reconheço-me mesmo como uma interessada na complexidade do ser humano em geral e em suas mais diversas manifestações coletivas e individuais. Bem genérico isso. Eventual colaboradora do blogue da Assessoria Jurídica Popular, mas comentadora assídua dele e participante avulsa (amiga) do Corpo de Assessoria Jurídica Estudantil- CORAJE (UESPI). Tenho sérias pretensões no mundo da docência. Ah, e gosto demais de literatura, minha expressão artística favorita. Contatos: nayarapequena@hotmail.com; nayarapequena@yahoo.com e @naybsousa (tuíter).</p>
+      <p>Ricardo Prestes Pazello, professor de Antropologia Jurídica na Universidade Federal do Paraná (Curitiba-PR), pesquisador da temática sobre teorias críticas do direito, filosofia latino-americana e movimentos populares. Doutorando em Direito das Relações Sociais pela UFPR, mestre em Filosofia e Teoria do Direito pela UFSC, tendo participado como assessor estudantil do Serviço de Assessoria Jurídica Universitária Popular (SAJUP/UFPR) e do Núcleo de Direito Cooperativo e Cidadania (NDCC/UFPR), em Curitiba, e do Núcleo de Estudos e Práticas Emancipatórias (NEPE/UFSC), em Florianópolis. Contatos: ricardo2p@ufpr.br (correl) e https://twitter.com/@ricardo2p (tuíter).</p>
+      <p>Roberta Cunha de Oliveira, bacharel pela Universidade Federal de Santa Maria/ RS, mestranda em ciências criminais/ criminologia crítica pela Puc/ RS, advogada, colaboradora do Grupo de Apoio aos Povos Indígenas (Gapin) e da Comissão de Direitos Humanos da subseção da Oab na cidade de Santa Maria, atualmente atuo como colaboradora também do NIJUC (núcleo de interação jurídica comunitária), depois de alguns anos na ativa como membro do grupo. Sou uma "curiosa"e pesquisadora da cultura e resistência latino- americana, com especial enfoque no direito à memória e à verdade nos países em transição democrática e dos povos originários no continente. Contatos: robertacunha_86@hotmail.com, robertacunha_86@yahoo.com.br.</p>
+      <p>Sabrine Tams Gasperin, militante permanente da emancipação humana, integrante do SURJA - Serviço Universitário de Resistência e Justiça para Autonomia, pesquisadora autônoma da questão urbana e sua insustentabilidade, integrante da gestão Todas as Cores DCE UFPel, pesquisadora autônoma da música brasileira, graduanda em Direito pela Universidade Federal de Pelotas e integrante do Centro Acadêmico Ferreira Vianna - CAFV. Contato: binagasper@gmail.com</p>
+      <p>Thiago de Azevedo Pinheiro Hoshino, mestrando em Direito pela Universidade Federal do Paraná, integrante do Centro de Estudos em Segurança Pública e Direitos Humanos na mesma instituição e do Núcleo de Estudos Afro-Brasileiros (NEAB-UFPR). Assessor da Organização Terra de Direitos para o eixo "Terra, Território e Eqüidade Sócio-Espacial Urbana" e militante pelo Direito à Cidade. Pesquisador nas áreas de antropologia jurídica, história do direito e sociologia das relações raciais, com ênfase no estudo da territorialidade das comunidades de terreiro e sua potência contra-hegemônica. Curioso, em especial, de todas as formas de interação entre cultura popular e organização política. Muzenza do Abassá de Luango - São Paulo, SP. Filho de Ogum, Iemanjá e Oxaguiã. thihoshino@hotmail.com</p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2009/08/o-que-e-assessoria-juridica-popular.html" target="_blank" rel="noopener">O que é assessoria jurídica popular?</a></p>
+      <p><a href="https://assessoriajuridicapopular.blogspot.com/2010/01/como-formar-uma-ajup.html" target="_blank" rel="noopener">Como formar uma assessoria jurídica popular universitária?</a></p>
+    </div>
+
+    <section class="secao relacionados" aria-labelledby="relacionados"><div class="secao__cabeca"><h2 id="relacionados">Leia também</h2><p class="secao__nota">Mesmo tema, mesmo autor ou mesmo ano</p></div><ul class="lista-acervo" data-revelar-grupo><li class="item"><a class="item__link" href="resenha-do-livro-de-alberto-kopittke-sobre-a-renap.html"><span class="etiqueta">Teoria crítica do direito · 2011</span><h3>Resenha do livro de Alberto Kopittke sobre a Renap</h3><span class="item__ficha">Luiz Otávio Ribas</span></a></li>
+<li class="item"><a class="item__link" href="manifesto-do-conselho-popular-contra-ditadura-aos-pobres.html"><span class="etiqueta">Movimentos sociais · 2011</span><h3>Manifesto do Conselho Popular contra ditadura aos pobres</h3><span class="item__ficha">Luiz Otávio Ribas</span></a></li>
+<li class="item"><a class="item__link" href="a-traducao-na-assessoria-juridica-popular.html"><span class="etiqueta">Educação popular · 2011</span><h3>A tradução na assessoria jurídica popular</h3><span class="item__ficha">Luiz Otávio Ribas</span></a></li>
+<li class="item"><a class="item__link" href="a-comunicacao-e-o-apoio-popular.html"><span class="etiqueta">Educação popular · 2011</span><h3>A comunicação e o apoio popular</h3><span class="item__ficha">Luiz Otávio Ribas</span></a></li>
+<li class="item"><a class="item__link" href="carla-miranda-e-a-praxis-da-assessoria-juridica.html"><span class="etiqueta">Direitos humanos · 2011</span><h3>Carla Miranda e a práxis da assessoria jurídica universitária popular</h3><span class="item__ficha">Luiz Otávio Ribas</span></a></li>
+<li class="item"><a class="item__link" href="novidades-sobre-a-biblioteca-digital-da-ajp.html"><span class="etiqueta">Assessoria jurídica popular · 2011</span><h3>Novidades sobre a biblioteca digital da AJP</h3><span class="item__ficha">Luiz Otávio Ribas</span></a></li></ul></section>
+
+    <section class="compartilhar" data-compartilhar
+             data-url="https://finweejur.github.io/assessoriajuridicapopular/colunistas.html" data-titulo="Colunistas" data-autor="Luiz Otávio Ribas"
+             data-data="2011-10-12" data-fonte-url="https://assessoriajuridicapopular.blogspot.com/2011/10/colunistas.html"
+             data-fonte="Assessoria Jurídica Popular">
+      <h2>Compartilhar e citar</h2>
+      <div class="compartilhar__botoes">
+        <button type="button" data-acao="whatsapp"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l2.2-5.3A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.5 10.5c.5 2 2 3.5 4 4l1.5-1.5 2 1"/></svg> WhatsApp</button>
+        <button type="button" data-acao="telegram"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="m22 3-9.5 18-2-7.5L3 11l19-8Z"/><path d="m10.5 13.5 3-3"/></svg> Telegram</button>
+        <button type="button" data-acao="instagram"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></svg> Instagram</button>
+        <button type="button" data-acao="copiar-texto"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg> Copiar texto</button>
+        <button type="button" data-acao="copiar-citacao"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h7"/><path d="m17 15 3 2-3 2"/></svg> Copiar citação ABNT</button>
+      </div>
+      <p class="compartilhar__status" data-status role="status" aria-live="polite" data-visivel="false"></p>
+    </section>
+  
+    <p class="referencias-post"><a class="botao secundario" href="referencias-citadas.html#fonte-colunistas">Referências citadas neste texto (1)</a></p>
+</article>
+</main>
+
+<!-- 8. RODAPÉ: os mesmos dois botões, o crédito de parceria, "Como citar"
+     e a nota de que o texto é de terceiro. -->
+<footer class="rodape">
+  <div class="rodape__topo">
+    <p class="rodape__marca"><span class="ponto" aria-hidden="true"></span> AJP · Assessoria Jurídica Popular</p>
+  </div>
+  <div class="rodape__interno rodape__interno--linha">
+    <div>
+      <h2>Acervo</h2>
+      <ul>
+        <li><a href="acervo.html">Todos os textos</a></li>
+        <li><a href="blog.html">Blog, em ordem</a></li>
+        <li><a href="ia.html">IA</a></li>
+        <li><a href="mistica.html">Mística</a></li>
+        <li><a href="poemas.html">Poemas publicados</a></li>
+        <li><a href="glossario.html">Glossário</a></li>
+        <li><a href="memoria.html">Memória</a></li>
+        <li><a href="memoria.html#linha-do-tempo">Linha do tempo</a></li>
+        <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Seções</h2>
+      <ul>
+        <li><a href="assessoria-juridica-popular.html">Assessoria jurídica popular</a></li>
+        <li><a href="direitos-humanos.html">Direitos humanos</a></li>
+        <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
+        <li><a href="teoria-critica.html">Teoria crítica</a></li>
+        <li><a href="educacao-popular.html">Educação popular</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Fonte</h2>
+      <p>Acervo montado a partir do blog
+      <a href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">Assessoria Jurídica Popular</a>
+      e de fontes parceiras, com autor, data e link. Captura em 20/11/2026.</p>
+    </div>
+    <div>
+      <h2>Parcerias</h2>
+      <ul class="parcerias__lista">
+        <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
+        <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
+        <li><a href="https://mab.org.br/" target="_blank" rel="noopener"><img class="mab-preto" src="logos/mab-simples-preto.png" alt="MAB" loading="lazy" /><img class="mab-branco" src="logos/mab-simples-branco.png" alt="MAB" loading="lazy" /></a></li>
+      </ul>
+      <p>GT de Assessoria Jurídica Popular do IPDMS · Coord. Luiz Otávio Ribas</p>
+      <p>Desenvolvimento e retirada de imagens ou conteúdo: Artur Colito —
+      <a href="mailto:artur.colito@ufvjm.edu.br">artur.colito@ufvjm.edu.br</a></p>
+    </div>
+  </div>
+  <p class="rodape__ia">Rascunho feito com IA - Inteligência Artificial (Programa OpenCode,
+  Modelo Deepseek V4.1 Flash), podendo contar com erros e ainda em revisão. Verifique as informações.</p>
+</footer>
+
+<script>
+/* Seletor de tema da página de texto: só grava data-theme no <html>.
+   Sem rádio e sem a casca do portal — aqui a página é só leitura. */
+(function () {
+  var sel = document.getElementById('tema');
+  if (!sel) return;
+  try {
+    var salvo = localStorage.getItem('acervo-tema');
+    if (salvo) {
+      document.documentElement.dataset.theme = salvo;
+      sel.value = salvo;
+    }
+  } catch (e) { /* navegador sem armazenamento: segue no tema claro */ }
+  sel.addEventListener('change', function () {
+    document.documentElement.dataset.theme = sel.value;
+    try { localStorage.setItem('acervo-tema', sel.value); } catch (e) {}
+  });
+})();
+</script>
+  <script src="compartilhar.js" defer></script>
+<script src="reveal.js?v=2" defer></script>
+<div class="radio-flut" data-radio data-aberto="false">
+  <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
+    <span aria-hidden="true">📻</span> Rádio
+  </button>
+  <div class="radio-flut__painel" id="radio-painel">
+    <div class="rp__coluna">
+      <div class="rp__cabeca">
+        <p class="rp__titulo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15V6"/><path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/><path d="M12 12H3"/><path d="M16 6H3"/><path d="M12 18H3"/></svg>
+          Índice de rádios
+        </p>
+        <a class="rp__ver" href="https://controlepopular.com.br/radio" target="_blank" rel="noopener" title="Abrir o diretório completo no Controle Popular">Ver todas →</a>
+        <button class="rp__fechar" type="button" data-radio-fechar aria-label="Fechar o índice de rádios" title="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="rp__lista" data-radio-lista></div>
+    </div>
+    <div class="rp__volume-col">
+      <button class="rp__mudo" type="button" data-radio-mudo aria-label="Silenciar rádio" aria-pressed="false" title="Silenciar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+      </button>
+      <div class="rp__medidor" data-radio-medidor role="slider" tabindex="0" aria-label="Volume da rádio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-orientation="vertical" data-interactive="true">
+        <span class="rp__valor rp__valor--fora" aria-hidden="true">100%</span>
+        <div class="rp__liquido" aria-hidden="true"><span class="rp__valor rp__valor--dentro">100%</span></div>
+        <div class="rp__marcas" aria-hidden="true"></div>
+        <div class="rp__marca" aria-hidden="true"></div>
+      </div>
+      <span class="rp__pct" data-radio-pct aria-hidden="true">100%</span>
+    </div>
+    <p class="rp__status" data-radio-status aria-live="polite"></p>
+  </div>
+  <audio data-radio-audio preload="none"></audio>
+</div>
+<script src="componentes/radio-dados.js?v=1" defer></script>
+<script src="componentes/radio.js?v=4" defer></script>
+<script src="casca.js?v=39" defer></script>
+<script src="leitura.js?v=3" defer></script>
+<script src="fundo-grade.js?v=6" defer></script>
+</body>
+</html>

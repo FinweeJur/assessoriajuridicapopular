@@ -93,6 +93,7 @@
 
   // ── Barra global de busca, filtro e ordem ────────────────────────────────
   (function buscaGlobal() {
+    if (document.body.hasAttribute('data-sem-busca-global')) { return; }
     if (document.querySelector('.fita') || document.querySelector('.busca-global')) { return; }
     var arquivo = location.pathname.split('/').pop() || 'index.html';
     // Sem busca na capa e em páginas que não listam textos

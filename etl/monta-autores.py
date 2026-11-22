@@ -1,7 +1,8 @@
 """Páginas de autor e índice de autores.
 
 Cada autor ganha uma página com todos os seus textos, em ordem.
-Autores com um só texto também entram: a página existe para dar rosto ao acervo.
+A casca (topo, rodapé, rádio, scripts) vem de `biblioteca.html`, para os
+autores não ficarem com um layout antigo isolado.
 """
 import html
 import io
@@ -12,6 +13,7 @@ import unicodedata
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDICE = os.path.join(RAIZ, "_indice.json")
+BASE = os.path.join(RAIZ, "biblioteca.html")
 
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
          "agosto", "setembro", "outubro", "novembro", "dezembro"]
@@ -35,6 +37,18 @@ def data_curta(iso):
     return "%d de %s de %s" % (int(dia), MESES[int(mes) - 1], ano)
 
 
+def shell(titulo, descricao, corpo):
+    t = io.open(BASE, encoding="utf-8").read()
+    t = re.sub(r"<title>.*?</title>",
+               "<title>%s · Autores · AJP — Assessoria Jurídica Popular</title>" % esc(titulo),
+               t, count=1, flags=re.S)
+    t = re.sub(r'<meta name="description" content="[^"]*"',
+               '<meta name="description" content="%s"' % esc(descricao), t, count=1)
+    t = re.sub(r"<main\b[^>]*>.*?</main>",
+               lambda m: '<main id="conteudo">\n%s\n</main>' % corpo, t, count=1, flags=re.S)
+    return t
+
+
 def main():
     registros = json.loads(io.open(INDICE, encoding="utf-8").read())
 
@@ -43,7 +57,6 @@ def main():
         nome = (r.get("autor") or "Redação").strip()
         autores.setdefault(nome, []).append(r)
 
-    # índice de autores
     linhas = []
     for nome, itens in sorted(autores.items(), key=lambda x: -len(x[1])):
         anos = sorted({(i.get("data") or "")[:4] for i in itens if i.get("data")})
@@ -54,50 +67,25 @@ def main():
             % (slug(nome), len(itens), "texto" if len(itens) == 1 else "textos",
                esc(nome), anos[0] if anos else "", anos[-1] if anos else ""))
 
-    indice_autores = """<!DOCTYPE html>
-<html lang="pt-BR" data-theme="pequi">
-<head>
-  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Autores · AJP — Assessoria Jurídica Popular</title>
-  <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
-  <link rel="stylesheet" href="temas/temas.css" />
-  <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=48" />
-  <link rel="stylesheet" href="reveal.css?v=48" />
-  <link rel="stylesheet" href="componentes/radio.css" />
-  <link rel="stylesheet" href="leitura.css?v=1" />
-</head>
-<body>
-<a class="pular" href="#conteudo">Pular para o conteúdo</a>
-<main id="conteudo">
-  <section class="hero hero--texto">
-    <div class="hero__interno">
-      <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Quem escreve</p>
-      <h1>Autores do acervo</h1>
-      <p class="lead">%d pessoas assinam os %d textos. Cada nome abre a lista completa.</p>
-    </div>
-  </section>
-  <div class="miolo">
-    <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
-%s
-    </ul>
+    corpo_indice = """
+<nav class="migalha" aria-label="Você está em"><a href="index.html">Início</a> <span aria-hidden="true">/</span> <span aria-current="page">Autores</span></nav>
+<section class="hero hero--texto">
+  <div class="hero__interno">
+    <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Quem escreve</p>
+    <h1>Autores do acervo</h1>
+    <p class="lead">%d pessoas assinam os %d textos. Cada nome abre a lista completa.</p>
   </div>
-</main>
-<script src="casca.js?v=15" defer></script>
-<script src="leitura.js?v=2" defer></script>
-<script src="site.js?v=2" defer></script>
-<script src="reveal.js" defer></script>
-<script src="fundo-grade.js?v=3" defer></script>
-</body>
-</html>
+</section>
+<div class="miolo">
+  <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
+%s
+  </ul>
+</div>
 """ % (len(autores), len(registros), "\n".join(linhas))
 
     with io.open(os.path.join(RAIZ, "autores.html"), "w", encoding="utf-8", newline="\n") as f:
-        f.write(indice_autores)
+        f.write(shell("Autores", "Quem assina os textos do acervo AJP.", corpo_indice))
 
-    # páginas individuais
     for nome, itens in autores.items():
         itens.sort(key=lambda r: r.get("data") or "", reverse=True)
         cartoes = "\n".join(
@@ -108,47 +96,24 @@ def main():
                esc((r.get("resumo") or "")[:180]), esc(data_curta(r.get("data"))))
             for r in itens)
         anos = sorted({(i.get("data") or "")[:4] for i in itens if i.get("data")})
-        pagina = """<!DOCTYPE html>
-<html lang="pt-BR" data-theme="pequi">
-<head>
-  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>%s · Autores · AJP</title>
-  <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
-  <link rel="stylesheet" href="temas/temas.css" />
-  <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=48" />
-  <link rel="stylesheet" href="reveal.css?v=48" />
-  <link rel="stylesheet" href="componentes/radio.css" />
-  <link rel="stylesheet" href="leitura.css?v=1" />
-</head>
-<body>
-<a class="pular" href="#conteudo">Pular para o conteúdo</a>
-<main id="conteudo">
-  <section class="hero hero--texto">
-    <div class="hero__interno">
-      <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Autor</p>
-      <h1>%s</h1>
-      <p class="lead">%d %s no acervo, de %s a %s.</p>
-      <p class="hero__acoes"><a class="botao secundario" href="autores.html">← Todos os autores</a></p>
-    </div>
-  </section>
-  <div class="miolo">
-    <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
-%s
-    </ul>
+        corpo = """
+<nav class="migalha" aria-label="Você está em"><a href="index.html">Início</a> <span aria-hidden="true">/</span> <a href="autores.html">Autores</a> <span aria-hidden="true">/</span> <span aria-current="page">%s</span></nav>
+<section class="hero hero--texto">
+  <div class="hero__interno">
+    <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Autor</p>
+    <h1>%s</h1>
+    <p class="lead">%d %s no acervo, de %s a %s.</p>
+    <p class="hero__acoes"><a class="botao secundario" href="autores.html">← Todos os autores</a></p>
   </div>
-</main>
-<script src="casca.js?v=15" defer></script>
-<script src="leitura.js?v=2" defer></script>
-<script src="site.js?v=2" defer></script>
-<script src="reveal.js" defer></script>
-<script src="fundo-grade.js?v=3" defer></script>
-</body>
-</html>
+</section>
+<div class="miolo">
+  <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
+%s
+  </ul>
+</div>
 """ % (esc(nome), esc(nome), len(itens), "texto" if len(itens) == 1 else "textos",
        anos[0] if anos else "", anos[-1] if anos else "", cartoes)
+        pagina = shell(nome, "Textos de %s no acervo AJP." % nome, corpo)
         with io.open(os.path.join(RAIZ, "autor-%s.html" % slug(nome)), "w", encoding="utf-8", newline="\n") as f:
             f.write(pagina)
 

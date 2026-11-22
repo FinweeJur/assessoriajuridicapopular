@@ -130,8 +130,8 @@
 <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
 <link rel="stylesheet" href="temas/temas.css?v=5" />
 <link rel="stylesheet" href="temas/renap.css?v=2" />
-<link rel="stylesheet" href="acervo.css?v=109" />
-  <link rel="stylesheet" href="reveal.css?v=109" />
+<link rel="stylesheet" href="acervo.css?v=112" />
+  <link rel="stylesheet" href="reveal.css?v=112" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
 
 <!-- Citação por máquina: Article + isBasedOn + autor + data. -->
@@ -178,6 +178,7 @@
       <a href="index.html">Home</a>
       <a href="acervo.html">Acervo</a>
       <a href="biblioteca.html">Biblioteca</a>
+      <a href="rede.html">Rede</a>
       <a href="mistica.html">Mística</a>
       <a href="ia.html">IA</a>
     </nav>
@@ -226,7 +227,7 @@
         <div class="ficha__linha">
           <dt>Blog</dt>
           <dd>
-            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2011/06/por-um-projeto-de-comunicacao-da-ajp.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>
+            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2011/06/por-um-projeto-de-comunicacao-da-ajp.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a> <span class="link-original-sep" aria-hidden="true">·</span> <a class="link-original-inline" href="https://assessoriajuridicapopular.blogspot.com/2011/06/por-um-projeto-de-comunicacao-da-ajp.html" target="_blank" rel="noopener">Ler no blog original<span class="sr-only"> (abre em outra aba)</span></a>
           </dd>
         </div>
         <div class="ficha__linha">
@@ -264,18 +265,7 @@
 
     <!-- 6. DOIS BOTÕES, no topo. Alvo de 44 px; o aviso "abre em outra aba"
          é texto, não ícone. O segundo botão usa o perfil do autor. -->
-    <p class="acoes-fonte">
-      <a class="botao" href="https://assessoriajuridicapopular.blogspot.com/2011/06/por-um-projeto-de-comunicacao-da-ajp.html" target="_blank" rel="noopener">
-        Ler no blog original
-        <span class="botao__nota">abre em outra aba</span>
-      </a>
-      <a class="botao secundario" href="https://www.blogger.com/profile/11698907163325129894" target="_blank" rel="noopener">
-        Sobre Ricardo Prestes Pazello
-        <span class="botao__nota">abre em outra aba</span>
-      </a>
-    </p>
-
-    <!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
+<!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
          O ETL entrega HTML já tipado. Exemplo do que <p>Este é um trecho do depoimento do professor Carlos Frederico Marés para um grupo de professores e estudantes, em Curitiba, procurando conhecer sobre seu trajeto político e jurídico. Marés, em meio a tal trajetória, chega à advocacia popular e, em meu entender, toca questões centrais às assessoria jurídicas populares (e, portanto, não só às advocacias) como um todo.</p>
       <p>Trata-se de uma opção, como ele bem o demonstra. E uma opção de classe. Significa que a escolha pela assessoria popular reflete a compreensão do mundo que se possa ter. Este mundo é, objetivamente, desigual e estruturado para assim ser. Decorre disso que, subjetivamente, o assessor popular não pode avizinhar-se das seduções do poder e das classes dominantes, sem gerar uma contradição com sua própria visão de mundo. Em outras palavras, quer dizer que não há dois deuses a se seguir: amealhar-se aos dois significa fazer o jogo de um deles. O "mundo do trabalho" (no sentido abstratamente oposto ao "Mundo do capital"), portanto, exige coerência de todos os que com ele se comprometem.</p>
       <p>Mas o que me parece mais relevante de tal depoimento é a clareza quanto à necessidade de que o assessor jurídico popular "tem que criar direito". Criar significa conhecer o que já está disponível e, sobre isto, construir coisas novas que atendam às necessidades daquela opção primeira, colocada acima. E se o que já existe não é suficiente para se satisfazer tais necessidades, trata-se de criticá-las, porque muitas das vezes estas insuficiências são propositais. Logo, criar é conhecer profundamente e criticar tão profundamente quanto. Mas criar também é inventar e reinventar. Neste sentido, criamos e reinventamos teses judiciárias, acadêmicas e políticas. Pouco serventia nos terão ou de validade muito restrita, se não as conseguirmos disseminar, divulgar, publicizar. Daí que se esboça, uma vez mais para mim, a necessidade de construirmos um projeto de comunicação coletivo, uma verdade teoria revolucionária da comunicação.</p>
@@ -377,7 +367,9 @@
       </div>
       <p class="compartilhar__status" data-status role="status" aria-live="polite" data-visivel="false"></p>
     </section>
-  </article>
+  
+    <p class="referencias-post"><a class="botao secundario" href="referencias-citadas.html#fonte-por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos">Referências citadas neste texto (18)</a></p>
+</article>
 </main>
 
 <!-- 8. RODAPÉ: os mesmos dois botões, o crédito de parceria, "Como citar"
@@ -453,7 +445,7 @@
 })();
 </script>
   <script src="compartilhar.js" defer></script>
-<script src="reveal.js" defer></script>
+<script src="reveal.js?v=2" defer></script>
 <div class="radio-flut" data-radio data-aberto="false">
   <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
     <span aria-hidden="true">📻</span> Rádio
@@ -490,7 +482,7 @@
 </div>
 <script src="componentes/radio-dados.js?v=1" defer></script>
 <script src="componentes/radio.js?v=4" defer></script>
-<script src="casca.js?v=38" defer></script>
+<script src="casca.js?v=39" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>

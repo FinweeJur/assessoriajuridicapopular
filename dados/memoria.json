@@ -9,14 +9,14 @@
      "titulo": "Programação da oficina direito pra quem",
      "data": "2024-07-12",
      "tipo": "evento",
-     "tema": "Teoria crítica"
+     "tema": "Educação popular"
     },
     {
      "slug": "oficina-de-introducao-as-teorias-criticas-e-ajp",
      "titulo": "Oficina de introdução às teorias críticas e AJP",
      "data": "2024-06-14",
      "tipo": "evento",
-     "tema": "Teoria crítica"
+     "tema": "Educação popular"
     }
    ]
   },
@@ -42,14 +42,14 @@
      "titulo": "Catálogo da Editora Sérgio Antonio Fabris",
      "data": "2019-02-25",
      "tipo": "formativo",
-     "tema": "Teoria crítica"
+     "tema": "Teoria crítica do direito"
     },
     {
      "slug": "guia-de-empoderamento-para-a-seguranca-das-mulheres-na",
      "titulo": "Guia de empoderamento para a segurança das mulheres na Internet",
      "data": "2019-02-25",
      "tipo": "formativo",
-     "tema": "Educação popular"
+     "tema": "Direitos humanos"
     }
    ]
   },
@@ -69,14 +69,14 @@
      "titulo": "A Escassez do acesso a Justiça a População Brasileira",
      "data": "2018-12-03",
      "tipo": "evento",
-     "tema": "Assessoria jurídica popular"
+     "tema": "Educação popular"
     },
     {
      "slug": "cafe-guaii-e-quilombo-campo-grande",
      "titulo": "Café Guaií e Quilombo Campo Grande",
      "data": "2018-11-26",
      "tipo": "formativo",
-     "tema": "Educação popular"
+     "tema": "Movimentos sociais"
     },
     {
      "slug": "uma-experiencia-de-educacao-popular",
@@ -123,7 +123,7 @@
      "titulo": "E quando não há o Pai para matar?",
      "data": "2016-11-28",
      "tipo": "formativo",
-     "tema": "Teoria crítica"
+     "tema": "Assessoria jurídica popular"
     },
     {
      "slug": "o-fantasma-colonial-do-infanticidio-indigena",
@@ -137,20 +137,20 @@
      "titulo": "O CONCEITO DE CASA CONTRA O CONCEITO DE PROPRIEDADE PRIVADA NO FILME AQUARIUS",
      "data": "2016-09-12",
      "tipo": "formativo",
-     "tema": "Educação popular"
+     "tema": "Direitos humanos"
     },
     {
      "slug": "para-que-a-justica-brasileira-existe",
      "titulo": "Para que a Justiça brasileira existe?",
      "data": "2016-08-05",
      "tipo": "formativo",
-     "tema": "Movimentos sociais"
+     "tema": "Assessoria jurídica popular"
     }
    ]
   },
   {
    "ano": "2015",
-   "total": 50,
+   "total": 59,
    "posts": [
     {
      "slug": "microconto",
@@ -164,7 +164,7 @@
      "titulo": "Uma Rede com 20 anos de defesa gratuita dos direitos de gente pobre",
      "data": "2015-12-02",
      "tipo": "evento",
-     "tema": "Teoria crítica"
+     "tema": "Educação popular"
     },
     {
      "slug": "putalizar-o-direito",
@@ -183,36 +183,70 @@
    ]
   },
   {
-   "ano": "2013",
-   "total": 29,
+   "ano": "2014",
+   "total": 35,
    "posts": [
     {
-     "slug": "manifestacoes-populares-trancam-vias-do-distrito-federal",
-     "titulo": "Manifestações populares trancam vias do Distrito Federal por moradia e transporte público de qualidade",
-     "data": "2013-09-06",
+     "slug": "andre-mendes-e-a-advocacia-popular-utopia-e-acao-politica",
+     "titulo": "Andre Mendes e a Advocacia Popular, Utopia, e Ação Política",
+     "data": "2014-12-29",
+     "tipo": "resenha",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "relatorio-cartografia-social-najurp-usp-ribeirao-preto",
+     "titulo": "Relatório Cartografia Social NAJURP USP Ribeirão Preto",
+     "data": "2014-12-29",
+     "tipo": "formativo",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "sessao-solene-na-camara-de-fortaleza",
+     "titulo": "Sessão solene na Câmara de Fortaleza",
+     "data": "2014-12-08",
+     "tipo": "formativo",
+     "tema": "Assessoria jurídica popular"
+    },
+    {
+     "slug": "parecer-sobre-direito-a-moradia-como-direito-humano-e",
+     "titulo": "Parecer sobre direito a moradia como direito humano e fundamental",
+     "data": "2014-11-19",
+     "tipo": "formativo",
+     "tema": "Movimentos sociais"
+    }
+   ]
+  },
+  {
+   "ano": "2013",
+   "total": 35,
+   "posts": [
+    {
+     "slug": "o-quilombo-paiol-de-telha-e-a-emancipacao-do-parana",
+     "titulo": "O quilombo Paiol de Telha e a emancipação do Paraná",
+     "data": "2013-12-19",
      "tipo": "evento",
      "tema": "Movimentos sociais"
     },
     {
-     "slug": "carta-a-um-estudante-de-direito-sobre-a-barbarie-no-egito",
-     "titulo": "CARTA A UM ESTUDANTE DE DIREITO SOBRE A BARBÁRIE NO EGITO",
-     "data": "2013-08-21",
-     "tipo": "documento",
-     "tema": "Educação popular"
+     "slug": "os-quilombos-o-judiciario-e-a-politica",
+     "titulo": "Os quilombos, o judiciário e a política",
+     "data": "2013-12-18",
+     "tipo": "formativo",
+     "tema": "Movimentos sociais"
     },
     {
-     "slug": "colectivo-de-abogados-zapatistas-caz-mexico-denuncia",
-     "titulo": "Colectivo de Abogados Zapatistas (CAZ/México) denuncia agressões",
-     "data": "2013-08-12",
-     "tipo": "notícia",
-     "tema": "Educação popular"
-    },
-    {
-     "slug": "dissertacao-humberto-betinho-goes-ufpb-2008",
-     "titulo": "Dissertação Humberto Betinho Góes UFPB 2008",
-     "data": "2013-08-02",
+     "slug": "resenha-de-solucao-de-problemas-profissionais-de-zayas-e",
+     "titulo": "Resenha de Solução de problemas profissionais de Zayas e Lombardía",
+     "data": "2013-12-09",
      "tipo": "resenha",
-     "tema": "Educação popular"
+     "tema": "Movimentos sociais"
+    },
+    {
+     "slug": "cadernos-insurgentes-e-o-caso-do-mp-rs-versus-mst-2008",
+     "titulo": "Cadernos Insurgentes e o caso do MP/RS versus MST 2008",
+     "data": "2013-11-27",
+     "tipo": "notícia",
+     "tema": "Teoria crítica do direito"
     }
    ]
   },
@@ -252,7 +286,7 @@
   },
   {
    "ano": "2011",
-   "total": 248,
+   "total": 275,
    "posts": [
     {
      "slug": "em-2012-mais-de-cem-familias-do-bairro-zachia-continuarao",
@@ -273,14 +307,14 @@
      "titulo": "Entrevista com Thiago Hoshino do Comitê Popular da Copa",
      "data": "2011-12-20",
      "tipo": "resenha",
-     "tema": "Educação popular"
+     "tema": "Movimentos sociais"
     },
     {
-     "slug": "dialogos-latino-americanos-em-curitiba",
-     "titulo": "Diálogos latino-americanos, em Curitiba",
-     "data": "2011-10-11",
+     "slug": "porque-ser-feminista",
+     "titulo": "Porque ser feminista",
+     "data": "2011-12-16",
      "tipo": "formativo",
-     "tema": "Assessoria jurídica popular"
+     "tema": "Movimentos sociais"
     }
    ]
   },
@@ -293,14 +327,14 @@
      "titulo": "Pesquisa sobre a organização política dos Xokleng",
      "data": "2010-12-31",
      "tipo": "resenha",
-     "tema": "Teoria crítica"
+     "tema": "Direitos humanos"
     },
     {
      "slug": "carta-do-ano-que-nao-terminou",
      "titulo": "CARTA DO ANO QUE NÃO TERMINOU",
      "data": "2010-12-30",
      "tipo": "documento",
-     "tema": "Educação popular"
+     "tema": "Direitos humanos"
     },
     {
      "slug": "morreu-lia-pires-e-com-ele-a-advocacia",
@@ -327,7 +361,7 @@
      "titulo": "Entre dois céus: a tensão congênita ao \"jurídico\"",
      "data": "2009-12-31",
      "tipo": "formativo",
-     "tema": "Teoria crítica"
+     "tema": "Teoria crítica do direito"
     },
     {
      "slug": "novos-textos-na-biblioteca-digital-da-ajp",

@@ -221,10 +221,21 @@ def monta(post, modelo, indice=None):
     return saida, valores
 
 
+SLUGS_SECAO = {
+    "assessoria-juridica-popular",
+    "direitos-humanos",
+    "movimentos-sociais",
+    "educacao-popular",
+    "teoria-critica",
+}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fonte", default=STAGING)
     ap.add_argument("--limite", type=int, default=0)
+    ap.add_argument("--somente-novos", action="store_true",
+                    help="gera só posts que ainda não estão em _indice.json")
     args = ap.parse_args()
 
     modelo = io.open(MODELO, encoding="utf-8").read()
@@ -233,16 +244,33 @@ def main():
     if args.limite:
         arquivos = arquivos[: args.limite]
 
+    existentes = carrega_indice()
     indice_ref = carrega_indice()
-    indice = []
+    indice = list(existentes) if args.somente_novos else []
+    por_slug = {r.get("slug"): r for r in indice}
+    novos = 0
+
     for caminho in arquivos:
         post = json.loads(io.open(caminho, encoding="utf-8").read())
         slug = post.get("slug") or slug_de(post.get("titulo"))
+
+        if args.somente_novos:
+            # Post que colide com página de seção: ganha sufixo de ano e
+            # substitui a entrada fantasma que apontava para a seção.
+            if slug in SLUGS_SECAO:
+                antigo = slug
+                slug = "%s-%s" % (slug, (post.get("data") or "")[:4])
+                indice = [r for r in indice if r.get("slug") != antigo]
+                por_slug.pop(antigo, None)
+            if slug in por_slug or os.path.exists(os.path.join(RAIZ, slug + ".html")):
+                continue
+
+        post["slug"] = slug
         pagina, valores = monta(post, modelo, indice_ref)
         destino = os.path.join(RAIZ, slug + ".html")
         with io.open(destino, "w", encoding="utf-8", newline="\n") as f:
             f.write(pagina)
-        indice.append({
+        entrada = {
             "slug": slug,
             "titulo": post.get("titulo"),
             "data": post.get("data"),
@@ -251,13 +279,21 @@ def main():
             "temas": post.get("temas") or [],
             "tema": valores["TEMA"],
             "ano": valores["ANO"],
-        })
+            "tipo": "",
+            "tipo_rotulo": "",
+            "palavras": [],
+            "tema_principal": "",
+            "redes": [],
+        }
+        indice.append(entrada)
+        por_slug[slug] = entrada
+        novos += 1
 
     indice.sort(key=lambda i: i.get("data") or "", reverse=True)
     with io.open(os.path.join(RAIZ, "_indice.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(indice, f, ensure_ascii=False, indent=1)
 
-    print("páginas:", len(indice))
+    print("páginas novas:", novos, "| total no índice:", len(indice))
     return indice
 
 

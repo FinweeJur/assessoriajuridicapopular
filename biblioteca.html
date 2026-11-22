@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=109" />
-  <link rel="stylesheet" href="reveal.css?v=109" />
+  <link rel="stylesheet" href="acervo.css?v=112" />
+  <link rel="stylesheet" href="reveal.css?v=112" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -27,6 +27,7 @@
       <a href="index.html">Home</a>
       <a href="acervo.html">Acervo</a>
       <a href="biblioteca.html" aria-current="page">Biblioteca</a>
+      <a href="rede.html">Rede</a>
       <a href="mistica.html">Mística</a>
       <a href="ia.html">IA</a>
     </nav>
@@ -68,7 +69,9 @@
     <p class="colecao__nota">As bibliotecas abaixo vêm da página
     <a href="https://assessoriajuridicapopular.blogspot.com/p/bibliotecas.html" target="_blank" rel="noopener">Bibliotecas</a>
     do blog original. Cada cartão leva ao acervo no site e, quando existe, à página de origem.</p>
-    <section class="secao" id="acervo" aria-labelledby="acervo-titulo">
+    <p class="colecao__nota">As referências citadas nos textos, em ABNT e com link quando disponível, estão em <a href="referencias-citadas.html">Referências citadas no acervo</a>.</p>
+
+  <section class="secao" id="acervo" aria-labelledby="acervo-titulo">
           <div class="secao__cabeca"><h2 id="acervo-titulo">Acervo</h2>
           <p class="secao__nota">9 registros</p></div>
           <div class="grade-3"><div class="cartao destaque colecao__post">
@@ -111,7 +114,7 @@
       <p class="colecao__fonte"><a href="https://assessoriajuridicapopular.blogspot.com/2012/07/referencias.html" target="_blank" rel="noopener">No blog original ↗</a></p>
     </div><div class="cartao destaque colecao__post">
       <span class="etiqueta">Acervo</span>
-      <h3><a href="https://assessoriajuridicapopular.blogspot.com/2012/07/poesia-critica-do-direito.html" target="_blank" rel="noopener">Poesia crítica do direito</a></h3>
+      <h3><a href="poesia-critica-do-direito.html">Poesia crítica do direito</a></h3>
       <p>Poemas de colunistas do blogue da assessoria jurídica popular.</p>
       <p class="colecao__fonte"><a href="https://assessoriajuridicapopular.blogspot.com/2012/07/poesia-critica-do-direito.html" target="_blank" rel="noopener">No blog original ↗</a></p>
     </div></div>
@@ -229,6 +232,7 @@
         <li><a href="poemas.html">Poemas publicados</a></li>
         <li><a href="formacao.html">Formação</a></li>
         <li><a href="biblioteca.html">Biblioteca</a></li>
+        <li><a href="rede.html">Rede e parceiros</a></li>
         <li><a href="cultura.html">Cultura</a></li>
         <li><a href="glossario.html">Glossário</a></li>
         <li><a href="memoria.html">Memória</a></li>
@@ -267,9 +271,45 @@
   <p class="rodape__ia">Rascunho feito com IA - Inteligência Artificial (Programa OpenCode,
   Modelo Deepseek V4.1 Flash), podendo contar com erros e ainda em revisão. Verifique as informações.</p>
 </footer>
-<script src="casca.js?v=38" defer></script>
+<div class="radio-flut" data-radio data-aberto="false">
+  <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
+    <span aria-hidden="true">📻</span> Rádio
+  </button>
+  <div class="radio-flut__painel" id="radio-painel">
+    <div class="rp__coluna">
+      <div class="rp__cabeca">
+        <p class="rp__titulo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15V6"/><path d="M18.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/><path d="M12 12H3"/><path d="M16 6H3"/><path d="M12 18H3"/></svg>
+          Índice de rádios
+        </p>
+        <a class="rp__ver" href="https://controlepopular.com.br/radio" target="_blank" rel="noopener" title="Abrir o diretório completo no Controle Popular">Ver todas →</a>
+        <button class="rp__fechar" type="button" data-radio-fechar aria-label="Fechar o índice de rádios" title="Fechar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <div class="rp__lista" data-radio-lista></div>
+    </div>
+    <div class="rp__volume-col">
+      <button class="rp__mudo" type="button" data-radio-mudo aria-label="Silenciar rádio" aria-pressed="false" title="Silenciar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+      </button>
+      <div class="rp__medidor" data-radio-medidor role="slider" tabindex="0" aria-label="Volume da rádio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-orientation="vertical" data-interactive="true">
+        <span class="rp__valor rp__valor--fora" aria-hidden="true">100%</span>
+        <div class="rp__liquido" aria-hidden="true"><span class="rp__valor rp__valor--dentro">100%</span></div>
+        <div class="rp__marcas" aria-hidden="true"></div>
+        <div class="rp__marca" aria-hidden="true"></div>
+      </div>
+      <span class="rp__pct" data-radio-pct aria-hidden="true">100%</span>
+    </div>
+    <p class="rp__status" data-radio-status aria-live="polite"></p>
+  </div>
+  <audio data-radio-audio preload="none"></audio>
+</div>
+<script src="casca.js?v=39" defer></script>
 <script src="leitura.js?v=3" defer></script>
-<script src="reveal.js?v=75" defer></script>
+<script src="reveal.js?v=2" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
+<script src="componentes/radio-dados.js?v=1" defer></script>
+<script src="componentes/radio.js?v=4" defer></script>
 </body>
 </html>

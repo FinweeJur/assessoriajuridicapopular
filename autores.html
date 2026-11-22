@@ -4,12 +4,14 @@
   <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Autores · AJP — Assessoria Jurídica Popular</title>
+  <title>Autores · Autores · AJP — Assessoria Jurídica Popular</title>
+  <meta name="description" content="Quem assina os textos do acervo AJP." />
+  <link rel="icon" href="data:," />
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
-  <link rel="stylesheet" href="temas/temas.css?v=5" />
-  <link rel="stylesheet" href="temas/renap.css?v=2" />
-  <link rel="stylesheet" href="acervo.css?v=109" />
-  <link rel="stylesheet" href="reveal.css?v=109" />
+  <link rel="stylesheet" href="temas/temas.css" />
+  <link rel="stylesheet" href="temas/renap.css" />
+  <link rel="stylesheet" href="acervo.css?v=112" />
+  <link rel="stylesheet" href="reveal.css?v=112" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -23,8 +25,9 @@
     </a>
     <nav class="topo__links" aria-label="Navegação principal">
       <a href="index.html">Home</a>
-      <a href="acervo.html" aria-current="page">Acervo</a>
-      <a href="biblioteca.html">Biblioteca</a>
+      <a href="acervo.html">Acervo</a>
+      <a href="biblioteca.html" aria-current="page">Biblioteca</a>
+      <a href="rede.html">Rede</a>
       <a href="mistica.html">Mística</a>
       <a href="ia.html">IA</a>
     </nav>
@@ -45,56 +48,36 @@
   </div>
 </header>
 <main id="conteudo">
-  <nav class="migalha" aria-label="Você está em"><a href="index.html">Início</a> <span aria-hidden="true">/</span> <span aria-current="page">Autores</span></nav>
-  <nav class="subnav" aria-label="Dentro de Acervo"><span class="subnav__rotulo">Acervo</span><a href="acervo.html">Todos os textos</a><a href="blog.html">Por ano</a><a href="autores.html" aria-current="page">Autores</a></nav>
-  <nav class="subnav" aria-label="Seções do acervo">
-    <span class="subnav__rotulo">Seções</span>
-    <a href="assessoria-juridica-popular.html">AJP</a>
-    <a href="direitos-humanos.html">Direitos humanos</a>
-    <a href="movimentos-sociais.html">Movimentos sociais</a>
-    <a href="educacao-popular.html">Educação popular</a>
-    <a href="teoria-critica.html">Teoria crítica</a>
-  </nav>
-  <section class="hero hero--texto">
-    <div class="hero__interno">
-      <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Quem escreve</p>
-      <h1>Autores do acervo</h1>
-      <p class="lead">29 pessoas assinam os 713 textos. Cada nome abre a lista completa.</p>
-    </div>
-  </section>
-  <section class="secao colunistas" id="colunistas" aria-labelledby="colunistas-titulo">
-      <div class="secao__cabeca"><h2 id="colunistas-titulo">Colunistas</h2>
-      <p class="secao__nota">Quem assinava as colunas fixas do blog original</p></div>
-      <ul class="lista-colunistas"><li><a class="cartao colunista" href="https://assessoriajuridicapopular.blogspot.com/search/label/Jacques%20Alfonsin" target="_blank" rel="noopener"><img src="fotos/autores/jacques-alfonsin.jpg" alt="Foto de Jacques Távora Alfonsin" loading="lazy" width="96" height="96" /><h3>Jacques Távora Alfonsin</h3><p>Advogado popular na Acesso — Cidadania e Direitos Humanos, Porto Alegre-RS.</p><span class="colunista__acao">No blog</span></a></li>
-<li><a class="cartao colunista" href="https://assessoriajuridicapopular.blogspot.com/search/label/Miguel%20Bald%C3%A9z" target="_blank" rel="noopener"><img src="fotos/autores/miguel-baldez.jpg" alt="Foto de Miguel Lanzellotti Baldez" loading="lazy" width="96" height="96" /><h3>Miguel Lanzellotti Baldez</h3><p>Advogado popular no Instituto de Estudos Críticos do Direito, Rio de Janeiro-RJ.</p><span class="colunista__acao">No blog</span></a></li>
-<li><a class="cartao colunista" href="autor-tchenna-maso.html"><img src="fotos/autores/tchenna-maso.jpg" alt="Foto de Tchenna Maso" loading="lazy" width="96" height="96" /><h3>Tchenna Maso</h3><p>Advogada popular, militante do MAB, mestranda em América Latina na UNILA.</p><span class="colunista__acao">Ver os textos</span></a></li>
-<li><a class="cartao colunista" href="autor-luiz-otavio-ribas.html"><img src="fotos/autores/luiz-otavio-ribas.jpg" alt="Foto de Luiz Otávio Ribas" loading="lazy" width="96" height="96" /><h3>Luiz Otávio Ribas</h3><p>Professor e conselheiro no IPDMS, Rio de Janeiro-RJ.</p><span class="colunista__acao">Ver os textos</span></a></li>
-<li><a class="cartao colunista" href="autor-ricardo-prestes-pazello.html"><img src="fotos/autores/ricardo-pazello.jpg" alt="Foto de Ricardo Prestes Pazello" loading="lazy" width="96" height="96" /><h3>Ricardo Prestes Pazello</h3><p>Professor e secretário no IPDMS, Curitiba-PR.</p><span class="colunista__acao">Ver os textos</span></a></li></ul>
-      <p class="colecao__nota">Fotos e apresentações da página
-      <a href="https://assessoriajuridicapopular.blogspot.com/p/colunistas.html" target="_blank" rel="noopener">Colunas</a>
-      do blog original.</p>
-    </section>
+
+<nav class="migalha" aria-label="Você está em"><a href="index.html">Início</a> <span aria-hidden="true">/</span> <span aria-current="page">Autores</span></nav>
+<section class="hero hero--texto">
+  <div class="hero__interno">
+    <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Quem escreve</p>
+    <h1>Autores do acervo</h1>
+    <p class="lead">30 pessoas assinam os 790 textos. Cada nome abre a lista completa.</p>
+  </div>
+</section>
 <div class="miolo">
-    <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
-<li class="item"><a class="item__link" href="autor-luiz-otavio-ribas.html"><span class="etiqueta">292 textos</span><h3>Luiz Otávio Ribas</h3><p>2009 a 2024</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-ricardo-prestes-pazello.html"><span class="etiqueta">173 textos</span><h3>Ricardo Prestes Pazello</h3><p>2009 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-redacao-da-pagina.html"><span class="etiqueta">37 textos</span><h3>Redação da Página</h3><p>2011 a 2024</p><span class="item__ficha">Ver todos os textos</span></a></li>
+  <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
+<li class="item"><a class="item__link" href="autor-luiz-otavio-ribas.html"><span class="etiqueta">333 textos</span><h3>Luiz Otávio Ribas</h3><p>2009 a 2024</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-ricardo-prestes-pazello.html"><span class="etiqueta">191 textos</span><h3>Ricardo Prestes Pazello</h3><p>2009 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-redacao-da-pagina.html"><span class="etiqueta">41 textos</span><h3>Redação da Página</h3><p>2011 a 2024</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-assis-oliveira.html"><span class="etiqueta">33 textos</span><h3>Assis Oliveira</h3><p>2010 a 2016</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-o-que-eu-nao-vi-hoje-humberto-goes.html"><span class="etiqueta">18 textos</span><h3>o que eu não vi hoje? (Humberto Góes)</h3><p>2010 a 2016</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-diana-melo.html"><span class="etiqueta">18 textos</span><h3>Diana Melo</h3><p>2011 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-o-que-eu-nao-vi-hoje-humberto-goes.html"><span class="etiqueta">20 textos</span><h3>o que eu não vi hoje? (Humberto Góes)</h3><p>2010 a 2016</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-diana-melo.html"><span class="etiqueta">20 textos</span><h3>Diana Melo</h3><p>2011 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-phelipe-bezerra-braga.html"><span class="etiqueta">18 textos</span><h3>Phelipe Bezerra Braga</h3><p>2010 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-diego-a-diehl.html"><span class="etiqueta">15 textos</span><h3>Diego A. Diehl</h3><p>2010 a 2016</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-adriano.html"><span class="etiqueta">13 textos</span><h3>Adriano</h3><p>2011 a 2012</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-diego-a-diehl.html"><span class="etiqueta">16 textos</span><h3>Diego A. Diehl</h3><p>2010 a 2016</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-adriano.html"><span class="etiqueta">14 textos</span><h3>Adriano</h3><p>2011 a 2012</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-a-dona-da-loja-de-desejos.html"><span class="etiqueta">13 textos</span><h3>A dona da loja de desejos</h3><p>2009 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-pedro-pistelli-ferreira.html"><span class="etiqueta">12 textos</span><h3>Pedro Pistelli Ferreira</h3><p>2016 a 2016</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-a-dona-da-loja-de-desejos.html"><span class="etiqueta">12 textos</span><h3>A dona da loja de desejos</h3><p>2009 a 2012</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-vladimir-luz.html"><span class="etiqueta">10 textos</span><h3>Vladimir Luz</h3><p>2010 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-vladimir-luz.html"><span class="etiqueta">11 textos</span><h3>Vladimir Luz</h3><p>2010 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-m-matos.html"><span class="etiqueta">9 textos</span><h3>m. matos</h3><p>2010 a 2012</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-betania-alfonsin.html"><span class="etiqueta">9 textos</span><h3>Betânia Alfonsin</h3><p>2009 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-athanis-grego.html"><span class="etiqueta">7 textos</span><h3>Athanis Grego</h3><p>2011 a 2014</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-thiago-arruda.html"><span class="etiqueta">7 textos</span><h3>Thiago Arruda</h3><p>2010 a 2012</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-tchenna-maso.html"><span class="etiqueta">6 textos</span><h3>Tchenna Maso</h3><p>2012 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-ivan-furmann.html"><span class="etiqueta">6 textos</span><h3>ivan Furmann</h3><p>2009 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-roberta-cunha.html"><span class="etiqueta">6 textos</span><h3>roberta cunha</h3><p>2010 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-athanis-grego.html"><span class="etiqueta">5 textos</span><h3>Athanis Grego</h3><p>2011 a 2012</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-thiago-arruda.html"><span class="etiqueta">5 textos</span><h3>Thiago Arruda</h3><p>2010 a 2012</p><span class="item__ficha">Ver todos os textos</span></a></li>
-<li class="item"><a class="item__link" href="autor-ivan-furmann.html"><span class="etiqueta">5 textos</span><h3>ivan Furmann</h3><p>2009 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-thiago-calsa-nunes.html"><span class="etiqueta">3 textos</span><h3>Thiago Calsa Nunes</h3><p>2010 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-sabrine-gasperin.html"><span class="etiqueta">3 textos</span><h3>Sabrine Gasperin</h3><p>2010 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-lucas-vieira.html"><span class="etiqueta">2 textos</span><h3>Lucas Vieira</h3><p>2010 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
@@ -102,11 +85,13 @@
 <li class="item"><a class="item__link" href="autor-lucas-machado.html"><span class="etiqueta">2 textos</span><h3>Lucas Machado</h3><p>2010 a 2010</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-ana-lia-almeida.html"><span class="etiqueta">1 texto</span><h3>Ana Lia Almeida</h3><p>2015 a 2015</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-odival-quaresma.html"><span class="etiqueta">1 texto</span><h3>Odival Quaresma</h3><p>2012 a 2012</p><span class="item__ficha">Ver todos os textos</span></a></li>
+<li class="item"><a class="item__link" href="autor-livia-gimenes.html"><span class="etiqueta">1 texto</span><h3>Lívia Gimenes</h3><p>2011 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-nadjazinha.html"><span class="etiqueta">1 texto</span><h3>Nadjazinha</h3><p>2011 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-joao-ricardo.html"><span class="etiqueta">1 texto</span><h3>João Ricardo</h3><p>2011 a 2011</p><span class="item__ficha">Ver todos os textos</span></a></li>
 <li class="item"><a class="item__link" href="autor-carolina-vestena.html"><span class="etiqueta">1 texto</span><h3>Carolina Vestena</h3><p>2009 a 2009</p><span class="item__ficha">Ver todos os textos</span></a></li>
-    </ul>
-  </div>
+  </ul>
+</div>
+
 </main>
 <footer class="rodape">
   <div class="rodape__topo">
@@ -121,6 +106,10 @@
         <li><a href="ia.html">IA</a></li>
         <li><a href="mistica.html">Mística</a></li>
         <li><a href="poemas.html">Poemas publicados</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="biblioteca.html">Biblioteca</a></li>
+        <li><a href="rede.html">Rede e parceiros</a></li>
+        <li><a href="cultura.html">Cultura</a></li>
         <li><a href="glossario.html">Glossário</a></li>
         <li><a href="memoria.html">Memória</a></li>
         <li><a href="memoria.html#linha-do-tempo">Linha do tempo</a></li>
@@ -192,12 +181,11 @@
   </div>
   <audio data-radio-audio preload="none"></audio>
 </div>
-<script src="casca.js?v=38" defer></script>
+<script src="casca.js?v=39" defer></script>
 <script src="leitura.js?v=3" defer></script>
-<script src="site.js?v=4" defer></script>
-<script src="reveal.js" defer></script>
+<script src="reveal.js?v=2" defer></script>
+<script src="fundo-grade.js?v=6" defer></script>
 <script src="componentes/radio-dados.js?v=1" defer></script>
 <script src="componentes/radio.js?v=4" defer></script>
-<script src="fundo-grade.js?v=6" defer></script>
 </body>
 </html>

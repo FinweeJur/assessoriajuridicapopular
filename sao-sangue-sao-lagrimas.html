@@ -72,8 +72,8 @@
 <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
 <link rel="stylesheet" href="temas/temas.css?v=5" />
 <link rel="stylesheet" href="temas/renap.css?v=2" />
-<link rel="stylesheet" href="acervo.css?v=109" />
-  <link rel="stylesheet" href="reveal.css?v=109" />
+<link rel="stylesheet" href="acervo.css?v=112" />
+  <link rel="stylesheet" href="reveal.css?v=112" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
 
 <!-- Citação por máquina: Article + isBasedOn + autor + data. -->
@@ -120,6 +120,7 @@
       <a href="index.html">Home</a>
       <a href="acervo.html">Acervo</a>
       <a href="biblioteca.html">Biblioteca</a>
+      <a href="rede.html">Rede</a>
       <a href="mistica.html">Mística</a>
       <a href="ia.html">IA</a>
     </nav>
@@ -168,7 +169,7 @@
         <div class="ficha__linha">
           <dt>Blog</dt>
           <dd>
-            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2011/04/sao-sangue-sao-lagrimas.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a>
+            <a class="link-fonte" href="https://assessoriajuridicapopular.blogspot.com/2011/04/sao-sangue-sao-lagrimas.html" target="_blank" rel="noopener">Assessoria Jurídica Popular<span class="sr-only"> (abre em outra aba)</span></a> <span class="link-original-sep" aria-hidden="true">·</span> <a class="link-original-inline" href="https://assessoriajuridicapopular.blogspot.com/2011/04/sao-sangue-sao-lagrimas.html" target="_blank" rel="noopener">Ler no blog original<span class="sr-only"> (abre em outra aba)</span></a>
           </dd>
         </div>
         <div class="ficha__linha">
@@ -206,18 +207,7 @@
 
     <!-- 6. DOIS BOTÕES, no topo. Alvo de 44 px; o aviso "abre em outra aba"
          é texto, não ícone. O segundo botão usa o perfil do autor. -->
-    <p class="acoes-fonte">
-      <a class="botao" href="https://assessoriajuridicapopular.blogspot.com/2011/04/sao-sangue-sao-lagrimas.html" target="_blank" rel="noopener">
-        Ler no blog original
-        <span class="botao__nota">abre em outra aba</span>
-      </a>
-      <a class="botao secundario" href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">
-        Sobre m. matos
-        <span class="botao__nota">abre em outra aba</span>
-      </a>
-    </p>
-
-    <!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
+<!-- 7. CORPO: blocos na ordem do original, dentro do cartão sem fundo.
          O ETL entrega HTML já tipado. Exemplo do que <figure class="reproducao"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFtvQWbO9c0UBNjfGdU6naZX4D2u3TPTJMlTa_eKxo_xGqNrI_Ty0tRXFt2J02e9eWBffVpG1s3zk4e3MO31Gwdoct9spZ-Oqe9StfDsQPZB2rNd5i86DqfR7qXhYW_hRdaF9hQv2bCg0C/s1600/tragedia-rio-de-janeiro-escola.jpg" alt="Imagem do texto" loading="lazy" /></figure>
       <p><a href="https://correiodalapa.blogspot.com/2011/04/massacre-em-escola-no-rio-de-janeiro.html" target="_blank" rel="noopener">"Massacre em escola no Rio de Janeiro iguala o Brasil aos EUA e ao seu pior jornalismo"</a></p>
       <p>Há uma sublime parte de nós que cala enquanto tudo fala. Sublime parte, que resulta em ser angelical, doce e, ao mesmo tempo, insensata porque não encontra sentido na realidade e daí que não procura interrogar o que vê. Quem nunca chorou diante da beleza? Já diria Vinicius de Moraes. Mas, a tristeza, a mais profunda delas, nos leva ao desconhecido de nós mesmos e ali, onde a dor queima, há um silêncio absurdo de insensatez e a única claridade no escuro nos chama para dentro sem dizer nada e não quer que nada se diga. Porque ninguém quer compreender de verdade o mundo sem o amor e quem terá direito de procurar com palavras o amor na história dos que sobreviveram, quando tantos morreram? E como daremos um sentido sólido a esta história rasgada*? Rasgada como uma folha de mangueira cortada ao meio em que o branco torna-se vermelho e vice-versa. O que é sangue? O que são lágrimas? Não vejo. Queimo e tudo embaça. São sangue, são lágrimas**.</p>
@@ -261,7 +251,9 @@
       </div>
       <p class="compartilhar__status" data-status role="status" aria-live="polite" data-visivel="false"></p>
     </section>
-  </article>
+  
+    <p class="referencias-post"><a class="botao secundario" href="referencias-citadas.html#fonte-sao-sangue-sao-lagrimas">Referências citadas neste texto (1)</a></p>
+</article>
 </main>
 
 <!-- 8. RODAPÉ: os mesmos dois botões, o crédito de parceria, "Como citar"
@@ -338,7 +330,7 @@
 })();
 </script>
   <script src="compartilhar.js" defer></script>
-<script src="reveal.js" defer></script>
+<script src="reveal.js?v=2" defer></script>
 <div class="radio-flut" data-radio data-aberto="false">
   <button data-dica="Abrir ou fechar o rádio" class="radio-flut__botao" type="button" data-radio-toggle aria-expanded="false" aria-controls="radio-painel">
     <span aria-hidden="true">📻</span> Rádio
@@ -375,7 +367,7 @@
 </div>
 <script src="componentes/radio-dados.js?v=1" defer></script>
 <script src="componentes/radio.js?v=4" defer></script>
-<script src="casca.js?v=38" defer></script>
+<script src="casca.js?v=39" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>

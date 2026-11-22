@@ -1,0 +1,33 @@
+{
+ "gerado_em": "2026-11-22",
+ "fonte": "https://assessoriajuridicapopular.blogspot.com",
+ "blog_total_declarado": 790,
+ "indice": 790,
+ "paginas_com_canonical": 790,
+ "canonicals_unicos": 790,
+ "faltando": 0,
+ "rag": 790,
+ "sitemap_urls": 816,
+ "secoes": {
+  "educacao-popular": 136,
+  "assessoria-juridica-popular": 186,
+  "teoria-critica": 114,
+  "direitos-humanos": 136,
+  "movimentos-sociais": 218
+ },
+ "tipos": {
+  "evento": 151,
+  "formativo": 402,
+  "resenha": 119,
+  "documento": 30,
+  "notícia": 43,
+  "poesia": 45
+ },
+ "biblioteca": 18,
+ "poemas": 135,
+ "referencias": 606,
+ "referencias_com_url": 180,
+ "referencias_links_abertos": 104,
+ "radio": 52,
+ "auditoria": "verde"
+}

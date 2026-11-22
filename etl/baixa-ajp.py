@@ -78,11 +78,12 @@ def salva_progresso(p):
 def etapa_feed(p):
     total = None
     indice = 0
+    pagina_n = 1
+    p["feed"] = []
     while True:
-        if indice in p["feed"]:
-            indice += 150
-            continue
-        url = "%s/feeds/posts/default?alt=json&max-results=150&start-index=%d" % (BASE, indice + 1)
+        # O Blogger devolve no máximo 100 por chamada, mesmo com max-results=150.
+        # Avançar pelo tamanho real da página é o que evita o salto de 2014.
+        url = "%s/feeds/posts/default?alt=json&max-results=100&start-index=%d" % (BASE, indice + 1)
         dados = baixa(url)
         if not dados:
             break
@@ -91,14 +92,17 @@ def etapa_feed(p):
         if total is None:
             total = int(pagina["feed"]["openSearch$totalResults"]["$t"])
             print("total declarado:", total)
-        nome = os.path.join(PASTAS["raw"], "feed-%04d.json" % (indice // 150 + 1))
+        if not entradas:
+            break
+        nome = os.path.join(PASTAS["raw"], "feed-%04d.json" % pagina_n)
         with io.open(nome, "w", encoding="utf-8") as f:
             json.dump(pagina, f, ensure_ascii=False)
         p["feed"].append(indice)
         salva_progresso(p)
-        print("feed: %d/%d posts" % (min(indice + 150, total), total))
-        indice += 150
-        if indice >= total or not entradas:
+        print("feed: %d/%d posts (pagina %d)" % (min(indice + len(entradas), total), total, pagina_n))
+        indice += len(entradas)
+        pagina_n += 1
+        if indice >= total:
             break
         time.sleep(ESPERA)
 

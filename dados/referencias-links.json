@@ -1,0 +1,1318 @@
+{
+ "https://200.145.119.5/vsimposio/interno-programacao.php": {
+  "status": null,
+  "url_final": "https://200.145.119.5/vsimposio/interno-programacao.php",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://200.145.119.5/vsimposio/interno-sobre.php": {
+  "status": null,
+  "url_final": "https://200.145.119.5/vsimposio/interno-sobre.php",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://afprsantos.blogspot.com/2010/08/analfabetos-fracos-pobres-rudes-e.html": {
+  "status": 200,
+  "url_final": "https://afprsantos.blogspot.com/2010/08/analfabetos-fracos-pobres-rudes-e.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://anovademocracia.com.br/blog/?p=1229": {
+  "status": 200,
+  "url_final": "https://anovademocracia.com.br/blog/?p=1229",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://blogletraseartes-livros.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://blogletraseartes-livros.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://blogs.lemos.net/machado/": {
+  "status": null,
+  "url_final": "https://blogs.lemos.net/machado/",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://cdeassis.wordpress.com/2010/08/31/manoel-de-andrade-e-sua-participacao-nas-jornadas-andinas-": {
+  "status": 200,
+  "url_final": "https://cdeassis.wordpress.com/2010/08/31/manoel-de-andrade-e-sua-participacao-nas-jornadas-andinas-",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://colecoesnerds.weebly.com/index.html": {
+  "status": 404,
+  "url_final": "https://colecoesnerds.weebly.com/index.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://coletivocatarse.blogspot.com/2011/06/pesquisadora-da-ufrj-aponta-relacao.html": {
+  "status": 200,
+  "url_final": "https://coletivocatarse.blogspot.com/2011/06/pesquisadora-da-ufrj-aponta-relacao.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://correiodalapa.blogspot.com/2011/04/massacre-em-escola-no-rio-de-janeiro.html": {
+  "status": 200,
+  "url_final": "https://correiodalapa.blogspot.com/2011/04/massacre-em-escola-no-rio-de-janeiro.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://defesadotrabalhador.blogspot.com/2011/06/um-pouco-da-historia-de-roberto-rainha.html": {
+  "status": 200,
+  "url_final": "https://defesadotrabalhador.blogspot.com/2011/06/um-pouco-da-historia-de-roberto-rainha.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://derechoalacritica.blogspot.com/2011/06/fundamentacion-del-2-congreso.html": {
+  "status": 200,
+  "url_final": "https://derechoalacritica.blogspot.com/2011/06/fundamentacion-del-2-congreso.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://direitoalternativo.cesusc.edu.br/index.html": {
+  "status": null,
+  "url_final": "https://direitoalternativo.cesusc.edu.br/index.html",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://direitopraquem.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://direitopraquem.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://diretodeesquerda.wordpress.com/2010/05/24/niilismo-e-movimento-popular/": {
+  "status": 410,
+  "url_final": "https://diretodeesquerda.wordpress.com/2010/05/24/niilismo-e-movimento-popular/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing": {
+  "status": 200,
+  "url_final": "https://drive.google.com/file/d/137Mc4zTCJJjM5gfHZgWa_lI-C7crU8Uh/view?usp=sharing",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://drive.google.com/file/d/1M9vpeIAHYCJmONzispGmMPpzzWnrd3pj/view?usp=sharing": {
+  "status": 200,
+  "url_final": "https://drive.google.com/file/d/1M9vpeIAHYCJmONzispGmMPpzzWnrd3pj/view?usp=sharing",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://ereasul.wordpress.com/2011/04/13/feab-curitiba-convida/": {
+  "status": 410,
+  "url_final": "https://ereasul.wordpress.com/2011/04/13/feab-curitiba-convida/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://erenaju2011.blogspot.com/p/renaju.html": {
+  "status": 404,
+  "url_final": "https://erenaju2011.blogspot.com/p/renaju.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://eteia.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://eteia.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://fabricasocupadas.org.br/site/?p=1814": {
+  "status": null,
+  "url_final": "https://fabricasocupadas.org.br/site/?p=1814",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://ficagraciosa.org/2011/07/01/lancamento-da-campanha-%e2%80%9cfica-graciosa%e2%80%9d-reune-mai": {
+  "status": null,
+  "url_final": "https://ficagraciosa.org/2011/07/01/lancamento-da-campanha-%e2%80%9cfica-graciosa%e2%80%9d-reune-mai",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://fragale.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://fragale.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://gapsaju.blogspot.com/2010/05/gap-na-ii-semana-de-dieitos-humanos.html": {
+  "status": 200,
+  "url_final": "https://gapsaju.blogspot.com/2010/05/gap-na-ii-semana-de-dieitos-humanos.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://gerivaldoneiva.blogspot.com/2009/12/juizes-homenageiam-mst.html": {
+  "status": 404,
+  "url_final": "https://gerivaldoneiva.blogspot.com/2009/12/juizes-homenageiam-mst.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://helio-bicudo.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://helio-bicudo.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://imagem.camara.gov.br/internet/midias/TV/2008/09/tvcasintonia20080929-002-wm.100.wmv": {
+  "status": 200,
+  "url_final": "https://imagem.camara.gov.br/internet/midias/TV/2008/09/tvcasintonia20080929-002-wm.100.wmv",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://informagreve.wordpress.com/tag/fundo-de-greve/": {
+  "status": 200,
+  "url_final": "https://informagreve.wordpress.com/tag/fundo-de-greve/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://interativaonline.blogspot.com/2009/02/semana-manoel-mattos-de-direitos.html": {
+  "status": 200,
+  "url_final": "https://interativaonline.blogspot.com/2009/02/semana-manoel-mattos-de-direitos.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://ipdms.wordpress.com/2013/12/19/nota-de-apoio-do-ipdms-a-comunidade-quilombola-paiol-de-telha": {
+  "status": 200,
+  "url_final": "https://ipdms.wordpress.com/2013/12/19/nota-de-apoio-do-ipdms-a-comunidade-quilombola-paiol-de-telha",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://issuu.com/assessoriajuridicapopular/docs/ipdms_cadernos_insurgentes_impress_": {
+  "status": 404,
+  "url_final": "https://issuu.com/assessoriajuridicapopular/docs/ipdms_cadernos_insurgentes_impress_",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://issuu.com/assessoriajuridicapopular/docs/ipdms_cadernos_insurgentes_visualiz": {
+  "status": 404,
+  "url_final": "https://issuu.com/assessoriajuridicapopular/docs/ipdms_cadernos_insurgentes_visualiz",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://issuu.com/diegodiehl/docs/diego_augusto_diehl_-_disserta____o": {
+  "status": 404,
+  "url_final": "https://issuu.com/diegodiehl/docs/diego_augusto_diehl_-_disserta____o",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://issuu.com/luizotavioribas/docs/artigo_anais_do_ii_semin_rio_internacional_direito": {
+  "status": 404,
+  "url_final": "https://issuu.com/luizotavioribas/docs/artigo_anais_do_ii_semin_rio_internacional_direito",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://letras.terra.com.br/adoniran-barbosa/": {
+  "status": null,
+  "url_final": "https://letras.terra.com.br/adoniran-barbosa/",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://letras.terra.com.br/engenheiros-do-hawaii/45712/": {
+  "status": null,
+  "url_final": "https://letras.terra.com.br/engenheiros-do-hawaii/45712/",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://levante.org.br/wp/": {
+  "status": 404,
+  "url_final": "https://levante.org.br/wp/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://levantepopulardajuventude.blogspot.com.br/": {
+  "status": 200,
+  "url_final": "https://levantepopulardajuventude.blogspot.com.br/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://livrespensantes.blogspot.com/2010/11/manoel-de-andrade-poeta-da-resistencia.html": {
+  "status": 200,
+  "url_final": "https://livrespensantes.blogspot.com/2010/11/manoel-de-andrade-poeta-da-resistencia.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://mediacenter.clicrbs.com.br/templates/playerpopup.aspx?midia=98136&channel=46": {
+  "status": null,
+  "url_final": "https://mediacenter.clicrbs.com.br/templates/playerpopup.aspx?midia=98136&channel=46",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://najup.com/alice_danielle01.pdf": {
+  "status": null,
+  "url_final": "https://najup.com/alice_danielle01.pdf",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://najup.wordpress.com/": {
+  "status": 200,
+  "url_final": "https://najup.wordpress.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://najupak-belem.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://najupak-belem.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://najupdf.wordpress.com/2011/07/25/carta-aberta-do-najup-df-a-ucb/": {
+  "status": 200,
+  "url_final": "https://najupdf.wordpress.com/2011/07/25/carta-aberta-do-najup-df-a-ucb/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://najupi.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://najupi.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://najupnegrocosme.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://najupnegrocosme.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://paje-cariri.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://paje-cariri.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://pajup-undb.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://pajup-undb.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://psolcuritiba.wordpress.com/2011/02/28/familias-de-piraquara-pr-completam-dez-dias-na-rua/": {
+  "status": 200,
+  "url_final": "https://psolcuritiba.wordpress.com/2011/02/28/familias-de-piraquara-pr-completam-dez-dias-na-rua/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://pt.scribd.com/doc/53333750/Caderno-de-Textos-Do-XIII-ERENAJU-N": {
+  "status": 410,
+  "url_final": "https://pt.scribd.com/doc/53333750/Caderno-de-Textos-Do-XIII-ERENAJU-N",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://racismoambiental.net.br/2011/10/mocao-do-xv-encontro-nacional-da-renap-contra-isencao-fiscal": {
+  "status": 404,
+  "url_final": "https://racismoambiental.net.br/2011/10/mocao-do-xv-encontro-nacional-da-renap-contra-isencao-fiscal",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://raizeseasas.blogspot.com/2011/06/manifesto-em-favor-da-absolvicao-de.html": {
+  "status": 404,
+  "url_final": "https://raizeseasas.blogspot.com/2011/06/manifesto-em-favor-da-absolvicao-de.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://rebela.edugraf.ufsc.br/index.php/pc/index": {
+  "status": null,
+  "url_final": "https://rebela.edugraf.ufsc.br/index.php/pc/index",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://relatosdeumjovemprofessor.wordpress.com/2014/05/18/estudantes-levaram-o-povo-pra-rua/": {
+  "status": 200,
+  "url_final": "https://relatosdeumjovemprofessor.wordpress.com/2014/05/18/estudantes-levaram-o-povo-pra-rua/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://repositorio.ufsc.br/handle/123456789/214678": {
+  "status": 200,
+  "url_final": "https://repositorio.ufsc.br/handle/123456789/214678",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://resistenciapopular.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://resistenciapopular.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://revistapobresenojentas.wordpress.com/": {
+  "status": 410,
+  "url_final": "https://revistapobresenojentas.wordpress.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://revistapobresenojentas.wordpress.com/2009/04/08/jornalista-elaine-tavares-lanca-livro-sobre-": {
+  "status": 410,
+  "url_final": "https://revistapobresenojentas.wordpress.com/2009/04/08/jornalista-elaine-tavares-lanca-livro-sobre-",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://rogerioalmeidafuro.blogspot.com.br/2012/04/indigenas-afetados-pela-hidreletrica-de.html": {
+  "status": 200,
+  "url_final": "https://rogerioalmeidafuro.blogspot.com.br/2012/04/indigenas-afetados-pela-hidreletrica-de.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://rogerioalmeidafuro.blogspot.com/2008/10/jos-batista-homenageado-com-prmio-de.html": {
+  "status": 200,
+  "url_final": "https://rogerioalmeidafuro.blogspot.com/2008/10/jos-batista-homenageado-com-prmio-de.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://sajubahia.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://sajubahia.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://sajubahia.blogspot.com/2011/08/ruidos-do-porao-o-jornal-do-saju-versao.html": {
+  "status": 200,
+  "url_final": "https://sajubahia.blogspot.com/2011/08/ruidos-do-porao-o-jornal-do-saju-versao.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://sajuceara.wordpress.com/": {
+  "status": 200,
+  "url_final": "https://sajuceara.wordpress.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://sajusp.blogspot.com/": {
+  "status": 404,
+  "url_final": "https://sajusp.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://santuariodospajes.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://santuariodospajes.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://seer.bce.unb.br/index.php/enedex/index": {
+  "status": null,
+  "url_final": "https://seer.bce.unb.br/index.php/enedex/index",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://seer.franca.unesp.br/index.php/direitoalternativo/index": {
+  "status": 200,
+  "url_final": "https://seer.franca.unesp.br/index.php/direitoalternativo/index",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://sosriosdobrasil.blogspot.com.br/2011/10/protestando-contra-hidreletrica-no-rio.html": {
+  "status": 200,
+  "url_final": "https://sosriosdobrasil.blogspot.com.br/2011/10/protestando-contra-hidreletrica-no-rio.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://surjaufpel.blogspot.com/": {
+  "status": 200,
+  "url_final": "https://surjaufpel.blogspot.com/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://tarifazero.org/wp-content/uploads/2011/05/O-programa-Tarifa-Zero-no-transporte-coletivo-de-C": {
+  "status": 200,
+  "url_final": "https://tarifazero.org/wp-content/uploads/2011/05/O-programa-Tarifa-Zero-no-transporte-coletivo-de-C",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://telmadmonteiro.blogspot.com.br/2011/08/tres-hidreletricas-ameacam-indigenas-no.html": {
+  "status": 404,
+  "url_final": "https://telmadmonteiro.blogspot.com.br/2011/08/tres-hidreletricas-ameacam-indigenas-no.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://terradedireitos.org.br/": {
+  "status": 200,
+  "url_final": "https://terradedireitos.org.br/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://terradedireitos.org.br/biblioteca/debate-ecossocialismo-e-a-crise-global-com-michel-lowy-2/": {
+  "status": 404,
+  "url_final": "https://terradedireitos.org.br/biblioteca/debate-ecossocialismo-e-a-crise-global-com-michel-lowy-2/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://terradedireitos.org.br/biblioteca/sociedade-barracao-vitoria-da-luta-dos-catadores-e-catador": {
+  "status": 404,
+  "url_final": "https://terradedireitos.org.br/biblioteca/sociedade-barracao-vitoria-da-luta-dos-catadores-e-catador",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://terradedireitos.org.br/biblioteca/sociedade-se-mobiliza-pela-criacao-da-defensoria-publica-n": {
+  "status": 404,
+  "url_final": "https://terradedireitos.org.br/biblioteca/sociedade-se-mobiliza-pela-criacao-da-defensoria-publica-n",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://terradedireitos.org.br/biblioteca/testemunha-de-assassinato-de-sem-terra-e-ameacada-no-paran": {
+  "status": 404,
+  "url_final": "https://terradedireitos.org.br/biblioteca/testemunha-de-assassinato-de-sem-terra-e-ameacada-no-paran",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://terradedireitos.org.br/biblioteca/ufpr-apoia-implementacao-de-defensoria-publica-no-parana/": {
+  "status": 404,
+  "url_final": "https://terradedireitos.org.br/biblioteca/ufpr-apoia-implementacao-de-defensoria-publica-no-parana/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://terradedireitos.org.br/wp-content/uploads/2010/09/Miolo_PB_final.pdf": {
+  "status": 200,
+  "url_final": "https://terradedireitos.org.br/wp-content/uploads/2010/09/Miolo_PB_final.pdf",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://vimeo.com/23105830": {
+  "status": 200,
+  "url_final": "https://vimeo.com/23105830",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://vimeo.com/28597529": {
+  "status": 200,
+  "url_final": "https://vimeo.com/28597529",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.aatr.org.br/site/": {
+  "status": 404,
+  "url_final": "https://www.aatr.org.br/site/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ajd.org.br/": {
+  "status": 200,
+  "url_final": "https://www.ajd.org.br/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.anadep.org.br/wtk/pagina/materia?id=10134": {
+  "status": 200,
+  "url_final": "https://www.anadep.org.br/wtk/pagina/materia?id=10134",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.anadep.org.br/wtk/pagina/materia?id=18610": {
+  "status": 200,
+  "url_final": "https://www.anadep.org.br/wtk/pagina/materia?id=18610",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.aporrea.org/internacionales/a145657.html": {
+  "status": 200,
+  "url_final": "https://www.aporrea.org/internacionales/a145657.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.arquivoestado.sp.gov.br/noticia_ver.php?id=200": {
+  "status": 200,
+  "url_final": "https://www.arquivoestado.sp.gov.br/noticia_ver.php?id=200",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf": {
+  "status": 200,
+  "url_final": "https://www.bdtd.uerj.br:8443/bitstream/1/9319/1/Luiz%20Otavio%20Ribas_%20Texto%20completo.pdf",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.boitempo.com/livro_completo.php?isbn=978-85-7559-172-7": {
+  "status": null,
+  "url_final": "https://www.boitempo.com/livro_completo.php?isbn=978-85-7559-172-7",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.brasildefato.com.br/node/6877": {
+  "status": 200,
+  "url_final": "https://www.brasildefato.com.br/node/6877",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.brasildefato.com.br/node/6880": {
+  "status": 200,
+  "url_final": "https://www.brasildefato.com.br/node/6880",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.brasildefato.com.br/node/9148": {
+  "status": 200,
+  "url_final": "https://www.brasildefato.com.br/node/9148",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.camara.gov.br/internet/votacao/mostraVotacao.asp?ideVotacao=4648&numLegislatura=54&codCa": {
+  "status": 200,
+  "url_final": "https://www.camara.gov.br/internet/votacao/mostraVotacao.asp?ideVotacao=4648&numLegislatura=54&codCa",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.ccj.ufsc.br/capturacriptica/documents/n1v1/parciais/ribas2.pdf": {
+  "status": null,
+  "url_final": "https://www.ccj.ufsc.br/capturacriptica/documents/n1v1/parciais/ribas2.pdf",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/cunha+miola%28n1v2%29.pdf": {
+  "status": null,
+  "url_final": "https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/cunha+miola%28n1v2%29.pdf",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/diehl%28n1v2%29.pdf": {
+  "status": null,
+  "url_final": "https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/diehl%28n1v2%29.pdf",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/ribas%28n1v2%29.pdf": {
+  "status": null,
+  "url_final": "https://www.ccj.ufsc.br/capturacriptica/documents/n1v2/parciais/ribas%28n1v2%29.pdf",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ccj.ufsc.br/capturacriptica/documents/n2v1/parciais/20.pdf": {
+  "status": null,
+  "url_final": "https://www.ccj.ufsc.br/capturacriptica/documents/n2v1/parciais/20.pdf",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ccj.ufsc.br/capturacriptica/n.1.v.1.htm": {
+  "status": null,
+  "url_final": "https://www.ccj.ufsc.br/capturacriptica/n.1.v.1.htm",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ccj.ufsc.br/capturacriptica/n.1.v.2.htm": {
+  "status": null,
+  "url_final": "https://www.ccj.ufsc.br/capturacriptica/n.1.v.2.htm",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.coiab.com.br/coiab.php?dest=show&back=index&id=807&tipo=A": {
+  "status": null,
+  "url_final": "https://www.coiab.com.br/coiab.php?dest=show&back=index&id=807&tipo=A",
+  "content_type": "",
+  "erro": "sem resposta no teste",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.correiocidadania.com.br/index.php?option=com_content&view=article&id=6262:manchete080911": {
+  "status": 200,
+  "url_final": "https://www.correiocidadania.com.br/index.php?option=com_content&view=article&id=6262:manchete080911",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.danielafelix.com/2011/10/encontro-nacional-da-renap-faz-mocao-de.html": {
+  "status": 404,
+  "url_final": "https://www.danielafelix.com/2011/10/encontro-nacional-da-renap-faz-mocao-de.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.donosdamidia.com.br/": {
+  "status": 200,
+  "url_final": "https://www.donosdamidia.com.br/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.encontrodeculturas.com.br/2011/xiencontro": {
+  "status": 404,
+  "url_final": "https://www.encontrodeculturas.com.br/2011/xiencontro",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.enriquedussel.org/": {
+  "status": 200,
+  "url_final": "https://www.enriquedussel.org/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.fabriseditor.com.br/site/": {
+  "status": 200,
+  "url_final": "https://www.fabriseditor.com.br/site/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://cdeassis.wordpress.com/2010/08/31/manoel-de-andrade-e-sua-participacao-nas-jornadas-andinas-de-literatura-latino-americana/": {
+  "status": 200,
+  "url_final": "https://cdeassis.wordpress.com/2010/08/31/manoel-de-andrade-e-sua-participacao-nas-jornadas-andinas-de-literatura-latino-americana/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://ficagraciosa.org/2011/07/01/lancamento-da-campanha-%e2%80%9cfica-graciosa%e2%80%9d-reune-mais-de-80-apoiadores-na-associacao-de-moradores/": {
+  "status": 0,
+  "url_final": "https://ficagraciosa.org/2011/07/01/lancamento-da-campanha-%e2%80%9cfica-graciosa%e2%80%9d-reune-mais-de-80-apoiadores-na-associacao-de-moradores/",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://ipdms.wordpress.com/2013/12/19/nota-de-apoio-do-ipdms-a-comunidade-quilombola-paiol-de-telha/": {
+  "status": 200,
+  "url_final": "https://ipdms.wordpress.com/2013/12/19/nota-de-apoio-do-ipdms-a-comunidade-quilombola-paiol-de-telha/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://racismoambiental.net.br/2011/10/mocao-do-xv-encontro-nacional-da-renap-contra-isencao-fiscal-para-agrotoxicos/": {
+  "status": 404,
+  "url_final": "https://racismoambiental.net.br/2011/10/mocao-do-xv-encontro-nacional-da-renap-contra-isencao-fiscal-para-agrotoxicos/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://revistapobresenojentas.wordpress.com/2009/04/08/jornalista-elaine-tavares-lanca-livro-sobre-o-mst/": {
+  "status": 410,
+  "url_final": "https://revistapobresenojentas.wordpress.com/2009/04/08/jornalista-elaine-tavares-lanca-livro-sobre-o-mst/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://tarifazero.org/wp-content/uploads/2011/05/O-programa-Tarifa-Zero-no-transporte-coletivo-de-Curitiba.pdf": {
+  "status": 200,
+  "url_final": "https://tarifazero.org/wp-content/uploads/2011/05/O-programa-Tarifa-Zero-no-transporte-coletivo-de-Curitiba.pdf",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://terradedireitos.org.br/biblioteca/sociedade-barracao-vitoria-da-luta-dos-catadores-e-catadoras-pelo-direito-a-terra-e-a-moradia-digna/": {
+  "status": 404,
+  "url_final": "https://terradedireitos.org.br/biblioteca/sociedade-barracao-vitoria-da-luta-dos-catadores-e-catadoras-pelo-direito-a-terra-e-a-moradia-digna/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://terradedireitos.org.br/biblioteca/sociedade-se-mobiliza-pela-criacao-da-defensoria-publica-no-parana/": {
+  "status": 404,
+  "url_final": "https://terradedireitos.org.br/biblioteca/sociedade-se-mobiliza-pela-criacao-da-defensoria-publica-no-parana/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://terradedireitos.org.br/biblioteca/testemunha-de-assassinato-de-sem-terra-e-ameacada-no-parana/": {
+  "status": 404,
+  "url_final": "https://terradedireitos.org.br/biblioteca/testemunha-de-assassinato-de-sem-terra-e-ameacada-no-parana/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.camara.gov.br/internet/votacao/mostraVotacao.asp?ideVotacao=4648&numLegislatura=54&codCasa=1&numSessaoLegislativa=1&indTipoSessaoLegislativa=O&numSessao=123&indTipoSessao=E&tipo=uf": {
+  "status": 200,
+  "url_final": "https://www.camara.gov.br/internet/votacao/mostraVotacao.asp?ideVotacao=4648&numLegislatura=54&codCasa=1&numSessaoLegislativa=1&indTipoSessaoLegislativa=O&numSessao=123&indTipoSessao=E&tipo=uf",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.correiocidadania.com.br/index.php?option=com_content&view=article&id=6262:manchete080911&catid=34:manchete": {
+  "status": 200,
+  "url_final": "https://www.correiocidadania.com.br/index.php?option=com_content&view=article&id=6262:manchete080911&catid=34:manchete",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.formad.org.br/wordpress/?p=607": {
+  "status": 403,
+  "url_final": "https://www.formad.org.br/wordpress/?p=607",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito"
+ },
+ "https://www.gazetadopovo.com.br/opiniao/conteudo.phtml?tl=1&id=1288777&tit=A-greve-dos-servidores-a-universidade-publica-e-o-Estado-brasileiro": {
+  "status": 206,
+  "url_final": "https://www.gazetadopovo.com.br/opiniao/conteudo.phtml?tl=1&id=1288777&tit=A-greve-dos-servidores-a-universidade-publica-e-o-Estado-brasileiro",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.goias.ufg.br/uploads/190/original_Direitos_Sociais_do_Campo._Edital_n.013.2013.pdf?1363305144": {
+  "status": 200,
+  "url_final": "https://www.goias.ufg.br/uploads/190/original_Direitos_Sociais_do_Campo._Edital_n.013.2013.pdf?1363305144",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.iddh.org/index.php?option=com_content&task=view&id=19&Itemid=35": {
+  "status": 200,
+  "url_final": "https://www.iddh.org/index.php?option=com_content&task=view&id=19&Itemid=35",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.iela.ufsc.br/%20": {
+  "status": 0,
+  "url_final": "https://www.iela.ufsc.br/%20",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ihu.unisinos.br/index.php?option=com_eventos&Itemid=19&task=detalhe&id=254": {
+  "status": 404,
+  "url_final": "https://www.ihu.unisinos.br/index.php?option=com_eventos&Itemid=19&task=detalhe&id=254",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ihu.unisinos.br/index.php?option=com_noticias&Itemid=18&task=detalhe&id=24733": {
+  "status": 404,
+  "url_final": "https://www.ihu.unisinos.br/index.php?option=com_noticias&Itemid=18&task=detalhe&id=24733",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ihu.unisinos.br/index.php?option=com_noticias&Itemid=18&task=detalhe&id=28252": {
+  "status": 404,
+  "url_final": "https://www.ihu.unisinos.br/index.php?option=com_noticias&Itemid=18&task=detalhe&id=28252",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ihu.unisinos.br/index.php?option=com_noticias&Itemid=18&task=detalhe&id=28780": {
+  "status": 404,
+  "url_final": "https://www.ihu.unisinos.br/index.php?option=com_noticias&Itemid=18&task=detalhe&id=28780",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.ihu.unisinos.br/index.php?option=com_noticias&Itemid=18&task=detalhe&id=45310": {
+  "status": 404,
+  "url_final": "https://www.ihu.unisinos.br/index.php?option=com_noticias&Itemid=18&task=detalhe&id=45310",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.jornada.unam.mx/2005/10/01/a44n1cul.php": {
+  "status": 403,
+  "url_final": "https://www.jornada.unam.mx/2005/10/01/a44n1cul.php",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito"
+ },
+ "https://www.jornada.unam.mx/2010/06/06/index.php?section=cultura&article=a02n1cul&partner=rss": {
+  "status": 403,
+  "url_final": "https://www.jornada.unam.mx/2010/06/06/index.php?section=cultura&article=a02n1cul&partner=rss",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito"
+ },
+ "https://www.jornada.unam.mx/ultimas/2011/07/08/13213758-fallece-el-filosofo-y-academico-adolfo-sanchez-vazquez": {
+  "status": 403,
+  "url_final": "https://www.jornada.unam.mx/ultimas/2011/07/08/13213758-fallece-el-filosofo-y-academico-adolfo-sanchez-vazquez",
+  "content_type": "",
+  "erro": "",
+  "acesso": "restrito"
+ },
+ "https://www.jornadasbolivarianas.blogspot.com/": {
+  "status": 0,
+  "url_final": "https://www.jornadasbolivarianas.blogspot.com/",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.jornalamargem.com.br/p/fale-conosco_07.html": {
+  "status": 0,
+  "url_final": "https://www.jornalamargem.com.br/p/fale-conosco_07.html",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.lapeduh.ufpr.br/arquivos/2010-02-28-10-19-21-2006furmann.pdf": {
+  "status": 0,
+  "url_final": "https://www.lapeduh.ufpr.br/arquivos/2010-02-28-10-19-21-2006furmann.pdf",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.marilia.unesp.br/index.php?CodigoMenu=7442&CodigoOpcao=7446": {
+  "status": 200,
+  "url_final": "https://www.marilia.unesp.br/index.php?CodigoMenu=7442&CodigoOpcao=7446",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.mj.gov.br/sedh/pndh3/pndh3.pdf": {
+  "status": 0,
+  "url_final": "https://www.mj.gov.br/sedh/pndh3/pndh3.pdf",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.mst.org.br/": {
+  "status": 200,
+  "url_final": "https://www.mst.org.br/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.mst.org.br/node/11802": {
+  "status": 404,
+  "url_final": "https://www.mst.org.br/node/11802",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.mst.org.br/node/12038": {
+  "status": 404,
+  "url_final": "https://www.mst.org.br/node/12038",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.mst.org.br/node/1357": {
+  "status": 404,
+  "url_final": "https://www.mst.org.br/node/1357",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.mst.org.br/sites/default/files/MST%20Lutas%20e%20Conquistas%20PDF.pdf": {
+  "status": 404,
+  "url_final": "https://www.mst.org.br/sites/default/files/MST%20Lutas%20e%20Conquistas%20PDF.pdf",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.nepe.ufsc.br/controle/artigos/artigo76.pdf": {
+  "status": 0,
+  "url_final": "https://www.nepe.ufsc.br/controle/artigos/artigo76.pdf",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.outroladodanoticia.com.br/inicial/16920-jornalista-lanca-livro-sobre-os-conflitos-de-porecatu-.html": {
+  "status": 404,
+  "url_final": "https://www.outroladodanoticia.com.br/inicial/16920-jornalista-lanca-livro-sobre-os-conflitos-de-porecatu-.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.peticaopublica.com.br/?pi=BR73581": {
+  "status": 200,
+  "url_final": "https://www.peticaopublica.com.br/?pi=BR73581",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.peticaopublica.com/?pi=P2010N2883": {
+  "status": 200,
+  "url_final": "https://www.peticaopublica.com/?pi=P2010N2883",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.piratininga.org.br/novapagina/leitura.asp?id_noticia=9484&topico=Musicas": {
+  "status": 0,
+  "url_final": "https://www.piratininga.org.br/novapagina/leitura.asp?id_noticia=9484&topico=Musicas",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6040.htm": {
+  "status": 0,
+  "url_final": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6040.htm",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9311.htm": {
+  "status": 0,
+  "url_final": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9311.htm",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d11995.htm": {
+  "status": 0,
+  "url_final": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/decreto/d11995.htm",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm": {
+  "status": 0,
+  "url_final": "https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.planalto.gov.br/ccivil_03/leis/l8629.htm#:~:text=LEI%20N%C2%BA%208.629%2C%20DE%2025%20DE%20FEVEREIRO%20DE%201993.&text=Disp%C3%B5e%20sobre%20a%20regulamenta%C3%A7%C3%A3o%20dos,Art": {
+  "status": 0,
+  "url_final": "https://www.planalto.gov.br/ccivil_03/leis/l8629.htm#:~:text=LEI%20N%C2%BA%208.629%2C%20DE%2025%20DE%20FEVEREIRO%20DE%201993.&text=Disp%C3%B5e%20sobre%20a%20regulamenta%C3%A7%C3%A3o%20dos,Art",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.radiocampeche.com.br/": {
+  "status": 200,
+  "url_final": "https://www.radiocampeche.com.br/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.radioprogresso640.com.br/2011/10/indios-kayabi-mantem-sete-refens-contra-construcao-de-usina-no-teles-pires/": {
+  "status": 0,
+  "url_final": "https://www.radioprogresso640.com.br/2011/10/indios-kayabi-mantem-sete-refens-contra-construcao-de-usina-no-teles-pires/",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.rtve.es/noticias/20110708/muere-intelectual-espanol-adolfo-sanchez-vazquez-95-anos-mexico/446564.shtml": {
+  "status": 200,
+  "url_final": "https://www.rtve.es/noticias/20110708/muere-intelectual-espanol-adolfo-sanchez-vazquez-95-anos-mexico/446564.shtml",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.scribd.com/doc/110295175/V-Festival-de-Direitos": {
+  "status": 410,
+  "url_final": "https://www.scribd.com/doc/110295175/V-Festival-de-Direitos",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.scribd.com/doc/24501587/Derechos-humanos-administracion-de-justicia-y-otros-organismos-del-Estado": {
+  "status": 200,
+  "url_final": "https://www.scribd.com/doc/24501587/Derechos-humanos-administracion-de-justicia-y-otros-organismos-del-Estado",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.scribd.com/doc/24501701/TORRE-RANGEL-El-derecho-como-arma-de-liberacion-en-America-Latina": {
+  "status": 200,
+  "url_final": "https://www.scribd.com/doc/24501701/TORRE-RANGEL-El-derecho-como-arma-de-liberacion-en-America-Latina",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.scribd.com/doc/24501804/Rede-Nacional-das-Assessorias-Juridicas-Universitarias": {
+  "status": 200,
+  "url_final": "https://www.scribd.com/doc/24501804/Rede-Nacional-das-Assessorias-Juridicas-Universitarias",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.scribd.com/doc/24501843/Servicios-Legales-Universitarios-en-Brasil": {
+  "status": 200,
+  "url_final": "https://www.scribd.com/doc/24501843/Servicios-Legales-Universitarios-en-Brasil",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.scribd.com/doc/25432895/Entrevista-Leandro-Scalabrin-na-Caros-Amigos": {
+  "status": 200,
+  "url_final": "https://www.scribd.com/doc/25432895/Entrevista-Leandro-Scalabrin-na-Caros-Amigos",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.scribd.com/doc/27058617/Ninguem-havera-de-gritar-pelos-povos-da-Amazonia": {
+  "status": 200,
+  "url_final": "https://www.scribd.com/doc/27058617/Ninguem-havera-de-gritar-pelos-povos-da-Amazonia",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos": {
+  "status": 200,
+  "url_final": "https://www.scribd.com/doc/44933921/Movimento-popular-como-sujeito-criador-de-direitos",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.slideshare.net/diegoadiehl/classe-trabalhadora-e-ajup": {
+  "status": 200,
+  "url_final": "https://www.slideshare.net/diegoadiehl/classe-trabalhadora-e-ajup",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.smdh.org.br/": {
+  "status": 200,
+  "url_final": "https://www.smdh.org.br/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.sociologiajuridica.net.br/numero-9/202-assessoria-juridica-popular-universitaria-e-a-formacao-de-uma-cultura-politica-participativa-no-brasil": {
+  "status": 0,
+  "url_final": "https://www.sociologiajuridica.net.br/numero-9/202-assessoria-juridica-popular-universitaria-e-a-formacao-de-uma-cultura-politica-participativa-no-brasil",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.tudorondonia.com.br/noticias/rondonia-familia-de-advogado-assassinado-por-pistoleiros-luta-ha-26-anos-por-justica-viuva-e-orfaos-querem-ser-indenizados-por-mandantes,75.shtml": {
+  "status": 200,
+  "url_final": "https://www.tudorondonia.com.br/noticias/rondonia-familia-de-advogado-assassinado-por-pistoleiros-luta-ha-26-anos-por-justica-viuva-e-orfaos-querem-ser-indenizados-por-mandantes,75.shtml",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.ufrgs.br/saju/": {
+  "status": 0,
+  "url_final": "https://www.ufrgs.br/saju/",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.vermelho.org.br/noticia.php?id_secao=11&id_noticia=114089": {
+  "status": 404,
+  "url_final": "https://www.vermelho.org.br/noticia.php?id_secao=11&id_noticia=114089",
+  "content_type": "",
+  "erro": "",
+  "acesso": "morto_ou_instavel"
+ },
+ "https://www.xinguvivo.org.br/2011/05/11/nota-defesa-e-solidariedade-ao-procurador-da-republica-felicio-pontes-junior-e-ao-ministerio-publico-federalpa/": {
+  "status": 200,
+  "url_final": "https://www.xinguvivo.org.br/2011/05/11/nota-defesa-e-solidariedade-ao-procurador-da-republica-felicio-pontes-junior-e-ao-ministerio-publico-federalpa/",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/playlist?p=PL1A64D59D76A42F02": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/playlist?p=PL1A64D59D76A42F02",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/tvufgcanal14#p/u/0/VBHviUXF_OE": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/tvufgcanal14#p/u/0/VBHviUXF_OE",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/tvufgcanal14#p/u/1/klcRyc0eww8": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/tvufgcanal14#p/u/1/klcRyc0eww8",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/tvufgcanal14#p/u/2/EXJHUgURMd0": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/tvufgcanal14#p/u/2/EXJHUgURMd0",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/user/forumcomunitariocwb?feature=watch": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/user/forumcomunitariocwb?feature=watch",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=25CsE4ugW-w": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=25CsE4ugW-w",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=6E-eiqXUpuQ": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=6E-eiqXUpuQ",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=9AUZz3jpRQg": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=9AUZz3jpRQg",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=E6X9__lBbiA": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=E6X9__lBbiA",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=UY-4w-JQkOw&playnext=1&list=PLAA452BB4800B62FD": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=UY-4w-JQkOw&playnext=1&list=PLAA452BB4800B62FD",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=c0sEzzpI3Xk&feature=player_embedded": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=c0sEzzpI3Xk&feature=player_embedded",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=g1QJ-y_xUmk&feature=related": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=g1QJ-y_xUmk&feature=related",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=i2UbAt6lTL8": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=i2UbAt6lTL8",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=lLUOJEPpvBQ&feature=player_embedded": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=lLUOJEPpvBQ&feature=player_embedded",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=rCUPXWyE1HY": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=rCUPXWyE1HY",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=uAKBvsxB4a4": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=uAKBvsxB4a4",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www.youtube.com/watch?v=xmZnI2C_d7Q&feature=related": {
+  "status": 200,
+  "url_final": "https://www.youtube.com/watch?v=xmZnI2C_d7Q&feature=related",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://www1.folha.uol.com.br/poder/919913-grupo-usa-nome-de-dilma-para-pedir-comissao-da-verdade.shtml": {
+  "status": 200,
+  "url_final": "https://www1.folha.uol.com.br/poder/919913-grupo-usa-nome-de-dilma-para-pedir-comissao-da-verdade.shtml",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "https://xiicorredordasideiasbrasil.blogspot.com/p/segunda-circular-do-xii-corredor-das.html": {
+  "status": 200,
+  "url_final": "https://xiicorredordasideiasbrasil.blogspot.com/p/segunda-circular-do-xii-corredor-das.html",
+  "content_type": "",
+  "erro": "",
+  "acesso": "aberto"
+ },
+ "mms://tvled.egc.ufsc.br/aovivo": {
+  "status": 0,
+  "url_final": "mms://tvled.egc.ufsc.br/aovivo",
+  "content_type": "",
+  "erro": "sem resposta",
+  "acesso": "morto_ou_instavel"
+ }
+}

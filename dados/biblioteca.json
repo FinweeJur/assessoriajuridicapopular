@@ -3,36 +3,31 @@
   "tipo": "Acervo",
   "titulo": "Biblioteca digital",
   "url": "biblioteca-digital.html",
-  "descricao": "Entrada para os acervos bibliográficos reunidos pela AJP.",
-  "fonte": "https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-digital.html"
+  "descricao": "Entrada para os acervos bibliográficos reunidos pela AJP."
  },
  {
   "tipo": "Acervo",
   "titulo": "Biblioteca AJUP-RJ",
   "url": "biblioteca-ajup-rj.html",
-  "descricao": "Materiais da assessoria jurídica universitária do Rio de Janeiro.",
-  "fonte": "https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-ajup-rj.html"
+  "descricao": "Materiais da assessoria jurídica universitária do Rio de Janeiro."
  },
  {
   "tipo": "Acervo",
   "titulo": "Biblioteca Roberto Lyra Filho",
   "url": "biblioteca-roberto-lyra-filho.html",
-  "descricao": "Obras e textos ligados ao direito achado na rua e à crítica jurídica.",
-  "fonte": "https://assessoriajuridicapopular.blogspot.com/2012/07/biblioteca-roberto-lyra-filho.html"
+  "descricao": "Obras e textos ligados ao direito achado na rua e à crítica jurídica."
  },
  {
   "tipo": "Acervo",
   "titulo": "Biblioteca Miguel Lanzellotti Baldez",
   "url": "biblioteca-miguel-lanzellotti-baldez.html",
-  "descricao": "Acervo de referência sobre advocacia popular e direitos humanos.",
-  "fonte": "https://assessoriajuridicapopular.blogspot.com/2017/05/biblioteca-miguel-lanzellotti-baldez.html"
+  "descricao": "Acervo de referência sobre advocacia popular e direitos humanos."
  },
  {
   "tipo": "Acervo",
   "titulo": "Biblioteca Joaquín Herrera Flores",
   "url": "biblioteca-joaquin-herrera-flores.html",
-  "descricao": "Direitos humanos, interculturalidade e crítica ao universalismo abstrato.",
-  "fonte": "https://assessoriajuridicapopular.blogspot.com/2016/03/biblioteca-joaquin-herrera-flores.html"
+  "descricao": "Direitos humanos, interculturalidade e crítica ao universalismo abstrato."
  },
  {
   "tipo": "Acervo",
@@ -52,6 +47,13 @@
   "url": "referencias.html",
   "descricao": "Bibliografia e fontes usadas no acervo.",
   "fonte": "https://assessoriajuridicapopular.blogspot.com/2012/07/referencias.html"
+ },
+ {
+  "tipo": "Acervo",
+  "titulo": "Poesia crítica do direito",
+  "url": "poesia-critica-do-direito.html",
+  "descricao": "Poemas de colunistas do blogue da assessoria jurídica popular.",
+  "fonte": "https://assessoriajuridicapopular.blogspot.com/2012/07/poesia-critica-do-direito.html"
  },
  {
   "tipo": "Obra",
@@ -106,12 +108,5 @@
   "titulo": "Direito crítico comparado",
   "url": "assessoria-juridica-popular-no-mundo.html",
   "descricao": "AJP, direito insurgente, direito achado na rua e uso tático no Brasil, América Latina e mundo."
- },
- {
-  "tipo": "Acervo",
-  "titulo": "Poesia crítica do direito",
-  "url": "https://assessoriajuridicapopular.blogspot.com/2012/07/poesia-critica-do-direito.html",
-  "descricao": "Poemas de colunistas do blogue da assessoria jurídica popular.",
-  "fonte": "https://assessoriajuridicapopular.blogspot.com/2012/07/poesia-critica-do-direito.html"
  }
 ]

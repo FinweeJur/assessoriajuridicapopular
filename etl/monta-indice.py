@@ -59,6 +59,8 @@ colecoes = [
 ]
 
 dentro = [
+    ("rede.html", "Rede e comunidade", "quem somos, blogues, entidades, mapeamento e movimentos"),
+    ("mapeamento-ajups.html", "Mapeamento de AJUPs", "38 organizações de 2011 + 2 redes atuais"),
     ("poemas.html", "Poemas e Caderno", "%d poemas publicados e o caderno" % poemas),
     ("mistica.html", "Mística", "o que sustenta a luta: arte, memória e celebração"),
     ("citacoes.html", "Citações", "falas do acervo por tema"),

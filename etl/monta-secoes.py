@@ -69,6 +69,7 @@ def topo(ativo):
       <a href="index.html"%s>Home</a>
       <a href="acervo.html"%s>Acervo</a>
       <a href="biblioteca.html"%s>Biblioteca</a>
+      <a href="rede.html"%s>Rede</a>
       <a href="mistica.html"%s>Mística</a>
       <a href="ia.html"%s>IA</a>
     </nav>
@@ -87,7 +88,7 @@ def topo(ativo):
       </select>
     </div>
   </div>
-</header>""" % (cur({"index"}), cur(acervo), cur(biblio), cur({"mistica"}), cur(ia))
+</header>""" % (cur({"index"}), cur(acervo), cur(biblio), cur({"rede"}), cur({"mistica"}), cur(ia))
 
 def rodape():
     return """<footer class="rodape">
@@ -189,8 +190,8 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=109" />
-  <link rel="stylesheet" href="reveal.css?v=109" />
+  <link rel="stylesheet" href="acervo.css?v=112" />
+  <link rel="stylesheet" href="reveal.css?v=112" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
   <link rel="stylesheet" href="leitura.css?v=1" />
 </head>
@@ -336,12 +337,12 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
       </button>
       <div class="rp__medidor" data-radio-medidor role="slider" tabindex="0" aria-label="Volume da rádio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-orientation="vertical" data-interactive="true">
-        <span class="rp__valor rp__valor--fora" aria-hidden="true">100%</span>
-        <div class="rp__liquido" aria-hidden="true"><span class="rp__valor rp__valor--dentro">100%</span></div>
+        <span class="rp__valor rp__valor--fora" aria-hidden="true">100%%</span>
+        <div class="rp__liquido" aria-hidden="true"><span class="rp__valor rp__valor--dentro">100%%</span></div>
         <div class="rp__marcas" aria-hidden="true"></div>
         <div class="rp__marca" aria-hidden="true"></div>
       </div>
-      <span class="rp__pct" data-radio-pct aria-hidden="true">100%</span>
+      <span class="rp__pct" data-radio-pct aria-hidden="true">100%%</span>
     </div>
     <p class="rp__status" data-radio-status aria-live="polite"></p>
   </div>
@@ -351,9 +352,9 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <script src="componentes/radio-dados.js?v=1" defer></script>
 <script src="componentes/radio.js?v=4" defer></script>
 <script src="site.js?v=4" defer></script>
-<script src="reveal.js?v=75" defer></script>
+<script src="reveal.js?v=2" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
-<script src="casca.js?v=38" defer></script>
+<script src="casca.js?v=39" defer></script>
 <script src="leitura.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>
