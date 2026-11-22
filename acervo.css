@@ -2422,3 +2422,24 @@ a.cartao, .item__link, .destaque, .bento__item {
   display: block; margin: 0 auto 14px; border: 2px solid var(--borda);
 }
 
+/* ── Assistente: fonte e tema dentro do painel ──────────────────────────── */
+.assistente__barra { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.assistente__barra-rotulo {
+  font-size: .64rem; letter-spacing: .08em; text-transform: uppercase; color: var(--cp-text-soft);
+}
+.assistente__barra button {
+  min-width: 36px; min-height: 34px; padding: 0 8px; cursor: pointer;
+  border: 1px solid var(--borda); border-radius: 8px;
+  background: var(--cp-surface); color: var(--cp-text); font: inherit; font-weight: 700;
+}
+.assistente__barra button:hover, .assistente__barra button:focus-visible { border-color: var(--cor-tema); color: var(--cor-tema); }
+.assistente__tema {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 6px;
+  font-size: .7rem; color: var(--cp-text-soft);
+}
+.assistente__tema select {
+  max-width: 8.6rem; min-height: 34px; padding: 0 6px;
+  border: 1px solid var(--borda); border-radius: 8px;
+  background: var(--cp-surface); color: var(--cp-text); font: inherit; font-size: .72rem;
+}
+

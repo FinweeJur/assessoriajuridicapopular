@@ -4,167 +4,146 @@
   "pergunta": "O que é assessoria jurídica popular?",
   "resposta": "É o trabalho de advogados, advogadas, estudantes e educadores com movimentos sociais: orientação jurídica, educação popular e organização. Não é caridade nem assistência gratuita — o protagonismo é de quem vive o conflito.",
   "links": [
-   {
-    "texto": "Texto de 2009",
-    "url": "o-que-e-assessoria-juridica-popular.html"
-   },
-   {
-    "texto": "Seção AJP",
-    "url": "assessoria-juridica-popular.html"
-   }
+   {"texto": "Definição de 2009", "url": "o-que-e-assessoria-juridica-popular.html"},
+   {"texto": "Seção AJP", "url": "assessoria-juridica-popular.html"}
   ]
  },
  {
   "id": "anos",
   "pergunta": "Quantos textos tem o acervo e de que anos?",
-  "resposta": "São 713 textos publicados entre 2009 e 2024. 2010 e 2011 concentram 450; 2014 não tem publicação; depois de 2016 são 22 textos, mais de memória e balanço do que de notícia.",
+  "resposta": "São 713 textos publicados entre 2009 e 2024. 2010 e 2011 concentram 450; 2014 não tem publicação e depois de 2016 o ritmo cai para textos de memória e balanço.",
   "links": [
-   {
-    "texto": "Ver o acervo",
-    "url": "acervo.html"
-   },
-   {
-    "texto": "Blog por ano",
-    "url": "blog.html"
-   },
-   {
-    "texto": "Linha do tempo",
-    "url": "linha-do-tempo.html"
-   }
+   {"texto": "Acervo completo", "url": "acervo.html"},
+   {"texto": "Blog por ano", "url": "blog.html"}
   ]
  },
  {
   "id": "tipos",
   "pergunta": "Que tipos de publicação existem?",
-  "resposta": "Textos formativos (362), eventos (135), resenhas (111), poesias (42), notícias (37) e documentos (26). O filtro de tipo fica no topo do acervo.",
+  "resposta": "Textos formativos (362), eventos (135), resenhas (111), poesias (42), notícias (37) e documentos (26). O filtro por tipo está no acervo, no blog e nas seções.",
   "links": [
-   {
-    "texto": "Filtrar por tipo",
-    "url": "acervo.html"
-   }
+   {"texto": "Filtrar por tipo", "url": "acervo.html"}
   ]
  },
  {
   "id": "autores",
   "pergunta": "Quem escreve no acervo?",
-  "resposta": "29 pessoas assinam os 713 textos. Entre elas, Luiz Otávio Ribas, Ricardo Prestes Pazello, Assis Oliveira e muitos militantes e pesquisadores. “Redação da Página” reúne as assinaturas genéricas do blog.",
+  "resposta": "29 pessoas assinam os 713 textos. Luiz Otávio Ribas (292), Ricardo Prestes Pazello (173) e a Redação da Página (37) estão entre os mais presentes. A página de Autores reúne todos, e os colunistas têm foto.",
   "links": [
-   {
-    "texto": "Todos os autores",
-    "url": "autores.html"
-   },
-   {
-    "texto": "Ribas",
-    "url": "autor-luiz-otavio-ribas.html"
-   },
-   {
-    "texto": "Pazello",
-    "url": "autor-ricardo-prestes-pazello.html"
-   }
+   {"texto": "Autores", "url": "autores.html"},
+   {"texto": "Colunistas", "url": "autores.html#colunistas"}
   ]
  },
  {
   "id": "secoes",
   "pergunta": "Quais são as seções e quantos textos cada uma tem?",
-  "resposta": "Assessoria jurídica popular (97), direitos humanos (76), movimentos sociais (170), memória e cultura (30), teoria crítica (182) e educação popular (158).",
+  "resposta": "São cinco: Movimentos sociais (194), Assessoria jurídica popular (169), Educação popular (128), Direitos humanos (119) e Teoria crítica do direito (103). A antiga seção Memória e cultura virou coleção Memória + tag nos textos.",
   "links": [
-   {
-    "texto": "Assessoria jurídica popular",
-    "url": "assessoria-juridica-popular.html"
-   },
-   {
-    "texto": "Direitos humanos",
-    "url": "direitos-humanos.html"
-   },
-   {
-    "texto": "Movimentos sociais",
-    "url": "movimentos-sociais.html"
-   },
-   {
-    "texto": "Teoria crítica",
-    "url": "teoria-critica.html"
-   }
+   {"texto": "Seções", "url": "indice.html"},
+   {"texto": "Movimentos sociais", "url": "movimentos-sociais.html"},
+   {"texto": "Assessoria jurídica popular", "url": "assessoria-juridica-popular.html"}
+  ]
+ },
+ {
+  "id": "memoria",
+  "pergunta": "Onde está a memória da AJP e da RENAP?",
+  "resposta": "Na coleção Memória: 11 acontecimentos, as publicações por ano e as efemérides da mística, em três camadas separadas. A antiga página Memória e cultura redireciona para lá.",
+  "links": [
+   {"texto": "Coleção Memória", "url": "memoria.html"},
+   {"texto": "Linha do tempo", "url": "memoria.html#linha-do-tempo"}
+  ]
+ },
+ {
+  "id": "cultura",
+  "pergunta": "O que tem na coleção Cultura?",
+  "resposta": "Poesia, documentários e vídeos, cinema, teatro e música, crônicas e narrativas. Poemas e Caderno e Mística são subpáginas da Cultura; o acervo publica 42 poemas.",
+  "links": [
+   {"texto": "Cultura", "url": "cultura.html"},
+   {"texto": "Poemas e Caderno", "url": "poemas.html"},
+   {"texto": "Mística", "url": "mistica.html"}
+  ]
+ },
+ {
+  "id": "biblioteca",
+  "pergunta": "O que a Biblioteca reúne?",
+  "resposta": "As sete bibliotecas do blog original, 21 teses e dissertações do Catálogo CAPES, as produções do IPDMS e os oito Cadernos da RENAP — cada item com link para o repositório ou PDF de origem.",
+  "links": [
+   {"texto": "Biblioteca", "url": "biblioteca.html"},
+   {"texto": "Teses e dissertações", "url": "biblioteca.html#teses-capes"},
+   {"texto": "Produções do IPDMS", "url": "biblioteca.html#ipdms"},
+   {"texto": "Cadernos da RENAP", "url": "biblioteca.html#renap"}
+  ]
+ },
+ {
+  "id": "teses",
+  "pergunta": "Onde encontro teses e dissertações sobre AJP?",
+  "resposta": "Na Biblioteca, seção Teses e dissertações: 21 trabalhos defendidos no Brasil, de 2004 a 2024, com link para o repositório da instituição e, quando existe, para o Catálogo CAPES.",
+  "links": [
+   {"texto": "Teses e dissertações", "url": "biblioteca.html#teses-capes"}
+  ]
+ },
+ {
+  "id": "redes-publicacoes",
+  "pergunta": "O que o IPDMS e a RENAP publicam?",
+  "resposta": "Do IPDMS: Cadernos Insurgentes, Revista InSURgência, anais dos seminários (I a XI) e outras publicações. Da RENAP: seis Cadernos da RENAP e dois volumes sobre Defensoria, AJP e movimentos sociais.",
+  "links": [
+   {"texto": "Produções do IPDMS", "url": "biblioteca.html#ipdms"},
+   {"texto": "Cadernos da RENAP", "url": "biblioteca.html#renap"},
+   {"texto": "Revista InSURgência", "url": "https://periodicos.unb.br/index.php/insurgencia"}
   ]
  },
  {
   "id": "citar",
   "pergunta": "Como citar um texto do acervo?",
-  "resposta": "Cada página traz autor, data, link para o original e data de captura. O botão “Copiar citação ABNT” monta a referência com “Disponível em” e “Acesso em”.",
+  "resposta": "Cada página traz autor, data, link para o original e data de captura. O botão “Copiar citação ABNT” monta a referência; para trabalho acadêmico, confira o original no blog.",
   "links": [
-   {
-    "texto": "Ver um exemplo",
-    "url": "o-que-e-assessoria-juridica-popular.html"
-   }
+   {"texto": "Exemplo de texto", "url": "o-que-e-assessoria-juridica-popular.html"}
+  ]
+ },
+ {
+  "id": "buscar",
+  "pergunta": "Como buscar por tema, autor, ano ou rede?",
+  "resposta": "A busca fica no acervo, no blog e nas seções — não na capa. No acervo, filtre por palavra, tipo, ano, rede e ordem; os endereços aceitam ?q=, ?ano= e ?rede=.",
+  "links": [
+   {"texto": "Buscar no acervo", "url": "acervo.html"},
+   {"texto": "Buscar por rede", "url": "acervo.html?rede=renap"}
+  ]
+ },
+ {
+  "id": "redes",
+  "pergunta": "Quais redes têm recorte próprio?",
+  "resposta": "RENAP (40 textos), IPDMS (12) e RENAJU/AJUPs (140, incluindo SAJU, NAJUP, CORAJE e outros núcleos). O filtro de redes aparece no acervo e nas seções.",
+  "links": [
+   {"texto": "RENAP", "url": "acervo.html?rede=renap"},
+   {"texto": "IPDMS", "url": "acervo.html?rede=ipdms"},
+   {"texto": "RENAJU/AJUPs", "url": "acervo.html?rede=renaju-ajup"}
   ]
  },
  {
   "id": "teoria",
-  "pergunta": "Como o blog dialoga com a teoria crítica?",
-  "resposta": "A página do comparado organiza quatro perspectivas: assessoria jurídica popular, direito insurgente, direito achado na rua e uso tático do direito. Cada uma responde a uma pergunta diferente, e a página mostra como se combinam na prática.",
+  "pergunta": "Como o site organiza as teorias do direito crítico?",
+  "resposta": "Em cinco perspectivas: AJP, Direito Achado na Rua, direito insurgente, uso tático do direito e positivismo de combate/pluralismo jurídico. O panorama reúne oito sínteses e 89 referências em acesso aberto.",
   "links": [
-   {
-    "texto": "Direito crítico comparado",
-    "url": "assessoria-juridica-popular-no-mundo.html"
-   }
+   {"texto": "AJP pelo mundo", "url": "assessoria-juridica-popular-no-mundo.html"},
+   {"texto": "Panorama da pesquisa", "url": "assessoria-juridica-popular-no-mundo.html#panorama"}
   ]
  },
  {
   "id": "poemas",
   "pergunta": "O que é o Caderno de Poesias?",
-  "resposta": "Uma antologia de 2010 organizada por Cleber Mori. O site publica 135 poemas: 20 em domínio público e 115 por autorização do responsável. Maiakovski ficou de fora porque as traduções têm direitos próprios; João Cabral não tem poema no caderno.",
+  "resposta": "Uma antologia de 2010 organizada por Cleber Mori, hoje dentro de Poemas e Caderno, na Cultura. O acervo publica 42 poemas, além do caderno.",
   "links": [
-   {
-    "texto": "Ler os poemas",
-    "url": "poemas.html"
-   },
-   {
-    "texto": "Índice do caderno",
-    "url": "poemas.html"
-   }
-  ]
- },
- {
-  "id": "dados",
-  "pergunta": "Que dados cada página traz?",
-  "resposta": "Autor, data de publicação, link do original, data de captura, tema principal, palavras-chave e, quando existe, crédito da imagem. É o suficiente para conferir a fonte e citar.",
-  "links": [
-   {
-    "texto": "Abrir o acervo",
-    "url": "acervo.html"
-   }
-  ]
- },
- {
-  "id": "buscar",
-  "pergunta": "Como buscar por tema, autor ou ano?",
-  "resposta": "Na página Acervo, use a busca por título, autor ou palavra-chave; os chips de tipo; o filtro de ano; o filtro de palavra-chave; e a ordem (recente, antigo ou título).",
-  "links": [
-   {
-    "texto": "Ir para a busca",
-    "url": "acervo.html"
-   }
-  ]
- },
- {
-  "id": "renap",
-  "pergunta": "O que é a RENAP?",
-  "resposta": "A Rede Nacional de Advogados e Advogadas Populares articula profissionais do direito comprometidos com as lutas populares desde 1995. É uma das parcerias deste acervo.",
-  "links": [
-   {
-    "texto": "Site da RENAP",
-    "url": "https://www.renap.org.br/"
-   }
+   {"texto": "Poemas e Caderno", "url": "poemas.html"},
+   {"texto": "Cultura", "url": "cultura.html"}
   ]
  },
  {
   "id": "ia",
   "pergunta": "O acervo usa inteligência artificial?",
-  "resposta": "O chatbot é uma busca local nos 713 textos: devolve trechos com autor, ano e link, sem modelo generativo. As perguntas curadas têm resposta fixa e revisada. Quando não encontra, indica a busca do acervo.",
+  "resposta": "O chatbot é uma busca local nos 713 textos e nas perguntas curadas — não gera resposta na hora. O panorama da pesquisa foi gerado pelo LeapSpace, IA parceira da CAPES, com curadoria editorial e só referências em acesso aberto.",
   "links": [
-   {
-    "texto": "Buscar no acervo",
-    "url": "acervo.html"
-   }
+   {"texto": "Panorama da pesquisa", "url": "assessoria-juridica-popular-no-mundo.html#panorama"},
+   {"texto": "Como o acervo é feito", "url": "index.html"}
   ]
  }
 ]

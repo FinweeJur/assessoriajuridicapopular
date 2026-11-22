@@ -186,6 +186,13 @@
       '<div class="assistente__painel" id="assistente-painel" role="dialog" aria-label="Perguntar ao acervo">' +
       '<button class="assistente__fechar" type="button" data-assistente-fechar aria-label="Fechar">×</button>' +
       '<h2>Perguntar ao acervo</h2>' +
+      '<div class="assistente__barra" role="group" aria-label="Ajustes de leitura">' +
+      '<span class="assistente__barra-rotulo">Texto</span>' +
+      '<button type="button" data-assistente-fonte="menos" aria-label="Diminuir o texto" data-dica="Texto menor">A−</button>' +
+      '<button type="button" data-assistente-fonte="mais" aria-label="Aumentar o texto" data-dica="Texto maior">A+</button>' +
+      '<label class="assistente__tema"><span>Tema</span>' +
+      '<select data-assistente-tema aria-label="Tema do site"></select></label>' +
+      '</div>' +
       '<p class="assistente__nota">Busca nos 713 textos e devolve trechos com autor, ano e link. A resposta em texto com IA depende de um serviço à parte.</p>' +
       '<form class="assistente__form"><label class="sr-only" for="assistente-campo">Sua pergunta</label>' +
       '<input id="assistente-campo" type="search" placeholder="Ex.: o que é assessoria jurídica popular?" autocomplete="off" />' +
@@ -201,6 +208,44 @@
     var indice = null;
     var curadas = [];
     var curadasBox = painel.querySelector('[data-assistente-curadas]');
+
+    // Ajustes de leitura: fonte e tema, reaproveitando a barra do topo.
+    var selTema = painel.querySelector('[data-assistente-tema]');
+    var temaTopo = document.getElementById('tema');
+    if (selTema) {
+      if (temaTopo) { selTema.innerHTML = temaTopo.innerHTML; }
+      selTema.value = document.documentElement.dataset.theme || (temaTopo ? temaTopo.value : 'pequi');
+      selTema.addEventListener('change', function () {
+        if (temaTopo) {
+          temaTopo.value = selTema.value;
+          temaTopo.dispatchEvent(new Event('change', { bubbles: true }));
+        } else {
+          document.documentElement.dataset.theme = selTema.value;
+          try { localStorage.setItem('renap-tema', selTema.value); } catch (e) {}
+        }
+      });
+      if (window.MutationObserver) {
+        new MutationObserver(function () {
+          var atual = document.documentElement.dataset.theme;
+          if (atual && selTema.value !== atual) { selTema.value = atual; }
+        }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+      }
+    }
+
+    function ajustaFonte(dir) {
+      var b = document.querySelector(dir === 'mais' ? '[data-fonte-mais]' : '[data-fonte-menos]');
+      if (b) { b.click(); return; }
+      var escala = 1;
+      try { escala = parseFloat(localStorage.getItem('renap-escala') || '1'); } catch (e) {}
+      escala = dir === 'mais' ? Math.min(1.4, escala + 0.1) : Math.max(0.85, escala - 0.1);
+      document.documentElement.style.fontSize = (16 * escala) + 'px';
+      try { localStorage.setItem('renap-escala', String(escala)); } catch (e) {}
+    }
+    painel.addEventListener('click', function (ev) {
+      var b = ev.target.closest('[data-assistente-fonte]');
+      if (!b) { return; }
+      ajustaFonte(b.getAttribute('data-assistente-fonte'));
+    });
 
     function escapa(t) {
       return (t || '').replace(/[&<>"]/g, function (c) {
