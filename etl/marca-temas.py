@@ -211,7 +211,7 @@ json.dump({"gerado_em": "2026-11-23", "temas": temas, "por_slug": por_slug},
 CHIPS = ["terra", "moradia", "barragens", "socioambiental", "mineracao",
          "indigenas", "quilombola", "racismo", "mulheres", "trabalho",
          "ditadura", "criminalizacao"]
-MIN_CHIP = 10  # ignora tema com menos de 10 textos
+MIN_CHIP = 6  # expõe tema com mais de 5 textos
 rotulos = {t["slug"]: t["rotulo"] for t in temas}
 totais = {t["slug"]: t["total"] for t in temas}
 
@@ -240,13 +240,19 @@ def marca_pagina(f):
     if not os.path.exists(p):
         return 0
     t = io.open(p, encoding="utf-8").read()
-    if 'data-tema-livre=' in t:
-        return 0
+
+    # remove a versão anterior dos controles de tema (permite reexecutar)
+    t = re.sub(r'\s*<div class="fita__tipos fita__temas"[^>]*>.*?</div>', "", t, flags=re.S)
+    t = re.sub(r'\s*<label class="sr-only" for="f-tema">Tema</label>'
+               r'<select id="f-tema" data-tema-select>.*?</select>', "", t, flags=re.S)
+
     marcados = 0
 
     def troca(m):
         nonlocal marcados
         tag, corpo = m.group(1), m.group(2)
+        if "data-tema-livre=" in tag:
+            return m.group(0)
         h = re.search(r'class="[^"]*item__link[^"]*" href="([^"]+)\.html"', corpo)
         if not h:
             return m.group(0)
@@ -259,11 +265,9 @@ def marca_pagina(f):
     t = re.sub(r'(<li class="item"[^>]*>)(.*?</li>)', troca, t, flags=re.S)
 
     grupo, select = chips_html()
-    if 'data-tema-f=' not in t:
-        # insere depois do grupo de tipos
-        m = re.search(r'<div class="fita__tipos"[^>]*>.*?</div>', t, re.S)
-        if m:
-            t = t[:m.end()] + "\n        " + grupo + "\n        " + select + t[m.end():]
+    m = re.search(r'<div class="fita__tipos"[^>]*>.*?</div>', t, re.S)
+    if m:
+        t = t[:m.end()] + "\n        " + grupo + "\n        " + select + t[m.end():]
     io.open(p, "w", encoding="utf-8", newline="\n").write(t)
     return marcados
 
