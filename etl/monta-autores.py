@@ -236,6 +236,90 @@ def main():
     for nome, itens in sorted(autores.items(), key=lambda x: -len(x[1]))[:6]:
         print("  %-32s %3d" % (nome[:32], len(itens)))
 
+    gera_paginas_bibliografia(autores)
+
+
+# Autores da bibliografia cujo nome no acervo é outro.
+ALIAS_BIB = {
+    "vladimir de carvalho luz": "vladimir luz",
+}
+
+
+def gera_paginas_bibliografia(autores):
+    """Cria página para autor que existe só na bibliografia (sem posts).
+
+    A Biblioteca linka para `autor-<slug>.html`; sem esta etapa esses links
+    ficam quebrados.
+    """
+    caminho = os.path.join(RAIZ, "dados", "bibliografia-autores.json")
+    if not os.path.exists(caminho):
+        return
+    bib = json.load(io.open(caminho, encoding="utf-8"))
+    existentes = {norm(n) for n in autores}
+    criadas = 0
+    for autor in bib:
+        nome = autor.get("nome") or ""
+        if not nome or norm(nome) in existentes:
+            continue
+        alvo_posts = ALIAS_BIB.get(norm(nome))
+        if alvo_posts and norm(alvo_posts) in existentes:
+            # autor com posts assinados por outro nome: página de bibliografia
+            # aponta também para os textos no acervo
+            pass
+        elif alvo_posts:
+            continue
+        destino = autor.get("slug") or "autor-%s.html" % slug(nome)
+        obras = autor.get("obras") or []
+        itens = []
+        for o in obras:
+            titulo = esc(o.get("titulo"))
+            if o.get("url"):
+                alvo = o["url"]
+                externo = ' target="_blank" rel="noopener"' if alvo.startswith("http") else ""
+                titulo = '<a href="%s"%s>%s</a>' % (esc(alvo), externo, titulo)
+            ano = " (%s)" % esc(o.get("ano")) if o.get("ano") else ""
+            fonte = " · %s" % esc(o.get("fonte")) if o.get("fonte") else ""
+            selo = {"aberto": ("texto integral", "selo selo--aberto"),
+                    "consulta": ("catálogo", "selo"),
+                    "doi": ("DOI", "selo"),
+                    "restrito": ("restrito", "selo selo--restrito"),
+                    "acervo": ("no acervo", "selo selo--acervo"),
+                    "registro": ("registro", "selo")}.get(o.get("acesso"), ("registro", "selo"))
+            itens.append('<li>%s%s%s <span class="%s">%s</span></li>'
+                         % (titulo, ano, fonte, selo[1], esc(selo[0])))
+        acoes = ('<p class="hero__acoes"><a class="botao secundario" href="autores.html">← Todos os autores</a>\n'
+                 '    <a class="botao secundario" href="biblioteca.html#autores">Biblioteca</a>')
+        if alvo_posts:
+            acoes += ('\n    <a class="botao" href="autor-%s.html">Ver os textos no acervo</a>'
+                      % slug(alvo_posts))
+        acoes += "</p>"
+        corpo = """
+<nav class="migalha" aria-label="Você está em"><a href="index.html">Início</a> <span aria-hidden="true">/</span> <a href="autores.html">Autores</a> <span aria-hidden="true">/</span> <span aria-current="page">%s</span></nav>
+<section class="hero hero--texto">
+  <div class="hero__interno">
+    <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Bibliografia</p>
+    <h1>%s</h1>
+    <p class="lead">%s</p>
+    %s
+  </div>
+</section>
+<div class="miolo">
+  <section class="secao" aria-labelledby="obras-titulo">
+    <div class="secao__cabeca"><h2 id="obras-titulo">Obras de referência</h2>
+    <p class="secao__nota">%d obra(s) na bibliografia do acervo</p></div>
+    <p class="colecao__nota">%s</p>
+    <ul class="linhas">
+%s
+    </ul>
+  </section>
+</div>
+""" % (esc(nome), esc(nome), esc(autor.get("papel") or ""), acoes, len(obras),
+       esc(autor.get("nota") or ""), "\n".join(itens))
+        with io.open(os.path.join(RAIZ, destino), "w", encoding="utf-8", newline="\n") as f:
+            f.write(shell(nome, "Obras de %s na bibliografia AJP." % nome, corpo))
+        criadas += 1
+    print("páginas de bibliografia:", criadas)
+
 
 if __name__ == "__main__":
     main()

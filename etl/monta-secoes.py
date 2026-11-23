@@ -91,7 +91,7 @@ def topo(ativo):
 </header>""" % (cur({"index"}), cur(acervo), cur(biblio), cur({"rede"}), cur({"mistica"}), cur(ia))
 
 def rodape():
-    return """<footer class="rodape">
+    return '''<footer class="rodape">
   <div class="rodape__topo">
     <p class="rodape__marca"><span class="ponto" aria-hidden="true"></span> AJP · Assessoria Jurídica Popular</p>
   </div>
@@ -101,11 +101,10 @@ def rodape():
       <ul>
         <li><a href="acervo.html">Todos os textos</a></li>
         <li><a href="blog.html">Blog, em ordem</a></li>
-        <li><a href="ia.html">IA</a></li>
-        <li><a href="mistica.html">Mística</a></li>
-        <li><a href="poemas.html">Poemas publicados</a></li>
-        <li><a href="formacao.html">Formação</a></li>\n        <li><a href="biblioteca.html">Biblioteca</a></li>\n        <li><a href="cultura.html">Cultura</a></li>\n        <li><a href="glossario.html">Glossário</a></li>
-        <li><a href="memoria.html">Memória</a></li>\n        <li><a href="memoria.html#linha-do-tempo">Linha do tempo</a></li>
+        <li><a href="autores.html">Autores</a></li>
+        <li><a href="biblioteca.html">Biblioteca</a></li>
+        <li><a href="referencias-citadas.html">Referências citadas</a></li>
+        <li><a href="glossario.html">Glossário</a></li>
         <li><a href="o-que-e-assessoria-juridica-popular.html">O que é AJP</a></li>
       </ul>
     </div>
@@ -117,16 +116,29 @@ def rodape():
         <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
         <li><a href="teoria-critica.html">Teoria crítica</a></li>
         <li><a href="educacao-popular.html">Educação popular</a></li>
+        <li><a href="memoria.html">Memória e cultura</a></li>
+        <li><a href="cultura.html">Cultura</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="mistica.html">Mística</a></li>
+        <li><a href="poemas.html">Poemas publicados</a></li>
       </ul>
     </div>
     <div>
-      <h2>Fonte</h2>
+      <h2>Rede e pesquisa</h2>
+      <ul>
+        <li><a href="rede.html">Rede e parceiros</a></li>
+        <li><a href="mapeamento-ajups.html">Mapeamento de AJUPs</a></li>
+        <li><a href="ia.html">IA aplicada à pesquisa</a></li>
+        <li><a href="memoria.html#linha-do-tempo">Linha do tempo</a></li>
+        <li><a href="rede.html#quem-somos">Quem somos</a></li>
+        <li><a href="rede.html#como-postar">Como postar</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Fonte e parcerias</h2>
       <p>Acervo montado a partir do blog
       <a href="https://assessoriajuridicapopular.blogspot.com/" target="_blank" rel="noopener">Assessoria Jurídica Popular</a>
       e de fontes parceiras, com autor, data e link. Captura em 20/11/2026.</p>
-    </div>
-    <div>
-      <h2>Parcerias</h2>
       <ul class="parcerias__lista">
         <li><a href="https://www.renap.org.br/" target="_blank" rel="noopener"><img src="logos/renap.png" alt="RENAP" loading="lazy" /></a></li>
         <li><a href="https://ipdms.org.br/" target="_blank" rel="noopener"><img src="logos/ipdms.png" alt="IPDMS" loading="lazy" /></a></li>
@@ -139,7 +151,7 @@ def rodape():
   </div>
   <p class="rodape__ia">Rascunho feito com IA - Inteligência Artificial (Programa OpenCode,
   Modelo Deepseek V4.1 Flash), podendo contar com erros e ainda em revisão. Verifique as informações.</p>
-</footer>"""
+</footer>'''
 
 
 def cartao(registro):
@@ -190,7 +202,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=119" />
+  <link rel="stylesheet" href="acervo.css?v=126" />
   <link rel="stylesheet" href="reveal.css?v=114" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
   <link rel="stylesheet" href="leitura.css?v=1" />
@@ -352,7 +364,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 <script src="componentes/radio-dados.js?v=1" defer></script>
 <script src="componentes/radio.js?v=4" defer></script>
 <script src="site.js?v=4" defer></script>
-<script src="reveal.js?v=2" defer></script>
+<script src="reveal.js?v=3" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
 <script src="casca.js?v=41" defer></script>
 <script src="leitura.js?v=3" defer></script>

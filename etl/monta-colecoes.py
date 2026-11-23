@@ -44,7 +44,7 @@ def pagina(slug, titulo, ativo, lead, corpo):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=119" />
+  <link rel="stylesheet" href="acervo.css?v=126" />
   <link rel="stylesheet" href="reveal.css?v=114" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
   <link rel="stylesheet" href="leitura.css?v=1" />
@@ -68,7 +68,7 @@ def pagina(slug, titulo, ativo, lead, corpo):
 %s
 <script src="casca.js?v=41" defer></script>
 <script src="leitura.js?v=3" defer></script>
-<script src="reveal.js?v=2" defer></script>
+<script src="reveal.js?v=3" defer></script>
 <script src="fundo-grade.js?v=6" defer></script>
 </body>
 </html>
@@ -192,6 +192,49 @@ def formacao():
                   corpo)
 
 
+ROTULO_ACESSO = {
+    "aberto": ("texto integral", "selo selo--aberto"),
+    "consulta": ("catálogo", "selo"),
+    "doi": ("DOI", "selo"),
+    "restrito": ("restrito", "selo selo--restrito"),
+    "acervo": ("no acervo", "selo selo--acervo"),
+    "registro": ("registro", "selo selo--restrito"),
+}
+
+
+def cartao_biblio(autor):
+    obras = []
+    for o in autor.get("obras", []):
+        rotulo, classe = ROTULO_ACESSO.get(o.get("acesso"), ("registro", "selo"))
+        titulo = esc(o.get("titulo"))
+        if o.get("url"):
+            titulo = '<a href="%s"%s>%s</a>' % (
+                esc(o["url"]),
+                ' target="_blank" rel="noopener"' if o["url"].startswith("http") else "",
+                titulo,
+            )
+        ano = " (%s)" % esc(o["ano"]) if o.get("ano") else ""
+        fonte = ' · %s' % esc(o.get("fonte")) if o.get("fonte") else ""
+        obras.append(
+            '<li>%s%s%s <span class="%s">%s</span></li>'
+            % (titulo, ano, fonte, classe, esc(rotulo))
+        )
+    nome = esc(autor["nome"])
+    if autor.get("slug"):
+        nome = '<a href="%s">%s</a>' % (esc(autor["slug"]), nome)
+    return """<article class="cartao biblio-autor">
+      <span class="etiqueta">%s</span>
+      <h3>%s</h3>
+      <p class="colecao__nota">%s</p>
+      <ul class="linhas">%s</ul>
+    </article>""" % (
+        esc(autor.get("papel")),
+        nome,
+        esc(autor.get("nota")),
+        "".join(obras),
+    )
+
+
 def biblioteca():
     itens = le("biblioteca.json")
     grupos = {}
@@ -207,9 +250,31 @@ def biblioteca():
           <p class="secao__nota">%d registros</p></div>
           <div class="grade-3">%s</div>
         </section>""" % (ident, ident, ident, esc(tipo), len(grupos.get(tipo, [])), cards))
+    biblio = le("bibliografia-autores.json")
+    total_obras = sum(len(a.get("obras", [])) for a in biblio)
+    cards_biblio = "".join(cartao_biblio(a) for a in biblio)
+    secao_autores = """<section class="secao" id="autores" aria-labelledby="autores-titulo">
+      <div class="secao__cabeca"><h2 id="autores-titulo">Autores e tradição crítica</h2>
+      <p class="secao__nota">%d autores · %d obras rastreadas</p></div>
+      <p>Publicações de quem escreve no acervo e de figuras históricas da advocacia
+      popular e da crítica jurídica. Onde há link verificado, ele abre o texto integral,
+      o catálogo ou o DOI; onde não há, o registro é bibliográfico e serve de ponto de
+      partida para a pesquisa.</p>
+      <div class="grade-3">%s</div>
+    </section>
+
+    <section class="secao" aria-labelledby="busca-titulo">
+      <div class="secao__cabeca"><h2 id="busca-titulo">Como procurar</h2></div>
+      <p>Use a busca do acervo para localizar autores, instituições e temas; para obras
+      externas, comece pelas bibliotecas e pela bibliografia de autores. Se você tem uma
+      monografia, dissertação ou tese para incluir, escreva para o contato do rodapé.</p>
+      <p><a class="botao" href="acervo.html?tipo=resenha">Ver as resenhas do acervo →</a></p>
+    </section>""" % (len(biblio), total_obras, cards_biblio)
+
     corpo = """
     <nav class="colecao__atalhos" aria-label="Biblioteca">
       <a href="#acervo">Acervos</a><a href="#obra">Obras</a><a href="#dossie">Dossiê</a>
+      <a href="#autores">Autores</a>
       <a href="acervo.html?tipo=resenha">Resenhas no acervo</a>
     </nav>
     <p class="colecao__nota">Esta página separa <b>obras</b> de <b>posts sobre obras</b>.
@@ -219,14 +284,9 @@ def biblioteca():
     <a href="https://assessoriajuridicapopular.blogspot.com/p/bibliotecas.html" target="_blank" rel="noopener">Bibliotecas</a>
     do blog original. Cada cartão leva ao acervo no site e, quando existe, à página de origem.</p>
     %s
-    <section class="secao" aria-labelledby="busca-titulo">
-      <div class="secao__cabeca"><h2 id="busca-titulo">Como procurar</h2></div>
-      <p>Use a busca do acervo para localizar autores, instituições e temas; para obras
-      externas, comece pelas bibliotecas acima. Se você tem uma monografia, dissertação
-      ou tese para incluir, escreva para o contato do rodapé.</p>
-      <p><a class="botao" href="acervo.html?tipo=resenha">Ver as resenhas do acervo →</a></p>
-    </section>
-    """ % ("\n".join(blocos))
+
+    %s
+    """ % ("\n".join(blocos), secao_autores)
     return pagina("biblioteca", "Biblioteca", "biblioteca",
                   "Artigos, monografias, dissertações, teses e dossiês sobre AJP, AJUPs, Direito Achado na Rua, Direito Insurgente e uso tático do direito.",
                   corpo)
