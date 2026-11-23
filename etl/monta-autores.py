@@ -82,8 +82,10 @@ def carrega_rastreados():
 
 
 def rotulo_acesso(o):
-    if o.get("doi"):
-        return ("DOI", "selo selo--aberto", o["doi"])
+    doi = o.get("doi") or ""
+    if doi:
+        url = doi if doi.startswith(("http://", "https://")) else "https://doi.org/" + doi
+        return ("DOI", "selo selo--aberto", url)
     url = o.get("url") or ""
     if url and "pdf" in url.lower():
         return ("PDF", "selo selo--aberto", url)
