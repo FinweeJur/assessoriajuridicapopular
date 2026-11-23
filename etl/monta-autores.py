@@ -3,6 +3,9 @@
 Cada autor ganha uma página com todos os seus textos, em ordem.
 A casca (topo, rodapé, rádio, scripts) vem de `biblioteca.html`, para os
 autores não ficarem com um layout antigo isolado.
+
+Além dos textos do acervo, a página mostra as publicações externas detectadas
+por `etl/rastreia-autores.py` (OpenAlex/Crossref/Google Books), quando houver.
 """
 import html
 import io
@@ -13,7 +16,28 @@ import unicodedata
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INDICE = os.path.join(RAIZ, "_indice.json")
+ARTIGOS = os.path.join(RAIZ, "dados", "autores-artigos.jsonl")
 BASE = os.path.join(RAIZ, "biblioteca.html")
+
+
+def casca_base():
+    """HTML-modelo das páginas de autor.
+
+    Usa sempre a versão do último commit (HEAD), nunca a do disco: o arquivo
+    `biblioteca.html` pode estar com modificações em curso de outra sessão, e
+    as páginas de autor não devem herdar estados instáveis.
+    """
+    import subprocess
+    try:
+        r = subprocess.run(
+            ["git", "-C", RAIZ, "show", "HEAD:biblioteca.html"],
+            capture_output=True, timeout=30,
+        )
+        if r.returncode == 0 and r.stdout.strip():
+            return r.stdout.decode("utf-8", "replace")
+    except Exception:
+        pass
+    return io.open(BASE, encoding="utf-8").read()
 
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
          "agosto", "setembro", "outubro", "novembro", "dezembro"]
@@ -30,6 +54,12 @@ def slug(texto):
     return sem[:60] or "autor"
 
 
+def norm(s):
+    t = unicodedata.normalize("NFD", s or "")
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^\w\s]", " ", t).lower().strip()
+
+
 def data_curta(iso):
     if not iso or len(iso) < 10:
         return ""
@@ -37,8 +67,79 @@ def data_curta(iso):
     return "%d de %s de %s" % (int(dia), MESES[int(mes) - 1], ano)
 
 
+def carrega_rastreados():
+    """Mapa nome -> dict com confirmadas/revisao detectadas fora do acervo."""
+    mapa = {}
+    if not os.path.exists(ARTIGOS):
+        return mapa
+    for linha in io.open(ARTIGOS, encoding="utf-8"):
+        try:
+            r = json.loads(linha)
+        except Exception:
+            continue
+        mapa[norm(r.get("nome") or "")] = r
+    return mapa
+
+
+def rotulo_acesso(o):
+    if o.get("doi"):
+        return ("DOI", "selo selo--aberto", o["doi"])
+    url = o.get("url") or ""
+    if url and "pdf" in url.lower():
+        return ("PDF", "selo selo--aberto", url)
+    if url:
+        return ("link", "selo", url)
+    return ("registro", "selo", "")
+
+
+def secao_rastreados(nome):
+    """Bloco 'publicações fora do acervo' para a página do autor.
+
+    Só aparece quando há pelo menos uma obra confirmada (autoria atestada + tema
+    do acervo). Obras apenas prováveis ficam na base interna, fora da página.
+    """
+    reg = RASTREADOS.get(norm(nome))
+    if not reg:
+        return ""
+    conf = reg.get("detalhe", {}).get("confirmadas", []) or []
+    if not conf:
+        return ""
+    rev = reg.get("detalhe", {}).get("revisao", []) or []
+    itens = []
+    for o in conf[:40]:
+        rot, classe, href = rotulo_acesso(o)
+        titulo = esc((o.get("titulo") or "")[:220])
+        if href:
+            titulo = '<a href="%s" target="_blank" rel="noopener">%s</a>' % (esc(href), titulo)
+        ano = " (%s)" % esc(o.get("ano")) if o.get("ano") else ""
+        fonte = " · %s" % esc(o.get("fonte").replace("_", " ").title()) if o.get("fonte") else ""
+        itens.append("<li>%s%s%s <span class=\"%s\">%s</span></li>" % (
+            titulo, ano, fonte, classe, esc(rot)))
+    nota_rev = ""
+    if rev:
+        nota_rev = ("Há ainda %d obra(s) com autoria provável, em revisão."
+                    % len(rev))
+    corpo_itens = "\n".join(itens)
+    return """
+<section class="secao" id="fora-do-acervo" aria-labelledby="fora-titulo">
+  <div class="secao__cabeca"><h2 id="fora-titulo">Publicações fora do acervo</h2>
+  <p class="secao__nota">%d obra(s) rastreada(s) em índices abertos</p></div>
+  <p class="colecao__nota">Detectadas em OpenAlex, Crossref e Google Books a partir
+  do nome de autoria. Onde há link verificado, ele abre o DOI ou o texto integral;
+  o restante é registro bibliográfico para pesquisa.</p>
+  <ul class="linhas">
+%s
+  </ul>
+  %s
+</section>""" % (len(conf), corpo_itens, ("<p class=\"secao__nota\">%s</p>" % nota_rev))
+
+
 def shell(titulo, descricao, corpo):
-    t = io.open(BASE, encoding="utf-8").read()
+    global _CASA_CACHE
+    try:
+        t = _CASA_CACHE
+    except NameError:
+        t = _CASA_CACHE = casca_base()
     t = re.sub(r"<title>.*?</title>",
                "<title>%s · Autores · AJP — Assessoria Jurídica Popular</title>" % esc(titulo),
                t, count=1, flags=re.S)
@@ -50,7 +151,9 @@ def shell(titulo, descricao, corpo):
 
 
 def main():
+    global RASTREADOS
     registros = json.loads(io.open(INDICE, encoding="utf-8").read())
+    RASTREADOS = carrega_rastreados()
 
     autores = {}
     for r in registros:
@@ -76,6 +179,15 @@ def main():
     <p class="lead">%d pessoas assinam os %d textos. Cada nome abre a lista completa.</p>
   </div>
 </section>
+  <nav class="subnav" aria-label="Dentro de Acervo"><span class="subnav__rotulo">Acervo</span><a href="acervo.html">Todos os textos</a><a href="blog.html">Por ano</a><a href="autores.html" aria-current="page">Autores</a><a href="memoria.html">Memória</a><a href="cultura.html">Cultura</a></nav>
+  <nav class="subnav" aria-label="Seções do acervo">
+    <span class="subnav__rotulo">Seções</span>
+    <a href="assessoria-juridica-popular.html">AJP</a>
+    <a href="direitos-humanos.html">Direitos humanos</a>
+    <a href="movimentos-sociais.html">Movimentos sociais</a>
+    <a href="educacao-popular.html">Educação popular</a>
+    <a href="teoria-critica.html">Teoria crítica</a>
+  </nav>
 <div class="miolo">
   <ul class="lista-acervo lista-autores" data-revelar-grupo data-paginada>
 %s
@@ -113,6 +225,7 @@ def main():
 </div>
 """ % (esc(nome), esc(nome), len(itens), "texto" if len(itens) == 1 else "textos",
        anos[0] if anos else "", anos[-1] if anos else "", cartoes)
+        corpo += secao_rastreados(nome)
         pagina = shell(nome, "Textos de %s no acervo AJP." % nome, corpo)
         with io.open(os.path.join(RAIZ, "autor-%s.html" % slug(nome)), "w", encoding="utf-8", newline="\n") as f:
             f.write(pagina)
