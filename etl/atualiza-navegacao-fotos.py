@@ -314,14 +314,14 @@ body.com-foto::before {
 /* No tema claro a foto do hero recua: contraste do texto em primeiro lugar. */
 [data-theme="light"] .hero__foto,
 :root:not([data-theme]) .hero__foto {
-  opacity: .26; filter: grayscale(.35) brightness(.95) contrast(.9);
+  opacity: .18; filter: grayscale(.4) brightness(.95) contrast(.9);
 }
 [data-theme="light"] .hero__veu,
 :root:not([data-theme]) .hero__veu {
   background: linear-gradient(100deg,
-    color-mix(in srgb, var(--cp-bg) 78%, transparent) 0%,
-    color-mix(in srgb, var(--cp-bg) 66%, transparent) 55%,
-    color-mix(in srgb, var(--cp-bg) 48%, transparent) 100%);
+    color-mix(in srgb, var(--cp-bg) 90%, transparent) 0%,
+    color-mix(in srgb, var(--cp-bg) 82%, transparent) 55%,
+    color-mix(in srgb, var(--cp-bg) 68%, transparent) 100%);
 }
 
 /* ── Faixa de fotos no topo de páginas sem hero ─────────────────────────── */
