@@ -39,7 +39,7 @@ BENTO = [
     ("teoria-critica.html", "Seção", "Teoria crítica", "114 textos", "ideia", ""),
     ("blog.html", "Em ordem", "Blog", "790 textos em 15 anos", "jornal", "bento__item--largo"),
     ("educacao-popular.html", "Seção", "Educação popular", "136 textos", "formatura", ""),
-    ("memoria.html", "Seção", "Memória e cultura", "30 textos", "relogio", ""),
+    ("memoria-e-cultura.html", "Mística", "Memória e cultura", "38 textos", "pena", ""),
     ("biblioteca.html", "Biblioteca", "Acervos, obras e dossiês", "18 coleções", "livro", ""),
     ("autores.html", "Quem escreve", "Autores", "30 pessoas", "pessoas", ""),
     ("referencias-citadas.html", "Pesquisa", "Referências citadas", "524 fichas", "dicionario", ""),
@@ -112,11 +112,14 @@ RODAPE = '''<footer class="rodape">
         <li><a href="movimentos-sociais.html">Movimentos sociais</a></li>
         <li><a href="teoria-critica.html">Teoria crítica</a></li>
         <li><a href="educacao-popular.html">Educação popular</a></li>
-        <li><a href="memoria.html">Memória e cultura</a></li>
-        <li><a href="cultura.html">Cultura</a></li>
         <li><a href="formacao.html">Formação</a></li>
+      </ul>
+      <h2>Mística</h2>
+      <ul>
         <li><a href="mistica.html">Mística</a></li>
-        <li><a href="poemas.html">Poemas publicados</a></li>
+        <li><a href="memoria-e-cultura.html">Memória e cultura</a></li>
+        <li><a href="cultura.html">Cultura</a></li>
+        <li><a href="poemas.html">Poemas e Caderno</a></li>
       </ul>
     </div>
     <div>
@@ -124,8 +127,9 @@ RODAPE = '''<footer class="rodape">
       <ul>
         <li><a href="rede.html">Rede e parceiros</a></li>
         <li><a href="mapeamento-ajups.html">Mapeamento de AJUPs</a></li>
-        <li><a href="ia.html">IA aplicada à pesquisa</a></li>
+        <li><a href="memoria.html">Memória da AJP e da RENAP</a></li>
         <li><a href="memoria.html#linha-do-tempo">Linha do tempo</a></li>
+        <li><a href="ia.html">IA aplicada à pesquisa</a></li>
         <li><a href="rede.html#quem-somos">Quem somos</a></li>
         <li><a href="rede.html#como-postar">Como postar</a></li>
       </ul>

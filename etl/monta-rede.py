@@ -139,6 +139,7 @@ def pagina_rede(dados, parceiros, colunas):
   <a href="#quem-somos">Quem somos</a><a href="#como-postar">Como postar</a>
   <a href="#blogues">Blogues parceiros</a><a href="#entidades">Entidades</a>
   <a href="#movimentos">Movimentos</a><a href="#mapeamento">Mapeamento de AJUPs</a>
+  <a href="#memoria">Memória da rede</a>
   <a href="#colunas">Colunas</a><a href="#bibliotecas">Bibliotecas</a>
 </nav>
 
@@ -177,6 +178,16 @@ def pagina_rede(dados, parceiros, colunas):
   <div class="secao__cabeca"><h2 id="map-titulo">Mapeamento de AJUPs</h2><p class="secao__nota">38 organizações históricas + 2 redes atuais, com status e data.</p></div>
   <p>O levantamento de 2011 está preservado; a página nova permite filtrar por tipo, UF e rede e mostra o que foi confirmado em 2026.</p>
   <p><a class="botao" href="mapeamento-ajups.html">Abrir o mapeamento</a></p>
+</section>
+
+<section class="secao" id="memoria" aria-labelledby="memoria-titulo">
+  <div class="secao__cabeca"><h2 id="memoria-titulo">Memória da AJP e da RENAP</h2>
+  <p class="secao__nota">marcos, publicações por ano e efemérides</p></div>
+  <p>O registro histórico da rede, separado da memória cultural: os acontecimentos que
+  formaram a assessoria jurídica popular, as publicações do acervo ano a ano e as
+  efemérides — cada camada com sua fonte.</p>
+  <p><a class="botao" href="memoria.html">Abrir a memória</a>
+  <a class="botao secundario" href="memoria.html#linha-do-tempo">Ver a linha do tempo</a></p>
 </section>
 
 <section class="secao" id="colunas" aria-labelledby="colunas-titulo">
