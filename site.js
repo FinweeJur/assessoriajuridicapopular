@@ -37,6 +37,9 @@
   })();
 
   var redes = document.querySelector('[data-redes-filtro]');
+  var temaChips = [].slice.call(document.querySelectorAll('[data-tema-f]'));
+  var temaSelect = document.querySelector('[data-tema-select]');
+  var temaAtual = '';
   var itens = [].slice.call(document.querySelectorAll('[data-paginada] .item'));
   var mostrados = PASSOS;
 
@@ -86,7 +89,9 @@
       var bateAno = !ano || li.dataset.ano === ano;
       var batePalavra = !palavra || (li.dataset.palavras || '').indexOf(palavra) > -1;
       var bateRede = !rede || (li.dataset.redes || '').split(' ').indexOf(rede) > -1;
-      li.dataset.fora = (bateTermo && bateTipo && bateAno && batePalavra && bateRede) ? '' : '1';
+      var bateTema = !temaAtual ||
+        (li.dataset.temaLivre || '').split(' ').indexOf(temaAtual) > -1;
+      li.dataset.fora = (bateTermo && bateTipo && bateAno && batePalavra && bateRede && bateTema) ? '' : '1';
     });
     mostrados = PASSOS;
     aplica();
@@ -106,6 +111,37 @@
       filtra();
     });
   });
+
+  function marcaTema(valor) {
+    temaAtual = valor || '';
+    temaChips.forEach(function (b) {
+      b.setAttribute('aria-pressed', String((b.dataset.temaF || '') === temaAtual));
+    });
+    if (temaSelect) {
+      var emChip = temaChips.some(function (b) { return (b.dataset.temaF || '') === temaAtual; });
+      temaSelect.value = emChip ? '' : temaAtual;
+    }
+    try {
+      var u = new URL(window.location.href);
+      if (temaAtual) { u.searchParams.set('tema', temaAtual); }
+      else { u.searchParams.delete('tema'); }
+      window.history.replaceState(null, '', u.pathname + u.search + u.hash);
+    } catch (e) { /* navegador antigo: segue sem atualizar a URL */ }
+    filtra();
+  }
+
+  temaChips.forEach(function (botao) {
+    botao.addEventListener('click', function () { marcaTema(botao.dataset.temaF); });
+  });
+  if (temaSelect) {
+    temaSelect.addEventListener('change', function () { marcaTema(temaSelect.value); });
+  }
+
+  // Filtro por tema vindo da URL (?tema=barragens)
+  try {
+    var temaUrl = new URL(window.location.href).searchParams.get('tema');
+    if (temaUrl) { marcaTema(temaUrl); }
+  } catch (e) { /* sem URL API */ }
 
   if (anos) {
     var vistos = {};

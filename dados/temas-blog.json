@@ -1,0 +1,2582 @@
+{
+ "gerado_em": "2026-11-23",
+ "temas": [
+  {
+   "slug": "assessoria",
+   "rotulo": "Assessoria e advocacia popular",
+   "total": 175
+  },
+  {
+   "slug": "educacao",
+   "rotulo": "Educação e formação",
+   "total": 135
+  },
+  {
+   "slug": "indigenas",
+   "rotulo": "Povos indígenas e originários",
+   "total": 101
+  },
+  {
+   "slug": "arte",
+   "rotulo": "Arte e cultura",
+   "total": 81
+  },
+  {
+   "slug": "socioambiental",
+   "rotulo": "Socioambiental",
+   "total": 80
+  },
+  {
+   "slug": "teoria",
+   "rotulo": "Teoria crítica e direito",
+   "total": 53
+  },
+  {
+   "slug": "terra",
+   "rotulo": "Luta pela terra",
+   "total": 52
+  },
+  {
+   "slug": "cidade",
+   "rotulo": "Cidade e periferia",
+   "total": 44
+  },
+  {
+   "slug": "comunicacao",
+   "rotulo": "Comunicação",
+   "total": 38
+  },
+  {
+   "slug": "barragens",
+   "rotulo": "Barragens",
+   "total": 37
+  },
+  {
+   "slug": "moradia",
+   "rotulo": "Moradia",
+   "total": 32
+  },
+  {
+   "slug": "trabalho",
+   "rotulo": "Trabalho",
+   "total": 32
+  },
+  {
+   "slug": "mulheres",
+   "rotulo": "Mulheres e gênero",
+   "total": 31
+  },
+  {
+   "slug": "ditadura",
+   "rotulo": "Ditadura e memória",
+   "total": 28
+  },
+  {
+   "slug": "saude",
+   "rotulo": "Saúde",
+   "total": 28
+  },
+  {
+   "slug": "racismo",
+   "rotulo": "Racismo",
+   "total": 24
+  },
+  {
+   "slug": "mineracao",
+   "rotulo": "Mineração",
+   "total": 19
+  },
+  {
+   "slug": "criminalizacao",
+   "rotulo": "Criminalização",
+   "total": 17
+  },
+  {
+   "slug": "infancia",
+   "rotulo": "Infância e juventude",
+   "total": 12
+  },
+  {
+   "slug": "quilombola",
+   "rotulo": "Quilombolas",
+   "total": 11
+  },
+  {
+   "slug": "alimentacao",
+   "rotulo": "Alimentação",
+   "total": 9
+  },
+  {
+   "slug": "migracao",
+   "rotulo": "Migração",
+   "total": 8
+  },
+  {
+   "slug": "religiao",
+   "rotulo": "Religiosidade",
+   "total": 5
+  },
+  {
+   "slug": "lgbt",
+   "rotulo": "LGBTQIA+",
+   "total": 3
+  },
+  {
+   "slug": "agua",
+   "rotulo": "Água",
+   "total": 1
+  }
+ ],
+ "por_slug": {
+  "programacao-da-oficina-direito-pra-quem": [
+   "barragens",
+   "socioambiental",
+   "mineracao",
+   "indigenas",
+   "racismo",
+   "educacao",
+   "assessoria"
+  ],
+  "oficina-de-introducao-as-teorias-criticas-e-ajp": [
+   "mineracao",
+   "educacao"
+  ],
+  "marchinha-do-najup": [
+   "assessoria"
+  ],
+  "catalogo-da-editora-sergio-antonio-fabris": [
+   "teoria"
+  ],
+  "guia-de-empoderamento-para-a-seguranca-das-mulheres-na": [
+   "indigenas",
+   "mulheres",
+   "saude",
+   "comunicacao"
+  ],
+  "o-abismo-entre-o-asfalto-e-a-favela": [
+   "moradia",
+   "educacao"
+  ],
+  "a-escassez-do-acesso-a-justica-a-populacao-brasileira": [
+   "educacao",
+   "assessoria"
+  ],
+  "cafe-guaii-e-quilombo-campo-grande": [
+   "terra",
+   "socioambiental",
+   "quilombola",
+   "trabalho"
+  ],
+  "uma-experiencia-de-educacao-popular": [
+   "educacao",
+   "assessoria"
+  ],
+  "os-instrumentos-do-direito-servem-para-quem": [
+   "arte"
+  ],
+  "vamos-precisar-de-todo-mundo-um-mais-um-e-sempre-mais-que": [
+   "assessoria"
+  ],
+  "os-instrumentos-do-direito-servem-para-quem-uma-breve": [
+   "assessoria"
+  ],
+  "curso-de-extensao-em-ajp-na-uerj": [
+   "assessoria"
+  ],
+  "publicacao-do-livro-direito-achado-na-ilha-no-maranhao": [],
+  "moradores-sao-espancados-e-barracos-incendiados-na-ocupacao": [],
+  "lyra-filho-filosofia-teologia-e-experiencia-mistica": [
+   "educacao",
+   "teoria",
+   "religiao"
+  ],
+  "prefacio-lyra-filho-em-livro-de-gilberto-freyre": [
+   "teoria"
+  ],
+  "biblioteca-crescendo": [
+   "teoria"
+  ],
+  "atualizacao-da-biblioteca-roberto-lyra-filho": [
+   "teoria"
+  ],
+  "biblioteca-miguel-lanzellotti-baldez": [
+   "cidade"
+  ],
+  "jornada-universitaria-em-fortaleza": [
+   "terra"
+  ],
+  "fortalecimento-da-renaju-em-uma-conjuntura-de-retrocessos": [],
+  "e-quando-nao-ha-o-pai-para-matar": [
+   "assessoria"
+  ],
+  "o-fantasma-colonial-do-infanticidio-indigena": [
+   "indigenas",
+   "infancia"
+  ],
+  "o-conceito-de-casa-contra-o-conceito-de-propriedade-privada": [],
+  "para-que-a-justica-brasileira-existe": [
+   "assessoria"
+  ],
+  "resistir-para-que": [
+   "barragens",
+   "indigenas"
+  ],
+  "pesquisa-participante-como-metodo-utilizado-pela-assessoria": [
+   "educacao",
+   "assessoria"
+  ],
+  "nao-tenho-condicoes": [],
+  "por-uma-praxis-feminista-da-ajp": [
+   "mulheres",
+   "educacao",
+   "assessoria"
+  ],
+  "direito-e-conjuntura-o-papel-da-ajp-na-luta-contra-o-golpe": [
+   "ditadura"
+  ],
+  "a-acesso-e-sua-contribuicao-para-a-construcao-de-um-direito": [
+   "educacao",
+   "assessoria",
+   "teoria"
+  ],
+  "atualizacoes-das-bibliotecas": [
+   "teoria"
+  ],
+  "assessoria-juridica-popular-nada-deve-parecer-impossivel-de": [
+   "educacao",
+   "assessoria"
+  ],
+  "assessoria-juridica-popular-um-importante-marco-na-estrada": [
+   "assessoria"
+  ],
+  "ajup-um-trabalho-pela-igualdade": [
+   "assessoria"
+  ],
+  "estamos-bem-arrumados": [
+   "ditadura"
+  ],
+  "a-linguagem-como-elemento-determinante-da-assessoria": [
+   "educacao",
+   "assessoria",
+   "arte"
+  ],
+  "direito-e-conjuntura-cenarios-possiveis-com-o-fim-da-nova": [
+   "indigenas",
+   "saude"
+  ],
+  "direito-e-conjuntura-a-conjuntura-politica-internacional-e": [
+   "mineracao",
+   "ditadura"
+  ],
+  "teatro-do-oprimido-e-assessoria-juridica-popular-duas": [
+   "educacao",
+   "assessoria",
+   "arte"
+  ],
+  "direito-e-conjuntura-o-papel-do-direito-no-golpe-de-estado": [
+   "ditadura"
+  ],
+  "relato-de-experiencia-com-o-teatro-do-oprimido": [
+   "educacao",
+   "assessoria",
+   "arte"
+  ],
+  "direito-e-conjuntura-nova-coluna-no-blogue-ajp": [
+   "assessoria"
+  ],
+  "ajup-e-a-formacao-contra-hegemonica-no-direito": [
+   "indigenas",
+   "educacao",
+   "assessoria"
+  ],
+  "apresentacao-por-manuel-eugenio-gandara-carballido": [
+   "mulheres",
+   "saude"
+  ],
+  "biblioteca-joaquin-herrera-flores": [
+   "socioambiental"
+  ],
+  "fazer-a-universidade-ajup-e-educacao-juridica": [
+   "educacao",
+   "assessoria"
+  ],
+  "as-ajps-e-uma-teoria-critica-da-sociedade": [
+   "educacao",
+   "assessoria",
+   "teoria"
+  ],
+  "morro": [],
+  "microconto": [
+   "cidade"
+  ],
+  "uma-rede-com-20-anos-de-defesa-gratuita-dos-direitos-de": [
+   "saude"
+  ],
+  "putalizar-o-direito": [],
+  "abracos-destruicoes-e-belo-monte-o-velorio-de-uma-ilha-para": [
+   "barragens",
+   "socioambiental",
+   "indigenas"
+  ],
+  "mlb-encaminha-demanda-da-ocupacao-lanceiros-negros": [
+   "moradia"
+  ],
+  "20-anos-de-rede-nacional-de-advogados-e-advogadas-populares": [
+   "indigenas",
+   "assessoria"
+  ],
+  "bordando-a-resistencia": [],
+  "diana-melo-pereira-as-lutas-do-mmc-pelo-direito-a-uma-vida": [
+   "mulheres"
+  ],
+  "7-de-setembro-falta-independencia-ainda-para-muita-gente": [],
+  "seis-anos-do-blogue-ajpopular": [
+   "assessoria",
+   "arte"
+  ],
+  "advocacia-delirante-parte-ii-preciso-me-encontrar": [
+   "cidade"
+  ],
+  "um-estalo-nas-faculdades-de-direito-perspectivas": [
+   "assessoria"
+  ],
+  "inscricao-de-trabalhos-gt-assessoria-juridica-popular": [
+   "assessoria"
+  ],
+  "triplo-carpado-e-a-constituinte": [],
+  "a-ultima-aula-do-professor": [],
+  "o-tataraneto-do-ex-jurista-de-bonn": [],
+  "estudo-de-caso-sobre-promocao-de-direitos-coletivos": [],
+  "carta-das-comunidades-quilombolas-de-barro-vermelho-e": [
+   "socioambiental",
+   "indigenas",
+   "quilombola"
+  ],
+  "uma-pensata-a-respeito-da-relacao-entre-guerra-e-capitalismo": [
+   "educacao"
+  ],
+  "o-idiota-sou-eu": [],
+  "direito-insurgente-e-pluralismo-juridico-na-advocacia": [
+   "indigenas",
+   "cidade",
+   "assessoria",
+   "teoria",
+   "arte"
+  ],
+  "pelo-fim-do-feminicidio-e-da-violencia-contra-a-mulher": [
+   "mulheres",
+   "saude"
+  ],
+  "o-movimento-geraizeiro-e-o-direito": [
+   "indigenas",
+   "educacao"
+  ],
+  "para-uma-nova-sociedade-insistente": [
+   "educacao"
+  ],
+  "dossie-rolezinhos": [],
+  "sustenta-a-pisada-na-ajp": [
+   "indigenas"
+  ],
+  "advocacia-delirante-parte-i": [
+   "educacao",
+   "assessoria"
+  ],
+  "um-caso-de-criminalizacao-no-relato-de-um-advogado-popular": [
+   "criminalizacao",
+   "educacao",
+   "assessoria"
+  ],
+  "arpilleiras-uma-metodologia-latina-de-educacao-popular": [
+   "barragens",
+   "indigenas",
+   "mulheres",
+   "educacao"
+  ],
+  "lutando-pelos-direitos-sociais-negados-pelo-direito": [
+   "educacao"
+  ],
+  "o-projeto-carajas-e-a-critica-ao-desenvolvimentismo-pela-ajp": [
+   "socioambiental",
+   "mineracao",
+   "educacao",
+   "assessoria"
+  ],
+  "escrevendo-a-tese-piando": [
+   "teoria"
+  ],
+  "assessoria-juridica-popular-na-efetivacao-dos-direitos": [
+   "mulheres",
+   "assessoria"
+  ],
+  "problematizando-o-direito-problematizando-o-ensino-juridico": [
+   "trabalho",
+   "educacao"
+  ],
+  "relato-em-praca-de-guerra": [
+   "educacao"
+  ],
+  "estreia-da-coluna-a-frente-do-front-de-vitor-dieter": [],
+  "crdh-divulga-relatorio-sobre-atuacao-na-paraiba": [
+   "saude"
+  ],
+  "sera-que-os-direitos-humanos-vao-chegar-ate-la": [
+   "assessoria"
+  ],
+  "a-luta-e-a-resistencia-dos-fundos-de-pasto-baianos": [
+   "barragens",
+   "indigenas"
+  ],
+  "poema-resistencia-no-parana": [
+   "indigenas",
+   "racismo",
+   "arte"
+  ],
+  "ii-tribunal-popular-do-ceara-pauta-violacoes-de-direitos": [
+   "barragens",
+   "socioambiental",
+   "educacao"
+  ],
+  "direito-delirio-experiencias-e-coisas-reais": [
+   "assessoria"
+  ],
+  "coluna-o-direito-das-marias-dos-retornos-de-uma-mae": [],
+  "um-corpo-caido-e-a-luta-da-advocacia-popular": [
+   "terra",
+   "trabalho",
+   "educacao",
+   "assessoria"
+  ],
+  "islandia-a-insurgencia-da-democracia": [
+   "socioambiental"
+  ],
+  "projeto-antiterrorismo-ameaca-constituicao": [
+   "ditadura"
+  ],
+  "direito-das-marias-e-hora-de-gritar-o-que-os-olhos-e-o": [
+   "mulheres"
+  ],
+  "direito-dentro-e-contra-a-ordem-na-teoria-e-na-pratica": [
+   "educacao"
+  ],
+  "expulsao-de-agricultores-para-barragem-do-guapiacu-repete": [
+   "barragens",
+   "ditadura"
+  ],
+  "o-achaque-da-politica-burguesa": [],
+  "insurgencia-quilombola-e-assessoria-juridica-popular": [
+   "barragens",
+   "quilombola",
+   "racismo",
+   "assessoria"
+  ],
+  "sobre-as-manifestacoes-de-hoje-a-importancia-dos-movimentos": [
+   "socioambiental"
+  ],
+  "o-direito-do-campo-no-campo-do-direito-a-questao-dos": [
+   "educacao"
+  ],
+  "mas-a-terra-dada-nao-se-abre-a-boca": [],
+  "os-sinais-poeticos-do-direito-insurgente-para-uma-advogada": [
+   "assessoria",
+   "teoria"
+  ],
+  "a-critica-cotidiana-ao-direito-entre-a-capinagem-e-o": [
+   "indigenas",
+   "educacao",
+   "cidade",
+   "assessoria"
+  ],
+  "dilemas-de-um-advogado-militante-no-fio-da-navalha": [
+   "educacao",
+   "assessoria"
+  ],
+  "congresso-do-mst-um-ano-depois-a-hora-e-a-vez-da-juventude": [
+   "terra",
+   "educacao",
+   "assessoria",
+   "infancia"
+  ],
+  "sobre-os-ratos-e-seu-direito-a-toca": [],
+  "andre-mendes-e-a-advocacia-popular-utopia-e-acao-politica": [
+   "assessoria"
+  ],
+  "relatorio-cartografia-social-najurp-usp-ribeirao-preto": [],
+  "sessao-solene-na-camara-de-fortaleza": [
+   "socioambiental",
+   "indigenas",
+   "assessoria"
+  ],
+  "parecer-sobre-direito-a-moradia-como-direito-humano-e": [
+   "moradia"
+  ],
+  "sustentacao-oral-no-caso-vanderley-no-ceara": [
+   "socioambiental"
+  ],
+  "direito-insurgente-e-movimentos-populares-o-giro": [
+   "educacao",
+   "teoria"
+  ],
+  "advogados-e-juizes": [],
+  "a-direita-raivosa-saiu-do-armario": [],
+  "expectativa-de-justica-no-caso-vanderlei-no-ceara": [
+   "socioambiental"
+  ],
+  "minicurso-em-advocacia-popular-na-uem": [
+   "educacao",
+   "assessoria"
+  ],
+  "a-crise-da-democracia-representativa-no-brasil-e-os": [],
+  "feliz-dia-do-doto-devogado-poema-de-andre-dallagnol": [
+   "arte"
+  ],
+  "por-que-destinei-meu-salario-para-o-fundo-de-greve-dos": [
+   "trabalho",
+   "educacao"
+  ],
+  "manifesto-da-comunidade-juridica-contra-a-criminalizacao-da": [
+   "socioambiental",
+   "ditadura",
+   "criminalizacao",
+   "educacao"
+  ],
+  "quando-a-ocupacao-de-terra-e-a-unica-saida": [
+   "moradia"
+  ],
+  "a-hora-e-esta-companheiros": [],
+  "a-violencia-espectral-no-ambito-do-sni-a-extracao-de": [
+   "indigenas"
+  ],
+  "dilma-as-vaias-e-os-conselhos-populares": [],
+  "criado-o-tacap-tamoios-coletivo-de-assessoria-juridica": [
+   "assessoria"
+  ],
+  "estudantes-levaram-o-povo-pra-rua": [
+   "educacao"
+  ],
+  "sugestao-de-oficina-para-o-lutas-londrina": [],
+  "ditadura-e-incontinencia": [
+   "indigenas",
+   "ditadura"
+  ],
+  "a-advocacia-politica-e-os-50-anos-da-ditadura-estudos-e": [
+   "indigenas",
+   "ditadura",
+   "assessoria"
+  ],
+  "advocacia-tem-a-ver-com-capacidade-de-indignacao": [
+   "ditadura",
+   "cidade"
+  ],
+  "oficina-de-balanco-da-advocacia-no-rio-de-janeiro": [
+   "assessoria"
+  ],
+  "liberdade-apurina": [
+   "indigenas",
+   "criminalizacao"
+  ],
+  "a-luta-pela-terra-e-o-direito-vivo-em-anapu": [
+   "terra"
+  ],
+  "o-manifestante-o-crime-e-a-pena-uma-punicao-pelo-direito-de": [],
+  "a-proposito-da-greve-dos-garis": [
+   "trabalho"
+  ],
+  "sem-essa-de-black-blocs": [
+   "comunicacao"
+  ],
+  "mst-repudia-projetos-de-leis-antiterrorismo-do-congresso": [
+   "terra"
+  ],
+  "anadep-e-renap-lancam-livro-defensoria-publica-assessoria": [
+   "socioambiental",
+   "indigenas",
+   "assessoria"
+  ],
+  "alfonsin-o-papa-e-as-os-sem-terra-sem-teto-sem-pao-sem-saude": [
+   "terra",
+   "moradia"
+  ],
+  "a-segregacao-institucionalizada-no-brasil-ainda-tem-juiz-e": [
+   "racismo",
+   "educacao",
+   "saude"
+  ],
+  "derpic-salazar-el-derecho-del-poder-contra-el-poder": [],
+  "o-quilombo-paiol-de-telha-e-a-emancipacao-do-parana": [
+   "socioambiental",
+   "indigenas",
+   "quilombola",
+   "racismo",
+   "educacao"
+  ],
+  "os-quilombos-o-judiciario-e-a-politica": [
+   "quilombola",
+   "assessoria"
+  ],
+  "resenha-de-solucao-de-problemas-profissionais-de-zayas-e": [],
+  "cadernos-insurgentes-e-o-caso-do-mp-rs-versus-mst-2008": [
+   "terra"
+  ],
+  "direito-e-libertacao-breves-notas-introdutorias": [],
+  "voces-tem-um-lado": [],
+  "manifestacoes-populares-trancam-vias-do-distrito-federal": [
+   "moradia",
+   "cidade"
+  ],
+  "carta-a-um-estudante-de-direito-sobre-a-barbarie-no-egito": [
+   "educacao",
+   "cidade"
+  ],
+  "colectivo-de-abogados-zapatistas-caz-mexico-denuncia": [
+   "indigenas"
+  ],
+  "dissertacao-humberto-betinho-goes-ufpb-2008": [
+   "educacao"
+  ],
+  "mas-o-ole-foi-do-povo": [],
+  "o-que-as-manifestacoes-populares-tem-a-ver-com-a-classe": [
+   "trabalho",
+   "comunicacao"
+  ],
+  "cadernos-insurgentes-e-oficina-do-geap": [
+   "assessoria"
+  ],
+  "a-tarifa-zero-5-anos-depois": [
+   "cidade"
+  ],
+  "monografia-andressa-chiamulera-ufpr-2003": [],
+  "monografia-ivan-furmann-ufpr-2003": [
+   "educacao",
+   "assessoria"
+  ],
+  "monografia-murilo-sampaio-oliveira-ufba-2003": [
+   "educacao"
+  ],
+  "monografias-da-assessoria-juridica-popular-universitaria": [
+   "assessoria"
+  ],
+  "atualizacao-com-textos-de-lyra-filho": [
+   "teoria"
+  ],
+  "as-tres-vertebras-de-pedro-carrano": [
+   "barragens",
+   "comunicacao"
+  ],
+  "inauguracao-do-instituto-de-estudos-criticos-do-direito": [],
+  "a-primeira-turma-de-pos-graduacao-em-direitos-sociais-do": [
+   "educacao",
+   "cidade"
+  ],
+  "o-neofacismo-facismo-social": [],
+  "sobre-a-ajup-roberto-lyra-filho": [
+   "indigenas",
+   "assessoria",
+   "teoria"
+  ],
+  "antropologia-juridica-videos-sobre-comunidades-tradicionais": [
+   "indigenas",
+   "quilombola"
+  ],
+  "quadros-das-atividades-do-ajup-rj": [
+   "indigenas",
+   "assessoria"
+  ],
+  "ana-claudia-tavares-e-a-advocacia-popular-no-rio-de-janeiro": [
+   "assessoria"
+  ],
+  "frentes-de-atuacao-do-ajup-rj": [
+   "assessoria"
+  ],
+  "no-itinerario-pendente-do-fogo": [
+   "terra",
+   "arte"
+  ],
+  "instituto-apoio-juridico-popular-ajup": [
+   "assessoria"
+  ],
+  "uma-aula-sobre-o-direito-que-nasce-do-capital": [],
+  "caboclos-posseiros-sem-terra-100-anos-nos-trilhos-do": [
+   "terra",
+   "comunicacao"
+  ],
+  "iii-seminario-do-ipdms-convoca-para-espacos-de-discussao-eds": [],
+  "poema-de-assis-oliveira-sobre-criancas-indigenas": [
+   "indigenas",
+   "arte",
+   "infancia"
+  ],
+  "poema-do-rodrigao-sobre-encontro-da-renap-em-salvador": [
+   "arte"
+  ],
+  "esta-provado-que-so-possivel-filosofar-em-alemao": [],
+  "luta-pela-terra-e-o-tema-de-seminario-em-pinhao-no-parana": [
+   "terra"
+  ],
+  "manifesto-do-najup-luiza-mahin": [
+   "mulheres",
+   "assessoria"
+  ],
+  "sistema-penal-concentracao-fundiaria-e-onibus-que-pegam": [
+   "mineracao",
+   "cidade"
+  ],
+  "poema-sobre-o-encontro-em-santarem": [
+   "arte"
+  ],
+  "mocao-de-comunidade-no-rio-de-janeiro-contra-remocoes": [],
+  "ode-ao-povo": [],
+  "curso-de-formacao-politica-da-renaju": [
+   "assessoria"
+  ],
+  "tentativa-de-criminalizacao-dos-escrachos": [
+   "ditadura",
+   "criminalizacao",
+   "educacao"
+  ],
+  "encontro-da-renap-no-rio-de-janeiro": [
+   "educacao"
+  ],
+  "manifesto-contra-criminalizacao-da-luta-contra-o-uso": [
+   "socioambiental",
+   "criminalizacao",
+   "saude"
+  ],
+  "direito-achado-na-beira-dos-rios-tapajos-e-amazonas": [],
+  "carta-de-protesto-da-prisao-do-advogado-rodrigo-maia": [
+   "socioambiental",
+   "racismo",
+   "criminalizacao"
+  ],
+  "homenagens-ao-advogado-eugenio-lyra": [
+   "terra",
+   "trabalho"
+  ],
+  "vila-do-chocolatao-remocao-e-impactos": [
+   "cidade"
+  ],
+  "delirium": [],
+  "peticao-do-processo-17-022": [],
+  "poemas-em-homenagem-a-eugenio-lyra": [
+   "trabalho",
+   "arte"
+  ],
+  "sem-titulo": [],
+  "senhor-capitao": [],
+  "terra-em-terra": [],
+  "as-ninguens-e-a-prisao-por-nada": [
+   "mulheres",
+   "criminalizacao"
+  ],
+  "hino-da-greve-cifra": [
+   "trabalho"
+  ],
+  "aulaco-popular-em-vigario-geral": [],
+  "assessorando-a-assistencia-juridica-e-possivel": [
+   "assessoria"
+  ],
+  "desdobramentos-da-greve-geral-dos-spfs-decidirao-o-futuro": [
+   "trabalho",
+   "educacao"
+  ],
+  "documentario-nao-quero-falar-de-chacina": [
+   "arte"
+  ],
+  "coluna-direitos-das-marias-iv-encontro-de-mulheres-do-mpa": [
+   "mulheres",
+   "cidade"
+  ],
+  "formatura-da-turma-evandro-lins-e-silva-da-ufg": [
+   "educacao"
+  ],
+  "entrevista-de-jacques-alfonsin-sobre-o-codigo-penal": [],
+  "poema-memorias-do-movimento-sem-terra": [
+   "terra",
+   "arte"
+  ],
+  "para-gostar-de-escrever": [],
+  "nova-secao-biblioteca-roberto-lyra-filho": [
+   "teoria"
+  ],
+  "revista-o-direito-alternativo-lanca-edital": [
+   "assessoria"
+  ],
+  "uma-critica-ao-ensino-juridico-e-os-direitos-dos-quilombolas": [
+   "quilombola",
+   "educacao"
+  ],
+  "biblioteca-ajup-rj": [
+   "mineracao",
+   "assessoria"
+  ],
+  "biblioteca-digital": [
+   "assessoria"
+  ],
+  "biblioteca-roberto-lyra-filho": [
+   "teoria"
+  ],
+  "poesia-critica-do-direito": [
+   "teoria",
+   "arte"
+  ],
+  "referencias": [
+   "socioambiental",
+   "assessoria"
+  ],
+  "nenhuma-mulher-a-menos": [
+   "mulheres"
+  ],
+  "o-golpe-no-paraguai-e-o-manto-juridico": [
+   "ditadura",
+   "saude"
+  ],
+  "mobilizacao-indigena-paralisa-uhe-belo-monte": [
+   "barragens",
+   "indigenas"
+  ],
+  "esculacho-popular-no-rio-de-janeiro": [
+   "ditadura"
+  ],
+  "debate-sobre-a-greve-na-faculdade-de-direito-da-ufpr": [
+   "trabalho"
+  ],
+  "nota-de-apoio-e-preocupacao-diante-da-situacao-do-quilombo": [
+   "barragens",
+   "socioambiental",
+   "indigenas",
+   "quilombola",
+   "racismo"
+  ],
+  "direitos-das-marias-um-giro-por-maio": [
+   "mulheres",
+   "saude",
+   "cidade"
+  ],
+  "direitos-das-marias-entrevista-com-lenir-correia": [
+   "mulheres",
+   "assessoria",
+   "religiao"
+  ],
+  "revista-de-direito-agrario-prorroga-prazo-para-envio-de": [
+   "terra"
+  ],
+  "coluna-direitos-das-marias-o-que-faz-a-mulher-na-educacao": [
+   "mulheres",
+   "educacao"
+  ],
+  "direitos-das-marias-mulher-e-literatura": [
+   "racismo",
+   "mulheres",
+   "arte"
+  ],
+  "seminario-internacional-sobre-modernidade-global-no-rio-de": [],
+  "seminario-de-justica-ambiental-no-ceara": [
+   "socioambiental",
+   "mineracao",
+   "indigenas"
+  ],
+  "nasce-a-coluna-direitos-das-marias": [
+   "mulheres",
+   "arte"
+  ],
+  "cpt-repudia-declaracoes-de-delegada-geral-do-ma": [
+   "indigenas"
+  ],
+  "legislacao-de-excecao-para-megaeventos-sera-tema-de-debate": [],
+  "do-espirito-de-depredacao-a-depredacao-do-espirito": [
+   "terra"
+  ],
+  "defensoria-publica-assessoria-juridica-popular-e-movimentos": [
+   "socioambiental",
+   "racismo",
+   "assessoria"
+  ],
+  "a-promocao-dos-direitos-humanos-no-campo-da-aids": [
+   "assessoria"
+  ],
+  "a-retirada-de-crucifixos-das-salas-dos-tribunais-parece-ter": [],
+  "povos-kayabi-apiaka-e-munduruku-contra-construcao-de": [
+   "barragens",
+   "socioambiental",
+   "indigenas"
+  ],
+  "no-dia-da-mentira-anistiaram-a-verdade-desarquivandobr": [
+   "ditadura"
+  ],
+  "grupo-de-genero-da-ufpr-mobiliza-faculdade-de-direito": [
+   "mulheres",
+   "educacao"
+  ],
+  "juventude-se-levanta-contra-a-tortura-no-brasil": [
+   "ditadura",
+   "arte",
+   "infancia"
+  ],
+  "minicurso-da-critica-ao-direito-no-maranhao": [
+   "educacao"
+  ],
+  "cirandas-construindo-a-praxis-das-ajups-no-ma": [
+   "assessoria"
+  ],
+  "o-circo-e-a-cerca-a-lei-geral-da-copa-e-suas-garantias": [
+   "cidade"
+  ],
+  "acesso-e-saju-debatem-copa-do-mundo": [
+   "terra"
+  ],
+  "stf-concede-habeas-corpus-a-jose-rainha-lider-sem-terra": [
+   "terra"
+  ],
+  "barragens-convencao-169-e-o-sempre-mais-do-mesmo-do-estado": [
+   "barragens",
+   "indigenas"
+  ],
+  "carta-de-mobilizacao-nacional-do-mab": [
+   "barragens",
+   "socioambiental",
+   "assessoria"
+  ],
+  "pedro-martins-sobre-a-reforma-agraria-no-contexto-amazonico": [
+   "terra"
+  ],
+  "relacoes-de-genero-e-assessoria-juridica-popular-um-debate": [
+   "mulheres",
+   "assessoria"
+  ],
+  "o-direito-a-informacao-no-brasil-a-amazonia-enquanto": [],
+  "do-direito-a-insurgencia-ao-direito-insurgente-o-caso-do": [
+   "terra",
+   "trabalho",
+   "assessoria",
+   "teoria"
+  ],
+  "nasce-o-instituto-de-pesquisa-direito-e-movimentos-sociais": [
+   "educacao",
+   "cidade"
+  ],
+  "ii-seminario-direito-pesquisa-e-movimentos-sociais": [],
+  "transparencia-e-democratizacao-do-poder-judiciario-carta": [
+   "socioambiental",
+   "mineracao",
+   "indigenas",
+   "racismo"
+  ],
+  "quem-tensionou-foi-o-governo-resposta-a-elio-gaspari": [
+   "indigenas",
+   "assessoria"
+  ],
+  "iii-congresso-latino-americano-de-direitos-humanos-na-unb": [],
+  "todos-somos-pinheirinho": [],
+  "arrogancia-de-classe": [
+   "socioambiental",
+   "comunicacao"
+  ],
+  "massacre-contra-o-povo-da-ocupacao-pinheirinho-em-sjc": [
+   "moradia"
+  ],
+  "o-brado-retumbante-ou-o-berro-reacionario-qualquer": [
+   "socioambiental",
+   "indigenas"
+  ],
+  "coluna-do-jacques-sobre-a-fome-no-brasil": [
+   "socioambiental",
+   "saude",
+   "alimentacao"
+  ],
+  "mande-artigos-para-a-revista-do-saju-rs": [],
+  "pinheirinho": [],
+  "a-luta-d-s-indignad-s-em-teresina-pelo-direito-a-se-mover": [
+   "socioambiental",
+   "cidade",
+   "assessoria"
+  ],
+  "policia-serve-para-que-vamos-perguntar-a-estudantes-de": [
+   "moradia",
+   "indigenas",
+   "trabalho",
+   "educacao"
+  ],
+  "teresina-indignada-exige-passagem": [
+   "cidade",
+   "arte"
+  ],
+  "presente-de-ano-novo": [
+   "saude"
+  ],
+  "em-2012-mais-de-cem-familias-do-bairro-zachia-continuarao": [
+   "moradia",
+   "agua"
+  ],
+  "pacto-forum-justica-do-rio-de-janeiro": [
+   "socioambiental",
+   "indigenas",
+   "racismo"
+  ],
+  "entrevista-com-thiago-hoshino-do-comite-popular-da-copa": [
+   "socioambiental",
+   "assessoria"
+  ],
+  "porque-ser-feminista": [
+   "mulheres"
+  ],
+  "lei-geral-da-copa-o-povo-diz-nao-nota-publica-dos-comites": [
+   "trabalho"
+  ],
+  "o-povo-ocupa-a-casa-do-povo-noticia-direto-da-alep-ocupada": [
+   "socioambiental"
+  ],
+  "assessoria-juridica-popular-2011": [
+   "cidade",
+   "assessoria",
+   "arte"
+  ],
+  "o-monopolio-da-advocacia": [],
+  "voz": [
+   "cidade"
+  ],
+  "indios-guarani-kaiowa-sao-vitimas-de-massacre-no-ms": [
+   "barragens",
+   "socioambiental",
+   "indigenas",
+   "racismo",
+   "religiao"
+  ],
+  "30-anos-do-gajop": [],
+  "tres-anos-sem-caju-sepe-tiaraju": [
+   "educacao"
+  ],
+  "a-luta-indigena-contra-a-especulacao-imobiliaria-no-df": [
+   "socioambiental",
+   "indigenas"
+  ],
+  "opiniao-invasao-da-reitoria-da-usp-e-reintegracao-de-posse": [
+   "moradia",
+   "comunicacao"
+  ],
+  "artigo-sobre-direitos-humanos": [
+   "comunicacao"
+  ],
+  "nova-pagina-poesia-critica-do-direito": [
+   "educacao",
+   "teoria",
+   "arte"
+  ],
+  "mulheres-encarceradas-pelo-trafico-a-modernizacao-do-arcaico": [
+   "mulheres",
+   "criminalizacao"
+  ],
+  "o-santuario-dos-pajes-nao-se-move": [
+   "socioambiental",
+   "indigenas",
+   "cidade",
+   "arte"
+  ],
+  "a-universidade-de-brasilia-educadora-em-direitos-humanos": [
+   "educacao"
+  ],
+  "classe-trabalhadora-e-ajup-sajup-10-anos": [
+   "trabalho",
+   "assessoria"
+  ],
+  "economia-pela-metade": [],
+  "noticias-da-comunidade-dandara": [
+   "moradia"
+  ],
+  "tribunal-popular-da-terra-na-paraiba": [
+   "barragens"
+  ],
+  "congresso-internacional-de-direito-alternativo": [],
+  "lancamento-do-forum-justica": [],
+  "carta-aberta-a-renaju": [],
+  "colunistas": [
+   "socioambiental",
+   "indigenas",
+   "educacao"
+  ],
+  "luiz-otavio-ribas": [],
+  "mapeamento": [
+   "indigenas"
+  ],
+  "sajup-parana-faz-dez-anos": [],
+  "dialogos-latino-americanos-em-curitiba": [],
+  "andarilhando-com-paulo-freire": [],
+  "ditadura-democracia-e-resistencia-para-quem-serie-de": [
+   "ditadura"
+  ],
+  "resultados-do-encontro-nacional-da-renap-em-fortaleza": [
+   "barragens",
+   "socioambiental",
+   "indigenas"
+  ],
+  "traducao-de-el-arbor-el-rio-el-hombre-de-atahualpa-yupanqui": [
+   "arte"
+  ],
+  "nova-secao-biblioteca-ajup-rj": [
+   "assessoria"
+  ],
+  "noticias-do-encontro-da-renap": [],
+  "alienacao": [],
+  "latinoamerica-calle-13": [],
+  "programacao-do-encontro-nacional-da-renap": [
+   "barragens",
+   "socioambiental",
+   "indigenas"
+  ],
+  "dandara": [],
+  "critica-da-ecologia-politica": [
+   "socioambiental"
+  ],
+  "o-direito-alternativo-revista-do-nucleo-de-estudos-de": [],
+  "laboratorio-de-cartografias-insurgentes": [],
+  "michael-lowy-na-ufpr": [
+   "educacao",
+   "teoria"
+  ],
+  "luta-pelos-direitos-do-trabalho-e-hoje-vital-diante-da": [
+   "barragens",
+   "socioambiental",
+   "mineracao",
+   "indigenas",
+   "racismo",
+   "trabalho",
+   "saude"
+  ],
+  "campanha-outro-s-11-9-s": [
+   "comunicacao"
+  ],
+  "encontro-da-renap-em-fortaleza": [],
+  "fe": [],
+  "atentado-contra-militante-do-mtst-no-distrito-federal": [],
+  "dois-anos-do-blogue-da-assessoria-juridica-popular": [
+   "socioambiental",
+   "assessoria"
+  ],
+  "carta-aberta-aos-estudantes-e-academicos-do-brasil": [
+   "trabalho",
+   "educacao"
+  ],
+  "a-revolucao-brasileira-cosmogonia-de-nossa-acao-cultural": [
+   "mineracao",
+   "indigenas",
+   "comunicacao",
+   "arte"
+  ],
+  "revista-direito-sensibilidade": [
+   "educacao"
+  ],
+  "o-toque-de-classe-nas-mobilizacoes-em-teresina": [
+   "trabalho",
+   "educacao"
+  ],
+  "carta-dos-enamorados-do-neda": [],
+  "quando-os-lirios-nao-nascem-da-lei-nascem-de-onde": [
+   "barragens"
+  ],
+  "o-movimento-docente-das-universidades-federais-indignacao": [
+   "educacao"
+  ],
+  "pachucanis-para-alem-de-o-etnocentrismo": [
+   "teoria"
+  ],
+  "seminario-sobre-constitucionalismo-na-america-latina": [
+   "indigenas",
+   "teoria"
+  ],
+  "10-anos-do-sajup-pr": [
+   "assessoria"
+  ],
+  "domingos-savio-dresch-da-silveira-e-o-novo-ouvidor-nacional": [],
+  "oficina-em-blumenau-com-movimento-estudantil-de-luta": [
+   "educacao"
+  ],
+  "prisao-de-advogado-do-movimento-popular-em-despejo-e-objeto": [
+   "terra",
+   "moradia",
+   "criminalizacao",
+   "cidade",
+   "assessoria"
+  ],
+  "feijao-arroz-e-veneno": [
+   "socioambiental",
+   "comunicacao"
+  ],
+  "serie-10-indicacoes-dez-livros-para-fazer-assessoria": [
+   "assessoria"
+  ],
+  "hino-do-movimento-dos-trabalhadores-rurais-sem-terra-cifra": [
+   "terra",
+   "trabalho",
+   "infancia"
+  ],
+  "pierre-seghers-o-mais-celebre-editor-de-poesia-do-seculo-xx": [
+   "cidade",
+   "arte"
+  ],
+  "ruidos-do-porao-o-jornal-do-saju-ba": [
+   "educacao",
+   "comunicacao"
+  ],
+  "justica-uma-cancao-de-amor-e-liberdade": [
+   "indigenas"
+  ],
+  "50-anos-da-campanha-da-legalidade-para-uma-reflexao-sobre-a": [],
+  "editorial-do-brasil-de-fato-denuncia-ataque-do-poder": [
+   "educacao",
+   "comunicacao"
+  ],
+  "o-tripe-manco": [
+   "educacao"
+  ],
+  "para-um-historico-da-advocacia-popular-no-brasil": [
+   "indigenas",
+   "assessoria"
+  ],
+  "a-filosofia-na-america-latina-encontro-em-sao-bernardo-do": [
+   "educacao"
+  ],
+  "da-tensao-ao-tesao-des-ordem-e-processo-no-surgimento-do": [],
+  "desapropriacao-para-instalacao-do-museu-historico-das-lutas": [
+   "terra"
+  ],
+  "juri-anghinoni-decisao-inedita-garante-justica-no-caso-de": [],
+  "longe-dos-olhos-do-direito-de-alma-citadina-um-dialogo": [],
+  "rosas-vermelhas-a-intensidade-de-lyra-filho": [
+   "teoria"
+  ],
+  "companheiros-haitianos-presente-relato-de-um-espaco-de": [
+   "socioambiental",
+   "educacao",
+   "migracao",
+   "alimentacao"
+  ],
+  "luta-pela-moradia-no-distrito-federal": [
+   "terra",
+   "moradia"
+  ],
+  "mostra-o-que-ninguem-ve": [
+   "arte",
+   "infancia"
+  ],
+  "o-direito-achado-na-rua-tambem-se-acha-na-teve-2-a-turma": [
+   "terra",
+   "teoria",
+   "arte",
+   "alimentacao"
+  ],
+  "lirica-de-um-filho-da-critica": [],
+  "ah-desculpe-achavamos-que-fossem-gays-ou-mendigos": [
+   "infancia"
+  ],
+  "congresso-de-pensamento-juridico-alternativo-na-argentina": [
+   "educacao",
+   "saude"
+  ],
+  "mais-uma-defensora-de-direitos-humanos-presa-caso-colombiano": [
+   "criminalizacao"
+  ],
+  "lyra-filho-e-o-feminino": [
+   "teoria"
+  ],
+  "neda-organiza-simposio-de-direito-alternativo-em-franca": [
+   "teoria"
+  ],
+  "encontro-de-culturas-da-chapada-dos-viadeiros-homenageia": [
+   "socioambiental",
+   "indigenas",
+   "arte"
+  ],
+  "filme-patagonia-rebelde": [],
+  "quando-a-insonia-nos-obriga-a-gritar": [
+   "socioambiental",
+   "saude"
+  ],
+  "juri-de-assassinato-de-sem-terra-no-parana": [
+   "terra"
+  ],
+  "texto-sobre-sanchez-vazquez-no-brasil-de-fato": [
+   "saude",
+   "cidade",
+   "comunicacao"
+  ],
+  "revista-discenso-iniciativa-da-estudantada-da-ufsc": [
+   "educacao"
+  ],
+  "defensoria-publica-em-sc": [
+   "assessoria"
+  ],
+  "o-que-esta-por-tras-da-criminalizacao-do-infanticidio": [
+   "indigenas",
+   "criminalizacao"
+  ],
+  "poetica-feminista": [
+   "mulheres"
+  ],
+  "sanchez-vazquez-renovacao-marxista-utopia-e-estetica": [
+   "teoria"
+  ],
+  "noticias-do-front-ou-da-fronteira": [
+   "barragens",
+   "cidade",
+   "migracao"
+  ],
+  "por-um-corredor-das-ideias-marginais-em-sao-leopoldo": [
+   "socioambiental",
+   "indigenas"
+  ],
+  "nasce-a-rebela": [],
+  "saju-uma-historia-de-extensao": [],
+  "sociedade-barracao-usucapindo-a-cooperacao": [
+   "moradia"
+  ],
+  "ajp-e-o-resgate-de-nossa-latinidade": [],
+  "8-anos-de-luta-pela-estatizacao-da-fabrica-ocupada-flasko": [
+   "trabalho"
+  ],
+  "a-vila-chocolatao-e-o-exemplo-negativo": [
+   "assessoria"
+  ],
+  "fica-graciosa-campanha-lancada-com-sucesso-em-pinhais": [],
+  "uma-fala-epistemologicamente-feminista": [
+   "mulheres",
+   "educacao"
+  ],
+  "jornalista-maldito-o-olhar-agucado-de-lucio-flavio-pinto": [
+   "barragens",
+   "mineracao",
+   "comunicacao"
+  ],
+  "aborto-do-pluralismo-juridico-a-efetivacao-do-direito-a": [
+   "saude",
+   "teoria"
+  ],
+  "a-grecia-e-a-democracia": [],
+  "mais-um-advogado-popular-preso-quem-e-roberto-rainha": [
+   "socioambiental",
+   "racismo",
+   "assessoria"
+  ],
+  "os-grundrisse-de-marx-em-portugues-longa-espera-de-70-anos": [
+   "barragens",
+   "teoria"
+  ],
+  "ajp-com-vladimir-luz-em-floripa": [
+   "educacao"
+  ],
+  "o-hiato-da-captura-criptica": [],
+  "os-direitos-do-orvalho-ou-da-nossa-obsessao-pelo-dialogo": [],
+  "atuacao-do-najup-negro-cosme-na-luta-por-moradia": [
+   "moradia"
+  ],
+  "justica-poetica": [
+   "teoria"
+  ],
+  "dois-patronos-da-critica-juridica-brasileira-homenageados": [
+   "teoria"
+  ],
+  "mariana-criola-realiza-evento-do-rio": [],
+  "em-londrina-jornada-de-agroecologia-e-lancamento-de-livro": [
+   "terra",
+   "socioambiental",
+   "alimentacao"
+  ],
+  "a-desnecessidade-historica-do-direito": [
+   "indigenas"
+  ],
+  "carta-aberta-do-movimento-foramicarla-reflexoes-sobre-as": [],
+  "mostra-o-que-ninguem-ve-2": [
+   "terra",
+   "barragens",
+   "trabalho"
+  ],
+  "poesitando-a-amazonia": [
+   "indigenas"
+  ],
+  "a-luta-dos-moradores-do-jardim-graciosa": [
+   "moradia",
+   "socioambiental",
+   "cidade"
+  ],
+  "as-turmas-especiais-de-direito-retomando-um-depoimento-a": [
+   "terra",
+   "arte",
+   "alimentacao"
+  ],
+  "revista-redhes-novo-numero": [
+   "teoria"
+  ],
+  "carta-aberta-de-conselheiros-tutelares-e-de-direito-da": [
+   "barragens",
+   "indigenas",
+   "saude",
+   "arte",
+   "infancia"
+  ],
+  "convocatoria-cubana-vii-encontro-internacional-presenca-de": [
+   "saude"
+  ],
+  "gramsci-as-periferias-e-os-subalternos-em-marilia-sp": [
+   "cidade"
+  ],
+  "levante-sua-voz": [],
+  "por-um-projeto-de-comunicacao-da-ajp-contatos-imediatos": [
+   "socioambiental",
+   "comunicacao",
+   "assessoria"
+  ],
+  "fabiana-cristina-severi-e-a-luta-pela-terra": [
+   "terra"
+  ],
+  "mostra-o-que-ninguem-ve-3": [],
+  "i-seminario-de-direitos-humanos-da-fened-direito-e-movimento": [],
+  "praticar-refletir-e-registrar": [
+   "assessoria"
+  ],
+  "coraje-e-musica": [
+   "educacao",
+   "assessoria",
+   "arte"
+  ],
+  "que-vergonha": [
+   "assessoria"
+  ],
+  "mais-um-assessor-juridico-popular-perseguido-homenageado": [],
+  "repatriacao-do-acervo-do-brasil-nunca-mais": [
+   "ditadura",
+   "educacao",
+   "arte"
+  ],
+  "os-direitos-humanos-e-sua-incompreensao": [],
+  "registro-historico-e-ajp-um-video-de-coraje": [
+   "assessoria"
+  ],
+  "mostra-o-que-ninguem-ve-4": [
+   "educacao"
+  ],
+  "direito-achado-na-rua": [
+   "educacao",
+   "teoria"
+  ],
+  "vinte-anos-de-direito-alternativo-balanco-e-perspectivas": [],
+  "estudos-em-homenagem-a-roberto-lyra-filho-em-franca": [
+   "teoria"
+  ],
+  "nossas-lutas-e-conquistas": [
+   "terra"
+  ],
+  "a-vida-nua-concreta-e-a-autoconsciencia-latino-americana": [
+   "indigenas",
+   "arte"
+  ],
+  "o-direito-achado-na-rua-tambem-se-acha-na-teve": [
+   "assessoria",
+   "teoria"
+  ],
+  "a-margem-protagonismo-estudantil-e-comunicacao": [
+   "educacao",
+   "comunicacao"
+  ],
+  "mostra-o-que-ninguem-ve-5": [],
+  "mostra-o-que-ninguem-ve-6": [
+   "socioambiental"
+  ],
+  "o-codigo-florestal-a-propriedade-privada-e-o-futuro": [
+   "socioambiental"
+  ],
+  "ajup-movimento-estudantil-ou-servico-legal": [
+   "indigenas",
+   "educacao",
+   "assessoria"
+  ],
+  "encontro-de-grupos-de-estudo-e-pesquisa-marxistas-iii": [
+   "educacao",
+   "teoria"
+  ],
+  "assessoria-juridica-um-passo-na-formacao-dos-estudantes-de": [
+   "terra",
+   "educacao",
+   "assessoria"
+  ],
+  "assessoria-popular-nordestina-a-dignitatis": [
+   "comunicacao",
+   "assessoria"
+  ],
+  "marx-e-o-complexo-de-dom-casmurro-dos-marxistas-mais-sobre": [
+   "teoria"
+  ],
+  "espanha-se-levanta": [],
+  "antropologia-e-direito-ii-enadir-2011": [
+   "educacao"
+  ],
+  "mostra-o-que-ninguem-ve-7": [
+   "comunicacao"
+  ],
+  "estreia-da-coluna-do-nep-unb": [
+   "indigenas",
+   "educacao"
+  ],
+  "i-seminario-nacional-de-direitos-humanos-da-fened-direito": [
+   "barragens",
+   "socioambiental",
+   "racismo"
+  ],
+  "os-quilombolas-e-o-estado-video-reportagem-sobre-o-quilombo": [
+   "quilombola"
+  ],
+  "irregularidades-seguem-acontecendo-na-vila-chocolatao-em": [],
+  "o-canto-que-e-solucar-de-dor-a-subversao-epistemologica-de": [
+   "mineracao",
+   "indigenas"
+  ],
+  "documentario-o-cinema-libertario": [
+   "arte"
+  ],
+  "povo-grego-volta-as-ruas-contra-medidas-do-governo": [],
+  "mostra-o-que-ninguem-ve-complexo-universo-paralelo": [
+   "moradia"
+  ],
+  "experiencias-de-assessoria-juridica-popular-e-o-direito": [
+   "assessoria",
+   "teoria"
+  ],
+  "noticias-do-front-ou-da-fronteira-2": [
+   "barragens",
+   "socioambiental",
+   "indigenas",
+   "migracao"
+  ],
+  "criminologia-e-direitos-humanos-em-debate-na-ufpe": [
+   "assessoria"
+  ],
+  "a-10a-jornada-de-agroecologia-a-soberania-alimentar-e-a": [
+   "socioambiental",
+   "alimentacao"
+  ],
+  "organizacoes-de-esquerda-debatem-sobre-oriente-medio-e": [
+   "comunicacao"
+  ],
+  "poesitando-a-diversidade-sexual": [
+   "lgbt",
+   "arte"
+  ],
+  "maio-mes-do-trabalho": [],
+  "da-insurgencia": [
+   "cidade"
+  ],
+  "negros-e-indios-na-invencao-do-brasil": [
+   "indigenas"
+  ],
+  "os-quilombolas-e-o-estado-uso-alternativo-do-ministerio": [
+   "indigenas",
+   "quilombola",
+   "racismo"
+  ],
+  "debatendo-a-educacao-juridica-na-ufersa": [
+   "educacao"
+  ],
+  "direito-para-que-m-discute-a-fabrica-ocupada-flasko": [],
+  "mostra-o-que-ninguem-ve-o-alimento-e-importante": [
+   "socioambiental",
+   "alimentacao"
+  ],
+  "relato-da-ajp-sobre-o-i-seminario-de-direito-pesquisa-e": [],
+  "acoes-afirmativas-e-eu-com-isso": [
+   "indigenas",
+   "educacao"
+  ],
+  "comentarios-sobre-a-luta-pela-terra-por-baldez": [
+   "terra",
+   "racismo"
+  ],
+  "lembrando-quatro-advogados-populares-assassinados-simbolos": [
+   "mineracao",
+   "assessoria"
+  ],
+  "com-a-paz-dos-ovos-de-pascoa": [],
+  "mostra-o-que-ninguem-ve-obsolescencia-programada": [
+   "arte"
+  ],
+  "cineclube-ajp-narradores-de-jave": [
+   "indigenas"
+  ],
+  "preparativos-para-o-xiii-erenaju-em-eldorado-do-sul": [
+   "educacao",
+   "assessoria"
+  ],
+  "mostra-o-que-ninguem-ve-o-dia-que-durou-21-anos": [
+   "arte"
+  ],
+  "pesquisa-em-direito-com-movimentos-sociais-em-foco-na-usp": [],
+  "a-guerrilha-do-caparao-um-matematico-um-jurista-e-muitos": [
+   "ditadura"
+  ],
+  "america-latina-experiencias-de-um-continente-vi-encontro": [
+   "socioambiental",
+   "educacao"
+  ],
+  "ajp-e-etnodesenvolvimento": [
+   "barragens",
+   "socioambiental",
+   "indigenas",
+   "saude",
+   "assessoria"
+  ],
+  "dialogo-de-professores-de-lugar-nenhum": [],
+  "procura-se-e-o-povo-brasileiro-pergunta-quem-torturou-quem": [
+   "ditadura",
+   "educacao"
+  ],
+  "direito-e-antropologia-iii-seminario-indigena-historia-e": [
+   "socioambiental",
+   "indigenas"
+  ],
+  "sobre-o-bairro-23-de-janeiro": [
+   "arte"
+  ],
+  "a-assessoria-juridica-popular-no-1o-encontro-estadual-dos": [
+   "assessoria"
+  ],
+  "mostra-o-que-ninguem-ve-lixo-extraordinario": [
+   "arte"
+  ],
+  "sao-sangue-sao-lagrimas": [],
+  "parceria-do-blogue-com-a-terra-de-direitos": [
+   "assessoria"
+  ],
+  "movimentos-sociais-em-prol-do-efta-novo-ato": [
+   "socioambiental",
+   "assessoria"
+  ],
+  "contra-o-legado-do-ministerio-do-silencio-a-longa-marcha-de": [
+   "ditadura"
+  ],
+  "muca-denuncia-campanha-de-desarticulacao-do-nut-defensoria": [
+   "moradia",
+   "assessoria"
+  ],
+  "mostra-o-que-ninguem-ve-difamacao": [
+   "racismo",
+   "arte"
+  ],
+  "versos-d-arak": [
+   "socioambiental",
+   "mineracao",
+   "cidade"
+  ],
+  "contribua-para-o-mapeamento-das-assessorias": [],
+  "justica-e-politica-capturadas-pelo-direito-um-rapto-moderno": [],
+  "stf-e-a-lei-ficha-limpa-novas-contradicoes-judiciais": [],
+  "campo-minado-questao-para-debate": [
+   "educacao",
+   "cidade"
+  ],
+  "injustica-de-transicao-na-unb": [],
+  "vive-la-commune-140-anos-da-comuna-de-paris": [
+   "saude"
+  ],
+  "a-cara-da-mentira-declaracao-da-rede-popular-catarinense-de": [
+   "comunicacao"
+  ],
+  "roteiro-de-teatro-forum-discurso-da-competencia": [
+   "educacao",
+   "arte"
+  ],
+  "a-divisao-social-do-trabalho-intelectual-perplexidades": [],
+  "assessoria-juridica-popular-universitaria-na-ufsc": [
+   "assessoria"
+  ],
+  "novos-apoios-ao-escritorio-frei-tito": [
+   "socioambiental",
+   "assessoria"
+  ],
+  "para-uma-economia-politica-das-carreiras-juridicas": [],
+  "defensoria-ja-gralha-povo-paranaense-gralha": [
+   "indigenas",
+   "racismo",
+   "assessoria"
+  ],
+  "nova-tentativa-de-criminalizacao-lider-do-movimento-de": [
+   "moradia",
+   "criminalizacao"
+  ],
+  "papo-de-cinema": [
+   "educacao",
+   "assessoria",
+   "arte"
+  ],
+  "seminario-memorias-em-movimento-juventude-cultura-e-politica": [
+   "arte",
+   "infancia"
+  ],
+  "thomaz-miguel-pressburger-presente": [
+   "assessoria",
+   "teoria"
+  ],
+  "mais-sobre-o-escritorio-frei-tito-movimentos-sociais-lancam": [
+   "socioambiental",
+   "indigenas",
+   "racismo",
+   "assessoria"
+  ],
+  "e-todo-pranto-forma-a-imagem-do-homem-rapidas-notas-sobre": [
+   "barragens",
+   "saude"
+  ],
+  "noticias-do-front-ou-da-fronteira-3": [
+   "barragens",
+   "socioambiental",
+   "indigenas",
+   "migracao"
+  ],
+  "jesus-antonio-de-la-torre-rangel-e-a-analogia-do-direito": [
+   "indigenas",
+   "teoria"
+  ],
+  "odio-virtual": [
+   "educacao"
+  ],
+  "carta-de-divulgacao-do-nascimento-de-nova-ajup": [
+   "indigenas",
+   "racismo",
+   "assessoria"
+  ],
+  "dizer-que-nao": [],
+  "a-religiosidade-e-a-assessoria-popular": [],
+  "reflexoes-a-partir-da-leitura-de-balaios-e-bem-te-vis-a": [],
+  "saindo-definitivamente-de-cima-de-muro": [
+   "assessoria"
+  ],
+  "as-mulheres-sua-resistencia-e-a-totalidade-ou-quando-as": [
+   "mulheres"
+  ],
+  "ricardo-prestes-pazello-e-o-poder-dual-do-pluralismo": [
+   "teoria"
+  ],
+  "08-de-marco-dia-de-luta-das-mulheres-estudantes": [
+   "mulheres",
+   "educacao"
+  ],
+  "denuncia-exoneracao-de-advogados-e-estagiarios-do": [
+   "barragens",
+   "assessoria"
+  ],
+  "calourada-do-saju-sp-e-extensao": [
+   "educacao"
+  ],
+  "ocupacao-28-de-maio-e-a-assessoria-juridica": [
+   "assessoria"
+  ],
+  "denuncia-familias-sem-teto-completam-10-dias-morando-na": [
+   "moradia",
+   "socioambiental",
+   "cidade"
+  ],
+  "nota-de-falecimento-de-sebastiao-bezerra": [],
+  "rui-mauro-marini-a-teoria-marxista-da-dependencia-e-a": [
+   "teoria"
+  ],
+  "amanda-alves-de-souza-e-a-praxis-extensionista": [
+   "educacao"
+  ],
+  "negro-coracao-de-alegre-correa-e-raul-boeira": [
+   "arte"
+  ],
+  "a-revolucao-do-jasmim-e-a-praca-libertacao-o-estado-de": [],
+  "livro-justica-e-direitos-humanos-sobre-experiencias-de": [
+   "socioambiental",
+   "saude",
+   "assessoria"
+  ],
+  "as-veias-abertas-da-amazonia-uma-contribuicao-ao-debate": [
+   "socioambiental",
+   "mineracao",
+   "indigenas"
+  ],
+  "ano-recomeca-com-nova-linguagem": [
+   "indigenas",
+   "comunicacao"
+  ],
+  "a-questao-agraria-na-america-latina-questionamentos-iniciais": [
+   "terra"
+  ],
+  "luiz-otavio-ribas-e-a-advocacia-popular-no-rio-e-porto": [
+   "assessoria",
+   "teoria"
+  ],
+  "miguel-lanzellotti-baldez-e-a-presentacao": [
+   "terra",
+   "indigenas"
+  ],
+  "uma-historia-de-domingos-um-naco-de-historia-do-direito-no": [
+   "indigenas"
+  ],
+  "a-classe-que-vive-do-trabalho-e-o-que-a-ajp-tem-a-ver-com": [],
+  "luiz-otavio-ribas-e-a-assessoria-estudantil-no-brasil": [
+   "educacao",
+   "assessoria"
+  ],
+  "novidades-sobre-a-biblioteca-digital-da-ajp": [
+   "assessoria"
+  ],
+  "amilcar-cabral-as-formas-da-resistencia-e-o-suicidio-de": [],
+  "carla-miranda-e-a-praxis-da-assessoria-juridica": [
+   "educacao",
+   "assessoria"
+  ],
+  "um-pouco-de-humor-direitos-do-cidadao": [],
+  "a-comunicacao-e-o-apoio-popular": [
+   "comunicacao"
+  ],
+  "a-repercussao-de-uma-vitoria-no-judiciario-o-caso-dos": [
+   "terra",
+   "arte"
+  ],
+  "sobre-a-tragedia-no-rio": [],
+  "algumas-linhas-sobre-assessoria-juridica-popular-e": [
+   "assessoria"
+  ],
+  "a-traducao-na-assessoria-juridica-popular": [
+   "assessoria"
+  ],
+  "metodologia-e-organizacao-interna-das-ajups-alguns": [
+   "educacao"
+  ],
+  "provocacao-de-50-anos-atras-o-que-a-universidade-cria-e-o": [
+   "socioambiental",
+   "educacao"
+  ],
+  "manifesto-do-conselho-popular-contra-ditadura-aos-pobres": [
+   "moradia",
+   "ditadura",
+   "cidade",
+   "religiao"
+  ],
+  "conscientizacao-de-direitos-pequena-tese": [],
+  "por-uma-nova-articulacao-da-assessoria-juridica-popular": [
+   "assessoria"
+  ],
+  "resenha-do-livro-de-alberto-kopittke-sobre-a-renap": [],
+  "o-giro-descolonial-e-o-direito-os-tres-cortes-estruturais": [
+   "racismo"
+  ],
+  "pesquisa-sobre-a-organizacao-politica-dos-xokleng": [
+   "barragens",
+   "indigenas"
+  ],
+  "carta-do-ano-que-nao-terminou": [
+   "indigenas"
+  ],
+  "morreu-lia-pires-e-com-ele-a-advocacia": [],
+  "sobre-mestres-e-professores-lembrando-warat": [],
+  "oracao-ignominiosa-de-uma-habitante-da-escuridao": [],
+  "o-que-a-assessoria-juridica-popular-tem-a-dizer-sobre-o": [
+   "assessoria"
+  ],
+  "o-teatro-e-o-ensino-do-direito-3": [
+   "arte"
+  ],
+  "uma-contribuicao-de-miguel-baldez": [],
+  "consideracoes-sobre-o-popular-direito-e-cultura": [
+   "arte"
+  ],
+  "com-tristeza-luis-adeus": [
+   "saude"
+  ],
+  "encontro-das-assessorias-populares-do-rs": [
+   "socioambiental",
+   "alimentacao"
+  ],
+  "ludovico-silva-e-a-critica-a-naturalizacao-metodica": [],
+  "pode-a-universidade-nao-ser-emancipatoria": [
+   "educacao"
+  ],
+  "poesitando-a-guerra": [
+   "arte"
+  ],
+  "novidades-da-semana-para-ler-e-comemorar": [
+   "comunicacao"
+  ],
+  "a-formacao-de-uma-casta": [],
+  "universidade-popular-na-america-latina-3": [
+   "indigenas",
+   "educacao"
+  ],
+  "livro-sobre-advocacia-popular-e-lyra-filho": [
+   "assessoria",
+   "teoria"
+  ],
+  "o-outro-lado-dos-direitos-humanos-povos-indigenas-e": [
+   "indigenas",
+   "infancia"
+  ],
+  "violencia-no-rio-estado-e-constitucionalismo-de-fachada": [],
+  "defenda-a-defensoria-publica-para-banir-um-direito-sonegado": [
+   "assessoria"
+  ],
+  "universidade-popular-na-america-latina-2": [
+   "educacao"
+  ],
+  "poesia-sobre-absurdos-na-forma-da-lei": [
+   "comunicacao",
+   "arte"
+  ],
+  "formacao-em-direitos-humanos-com-movimentos-sociais-limites": [
+   "indigenas"
+  ],
+  "o-genero-e-o-direito-a-genera-e-a-direita": [
+   "mulheres"
+  ],
+  "chao-de-fabrica-e-doutores-da-serie-memorias": [],
+  "universidade-popular-na-america-latina-1": [
+   "indigenas",
+   "educacao"
+  ],
+  "i-encontro-paraense-de-assessoria-juridica-universitaria": [
+   "assessoria"
+  ],
+  "la-grieta-assessoria-juridica-popular-na-argentina": [
+   "assessoria"
+  ],
+  "critica-aos-direitos-humanos-e-movimentos-sociais-2": [
+   "barragens"
+  ],
+  "coluna-de-jacques-alfonsin": [
+   "moradia",
+   "trabalho"
+  ],
+  "a-hora-e-a-vez-da-autogestao": [
+   "socioambiental"
+  ],
+  "ha-um-ano-em-teresina": [],
+  "relatos-de-um-jovem-professor-1": [
+   "socioambiental",
+   "mineracao"
+  ],
+  "a-internacional-e-o-direito-notas-sobre-a-ludicidade": [
+   "indigenas",
+   "cidade"
+  ],
+  "cinema-e-luta-no-campo": [
+   "terra",
+   "arte"
+  ],
+  "direito-e-ditadura-militar-no-brasil": [
+   "ditadura"
+  ],
+  "marx-e-o-nao-direito-direito-e-marxismo": [
+   "teoria",
+   "migracao"
+  ],
+  "coluna-prestes-a-coluna-de-domingo": [
+   "assessoria"
+  ],
+  "relato-do-acampamento-do-sajup-pr-em-agosto": [
+   "terra",
+   "trabalho",
+   "educacao"
+  ],
+  "pet-direito-ufsc-aborda-o-direito-e-a-ditadura": [
+   "ditadura",
+   "educacao"
+  ],
+  "os-sujeitos-historicos-da-transformacao-organizacao": [
+   "indigenas"
+  ],
+  "critica-aos-direitos-humanos-e-movimentos-sociais": [
+   "indigenas"
+  ],
+  "assessoria-popular-em-ocupacao-urbana-de-passo-fundo": [
+   "moradia",
+   "assessoria"
+  ],
+  "o-dia-9-o-dia-10-o-dia-11-e-o-dia-12": [],
+  "captura-criptica-novo-volume-e-chamada-para-artigos": [],
+  "direito-insurgente-e-pluralismo-juridico": [
+   "teoria"
+  ],
+  "o-golpe-no-equador-e-o-terrivel-inverno-politico-latino": [
+   "mulheres",
+   "criminalizacao"
+  ],
+  "coluna-de-jacques-alfonsin-2": [
+   "migracao"
+  ],
+  "critica-ao-direito-e-movimento-estudantil": [
+   "educacao"
+  ],
+  "campanha-contra-a-nova-criminalizacao-dos-saberes": [
+   "criminalizacao",
+   "saude"
+  ],
+  "duvida-insanavel-como-deve-ser-para-um-ministro-do-stf": [
+   "indigenas",
+   "racismo"
+  ],
+  "poema-sobre-a-insurgencia": [
+   "arte"
+  ],
+  "o-latifundio-matou-mais-um-trabalhador-sem-terra-no-para": [
+   "terra",
+   "trabalho"
+  ],
+  "editorial-de-domingo-e-preciso-parar-para-pensar": [
+   "trabalho",
+   "educacao"
+  ],
+  "o-teatro-e-o-ensino-do-direito-2": [
+   "assessoria",
+   "arte"
+  ],
+  "saju-ce-e-o-plebiscito-popular": [
+   "cidade"
+  ],
+  "o-onze-de-setembro-e-a-abertura-das-grandes-alamedas": [
+   "cidade"
+  ],
+  "recomendacao-de-leituras": [
+   "educacao"
+  ],
+  "vencer-a-barbarie-em-anapu-e-uma-obrigacao-do-estado": [],
+  "o-bandido-que-sabia-latim-tambem-sabia-de-musica": [
+   "arte"
+  ],
+  "autonomia-universitaria-ou-colonialidade-do-saber": [],
+  "sergio-bianchi": [],
+  "analfabetos-fracos-pobres-rudes-e-santos": [
+   "arte"
+  ],
+  "da-rua-para-academia-por-livia-gimenes": [
+   "educacao"
+  ],
+  "assine-a-peticao-em-favor-dos-agricultores-de-imbituba": [],
+  "coluna-de-jacques-alfonsin-3": [],
+  "o-enedex-e-os-desafios-da-extensao-universitaria-do-direito": [
+   "educacao"
+  ],
+  "o-enedex-e-os-desafios-da-extensao-universitaria-do-direit-2": [
+   "educacao"
+  ],
+  "o-devermos-ver-e-a-verdade": [
+   "arte"
+  ],
+  "entrevista-com-o-jacques-alfonsin": [
+   "terra"
+  ],
+  "1-ano-de-comunicacao-sobre-a-luta-popular": [
+   "socioambiental",
+   "indigenas",
+   "comunicacao",
+   "assessoria"
+  ],
+  "cidadania-e-educacao-historica-perspectivas-de-alunos-e": [],
+  "da-utopia-estudantil-a-acao-politica": [
+   "educacao",
+   "assessoria"
+  ],
+  "organizacao-popular-e-resistencia-o-exemplo-de-pinheirinho": [
+   "moradia"
+  ],
+  "i-seminario-internacional-de-educacao-em-direitos-humanos": [
+   "educacao"
+  ],
+  "direito-a-moradia-e-direito-ao-meio-ambiente-ecologicamente": [
+   "moradia",
+   "socioambiental",
+   "racismo",
+   "assessoria"
+  ],
+  "noticias-de-imbituba": [
+   "comunicacao"
+  ],
+  "quem-planta-cultura-colhe-revolucao": [
+   "arte"
+  ],
+  "assentados-de-joia-sao-absolvidos": [
+   "comunicacao"
+  ],
+  "lira-filho-porque-a-critica-juridica-nao-pode-morrer": [],
+  "despejo-em-imbituba-mas-essa-gente-ai-hein-como-e-que-faz": [
+   "moradia",
+   "assessoria"
+  ],
+  "novo-livro-de-direito-urbanistico": [],
+  "o-despertar-da-espera": [
+   "indigenas",
+   "educacao"
+  ],
+  "o-homem-da-casa-de-papelao-direito-da-indiferenca": [
+   "educacao"
+  ],
+  "quem-planta-cultura-colhe-revolucao-2": [
+   "educacao",
+   "arte"
+  ],
+  "estatizacao-e-na-flasko-ninguem-coloca-a-mao-eles-podem": [],
+  "imbituba-urgente": [
+   "moradia"
+  ],
+  "poema-em-homenagem-a-eugenio-lyra": [
+   "cidade",
+   "assessoria",
+   "arte"
+  ],
+  "coluna-do-jacques-o-morro-e-nosso": [
+   "moradia"
+  ],
+  "ato-de-imbituba-as-comunidades-tradicionais-contra-o-capital": [
+   "quilombola"
+  ],
+  "sobre-burocratas-travestidos-de-poetas": [
+   "lgbt",
+   "arte"
+  ],
+  "noticias-do-front-ou-da-fronteira-4": [
+   "barragens",
+   "socioambiental",
+   "indigenas",
+   "ditadura",
+   "migracao"
+  ],
+  "judiciario-decreta-falencia-da-flasko": [
+   "trabalho"
+  ],
+  "niilismo-e-movimento-popular-ou-entre-ceticos-e-cinicos-eu": [
+   "assessoria"
+  ],
+  "imbituba-cronica-de-um-mandado-de-despejo": [
+   "moradia",
+   "socioambiental",
+   "assessoria"
+  ],
+  "helio-bicudo-sobre-o-mst": [
+   "terra"
+  ],
+  "campanha-adote-um-dia-do-mes-seja-colunista": [
+   "assessoria"
+  ],
+  "direito-de-resistencia-e-estado-liberal": [],
+  "a-importancia-do-estudo-do-pluralismo-juridico-justica": [
+   "teoria"
+  ],
+  "mercedes-sosa-e-sebastiao-salgado": [],
+  "sobre-os-crimes-a-subjetividade-e-o-limite": [],
+  "morro-santa-teresa-vitoria-do-povo": [],
+  "flexibilizacao-das-leis-trabalhistas": [
+   "trabalho"
+  ],
+  "o-que-e-a-greve": [
+   "trabalho"
+  ],
+  "o-que-e-o-direito": [],
+  "uma-partida": [
+   "arte"
+  ],
+  "bolivar-echeverria-resistencia-e-critica-na-america-latina": [
+   "teoria"
+  ],
+  "poder-politico-juridico-dual-plural": [],
+  "resenha-do-texto-diante-da-lei-de-franz-kafka": [
+   "educacao"
+  ],
+  "coluna-alfonsin-ficha-limpa": [],
+  "a-licao-de-juruti-velho": [
+   "comunicacao"
+  ],
+  "direitos-fundamentais-e-poesia": [
+   "arte"
+  ],
+  "resenha-do-livro-de-elaine-tavares": [
+   "terra",
+   "trabalho",
+   "comunicacao"
+  ],
+  "campanha-o-morro-e-nosso": [],
+  "reformulacao-do-blogue": [
+   "assessoria"
+  ],
+  "semana-de-direitos-humanos-do-saju-rs": [
+   "assessoria"
+  ],
+  "dissertacao-christianny-diogenes-maia": [
+   "assessoria"
+  ],
+  "eged-2010-sera-em-junho-em-santa-maria": [
+   "educacao"
+  ],
+  "a-anistia-e-a-ajuris": [
+   "ditadura"
+  ],
+  "cidade-segregada-favela-da-rocinha": [
+   "moradia",
+   "cidade",
+   "assessoria"
+  ],
+  "saga-das-contradicoes-latino-americanas-estado-de-excecao": [],
+  "captura-criptica-chamada-para-artigos": [],
+  "biblioteca-digital-da-filosofia-latino-americana": [],
+  "xii-encontro-da-rede-nacional-de-assessoria-juridica": [
+   "indigenas",
+   "cidade",
+   "assessoria",
+   "religiao"
+  ],
+  "tabula-rasa-revista-de-humanidades": [],
+  "3-anos-de-nepe-14-anos-do-massacre": [
+   "mineracao",
+   "educacao",
+   "cidade"
+  ],
+  "jornalismo-da-maioria-ouro-de-poucos": [
+   "comunicacao"
+  ],
+  "as-ocupacoes-e-o-vermelho-das-coisas": [
+   "mineracao"
+  ],
+  "quem-constroi-a-ponte-nao-conhece-o-lado-de-la": [
+   "educacao",
+   "assessoria"
+  ],
+  "adeus-sete-quedas-adeus-ivo-rodrigues": [
+   "barragens"
+  ],
+  "cultura-negra-historia-e-musica": [
+   "assessoria",
+   "arte"
+  ],
+  "coluna-de-jacques-alfonsin-4": [],
+  "rebeliao-na-comunicacao-mundial": [
+   "comunicacao"
+  ],
+  "participe-do-identidade-mercosul": [
+   "educacao"
+  ],
+  "assista-as-jornadas-bolivarianas-pela-internete": [
+   "comunicacao"
+  ],
+  "manda-pro-pessoal-no-erenaju-teresina": [
+   "assessoria"
+  ],
+  "entre-coroneis-e-pistoleiros-um-ano-sem-manoel-mattos": [
+   "trabalho"
+  ],
+  "o-teatro-e-o-ensino-do-direito-1": [
+   "assessoria",
+   "arte"
+  ],
+  "uno-mas-para-nunca-mas": [
+   "indigenas",
+   "ditadura",
+   "saude"
+  ],
+  "mais-sobre-o-dia-da-mulher-e-o-feminismo": [
+   "mulheres"
+  ],
+  "programa-nacional-de-direitos-humanos": [
+   "socioambiental",
+   "indigenas",
+   "assessoria"
+  ],
+  "coluna-alfonsin-cechin": [],
+  "noticias-do-norte": [
+   "indigenas",
+   "assessoria"
+  ],
+  "um-novo-direito-internacional-desde-a-america-latina": [],
+  "dia-internacional-da-mulher": [
+   "mulheres",
+   "arte"
+  ],
+  "poema-todas-as-mulheres": [
+   "mulheres",
+   "arte"
+  ],
+  "assessoria-juridica-popular-na-vila-do-chocolatao-em-porto": [
+   "assessoria"
+  ],
+  "monologo-do-poeta-do-povo-e-da-mocidade": [
+   "cidade",
+   "arte"
+  ],
+  "novo-prazo-para-revista-da-aatr": [
+   "terra",
+   "trabalho"
+  ],
+  "coluna-da-ana-lia-almeida": [],
+  "participacao-democratica-e-assessoria-estudantil": [
+   "educacao"
+  ],
+  "o-que-os-reacionarios-dizem-das-posturas-criticas-do-direito": [
+   "educacao"
+  ],
+  "80-anos-do-miguel-baldez": [
+   "assessoria"
+  ],
+  "coluna-do-jacques-alfonsin-e-o-cnj": [
+   "terra",
+   "arte",
+   "alimentacao"
+  ],
+  "estatisticas-do-blogue-2": [
+   "indigenas",
+   "assessoria"
+  ],
+  "sobre-a-libertacao-sexual": [
+   "arte"
+  ],
+  "ninguem-havera-de-gritar-pelos-povos-da-amazonia": [
+   "indigenas",
+   "assessoria",
+   "infancia"
+  ],
+  "video-com-palestra-do-enrique-dussel": [
+   "indigenas",
+   "migracao"
+  ],
+  "revolucao-e-direito-mais-contradicoes": [
+   "saude"
+  ],
+  "poema-de-ana-lia-almeida": [
+   "arte",
+   "infancia"
+  ],
+  "elaine-tavares-e-o-desafio-da-comunicacao": [
+   "comunicacao"
+  ],
+  "mande-sua-contribuicao-para-a-revista-da-aatr": [
+   "terra",
+   "trabalho",
+   "comunicacao"
+  ],
+  "noticia-coluna-semanal-jacques-alfonsin": [
+   "assessoria"
+  ],
+  "ajp-ajup-com-povos-indigenas": [
+   "indigenas",
+   "assessoria"
+  ],
+  "companheiro-baldez-presente-2": [
+   "assessoria"
+  ],
+  "e-as-algemas-nos-membros-do-mst": [
+   "terra"
+  ],
+  "mais-sobre-o-advogado-popular": [
+   "assessoria"
+  ],
+  "marcha-do-mst-em-imbituba-sc": [
+   "terra",
+   "criminalizacao"
+  ],
+  "xii-erenaju-reuniao-virtual": [
+   "assessoria"
+  ],
+  "globo-bbb10-e-lgbt-s-o-mito": [
+   "lgbt",
+   "assessoria"
+  ],
+  "campanhas-de-agitacao-com-os-calouros": [
+   "educacao",
+   "arte"
+  ],
+  "circulo-de-cultura-de-paulo-freire": [
+   "arte"
+  ],
+  "poesitando-n-o-direito": [
+   "arte"
+  ],
+  "mais-de-50-entidades-manifestam-apoio-ao-mst-de-santa": [
+   "terra",
+   "barragens",
+   "comunicacao"
+  ],
+  "companheiro-lavratti-presente": [
+   "terra",
+   "barragens",
+   "socioambiental",
+   "criminalizacao"
+  ],
+  "poetizando": [],
+  "resenha-do-artigo-do-vladimir-luz": [],
+  "estatisticas-do-blogue": [
+   "socioambiental",
+   "assessoria"
+  ],
+  "uma-sensacao": [],
+  "a-realidade-brasileira-e-o-forum-social-mundial": [],
+  "rumo-ao-xii-erenaju": [
+   "assessoria"
+  ],
+  "america-latina-dos-abismos": [
+   "indigenas"
+  ],
+  "revista-captura-criptica-nova-edicao": [],
+  "entrevista-leandro-scalabrin-na-caros-amigos": [
+   "assessoria"
+  ],
+  "o-direito-e-as-cadeiras": [
+   "arte"
+  ],
+  "pndh-3-por-que-mudar-da-revista-carta-maior": [],
+  "os-lirios-nao-nascem-das-leis": [
+   "educacao",
+   "cidade",
+   "arte"
+  ],
+  "o-fetiche-da-tv-paradoxos-das-discussoes-sobre-conteudo-e": [],
+  "o-que-o-direito-ensina-errado": [
+   "socioambiental"
+  ],
+  "noticias-da-renaju": [
+   "assessoria"
+  ],
+  "direitos-humanos-sob-conflito": [],
+  "como-formar-uma-ajup": [
+   "indigenas",
+   "assessoria"
+  ],
+  "comunicacao-na-america-latina": [
+   "comunicacao"
+  ],
+  "os-nossos-direitos-humanos-e-os-direitos-humanos-deles": [],
+  "revisao-da-lei-de-anistia": [
+   "ditadura"
+  ],
+  "assessoria-juridica-popular-2": [
+   "moradia",
+   "assessoria"
+  ],
+  "poesitando": [
+   "mineracao",
+   "arte"
+  ],
+  "preparacao-para-o-primeiro-dia": [],
+  "a-contradicao-do-direito": [
+   "teoria"
+  ],
+  "educacao-de-geracao-para-geracao": [
+   "educacao"
+  ],
+  "o-advogado-popular-um-ser-em-extincao": [
+   "educacao",
+   "assessoria"
+  ],
+  "entre-dois-ceus-a-tensao-congenita-ao-juridico": [
+   "saude"
+  ],
+  "novos-textos-na-biblioteca-digital-da-ajp": [
+   "assessoria"
+  ],
+  "artigo-jacques-alfonsin-e-antonio-cechin-6": [
+   "terra"
+  ],
+  "lamentacao-ecologica": [
+   "socioambiental"
+  ],
+  "10-anos-do-cajuina": [
+   "assessoria"
+  ],
+  "retificacao-direito-insurgente-e-pluralismo-juridico": [
+   "teoria"
+  ],
+  "retificacao-revista-captura-criptica": [
+   "assessoria"
+  ],
+  "biblioteca-digital-da-assessoria-juridica-popular": [
+   "assessoria",
+   "teoria"
+  ],
+  "da-forma-exegese-e-desnumeracao": [
+   "arte"
+  ],
+  "noticia-de-jacques-alfonsin-e-antonio-cechin": [
+   "terra"
+  ],
+  "recompensa-do-tedio-utopia": [
+   "arte"
+  ],
+  "a-ultima-de-luiz-carlos-prates-ou-ai-que-saudades-de-luiz": [],
+  "revista-civitas-chamada-de-artigos": [],
+  "o-natal-dos-sem-no-brasil": [],
+  "sitio-da-revista-captura-criptica": [],
+  "assessoria-juridica-popular-3": [
+   "moradia",
+   "cidade",
+   "assessoria"
+  ],
+  "companheiro-baldez-presente": [
+   "indigenas"
+  ],
+  "minicurso-critica-da-critica-critica-no-piaui": [
+   "educacao"
+  ],
+  "universidade-popular": [
+   "educacao"
+  ],
+  "novo-livro-sobre-assessoria-juridica-popular": [
+   "assessoria"
+  ],
+  "e-a-luta-das-mulheres": [
+   "mulheres",
+   "assessoria"
+  ],
+  "artigo-jacques-alfonsin-e-antonio-cechin-5": [],
+  "entrevista-com-jose-pepe-mujica": [],
+  "assessoria-juridica-e-enade": [
+   "educacao",
+   "assessoria"
+  ],
+  "manifesto-em-defesa-do-mst": [
+   "terra",
+   "socioambiental",
+   "criminalizacao"
+  ],
+  "artigo-jacques-alfonsin-e-antonio-cechin-4": [],
+  "contribuicoes-insurgentes-por-um-direito-transformador": [
+   "educacao"
+  ],
+  "falece-herrera-flores": [
+   "educacao",
+   "cidade"
+  ],
+  "ja-faz-tempo-que-escolhi": [
+   "arte"
+  ],
+  "artigo-jacques-alfonsin-e-antonio-cechin-3": [],
+  "artigo-jacques-alfonsin-e-antonio-cechin-2": [],
+  "artigo-jacques-alfonsin-e-antonio-cechin": [
+   "terra"
+  ],
+  "entrevista-massimo-pavarini": [
+   "educacao",
+   "comunicacao"
+  ],
+  "direito-insurgente-e-pluralismo-juridico-2": [
+   "assessoria",
+   "teoria"
+  ],
+  "direito-achado-na-rua-2": [
+   "teoria"
+  ],
+  "poema-realidade-em-cronica": [
+   "cidade",
+   "arte"
+  ],
+  "entrevista-com-flavio-tavares": [
+   "ditadura"
+  ],
+  "auto-retrato": [],
+  "blog-e-site-do-nepe-ufsc": [
+   "educacao"
+  ],
+  "entrevista-com-jacques-alfonsin": [],
+  "livro-vladimir-luz": [
+   "assessoria"
+  ],
+  "o-que-e-assessoria-juridica-popular": [
+   "assessoria"
+  ],
+  "poema-esse-brasileiro-estreia": [
+   "assessoria",
+   "arte"
+  ]
+ }
+}

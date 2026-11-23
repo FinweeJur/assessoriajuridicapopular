@@ -2776,3 +2776,7 @@ body.com-foto::before {
   .faixa-pagina { grid-template-columns: 1fr 1fr; }
   .faixa-pagina figure:last-child { display: none; }
 }
+
+/* Filtros temáticos do acervo (linha própria, abaixo dos tipos) */
+.fita__temas { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--borda); }
+.fita__temas .chip-f { font-size: .78rem; }

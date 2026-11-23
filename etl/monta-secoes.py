@@ -202,7 +202,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
   <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
   <link rel="stylesheet" href="temas/temas.css" />
   <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=126" />
+  <link rel="stylesheet" href="acervo.css?v=127" />
   <link rel="stylesheet" href="reveal.css?v=114" />
   <link rel="stylesheet" href="componentes/radio.css?v=4" />
   <link rel="stylesheet" href="leitura.css?v=1" />
@@ -363,7 +363,7 @@ def pagina(slug, titulo, ativo, lead, foto, itens, extra=""):
 
 <script src="componentes/radio-dados.js?v=1" defer></script>
 <script src="componentes/radio.js?v=4" defer></script>
-<script src="site.js?v=4" defer></script>
+<script src="site.js?v=5" defer></script>
 <script src="reveal.js?v=3" defer></script>
 <button class="ao-topo" type="button" data-topo aria-label="Voltar ao topo">↑</button>
 <script src="casca.js?v=41" defer></script>
