@@ -1,131 +1,299 @@
-"""Página da mística: texto dos movimentos + citação de Ademar Bogo."""
+"""Monta a página da mística com os dois textos integrais, poesia e calendário.
+
+A página funciona como hub de cultura de resistência:
+
+1. card “Mística do dia” (mesmo componente da home);
+2. texto completo da equipe do 3º Acampamento do Levante (2023);
+3. texto completo de Ademar Bogo, “A mística: parte da vida e da luta”;
+4. “Poesia crítica do direito” + todas as poesias do portal;
+5. calendário histórico dos trabalhadores.
+
+O script preserva o topo, o rodapé, o rádio e os scripts da página atual:
+troca apenas o miolo do `<article>` e insere o card inicial. Assim um rebuild
+não perde o que já foi padronizado no restante do site.
+"""
+import html
 import importlib.util
 import io
+import json
 import os
 import re
+import unicodedata
 
-RAIZ = r"X:\DevCoder\assessoriajuridicapopular"
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTES = os.path.join(RAIZ, "fontes-textos")
+POEMAS = os.path.join(RAIZ, "dados", "poemas.json")
+CALENDARIO = os.path.join(RAIZ, "dados", "calendario.json")
+PAGINA = os.path.join(RAIZ, "mistica.html")
 
-spec = importlib.util.spec_from_file_location("ms", os.path.join(RAIZ, "etl", "monta-secoes.py"))
-ms = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(ms)
+DOC_MISTICA = (
+    "https://docs.google.com/document/d/"
+    "1hxF-AgZYoka9yU0PLZ0MDCqWvpGq0UFnthlDXSP1W_w/edit"
+)
+DOC_BOGO = (
+    "https://docs.google.com/document/d/"
+    "1RMnMFcnBsUKNji-1z7j1jH9dNulNUSkG/edit"
+)
+
+MESES = [
+    "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+    "julho", "agosto", "setembro", "outubro", "novembro", "dezembro",
+]
 
 
-def paragrafos(caminho):
+def esc(t):
+    return html.escape(str(t or ""), quote=False)
+
+
+def sem_acento(t):
+    return unicodedata.normalize("NFD", t or "").encode("ascii", "ignore").decode()
+
+
+def blocos(caminho):
     with io.open(caminho, encoding="utf-8") as f:
         texto = f.read().lstrip("\ufeff").replace("\r\n", "\n")
-    blocos = [re.sub(r"[ \t]+", " ", p).strip() for p in re.split(r"\n\s*\n", texto)]
-    blocos = [b for b in blocos if b]
-    if len(blocos) < 3:  # documento exportado com uma linha por parágrafo
-        blocos = [re.sub(r"[ \t]+", " ", p).strip() for p in texto.split("\n")]
-        blocos = [b for b in blocos if b]
-    return blocos
+    partes = [re.sub(r"[ \t]+", " ", p).strip() for p in re.split(r"\n\s*\n", texto)]
+    partes = [p for p in partes if p]
+    if len(partes) < 3:
+        partes = [re.sub(r"[ \t]+", " ", p).strip() for p in texto.split("\n")]
+        partes = [p for p in partes if p]
+    return partes
 
 
-mistica = paragrafos(os.path.join(FONTES, "mistica.txt"))
-citacao = paragrafos(os.path.join(FONTES, "citacao.txt"))
+TITULO_RE = re.compile(r"^(\d+\.\s+)?[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ0-9 ,.ºª\-—:()]{8,90}$")
 
-# Mística: título, crédito, corpo
-titulo = mistica[0].split(" - ")[-1].strip().rstrip(".") if mistica else "Mística"
-credito = next((p for p in mistica if p.lower().startswith("escrito por")), "")
-corpo = [p for p in mistica[1:] if p != credito]
 
-# Citação: as quatro primeiras passagens de Ademar Bogo, sem o cabeçalho
-inicio = next((i for i, p in enumerate(citacao) if "Ademar Bogo" in p), 0)
-trechos = citacao[inicio + 1: inicio + 5]
+def texto_integral(partes):
+    """Parágrafos, subtítulos e listas do texto original, sem reescrever."""
+    saida = []
+    lista = []
 
-DOC_MISTICA = "https://docs.google.com/document/d/1hxF-AgZYoka9yU0PLZ0MDCqWvpGq0UFnthlDXSP1W_w/edit"
-DOC_BOGO = "https://docs.google.com/document/d/1RMnMFcnBsUKNji-1z7j1jH9dNulNUSkG/edit"
+    def fecha_lista():
+        if lista:
+            saida.append("<ul>%s</ul>" % "".join("<li>%s</li>" % x for x in lista))
+            lista.clear()
 
-corpo_html = "\n      ".join("<p>%s</p>" % ms.esc(p) for p in corpo)
-citacao_html = "\n        ".join("<p>%s</p>" % ms.esc(p) for p in trechos)
+    for p in partes:
+        limpo = p.strip()
+        if not limpo or re.fullmatch(r"p[áa]g(ina)?", limpo, re.I):
+            continue
+        linhas = limpo.split("\n")
+        tem_marcador = any(l.strip().startswith(("* ", "- ")) for l in linhas)
+        if tem_marcador:
+            for linha in linhas:
+                linha = linha.strip()
+                if not linha or re.fullmatch(r"p[áa]g(ina)?", linha, re.I):
+                    continue
+                if linha.startswith(("* ", "- ")):
+                    lista.append(esc(linha[2:].strip()))
+                else:
+                    fecha_lista()
+                    saida.append("<p>%s</p>" % esc(linha))
+            continue
+        fecha_lista()
+        if len(limpo) < 95 and TITULO_RE.match(limpo) and not limpo.endswith("."):
+            saida.append("<h3>%s</h3>" % esc(limpo))
+        else:
+            saida.append("<p>%s</p>" % esc(limpo).replace("\n", "<br />"))
+    fecha_lista()
+    return "\n        ".join(saida)
 
-PAGINA = """<!DOCTYPE html>
-<html lang="pt-BR" data-theme="pequi">
-<head>
-  <script data-tema-cedo>try{var t=localStorage.getItem('renap-tema');if(t){document.documentElement.dataset.theme=t;}}catch(e){}</script>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mística: acúmulos, aprendizados, saberes — AJP</title>
-  <meta name="description" content="Texto dos movimentos populares sobre mística, com citação de Ademar Bogo." />
-  <link rel="stylesheet" href="fontes/fontshare.css?v=3" />
-  <link rel="stylesheet" href="temas/temas.css" />
-  <link rel="stylesheet" href="temas/renap.css" />
-  <link rel="stylesheet" href="acervo.css?v=48" />
-  <link rel="stylesheet" href="reveal.css?v=48" />
-  <link rel="stylesheet" href="componentes/radio.css" />
-</head>
-<body>
-<a class="pular" href="#conteudo">Pular para o conteúdo</a>
-@@TOPO@@
 
-<main id="conteudo">
-  <nav class="migalha" aria-label="Você está em">
-    <a href="index.html">Acervo</a> <span aria-hidden="true">/</span>
-    <a href="memoria-e-cultura.html">Memória e cultura</a> <span aria-hidden="true">/</span>
-    <span aria-current="page">Mística</span>
-  </nav>
+def poema_html(texto):
+    linhas = [esc(l) for l in (texto or "").split("\n")]
+    return "<br />".join(linhas)
 
-  <article data-revelar-grupo class="pagina">
+
+def secao_poemas(poemas):
+    publicos = [p for p in poemas if p.get("dominio")]
+    autorizados = [p for p in poemas if not p.get("dominio")]
+
+    def grupo(itens):
+        itens = sorted(itens, key=lambda p: (sem_acento(p.get("autor") or ""),
+                                             sem_acento(p.get("titulo") or "")))
+        partes = []
+        for p in itens:
+            partes.append(
+                '<details class="acordeao acordeao--poema">\n'
+                "  <summary><b>%s</b> — %s</summary>\n"
+                '  <div class="poema"><p>%s</p></div>\n'
+                "</details>" % (
+                    esc(p.get("titulo") or "Sem título"),
+                    esc(p.get("autor") or "Autoria não identificada"),
+                    poema_html(p.get("texto")),
+                )
+            )
+        return "\n".join(partes)
+
+    return """
+    <section class="secao" id="poesia-critica">
+      <div class="secao__cabeca"><h2>Poesia crítica do direito</h2></div>
+      <p>A poesia como parte da mística e da crítica ao direito: versos de
+      advogadas, advogados, estudantes e poetas populares reunidos pelo portal.
+      A coletânea original, com os links para cada poema no blogue, está em
+      <a href="poesia-critica-do-direito.html">Poesia crítica do direito</a>.</p>
+      <p class="hero__acoes"><a class="botao secundario" href="poesia-critica-do-direito.html">Ler a coletânea de poesia crítica</a></p>
+    </section>
+
+    <section class="secao" id="poesias">
+      <div class="secao__cabeca"><h2>Todas as poesias do portal</h2>
+        <p class="secao__nota">%d poemas no Caderno de Poesias e na poesia do blogue.
+        Abra o título para ler o texto integral.</p></div>
+      <h3 class="grupo-titulo">Domínio público (%d)</h3>
+      %s
+      <h3 class="grupo-titulo">Por autorização do responsável pelo site (%d)</h3>
+      %s
+    </section>""" % (
+        len(poemas), len(publicos), grupo(publicos),
+        len(autorizados), grupo(autorizados),
+    )
+
+
+def secao_calendario(eventos):
+    eventos = sorted(eventos, key=lambda e: (e.get("diaMes") or "", e.get("ano") or ""))
+    partes = []
+    for e in eventos:
+        dia = e.get("diaMes") or ""
+        try:
+            d, m = dia.split("-")
+            data = "%s/%s" % (d, m)
+        except Exception:
+            data = dia
+        titulo = re.sub(r"\s+", " ", e.get("titulo") or "").strip()
+        resumo = re.sub(r"\s+", " ", e.get("resumo") or "").strip()
+        autor = re.sub(r"\s+", " ", e.get("autor") or "").strip()
+        partes.append(
+            '<details class="acordeao acordeao--calendario">\n'
+            "  <summary><b>%s</b> · %s — %s</summary>\n"
+            '  <div class="calendario__texto"><p>%s</p>%s%s</div>\n'
+            "</details>" % (
+                esc(data), esc(e.get("ano") or "s.d."),
+                esc(titulo[:150] + ("…" if len(titulo) > 150 else "")),
+                esc(resumo or titulo),
+                ("<p><b>Fonte:</b> %s</p>" % esc(autor)) if autor else "",
+                ('<p class="secao__nota">%s</p>' % esc(titulo)) if resumo and titulo else "",
+            )
+        )
+    return """
+    <section class="secao" id="calendario">
+      <div class="secao__cabeca"><h2>Calendário histórico dos trabalhadores</h2>
+        <p class="secao__nota">%d datas de lutas, greves, massacres e conquistas.
+        Abra uma data para ler o registro.</p></div>
+      %s
+    </section>""" % (len(eventos), "\n".join(partes))
+
+
+def monta_artigo():
+    mistica = blocos(os.path.join(FONTES, "mistica.txt"))
+    bogo = blocos(os.path.join(FONTES, "citacao.txt"))
+    poemas = json.load(io.open(POEMAS, encoding="utf-8"))
+    calendario = json.load(io.open(CALENDARIO, encoding="utf-8"))
+
+    # Títulos e créditos já aparecem no cabeçalho de cada seção.
+    corpo_mistica = mistica[2:] if len(mistica) > 2 else mistica
+    corpo_bogo = bogo[3:] if len(bogo) > 3 else bogo
+
+    artigo = """
+  <article data-revelar-grupo class="pagina" aria-labelledby="titulo">
     <header>
       <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Mística · 2023</p>
-      <h1 id="titulo">Mística: acúmulos, aprendizados, saberes e apontamentos iniciais</h1>
-      <dl class="ficha">
-        <div class="ficha__linha"><dt>Autoria</dt><dd>Militantes dos movimentos populares brasileiros</dd></div>
-        <div class="ficha__linha"><dt>Feito para</dt><dd>3º Acampamento Estadual do Levante Popular da Juventude, UFJF, Juiz de Fora/MG</dd></div>
-        <div class="ficha__linha"><dt>Ano</dt><dd>2023</dd></div>
-        <div class="ficha__linha"><dt>Fonte</dt><dd><a href="@@DOC_MISTICA@@" target="_blank" rel="noopener">documento original</a></dd></div>
-      </dl>
+      <h1 id="titulo">Mística: o que sustenta a luta</h1>
+      <p class="lead">Os dois textos integrais que fundamentam a mística nos
+      movimentos populares, mais a poesia do portal e o calendário histórico
+      dos trabalhadores.</p>
     </header>
 
-    <figure class="cartao citacao">
-      <blockquote cite="@@DOC_BOGO@@">
-        @@CITACAO@@
-      </blockquote>
-      <figcaption>
-        <b>Ademar Bogo</b>, em “A mística: parte da vida e da luta”,
-        <a href="@@DOC_BOGO@@" target="_blank" rel="noopener">texto completo no documento</a>.
-        Capturado em <time datetime="2026-11-20">20 de novembro de 2026</time>.
-      </figcaption>
-    </figure>
+    <section class="secao" id="texto-acampamento">
+      <div class="secao__cabeca"><h2>Mística: acúmulos, aprendizados, saberes e apontamentos iniciais</h2>
+        <p class="secao__nota">Escrito por militantes dos movimentos populares
+        brasileiros para subsidiar a equipe de Mística do 3º Acampamento Estadual
+        do Levante Popular da Juventude, na UFJF, em Juiz de Fora/MG, 2023.</p></div>
+      <details class="acordeao" open>
+        <summary>Ler o texto completo</summary>
+        <div class="cartao corpo texto-integral">
+        %s
+        </div>
+      </details>
+      <p class="secao__nota">Fonte: <a href="%s" target="_blank" rel="noopener">documento original</a>.</p>
+    </section>
 
-    <div data-revelar-grupo class="cartao corpo">
-      @@CORPO@@
-    </div>
+    <section class="secao" id="texto-bogo">
+      <div class="secao__cabeca"><h2>A mística: parte da vida e da luta</h2>
+        <p class="secao__nota"><b>Ademar Bogo</b>. Texto completo, sem cortes.</p></div>
+      <details class="acordeao" open>
+        <summary>Ler o texto completo</summary>
+        <div class="cartao corpo texto-integral">
+        %s
+        </div>
+      </details>
+      <p class="secao__nota">Fonte: <a href="%s" target="_blank" rel="noopener">documento original</a>.</p>
+    </section>
+
+    %s
+
+    %s
 
     <section class="compartilhar" data-compartilhar
              data-url="https://finweejur.github.io/assessoriajuridicapopular/mistica.html"
-             data-titulo="Mística: acúmulos, aprendizados, saberes e apontamentos iniciais"
-             data-autor="Militantes dos movimentos populares brasileiros"
-             data-data="2023-01-01" data-fonte-url="@@DOC_MISTICA@@"
+             data-titulo="Mística: o que sustenta a luta"
+             data-autor="Militantes dos movimentos populares; Ademar Bogo"
+             data-data="2023-01-01" data-fonte-url="%s"
              data-fonte="Levante Popular da Juventude">
       <h2>Compartilhar e citar</h2>
       <div class="compartilhar__botoes">
-        <button type="button" data-acao="whatsapp"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 21l2.2-5.3A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.5 10.5c.5 2 2 3.5 4 4l1.5-1.5 2 1"/></svg> WhatsApp</button>
-        <button type="button" data-acao="telegram"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="m22 3-9.5 18-2-7.5L3 11l19-8Z"/><path d="m10.5 13.5 3-3"/></svg> Telegram</button>
-        <button type="button" data-acao="instagram"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></svg> Instagram</button>
-        <button type="button" data-acao="copiar-texto"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg> Copiar texto</button>
-        <button type="button" data-acao="copiar-citacao"><svg class="ico" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h7"/><path d="m17 15 3 2-3 2"/></svg> Copiar citação ABNT</button>
+        <button type="button" data-acao="whatsapp">WhatsApp</button>
+        <button type="button" data-acao="telegram">Telegram</button>
+        <button type="button" data-acao="instagram">Instagram</button>
+        <button type="button" data-acao="copiar-texto">Copiar texto</button>
+        <button type="button" data-acao="copiar-citacao">Copiar citação ABNT</button>
       </div>
       <p class="compartilhar__status" data-status role="status" aria-live="polite" data-visivel="false"></p>
     </section>
-  </article>
-</main>
+  </article>""" % (
+        texto_integral(corpo_mistica), DOC_MISTICA,
+        texto_integral(corpo_bogo), DOC_BOGO,
+        secao_poemas(poemas),
+        secao_calendario(calendario),
+        DOC_MISTICA,
+    )
+    return artigo
 
-@@RODAPE@@
 
-<script src="compartilhar.js" defer></script>
-<script src="site.js?v=2" defer></script>
-<script src="reveal.js" defer></script>
-<script src="componentes/radio.js" defer></script>
-<script src="casca.js?v=15" defer></script>
-<script src="fundo-grade.js?v=3" defer></script>
-</body>
-</html>
-""".replace("@@TOPO@@", ms.topo("texto")).replace("@@DOC_BOGO@@", DOC_BOGO).replace("@@CITACAO@@", citacao_html).replace("@@CORPO@@", corpo_html).replace("@@DOC_MISTICA@@", DOC_MISTICA).replace("@@RODAPE@@", ms.rodape())
+CARD = """
+  <section class="mistica-dia" aria-labelledby="mistica-titulo" hidden data-mistica>
+    <div class="miolo">
+      <div class="mistica-cartao">
+        <canvas class="beam-canvas" aria-hidden="true"></canvas>
+        <span class="beam-core" aria-hidden="true"></span>
+        <h2 class="mistica__rotulo" id="mistica-titulo">Mística do dia</h2>
+        <p class="mistica__data"></p>
+        <h3 class="mistica__titulo"></h3>
+        <p class="mistica__resumo"></p>
+        <p class="mistica__fonte"></p>
+      </div>
+    </div>
+  </section>
+"""
 
-with io.open(os.path.join(RAIZ, "mistica.html"), "w", encoding="utf-8", newline="\n") as f:
-    f.write(PAGINA)
 
-print("mistica.html:", len(PAGINA), "bytes | trechos citados:", len(trechos), "| parágrafos:", len(corpo))
+def main():
+    t = io.open(PAGINA, encoding="utf-8").read()
+    artigo = monta_artigo()
+    t = re.sub(r'<article[^>]*>.*?</article>', artigo, t, count=1, flags=re.S)
+
+    # Remove o card antigo (de qualquer posição) e recoloca antes do artigo,
+    # depois da migalha e da subnav.
+    t = re.sub(r'\s*<section class="mistica-dia".*?</section>\s*', chr(10), t, count=1, flags=re.S)
+    marca = t.find("<article")
+    if marca >= 0:
+        t = t[:marca] + CARD + t[marca:]
+
+    if "mistica-dia.js" not in t:
+        t = t.replace("</body>", '<script src="mistica-dia.js?v=2" defer></script>\n</body>', 1)
+
+    io.open(PAGINA, "w", encoding="utf-8", newline="\n").write(t)
+    print("mistica.html:", len(t), "bytes")
+
+
+if __name__ == "__main__":
+    main()

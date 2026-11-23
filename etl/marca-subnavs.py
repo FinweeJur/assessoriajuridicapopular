@@ -108,6 +108,31 @@ SECOES_SUB = """
   </nav>"""
 
 
+def reposiciona_acervo(t):
+    """Leva as subnavs de Acervo para baixo do cartão/filtros.
+
+    A página do Acervo tinha duas fileiras de chips acima do hero e a barra de
+    busca abaixo dele: três lugares de filtro. Agora tudo fica na mesma zona,
+    depois do cartão central.
+    """
+    padrao = re.compile(
+        r'\n?\s*<nav class="subnav"[^>]*aria-label="(?:Dentro de Acervo|'
+        r'Seções do acervo)".*?</nav>',
+        re.S,
+    )
+    navs = padrao.findall(t)
+    if not navs:
+        return t
+    t = padrao.sub("", t)
+    alvo = re.search(r'<section class="fita-secao".*?</section>', t, re.S)
+    if not alvo:
+        alvo = re.search(r'<section class="hero[^"]*".*?</section>', t, re.S)
+    if not alvo:
+        return t
+    bloco = "\n  " + "\n  ".join(n.strip() for n in navs)
+    return t[: alvo.end()] + bloco + t[alvo.end():]
+
+
 def main():
     # migalha nas páginas geradas por monta-secoes
     for nome, trilha in MIGALHAS.items():
@@ -171,6 +196,15 @@ def main():
         t = t[:fim] + bloco + t[fim:]
         io.open(caminho, "w", encoding="utf-8", newline="\n").write(t)
         feitos += 1
+    for nome in ("acervo.html", "blog.html", "autores.html"):
+        caminho = os.path.join(RAIZ, nome)
+        if not os.path.exists(caminho):
+            continue
+        t = io.open(caminho, encoding="utf-8").read()
+        novo = reposiciona_acervo(t)
+        if novo != t:
+            io.open(caminho, "w", encoding="utf-8", newline="\n").write(novo)
+            print("subnav reposicionada:", nome)
     print("subnavs:", feitos)
 
 

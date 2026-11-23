@@ -709,6 +709,7 @@
   (function buscaExpansivel() {
     var campos = document.querySelectorAll('input[data-busca], textarea[data-busca], .busca__campo input[type="search"]');
     Array.prototype.forEach.call(campos, function (campo) {
+      if (campo.closest('.fita')) { return; } // a barra de filtros tem o próprio layout
       if (campo.parentNode.querySelector('.busca__limpar')) { return; }
       var limpar = document.createElement('button');
       limpar.type = 'button';

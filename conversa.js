@@ -32,6 +32,15 @@
     });
     corpo.appendChild(p);
     rola();
+    // A caixa cresce para baixo e as perguntas ficam depois do corpo: sem
+    // isto a resposta nasce fora da tela e o clique parece não fazer nada.
+    window.requestAnimationFrame(function () {
+      var r = p.getBoundingClientRect();
+      var altura = window.innerHeight || document.documentElement.clientHeight;
+      if (r.top < 0 || r.bottom > altura) {
+        p.scrollIntoView({ block: 'center' });
+      }
+    });
   }
 
   function responde(q) {

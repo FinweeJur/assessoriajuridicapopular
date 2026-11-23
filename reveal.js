@@ -48,7 +48,9 @@
         entrada.target.classList.add('revelado');
         olho.unobserve(entrada.target);
       });
-    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.02 });
+    // threshold 0: seções enormes (calendário com centenas de itens) nunca
+    // atingiriam 2% de área visível e ficariam com opacity 0 para sempre.
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0 });
 
     alvos.forEach(function (alvo) { olho.observe(alvo); });
   }

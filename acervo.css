@@ -2657,3 +2657,49 @@ html { scroll-padding-top: 92px; }
 .grade-3 > *, .ref-cit { min-width: 0; }
 .ref-cit__abnt, .ref-cit__fonte { overflow-wrap: anywhere; word-break: break-word; }
 
+/* ── Respiro padrão: topo, cartão, filtros e laterais ───────────────────── */
+:root { --calha: clamp(20px, 4.5vw, 56px); }
+
+.migalha { padding-bottom: var(--e3); }
+
+.hero__interno,
+.migalha,
+.subnav,
+.miolo,
+.pagina,
+.porta,
+.fita-secao {
+  padding-left: var(--calha);
+  padding-right: var(--calha);
+}
+
+.hero { margin-bottom: 0; }
+.hero + .fita-secao,
+.hero + .subnav { margin-top: var(--e5); }
+.fita-secao { margin-top: var(--e5); }
+.fita-secao > .subnav {
+  margin: var(--e3) 0 0; padding-left: 0; padding-right: 0;
+  max-width: none;
+}
+.subnav + .subnav { margin-top: var(--e2); }
+.fita-secao + section { margin-top: var(--e5); }
+.miolo { padding-top: var(--e6); padding-bottom: var(--e6); }
+main { padding-bottom: var(--e6); }
+
+/* Tema escuro e Pequi: vermelho vivo como botão secundário, além do preto. */
+[data-theme="dark"] .botao.secundario,
+[data-theme="pequi"] .botao.secundario {
+  color: #ff4d4d;
+  border-color: color-mix(in srgb, #ff4d4d 62%, transparent);
+}
+[data-theme="dark"] .botao.secundario:hover,
+[data-theme="pequi"] .botao.secundario:hover {
+  background: #d61f2b; border-color: #d61f2b; color: #fff;
+}
+.fita-secao + .subnav { margin-top: var(--e4); }
+.subnav + section { margin-top: var(--e5); }
+@media (max-width: 760px) {
+  .casca-rolagem { display: none !important; }
+}
+/* Página que começa direto no hero também respira depois do topo fixo. */
+main > .hero:first-child { margin-top: var(--e4); }
