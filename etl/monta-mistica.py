@@ -1,12 +1,13 @@
-"""Monta a página da mística com os dois textos integrais, poesia e calendário.
+"""Monta a página da mística com textos integrais, memória cultural, poesia e calendário.
 
 A página funciona como hub de cultura de resistência:
 
 1. card “Mística do dia” (mesmo componente da home);
 2. texto completo da equipe do 3º Acampamento do Levante (2023);
 3. texto completo de Ademar Bogo, “A mística: parte da vida e da luta”;
-4. “Poesia crítica do direito” + todas as poesias do portal;
-5. calendário histórico dos trabalhadores.
+4. memória e cultura: homenagens, crônicas, arte e datas que a rede celebra;
+5. “Poesia crítica do direito” + todas as poesias do portal;
+6. calendário histórico dos trabalhadores.
 
 O script preserva o topo, o rodapé, o rádio e os scripts da página atual:
 troca apenas o miolo do `<article>` e insere o card inicial. Assim um rebuild
@@ -24,6 +25,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTES = os.path.join(RAIZ, "fontes-textos")
 POEMAS = os.path.join(RAIZ, "dados", "poemas.json")
 CALENDARIO = os.path.join(RAIZ, "dados", "calendario.json")
+INDICE = os.path.join(RAIZ, "_indice.json")
 PAGINA = os.path.join(RAIZ, "mistica.html")
 
 DOC_MISTICA = (
@@ -183,6 +185,88 @@ def secao_calendario(eventos):
     </section>""" % (len(eventos), "\n".join(partes))
 
 
+GRUPOS_MEMORIA = [
+    ("homenagens", "Homenagens e presenças",
+     "Gente que fez a AJP e segue presente na memória da rede.", [
+        "homenagens-ao-advogado-eugenio-lyra", "poemas-em-homenagem-a-eugenio-lyra",
+        "companheiro-baldez-presente", "companheiro-baldez-presente-2",
+        "companheiro-lavratti-presente", "thomaz-miguel-pressburger-presente",
+        "morreu-lia-pires-e-com-ele-a-advocacia", "com-tristeza-luis-adeus",
+        "falece-herrera-flores", "tres-anos-sem-caju-sepe-tiaraju",
+        "adeus-sete-quedas-adeus-ivo-rodrigues", "80-anos-do-miguel-baldez",
+     ]),
+    ("cronicas", "Crônicas e relatos",
+     "O conflito, o cotidiano e a resistência contados por quem viveu.", [
+        "imbituba-cronica-de-um-mandado-de-despejo", "relato-em-praca-de-guerra",
+        "o-dia-9-o-dia-10-o-dia-11-e-o-dia-12", "microconto",
+        "uma-sensacao", "auto-retrato", "carta-do-ano-que-nao-terminou",
+        "advocacia-delirante-parte-i", "advocacia-delirante-parte-ii",
+     ]),
+    ("arte", "Arte, música e imagem",
+     "Teatro do oprimido, cinema, música e o fazer cultural na AJP.", [
+        "o-teatro-e-o-ensino-do-direito-1", "o-teatro-e-o-ensino-do-direito-2",
+        "o-teatro-e-o-ensino-do-direito-3", "cultura-negra-historia-e-musica",
+        "cineclube-ajp-narradores-de-jave", "cinema-e-luta-no-campo",
+        "documentario-o-cinema-libertario", "papo-de-cinema",
+        "mercedes-sosa-e-sebastiao-salgado", "coraje-e-musica",
+        "quem-planta-cultura-colhe-revolucao", "quem-planta-cultura-colhe-revolucao-2",
+     ]),
+    ("datas", "Datas que a rede celebra",
+     "Março das mulheres, primeiro de maio, natal dos sem, ano novo.", [
+        "08-de-marco-dia-de-luta-das-mulheres-estudantes", "dia-internacional-da-mulher",
+        "mais-sobre-o-dia-da-mulher-e-o-feminismo", "maio-mes-do-trabalho",
+        "o-natal-dos-sem-no-brasil", "presente-de-ano-novo",
+     ]),
+]
+
+
+def secao_memoria_cultura():
+    """Homenagens, crônicas, arte e datas — a memória cultural dentro da Mística."""
+    idx = json.load(io.open(INDICE, encoding="utf-8"))
+    por_slug = {r["slug"]: r for r in idx}
+
+    def cartao(slug, etiqueta):
+        reg = por_slug.get(slug)
+        if not reg:
+            return ""
+        titulo = reg.get("titulo") or slug
+        resumo = (reg.get("resumo") or "").strip()
+        if len(resumo) > 150:
+            resumo = resumo[:150].rsplit(" ", 1)[0].rstrip(",.;:—–-") + "…"
+        ano = (reg.get("data") or "")[:4]
+        return ('<a class="cartao destaque colecao__post" href="%s.html">\n'
+                '      <span class="etiqueta">%s · %s</span>\n'
+                '      <h3>%s</h3>\n'
+                '      <p>%s</p>\n'
+                '    </a>') % (esc(slug), esc(etiqueta), esc(ano), esc(titulo), esc(resumo))
+
+    blocos, atalhos = [], []
+    for ident, titulo, nota, slugs in GRUPOS_MEMORIA:
+        cartoes = "".join(cartao(s, titulo) for s in slugs)
+        if not cartoes:
+            continue
+        atalhos.append('<a href="#%s">%s</a>' % (ident, esc(titulo.split(" e ")[0]
+                                                    if ident != "arte" else "Arte")))
+        blocos.append("""<section class="secao" id="%s" aria-labelledby="%s-titulo">
+      <div class="secao__cabeca"><h2 id="%s-titulo">%s</h2>
+      <p class="secao__nota">%s</p></div>
+      <div class="grade-3">%s</div>
+    </section>""" % (ident, ident, ident, esc(titulo), esc(nota), cartoes))
+
+    if not blocos:
+        return ""
+    return """
+    <section class="secao" id="memoria-e-cultura" aria-labelledby="memoria-titulo">
+      <div class="secao__cabeca"><h2 id="memoria-titulo">Memória e cultura</h2>
+      <p class="secao__nota">homenagens, crônicas, arte e datas da rede</p></div>
+      <p class="colecao__nota">O que o acervo guarda da vida da AJP: quem fez a rede e
+      segue presente, as crônicas do conflito, a arte e as datas que a luta celebra.
+      A cronologia da rede está em <a href="memoria.html">Memória da AJP e da RENAP</a>.</p>
+      <nav class="colecao__atalhos" aria-label="Memória e cultura">%s</nav>
+      %s
+    </section>""" % ("".join(atalhos), "\n".join(blocos))
+
+
 def monta_artigo():
     mistica = blocos(os.path.join(FONTES, "mistica.txt"))
     bogo = blocos(os.path.join(FONTES, "citacao.txt"))
@@ -199,8 +283,8 @@ def monta_artigo():
       <p class="olho"><span class="olho__ponto" aria-hidden="true"></span>Mística · 2023</p>
       <h1 id="titulo">Mística: o que sustenta a luta</h1>
       <p class="lead">Os dois textos integrais que fundamentam a mística nos
-      movimentos populares, mais a poesia do portal e o calendário histórico
-      dos trabalhadores.</p>
+      movimentos populares, a memória cultural da rede, a poesia do portal e o
+      calendário histórico dos trabalhadores.</p>
     </header>
 
     <section class="secao" id="texto-acampamento">
@@ -233,6 +317,8 @@ def monta_artigo():
 
     %s
 
+    %s
+
     <section class="compartilhar" data-compartilhar
              data-url="https://finweejur.github.io/assessoriajuridicapopular/mistica.html"
              data-titulo="Mística: o que sustenta a luta"
@@ -252,6 +338,7 @@ def monta_artigo():
   </article>""" % (
         texto_integral(corpo_mistica), DOC_MISTICA,
         texto_integral(corpo_bogo), DOC_BOGO,
+        secao_memoria_cultura(),
         secao_poemas(poemas),
         secao_calendario(calendario),
         DOC_MISTICA,

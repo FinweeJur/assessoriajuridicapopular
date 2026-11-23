@@ -39,7 +39,7 @@ BENTO = [
     ("teoria-critica.html", "Seção", "Teoria crítica", "114 textos", "ideia", ""),
     ("blog.html", "Em ordem", "Blog", "790 textos em 15 anos", "jornal", "bento__item--largo"),
     ("educacao-popular.html", "Seção", "Educação popular", "136 textos", "formatura", ""),
-    ("memoria-e-cultura.html", "Mística", "Memória e cultura", "38 textos", "pena", ""),
+    ("mistica.html", "Mística", "Textos, memória e poesia", "38 memórias · 135 poemas", "pena", ""),
     ("biblioteca.html", "Biblioteca", "Acervos, obras e dossiês", "18 coleções", "livro", ""),
     ("autores.html", "Quem escreve", "Autores", "30 pessoas", "pessoas", ""),
     ("referencias-citadas.html", "Pesquisa", "Referências citadas", "524 fichas", "dicionario", ""),
@@ -117,7 +117,6 @@ RODAPE = '''<footer class="rodape">
       <h2>Mística</h2>
       <ul>
         <li><a href="mistica.html">Mística</a></li>
-        <li><a href="memoria-e-cultura.html">Memória e cultura</a></li>
         <li><a href="cultura.html">Cultura</a></li>
         <li><a href="poemas.html">Poemas e Caderno</a></li>
       </ul>

@@ -40,24 +40,22 @@ SUBS = {
    ("memoria.html", "Memória", False),
         ("cultura.html", "Cultura", False),
      ]),
-    "cultura.html": ("Cultura", [
-        ("cultura.html#poesia", "Poesia", False),
+    "cultura.html": ("Mística", [
+        ("mistica.html", "← Mística", False),
+        ("cultura.html", "Cultura", True),
         ("poemas.html", "Poemas e Caderno", False),
-        ("mistica.html", "Mística", False),
-        ("cultura.html#documentario", "Documentários", False),
-        ("cultura.html#cinema-teatro-musica", "Cinema, teatro e música", False),
-        ("cultura.html#cronicas", "Crônicas", False),
     ]),
-    "poemas.html": ("Cultura", [
-        ("cultura.html", "← Cultura", False),
+    "poemas.html": ("Mística", [
+        ("mistica.html", "← Mística", False),
+        ("cultura.html", "Cultura", False),
         ("poemas.html", "Poemas e Caderno", True),
-        ("mistica.html", "Mística", False),
     ]),
-    "mistica.html": ("Cultura", [
-        ("cultura.html", "← Cultura", False),
-        ("poemas.html", "Poemas e Caderno", False),
+    "mistica.html": ("Mística", [
         ("mistica.html", "Mística", True),
+        ("cultura.html", "Cultura", False),
+        ("poemas.html", "Poemas e Caderno", False),
     ]),
+
     "biblioteca.html": ("Biblioteca", [
         ("biblioteca.html#acervo", "Acervos", True),
         ("biblioteca.html#obra", "Obras", False),
