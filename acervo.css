@@ -646,6 +646,24 @@ h2 {
   font-family: var(--font-body); font-size: 1rem; line-height: 1.6;
 }
 
+/* Versos: entrelinha folgada e respiro entre estrofes.
+   Vale para o Caderno de Poesias (poemas.html), a Mística e a poesia do blogue.
+   As estrofes vêm marcadas por <br><br>: o segundo salto ganha espaço extra. */
+.antologia .poema__texto,
+.poema p,
+.cartao.citacao:has(.poema__titulo) blockquote p {
+  line-height: 1.9 !important;
+}
+.poema p { margin: 0; }
+.poema { padding: 14px 0 6px; }
+.poema br + br,
+.cartao.citacao:has(.poema__titulo) blockquote br + br {
+  display: block; margin-top: .8em;
+}
+/* Título do poema e primeiro verso com folga. */
+.poema__titulo { margin: 0 0 10px; }
+.acordeao--poema > summary { padding-bottom: 17px; }
+
 /* ── Tabelas: colunas com respiro e leitura por linha ───────────────────── */
 .tabela {
   padding: 0 !important; overflow-x: auto;
